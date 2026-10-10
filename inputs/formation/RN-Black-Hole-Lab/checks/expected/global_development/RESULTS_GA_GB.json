@@ -1,0 +1,54 @@
+{
+  "scope": "finite identities and sign bookkeeping only; analytic G-A/G-B proved in prose",
+  "sympy": "1.14.0",
+  "results": [
+    {
+      "name": "timelike graph barrier norm",
+      "status": "PASS"
+    },
+    {
+      "name": "lower boundary margin",
+      "status": "PASS"
+    },
+    {
+      "name": "upper boundary past margin",
+      "status": "PASS"
+    },
+    {
+      "name": "unique center crossing derivative",
+      "status": "PASS"
+    },
+    {
+      "name": "static tail tortoise",
+      "status": "PASS"
+    },
+    {
+      "name": "static tail induced metric",
+      "status": "PASS"
+    },
+    {
+      "name": "RN graph derivative",
+      "status": "PASS"
+    },
+    {
+      "name": "Kommemi Raychaudhuri normalization",
+      "status": "PASS"
+    },
+    {
+      "name": "Kommemi Maxwell normalization",
+      "status": "PASS"
+    },
+    {
+      "name": "Kommemi log lapse normalization",
+      "status": "PASS"
+    },
+    {
+      "name": "future of static tail condition",
+      "status": "PASS"
+    },
+    {
+      "name": "extremal surface gravity",
+      "status": "PASS"
+    }
+  ]
+}

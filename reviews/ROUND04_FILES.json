@@ -1,0 +1,32 @@
+{
+  "project": "RECCVS",
+  "round": 4,
+  "date": "2026-10-09",
+  "proof_status": "internal_conditional_pending_independent_review",
+  "files": {
+    "reviews/ROUND_04.md": {
+      "sha256": "6796d3dbc5d7a19de0df9160c41045e87668e7683551396f373c8754edce90e5",
+      "bytes": 7858
+    },
+    "proofs/RECCVS_L013.md": {
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8",
+      "bytes": 4306
+    },
+    "proofs/RECCVS_L014.md": {
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c",
+      "bytes": 5297
+    },
+    "proofs/RECCVS_L015.md": {
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991",
+      "bytes": 8777
+    },
+    "proofs/RECCVS_L016.md": {
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65",
+      "bytes": 4291
+    },
+    "literature/CENTRAL_FOCUSING_SOURCES_2026-10-09.md": {
+      "sha256": "74ea1716c2400a369786c6b8a510965f5dbabd00887240bce0519e4e295a3380",
+      "bytes": 3285
+    }
+  }
+}

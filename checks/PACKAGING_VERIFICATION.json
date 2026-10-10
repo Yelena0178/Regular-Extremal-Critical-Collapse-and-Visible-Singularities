@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "scope": "EXACT_AUXILIARY_PROFILE_AND_SUFFICIENT_THRESHOLD_ARITHMETIC_ONLY",
+  "checks": {
+    "profile_regeneration_matches_original": true,
+    "global_J_certificate_matches_original": true,
+    "admissible_certificate_matches_original": true,
+    "optimized_execution_matches_normal": true,
+    "threshold_certificate_matches_original": true,
+    "n44_rejected": true,
+    "tampered_J_rejected": true,
+    "optional_kernel_algebra": "NOT_RUN_OPTIONAL_SYMPY_CHECK"
+  },
+  "profile_sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1",
+  "finite_amplitude_root_certified": false,
+  "actual_spacetime_evolution_performed": false,
+  "independent_mathematical_review_completed": false,
+  "snapshot_date": "2026-10-10",
+  "packaging_checks": {
+    "all_23_proofs_byte_identical": true,
+    "all_python_files_syntax_ok": true,
+    "all_new_document_relative_links_resolve": true,
+    "all_149_copied_source_files_unchanged_at_mapped_destination": true
+  }
+}

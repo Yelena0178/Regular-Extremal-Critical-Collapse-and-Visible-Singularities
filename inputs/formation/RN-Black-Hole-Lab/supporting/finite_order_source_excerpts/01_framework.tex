@@ -1,0 +1,63 @@
+\section{模型、解类与主定理}\label{sec:main}
+\subsection{方程和规范}
+取四维球对称 Lorentz 度量及电磁规范
+\begin{equation}\label{eq:gauge}
+g=-\Omega^2\dd U\dd t+r^2\dd\omega^2,\qquad
+A=A_U\dd U,\qquad D_U=\partial_U+ieA_U.
+\end{equation}
+其中 $\dd\omega^2$ 为单位球度量；交叉项约定为 $g_{Ut}=-\Omega^2/2$。先将质量归一化为 $M=1$，选择电荷和标量共轭取向，使终端 $Q=1$、$e>0$。构造中 $e$ 是由数据确定的耦合，最后令其精确等于指定的 $\mu$。记 $\ell=\log\Omega^2$。全文使用以下约化方程：
+\begin{align}
+r_{tt}-\ell_t r_t&=-r|\phi_t|^2,\qquad
+r_{UU}-\ell_U r_U=-r|D_U\phi|^2,\label{eq:ray}\\
+Q_t&=er^2\Imn(\phi\overline{\phi_t}),\qquad
+Q_U=-er^2\Imn(\phi\overline{D_U\phi}),\label{eq:maxwell}\\
+(rr_U)_t&=\tfrac14e^\ell(-1+Q^2/r^2),\qquad
+(A_U)_t=-\frac{e^\ell Q}{2r^2},\label{eq:radius}\\
+\ell_{Ut}&=\frac{e^\ell}{2r^2}+\frac{2r_Ur_t}{r^2}
+-\frac{e^\ell Q^2}{r^4}-2\Ren(D_U\phi\overline{\phi_t}),\label{eq:lapse}\\
+\phi_{Ut}&=-\frac{r_t}{r}\phi_U-\frac{r_U}{r}\phi_t
++\frac{iee^\ell Q}{4r^2}\phi
+-ieA_U\frac{r_t}{r}\phi-ieA_U\phi_t.\label{eq:wave}
+\end{align}
+这些式子采用\cite[§2]{KU}的约定。在连接锥 $U=0$ 上令 $\Omega^2=1$，因而 $t$ 是仿射参数。对 $U$ 求导前必须保留 $e^\ell$；不能把锥上的规范等式代入整个邻域后再求横向导数。
+
+若沿一条仿射锥记 $H=-4rr_U$，则
+\begin{equation}\label{eq:H}
+H'=1-Q^2/r^2.
+\end{equation}
+$r>0$ 时，$H>0$ 等价于严格负的入射膨胀 $r_U<0$。在 $t$ 方向有 $r_t\ge0$ 的球面，后者排除反陷获对称球。
+
+\subsection{全局类及量词}
+\begin{definition}[正规中心起源的最终极端类]\label{def:class}
+固定有限整数 $k\ge2$。令 $\mathscr A_k$ 为具有下列性质的无质量 EMCSF 解的参数 $|\mathfrak e|M$ 集合：解来自球对称、单端渐近平直、正则中心的 Cauchy 数据，取其最大未来整体双曲发展；未来零无穷远 $\mathcal I^+$ 完整，黑洞区非空；事件视界从时空内一个正则中心事件发出，并在有限先进时间后连同外通信域精确成为质量 $M$、$|Q|=M$ 的 ERN；从该中心到一终端 ERN 球面的视界段具有至少 $C^k$ 的场正则性和正则中心相容性。所谈解是经典解，中心处正则性按无奇异的四维坐标解释。
+\end{definition}
+在使用\cite{KU}的锥数据空间时，其 $C^K$ 约定还要求 $r\in C^{K+1}$ 及电势的一项额外切向导数，见第\ref{sec:data}节。充分性构造会满足这一较强约定。必要性仅使用第\ref{sec:necessary}节列明的视界正则性，且\emph{正则中心起源}是解类假设，不是对所有可能事件视界的无条件断言。
+
+\begin{theorem}[有限阶尖锐参数范围]\label{thm:main}
+对每个固定有限整数 $k\ge2$，有
+\begin{equation}\label{eq:sharp}
+\mathscr A_k=(1/2,\infty).
+\end{equation}
+更具体地，给定 $\mathfrak e\ne0$、$M>0$ 且 $|\mathfrak e|M>1/2$，存在至少 $C^k$ 的上述塌缩发展。可选择 $\Sigma\cong\R^3$ 全部位于 $J^-(\mathcal I^+)$，初始面无陷获或反陷获闭曲面，整个未来发展无反陷获闭曲面。任何定义\ref{def:class}中的解均有 $|\mathfrak e|M>1/2$，故下确界 $1/2$ 不取到。
+\end{theorem}
+证明分为两条独立链：必要性见定理\ref{thm:necessary}；充分性由定理\ref{thm:cone}和第\ref{sec:global}节给出。必须保持量词
+\[
+\forall\mu>\tfrac12\quad\forall k\in\mathbb N,\ k\ge2
+\quad\exists X_{\mu,k}\in C^k.
+\]
+这里没有交换 $\forall k$ 和 $\exists X$。单个 $C^\infty$ 解、唯一重标度泡和非球对称稳定性不在结论内。
+
+\begin{theorem}[指定耦合的完整有限阶连接锥]\label{thm:cone}
+对任意 $\mu>1/2$ 和固定整数 $K\ge1$，存在一个有限仿射区间 $[t_-,1]$ 上的完整 $\Dcal_K$ 锥数据，耦合精确为 $e=\mu$，满足：
+\begin{enumerate}
+\item 左端为半径 $\rho>0$ 的真正 Minkowski 球面完整数据，标量在端点开邻域恒零；$r_t=\beta>0$、$r_U=-1/(4\beta)$、$Q=0$。
+\item 右端 $r=Q=1$、$r_t=0$、$r_U<0$，且两纯方向的标量导数至 $K$ 阶为零，完整球面数据属于 ERN 视界的规范轨道。
+\item 整段 $r>0$、$r_U<0$；所有切向标量导数在两端消失。
+\end{enumerate}
+在本文构造中，每个充分大的整数脉冲长度指标均可精确修复到上述条件。
+\end{theorem}
+
+\subsection{记号与文献位置}
+必要性中 $v\in[0,1]$ 表示从实际中心到终端球面的仿射归一化参数；构造中 $t\in[e^{-L},1]$、$x=-\log t$。这两个归一化不混用。$q=vr'/r$ 只在必要性部分使用；构造部分用 $q=-R_x/R$，所在节会重新定义。$K$ 是有限匹配阶，$\Kcal$ 是剖面正性核；$C(x)=\Imn(\bar z z')$ 是剖面电流，而 $\Ccal$ 是近阈值相干缺陷。
+
+全局局部适定性与拼接框架归功于 Kehle--Unger\cite{KU}。Schneider\cite{S}研究了解析耦合界，Lee\cite{L}给出数值拼接研究，并在附注公开记录了一条尚未核查的 $>1/2$ 论证；Hod--Piran\cite{HP}也讨论半阈值相关猜测。本文因此不使用“首次提出半阈值”等优先权措辞。本文的审查对象是这里写出的证明和准确解类。

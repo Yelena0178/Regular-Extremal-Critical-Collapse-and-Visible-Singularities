@@ -1,0 +1,7 @@
+PASS: geometric 2x2 Jacobian determinant = -beta
+PASS: radial wave odd-coefficient pivot through degree 199
+PASS: polar radial Einstein constraint, all coefficients through u^1 R^5
+PASS: polar lapse constraint, all coefficients through u^1 R^5
+PASS: polar Gauss constraint, all coefficients through u^1 R^5
+All calculations use rational arithmetic on a nonzero complex charged background.
+No assertion here verifies analytic estimates, Cauchy stability, or a global spacetime.

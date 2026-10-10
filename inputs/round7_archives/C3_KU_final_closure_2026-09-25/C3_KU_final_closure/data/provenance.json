@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-25",
+  "original_profile_unchanged": true,
+  "profile_sha256": "bbc2638fc4ef4bbbfa6944374195797eedaab302191601798023eb2771fc41f8",
+  "input_archives": [
+    {
+      "filename": "01-OPEN_B_-E5-AE-8C-E6-95-B4-E7-A0-94-E7-A9-B6-E6-88-90-E6-9E-9C-E4-B8-8E-E8-AF-81-E6-98-8E_Codex-E4-BA-A4-E6-8E-A5-E5-8C-85_2026-09-24.zip",
+      "sha256": "bab3b4a78dbf3f5517ae2317ae95a279073d768f0f763cd035c8c7d93c747fd3"
+    },
+    {
+      "filename": "02-0-79480903_-1-.zip",
+      "sha256": "d277e4c304cdb5e97cfc36cadb8a26c545f6f0dcd6262cb6a3ce91147d662c92"
+    },
+    {
+      "filename": "03-C3_high_harmonic_preliminary_2026-09-25-1-.zip",
+      "sha256": "ad8688759b6331d286f77da1abc6904af83aca4e98ca0fd9dbfda0e2521077b8"
+    },
+    {
+      "filename": "04-C3_Ninfty_research_2026-09-25-1-.zip",
+      "sha256": "7f2cda148f66ee4ced5feee6f814857ee4c083f382edce9d02e664bd1d2a0d90"
+    },
+    {
+      "filename": "05-C3_to_KU_bridge_update2_2026-09-25-1-.zip",
+      "sha256": "c6d8fa1a6787c2f0acfd597693460fbc1d01f7ffd5239cf14b58ed66ec42212d"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/pdf/2211.15742",
+      "version_read": "2211.15742v2, 15 February 2024",
+      "sections": "Definition 2.3, Definitions 2.4-2.6, Propositions 2.3-2.4, Definition 3.1, Proposition 3.1, Section 3.3, Section 5.2, footnote 7, Appendix B Proposition B.2"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.22518v1",
+      "sections": "Section 2.2, Appendix A"
+    }
+  ]
+}

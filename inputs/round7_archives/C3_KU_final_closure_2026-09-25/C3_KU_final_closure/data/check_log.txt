@@ -1,0 +1,19 @@
+jacobian_check.py
+PASS: rational tangential constraints; six zero moments; exact right inverse; coupling enclosure; positive real Jacobian determinant.
+lambda= 0.5612976215068984 K0= 1.0951713352112002e-07 det_real= 9.55322554849204e-07
+
+symbolic_checks.py
+PASS exact symbolic quotient, lapse, and second Maxwell derivatives.
+PASS third throat kernel coefficients by exact polynomial identity checks.
+
+endpoint_jet_check.py
+PASS exact symbolic quotient, lapse, and second Maxwell derivatives.
+PASS third throat kernel coefficients by exact polynomial identity checks.
+PASS nonzero RN mixed jets, and Minkowski zero mixed jets.
+
+stability_check.py
+PASS current factor >=1/100; degree 95 leaves 7 maxdepth 5
+PASS uniform correction ball ||c||inf<=1e-200: K>=5e-9, current factor>=1/200, positive energy/current means.
+
+interval_checks.py
+PASS K>=1e-8 on all x>=0; compact leaves 40 min certified 1.095171335136733405130448983557148927253455189183261976028561565396633765272621337178668121258387813E-7 tail lower 0.17966134138645043

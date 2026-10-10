@@ -1,0 +1,32 @@
+{
+  "maxwell": {
+    "status": "PASS",
+    "identity": "d_R Maxwell residual = 0, arbitrary local complex field"
+  },
+  "einstein_residual": {
+    "status": "PASS",
+    "radial": "-2*Y(u, R)/(R*g(u, R))",
+    "temporal_after_Y_zero": "(-R*Derivative(X(u, R), R) - 2*X(u, R))/(R*g(u, R))"
+  },
+  "jacobians": {
+    "status": "PASS",
+    "geometric_determinant": "-beta",
+    "complex_response_determinant": "ki**2 + kr**2",
+    "charge_row_operation": "PASS"
+  },
+  "division_ibp": {
+    "status": "PASS",
+    "orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "scope": "finite exact polynomial checks of IBP; analytic tame bound is proved in manuscript"
+  },
+  "overall": "PASS"
+}

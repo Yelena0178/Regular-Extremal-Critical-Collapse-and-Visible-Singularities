@@ -1,0 +1,40 @@
+{
+  "radial_gauge": {
+    "status": "PASS",
+    "identity": "V_R = alpha_R*u_T, all chain-rule terms included"
+  },
+  "actual_ERN": {
+    "status": "PASS",
+    "identities": [
+      "mass=1",
+      "both Raychaudhuri constraints",
+      "r_Ut equation",
+      "ell_Ut equation",
+      "EF coordinate metric",
+      "electric field normalization"
+    ]
+  },
+  "polar_Einstein_tensor": {
+    "status": "PASS",
+    "scope": "exact Einstein tensor for arbitrary time-dependent polar metric; no Taylor truncation"
+  },
+  "parity_pivots": {
+    "status": "PASS",
+    "unknown_order": [
+      "Q_even",
+      "a_odd",
+      "N_odd",
+      "V_odd",
+      "psi_odd"
+    ],
+    "determinant": "8*(m + 1)**3*(2*m + 1)**3",
+    "scope": "general symbolic pivots; dependency-order argument is analytic in manuscript"
+  },
+  "cutoff_and_null_budgets": {
+    "status": "PASS",
+    "cutoff_cases": 72,
+    "null_comparison_solution": "delta*(exp(L*t) - 1)/L",
+    "scope": "exact finite exponent checks and comparison ODE; reference stability is a PDE input"
+  },
+  "overall": "PASS"
+}

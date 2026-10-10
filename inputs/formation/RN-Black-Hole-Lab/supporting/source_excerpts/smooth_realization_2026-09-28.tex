@@ -1,0 +1,427 @@
+\begin{titlepage}
+\vspace*{1cm}
+{\sffamily\large OPEN B / 光滑存在主定理的闭合论证}\par
+\vspace{1cm}
+{\sffamily\bfseries\LARGE 同一光滑局部发展的实现\\[0.4em]及其全局化}\par
+\vspace{0.8cm}
+{\large 球对称无质量 Einstein--Maxwell--带电标量场}\par
+\vspace{0.8cm}
+2026 年 9 月 28 日\par
+\vspace{1cm}
+\noindent\rule{\textwidth}{0.5pt}
+\begin{abstract}
+本稿接续有限阶主定理证明和完整非线性中心局部化估计，处理二者之间尚缺的实现与全局化环节。首先核对固定耦合下包含半径、膨胀、电荷及标量横向导数的联合 Jacobian，得到同一份光滑锥种子。随后在一个由低阶范数决定的共同邻域内求解完整 Bondi 系统，证明补充约束及四维中心正则性。通过一次光滑的电真空规范实现、两侧特征发展和全阶接合，构造正半径拼接区域。最后证明适用于非平直中心参考解的顶点填充引理，选取单端渐近平直 Cauchy 面，并识别完整未来零无穷远与最终极端 RN 事件视界。
+\end{abstract}
+\vfill
+\noindent\textbf{证明状态与依赖。} 本文给出闭合证明稿，结论以项目已有的有限阶非退化构造及中心局部化命题为输入；两项输入均在随附材料中列明。本文不是对这些输入重新进行的独立审计，也不表示已通过外部同行审查。一般双曲系统的局部适定性、约束传播、几何唯一性及最大整体双曲发展理论作为标准 PDE 输入。全文不以有限阶计算验证代替解析证明。
+\end{titlepage}
+\tableofcontents
+\clearpage
+
+\section{结论、输入与量词}
+
+采用项目既有约定
+\[
+\mathbf g=-e^\ell dUdt+r^2d\omega^2,\qquad
+A=A_UdU,\qquad D_U=\partial_U+ieA_U,
+\]
+其中 $g_{Ut}=-e^\ell/2$。本文的耦合归一化与前稿完全相同。
+在连接锥 $U=0$ 上取 $\ell=0$，将中心和终端的仿射参数分别归一化为 $t=0,1$。写 $\Phi(t)=\phi(0,t)$、$\beta=r_t(0,0)>0$，并记
+\begin{equation}\label{eq:cone}
+\begin{split}
+r''&=-r|\Phi'|^2,\qquad r(0)=0,\quad r'(0)=\beta,\\
+Q'&=er^2\Im(\Phi\overline{\Phi'}),\qquad Q(0)=0,\\
+H'&=1-Q^2/r^2,\qquad H(0)=0,\qquad H=-4rr_U.
+\end{split}
+\end{equation}
+零点处的商均取其正则延拓。
+
+\begin{theorem}[光滑实现与全局化]\label{thm:closure}
+固定 $\mu>1/2$。假设采用下述输入 F 和 C，则可构造同一份 $C^\infty$ 球对称 EMCSF Cauchy 数据，耦合 $e=\mu$、$\Sigma\simeq\mathbb R^3$，中心正则且仅有一个渐近平直端。其最大未来整体双曲发展具有完整的 $\mathcal I^+$、非空黑洞区，事件视界从时空内的正则中心事件发出，并在有限先进时间后连同外通信域精确为质量、电荷均为一的极端 RN。可取 $\Sigma\subset J^-(\mathcal I^+)$，初始面无陷获或反陷获闭曲面。
+
+这里的 $C^\infty$ 指同一解在其时空流形上的正则性，不断言黑洞内部不存在未来奇性，也不断言整个时空未来测地完备。
+\end{theorem}
+
+\paragraph{输入 F：有限阶非退化构造。}
+对每个固定有限整数 $N$，前稿第 7 节给出一个光滑有限参数族：参数 $\theta=(c,\tau)\in\mathbb R^{2N+1}$，耦合 $e_L(\theta)$，半径终值 $r(1)=1,r_t(1)=0$，电荷终值 $Q(1)=1$。种子在中心附近及共同终端空隙上为零。令
+\[
+E_j=\partial_U^j\phi(0,1),\qquad
+\mathcal E_N=(E_1,\ldots,E_N)\in\mathbb C^N.
+\]
+存在 $\theta_*$ 使 $(\mathcal E_N,e_L-\mu)=0$，且这一实映射的 Jacobian 可逆。前稿使用协变导数及非零缩放；在零点处转换为上述普通导数只作可逆三角行变换。相应完整锥满足 $r/t>0,H/t>0$。
+
+\paragraph{输入 C：非线性中心局部化。}
+在中心固有时规范 $U=2\beta u$ 下，作
+\[
+\Phi\longmapsto\Phi+\frac{a}{n!}t^n\chi(t/\varepsilon),
+\qquad n\ge2,\quad a\in\mathbb C,
+\]
+其中 $\chi=1$ 于零点附近、$\chi=0$ 于 $[1,\infty)$。前稿的完整耦合估计断言：对固定正半径截面及其后的锥段，至 $n$ 阶标量导数、至 $n+1$ 阶半径导数及至 $n$ 阶其余几何电磁导数改变为 $O(\eta_\varepsilon)$，其中
+\[
+\eta_\varepsilon=\varepsilon(1+|\log\varepsilon|).
+\]
+最高标量响应为
+\begin{equation}\label{eq:response}
+\Delta E_{n+1}=\kappa_n a+O(\eta_\varepsilon),\qquad
+\kappa_n=-\frac{(n+1)\beta(4\beta^2)^{-n-1}}{r(1)}\ne0.
+\end{equation}
+收敛包括任意固定有限参数族的一次参数导数；$\beta$ 可以在紧的正区间内变化。常数允许依赖阶数和当前背景，不要求跨阶一致。该输入是锥导数估计，而非时空存在定理。
+
+\paragraph{本文需要补出的内容。}
+输入 F 本身并未同时处理固定耦合下的三个几何终值；输入 C 本身并未产生局部时空。以下依次补上联合非退化性、同一种子极限、共同局部发展、中心四维正则性、一次全阶接合及全局因果实现。由此不会使用错误的量词交换 $\forall k\exists X_k\Rightarrow\exists X\forall k$。
+
+\section{固定耦合的联合 Jacobian 与同一种子}
+
+\subsection{两个独立的几何修复方向}
+先把输入 F 的各成员按其平直中心作光滑仿射归一化。对归一化种子 $\varphi_\theta$，取基础解
+\[
+f''+|\varphi_\theta'|^2f=0,\quad (f(0),f'(0))=(1,0),
+\]
+\[
+g''+|\varphi_\theta'|^2g=0,\quad (g(0),g'(0))=(0,1).
+\]
+这里 $g$ 暂为 ODE 基础解，下一节的 Bondi 系数另行定义。在基族中 $r=\beta_\theta g$，所以 $g'(1)=0$、$g(1)>0$。
+
+把脉冲平移并伸缩为 $\varphi_\theta((t-s)/(1-s))$，保持终端在一，再独立改变中心斜率 $\beta$。由于种子在一个共同中心区间恒零，$s$ 可在零点两侧取值，且仍是光滑族。在脉冲区域，令 $y=(t-s)/(1-s)$，则
+\[
+r(t)=\beta\{s f(y)+(1-s)g(y)\}.
+\]
+此式在 $y=0$ 处给 $r=\beta s,r_t=\beta$，与此前平直段相接。记 $G_1=r(1)-1,G_2=r_t(1)$。Wronskian 恒等式 $fg'-f'g=1$ 给
+\[
+f'(1)=-1/g(1),
+\]
+故在 $(\beta,s)=(\beta_\theta,0)$ 有
+\begin{equation}\label{eq:geomjac}
+\frac{\partial(G_1,G_2)}{\partial(\beta,s)}
+=\begin{pmatrix}
+g(1)&\beta_\theta(f(1)-g(1))\\
+0&-\beta_\theta/g(1)
+\end{pmatrix},\qquad \det=-\beta_\theta\ne0.
+\end{equation}
+因而可消去这两个条件；消去后的族正是原归一化族。
+
+\subsection{把可变耦合条件替换成固定耦合电荷条件}
+现在全程固定 $e=\mu$。Raychaudhuri 方程不含 $e$，所以在 $G_1=G_2=0$ 的族上，半径和种子与输入 F 的族相同。电荷则线性依赖耦合，精确有
+\begin{equation}\label{eq:chargejac}
+Q_\mu(1;\theta)=\frac{\mu}{e_L(\theta)},\qquad
+dQ_\mu(1)|_{\theta_*}=-\frac1\mu de_L.
+\end{equation}
+若 $\mathcal E(\theta,e)$ 表示固定中心规范下的标量端点映射，则在零点处
+\[
+d\mathcal E(\theta,e_L(\theta))
+=d_\theta\mathcal E(\theta,\mu)+(\partial_e\mathcal E)\,de_L.
+\]
+因此对标量行减去电荷行的适当倍数，便把新 Jacobian 变为输入 F 的 Jacobian，并乘以非零因子 $-1/\mu$。结合 \eqref{eq:geomjac} 的 Schur 补，得到
+\begin{equation}\label{eq:joint}
+F_N=(r(1)-1,r_t(1),Q(1)-1,\Re\mathcal E_N,\Im\mathcal E_N)
+\end{equation}
+对 $2N+3$ 个实参数的 Jacobian 可逆。这一步核对的是全部终端条件，不能只引用标量子矩阵。
+
+\subsection{逐阶修复与 Fr\'echet 收敛}
+从一个固定 $N_0\ge8$ 的零点开始。假设已得到 $F_n=0$ 及其可逆参数 Jacobian，加入两个实中心控制 $a$。输入 C 给出有限参数 $C^1$ 极限
+\[
+(F_n,E_{n+1})(\theta,a;\varepsilon)
+\longrightarrow
+\big(F_n(\theta),E_{n+1}(\theta)+\kappa_n(\theta)a\big).
+\]
+在 $\theta=\theta_n$、$a=-E_{n+1}(\theta_n)/\kappa_n(\theta_n)$ 处，极限的实 Jacobian 为
+\[
+\begin{pmatrix}DF_n&0\\ *&[\kappa_n]_{\mathbb R}\end{pmatrix},
+\]
+可逆。这里 $a$ 可以很大，但对当前一步它是一个固定有限数；先选包含它的有界参数邻域，再缩小 $\varepsilon$。有限维隐函数定理给出精确的 $F_{n+1}=0$，并保留联合非退化性。
+
+中心控制的 $C^{n-1}$ 范数趋零；旧参数修复也趋零。虽然旧控制方向的高阶范数可能巨大，它们在当前步均为固定有限数。因此可逐步要求
+\begin{equation}\label{eq:budget}
+\|\Phi_{n+1}-\Phi_n\|_{C^{n-1}}+|\beta_{n+1}-\beta_n|
+<\delta_*2^{-n}.
+\end{equation}
+选择总预算 $\delta_*$，使 $r/t,H/t$ 的共同正下界及 $\beta>0$ 不被破坏。可行性来自 \eqref{eq:cone} 的带权连续依赖；中心项 $Q/r=O(t^2)$ 不产生奇性。所有修复均避开一个固定终端开区间。
+
+对每个固定 $m$，从 $n\ge m+1$ 起，\eqref{eq:budget} 在 $C^m$ 中可求和。由完备性得到同一 $\Phi_\infty\in C^\infty([0,1])$ 和 $\beta_\infty>0$。任意固定阶端点映射只依赖种子的有限阶范数：在中心用 Bondi 有限阶递推，在正半径区用常微分方程连续依赖。因此可在每个固定 $F_j$ 中取极限，得到
+\begin{equation}\label{eq:infinitecone}
+\begin{gathered}
+r(1)=Q(1)=1,\qquad r_t(1)=0,\qquad E_j=0\quad(j\ge1),\\
+\inf_{0\le t\le1}r(t)/t>0,\qquad
+\inf_{0\le t\le1}H(t)/t>0.
+\end{gathered}
+\end{equation}
+锥上末端空隙中 $\Phi_\infty=0$。此外
+\[
+r_t(t)=\int_t^1r(s)|\Phi_\infty'(s)|^2ds\ge0.
+\]
+至此只得到同一份种子及相容导数；下面才落实为时空。
+
+\section{在共同邻域内求解中心 Bondi 系统}
+
+\subsection{正则积分算子及完整演化}
+在中心附近 $r_t>0$，取面积半径 $R=r$、中心固有时 $u$，写
+\[
+\mathbf g=-gs\,du^2-2g\,du\,dR+R^2d\omega^2,
+\qquad A=\alpha\,du.
+\]
+此后 $g$ 为 Bondi 系数。定义
+\[
+\mathsf Hv(R)=\int_0^1v(\vartheta R)d\vartheta,\qquad
+h=\partial_R(R\phi),\quad f=\mathsf Hh,\quad q=h-f.
+\]
+输入 C 中重新推导的完整系统为
+\begin{equation}\label{eq:bondi}
+\begin{split}
+L&=\int_0^R|q(x)|^2\frac{dx}{x},\qquad g=e^L,\\
+Q&=e\int_0^R x\Im(f\overline h)\,dx,\qquad
+\alpha=-\int_0^R\frac{gQ}{x^2}\,dx,\\
+s&=\mathsf H\big[g(1-Q^2/R^2)\big],\\
+h_u&=a(h)h_R+B(h),\qquad a=s/2,\\
+B&=\tfrac12s_Rq-ie\alpha h+\frac{ie gQ}{2R}f.
+\end{split}
+\end{equation}
+不把 $g,Q,\alpha,s$ 冻结为背景。由
+\[
+q/R=\int_0^1\vartheta h'(\vartheta R)d\vartheta
+\]
+可得 $q=O(R)$、$L,g-1,s-1,\alpha=O(R^2)$、$Q=O(R^3)$、$B=O(R^2)$。
+
+将 $h(0,R)=\partial_R(R\Phi_\infty(t(R)))$ 从一个单侧中心区间光滑延拓至有符号的 $R$ 区间。延拓只是选择原锥以外的自由数据，不改变 $R\ge0$ 上的给定种子。所有积分均按有向积分解释；上述因子分解保证系数在 $R=0$ 两侧光滑。
+
+\begin{lemma}[共同存在区间]\label{lem:local}
+每一光滑延拓的 $h_0$ 都在一个包含 $(u,R)=(0,0)$ 的有符号邻域产生唯一的 $C^\infty$ 解 \eqref{eq:bondi}。可以先根据一个固定低阶范数选定邻域，再在同一邻域内证明所有高阶正则性。
+\end{lemma}
+
+\begin{proof}
+给出避免寿命随阶数缩短的估计。有限区间上，对在零点消失的光滑 $v,w$，Hadamard 除法与乘积估计给出
+\begin{equation}\label{eq:hardy}
+\|vw/R\|_{C^k}\le C_k\big(\|v\|_{C^1}\|w\|_{C^k}
++\|w\|_{C^1}\|v\|_{C^k}\big),\qquad k\ge1.
+\end{equation}
+可将 Leibniz 展开中所有显含负幂的项，按 $v(R)-v(0)$、$w(R)-w(0)$ 的积分余项组合；最高导数项是 $(v/R)w^{(k)}$ 和 $(w/R)v^{(k)}$。剩余乘积通过一维插值估计得到右侧。该估计允许一个因子承担中心消失性，不要求两因子各额外损失一阶。
+
+在 $C^1$ 有界集合上，$a,B$ 在 $C^0$ 范数中局部 Lipschitz。以 $L$ 为例，差分被积函数中的一个 $q/R$ 有界，另一差分以 $C^0$ 控制；$Q$ 的差分为 $O(R^2\|\Delta h\|_\infty)$，所以 $\alpha$ 的差分也可积。$s_R$ 可由 $(Rs)_R=g(1-Q^2/R^2)$ 控制。全部其余项按相同分解估计。
+
+更高阶时，利用 \eqref{eq:hardy} 处理 $L_R=|q|^2/R$，并把
+\[
+Q/R^2=e\int_0^1\vartheta\Im\{f(\vartheta R)\overline{q(\vartheta R)}\}\,d\vartheta
+\]
+代入 $\alpha_R$，得到对于 $k\ge2$
+\begin{equation}\label{eq:tame}
+\|a(h)\|_{C^{k+1}}+\|B(h)\|_{C^k}
+\le C_k(\|h\|_{C^{k-1}})\big(1+\|h\|_{C^k}\big).
+\end{equation}
+常数也依赖固定区间、耦合及低阶界。对 $k=1,2$ 可直接使用相应多项式界。这里 $g$ 的积分提供一阶，$\alpha$ 的积分提供一阶；平均算子本身不被误当成在中心无条件增加一阶正则性。
+
+用特征线求解线性迭代
+\[
+(\partial_u-a(h^{(j)})\partial_R)h^{(j+1)}=B(h^{(j)}),
+\qquad h^{(j+1)}(0)=h_0.
+\]
+在 $|R|<R_*-A|u|$ 上取 $A$ 大于速度绝对值上界。积分算子使用的 $0$ 到 $R$ 的线段仍留在同一截面内。由固定低阶界取 $T>0$，使迭代保持一个 $C^2$ 有界集合；$C^0$ 差分方程及上述 Lipschitz 界给压缩。紧性或差商论证产生经典局部解和唯一性。负时间作时间反向的同一构造。
+
+对实际解作 $k$ 次 $R$ 微分。最高输运项保留在左侧，交换项和 \eqref{eq:tame} 给
+\begin{equation}\label{eq:highenergy}
+M_k(u)\le M_k(0)+\int_0^{|u|}C_k(M_{k-1}(\sigma))(1+M_k(\sigma))\,d\sigma,
+\end{equation}
+其中 $M_k$ 是稍小收缩截面上的 $C^k$ 范数。先有低阶解，再按 $k$ 归纳使用 Gr\"onwall 不等式和有限阶延续准则：只要低阶解存在，高阶范数在每个固定紧子域上不会先行爆破。故所有 $M_k$ 在同一个预先取定的较小邻域有限。最后由演化方程恢复所有 $u$ 导数。得到的是同一解，而不是一列寿命可能趋零的 $C^k$ 解。\qedhere
+\end{proof}
+
+\subsection{补充 Maxwell 与 Einstein 方程}
+系统 \eqref{eq:bondi} 中尚未显式列出的 Maxwell 方程，其残差可写为
+\[
+\mathcal M=Q_u-sQ_R+eR^2\Im(f\overline{f_u})-e^2R^2\alpha|f|^2.
+\]
+对 $R$ 微分，并用带电波方程和 $Q_R=eR^2\Im(f\overline{f_R})$，各项抵消，得到 $\partial_R\mathcal M=0$。中心阶数给 $\mathcal M(u,0)=0$，所以 $\mathcal M=0$。
+
+对 Einstein 方程，可用同一规范下的 Bianchi 恒等式说明没有丢失约束。令 $E_{ab}$ 为迹反转 Einstein 方程的残差，$S_{ab}=E_{ab}-\frac12g_{ab}\operatorname{tr}_gE$。径向约束和角向方程给 $E_{RR}=E_{\theta\theta}=E_{\varphi\varphi}=0$。物质方程成立后 $\nabla^aS_{ab}=0$。$b=R$ 分量先给 $E_{uR}=0$；随后 $b=u$ 分量化为
+\[
+\partial_R(R^2E_{uu})=0.
+\]
+事实上此时唯一可能非零的混合残差是 $S^R{}_u=-E_{uu}/g$，且 $\Gamma^u{}_{Ru}=0$。中心的 $g-1,s-1=O(R^2)$ 使 $E_{uu}$ 有界，故积分常数为零。这样得到完整场方程，而非仅径向约束加一个测试波方程。
+
+\section{从 Bondi 光滑性到四维中心光滑性}
+
+引理 \ref{lem:local} 给出的 $(u,R)$ 光滑性不直接等于笛卡尔中心光滑性。以下完成这一检查。
+
+\subsection{极坐标时间与电磁径向规范}
+在足够小邻域内 $g,s>0$。由
+\begin{equation}\label{eq:polarcoordinate}
+\partial_Ru(T,R)=-1/s(u(T,R),R),\qquad u(T,0)=T
+\end{equation}
+定义极坐标时间 $T$。记 $a_p^2=g/s$、$N^2=gsu_T^2$，则
+\[
+\mathbf g=-N^2dT^2+a_p^2dR^2+R^2d\omega^2.
+\]
+在这些坐标中原电势的径向分量为 $-\alpha/s$。取
+\[
+\chi(T,R)=\int_0^R\frac{\alpha(u(T,x),x)}{s(u(T,x),x)}dx,
+\quad A\mapsto A+d\chi=V\,dT,\quad
+\psi=e^{-ie\chi}f.
+\]
+这是实际光滑的坐标与规范变换。$a_p(0)=N(0)=1$，$a_p-1,N-1,V=O(R^2)$。
+
+\subsection{所有奇数径向系数的消失}
+令 $w=N/a_p$、$\Pi=w^{-1}D_T\psi$，其中 $D_T=\partial_T+ieV$。完整方程在 $R>0$ 给出
+\begin{equation}\label{eq:polar}
+\begin{split}
+\frac{(a_p)_R}{a_p}
+&=\frac{1-a_p^2}{2R}+\frac R2(|\Pi|^2+|\psi_R|^2)
++\frac{a_p^2Q^2}{2R^3},\\
+\frac{N_R}{N}
+&=\frac{a_p^2-1}{2R}+\frac R2(|\Pi|^2+|\psi_R|^2)
+-\frac{a_p^2Q^2}{2R^3},\\
+Q_R&=eR^2\Im(\psi\overline\Pi),\qquad
+V_R=-Na_pQ/R^2,\\
+D_T(w^{-1}D_T\psi)
+&=w\psi_{RR}+(2w/R+w_R)\psi_R.
+\end{split}
+\end{equation}
+这些式子的系数采用 \eqref{eq:cone} 的归一化；奇偶归纳只用其结构与非零的径向波系数。
+
+先乘最后一式以 $R$ 并令 $R\to0$，得到 $\psi_R(T,0)=0$。以下所有 Taylor 系数均是关于 $R$ 的系数函数，不假定 Taylor 级数收敛。假设 $\psi$ 的奇数系数至 $2m-1$ 已为零，且 $a_p,N,V$ 的同阶奇数系数已为零。则 $\Pi$ 至这一阶也是偶的；$|\psi_R|^2$ 的 $R^{2m-1}$ 系数只涉及已经消失的低阶奇系数。
+
+由 Gauss 方程，$Q$ 是 $R^3$ 乘以偶函数至所需有限阶。两条 Einstein 径向方程的 $R^{2m}$ 系数于是给 $a_p,N$ 的 $R^{2m+1}$ 系数为零；第一条中待定系数的因子为 $2m+2\ne0$。再由电势方程得到 $V$ 的相应奇系数为零。最后看波方程的 $R^{2m-1}$ 系数：时间侧及所有低阶奇项为零，唯一剩余待定项是
+\[
+(2m+1)(2m+2)\psi_{2m+1}(T),
+\]
+其系数非零。故 $\psi_{2m+1}=0$。从中心阶数及 $\psi_1=0$ 出发，归纳得到全部奇数系数消失；对 $T$ 的任意微分也成立。
+
+单侧光滑函数全部奇阶导数在零点消失，正是其偶反射光滑的条件。因此
+\[
+\psi(T,R),\ N(T,R),\ a_p(T,R),\ V(T,R)
+\]
+在 $R=0$ 具有光滑偶延拓，且 $(a_p^2-1)/R^2$、$Q/R^3$ 也有光滑偶延拓。令 $R=|x|$，便有
+\begin{equation}\label{eq:cartesian}
+g_{ij}=\delta_{ij}+\frac{a_p^2-1}{R^2}x_ix_j,\qquad
+g_{TT}=-N^2,\qquad A=VdT.
+\end{equation}
+径向光滑偶函数是 $R^2$ 的光滑函数，故这些张量和标量在 $(T,x^1,x^2,x^3)$ 中均为 $C^\infty$。完整方程由连续性延至中心。这证明了真实四维正则中心，不能只用 $r=0$ 处形式无穷阶导数代替。
+
+\subsection{恢复原仿射锥}
+沿初始锥有 $g r_t=\beta$，因为
+\[
+(\log g)_t=r|\Phi'|^2/r_t,\qquad
+(\log r_t)_t=-r|\Phi'|^2/r_t.
+\]
+解入射零坐标方程并取 $U=2\beta u$，则
+\[
+\partial_U=\frac1{2\beta}(\partial_u-\tfrac s2\partial_R),
+\qquad e^\ell=g r_t/\beta.
+\]
+于是 $\ell(0,t)=0$，且标量迹恰为 $\Phi_\infty$。有限阶锥输运的唯一性说明此实际解的每阶锥导数，正是第 2 节构造的递归导数。此识别对所有阶在同一局部解上成立。
+
+\section{一次光滑的 ERN 端点实现和两侧接合}
+
+\subsection{同一个电真空模型实现全部端点导数}
+终端球面 $S=(0,1)$ 满足 $r=Q=1,r_t=0,r_U<0$，且标量所有纯 $U$ 导数为零。约束给出
+\[
+\partial_U^jQ(S)=0\ (j\ge1),\qquad
+r_{UU}=\ell_Ur_U
+\]
+及其任意有限次 $U$ 微分。用 Borel 延拓选一个实际光滑函数 $\rho(U)$，使其在零点的全部导数等于已有的 $r$ 导数，且在一个小区间 $\rho>0,\rho'<0$。在入射线 $t=1$ 上置
+\[
+r=\rho(U),\quad Q=1,\quad\phi=0,\qquad
+\ell=\log\frac{\rho'(U)}{r_U(S)}.
+\]
+这使 $\ell(0)=0$，并精确满足电真空的入射 Raychaudhuri 约束。由约束关系，它的全部 $\ell$ 导数也与目标相同。另选一个光滑 $A_U(U,1)$ 实现目标电势导数；该方向的电势自由度是电磁规范自由度。
+
+在出射线 $U=0$ 上，延长 $r=Q=1,\ell=0,\phi=0$ 并积分电势方程。两条边的数据满足完整特征约束。所得局部电真空解具有重整化质量
+\[
+\varpi=\frac r2(1+4e^{-\ell}r_Ur_t)+\frac{Q^2}{2r}=1.
+\]
+电真空球对称方程的质量守恒和局部 RN 识别，给出质量、电荷为一的 ERN 模型；$r_U\ne0$ 排除恒定面积半径的退化支。所有混合导数由场方程决定，因此完整无穷阶球面数据一致。
+
+这里 Borel 延拓只实现实际电真空初边的自由规范数据；随后用真正的特征初值问题得到解。没有用 Borel 定理从任意形式场导数直接制造 PDE 解，也没有逐阶选择彼此不相容的规范。
+
+\subsection{在正半径处各求解一次}
+取中心实际解内一球面 $S_0=(0,t_0)$，$0<t_0\ll1$。在锥的 $U\ge0$ 一侧，从 $S_0$ 的实际入射边和连接锥求解特征问题；在 $U\le0$ 一侧，从 $S$ 的实际 RN 入射边向过去求解。整个紧段 $[t_0,1]$ 的半径有正下界。
+
+正半径特征局部存在及锥导数输运使用 Kehle--Unger 的框架\cite{KU}。其平滑版本可直接由低阶存在和高阶延续得到：在 $r\ge c>0$ 的紧矩形，微分方程最高阶项线性依赖相应导数，系数仅用已控低阶量，逐阶 Gr\"onwall 保持同一个较窄矩形。有限覆盖得到共同宽度的紧段邻域。我们对两组光滑边值各求解一次，而不取不同有限阶解的任意极限。
+
+在左球面和右球面，完整导数分别由实际中心解和实际 RN 解实现。沿 $U=0$ 的有限阶输运唯一性对每一阶均适用，故两侧解在整段连接锥上的全部混合导数一致。逐阶使用一维接合引理可知，分段定义的场在跨锥邻域内是 $C^\infty$；方程由连续性跨锥成立。
+
+\textbf{必须保留的区分：} 两个光滑解在特征面上全阶一致，只保证这里的接合是光滑的；它不证明两个原解在该面外的开邻域相等。特别是，外侧解靠近中心的部分可能与中心参考解相差一个沿锥平坦的非零函数。下一节专门解决这一点。
+
+\section{非平直中心参考解的顶点填充}
+
+\begin{lemma}[相对平坦误差的中心填充]\label{lem:fill}
+设 $\mathcal V$ 是包含正则中心事件 $p$ 的一个真实光滑球对称 EMCSF 解。设 $\mathcal W$ 是沿 $p$ 的未来出射锥、在正半径处构造的两侧光滑拼接区域，并且在锥的内侧小区域与 $\mathcal V$ 一致。则缩小正半径区域后，存在一个包含 $p$ 的真实光滑发展，与 $\mathcal W$ 在相应重叠依赖域内一致。
+\end{lemma}
+
+\begin{proof}
+在 $p$ 之后的中心小邻域中取一张光滑球对称类空面 $\Sigma_0$，于正半径 $R_0$ 与上述锥相交。在内球 $B_{R_0}$ 上用 $\mathcal V$ 的诱导数据，稍外的环上用 $\mathcal W$ 的数据。全阶接合保证所得 $D$ 为同一光滑 Cauchy 数据，并在整个球加环上满足约束。
+
+把参考解在同一面稍大的球上诱导的数据记为 $D_{\rm ref}$。取一致的初始坐标、lapse、shift 和电磁规范，在局部谐和及 Lorenz 约化中比较。内球上 $D=D_{\rm ref}$，故所有差分在边界球面平坦。用光滑截断 $\zeta_\varepsilon$，令其在 $R\le R_0+\varepsilon$ 为一、在 $R\ge R_0+2\varepsilon$ 为零，置
+\[
+D_\varepsilon=D_{\rm ref}+\zeta_\varepsilon(D-D_{\rm ref}).
+\]
+参考数据可在远离所需局部域处固定延拓；辅助数据在截断环不必满足约束。因边界平坦，对每个固定 Sobolev 阶数 $s$ 及每个整数 $N$，Taylor 余项和 Leibniz 公式给
+\begin{equation}\label{eq:flatcutoff}
+\|D_\varepsilon-D_{\rm ref}\|_{H^s\times H^{s-1}}
+\le C_{s,N}\varepsilon^N.
+\end{equation}
+这里 $R_0>0$，球坐标与笛卡尔 Sobolev 范数在截断环等价。每次截断微分损失一个 $\varepsilon$，可由预先多取的平坦消失阶数补偿。
+
+选择足够高但固定的 $s$，在参考解从 $\Sigma_0$ 向过去、覆盖 $p$ 且有少量余量的紧时间片上应用约化双曲 Cauchy 稳定性。初始面取得足够靠近 $p$，并在参考解存在区域内留有空间余量；因此固定的局部 Cauchy 存在时间足以覆盖该时间片。\eqref{eq:flatcutoff} 给出解的 $C^1$ 差分为 $O(\varepsilon^N)$。
+
+参考度量中，$p$ 到 $\Sigma_0$ 的未来零锥恰落在 $R=R_0$；把真实约束数据的半径增至 $R_0+\varepsilon$，产生 $c\varepsilon$ 量级的因果余量。紧片上的光锥速度依赖 $C^0$ 度量，特征流依赖 $C^1$ 度量，其改变为 $O(\varepsilon^N)$。取 $N>1$ 和充分小 $\varepsilon$，即可保证 $p$ 连同一个开邻域位于 $B_{R_0+\varepsilon}$ 的过去依赖域。
+
+在这一依赖域，初始数据与真正满足约束的 $D$ 一致；约束及规范残差的齐次传播方程保证辅助约化解在其中是真实 EMCSF 解。几何唯一性将其与已有拼接发展在共同依赖域识别。光滑初值的高阶保持仍在同一低阶存在域成立。这样获得跨过 $p$ 的实际光滑邻域。\qedhere
+\end{proof}
+
+Kehle--Unger 的 Lemma 5.1 以平直内球为参考。本引理保留其 Cauchy 稳定性思想，另外明确了非平直参考片、任意阶平坦误差和 $O(\varepsilon^N)$ 小于因果余量的比较。因此不是把其平直假设未经说明地删除。
+
+\section{单端 Cauchy 面、事件视界和最大未来发展}
+
+\subsection{完整外部和初始面的构造}
+将第 5 节的外侧 RN 模型延长到整个晚时 ERN 外部。可用相容的有限特征矩形穷尽，每个重叠处由唯一性识别；不需要跨视界内侧存在一个对无限先进时间一致宽的矩形。
+
+在连接锥外侧 $U<0$，RN 终端入射边满足 $r_t>0$。Raychaudhuri 方程向过去积分给
+\begin{equation}\label{eq:lambda}
+(e^{-\ell}r_t)(U,t)=(e^{-\ell}r_t)(U,1)
++\int_t^1 e^{-\ell}r|\phi_t|^2(U,v)\,dv>0.
+\end{equation}
+连接锥本身有 $r_U=-H/(4r)<0$；中心正规邻域及 RN 外部也有负入射膨胀。选择外侧条带足够窄，使这一严格符号保持。
+
+利用引理 \ref{lem:fill} 产生的顶点之前的中心邻域，选一条类空商曲线：从 $p$ 之前的中心出发，经过 $U<0$ 的连接条带，再接入 RN 的渐近平直空间端。紧段上的条带宽度、负入射膨胀和类空性均有正余量，所以曲线可光滑选取；远处可取 RN 的标准类空端。旋转后得到 $\Sigma\simeq\mathbb R^3$，恰有一个端。其数据来自同一真实解，全部约束自动满足。
+
+\subsection{因果分界的识别}
+取该数据的唯一最大未来整体双曲发展。依赖域与几何唯一性将上述构造区域嵌入其中。晚时 RN 外部提供完整的未来零无穷远。每一位于连接条带外侧的出射零线 $U<0$ 都进入这一 RN 外部并抵达 $\mathcal I^+$，因而初始面全部位于 $J^-(\mathcal I^+)$。
+
+入射 Raychaudhuri 方程
+\[
+\partial_U(e^{-\ell}r_U)=-e^{-\ell}r|D_U\phi|^2\le0
+\]
+传播负入射膨胀。在晚时锥段 $r(0,t)=1$，故在同一入射段内的 $U>0$ 点有 $r(U,t)<1$。未来因果曲线的两零坐标不减，不能从 $U>0$ 穿回既定外部 $U<0$；在球对称单端发展中，也不能在 $r$ 受此上界控制的内侧到达该端的 $r\to\infty$ 零无穷远。靠近 $U=0$ 的内侧是实际开放时空区域，所以黑洞区非空。
+
+于是连接锥及其从 $p$ 发出的延长，正是
+\[
+\mathcal H^+=\partial J^-(\mathcal I^+).
+\]
+顶点前的中心属于可逃逸区，故视界起点为真实正则中心事件 $p$，不是形式锥顶或初始面的缺失边界。晚时外通信域连同视界正是所附的 ERN 外部。
+
+这里采用的单端球对称因果结构和最大发展框架，与 Kehle--Unger 第 5 节相同；其使用条件为正则中心、满足约束的单端初值、已构造的 RN 外部及上述膨胀符号，不要求中心开邻域精确平直。其 Appendix B 的一般闭曲面论证将对称球的符号控制推广到无反陷获闭曲面及外通信域中的无陷获闭曲面。因此 $\Sigma$ 无陷获或反陷获闭曲面。
+
+\subsection{尺度恢复与主定理}
+将 $\mathbf g,A,F$ 分别乘以 $M^2,M,M$，标量不变、耦合变为 $e/M$。质量、电荷及面积半径乘以 $M$，所以给定 $|\mathfrak e|M=\mu>1/2$ 的物理参数均可实现；另一符号用复共轭及电荷取向处理。
+
+输入 F、C 与本文的实现和全局化，给出
+\[
+\forall\mu>1/2\quad\exists X_\mu\in C^\infty.
+\]
+前稿的必要性只用有限低阶正则性，因而同样适用于本光滑解类。若将前稿定义中的正则性替换为 $C^\infty$ 并记相应参数集为 $\mathscr A_\infty$，则在上述两项项目输入成立的前提下，
+\[
+\boxed{\mathscr A_\infty=(1/2,\infty).}
+\]
+这完成定理 \ref{thm:closure} 的闭合论证。
+
+\section{证明依赖、核验范围及审查重点}
+
+本稿新增的论证为：固定耦合下的联合非退化性、同一光滑种子的构造、低阶寿命上的全阶 Bondi 正则性、补充约束、四维中心奇偶相容性、一次电真空规范实现及非平直参考解的顶点填充。正半径特征适定性和全局因果框架使用既有文献。
+
+主定理仍须连同两项输入一并审查：输入 F 来自 2026-09-27 有限阶完整证明第 7 节及其前置剖面构造；输入 C 来自 2026-09-28《完整非线性中心局部化估计》，尤其是其有限阶差分估计、最高阶几何反馈和坐标转换。本文没有把它们的内部证明状态升级为独立验证。
+
+本稿附带的有限代数检查核对：几何 Jacobian 的行列式、奇偶归纳的非零系数、既有 Bondi 中心形式递推，以及非零复带电背景上极坐标 Einstein 和 Gauss 约束至 $u^1R^5$ 的系数。它们不验证函数空间估计、局部适定性或因果全局化。建议同行优先逐行检查本文 \eqref{eq:tame}--\eqref{eq:highenergy}、\eqref{eq:polar} 的中心归纳及引理 \ref{lem:fill} 的依赖域余量比较。本文的完成状态是\emph{已写出明确依赖的证明稿}，不是经过独立复核后对无条件数学正确性的认证。
+
+\begin{thebibliography}{9}
+\bibitem{KU} C. Kehle and R. Unger, \emph{Gravitational collapse to extremal black holes and the third law of black hole thermodynamics}, arXiv:2211.15742v2, 2024. 特征局部存在、拼接及全局因果框架见第 2、3、5 节与 Appendix B。\url{https://arxiv.org/abs/2211.15742v2}.
+\bibitem{MGG} T. M\"adler, R. Gannouji and E. Gallo, \emph{Characteristic initial value problems for the Einstein-Maxwell-scalar field equations in spherical symmetry}, Phys. Rev. D 111, 124015 (2025), arXiv:2503.24162v2。仅作特征系统及补充方程结构的文献对照，不把该文当作本稿光滑全局化定理。\url{https://arxiv.org/abs/2503.24162v2}.
+\bibitem{F} OPEN B，\emph{球对称带电标量塌缩：尖锐半阈值定理及完整证明}，2026-09-27。项目内部有限阶证明稿，随包附原版。
+\bibitem{C} OPEN B，\emph{完整非线性中心局部化估计}，2026-09-28。项目内部证明稿，随包附原版；其中 $B$ 最后一项按 $ie\,gQf/(2R)$ 解读。
+\end{thebibliography}

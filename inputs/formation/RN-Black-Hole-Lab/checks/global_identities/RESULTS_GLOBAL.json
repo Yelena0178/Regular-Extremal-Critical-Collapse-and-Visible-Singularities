@@ -1,0 +1,58 @@
+{
+  "scope": "finite algebra only; G-A and G-B remain unresolved",
+  "sympy": "1.14.0",
+  "checks": [
+    {
+      "name": "tortoise derivative",
+      "status": "PASS"
+    },
+    {
+      "name": "static tail induced radial metric",
+      "status": "PASS"
+    },
+    {
+      "name": "EF dt squared cancellation",
+      "status": "PASS"
+    },
+    {
+      "name": "EF cross coefficient",
+      "status": "PASS"
+    },
+    {
+      "name": "horizon surface gravity",
+      "status": "PASS"
+    },
+    {
+      "name": "barrier covector timelike",
+      "status": "PASS"
+    },
+    {
+      "name": "outgoing radial affine component 0",
+      "status": "PASS"
+    },
+    {
+      "name": "outgoing radial affine component 1",
+      "status": "PASS"
+    },
+    {
+      "name": "conformal boundary null",
+      "status": "PASS"
+    },
+    {
+      "name": "conformal infinity affine component 0",
+      "status": "PASS"
+    },
+    {
+      "name": "conformal infinity affine component 1",
+      "status": "PASS"
+    },
+    {
+      "name": "necessity square cross coefficient",
+      "status": "PASS"
+    },
+    {
+      "name": "quantitative threshold defect identity",
+      "status": "PASS"
+    }
+  ]
+}
