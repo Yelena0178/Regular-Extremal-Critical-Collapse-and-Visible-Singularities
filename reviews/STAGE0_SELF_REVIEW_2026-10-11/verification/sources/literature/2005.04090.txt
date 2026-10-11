@@ -1,0 +1,2058 @@
+                                            TRAPPED SURFACE FORMATION FOR SPHERICALLY
+                                            SYMMETRIC EINSTEIN-MAXWELL-CHARGED SCALAR
+                                              FIELD SYSTEM WITH DOUBLE NULL FOLIATION
+
+                                                                  XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+                                                 Abstract. In this paper, under spherical symmetry we prove a trapped
+arXiv:2005.04090v1 [math.AP] 8 May 2020
+
+
+
+
+                                                 surface formation criterion for the Einstein-Maxwell-charged scalar field sys-
+                                                 tem. We generalize an approach introduced by Christodoulou for studying
+                                                 the Einstein-scalar field. In appendix, with double null foliation we also re-
+                                                 prove Christodoulou’s result and for Minkowskian incoming characteristic
+                                                 initial data, we improve Christodoulou’s bound.
+
+
+
+
+                                                                              1. Introduction
+                                          1.1. Motivation. In a series of papers [9]-[12], Christodoulou studied singu-
+                                          larity formation for the Einstein-scalar field system:
+                                                                            1
+                                                                   Ricµν − Rgµν = 8πTµν ,
+                                                                            2                                        (1.1)
+                                                                                     1      σ
+                                                                   Tµν = ∂µ φ∂ν φ − gµν ∂ φ∂σ φ.
+                                                                                     2
+                                          Through these papers, Christodoulou proved in four steps that under spher-
+                                          ical symmetry, the weak cosmic censorship conjecture holds. More precisely,
+                                          Christodoulou proved that for (1.1) with large initial data, a so-called naked
+                                          singularity may form; however, for generic initial data, these singularities are
+                                          covered by a black hole region and are invisible for observers far away. These
+                                          are celebrated results.
+                                             The Penrose diagram of a spherically symmetric gravitational collapse space-
+                                          time for (1.1) with generic initial data is as follows:
+                                                                         S0        S                   i+
+                                                                                    T
+                                                                               A
+                                                                                                                  I+
+                                                                     Γ
+                                                                                            H
+
+
+                                                                                                                                  i0
+                                          Here, Γ is the center of symmetry−invariant under SO(3), and i+ , I + , i0 are
+                                          timelike infinity, future null infinity, and spacelike infinity respectively. The
+                                            Date: May 11, 2020.
+                                                                                        1
+2                        XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+boundary of the causal past of i+ is H, which is called the event horizon. T
+is the trapped region, where not even light can escape to I + . A is called the
+apparent horizon and it is the lower boundary of T . S0 is the first singular
+point along Γ and S is the singular boundary of T .
+   A crucial step of Christodoulou’s proof of the weak cosmic censorship con-
+jecture is [9]. There, Christodoulou established a sharp trapped surface1 for-
+mation criterion for (1.1). Christodoulou’s original proof in [9] was based on
+a geometric Bondi coordinate system with a null frame.
+   However, at present, the double null foliation is a more popular choice of
+coordinate system. There have been many recent works published in general
+relativity using a double null foliation. In order to generalize Christodoulou’s
+results in [9]-[12] to other matter models, here we adopt the double null fo-
+liation. In our paper, we will review Christodoulou’s result in the setting of
+a double null foliation. Then, we will generalize his result to the Einstein-
+Maxwell-charged scalar field system.
+   Within the study of spherically symmetric systems, there are interesting
+results on formation of trapped surfaces and singularities for other matter
+models, e.g. Einstein-Vlasov studied by Andréasson [6], Andéasson-Rein[7],
+Moschidis[19], Einstein-Euler studied by Burtscher and LeFloch [8], Einstein-
+scalar field studied by Li-Liu [17], An-Zhang [4], An-Gajic [5], Einstein-null
+dust studied by Moschidis[20], Einstein-scalar field with positive cosmological
+constant by Costa [13]. For the Einstein-Maxwell-(real) scalar field system, we
+refer interested readers to [14, 15] by Dafermos, [18] by Luk and Oh on the
+recent development of proving strong cosmic censorship. And for the Einstein-
+Maxwell-charged scalar field system, we refer to [21]-[23] by Van de Moortel.
+
+1.2. The Main Result. We consider the characteristic initial value problem
+for (1.1) in the rectangular region.
+         Γ                             We employ the double-null foliation with
+                                       u and v as optical functions; that is,
+                                       g αβ ∂α u∂β u = 0 and g αβ ∂α v∂β v = 0. Thus,
+   (0, v1 )
+                 R                     we have u = constant as the outgoing null
+                            (u0 , v2 ) hypersurface; v = constant as the incoming
+                 u                     null hypersurface.
+                     (u0 , v1 )
+                   v                   Due to spherical symmetry, we have a central
+                                       axis Γ. We prescribe initial data along the
+                                       outgoing cone u = u0 and the incoming cone
+        (u0 , 0)                       v = v1 .
+For the metric of the 3 + 1-dimensional spacetime, we impose spherical sym-
+metry and write it with double-null coordinates:
+          gµν dxµ dxν = −Ω2 (u, v)dudv + r 2 (u, v) dθ2 + sin2 θdφ2 .
+                                                                   
+                                                                       (1.2)
+
+    1A trapped surface is a two-dimensional sphere, with both incoming and outgoing null
+expansions negative.
+              TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                               3
+
+In the above diagram every point (u, v) represents a 2-sphere Su,v . The Hawk-
+ing mass of such a 2-sphere is defined as
+                                     r
+                            m(u, v) = (1 + 4Ω−2 ∂u r∂v r).                              (1.3)
+                                     2
+Along u = u0 , we also define the initial mass input
+              m(u0 , v2 ) − m(u0 , v1 )                    r(u0, v2 ) − r(u0 , v1 )
+      η0 :=                             , and denote δ0 :=                          .
+                     r(u0, v2 )                                  r(u0, v2 )
+                                                                            3δ0
+Finally, let u∗ denote the value of u ∈ [u0 , u∗ ] such that r(u∗ , v2 ) = 1+δ 0
+                                                                                 ·
+r(u0, v2 ).
+
+Theorem 1.1. (Christodoulou [9] and reproved in appendix)
+Define the function
+                                                
+                               x          1
+                    E(x) :=           ln    +5−x .
+                            (1 + x)2     2x
+Consider the system (1.1) with characteristic initial data along u = u0 and
+v = v1 . For initial mass input η0 along u = u0 , if the following lower bound
+holds:
+
+                                       η0 > E(δ0 ),
+
+then a trapped surface Su,v , with properties ∂v r(u, v) < 0 and ∂u r(u, v) < 0,
+forms in the region [u0 , u∗ ] × [v1 , v2 ] ⊂ R .
+
+Remark 1. For 0 < δ0 ≪ 1, we can check that the order
+                                                  of the lower bound
+of η0 , E(δ0 ), is of order δ0 ln( δ10 ). Hence, if η0 & δ0 ln   1
+                                                                 δ0
+                                                                      , a trapped surface
+is guaranteed to form within R.
+
+The above theorem is crucial for Christodoulou’s final proof of the weak cosmic
+censorship in [12]. There, Christodoulou studied the first singular point formed
+in the evolution of (1.1): if that point is not covered by a trapped region, then a
+perturbation of the initial data would lead to the condition in Theorem 1.1 be-
+ing satisfied. Hence, a trapped surface would form to cover that singular point.
+
+We provide a reproof of Theorem 1.1 in the appendix. While Christodoulou’s
+proof was written in Bondi coordinates, here we have rewritten it in a dou-
+ble null foliation. Double null foliations are widely used in studying both the
+exterior and interior regions of black holes for various matter models. Many re-
+sults pertaining to spherical symmetry are also based on double null foliations.
+Hence, there is strong motivation to rewrite [9] with a double null foliation.
+
+By strenghtening the hypothesis on the initial data in Theorem 1.1, in appendix
+we also improve Christodoulou’s bound:
+4                          XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+          Γ
+                                             Theorem 1.2. Assume that Minkowskian
+                                             data are prescribed along v = v1 and re-
+    (0, v1 )                                 quire φ(u, v1 ) = 0. Suppose that the following
+                    R           (u0 , v2 )
+                                             lower bound on η0 holds:
+                    u                                                      9
+                                                                     η0 > δ0 ,
+               D(0, v1) (u0 , v1 )                                         2
+                      v                      then there exist a MOTS or a trapped surface
+                                             in [u0 , u∗ ] × [v1 , v2 ] ⊂ R, i.e. ∂v r ≤ 0 at some
+                                             point in [u0 , u∗ ] × [v1 , v2 ].
+         (u0 , 0)
+
+Remark 2. Theorem
+                1.2 improves the almost scale critical result in Theorem
+                           1
+1.1, i.e., η0 > δ0 ln      δ0
+                                implies trapped surface formation, to a scale critical
+result, i.e., η0 > 92 δ0 implies trapped surface formation. In [2], the first author
+and Luk first noted that by prescribing Minkowskian data along v = v1 , for
+Einstein vacuum equations a scale-critical trapped surface formation criterion
+could be established.2 For a being a large universal constant, the corresponding
+requirement for η0 is η0 ≥ δa. For Einstein-scalar field system under spherical
+symmetry, Theorem 1.2 improves the large universal constant a into a concrete
+number 9/2.
+The main result of our paper is the next theorem. We generalize the above
+results to the Einstein scalar field coupled with the electromagnetic field. More
+precisely, we consider the following Einstein-Maxwell-charged scalar field sys-
+tem:
+                                      1
+                             Rµν − gµν R = 8πTµν ,
+                                      2
+                                          SF    EM
+                                Tµν = Tµν    + Tµν ,
+           SF    1                 1               1
+              = Dµ φ(Dν φ)† + Dν φ(Dµ φ)† − gµν g αβ Dα φ(Dβ φ)† ,
+                                                                       
+         Tµν
+                 2                 2               2
+                      EM      1                  1
+                                  g αβ Fαµ Fβν − gµν F αβ Fαβ .
+                                                             
+                    Tµν   =
+                             4π                  4
+Here, the Einstein scalar field is coupled to the electromagnetic field by the
+following form of the Maxwell equation:
+                       ∇ν Fµν = 2πei φ(Dµ φ)† − φ† Dµ φ ,
+                                                           
+
+where Dµ := ∂µ + eiAµ is known as the gauge covariant derivative. Here e is
+the coupling constant and Aµ is the electromagnetic potential. Using the gauge
+covariant derivative instead of the usual derivative ensures that the physical
+equations remain invariant under local U(1) transformations on φ.
+
+    2For more discussions about scaling consideration, interested readers are also refereed to
+[1] and [3] by the first author.
+               TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                          5
+
+  Recall that under spherical symmetry, we have the ansatz (1.2). Using the
+Ω appearing in the ansatz, we define the charge Q(u, v) contained in a sphere
+S(u, v) to be Q := 2r 2 Ω−2 Fuv .
+Theorem 1.3. (Main Theorem) Denoting the outgoing null hypersurface u =
+u0 by C and the incoming null hypersurface v = v1 by C, we define
+                                      Q2
+                         ǫ := sup       2
+                                          < 1, and L := sup r|φ|2.
+                                  C∪C r                  C
+
+
+Let ω be any positive constant in (0, 23 ). Choose v2 − v1 sufficiently small such
+that
+
+                        9e2                    12πLe                 ω
+                               2
+                                 (v2 − v1 )2 +        (v2 − v1 ) ≤ ,             (1.4)
+                     4(1 − ǫ)                   1−ǫ                  4
+                     2            2
+                 45πe (v2 − v1 )                        v2 − v1
+                             2
+                                    + 160πe2 r(u0, v2 )         |φ1|2 ≤ 4ω.      (1.5)
+                    π(1 − ǫ)                             1−ǫ
+
+Further require that the initial data along C are not supercharged, i.e.
+                                     m(u, v1 ) ≥ |Q|(u, v1).                     (1.6)
+Denote
+                                   1− ω
+            1 + ω2
+                                                                               
+                     1              2 2          1         1− ω2  2     1     2
+  gω (x) :=     ω                         + 1+ ω          x      − x−        x .
+            1 − 2 (1 + x)2            ω    2 2 (1 + ω2 )          ω   1 + ω2
+Assume the following lower bound on η0 holds
+                                                                        
+                              13ǫ                  9         1− ω
+               η0 > max           + gω (δ0 ), 1+ ω          δ0 + gω (δ0 ) ,
+                                                                2
+
+                               ω             2 2 (1 + δ0 )2
+      Γ
+
+
+(0, v1 )
+                R           (u0 , v2 )   then a trapped surface is guaranteed to form
+           C           C                 in [u0 , u∗ ] × [v1 , v2 ] ⊂ R.
+                     (u0 , v1 )
+
+
+
+    (u0 , 0)
+
+Remark 3. By comparing the order of the lower bounds (when 0 < δ0 ≪ 1)
+of η0 in the hypothesis of the theorem, we can interprete the theorem as: If
+        1− ω
+η0 & δ0    2
+             + 13ǫ
+                ω
+                   , a trapped surface forms in R. Since ω could be chosen
+to be arbitrary small number in (0, 32 ), if we require that ǫ (upper bound
+6                    XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+    2                                               1− ω2
+of Qr2 on C ∪ C) is small and satisfies 13ǫ
+                                         ω
+                                            ≤ δ0            , our theorem is also an
+almost-scale-critical result.
+Remark 4. Moreover, although we use the symbol ǫ to denote the upper
+             2
+bound of Qr2 on C ∪ C, ǫ is not necessarily to be small. In particular, we
+could choose 0 < δ0 ≪ 1, ω = 12 and require ǫ to be of size 1. This is not
+in the perturbative regime of Christodoulou’s result for Einstein-scalar field.
+Intuitively, for this case our Theorem 1.3 is saying: if the incoming mass
+contained between v1 and v2 is large enough to overcome the initial charge on
+C ∪ C, then we can guarantee the formation of a trapped surface.
+
+Remark 5. For initial data along v = v1 , we require that the initial data are
+not super-charged, i.e.
+                              m(u, v1 ) ≥ |Q|(u, v1).                    (1.7)
+It is natural to consider initial data, which are not-super-charged, otherwise
+there could be non-physical super-charged naked singularity prescribed along
+v = v1 . At the same time, (1.7) also implies an important inequality used in
+the proof of Proposition 3.3.
+Lemma 1.4. Along v = v1 , condition (1.7) implies
+                             m           Q2
+                               (u, v1 ) ≥ 2 (u, v1 ).                          (1.8)
+                             r            r
+Proof. Since there is no MOTS or trapped surface along v = v1 , we have
+                  2m                               m             1
+                       (u, v1) ≤ 1, which gives (u, v1) ≤ .
+                   r                               r             2
+Together with the non-super charged condition, we also have
+                            |Q|           m             1
+                                (u, v1) ≤ (u, v1 ) ≤ .                  (1.9)
+                             r            r             2
+Then, we have
+                m            Q2           |Q|            Q2
+                  (u, v1) − 2 (u, v1) ≥       (u, v1 ) − 2 (u, v1 )
+                r             r            r              r
+                                          |Q|       |Q|
+                                        ≥     (1 −      )(u, v1 ) ≥ 0.
+                                           r          r
+For the last inequality, we used (1.9).                                    
+  The inequality (1.8) is crucial in proving Proposition 3.3. And all subsequent
+results in Section 3 depend on Proposition 3.3.
+
+                       2. Preliminaries and Set-up
+   To study the problem of trapped surface formation, we need to choose a con-
+venient coordinate system in which to express the Einstein field equations. We
+describe the double null coordinate system for spherically symmetric spacetimes
+in what follows.
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                      7
+
+                                      Γ
+
+
+
+
+                                (0, v1 )
+
+
+
+                                               C
+                                                             C
+
+                                           D(0, v1)   p : (u0 , v1 )
+
+
+
+
+                                    (u0 , 0)
+
+
+            Figure 1. Illustration of double null coordinate patch
+
+Definition 2.1. A spacetime (M, g) is called spherically symmetric if SO(3)
+acts on it by isometry, and the orbits of the group are (topological) 2-dimensional
+spheres S. We define the area-radius coordinate r(S) such that A = 4πr 2 ,
+where A is the area of the S determined by the induced metric g|S .3.
+   Under the assumption of spherical symmetry, a spacetime can be represented
+by a two-dimensional diagram by considering only the quotient M/S. Hence,
+a point on such diagram represents a 2-sphere in spacetime. There is no
+loss in generality by assuming that the outgoing (v coordinate) and incoming
+(u coordinate) null geodesics make 45-degree angles with the horizontal and
+vertical axes. Furthermore, it is possible to bring the points at infinity to a
+finite region through a conformal transformation, so that we can visualize the
+entire spacetime in a finite region. Such a representation of a spacetime is
+called a Penrose diagram.
+We now introduce the setup of the coordinate system, along with important
+points of interest on the Penrose diagram.
+
+   (1) Let Γ denote the axis of symmetry of the spacetime.
+   (2) Fix a point p on the penrose diagram. Label the incoming null geodesic
+       intersecting p by C, and the outgoing null geodesic intersecting p by
+       C. On the actual spacetime, C and C are therefore null hypersurfaces.
+   (3) Parametrize C with the variable u, and C by the variable v. At the
+       intersection of Γ and C, set u = 0. Extend C backwards until it
+       intersects Γ. At the intersection of Γ and C, we similarly set v = 0.
+       Fixing these values determines the coordinate of p, which we call (u0 , v).
+   (4) In the domain of dependence of C ∪ C, we can now establish a coor-
+       dinate system: through every point in the domain of dependence runs
+  3This definition for r implies that g|        2   2     2   2
+                                           S = r (dθ + sin θdφ )
+8                      XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+         an incoming and outgoing null geodesic emanating from C and C re-
+         spectively. Using the parameters u and v defined on C and C gives us
+         a coordinate for the point in question.
+     (5) Finally, let D(0, v1 ) denote the region in spacetime bounded by C, C
+         and Γ.
+
+  The construction above is illustrated in Figure 1. With respect to the double
+null coordinate system, the spherically symmetric metric can be expressed as
+
+
+
+              g = −Ω2 (u, v)dudv + r 2 (u, v)dθ2 + r 2 (u, v) sin2 θdφ2 .   (2.1)
+
+
+    We now define several useful geometric quantities:
+
+Definition 2.2. The Hawking mass m(u, v) contained inside a sphere S(u, v)
+is defined to be the quantity 2r (1 + 4Ω−2 ∂u r∂v r).
+
+Definition 2.3. We define the charge Q(u, v) contained in a sphere S(u, v) to
+be
+
+
+                                  Q := 2r 2 Ω−2 Fuv .                       (2.2)
+
+
+
+
+    Note: Fuv = ∂u Av − ∂v Au , where A is the electromagnetic potential.   (2.3)
+
+
+Due to gauge freedom in the electromagnetic potential, we can impose the
+condition Av ≡ 0. Hence the above definition becomes:
+
+
+                                   Fuv = −∂v Au .
+
+
+ By substituting the expression (2.1), (2.2) and (2.3) into the Einstein field
+equations and Maxwell equations, we arrive at the following system of equa-
+tions with dynamical real-valued unknowns r, Au and Ω2 , and complex-valued
+unknown φ. For a more comprehensive explanation of these variables, we refer
+to [16], from which the following Einstein-Maxwell-charged scalar field system
+has been obtained.
+           TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                      9
+
+
+
+                                               Ω2      Q2
+                                                         
+                       r∂v ∂u r + ∂v r∂u r = −      1− 2 ,             (2.4)
+                                               4       r
+                                                      1 Q2 1
+  r 2 ∂u ∂v log Ω = −2πr 2 Du φ(∂v φ)† + ∂v φ(Du φ)† − Ω2 2 + Ω2 + ∂u ∂v r,
+                                                        2 r  4
+                                                                       (2.5)
+                     ∂u (Ω−2 ∂u r) = −4πrΩ−2 Du φ(Du φ)† ,                  (2.6)
+                           −2                −2          †
+                      ∂v (Ω ∂v r) = −4πrΩ ∂v φ(∂v φ) ,                      (2.7)
+                   r∂u ∂v φ + ∂u r∂v φ + ∂v r∂u φ + eiΨ(A) = 0,             (2.8)
+                                                Ω2 Q
+                          Ψ(A) = Au ∂v (rφ) −        φ,                     (2.9)
+                                                4 r
+                              Q = −2r 2 Ω−2 ∂v Au ,                       (2.10)
+         ∂u Q = 2πeir 2 φ(Du φ)† − φ† Du φ = 4πer 2 Im φ† Du φ ,
+                                                               
+                                                                          (2.11)
+             ∂v Q = 2πeir 2 φ(∂v φ)† − φ† ∂v φ = 4πer 2 Im φ† ∂v φ ,
+                                                                 
+                                                                          (2.12)
+where Du := ∂u + ieAu , and e is the coupling constant between the scalar and
+electromagnetic field. It is worth noting that to reduce the above system into
+that of an uncharged scalar field, it suffices to set e = 0. Also, we can combine
+(2.8), (2.9) and (2.10), which gives us:
+
+                                                         Ω2 Q
+      r∂u ∂v φ + ∂u r∂v φ + ∂v r∂u φ + eiAu ∂v (rφ) − ei      φ=0
+                                                         4  r
+                                                                  QφΩ2
+                                                             
+       =⇒ ∂v (r∂u φ) + ∂u r∂v φ + ei Au ∂v (rφ) + rφ∂v Au = −ei
+                                                                   4r
+       =⇒ ∂v (r∂u φ) + ∂u r∂v φ + ei∂v (rφAu )
+                                     QφΩ2
+       = ∂v (rDu φ) + ∂v φ∂u r = −ei        .                             (2.13)
+                                       4r
+  The above system (2.4)-(2.13) is subject to initial conditions. There are two
+types of initial conditions to be considered:
+   (1) The first type of initial conditions are derived from geometrical consid-
+       erations and are independent of the physical scenario. On the center of
+       symmetry Γ, we must have r = 0. In addition, by the spherical sym-
+       metry assumption, as we consider points infinitesimally close to the
+       center, its incoming null geodesics essentially become outgoing (in the
+       opposite direction). Hence we require that ∂v r(u0 , 0) = −∂u r(u0, 0).
+       The evolution of r in the spacetime is then determined by equations
+       (2.4), (2.6), and (2.7).
+
+          On C ∪ C, we set Ω2 = 1. This amounts to fixing a normalization
+       for the coordinate system. The evolution of Ω2 in the coordinate patch
+       [u0 , 0] × [v1 , ∞) is then given by equation (2.5).
+10                     XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+     (2) The second type of initial conditions are those derived from quantities
+         such as the scalar field φ and electromagnetic potential Au . We can
+         prescribe initial data of φ freely on C ∪ C, which will completely de-
+         termine its first derivatives as C and C are characteristic hypersurfaces.
+
+           The electromagnetic potential Au along outgoing null hypersurfaces
+         can be determined through equation (2.10) up to an arbitrary constant,
+         which is in turn determined by (2.12). For completeness, it is worth
+         mentioning that there is no loss in generality in letting Au = 0 along Γ
+         due to gauge freedom, although we will not make use of this fact.
+
+  Using the above system of equations, we can compute the derivatives of the
+Hawking mass:
+                                      
+                  r         −2
+     ∂u m = ∂u (1 + 4Ω ∂u r∂v r)
+                  2
+             ∂u r
+           =      + 2∂u rΩ−2 ∂u r∂v r + 2r∂u (Ω−2 ∂u r)∂v r + 2rΩ−2 ∂u r∂u ∂v r
+              2
+             ∂u r
+           =      + 2∂u rΩ−2 ∂u r∂v r − 8πr 2Ω−2 ∂v r|∂u φ|2
+              2
+                               Ω2       Q2 
+                                                      
+                    −2
+             + 2Ω ∂u r −            1 − 2 − ∂v r∂u r
+                                4       r
+                                       Q2 ∂u r
+           = −8πr 2 Ω−2 ∂v r|Du φ|2 +       2
+                                                 ,                              (2.14)
+                                      2r
+                  r
+     ∂v m = ∂v (1 + 4Ω−2 ∂u r∂v r)
+                  2
+             ∂v r
+           =      + 2∂v rΩ−2 ∂u r∂v r + 2r∂v (Ω−2 ∂v r)∂u r + 2rΩ−2 ∂v r∂u ∂v r
+              2
+             ∂u r
+           =      + 2∂u rΩ−2 ∂u r∂v r − 8πr 2Ω−2 ∂u r|∂v φ|2
+              2
+                               Ω2       Q2 
+                                                      
+                    −2
+             + 2Ω ∂v r −           1 − 2 − ∂v r∂u r
+                               4        r
+                                       Q2 ∂v r
+           = −8πr 2 Ω−2 ∂u r|∂v φ|2 +          .                                (2.15)
+                                        2r 2
+  Finally, we define what is meant by a trapped surface.
+Definition 2.4. A trapped surface S in a spherically symmetric spacetime is
+a point (u, v) on the Penrose diagram (which represents a sphere) such that
+∂u r(u, v) < 0 and ∂v r(u, v) < 0. If ∂v r(u, v) = 0, we call (u, v) a marginally
+outer trapped surface (MOTS).
+  In the following, we will only focus on a narrow strip of the double null
+coordinate patch [u0 , 0] × [v1 , v2 ], for some v2 > v1 . We are going to give
+conditions under which trapped surface formation is guaranteed in this strip.
+We introduce:
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                           11
+
+                                 Γ
+
+
+                           (0, v1 )
+                                            R           (u0 , v2 )
+                                           u
+                                      D(0, v1 ) (u0 , v1 )
+                                               v
+
+
+                                (u0 , 0)
+
+                 Figure 2. Problem setup on Penrose Diagram
+
+
+
+                 ri (u) := r(u, vi ),      mi (u) := m(u, vi ),      i = 1, 2
+                                r2 (u)
+                          δ(u) :=       − 1, δ0 := δ(u0 )
+                                r1 (u)
+                             2(m2 (u) − m1 (u))
+                     η(u) :=                     , η0 := η(u0 )
+                                   r2 (u)
+                                           r2 (u)
+                                  x(u) :=                                         (2.16)
+                                           r2 (u0 )
+See Figure 2 for an illustration. Henceforth, any dynamical quantity (except
+for u and v) with the subscript {1, 2} shall be treated as a function of u with
+v = vi , i = {1, 2} fixed. Furthermore, denote the region [u0 , 0] × [v1 , v2 ] by R.
+
+
+   3. A Trapped Surface formation criterion for the Complex
+                          Scalar Field
+3.1. Outline. Before giving the complete proof, we briefly describe the main
+ideas.
+    (1) First, we prove that r(u, v) is decreasing with respect to u in Lemma
+                                                                    (u)
+        3.1, hence the dimensionless length scale x(u) := rr22(u      0)
+                                                                         decreases as u
+        increases, and x(u0 ) = 1.
+    (2) Then we employ a proof-by-contradiction argument: assuming that
+        D(0, v1 ) ∪ R does not have a trapped surface, we derive an inequality
+        for η in terms of x in the region [u0 , u∗] × [v1 , v2 ]. We further show that
+        dη                               dη
+        dx
+            is bounded from above, i.e. du  is bounded from below, and therefore
+        we get a lower bound on η(u∗).
+        If this lower bound is greater than 1, i.e., η(u∗ ) = 2(m2r−m    2
+                                                                            1)
+                                                                               (u∗ ) > 1,
+                    2m2
+        it implies r2 (u∗ ) > 1 and this means S(u∗ , v2 ) is a trapped surface.
+12                     XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+         Since (u∗ , v2 ) is a point in R, the above gives us the desired contradic-
+         tion.
+                                             dη
+     The key of above arguments is to bound du  . A direct computation gives:
+              η 16π∂v r2 Ω−2                Ω−2                     Q2
+                                                                 
+      dη                    2                1 ∂v r1 2
+         =− −                   2         2
+                               r2 |Du φ2 | − −2      r1 |Du φ1 | + 22 .
+                                                                2
+                                                                          (3.1)
+      dx     x       x∂u r2                 Ω2 ∂v r2                xr2
+We show in Lemma 3.4 that the non-supercharged assumption along v = v1
+allows us to show that Q22 /r22 remains bounded by η, plus a small error term.
+If η is large enough compared to Q22 /r22 , then the error can be absorbed into η.
+With the control of Q22 /r22 in terms of η, we further have
+                                                                       
+        2
+                                  2     −∂u r2                   1   1
+     Θ := r2 |Du φ2 | − r1 |Du φ1 .                  (m2 − m1 )     −        (3.2)
+                                      8πΩ−2  2 ∂v r2              r1 r2
+                                   Ω−2
+                                    2 ∂v r2
+                             and    −2      (u) . e−η(u) .                     (3.3)
+                                   Ω1 ∂v r1
+We can substitute (3.2) and (3.3) into (3.1), to obtain
+                                           
+            dη       η             δ0            1       δ0
+                .− 1−                         +                    .           (3.4)
+            dx       x      x(1 + δ0 ) − δ0      x x(1 + δ0 ) − δ0
+Integrating this will give us a lower bound on η(u) for u ∈ [u0 , u∗ ]. This
+                                                                        Q2
+ensures that for u ∈ [u0 , u′], η(u) is always large enough compared to r22 , so
+                                                                          2
+that the differential inequality is always valid in a neighbourhood of u′ , and
+hence the domain of validity of (3.4) can be extended to the whole [u0 , u∗ ].
+Finally, the inequality also shows that η(u∗) > 1, a contradiction to the no-
+trapped-surfaces assumption. Hence the initial assumption that D(0, v1 ) ∪ R
+has no trapped surfaces cannot be true and this completes the argument.
+
+
+3.2. Proof of Theorem 1.3. To begin the proof proper, we first give a (neg-
+ative) upper bound for ∂u r in the region [u0 , 0] × [v1 , ∞) as promised. The
+following lemma is the analog of Lemma 4.1 in the uncharged case. This has
+two important consequences described in the remarks.
+
+
+Lemma 3.1. ∂u r ≤ − 1−ǫ  2
+                                                                          
+                     2
+                        Ω  everywhere in D(0, v1 ) ∪ [u 0 , 0] × [v1 , ∞)  .
+Proof. Rewrite (2.4) as
+                                        Ω2    Q2
+                                                
+                                    
+                           ∂v r∂u r = −     1− 2 .
+                                        4      r
+Applying the assumption that ǫ < 1 and Ω2 = 1 on C, the following inequalities
+hold on C:
+                       1                       1 ǫ
+                     − ≤ ∂v (r∂u r)(u0 , v) ≤ − + .
+                       4                       4 4
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                              13
+
+Integrating both sides and dividing by r:
+                         v                         v(1 − ǫ)
+                    −           ≤ ∂u r(u0 , v) ≤ −            .                       (3.5)
+                      4r(u0, v)                    4r(u0 , v)
+For the first inequality of (3.5) at v = 0, we get
+              1                                                      1
+      −              ≤ ∂u r(u0 , 0) = −∂v r(u0 , 0) =⇒ ∂v r(u0 , 0) ≤ .               (3.6)
+        4∂v r(u0, 0)                                                 2
+Since Ω2 = 1 on C, (2.7) gives us ∂v ∂v r ≤ 0, i.e. r is concave with respect to
+v. Combining this with the fact that r(u0 , 0) = v(u0 , 0) = 0, we have:
+                                r
+                                  (u0 , v) ≤ ∂v r(u0 , 0).
+                                v
+Substituting this into the second inequality of (3.5), followed by applying (4.8),
+we get
+                                            1−ǫ            1−ǫ
+                      ∂u r(u0 , v) ≤ −                 ≤−      .
+                                         4∂v r(u0, 0)       2
+By (2.6), Ω−2 ∂u r is decreasing along incoming       null geodesics. Hence for a
+general point in D(0, v1 ) ∪ [u0 , 0] × [v1 , ∞) , we have Ω−2 ∂u r ≤ − 1−ǫ
+                                                
+                                                                         2
+                                                                            .  
+Remark 6. Under the assumptionof no trapped surfaces, m(u, v) ≥ 0 for all
+(u, v) ∈ D(0, v1 ) ∪ [u0 , 0] × [v1 , ∞)
+Proof. Given any point (u, v) ∈ R, we can extend the outgoing null geodesic
+backwards until it intersects Γ at some coordinate (u, vc ), so that r(u, vc ) = 0.
+Using (2.15), we have
+                                       2   −2   Q2 ∂v r
+                                                      2
+                     ∂v m = −8πr Ω ∂u r|∂v φ| +         .
+                                                 2r 2
+  Since ∂u r ≤ 0 by Lemma 3.1, and ∂v r > 0 by the no trapped surface
+assumption, we get ∂v m ≥ 0. Combining with the fact that m(u, vc ) = 0, we
+obtain the desired result.                                               
+3.3. Estimates for Q, r. In this section we will bound Q in terms of the
+Hawking mass in R, and show that ∂u ∂v r ≤ 0 under appropriate conditions.
+Obtaining a bound on Q will require a bound on rr12 , which in turn requires a
+bound on Q. Hence we will develop these bounds using a bootstrap argument.
+Proposition 3.2. Fix 0 < ω < 32 . Choose v2 − v1 sufficiently small satisfying
+(1.4) and (1.5). Let v1 < va ≤ v2 . Assume that rr21 (u)      (u)
+                                                                  ≤ 23 , i.e., δ(u) ≤ 12 for
+u ∈ [u0 , 0], and that R := [u0 , 0] × [v1 , v2 ] is free of trapped surfaces. Then the
+following inequality holds:
+                             Q2a (u)   ω          2Q21 (u)
+                                     ≤   ηa (u) +          ,
+                             ra2 (u)   4           r12 (u)
+where
+                                                         
+                                       2 ma (u) − m1 (u)
+                             ηa (u) :=                     .
+                                               ra
+14                       XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+Over here the subscript a indicates a quantity evaluated at the point (u, va ).
+Proof. We write Qa as the integral of its derivative:
+               Z va              2       Z va        2
+          2
+        Qa =         ∂v Q dv + Q1 ≤ 2            ∂v Q dv + 2Q21
+                    v1                                      v1
+                   Z va                      2
+             ≤2        4πe|φ||∂v φ|r 2 dv + 2Q21 , by applying (2.12)
+                   v1
+                      Z va             Z va
+                  2 2       2   2
+             ≤ 32π e       r |φ| dv ·       r 2 |∂v φ|2 dv + 2Q21 .                (3.7)
+                            v1               v1
+
+The second integral in the previous line can be bounded:
+                 Z va                Z va
+                        2     2           −8πr 2 Ω−2 ∂u r|∂v φ|2
+                      r |∂v φ| dv =                              dv
+                  v1                  v1       −8πΩ−2 ∂u r
+                            Z va
+                      1                  Q2 ∂v r       ma − m1
+              ≤                  ∂v m −      2
+                                                 dv ≤             ,                (3.8)
+                 4π(1 − ǫ) v1             2r          4π(1 − ǫ)
+where we applied Lemma 3.1 in the second last inequality to pull out the term
+Ω−2 ∂u r in the denominator, and used the assumption that ∂v r ≥ 0 for the last
+inequality. Next, we bound the first integral:
+  Z va             Z va  Z v                2
+        2    2             2           ′
+       r |φ| dv =        r     ∂v′ φ dv + φ1   dv
+     v1             v1             v1
+                         Z va  Z v                  2          
+               ≤ 2ra2            ∂v′ φ dv         ′              2
+                                                           + |φ1 | dv
+                          v             v1
+                         Z 1va      Z v                      
+                   2                             2  ′       2
+               ≤ 2ra       (v − v1 )      |∂v′ φ| dv + |φ1 | dv
+                       v1              v1
+                     Z va           Z v
+                                            −8πr 2 Ω−2 ∂u r|∂v φ|2
+                                                                                 
+                   2                                                    ′       2
+               ≤ 2ra       (v − v1 )                                 dv + |φ1 | dv
+                       v1              v1       −8πr 2 Ω−2 ∂u r
+                                          Z va Z v                      Z va
+                 2ra2(va − v1 ) 1 2                                   2
+               ≤                                            ′
+                                                    ∂v′ m dv dv + 2ra        |φ1 |2 dv,
+                       r12     8π 1 − ǫ v1 v1                             v1
+                 by Lemma 3.1
+                             2 Z va
+                  va − v1 ra
+               ≤                          (ma − m1 )dv + 2ra2 (va − v1 )|φ1 |2
+                 2π(1 − ǫ) r1         v1
+                             2
+                  va − v1 ra
+               ≤                   (va − v1 )(ma − m1 ) + 2ra2 (va − v1 )|φ1 |2 .
+                 2π(1 − ǫ) r1
+                                                                                    (3.9)
+
+Substituting (3.8) and (3.9) back into (3.7) and rearranging, we get
+                     2
+ 2   4e2 (va − v1 )2 ra               2   16πe2 2
+Qa ≤                     (m a − m 1 )   +      r (ma − m1 )(va − v1 )|φ1 |2 + 2Q21 .
+        (1 − ǫ)2     r1                   1−ǫ a
+             TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                                   15
+
+Dividing both sides by ra2 , we get
+                        2
+ Q2a    e2 (va − v1 )2 ra               8πe2 (va − v1 ) ra                              Q21
+                                                         
+                                  2                                          2
+      ≤                         η a  +                           (r 1 |φ 1 |   )η a + 2
+  ra2      (1 − ǫ)2       r1                1−ǫ            r1                           ra2
+              9e2                         12πLe2                             Q21
+                                                               
+                                  2                                                         ra   3
+      ≤             2
+                      (va −  v1 )   ηa +           (va −  v 1 )   ηa  +  2      2
+                                                                                  , since      ≤
+          4(1 − ǫ)                         1−ǫ                                r1            r1   2
+              9e2                       12πLe2                          Q21
+                                                           
+                                  2
+      ≤               (va −  v1 )   +           (va −  v1 )    ηa +   2        ,
+          4(1 − ǫ)2                      1−ǫ                            r12
+ where in the last inequality we have used the fact that ηa < 1. This is because
+the no trapped surface or MOTS assumption gives:
+                                      2(ma − m1 )      2ma
+                             ηa ≤                    ≤          < 1.
+                                           ra            ra
+                                                                   2
+Hence by the assumption (1.4) on v2 − v1 , we have Qr2a ≤ ω4 ηa + 2ǫ.                          
+                                                                  a
+
+  We wish to get rid of the ǫ term in the upper bound given by the previous
+proposition. This will be done in Lemma 3.4. For that, we will need the next
+proposition which is the equivalent of Proposition 4.2 in the uncharged case.
+This proposition is proven using a bootstrap argument.
+Proposition 3.3. Assume the initial data along C is not super-charged, and
+R is free of trapped surfaces. Then ∂u ∂v r ≤ 0 in [u0 , u∗ ] × [v1 , v2 ] and δ(u) :=
+                                                                           3δ0
+r2
+r1
+   − 1 ≤ 21 for u ∈ [u0 , u∗], where u∗ is defined such that x(u∗ ) = 1+δ     0
+                                                                                .
+                               3δ0
+                                    , 1] δ(y) ≤ 21 holds for y ∈ [x, 1] . We will aim
+                      
+Proof. Let x′ := inf x ∈ [ 1+δ    0
+                     3δ0
+to show that x′ = 1+δ   0
+                          . This proves the claim that δ(u) ≤ 12 for u ∈ [u0 , u8 ],
+as x is monotonically decreasing with respect to u.
+                                                   (x )   ′
+  Since we have δ(x′ ) ≤ 21 , it follows that rr12 (x       3
+                                                      ′ ) ≤ 2 and hence we can apply
+
+Proposition 3.2. Thus, for every x ∈ [x′ , 1], va ∈ [v1 , v2 ], we have
+             Q2            ω       2Q21          2Q21
+                (x, va ) ≤   η a +      ≤ ηa  +
+             r2            4        r2            r2
+                                               2
+                                                                  Q21
+                                                                     
+                           2ma 2m1 2Q1               2ma 2
+                         =       −      + 2 =           −    m1 −
+                             r       r      r         r   r       r
+                                             Q2
+                                                
+                           2ma 2
+                         =       −     m1 − 1 .
+                             r     r          r1
+By the non-supercharged assumption, (1.8) from Remark 5 tells us that m1 −
+Q21
+r1
+    ≥ 0. Hence we have
+                            Q2             2m
+                              2
+                                (x, va ) ≤    (x, va ).
+                            r               r
+Now we rewrite (2.4) into the following equivalent form:
+                                       Ω2 2m Q2
+                                                      
+                         ∂u ∂v r = −           −        .                                 (3.10)
+                                       4r r        r
+16                        XINLIANG AN∗1 AND ZHAN FENG LIM2
+                                              2
+Since we have just shown that 2m       r
+                                         ≥ Qr for x ∈ [x′ , 1], it follows that ∂u ∂v r ≤ 0
+in the region [u0 , u′ ] × [v1 , v2 ].
+
+     Integrating with respect to u, we get:
+
+                    ∂v r(u) − ∂v r(u0 ) ≤ 0 =⇒ ∂v r(u) ≤ ∂v r(u0).
+Integrating the last inequality above with respect to v, we obtain
+                r2 (u) − r1 (u) ≤ r2 (u0) − r1 (u0 ),     for all u ∈ [u0 , u′ ].
+Here u′ is defined so that x(u′ ) = x′ . We can use this to derive a bound for
+δ(u):
+               r2         r2 − r1              r2 (u0 ) − r1 (u0 )
+      δ(u) =      −1=                  ≤
+               r1     r2 − (r2 − r1 )    r2 (u) − (r2 (u0 ) − r1 (u0 ))
+                           δ0                 δ0
+                    ≤ r2 (u)      =                        ,   for all u ∈ [u0 , u′].
+                             − δ0     x(u)(1 +  δ 0 ) − δ0
+                          r1 (u0 )
+                 3δ0
+Hence, if x′ > 1+δ  0
+                      , we have δ(x′ ) < 3δ0δ−δ
+                                             0
+                                               0
+                                                 = 12 . By the continuity of the
+function δ(x), there exist some x′′ < x′ such that δ(x) < 21 for all x ∈ [x′′ , 1],
+which is a contradiction to infimum property of x′ . Therefore, we must have
+      3δ0
+x′ = 1+δ 0
+           .                                                                     
+
+Remark 7. Since all subsequent Lemmas and Propositions depend on Propo-
+sition 3.2, the non-supercharged hypothesis is necessary for all of them.
+                                     2
+  Recall that ǫ := supC Qr2 < 1. Combining Proposition 3.2 and Proposition
+3.3, we get the following lemma:
+Lemma 3.4. Assume that the initial data along C is not super-charged and
+that R is free of trapped surfaces. Then for every (u, va ) ∈ [u0 , u∗ ] × [v1 , v2 ],
+we have the following estimate for the charge:
+                                         Q2a  ω
+                                          2
+                                             ≤ ηa + 2ǫ.
+                                         ra   4
+                                         2
+Furthermore, if ηa ≥ 8ǫ
+                     ω
+                        , then Qr2a ≤ ω2 ηa .
+                                         a
+
+Proof. The first part of the lemma is almost proven: Since the hypothesis of
+this lemma satisfies that of Proposition 3.3, we have δ(u) ≤ 23 for all u ∈
+[u0 , u∗], which is the hypothesis of Proposition 3.2. This gives us the first part
+of the Lemma. The second part follows from a computation. ηa ≥ 8ǫ       ω
+                                                                            implies
+             ω
+that 2ǫ ≤ 4 ηa . Hence,
+                         Q2a  ω         ω    ω    ω
+                          2
+                             ≤ ηa + 2ǫ ≤ ηa + ηa = ηa .
+                         ra   4         4    4    2
+                                                                                        
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                                 17
+
+3.4. Estimates for Du φ, ∂v r. In this section, we will prove two lemmas which
+hold in the region [u0 , u∗] × [v1 , v2 ] under the premise that the region is free
+of trapped surfaces. These are the equivalents of Lemmas 4.3 and 4.4 in the
+uncharged case.
+
+Lemma 3.5. Define Θ := r2 |Du φ2 | − r1 |Du φ1 |. Suppose that the initial data
+along C is not super-charged and D(0, v1 ) ∪ R is free of trapped surfaces. If
+η ≥ 8ǫ
+    ω
+       , then
+
+                                                             
+                     2          ω   −∂u r2                1   1
+              Θ(u) ≤         1+              (m2 − m1 )     −     (u)
+                                2 8πΩ−2
+                                     2 ∂v r2              r1 r2
+
+
+for all u ∈ [u0 , u∗].
+
+Proof. By integrating equation (2.13), we get
+
+                                  2
+Θ2 = r2 |Du φ2 | − r1 |Du φ1 |
+                                       Z v2                                 2
+                              2                     QφΩ2
+    ≤ |r2 Du φ2 − r1 Du φ1 | =       −∂u r∂v φ − ie        dv
+                                  v1                   4r
+                Z v2               2              Z v2          2
+                                            1 2         QφΩ2
+    ≤ (1 + κ)        −∂u r|∂v φ|dv + 1 + e                    dv , for any κ > 0
+                 v1                         κ       v1    4r
+                                                                                      2
+      1 + κ v2
+                                         Z v2                           Z v2
+                                                  ∂u r            1 2       QφΩ2
+             Z
+                        2      −2    2
+    ≤             −8πr ∂u rΩ |∂v φ| dv         − 2 −2 dv + 1 + e                    dv ,
+        8π v1                              v1   r Ω               κ      v1    4r
+                                                                             (3.11)
+
+
+where we used Holder’s inequality for the last inequality.
+
+   We bound the first summand like how we did in Lemma 4.3. We bound the
+first integral of the first term:
+
+             Z v2                                     Z v2
+                         2        −2          2                        Q2 ∂v r
+                    −8πr ∂u rΩ |∂v φ| dv =                    ∂v m −           dv
+              v1                                                        2r 2
+                                                      Zv1v2
+                                                  ≤           ∂v m dv, since ∂v r > 0
+                                                       v1
+                                                  = m2 − m1 .                           (3.12)
+
+
+To bound the second integral of the first term, we apply Proposition 3.3 to
+get ∂v ∂u r ≤ 0, and hence ∂u r ≥ ∂u r2 . Also, equation (2.7) implies that
+Ω−2          −2
+ 2 ∂v r2 ≤ Ω ∂v r. Combining these two pieces of information, we have
+18                                XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+
+
+                              Z v2                  Z r2
+                                       ∂u r                  ∂u r
+                                     − 2 −2 dv =       − 2 −2         dr
+                                  v1  r Ω          r1     r Ω ∂v r
+                                                         Z r2
+                                                                    1
+                                                ≤ −∂u r2        2  −2
+                                                                           dr
+                                                           r1 r Ω ∂v r
+                                                             Z r2
+                                                   −∂u r2          1
+                                                ≤ −2                  dr
+                                                  Ω2 ∂v r2 r1 r 2
+                                                    ∂u r2     1      1
+                                                = −2              −      .                (3.13)
+                                                  Ω2 ∂v r2 r2 r1
+
+Substituting (3.12) and (3.13) back into (3.11) gives us:
+                                                        Z v2         2
+                                                             QφΩ2
+                                            
+           2     ∂u r2                 1   1       1 2
+Θ(u) ≤ (1 + κ)            (m2 − m1 )     −     + 1+ e             dv .
+               8πΩ−2
+                  2 ∂v r2              r2 r1       κ     v1   4r
+                                                                 (3.14)
+
+To bound the remaining integral, we apply the Cauchy-Schwarz inequality and
+Lemma 3.4:
+           Z v2               2                             2
+                    QφΩ2             1 v2 Q
+                                       Z
+                                                     1
+                         dv       =                r 2 φ dv
+
+               v1    4r              4 v1 r 32 Ω−2
+                                       Z v2 2                    Z v2
+                                     1      Q 1 1 1
+                                  ≤                         dv ·      r|φ|2dv
+                                    16 v1 r 2 r Ω−2 Ω−2           v1
+                                       Z r2                               Z v2
+                                     1      ω 1 1             −∂u r
+                                  ≤           ηa                       dr      r|φ|2dv.   (3.15)
+                                    16 r1 2 r Ω−2 ∂v r −Ω−2 ∂u r           v1
+
+
+We bound the first integral: by Proposition 3.3 we have ∂u ∂v r ≤ 0, which
+implies ∂u r2 ≤ ∂u r. And with Ω−2         −2
+                                2 ∂v r2 ≤ Ω ∂v r by (2.7), we derive
+
+     Z r2                                           Z r2
+               ω 1 1         −∂u r          −∂u r2         ω 2(ma − m1 ) 1       1
+                ηa                    dr ≤   −2                                        dr
+      r1       2 r Ω−2 ∂v r −Ω−2 ∂u r      Ω2 ∂v r2 r1 2           ra    r −Ω−2 ∂u r
+                                                            Z r2
+                                            −2ω ∂u r2                       1
+                                         ≤         −2            (m2 − m1 ) 2 dr,
+                                           1 − ǫ Ω2 ∂v r2 r1               r
+                                                                           1−ǫ
+                                           by Lemma 3.1, (Ω−2 ∂u r ≤ −            )
+                                                                            2 
+                                            −2ω ∂u r2                   1      1
+                                         =         −2      (m2 − m1 )      −
+                                           1 − ǫ Ω2 ∂v r2               r1 r2
+                                                                                   
+                                              2ω     ∂u r2                 1      1
+                                         =−                  (m2 − m1 )       −      .
+                                             1 − ǫ Ω−2
+                                                     2 ∂v r2              r1 r2
+                                                                                     (3.16)
+           TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                        19
+
+Now we bound the second integral:
+         Z v2           Z v2 Z v′             2
+                  2
+              r|φ| dv =     r     ∂v φ dv + φ1 dv ′
+              v1               v1        v1
+             Z v2  Z v′        2         
+                                        2
+          ≤2       r     ∂v φ dv + r|φ1| dv ′
+               v1        v1
+             Z v2            Z v′                     
+                      ′                  2           2
+          ≤2       r(v − v1 )      |∂v φ| dv + r|φ1 | dv ′
+               v1                   v1
+                Z v2             Z v′
+                                        −8πΩ−2 r 2 ∂u r|∂v φ|2
+                                                                            
+                                                                          2
+          ≤2r2         (v2 − v1 )                  −2     2
+                                                                dv + |φ1 | dv ′
+                 v1                 v1      −8πΩ ∂u rr
+                Z v2                  Z v′                   
+                         2(v2 − v1 )                        2
+          ≤2r2                      2
+                                            ∂v m dv + |φ1 | dv ′
+                 v      (1 − ǫ)8πr1 v1
+                Z 1v2                                     
+                           v2 − v1                       2
+          =2r2                      2
+                                      (m2 − m1 ) + |φ1 | dv ′
+                 v1     (1 −  ǫ)4πr 1
+           r22 (v2 − v1 )2 2(m2 − m1 )
+          ≤ 2                              + 2r2 (v2 − v1 )|φ1 |2 .
+           r1 4π(1 − ǫ)          r2
+Using the no trapped surface or MOTS assumption, we have 2(m2r−m      2
+                                                                          1)
+                                                                             = η < 1.
+                    r2    3
+Using Lemma 3.3, r1 ≤ 2 . Hence we have:
+     Z v2
+                     9(v2 − v1 )2                                 1−ǫ
+          r|φ|2dv ≤               + 2r2 (u0)(v2 − v1 )|φ1 |2 ≤ ω        ,      (3.17)
+      v1             16π(1 − ǫ)                                  320e2π
+where we use the assumption in (1.5).
+  Substituting (3.16) and (3.17) back into (3.15), we get
+          Z v2          2
+               QφΩ2             ω2
+                                                                 
+                                       ∂u r2                1   1
+                     dv ≤ −                    (m2 − m1 )     −     .
+           v1    4r           160e2 π Ω−2
+                                       2 ∂v r2              r1 r2
+Now, set κ = ω4 in (3.14) and utilize the inequality above:
+                                                       
+         2        ω  −∂u r2                    1     1
+       Θ ≤ 1+                     (m2 − m1 )       −
+                  4 8πΩ−2 2 ∂v r2              r1 r2
+                     4  ω 2 −∂u r2
+                                                             
+                                                      1    1
+            + 1+                        (m2 − m1 )      −
+                     ω 160π Ω−2 2 ∂v r2               r1 r2
+                                                                  
+                   ω    ω               −∂u r2                 1   1
+           = 1 + + (4 + ω)                        (m2 − m1 )     −     .
+                   4 20              8πΩ−22 ∂v r2              r1 r2
+Using the assumption that ω < 23 , we have ω + 4 < 5, and therefore
+                                                                 
+              2       ω 5ω  −∂u r2                       1     1
+            Θ ≤ 1+ +                         (m2 − m1 )      −
+                      4    20 8πΩ−2  2 ∂v r2              r1 r2
+                                                          
+                       ω    −∂u r2                  1      1
+                = 1+                   (m2 − m1 )       −     .
+                       2 8πΩ−22 ∂v r2               r1 r2
+                                                                                  
+20                          XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+Lemma 3.6. Assume that η ≥ 8ǫ        ω
+                                       , the initial data along C is not super-
+charged, and D(0, v1 ) ∪ R is free of trapped surfaces. Then
+
+                                 Ω−2
+                                  2 ∂v r2             ω
+
+                                  −2      (u) ≤ e−(1− 2 )η(u)
+                                 Ω1 ∂v r1
+for all u ∈ [u0 , u∗].
+
+Proof. Dividing both sides of equation (2.6) by Ω−2 ∂v r and integrating from
+v1 to v2 , we get
+                                             −2              Z v2
+                                                                   r|∂v φ|2
+                                                      
+            −2               −2              Ω2 ∂v r2
+       ln |Ω2 ∂v r2 | − ln |Ω1 ∂v r1 | = ln             = −4π               dv
+                                             Ω−2
+                                              1 ∂v r1          v1    ∂v r
+By equation (2.15) and the definition of the Hawking mass, we have
+
+                 1          Q2 ∂v r    −8πr 2 Ω−2 ∂u r   2πr|∂v φ|2
+                     ∂v m −           =                 =            .
+              r − 2m         2r 2       −4rΩ−2 ∂u r∂v r     ∂v r
+Hence for any u ∈ [u0 , u∗ ],
+
+                               Z v2
+              Ω−2                                     Q2 ∂v r 
+                       
+                2 ∂v r2                  1
+           ln             = −2                ∂v m  −           dv
+              Ω−2
+                1 ∂v r1         v1 r − 2m              2r 2
+                Z v2
+                     1         Q2 ∂v r       −2 v2              Q2 ∂v r 
+                                                  Z
+           ≤ −2         ∂v m −          dv ≤           ∂ v m  −            dv
+                 v1 r           2r 2          r2 v1                2r 2
+              2(m2 − m1 )      2 r2 Q2                 2 r2 Q2
+                                Z                         Z
+           =−               +              dr = −η +                dr.
+                    r2        r2 r1 2r 2              r2 r1 2r 2
+By Lemma 3.4, we have
+                            Q(u, v)2    ω 2(m(u, v) − m(u, v1 ))
+                                    2
+                                      ≤                          .
+                            r(u, v)     2        r(u, v)
+Hence,
+                   Z r2                 Z r2
+              2           Q2         ω       2(m(u, v) − m(u, v1 ))
+                               dr ≤                                 dr
+              r2    r1    2r 2      2r2 r1          r(u, v)
+                                       m2 − m1     r2  ω       3     ω
+                                  ≤ ω·          ln     ≤ ln         η ≤ η.
+                                          r2       r1      2    2      2
+Combining the above estimates, we get:
+                          −2              
+                          Ω2 ∂v r2         ω
+                      ln             ≤− 1−    η.
+                          Ω−2
+                           1 ∂v r1         2
+Exponentiating both sides of the above inequality gives us the desired result.
+                                                                            
+           TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                        21
+
+
+
+
+                            η
+
+                    η≥1
+
+
+
+
+                   η = η0
+
+                  η = 12ǫ
+                       ω
+
+
+
+                                                               x
+                                x = x∗          x=1
+
+          Figure 3. Idea of proof of Lemma 3.7 and Theorem 1.3
+
+3.5. The proof of Theorem 1.3. We are finally ready to prove a lower bound
+    dη
+on du  . The presence of charge case poses some difficulties not present in the
+uncharged case. This is because in order to apply Lemma 3.4, 3.5 and 3.6, we
+need to ensure that the η > 8ǫ ω
+                                 assumption always hold to get a lower bound
+    dη                                                          dη
+on du  . On the other hand, we exactly need this lower bound on du to prove the
+                       8ǫ
+assumption that η > ω . Hence we need to do this using a bootstrap argument
+again.
+
+   We will in fact prove something a little stronger: we show that η(u) ≥ 12ǫ    ω
+for u ∈ [u0 , u∗ ]. We use a bootstrap argument to prove this in Lemma 3.7: As-
+suming that the differential inequality holds for all u ∈ [u0 , u′], where u′ < u∗ ,
+then η(u) ≥ 12ǫ ω
+                    holds in a slightly larger region as well.
+
+
+Lemma 3.7. Assume that the region D(0, v1 ) ∪ R is free of trapped surfaces
+and the initial data along C is not    super-charged.   Then if η0 ≥ 13ǫ
+                                                                      ω
+                                                                         + gω (δ0 ),
+                  12ǫ                 3δ0
+                                           
+we have η(x) ≥ ω for all x(u) ∈ 1+δ0 , 1 . Over here, gω (x) is defined as:
+                             1− ω
+            1 + ω2
+                                                                              
+                      1       2 2             1          1− ω2  2       1    2
+  gω (x) :=                           + 1+ ω           x       − x−         x .
+            1 − ω2 (1 + x)2     ω       2 2 (1 + ω2 )           ω    1 + ω2
+                                                                            (3.18)
+
+Proof. We define u′ := sup{u ∈ [u0 , u∗ ] η(s) ≥ 12ǫ
+                                                   ω
+                                                     for all s ∈ [u0 , u]}. We are
+                      ′                        3δ0
+going to show that u = u∗, where x(u∗ ) = 1+δ0 . A sketch of this is provided
+in figure 3.
+                dη
+   We calculate dx . The following computations holds for all u ∈ [u0 , u∗ ]:
+22                          XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+
+
+                                                                                 
+ dη    dη dx       r2 (u0 )         2∂u r2                   2
+     =          =             −             (m2 − m1 ) + ∂u (m2 − m1 )
+ dx    du du        ∂u r2             r22                    r2
+    η     2                                                                        Q22 ∂u r2 Q21 ∂u r1
+=− +          (−8πr22 Ω−22  ∂ v r 2 |D u φ 2 | 2
+                                                 + 8πr 2 −2
+                                                        Ω
+                                                       1 1  ∂ v r 1 |D u φ 1 | 2
+                                                                                 +          −          )
+    x x∂u r2                                                                         2r22       2r12
+    η 16π∂v r2 Ω−2                         Ω−2                             Q2
+                                                                   
+                  2                            1 ∂v r1 2
+≤− −                     2           2
+                        r2 |Du φ2 | − −2              r1 |Du φ1 | + 22 ,
+                                                                  2
+    x      x∂u r2                          Ω2 ∂v r2                       xr2
+                           Q2 ∂u r1
+    where we used that 12               ≥ 0.                                                (3.19)
+                           xr1 ∂u r2
+
+   Now we focus our attention on the region [u0 , u′]. Since η ≥ 12ǫ
+                                                                   ω
+                                                                      ≥ 8ǫ
+                                                                        ω
+                                                                           in
+  ′
+[x , 1], we can use Lemma (3.6) to bound the factor in the second term:
+
+                   Ω−2
+                    1 ∂v r1 2                                    ω
+ r22 |Du φ2 |2 −    −2      r1 |Du φ1 |2 ≤ r22 |Du φ2 |2 − eη(1− 2 ) r12 |Du φ1 |2
+                   Ω2 ∂v r2
+                                                                                     ω
+                                           = Θ2 + 2Θ|Du φ1 |r1 + (1 − eη(1− 2 ) )r12 |Du φ1 |2 .
+
+The last expression, being a quadratic in Θ, can be bounded by a monic
+quadratic polynomial in Θ:
+
+                                                                                 
+      2                                η(1− ω2 )                           1
+     Θ + 2Θ|Du φ1 |r1 + (1 − e                     )r12 |Du φ1 |2 ≤
+                                                                  1 + η(1− ω )      Θ2
+                                                                     e     2 − 1
+                                                                               
+                                                                         1
+                                                                ≤ 1+              Θ2 , (3.20)
+                                                                     η(1 − ω2 )
+
+where we used the fact that η(1 − ω2 ) ≥ 0 in the second inequality. Then (3.20)
+combined with (3.19) gives:
+
+                        η 16π∂v r2 Ω−2                       Q22
+                                                     
+                   dη               2          1         2
+                      ≤− −              1+             Θ   +      .
+                   dx   x    x∂u r2        η(1 − ω2 )        xr22
+
+Applying Lemma 3.5, we have
+
+                                                       Q22
+                                              
+          dη   η η     ω          1         r2
+             ≤− +   1+     1+                  − 1   +      .                             (3.21)
+          dx   x x     2      η(1 − ω2 )    r1         xr22
+
+Using Proposition 3.3, we get
+
+                r2 (u) − r1 (u)              r2 (u0 ) − r1 (u0 )               δ0
+δ(u) =                               ≤                                =                    .
+          r2 (u) − (r2 (u) − r1 (u))   r2 (u) − (r2 (u0 ) − r1 (u0 ))   x(u)(1 + δ0 ) − δ0
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                                23
+
+Combining with (3.21), and using Lemma (3.4) to bound the term involving
+Q, we obtain
+                                             1 + ω2 1                   Q22
+                                        
+   dη          ω         δ0           1                    δ0
+      ≤η 1+                         −      +                         +
+   dx           2 x2 (1 + δ0 ) − xδ0 x       1 − ω2 x x(1 + δ0 ) − δ0 xr22
+                                             1 + ω2 1
+                                        
+               ω         δ0           1                    δ0          ηω
+      ≤η 1+         2
+                                    −      +     ω                   +
+                2 x (1 + δ0 ) − xδ0 x        1 − x x(1 + δ0 ) − δ0 x 2
+                                              2 ω
+                                                  1+ 2 1
+            
+          η      ω         ω       δ0                           δ0
+      =− 1− − 1+                               +       ω                  .
+          x      2         2 x(1 + δ0 ) − δ0      1 − 2 x x(1 + δ0 ) − δ0
+                                                            1+ ω
+Defining g(x) := 1 − ω2 − 1 + ω2 x(1+δδ00 )−δ0 and f (x) := 1− ω2 x(1+δδ00 )−δ0 , we obtain
+                                
+                                                                2
+the following differential inequality which holds for all x ∈ [x′ , 1]:
+                               dη    g(x) f (x)
+                                  +η     −      ≤ 0.
+                               dx     x     x
+To solve this differential inequality, we multiply by an integrating factor to
+get:
+                       R                      R 1 g(s) f (x)
+                    d    − x1 s ds
+                              g(s)
+                        e            η(x) − e− x s ds            ≤0
+                   dx                                        x
+                      R                t=1 Z 1 R
+                       − t1 s ds
+                           g(s)                         1 g(s) f
+              =⇒ e                 η(t)      ≤     e− t s ds dt + C,
+                                         t=x   x               t
+where C can be chosen to be any value which
+                                        R 1 makes the inequalityR 1hold at the
+initial point x = 1. Also denote G(x) := x g(s)
+                                            s
+                                                ds and F (x) :=  x
+                                                                    e−G(s) f
+                                                                           s
+                                                                             ds.
+In this notation, we get
+
+                            η0 − e−G(x) η(x) ≤ F (x) + C.
+
+Since η0 = η(x)|x=1 by definition, and F (1) = G(1) = 0, setting C = 0
+makes the inequality tight. Hence, in the interval [x′ , 1], we conclude that the
+following inequality holds:
+
+                                η0 − e−G(x) η(x) ≤ F (x)                               (3.22)
+
+  Now we compute explicit expressions for G(x) and F (x):
+
+                     1 − ω2    1 + ω2
+                Z 1
+                                              δ0
+       G(x) =               −                          ds
+                  x     s         s s(1 + δ0 ) − δ0
+                     1 − ω2    1 + ω2     (1 + ω2 )(1 + δ0 )
+                Z 1
+              =             +          −                     ds
+                  x     s         s        s(1 + δ0 ) − δ0
+                                              1                           1+ ω2 
+                               s2                          x(1 + δ0 ) − δ0
+                                                      
+              = ln                     1+ ω2     = ln                             .
+                       s(1 + δ0 ) − δ0          x                  x2
+24                     XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+
+
+                                                1 + ω2
+         Z 1                                Z 1
+                       s2           f                            δ0 s
+F (x) =                       1+ ω2 ds =            ω                    2+ ω
+                                                                               ds
+           x  s(1 + δ0 ) − δ0       s        x 1 − 2 (s(1 + δ0 ) − δ0 )      2
+
+
+   1 + ω2 δ0
+                 Z 1
+                         s(1 + δ0 ) − δ0                 δ0
+=      ω                               2+ ω +                       ω ds
+   1 − 2 1 + δ0 x (s(1 + δ0 ) − δ0 ) 2         (s(1 + δ0 ) − δ0 )2+ 2
+   1 + ω2 δ0
+                 Z 1
+                               1                         δ0
+=      ω                               1+ ω +                       ω ds
+   1 − 2 1 + δ0 x (s(1 + δ0 ) − δ0 ) 2         (s(1 + δ0 ) − δ0 )2+ 2
+                                                                                 1
+   1 + ω2
+                     
+             δ0          2          1               1               δ0
+=                      −                    ω −                            ω
+   1 − ω2 (1 + δ0 )2     ω s(1 + δ0 ) − δ0 2      1 + ω2 s(1 + δ0 ) − δ0 1+ 2 x
+   1 + ω2
+                                                                                           
+             δ0        2         1              2       1              δ0              δ0
+=                                        ω − +                                 ω −         .
+   1 − ω2 (1 + δ0 )2 ω x(1 + δ0 ) − δ0 2        ω 1 + ω2 x(1 + δ0 ) − δ0 1+ 2        1 + ω2
+
+Observe that F (x) is monotonically decreasing and hence obtains its maximum
+        3δ0                     3δ0
+at x = 1+δ 0
+             on the interval [ 1+δ 0
+                                     , 1]. Therefore,
+                                             1− ω
+                        1 + ω2
+                                                                                       
+               3δ0                   δ0      2 2 − ω2    2           1         −ω   δ0
+F (x) ≤ F             =                            δ − + 1+ ω                 δ −
+                                                                                2
+
+             1 + δ0     1 − ω2 (1 + δ0 )2      ω 0       ω 2 2 (1 + ω2 ) 0        1 + ω2
+                                             1− ω
+                        1 + ω2
+                                                                                              
+                                      1        2 2           1          1− ω2   2      1     2
+                      =                               + 1+ ω           δ0 − δ0 −           δ
+                        1 − ω2 (1 + δ0 )2        ω     2 2 (1 + ω2 )            ω    1 + ω2 0
+                      = gω (δ0 ).
+Substituting the expressions for F (x) and G(x) into (3.22), for all x ∈ [x′ , 1],
+we get
+  η(x) ≥ eG(x) η0 − F (x)
+                            
+                   1+ ω2
+   x(1 + δ0 ) − δ0
+≥
+           x2
+                                 1− ω
+              1 + ω2
+                                                                               
+                          1         2 2             1          1− ω 2     1 2
+     · η0 −                                  + 1+ ω           δ0 − δ0 −
+                                                                  2
+                                                                              δ
+              1 − ω2 (1 + δ0 )2       ω        2 2 (1 + ω2 )        ω   1 + ω2 0
+                   1+ ω2
+   x(1 + δ0 ) − δ0                         
+=                         · η0 − g ω (δ0 )   .                              (3.23)
+           x2
+For the last identity, we use the definition of gω (x) in (3.18).
+                                  x2
+ Since ω < 23 implies that             1+ ω is monotonically increasing, we get:
+                                (x(1+δ0 )−δ0 )
+                                          2
+
+
+                                                 x2
+                            sup                         1+ ω2 = 1.
+                         x∈[x∗ ,1]    x(1 + δ0 ) − δ0
+Combining this with the hypothesis that
+                                            13ǫ
+                                     η0 >       + gω (δ0 ),
+                                             ω
+           TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                            25
+
+we obtain the inequality:
+                 13ǫ              13ǫ        x2
+            η0 >     + gω (δ0 ) ≥                    ω + gω (δ0 )
+                  ω                ω x(1 + δ0 ) − δ0 1+ 2
+for x ∈ [x′ , 1]. Substituting the above into (3.23) gives us:
+                                  13ǫ
+                          η(x) ≥      , for all x ∈ [x′ , 1].
+                                   ω
+However, by the continuity of η(x), we can find x′′ < x′ such that η(x) ≥ 12ǫω
+                                                                               for
+          ′′                  12ǫ                 ′′
+all x ∈ [x , 1], i.e. η(u) ≥ ω for all u ∈ [u0 , u ], contradicting the supremum
+property of u′ .                                                                
+  We are now ready to prove the main theorem of this paper.
+Proof. (Theorem 1.3) We prove the theorem by contradiction. Suppose that R
+contains no trapped surfaces or MOTS, in particular ∂v r2 > 0 for u ∈ [u0 , u∗ ].
+Then Lemma 3.5 applies and (3.22) holds for x ∈ [x∗ , 1]. Rearranging (3.22)
+gives us
+          η0 ≤ e−G(x) η(x) + F (x) < e−G(x) + F (x), for all x ∈ [x∗ , 1]
+where we used the assumption that η(x) = 2(m2r−m  2
+                                                      1)
+                                                         ≤ 2m
+                                                            r2
+                                                               2
+                                                                 < 1 in the second
+                                                3δ0
+inequality. In particular, by letting x = x∗ = 1+δ0 , we get:
+                                                 x2∗
+               e−G(x∗ ) + F (x∗ ) ≤                     1+ ω2 + gω (δ0 )
+                                      x∗ (1 + δ0 ) − δ0
+                                            9          1− ω
+                                    = 1+ ω           δ0
+                                                          2
+                                                            + gω (δ0 ),
+                                     2 2 (1 + δ0 )2
+                          9         1− ω
+and hence η0 <    1+ ω            δ0
+                                       2
+                                         + gω (δ0 ), giving us the desired contradiction.
+                 2   2   (1+δ0 )2
+                                                                                      
+
+                                     4. Appendix
+4.1. Trapped Surface Formation for the Einstein Scalar Field. Here
+we provide a proof of Christodolou’s sharp trapped surface formation criterion
+as in [9]. In the case for the real scalar field, the system of equations (2.4) to
+(2.12) is reduced to
+                                                    Ω2
+                               r∂v ∂u r + ∂v r∂u r = −  ,                          (4.1)
+                                                     4
+                            ∂u (Ω−2 ∂u r) = −4πrΩ−2 |∂u φ|2,                       (4.2)
+                            ∂v (Ω−2 ∂v r) = −4πrΩ−2 |∂v φ|2 ,                      (4.3)
+                           r∂u ∂v φ + ∂u r∂v φ + ∂v r∂u φ = 0.                     (4.4)
+  Also, the derivatives of the Hawking mass become:
+                            ∂u m == −8πr 2 Ω−2 ∂v r|∂u φ|2 ,                       (4.5)
+                              ∂v m = −8πr 2 Ω−2 ∂u r|∂v φ|2 .                      (4.6)
+26                     XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+     For convenience, we restate theorem 1.1 here.
+Theorem 1.1. Define the function
+                                           
+                             x          1
+                 E(x) :=            ln    +5−x .
+                          (1 + x)2     2x
+Consider the system (1.1) with characteristic initial data along u = u0 and
+v = v1 . For initial mass input η0 along u = u0 , if the following lower bound
+holds:
+                                   η0 > E(δ0 ),
+then a trapped surface Su,v , with properties ∂v r(u, v) < 0 and ∂u r(u, v) < 0,
+forms in the region [u0 , u∗ ] × [v1 , v2 ] ⊂ R.
+   In this section, we will first give a few technical estimates to the dynamical
+quantities in the strip [u0 , 0] × [v1 , v2 ]. These will be used in the proof for
+Theorem 1.1. We start off by showing that ∂u r is negative and bounded away
+from 0.
+Lemma 4.1. ∂u r ≤ − 21 Ω2 everywhere in D(0, v1 ) ∪ [u0 , 0] × [v1 , ∞)
+                                                                         
+
+Proof. Rewrite (4.1) as
+                                                Ω2
+                                  ∂v r∂u r = − .
+                                                  4
+             2
+Note that Ω = 1 along C. Integrating both sides from 0 to v and dividing by
+r:
+                                    v
+                            −              = ∂u r(u0, v).               (4.7)
+                                4r(u0 , v)
+Setting v = 0 in the above gives us
+              1                                                      1
+      −              = ∂u r(u0 , 0) = −∂v r(u0 , 0) =⇒ ∂v r(u0 , 0) = . (4.8)
+        4∂v r(u0, 0)                                                 2
+Since Ω2 = 1 on C as well, (4.3) gives us that ∂v ∂v r ≤ 0, i.e. r is concave with
+respect to v. Combining this with the fact that r(u0, 0) = v(u0 , 0) = 0, we
+have:
+                              r
+                                (u0 , v) ≤ ∂v r(u0 , 0).
+                              v
+Hence,
+                                   r            1
+                                     (u0 , v) ≤ .
+                                   v            2
+Substitute this into (4.7), we get
+                                                  1
+                                 ∂u r(u0, v) ≤ − .
+                                                  2
+            −2
+By (4.3), Ω ∂u r is decreasing along incoming           null geodesics. Hence for a
+general point in D(0, v1 ) ∪ [u0 , 0] × [v1 , ∞) , we have Ω−2 ∂u r ≤ − 21 .
+                                                
+                                                                                 
+                                                                         
+Remark 8. m(u, v) ≥ 0 for all (u, v) ∈ D(0, v1) ∪ [u0 , 0] × [v1 , ∞)
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                          27
+
+Proof. Given any point (u, v) ∈ R, we can extend the outgoing null geodesic
+backwards until it intersects Γ at some coordinate (u, vc ), so that r(u, vc ) = 0.
+Using (4.6), we have
+                              ∂v m = −8πr 2 Ω−2 ∂u r|∂v φ|2 ,
+and since ∂u r ≤ 0 by Lemma 4.1, we get that ∂v m ≥ 0. Combining with the
+fact that m(u, vc ) = 0, we obtain the desired result.                 
+  Next, we show that the mixed derivative of r is always negative. This places
+a upper bound on the growth on the ratio rr12 .
+Proposition 4.2. Assume that D(0, v1) ∪ R is free of trapped surfaces. Then
+i) ∂u ∂v r ≤ 0 in R and ii) δ(x) := rr21 − 1 ≤ 21 for u ∈ [u0 , u∗].
+Proof. We rewrite (4.1) into the following equivalent form:
+                                         Ω2 m
+                                    ∂u ∂v r = −.                         (4.9)
+                                          2 r2
+Since m ≥ 0, the right side of the above equation is non-positive. This proves
+the first part of the lemma.
+
+  Integrating with respect to u, we get:
+
+                  ∂v r(u) − ∂v r(u0 )≤ 0 =⇒ ∂v r(u) ≤ ∂v r(u0).
+Integrating the above inequality with respect to v,
+               r2 (u) − r1 (u) ≤ r2 (u0 ) − r1 (u0 ), for all u ∈ [u0 , u∗ ].
+Hence, we can use the above inequality to compute a bound for δ(u):
+            r2         r2 − r1              r2 (u0 ) − r1 (u0 )
+   δ(u) =      −1=                  ≤
+            r1     r2 − (r2 − r1 )    r2 (u) − (r2 (u0 ) − r1 (u0 ))
+                        δ0                 δ0
+                 ≤ r2 (u)      =                       ,    for all u ∈ [u0 , u∗],
+                          − δ0     x(u)(1 + δ0 ) − δ0
+                       r1 (u0 )
+                                                                                (4.10)
+                                                    3δ0
+where x(u) := r2 (u)/r2 (u0 ). Recall r2 (u∗ ) := 1+δ  0
+                                                         · r2 (u0 ) and since x(u) is
+monotonically decreasing, we have
+                                       3δ0
+                   x(u) ≥ x(u∗ ) =            for u ∈ [u0 , u∗],
+                                     1 + δ0
+and hence
+                               δ0   1
+                     δ(u) ≤       = for all u ∈ [u0 , u∗ ].
+                              2δ0   2
+                                                                                   
+   Next we prove two key lemmas. In the first one we bound the difference in
+r∂u φ between v = v1 and v = v2 . Then in the second we bound the ratio of
+∂v r between v = v1 and v = v2 .
+28                            XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+Lemma 4.3. Define Θ := r2 ∂u φ2 − r1 ∂u φ1 . Suppose that D(0, v1) ∪ R is free
+of trapped surfaces. Then
+                                                       
+                     2     ∂u r2                 1    1
+                Θ(u) ≤              (m2 − m1 )     −      (u)
+                         8πΩ−2
+                            2 ∂v r2              r2 r1
+for all u ∈ [u0 , u∗].
+Proof. We can write the wave equation (4.4) as
+                                    ∂v (r∂u φ) = −∂u r∂v φ.
+By integrating the above equation, we get
+                                      2
+             Θ2 = r2 ∂u φ2 − r1 ∂u φ1
+                     Z v2             2      Z v2               2
+                 =        −∂u r∂v φdv ≤            −∂u r|∂v φ|dv
+                      v1                       v1
+                       Z v2                           Z v2
+                    1             2      −2      2             ∂u r
+                 ≤          −8πr ∂u rΩ |∂v φ| dv ·          − 2 −2 dv    (4.11)
+                   8π v1                                v1   r Ω
+where we have applied Holder’s inequality for the last inequality.
+  The first integral can be written in terms of the hawking mass:
+                   Z v2                             Z v2
+                             2      −2       2
+                         −8πr ∂u rΩ |∂v φ| dv =          ∂v m dv
+                         v1                                  v1
+                                                      = m2 − m1 .        (4.12)
+  To bound the second integral, we apply Proposition 4.2 to get ∂v ∂u r ≤ 0,
+and hence ∂u r ≥ ∂u r2 . Also, equation (4.3) implies that Ω−2            −2
+                                                               2 ∂v r2 ≤ Ω ∂v r.
+Combining these two pieces of information, we have
+       Z v2               Z r2                          Z r2
+               ∂u r                 ∂u r                         1
+            − 2 −2 dv =        − 2 −2       dr ≤ −∂u r2       2  −2
+                                                                       dr
+        v1    r Ω           r1   r Ω ∂v r                r1 r Ω ∂v r
+                                   Z r2
+                            −∂u r2       1        ∂u r2     1     1
+                        ≤ −2              2
+                                            dr = −2           −           (4.13)
+                          Ω2 ∂v r2 r1 r          Ω2 ∂v r2 r2 r1
+Substituting (4.12) and (4.13) back into (4.11) gives us the desired result. 
+Lemma 4.4. Assume that D(0, v1) ∪ R is free of trapped surfaces. Then
+                                     Ω−2
+                                      2 ∂v r2
+                                      −2      (u) ≤ e−η(u)
+                                     Ω1 ∂v r1
+for all u ∈ [u0 , u∗].
+Proof. Dividing both sides of equation (4.3) by Ω−2 ∂v r and integrating from
+v1 to v2 , we get
+                                            −2              Z v2
+                                                                  r|∂v φ|2
+                                                     
+            −2              −2              Ω2 ∂v r2
+      ln |Ω2 ∂v r2 | − ln |Ω1 ∂v r1 | = ln             = −4π               dv.
+                                            Ω−2
+                                             1 ∂v r1          v1    ∂v r
+By equation (4.6) and the definition of the Hawking mass, we have
+                      ∂v m   −8πr 2 Ω−2 ∂u r|∂v φ|2   2πr|∂v φ|2
+                           =                        =            .
+                    r − 2m     −4rΩ−2 ∂u r∂v r          ∂v r
+           TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                         29
+
+                               η
+
+                       η≥1
+
+
+
+
+                      η = η0
+
+
+
+
+                                                                 x
+                                    x = x∗          x=1
+
+                       Figure 4. Idea of Proof of Theorem 1.1
+
+
+  Hence for any u ∈ [u0 , u∗ ]
+
+                                        Z v2               Z v2
+                    Ω−2
+                              
+                     2 ∂v r2                  ∂v m              1
+           ln                      = −2            dv ≤ −2        ∂v m dv
+                    Ω−2
+                     1 ∂v r1             v1 r − 2m          v1 r
+                                     −2 v2              2(m2 − m1 )
+                                        Z
+                                   ≤        ∂v m dv = −              = −η
+                                     r2 v1                  r2
+Exponentiating both sides of the above inequality gives us the desired result.
+                                                                            
+  Now we are ready to prove Theorem 1.1.
+                                                                               (u)
+Proof. (Theorem 1.1) We consider the dimensionless length scale x(u) := rr22(u   0)
+                                                                                    .
+                                                                              dη
+Note that x decreases as u increases and x(u0 ) = 1. We will show that dx is
+                            dη
+bounded from above, i.e. du    is bounded from below, and hence obtain a lower
+bound for η(u∗ ). If this lower bound is greater than 1, this implies S(u∗ , v2 ) is
+a trapped surface, for
+
+                    2(m2 − m1 )              2m2
+       η(u∗ ) =                 (u∗ ) > 1 =⇒     (u∗ ) > 1
+                        r2                    r2
+                                          =⇒ S(u∗ , v) is a trapped surface.
+See Figure 4 for an illustration.
+
+  To be precise, we prove a Gronwall-like inequality under the assumption
+that there is no trapped surface formed before u∗ . In particular, we assume
+that ∂v r2 (u) > 0 for all u ∈ [u0 , u∗ ]. We show that this assumption will lead
+30                            XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+to a contradiction.
+
+   Assuming that ∂v r2 (u) > 0 for all u ∈ [u0 , u∗ ], the following chain of identi-
+ties hold in the region [u0 , u∗ ] × [v1 , v2 ]:
+                                                                                
+       dη     dη dx       r2 (u0 )        2∂u r2                2
+           =           =             −           (m2 − m1 ) + ∂u (m2 − m1 )
+       dx     du du        ∂u r2            r22                 r2
+                η      2
+           =− +            (−8πr22 Ω−2                 2       2 −2             2
+                                       2 ∂v r2 |∂u φ2 | + 8πr1 Ω1 ∂v r1 |∂u φ1 | )
+               x x∂u r2
+                η 16π∂v r2 Ω−2                      Ω−2
+                                                                         
+                                2      2         2     1 ∂v r1 2        2
+           =− −                       r2 |∂u φ2 | − −2        r |∂u φ1 | .          (4.14)
+               x        x∂u r2                      Ω2 ∂v r2 1
+     Using Lemma 4.4, we can bound the factor in the second term:
+        2         2 Ω−2
+                     1 ∂v r1 2
+       r2 |∂u φ2 | − −2      r1 |∂u φ1 |2 ≤ r22 |∂u φ2 |2 − eη r12 |∂u φ1 |2
+                    Ω2 ∂v r2
+                                          = Θ2 + 2Θ∂u φ1 r1 + (1 − eη )r12 |∂u φ1 |2 .
+  The last expression, being a quadratic in Θ, can be bounded by a monic
+quadratic polynomial in Θ:
+                                                                           
+          2                                                     1           1
+      Θ       + 2Θ∂u φ1 r1 + (1 − e )r12 |∂u φ1 |2 ≤
+                                     η
+                                                        1+            2
+                                                                     Θ ≤ 1+     Θ2 ,
+                                                             eη − 1         η
+since η ≥ 0. This last inequality combines with (4.14) to give:
+
+                                  η 16π∂v r2 Ω−2
+                                                      
+                             dη               2      1
+                                ≤− −              1+    Θ2 .
+                             dx   x    x∂u r2        η
+     Applying Lemma 4.3, we have
+                                             
+                 dη      η   2      1    1    1
+                    ≤− −         1+         −    (m2 − m1 )
+                 dx      x x        η    r2 r1
+                                           
+                         η η        1    r2
+                    =− +        1+          −1 .                                          (4.15)
+                        x x         η    r1
+Using (4.10) we get
+                      r2 − r1              r2 (u0 ) − r1 (u0 )              δ0
+              δ=                   ≤                                =                 .
+                   r2 − (r2 − r1 )   r2 (u) − (r2 (u0 ) − r1 (u0 ))   x(1 + δ0 ) − δ0
+Combining the above with (4.15), we obtain
+                                        
+            dη             δ0          1           δ0
+               ≤η 2                  −     + 2                .
+           dx       x (1 + δ0 ) − xδ0 x     x (1 + δ0 ) − xδ0
+Defining g(x) := 1 − x(1+δδ00 )−δ0 and f (x) := x(1+δδ00 )−δ0 , we obtain the following
+differential inequality:
+                                    dη    g(x) f (x)
+                                       +η     −      ≤ 0.
+                                    dx     x     x
+            TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                            31
+
+To solve this differential inequality, we multiply by an integrating factor then
+integrate with respect to x:
+                       R                          R 1 g(s) f (x)
+                    d     − x1 s ds
+                                g(s)
+                        e             η(x) − e− x s ds              ≤0
+                   dx                                          x
+                      R                   x′ =1 Z 1 R
+                        − x1′ s ds
+                              g(s)                           1 g(s)   f
+               =⇒ e                     ′
+                                     η(x )        ≤       e− x′ s ds ′ dx′ .
+                                            x′ =x      x              x
+                     R 1 g(s)                     R 1 −G(x′ ) f ′
+We denote G(x) := x s ds and F (x) := x e                     x′
+                                                                 dx . In this notation, we
+get
+          η0 − e−G(x) η(x) ≤ F (x) =⇒ η(x) ≥ eG(x) − F (x) + η0 .
+                                                                              
+
+Hence, in the region [u0 , u∗ ] × [v1 , v2 ] free of trapped surfaces, we conclude that
+the following inequality holds:
+                             η(x) ≥ eG(x) (−F (x) + η0 ).                          (4.16)
+  Now, we compute explicit expressions for G(x) and F (x):
+                       Z 1
+                           1 1           δ0
+              G(x) =          −                   ds
+                         x s    s s(1 + δ0 ) − δ0
+                       Z 1
+                           1 1            1 + δ0
+                     =        + −                    ds
+                         x s    s s(1 + δ0 ) − δ0
+                                            1
+                                  s2
+                                                                      
+                                                        x(1 + δ0 ) − δ0
+                     = ln                       = ln
+                            s(1 + δ0 ) − δ0 x                x2
+               Z 1                       Z 1
+                         s2      f                    δ0 s
+      F (x) =                      ds =                         2
+                                                                  ds
+               x s(1 + δ0 ) − δ0 s        x (s(1 + δ0 ) − δ0 )
+                     Z 1
+                δ0              1                    δ0
+            =                            +                     ds
+              1 + δ0 x s(1 + δ0 ) − δ0 (s(1 + δ0 ) − δ0 )2
+                                            1                                1
+                                                        δ02
+                            
+                 δ0                                                  1
+            =            ln s(1 + δ0 ) − δ0      −
+              (1 + δ0 )2                       x   (1 + δ0 )2 s(1 + δ0 ) − δ0 x
+                                                                           
+                 δ0                 1                       1            
+            =              ln                   + δ0                   −1 .
+              (1 + δ0 )2      x(1 + δ0 ) − δ0          x(1 + δ0 ) − δ0
+Using the assumption that there is no trapped surface or MOTS, we have
+η(x) = 2(m2r−m
+            2
+               1)
+                  ≤ 2mr2
+                         2                3δ0
+                           < 1 for x ∈ [ 1+δ 0
+                                               , 1]. Rearranging (4.16) results in
+                                                                             
+              −G(x)                   −G(x)                            3δ0
+      η0 ≤ e        η(x) + F (x) < e          + F (x), for all x ∈          ,1 .
+                                                                     1 + δ0
+                                       3δ0
+In particular, we can substitute x = 1+δ  0
+                                             into the above equation and get
+                                                              
+                                   δ0              1 
+                 η0 < E(δ0 ) =              log        + 5 − δ0 .
+                               (1 + δ0 )2         2δ0
+This gives us the desired contradiction.                                               
+32                    XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+4.2. A Special Case of Minkowskian incoming characteristic initial
+data. Prescribe Minkowskian data along v = v1 , we can improve the lower
+bound required on η0 in Theorem 1.1.
+Theorem 1.2. Assume that Minkowskian data are prescribed along v = v1
+and require φ(u, v1 ) = 0. Suppose that the following lower bound on η0 holds:
+                                              9
+                                      η0 > δ0 ,
+                                              2
+then there exist a MOTS or a trapped surface in [u0 , u∗ ] × [v1 , v2 ] ⊂ R, i.e.
+∂v r ≤ 0 at some point in [u0 , u∗ ] × [v1 , v2 ].
+Proof. (Theorem 1.2) In this special case, we have φ1 ≡ 0 and m1 ≡ 0. Equa-
+tion (4.14) now reads:
+                      dη   η 16π∂v r2 Ω−2
+                                       2
+                         =− −             r22 |∂u φ2 |2 ,
+                      dx   x    x∂u r2
+and we also have
+                                Θ2 = r22 |∂u φ2 |2 .
+Combining the above equations, followed by applying Lemma 4.3, we get:
+               η 16π∂v r2 Ω−2
+                                                      
+       dη                    2   2     η    2 1      1
+           =− −                Θ ≤− −             −      (m2 − m1 )
+       dx      x      x∂u r2           x x r2 r1
+                                                     
+                                       η η r2
+                                    =− +          −1
+                                       x x r1
+                                       η η         δ0
+                                    ≤− +                   .
+                                       x x x(1 + δ0 ) − δ0
+Integrating the above inequality:
+     Z 1         Z 1                              Z 1
+         1             1 1          δ0                 2     1 + δ0
+           dη ≤      − +                     ds =     − +                ds
+      x η         x    s s s(1 + δ0 ) − δ0         x   s s(1 + δ0 ) − δ0
+                                      x2
+                                            
+                 η0
+      =⇒ ln            ≤ ln
+                η(x)           x(1 + δ0 ) − δ0
+                             2
+                           x
+      =⇒ η0 ≤ η(x)                    .
+                      x(1 + δ0 ) − δ0
+Under the assumption of no trapped surfaces or MOTS, we have η(x) < 1 for
+           3δ0
+all x ∈ [ 1+δ 0
+                , 1], hence
+                                 x2
+                                                                    
+                                                              3δ0
+                       η0 ≤                 , for all x ∈          ,1 .
+                            x(1 + δ0 ) − δ0                 1 + δ0
+                             3δ0
+In particular, choosing x = 1+δ 0
+                                  we have
+                                        9
+                                  η0 ≤ δ0 .
+                                        2
+This gives us the desired contradiction to the hypothesis.                     
+             TRAPPED SURFACE FORMATION IN SPHERICAL SYMMETRY                                  33
+
+                                       References
+[1] X. An, Formation of Trapped Surfaces from Past Null Infinity, arXiv:1207.5271.
+[2] X. An, J. Luk, Trapped surfaces in vacuum arising dynamically from mild incoming
+     radiation, Adv. Theor. Math. Phys. Volume 21 (2017), no.1, 1-120.
+[3] X. An, A scale-critical trapped surface formation criterion: a new proof via signature
+     for decay rates, 55 pages, preprint (2019).
+[4] X. An, R. Zhang, Polynomial Blow-Up Upper Bounds for the Einstein-
+     Scalar Field System Under Spherical Symmetry, Commun. Math. Phys. (2020).
+     https://doi.org/10.1007/s00220-019-03677-0.
+[5] X. An, D. Gajic, Curvature blow-up rates in spherically symmetric gravitational collapse
+     to a Schwarzschild black hole, arXiv:2004.11831.
+[6] H. Andréasson, Black hole formation from a complete regular past for collisionless mat-
+     ter, Ann. Henri Poincaré 13 (2012) 1511-1536.
+[7] H. Andréasson, G. Rein, Formation of trapped surfaces for the spherically symmetric
+     Einstein-Vlasov system, J. Hyperbolic Differ. Equ. 7 (2010) 707-731.
+[8] A. Burtscher, P. LeFloch, The formation of trapped surfaces in spherically-symmetric
+     Einstein-Euler spacetimes with bounded variation J. Math. Pures Appl. 102 (2014)
+     1164-1217.
+[9] D. Christodoulou, The formation of black holes and singularities in spherically sym-
+     metric gravitational collapse, Comm. Pure Appl. Math. 44 (1991), no. 3, 339-373
+[10] D. Christodoulou, Bounded variation solutions of the spherically symmetric Einstein-
+     scalar field equations, Comm. Pure Appl. Math. 46 (1993), no. 8, 1131–1220.
+[11] D. Christodoulou, Examples of naked singularity formation in the gravitational collapse
+     of a scalar field, Ann. of Math. (2) 140 (1994), no. 3, 607–653.
+[12] D. Christodoulou, The instability of naked singularities in the gravitational collapse of
+     a scalar field, Ann. of Math. (2) 149 (1999), no. 1, 183–217.
+[13] J.L. Costa, The formation of trapped surfaces in the gravitational collapse of spherically
+     symmetric scalar fields with a positive cosmological constant, arXiv:2005.03434.
+[14] M. Dafermos, Stability and instability of the Cauchy horizon for the spherically sym-
+     metric EinsteinMaxwell-scalar field equations, Ann. of Math. 158 (2003), 875-928.
+[15] M. Dafermos, The Interior of Charged Black Holes and the Problem of Uniqueness in
+     General Relativity, Comm. Pure Appl. Math. 58 (2005), 0445-0504.
+[16] J. Komemmi, The Global Structure of Spherically Symmetric Charged Scalar Field
+     Spacetimes, Comm. Math. Phys. 323 (2013), no. 1, 35-106.
+[17] J. Liu, J. Li, A robust proof of the instability of naked singularities of a scalar field in
+     spherical symmetry, Comm. Math. Phys. 363 (2018), no. 2, 561-578.
+[18] J. Luk, S.-J. Oh, Strong Cosmic Censorship in Spherical Symmetry for two-ended
+     Asymptotically Flat Initial Data I. The Interior of the Black Hole Region, Annals of
+     Math., 190 (2019), 1-111.
+[19] G. Moschidis, A proof of the instability of AdS for the Einstein-massless Vlasov system,
+     arXiv:1812.04268 (2018).
+[20] G. Moschidis, A proof of the instability of AdS for the Einstein-null dust system with
+     an inner mirror, Analysis & PDE (to appear), arXiv:1704.08681 (2017).
+[21] M. Van de Moortel, Stability and instability of the sub-extremal Reissner-Nordström
+     black hole interior for the Einstein-Maxwell-Klein-Gordon equations in spherical sym-
+     metry, Commun. Math. Phys. (2018) 360: 103.
+[22] M. Van de Moortel, The breakdown of weak null singularities inside black holes,
+     arXiv:1912.10890.
+[23] M. Van de Moortel, Mass inflation and the C 2 -inextendibility of spherically symmetric
+     charged scalar field dynamical black holes, arXiv:2001.11156.
+34                      XINLIANG AN∗1 AND ZHAN FENG LIM2
+
+     1
+  Department of Mathematics, National University of Singapore, 10
+Lower Kent Ridge Road, Singapore, 119076
+     E-mail address: matax@nus.edu.sg
+     2
+  Department of Mathematics, National University of Singapore, 10
+Lower Kent Ridge Road, Singapore, 119076
+     E-mail address: zflim@u.nus.edu
+

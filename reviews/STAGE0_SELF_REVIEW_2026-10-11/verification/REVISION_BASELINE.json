@@ -1,0 +1,18 @@
+{
+  "revision": "v2",
+  "review_date": "2026-10-11",
+  "previous_artifacts": [
+    {
+      "filename": "RECCVS_Stage0_Dependency_Audit_2026-10-11.md",
+      "sha256": "5cd83cc9c7db492dea27823c4da701465697ae4865d33d6f52ff39850bc3775e"
+    },
+    {
+      "filename": "RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "sha256": "c87e76f1effca9061a37a23df1381acb07758f9e211040e89962a180aae9f319"
+    }
+  ],
+  "scope": "dependency registration and hypothesis/source review",
+  "original_source_modified": false,
+  "remote_commit_observed": false,
+  "new_mathematical_result_claimed": false
+}

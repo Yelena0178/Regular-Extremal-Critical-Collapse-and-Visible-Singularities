@@ -1,0 +1,215 @@
+\section{固定有限阶的精确非线性提升}\label{sec:lift}
+\subsection{参数域与基本平均公式}
+固定 $K,T,z_c$ 及小闭参数球。另取 $\tau\in[\tau_-,\tau_+]\Subset(0,\infty)$，定义
+\begin{equation}\label{eq:scales}
+L=mT,\qquad\delta=\tau/L,\qquad t_-=e^{-L},\qquad
+\Phi(t)=\sqrt\delta\,z_c(-\log t).
+\end{equation}
+本节一次参数导数是对 $c$ 的实、虚坐标或 $\tau$ 求导，统记为 $\partial_\vartheta$；在求导前固定整数 $m$，所以 $L$、$t_-$ 均不随参数移动。各常数可依赖已固定的 $K,T$、参数紧集及下面的权重损失，但不能依赖 $m$。
+
+对\eqref{eq:riccati}求参数导数得
+\begin{equation}\label{eq:qparameter}
+(q_\vartheta)_x+(1-2q)q_\vartheta
+=\delta_\vartheta E+\delta E_\vartheta.
+\end{equation}
+$\delta_c=0$、$\delta_\tau=1/L=\delta/\tau$，而 $1-2q\ge1/2$，故稳定积分核给 $q_\vartheta=O(\delta)$。对\eqref{eq:q-p}求导进一步得
+\begin{equation}\label{eq:qp-C1}
+q=\delta p+O_{C^1(c,\tau)}(\delta^2)\qquad(x\ge0).
+\end{equation}
+$p$ 是周期稳态解加一个指数衰减瞬态；稳态均值为 $\bar E$，故 $\int_0^xp=\bar E x+O_{C^1}(1)$。在 $0\le x\le L$，$\delta^2x=O(L^{-1})$，所以
+\begin{equation}\label{eq:Raverage}
+R(x)=e^{-\bar E\tau x/L}\bigl(1+O_{C^1}(L^{-1})\bigr).
+\end{equation}
+特别地 $R,R^{-1}$ 及其一次参数导数在整个有限脉冲上一致有界。
+
+对 $C-\bar C$ 的有界周期原函数分部积分，应用\eqref{eq:Raverage}，得到
+\begin{equation}\label{eq:JLaverage}
+J_L=\frac{\bar C}{2\bar E}(1-e^{-2\bar E\tau})+O_{C^1}(L^{-1}).
+\end{equation}
+参数求导产生的权重仍是有界的 $x/L$ 倍数，故误差保持 $C^1$。主项有统一正下界，因而
+\begin{equation}\label{eq:Ecal}
+e_L=\E(c,\tau)+O_{C^1}(L^{-1}),\qquad
+\E(c,\tau)=\frac{\lambda(c)}{1-e^{-2\bar E_c\tau}}.
+\end{equation}
+直接积分也给
+\begin{align}
+|r-1|+|Q-1|+|\partial_\vartheta r|+|\partial_\vartheta Q|
+&\le C\min(\delta x,1),\label{eq:base-difference}\\
+|r_t|+|Q_t|+|\partial_\vartheta r_t|+|\partial_\vartheta Q_t|
+&\le C\delta/t.\label{eq:base-derivative}
+\end{align}
+这里 $Q=Q_L$。我们没有使用全长 $R\to1$；事实上 $R(L)$ 有非平凡极限。
+
+\subsection{带权类与闭合规则}
+\begin{definition}[有限阶带权控制]
+在 $[t_-,1]$ 上，称 $f\in\Bcal_j$，若对每个足够小的固定 $\eta>0$，存在与 $m$ 无关的 $C_\eta$ 使
+\begin{equation}\label{eq:weighted-class}
+|f|+|\partial_\vartheta f|+t|f_t|+t|\partial_\vartheta f_t|
+\le C_\eta t^{j-\eta}.
+\end{equation}
+$f\in\delta\Bcal_j$ 表示右侧另乘 $\delta$。若只讨论某代数量而不取其 $t$ 导数，使用相应的值范数版本。
+\end{definition}
+
+固定有限次运算满足以下规则。
+\begin{enumerate}
+\item $\Bcal_a\Bcal_b\subset\Bcal_{a+b}$。证明时给各因子分配 $\eta/2$；任意有限个因子同理。
+\item 若 $f\in\delta\Bcal_j$ 的值范数类且 $j\ge0$，则
+\[
+\int_{t_-}^tf(s)\dd s\in\delta\Bcal_{j+1},
+\]
+因为可取 $\eta<j+1$，积分上界为 $C\delta t^{j+1-\eta}/(j+1-\eta)$。参数导数在固定积分区间内交换；$t$ 导数由微积分基本定理给出。
+\item 对固定 $j>0$、$p\ge0$，初始常数 $O_{C^1}(t_-^j\delta^{-p})$ 属于 $\delta\Bcal_j$。最坏点 $t=t_-$ 的比值为 $\delta^{-p-1}e^{-\eta L}$，一致有界并趋零。
+\item 若 $(rf)_t=S$，$r,r^{-1}$ 及其参数导数有界且 $r_t\in\delta\Bcal_{-1}$，则由积分规则和乘积规则得到同样的带权控制。
+\end{enumerate}
+这里“对每个小 $\eta$”使有限乘积可以分配损失。\eqref{eq:base-difference}中 $x\le C_\eta e^{\eta x}$ 吸收对数，所以基底为
+\begin{equation}\label{eq:base-B}
+r-1,Q-1,r^{-p}-1\in\delta\Bcal_0,\quad
+r_t,Q_t\in\delta\Bcal_{-1},\quad f_0=z_c(-\log t)\in\Bcal_0.
+\end{equation}
+
+\subsection{每一级的精确三角输运系统}
+对任意场 $b$，记 $b_j=\partial_U^jb|_{U=0}$、$\mathcal J_n[b]=\partial_U^nb|_{U=0}$。它可用截断 Taylor 多项式 $\sum b_jU^j/j!$ 计算，乘法规则为
+\begin{equation}\label{eq:jetproduct}
+\mathcal J_n[ab]=\sum_{i=0}^n\binom ni a_i b_{n-i}.
+\end{equation}
+逆半径及 $e^\ell$ 的系数由有限次乘法、求逆、复合得到；分母只有 $r_0$ 的幂。因为 $r_0$ 有统一正下界，这些操作和一次参数导数都受控。
+
+以下用 $A$ 简记 $A_U$，令 $f_j=\delta^{-1/2}\partial_U^j\Phi|_{U=0}$。在第 $n$ 步，已知 $r,Q,\ell,f$ 至 $n$ 阶及 $A$ 至 $n-1$ 阶。依次进行下列五步。
+
+\paragraph{第一步：半径。}
+令 $X_n=\mathcal J_n[rr_U]$。由\eqref{eq:radius}，
+\begin{align}
+(X_n)_t&=\tfrac14\mathcal J_n[e^\ell(-1+Q^2/r^2)],\label{eq:Xtransport}\\
+r_{n+1}&=\frac1r\left[X_n-
+\sum_{i=1}^n\binom ni r_i r_{n-i+1}\right].\label{eq:rrecover}
+\end{align}
+第二式中的求和只含已知阶数，先积分 $X_n$ 再恢复 $r_{n+1}$。
+
+\paragraph{第二步：电势。}
+\begin{equation}\label{eq:Atransport}
+(A_n)_t=-\tfrac12\mathcal J_n[e^\ell Q/r^2].
+\end{equation}
+右侧只用几何 $n$ 阶量。
+
+\paragraph{第三步：标量。}
+将唯一最高未知量单独移到左侧，得到
+\begin{equation}\label{eq:ftransport}
+(f_{n+1})_t+(r_t/r)f_{n+1}=S_n,
+\end{equation}
+其中
+\begin{equation}\label{eq:source}
+\begin{aligned}
+S_n={}&-\sum_{a=1}^n\binom na\mathcal J_a[r_t/r]f_{n-a+1}
+-\mathcal J_n[(r_U/r)f_t]\\
+&+\frac{ie_L}{4}\mathcal J_n[(e^\ell Q/r^2)f]
+-ie_L\mathcal J_n[A(r_t/r)f+Af_t].
+\end{aligned}
+\end{equation}
+最高半径 $r_{n+1}$ 和电势 $A_n$ 已在前两步求出。积分因子为 $r$。
+
+\paragraph{第四步：电荷。}
+\begin{equation}\label{eq:Qrecover}
+Q_{n+1}=-e_L\delta\mathcal J_n
+\left[r^2\Imn\{f\overline{f_U+ie_LAf}\}\right].
+\end{equation}
+这是由 Maxwell 横向约束得到的代数恢复，使用刚算出的 $f_{n+1}$。
+
+\paragraph{第五步：lapse。}
+\begin{equation}\label{eq:ltransport}
+\begin{aligned}
+(\ell_{n+1})_t=\mathcal J_n\biggl[&\frac{e^\ell}{2r^2}
++\frac{2r_Ur_t}{r^2}-\frac{e^\ell Q^2}{r^4}\\
+&-2\delta\Ren\{(f_U+ie_LAf)\overline{f_t}\}\biggr].
+\end{aligned}
+\end{equation}
+右侧全部已知。这五步是精确方程，不是形式展开；依赖关系无循环。约束相容性由完整球面数据输运保持。
+
+\subsection{初始条件与背景差分归纳}
+比较背景取\eqref{eq:throat}，其标量 $f_*$ 为耦合 $\E(c,\tau)$ 的线性解，输入为 $f_{*,0}=z_c(-\log t)$，正阶横向导数从 $t=0$ 起取零。由第\ref{sec:linear}节，
+\begin{equation}\label{eq:background-B}
+f_{*,j},\ell_{*,j}\in\Bcal_j,\quad
+A_{*,j}\in\Bcal_{j+1},\quad r_{*,j}=Q_{*,j}=0\ (j\ge1).
+\end{equation}
+首两个量在 $j=0$ 的解释分别为输入与 $\ell_{*,0}=0$。
+
+真实初球选平直双仿射规范的 Minkowski 数据。在 $t=t_-$，
+\begin{equation}\label{eq:initialjets}
+r_1=-\frac{t_-}{4q(L)R(L)},\quad r_j=0\ (j\ge2),
+\quad f_j=\ell_j=Q_j=0\ (j\ge1),\quad A_j=0\ (j\ge0).
+\end{equation}
+势的零值通过规范选取，且 $\ell_0=0$。由\eqref{eq:qpositive}，$q(L)\ge a\delta$。因此 $r_1(t_-)=O_{C^1}(t_-/\delta)$；$X_1(t_-)=r_1(t_-)^2=O_{C^1}(t_-^2/\delta^2)$。其余初值由有限乘积决定，都属于带权规则中的 $t_-^j\delta^{-p}$ 型。背景的正阶初值为 $O_{C^1}(t_-^j)$，故所有初始差都被第三级规则吸收。
+
+\begin{lemma}[参数一致的有限阶差分估计]\label{lem:jetdifference}
+对 $1\le j\le K$，在固定参数域上，
+\begin{equation}\label{eq:jetdifference}
+\begin{gathered}
+r_j,Q_j\in\delta\Bcal_j,\qquad
+\ell_j-\ell_{*,j}\in\delta\Bcal_j,\\
+A_{j-1}-A_{*,j-1}\in\delta\Bcal_j,\qquad
+f_j-f_{*,j}\in\delta\Bcal_j.
+\end{gathered}
+\end{equation}
+所有估计包含一次实参数导数。
+\end{lemma}
+\begin{proof}
+基底为\eqref{eq:base-B}与 $\ell_0=\ell_{*,0}=0$。赋予 $r,Q,e^\ell,f$ 的第 $j$ 个横向导数权重次数 $j$，$A_j$ 次数 $j+1$；$t$ 导数降低一次。以下逐式核对第 $n$ 步。
+
+在\eqref{eq:Xtransport}中，背景的 $-1+Q_*^2/r_*^2$ 恒零。减背景后，每个非零乘积至少含一个已控的 $r$ 或 $Q$ 差分，故源属于 $\delta\Bcal_n$ 的值范数类。积分后 $X_n\in\delta\Bcal_{n+1}$。\eqref{eq:rrecover}中的低阶乘积次数为 $n+1$，且至少含一项小差分，因而 $r_{n+1}\in\delta\Bcal_{n+1}$；$t$ 导数直接由该公式和输运方程给出。
+
+在\eqref{eq:Atransport}中，$e^\ell Q/r^2$ 与背景的第 $n$ 个系数之差是有限个含一项几何差分的乘积，属于 $\delta\Bcal_n$。积分得 $A_n-A_{*,n}\in\delta\Bcal_{n+1}$。
+
+对\eqref{eq:ftransport}减去完整背景方程。$r_t/r$ 是 $\delta\Bcal_{-1}$，移至源的 $(r_t/r)f_{*,n+1}$ 属于 $\delta\Bcal_n$。\eqref{eq:source}的第一、二类项含 $r_t$ 或 $r_U$ 的差；第三、四类项的差至少含 $e_L-\E=O_{C^1}(\delta)$、几何差、电势差、已控的标量差中的一项。各项总次数均为 $n$。使用积分因子 $r$，得到 $f_{n+1}-f_{*,n+1}\in\delta\Bcal_{n+1}$。
+
+\eqref{eq:Qrecover}显含因子 $\delta$，且 $f_U+ie_LAf$ 的次数为一，其第 $n$ 个导数总次数为 $n+1$，故 $Q_{n+1}\in\delta\Bcal_{n+1}$。若需其 $t$ 导数，直接对这一有限代数式求导；每项仍保持相应次数。
+
+对 lapse，必须先减去\eqref{eq:throat}的完整方程。背景中前后两项的和是 $-e^{\ell_*}/2$，不是零。正确相减后，真空部分的每项差均至少含一项已控几何差；$r_Ur_t$ 在背景为零；标量部分显含 $\delta$。全部源属于 $\delta\Bcal_n$。积分得 $\ell_{n+1}-\ell_{*,n+1}\in\delta\Bcal_{n+1}$。
+
+每一行仅有固定有限次乘积，可先给因子分配更小的 $\eta$，使总损失仍小于一；所有 $n\ge0$ 的源均可积。初始差由\eqref{eq:initialjets}及指数小量规则处理。对参数求导后，同一有限乘积论证仍成立：$\partial_\tau\delta=\delta/\tau$，$e_L$ 及其导数有界，$r$ 的积分因子及其导数有界，且积分下端不移动。这样在函数值、$t$ 导数及一次参数导数上同时闭合归纳。
+\end{proof}
+
+将普通导数换成协变导数是有限三角多项式。其系数由 $e_L$、$A$ 的低阶导数构成，保持上述次数。由引理\ref{lem:jetdifference}，在 $t=1$ 得到端点映射
+\begin{equation}\label{eq:endpoint-C1}
+F_L^{(K)}(c,\tau):=
+\delta^{-1/2}(D_U\Phi,\ldots,D_U^K\Phi)(0,1)
+=T_{\E(c,\tau)}^{(K)}c+O_{C^1}(L^{-1}).
+\end{equation}
+这里已经使用 $M(z_c)=c$。这也是为何必须控制参数 $C^1$ 误差，而不只控制端点值。
+
+\subsection{全部精确条件的同时修复}
+记 $\lambda_0=\lambda(0)$、$\bar E_0=\bar E_{c=0}$。因为 $\lambda_0<\mu$，取
+\begin{equation}\label{eq:tauzero}
+\tau_0=-\frac{\log(1-\lambda_0/\mu)}{2\bar E_0}>0,
+\qquad\E(0,\tau_0)=\mu.
+\end{equation}
+一开始的 $\tau$ 紧区间可取为 $\tau_0$ 的小邻域。把 $\C^K$ 当作 $\R^{2K}$，定义实残差
+\[
+G_L(c,\tau)=(\Ren F_L^{(K)},\Imn F_L^{(K)},e_L-\mu).
+\]
+极限映射为 $G_\infty=(T_{\E}^{(K)}c,\E-\mu)$ 的实形式。其在 $(0,\tau_0)$ 的 Jacobian 为
+\begin{equation}\label{eq:jacobian}
+J_*=
+\begin{pmatrix}
+[T_\mu^{(K)}]_{\R}&0\\
+D_c\E&\partial_\tau\E
+\end{pmatrix},\qquad
+\partial_\tau\E(0,\tau_0)
+=-\frac{2\bar E_0\mu(\mu-\lambda_0)}{\lambda_0}<0.
+\end{equation}
+由命题\ref{prop:diagonal}，$J_*$ 可逆。
+
+为明确长脉冲量词，固定 $J_*^{-1}$ 并考虑
+$\Psi_L(y)=y-J_*^{-1}G_L(y)$。选一个固定的小闭球，以 $y_*=(0,\tau_0)$ 为中心，使极限导数满足 $\norm{I-J_*^{-1}DG_\infty}<1/4$。由\eqref{eq:endpoint-C1}和\eqref{eq:Ecal}，每个充分大的整数 $m$ 都有 $\norm{D\Psi_L}\le1/2$，且 $|\Psi_L(y_*)-y_*|=O(L^{-1})$。增大 $m$ 使后一值不超过半个球半径，便得球映入自身。压缩映射定理给出唯一的局部零点，并且
+\begin{equation}\label{eq:root}
+c_m=O(L^{-1}),\qquad \tau_m-\tau_0=O(L^{-1}).
+\end{equation}
+因此 $K$ 个复横向条件及 $e_L=\mu$ 这 $2K+1$ 个实条件同时精确满足。这里只声明所选小球内的唯一性。
+
+\subsection{连接锥定理的完成}
+对修复零点，$z_{c_m}$ 仍有固定端点空隙，所以所有切向标量导数在两端消失。第\ref{sec:positive}节在整个参数球上保证 $r>0$、$r_U<0$。左端的 $Q=0$ 和完整初球数据都是真正 Minkowski；端点空隙及 ODE 唯一性使锥上相邻小段的完整数据也为 Minkowski。右端 $r=Q=1$、$r_t=0$ 和全部横向标量零导数，由第\ref{sec:data}节补齐完整 $\Dcal_K$ 数据并识别为 ERN 球面。
+
+左端半径还有明确极限
+\begin{equation}\label{eq:left-radius}
+r(t_-)=R(L)\longrightarrow e^{-\bar E_0\tau_0}
+=\sqrt{1-\lambda_0/\mu}>0.
+\end{equation}
+固定 $\mu,K$ 后，该正数无退化；不要求其在 $\mu\downarrow1/2$ 时一致。以上证明了定理\ref{thm:cone}。

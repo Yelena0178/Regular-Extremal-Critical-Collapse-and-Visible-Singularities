@@ -1,0 +1,104 @@
+\section{严格半阈值必要性}\label{sec:necessary}
+\subsection{实际视界的中心归一化}
+沿定义\ref{def:class}中的视界，从中心事件到终端 ERN 球面作仿射归一化 $v\in[0,1]$，通过横向坐标常数缩放维持 $\Omega^2=1$。取 $M=1$、$e=\mu>0$。有
+\begin{gather}\label{eq:necessary-bc}
+r(0)=Q(0)=0,\qquad r(1)=Q(1)=1,\qquad r'(1)=0,\qquad\phi(1)=0,\\
+r''=-r|\phi'|^2,\qquad Q'=\mu r^2j,\qquad
+j=\Imn(\phi\overline{\phi'}).\label{eq:necessary-ode}
+\end{gather}
+正则中心使 $r(v)=Av+O(v^3)$、$A>0$，$\phi,\phi'$ 有界，$Q/r\to0$，且横向 $r_U$ 有限。于是 $H(0)=0$。终端为普通未来 ERN 视界球面，故 $H(1)>0$。积分\eqref{eq:H}得
+\begin{equation}\label{eq:I}
+I:=\int_0^1\frac{Q^2}{r^2}\dd v=1-H(1)<1.
+\end{equation}
+不要求 $\phi(0)=0$。以下分部积分的下端边界项分别含 $vQ$、$v^2rr'$、$v^3r'^2$ 或 $vr^2|\phi|^2$，均由上述正则性消失。
+
+由终值 $r'(1)=0$，
+\begin{equation}\label{eq:concave}
+r'(v)=\int_v^1 r|\phi'|^2\dd s\ge0,\qquad r''\le0,
+\qquad v\le r(v)\le1.
+\end{equation}
+定义
+\begin{equation}\label{eq:qab}
+q=\frac{vr'}r,\quad a=1-\frac{2q}3,\quad
+S=\int_0^1r^2\dd v,\quad B=1-S.
+\end{equation}
+凹性和 $r(0)=0$ 给 $vr'\le r$，从而 $0\le q\le1$、$1/3\le a\le1$，且 $1/3\le S<1$、$0<B\le2/3$。严格 $S<1$ 来自中心连续性。
+
+\subsection{加权几何恒等式与电流平方分解}
+\begin{lemma}[精确几何能量]\label{lem:energy}
+在\eqref{eq:necessary-bc}--\eqref{eq:necessary-ode}及上述中心正则性下，
+\begin{equation}\label{eq:energy}
+B=\int_0^1 av^2r^2|\phi'|^2\dd v.
+\end{equation}
+\end{lemma}
+\begin{proof}
+令 $T_0=\int_0^1v^2r'^2\dd v$。两次分部积分分别给
+\begin{align*}
+\int v^2r^2|\phi'|^2
+&=-\int v^2rr''=\int(2vrr'+v^2r'^2)=B+T_0,\\
+0=[v^3r'^2]_0^1&=3T_0-2\int v^3rr'|\phi'|^2.
+\end{align*}
+第二式意味着 $\frac23\int v^3rr'|\phi'|^2=T_0$，从第一式扣除即得结论。积分符号未列上下限时均指 $[0,1]$。
+\end{proof}
+
+\begin{lemma}[带权电流的精确平方分解]\label{lem:square}
+记 $J=\int_0^1vr^2j\dd v$、$D=B-J$。则
+\begin{equation}\label{eq:square}
+\begin{aligned}
+D={}&\int_0^1r^2a\left|v\phi'+\frac{1+i}{2a}\phi\right|^2\dd v\\
+&+\int_0^1r^2\frac{2q(1-q)}{3-2q}|\phi|^2\dd v.
+\end{aligned}
+\end{equation}
+特别地 $|J|\le B$，而非零终端电荷下 $D>0$。
+\end{lemma}
+\begin{proof}
+按本文的电流符号展开第一平方，其被积函数为
+\[
+av^2r^2|\phi'|^2+\frac{r^2}{2a}|\phi|^2
++vr^2\Ren(\phi'\bar\phi)-vr^2j.
+\]
+中间交叉项积分为 $-\int r^2(1/2+q)|\phi|^2$。使用
+\[
+\frac12+q-\frac1{2a}=\frac{2q(1-q)}{3-2q}\ge0
+\]
+和引理\ref{lem:energy}得到\eqref{eq:square}。复共轭使 $J$ 变号而 $B$ 不变，故 $|J|\le B$。若 $D=0$，对每个 $b>0$ 有一阶齐次方程
+\[
+\phi'=-\frac{1+i}{2av}\phi,\qquad \phi(1)=0
+\]
+在 $[b,1]$ 成立。其系数有界，唯一解为零。任意 $b>0$ 后得 $\phi=0$，与 Maxwell 方程及 $Q(1)-Q(0)=1$ 矛盾。
+\end{proof}
+
+这一步不用电流逐点非负。作为独立检查，还可写 $u=|\phi|$，定义
+\[
+P_a=\int av^2r^2u'^2,\quad
+T_a=\int av^2r^2(|\phi'|^2-u'^2),\quad
+U_a=\int\frac{r^2}{a}u^2.
+\]
+由 $a(1+2q)\ge1$ 和分部积分，
+\[
+U_a\le\int r^2(1+2q)u^2=-2\int vr^2uu'
+\le2\sqrt{U_aP_a},
+\]
+从而 $U_a\le4P_a$。在零点以几乎处处的模函数导数解释，$|j|\le u\sqrt{|\phi'|^2-u'^2}$，故
+\[
+|J|\le\sqrt{U_aT_a}\le2\sqrt{P_aT_a}\le P_a+T_a=B.
+\]
+
+\begin{theorem}[实际视界上的严格必要条件]\label{thm:necessary}
+定义\ref{def:class}中任何解都满足
+\begin{equation}\label{eq:necessary-bound}
+\mu>\frac1{1+\sqrt S}>\frac12.
+\end{equation}
+\end{theorem}
+\begin{proof}
+令 $P=\int_0^1Q\dd v$。Maxwell 方程分部积分给
+\[
+1=[vQ]_0^1=P+\mu J.
+\]
+由 Cauchy--Schwarz、\eqref{eq:I}和 $J\le B$，
+\[
+1=P+\mu J\le\sqrt{IS}+\mu B<\sqrt S+\mu(1-S).
+\]
+除以 $1-S>0$ 得\eqref{eq:necessary-bound}。无须假定 $Q$ 或 $j$ 的符号。
+\end{proof}
+

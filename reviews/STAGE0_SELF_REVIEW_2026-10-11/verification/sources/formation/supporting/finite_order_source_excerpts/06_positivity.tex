@@ -1,0 +1,135 @@
+\section{精确脉冲的半径与整段膨胀正性}\label{sec:positive}
+\subsection{Riccati 系统与稳定估计}
+固定命题\ref{prop:profile}的小闭参数球及周期 $T$。暂以 $\delta>0$ 为独立小参数，记 $E=E_c$、$C=C_c$。在 $x\ge0$ 上求解
+\begin{equation}\label{eq:riccati}
+q_x=-q+q^2+\delta E,\quad q(0)=0,
+\qquad R_x=-qR,\quad R(0)=1.
+\end{equation}
+置 $t=e^{-x}$、$r(t)=R(x)$、$\Phi(t)=\sqrt\delta z_c(x)$，则 $q=tr_t/r$，\eqref{eq:riccati}恰是 $r_{tt}=-r|\Phi_t|^2$、$r(1)=1$、$r_t(1)=0$。
+
+取常数 $b\ge2\sup E$。当 $\delta$ 小时，向量场在 $q=0$ 向上、在 $q=b\delta$ 向下。因此解全半线存在，且
+\begin{equation}\label{eq:qbounds}
+0\le q\le b\delta,\qquad R>0.
+\end{equation}
+令 $p_x+p=E$、$p(0)=0$，则
+\begin{equation}\label{eq:q-p}
+(q-\delta p)_x+(q-\delta p)=q^2,
+\qquad 0\le q-\delta p\le C\delta^2.
+\end{equation}
+对 $x\ge T$，
+\[
+p(x)=\int_0^xe^{-(x-s)}E(s)\dd s
+\ge e^{-T}\int_{x-T}^xE(s)\dd s=e^{-T}T\bar E.
+\]
+于是有统一 $a>0$，使
+\begin{equation}\label{eq:qpositive}
+a\delta\le q(x)\le b\delta\ (x\ge T),\quad
+R(x+s)/R(x)\le e^{-a\delta s}\ (x\ge T).
+\end{equation}
+特别地 $R\to0$，但有限段 $[0,L]$ 上半径始终严格正。
+
+\subsection{无限脉冲的均匀平均}
+\begin{lemma}[单调权重周期平均]\label{lem:average}
+若 $f$ 是有界周期函数、平均为 $\bar f$，令
+$W_x(s)=R(x+s)^2/R(x)^2$，则
+\begin{equation}\label{eq:average}
+\int_0^\infty(f(x+s)-\bar f)W_x(s)\dd s=O(1)
+\end{equation}
+在全部 $x\ge0$ 及充分小 $\delta$ 上一致，常数由 $f-\bar f$ 的周期原函数控制。
+\end{lemma}
+\begin{proof}
+取有界原函数 $F$。有 $W_x(0)=1$、$W_x(\infty)=0$、$W_x'\le0$。分部积分的边界项与积分项绝对值之和不超过 $2\norm F_\infty$。
+\end{proof}
+
+由 $\delta E=q_x+q-q^2$ 和 $(R^2)_x=-2qR^2$ 得精确恒等式
+\begin{equation}\label{eq:infinite-energy}
+\delta\int_x^\infty ER^2\dd s
+=\bigl(\tfrac12-q(x)\bigr)R(x)^2+\int_x^\infty q^2R^2\dd s.
+\end{equation}
+末项至多为 $b\delta R(x)^2/2$，因为 $\int_x^\infty qR^2=R(x)^2/2$。除以 $R(x)^2$ 后，左侧为 $1/2+O(\delta)$。分别对 $E,C$ 用引理\ref{lem:average}，消去共同的 $\int W_x$，得到
+\begin{equation}\label{eq:Caverage}
+\delta\int_0^\infty C(x+s)W_x(s)\dd s
+=\frac{\bar C}{2\bar E}+O(\delta).
+\end{equation}
+各界在固定 $c$ 球上一致。定义
+\begin{equation}\label{eq:Qinf}
+D_\infty=\delta\int_0^\infty CR^2,\quad e_\infty=D_\infty^{-1},\quad
+Q_\infty(x)=\frac{\delta\int_x^\infty CR^2}{D_\infty}.
+\end{equation}
+则 $Q_\infty(0)=1$、$Q_\infty(\infty)=0$，并且
+\begin{equation}\label{eq:Quniform}
+e_\infty=\lambda(c)+O(\delta),\qquad
+Q_\infty(x)=R(x)^2(1+O(\delta))\quad(x\ge0)
+\end{equation}
+一致成立。这一结论来自精确权重单调性，不是把有限长度近似外推到无穷远。
+
+\subsection{紧区间核展开与尾区下界}
+定义 $P_p(s)=\int_0^sp$、$F(s)=\int_0^sC$。由\eqref{eq:q-p}、$q\le b\delta$ 以及电荷积分式，得对所有 $s\ge0$ 的粗但可积余项
+\begin{equation}\label{eq:quotient-expand}
+\frac{Q_\infty(s)^2}{R(s)^2}
+=1+2\delta[P_p(s)-\lambda F(s)]
++O\bigl(\delta^2(1+s)^2e^{C\delta s}\bigr).
+\end{equation}
+具体地，$\int_0^s(q-\delta p)=O(\delta^2s)$、$|R^2-1|\le C\delta s$，而
+$Q_\infty=1-e_\infty\delta\int_0^sCR^2
+=1-\lambda\delta F+O(\delta^2(s+s^2))$。
+$R^{-2}\le e^{C\delta s}$，代入乘积及商的二阶余项便得\eqref{eq:quotient-expand}。
+
+按 $t$ 变量定义
+\[
+H_\infty(t)=t-\int_0^tQ_\infty^2/r^2\dd s.
+\]
+换元后
+\begin{equation}\label{eq:Hinf}
+\frac{H_\infty(e^{-x})}{e^{-x}}
+=\int_0^\infty e^{-y}
+\left[1-\frac{Q_\infty(x+y)^2}{R(x+y)^2}\right]\dd y.
+\end{equation}
+先固定 $X$，取 $C\delta<1/2$。余项在 $x\in[0,X]$ 统一可积。Fubini 给
+\[
+\int_0^\infty e^{-y}F(x+y)\dd y=I_C(x),\qquad
+\int_0^\infty e^{-y}P_p(x+y)\dd y=I_E(x).
+\]
+第二式可将 $p(x)=\int_0^xe^{-(x-s)}E(s)\dd s$ 代入后直接交换积分验证。因此
+\begin{equation}\label{eq:HK}
+H_\infty(e^{-x})/e^{-x}=\delta\Kcal_c(x)+O_X(\delta^2)
+\quad(0\le x\le X).
+\end{equation}
+
+由\eqref{eq:Quniform}存在固定 $C_0$ 使 $Q_\infty/R\le e^{C_0\delta}R$。由\eqref{eq:qpositive}，$R(x)\le e^{-a\delta(x-T)}$。先选
+\begin{equation}\label{eq:Xchoose}
+X>T+C_0/a+1.
+\end{equation}
+则 $x\ge X,y\ge0$ 时 $Q_\infty(x+y)/R(x+y)\le e^{-a\delta y}$，代入\eqref{eq:Hinf}得
+\begin{equation}\label{eq:tail-H}
+H_\infty(e^{-x})/e^{-x}\ge\frac{2a\delta}{1+2a\delta}>0.
+\end{equation}
+在 $c$ 球与 $[0,X]$ 的紧积上，$\kappa=\min\Kcal_c>0$。现在才缩小 $\delta$，使\eqref{eq:HK}的误差至多 $\kappa\delta/2$。合并两区得
+\begin{equation}\label{eq:Hinf-lower}
+H_\infty(t)\ge c_*\delta t>0\qquad(0<t\le1).
+\end{equation}
+这个“先 $X$ 后 $\delta$”的次序避免了紧区间与尾区估计之间的循环。
+
+\subsection{有限脉冲的精确比较}
+取 $L=mT$、$t_-=e^{-L}$、$\delta=\tau/L$，其中 $\tau$ 留在固定正紧区间。有限脉冲的端点电荷归一化为
+\begin{equation}\label{eq:finite-charge}
+J_L=\delta\int_0^LCR^2,\quad e_L=J_L^{-1},\quad
+Q_L(x)=1-e_L\delta\int_0^xCR^2.
+\end{equation}
+所以 $Q_L(t_-)=0$、$Q_L(1)=1$。相同 $\delta,c$ 下的无限脉冲给出精确关系
+\begin{equation}\label{eq:Qcomparison}
+Q_L(t)=\frac{Q_\infty(t)-Q_\infty(t_-)}{1-Q_\infty(t_-)}.
+\end{equation}
+$C\ge0$ 使 $0\le Q_L\le Q_\infty$ 于 $[t_-,1]$。在左端置真正 Minkowski 初始膨胀 $r_U=-1/(4r_t)$；因为 $r_t=q(L)R(L)/t_-$，
+\begin{equation}\label{eq:HL}
+H_L(t)=\frac{t_-}{q(L)}+(t-t_-)-\int_{t_-}^tQ_L^2/r^2\dd s.
+\end{equation}
+两式之差精确为
+\begin{equation}\label{eq:Hcomparison}
+\begin{aligned}
+H_L-H_\infty={}&t_-\bigl(q(L)^{-1}-1\bigr)
++\int_0^{t_-}Q_\infty^2/r^2\dd s\\
+&+\int_{t_-}^t(Q_\infty^2-Q_L^2)/r^2\dd s\ge0.
+\end{aligned}
+\end{equation}
+这里用小 $\delta$ 时 $0<q(L)<1$。故 $H_L\ge c_*\delta t>0$，得到整个有限连接段上的 $r_U<0$。这一结论在固定参数球上一致适用；其严格余量允许随脉冲成员趋于零。

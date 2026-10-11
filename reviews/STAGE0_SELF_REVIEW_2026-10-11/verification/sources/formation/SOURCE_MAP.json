@@ -1,0 +1,236 @@
+{
+  "scope": "source mapping; editorial terminology/path changes only, no new proof certification",
+  "files": [
+    {
+      "file": "proof/01_main_theorem.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/GLOBAL_PROOF.md",
+      "source_sha256": "04e9f3e416661ec4d3ad678db6a1e992c0e46f94e47592bffd405c2d4eb15bd0",
+      "edited": true
+    },
+    {
+      "file": "proof/finite_order/01_profile_construction.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/finite_input/G1_PROFILE_LEMMAS.md",
+      "source_sha256": "c32e50f05676d8881a7be9e9914ebd3dddc58680c6c8acd87a7c0bd6cca5fd72",
+      "edited": true
+    },
+    {
+      "file": "proof/finite_order/02_endpoint_matching.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/finite_input/G2_KERNEL_AND_FULL_DATA.md",
+      "source_sha256": "ccfab5769bac6b36ad43c972ba16f72d43069333931c4d3ca1386118fcc566ff",
+      "edited": true
+    },
+    {
+      "file": "proof/finite_order/03_nonlinear_lifting.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/finite_input/G3_EXACT_JET_INDUCTION.md",
+      "source_sha256": "5ba7e630a439eceb853ccba6c6488408e87f3b036e3d8868ca961976e237315d",
+      "edited": true
+    },
+    {
+      "file": "proof/finite_order/04_radius_positivity.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/finite_input/G4_UNIFORM_POSITIVITY.md",
+      "source_sha256": "94ceca47bdf169d2919ff1491a40425b1835bfac760ff6ea78c556920f7a3a4a",
+      "edited": true
+    },
+    {
+      "file": "proof/02_smooth_data_and_local_evolution.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/P0_123_proof.md",
+      "source_sha256": "bdc484b1e16537dbd67f0283636affed7eb33db7436d09d7da01316d894bda24",
+      "edited": true
+    },
+    {
+      "file": "proof/03_regular_center_and_gluing.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/P0_4567_proof.md",
+      "source_sha256": "beb1c9d518631cff65a57c8b57dd26e7d19d13c92d036734a559085515c51bae",
+      "edited": true
+    },
+    {
+      "file": "proof/04_global_development_and_horizon.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/GA_GB_PROOF.md",
+      "source_sha256": "1888e27c3b3d537035927f0a15a5b9152d61f6cae14ad376d83a024ed943e7a7",
+      "edited": true
+    },
+    {
+      "file": "proof/05_strict_half_threshold.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/NECESSITY_RIGIDITY.md",
+      "source_sha256": "6accb1fcff7016482bea4e978fc3b8fa326ce073ad7e3787e33a5cf925217f53",
+      "edited": true
+    },
+    {
+      "file": "review/current_review_status.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/REVIEW_STATUS.md",
+      "source_sha256": "0c234821c25474795b5dcb859a19cb48c185f19d69a399f6d506a8fe2978045c",
+      "edited": true
+    },
+    {
+      "file": "references.bib",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/bibliography.bib",
+      "source_sha256": "264a034950cf144a8ad1e75363f07a8c2e1c8e1189b325328a25decc3c158c98",
+      "edited": false
+    },
+    {
+      "file": "supporting/center_localization_original.md",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_C_2026-09-28.md",
+      "source_sha256": "853d9d6998d762a241458bbe9d707f9d602de7f59c8a136cfbd8a9ce5a023dd3",
+      "edited": true
+    },
+    {
+      "file": "checks/global_development/RESULTS_GA_GB.json",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/checks/RESULTS_GA_GB.json",
+      "source_sha256": "3a5cc5c33ba095e9d902d91f0c19f3c89a771692003f31413397203e5fd00f87",
+      "edited": false
+    },
+    {
+      "file": "checks/global_development/check_ga_gb.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/checks/check_ga_gb.py",
+      "source_sha256": "7c78218283b0814b42485917fd0093a0f4d2340a65be58ff1c76125597e07fcc",
+      "edited": false
+    },
+    {
+      "file": "checks/global_identities/RESULTS_GLOBAL.json",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/checks/RESULTS_GLOBAL.json",
+      "source_sha256": "3fc04e36f73494588a4a6d13ef8984ed66fcf8dc99daa0c0eb09553215036924",
+      "edited": false
+    },
+    {
+      "file": "checks/global_identities/check_global.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/checks/check_global.py",
+      "source_sha256": "2edc4982de57b4ff8d6cf5cca99dd6aec1466da9e6f3ebdf42479cb87278df6d",
+      "edited": false
+    },
+    {
+      "file": "checks/smooth_data/RESULTS.json",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/checks/RESULTS.json",
+      "source_sha256": "d140f5178bfe163b92f54c5c5cdd5de03565c02a5e677079e4c81791033d2e32",
+      "edited": false
+    },
+    {
+      "file": "checks/smooth_data/check_p0.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/checks/check_p0.py",
+      "source_sha256": "13603929c572ec1a544205e5556c2c5f4f9f5cfe2eb2112fb7685bbdd08cf787",
+      "edited": false
+    },
+    {
+      "file": "checks/center_and_gluing/RESULTS_INHERITED.txt",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/checks/RESULTS_INHERITED.txt",
+      "source_sha256": "9b135a56bbfd7064f4d2e9ffaf658654e95bd79f61d3c165e0149dee2881d023",
+      "edited": false
+    },
+    {
+      "file": "checks/center_and_gluing/RESULTS_NEW.json",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/checks/RESULTS_NEW.json",
+      "source_sha256": "e0965d6e1930ef31f1d1be26d61b86eda6f2e30b62ebb8a13f0a6130604066e8",
+      "edited": false
+    },
+    {
+      "file": "checks/center_and_gluing/check_bondi_center_jets.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/checks/check_bondi_center_jets.py",
+      "source_sha256": "bf9d580429ba94d6ed592fe9833a6f9e87dc5722bf2ef8a954e69d2c354d0fd1",
+      "edited": false
+    },
+    {
+      "file": "checks/center_and_gluing/check_p0_4567.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/checks/check_p0_4567.py",
+      "source_sha256": "6f1de5f25b6fec164bb248b6d17a1ceb653daaefaa47e1a0b78bb77ceb2928d7",
+      "edited": false
+    },
+    {
+      "file": "checks/center_and_gluing/check_realization_identities.py",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_4567_2026-10-08/checks/check_realization_identities.py",
+      "source_sha256": "bffa24c7b0b6711ff60b5d3d5f0689b35fa9ac65c6651074bbb06a5c8e3b8967",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/01_framework.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/01_framework.tex",
+      "source_sha256": "10760651f7852c8ece9047d8d514161046bebe8f248f574d7ba980394fd6ebcc",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/02_necessity.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/02_necessity.tex",
+      "source_sha256": "2471549a51a7890b3054dabb0a0e603e692c27b7598dfc47d5df45844e0d8895",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/04_profile.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/04_profile.tex",
+      "source_sha256": "9519ff27a05f2074ecda59934493ec974d8413630430a86c67b0c7d985ac89a1",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/05_linear.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/05_linear.tex",
+      "source_sha256": "5afe8229f97c9e08a7a8d060f76d1bc192eb3b80556d7fcf6d4b642f4d2317e0",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/06_positivity.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/06_positivity.tex",
+      "source_sha256": "6a687c1eea951e23d463989d8dd1f5f06752de915ad7fa03e8326adbb6291609",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/07_lifting.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/07_lifting.tex",
+      "source_sha256": "6734e448b0011ccc7c99299794c440c0365f3b022d1544d5bebf2129c01e7256",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_source_excerpts/08_global.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/input_F_source/08_global.tex",
+      "source_sha256": "76e6b38de24c8602832b531c14197d38134ccdb0082b643e50773e83ba5ae772",
+      "edited": false
+    },
+    {
+      "file": "supporting/finite_order_original.pdf",
+      "source_archive": "OPEN_B_光滑实现与全局化证明包_2026-09-28.zip",
+      "source_member": "03_输入F_有限阶原证明.pdf",
+      "source_sha256": "ef13435bbf36c59b28b987c8446e99b2eab59e00d9bb339fcc664edbe2135f1e",
+      "edited": false
+    },
+    {
+      "file": "supporting/source_excerpts/smooth_realization_2026-09-28.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/smooth_body_2026-09-28.tex",
+      "source_sha256": "bfe3e9b682a639c35e29deb134b8104431db605f9f20ebb71dd36ff4dc7ab6a1",
+      "edited": false
+    },
+    {
+      "file": "supporting/source_excerpts/rebuilt_closure_2026-10-08.tex",
+      "source_archive": "OPEN_B_conversation_results_2026-10-08.zip",
+      "source_member": "OPEN_B_conversation_results_2026-10-08/results/previous_stage/local_proofs/P0_123_2026-10-08/inputs/rebuilt_body_2026-10-08.tex",
+      "source_sha256": "8ac24912d86a91c8d6fe1abda7ea66eca32b5569ec7d48cc6d11a48fac15c6ae",
+      "edited": false
+    }
+  ]
+}

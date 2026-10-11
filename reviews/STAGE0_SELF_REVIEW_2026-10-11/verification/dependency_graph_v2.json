@@ -1,0 +1,2316 @@
+{
+  "schema_version": 2,
+  "nodes": [
+    {
+      "id": "SYS",
+      "kind": "input_or_module",
+      "status": "定义输入"
+    },
+    {
+      "id": "TOPO",
+      "kind": "input_or_module",
+      "status": "定义输入"
+    },
+    {
+      "id": "VIS",
+      "kind": "input_or_module",
+      "status": "定义输入"
+    },
+    {
+      "id": "REG_CENTER",
+      "kind": "input_or_module",
+      "status": "条件输入"
+    },
+    {
+      "id": "POS_DOMAIN",
+      "kind": "input_or_module",
+      "status": "兼容ID；不作为最小前置"
+    },
+    {
+      "id": "INSEG",
+      "kind": "input_or_module",
+      "status": "条件输入"
+    },
+    {
+      "id": "HORIZON",
+      "kind": "input_or_module",
+      "status": "条件输入"
+    },
+    {
+      "id": "OUTER_INPUT",
+      "kind": "input_or_module",
+      "status": "条件输入"
+    },
+    {
+      "id": "FINITE_INTERVAL",
+      "kind": "input_or_module",
+      "status": "兼容ID；修订核心图不使用"
+    },
+    {
+      "id": "TAIL_LOWER",
+      "kind": "input_or_module",
+      "status": "未取得的条件"
+    },
+    {
+      "id": "COMMON_FLOW",
+      "kind": "input_or_module",
+      "status": "未取得的条件"
+    },
+    {
+      "id": "MINK_FILL",
+      "kind": "input_or_module",
+      "status": "尚未冻结的条件"
+    },
+    {
+      "id": "PERIODIC_PROFILE",
+      "kind": "input_or_module",
+      "status": "抽象条件；L021可作为具体实例，尚无实际根认证"
+    },
+    {
+      "id": "KDEF",
+      "kind": "input_or_module",
+      "status": "定义输入"
+    },
+    {
+      "id": "FRBASE",
+      "kind": "input_or_module",
+      "status": "内部证明模块；未独立验收"
+    },
+    {
+      "id": "FRPOS",
+      "kind": "input_or_module",
+      "status": "内部证明模块；未独立验收"
+    },
+    {
+      "id": "FENDPOINT",
+      "kind": "input_or_module",
+      "status": "内部证明模块；未独立验收"
+    },
+    {
+      "id": "FLIFT",
+      "kind": "input_or_module",
+      "status": "内部条件性存在模块；未独立验收/未有效化"
+    },
+    {
+      "id": "FLOCAL",
+      "kind": "input_or_module",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FSMOOTH",
+      "kind": "input_or_module",
+      "status": "内部证明模块；指定修复序列未计算/独立验收"
+    },
+    {
+      "id": "FCENTER",
+      "kind": "input_or_module",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FGLOBAL",
+      "kind": "input_or_module",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "I001",
+      "kind": "input_or_module",
+      "status": "组合性内部输入"
+    },
+    {
+      "id": "I002",
+      "kind": "input_or_module",
+      "status": "内部计算输入"
+    },
+    {
+      "id": "CHAR",
+      "kind": "input_or_module",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "MGHD",
+      "kind": "input_or_module",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "KOM_EXT",
+      "kind": "input_or_module",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "CAUCHY",
+      "kind": "input_or_module",
+      "status": "标准工具；明确版本/定理号未固定"
+    },
+    {
+      "id": "PENROSE",
+      "kind": "input_or_module",
+      "status": "标准工具；明确版本/定理号未固定"
+    },
+    {
+      "id": "KL",
+      "kind": "input_or_module",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "ANLIM",
+      "kind": "input_or_module",
+      "status": "外部来源及归一化待独立复核"
+    },
+    {
+      "id": "SL",
+      "kind": "input_or_module",
+      "status": "标准工具；稿内给出所需主要恒等式"
+    },
+    {
+      "id": "BESSEL",
+      "kind": "input_or_module",
+      "status": "标准特殊函数工具"
+    },
+    {
+      "id": "E020",
+      "kind": "input_or_module",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "E021",
+      "kind": "input_or_module",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "E023",
+      "kind": "input_or_module",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "SMOOTH_DOMAIN",
+      "kind": "input_or_module",
+      "status": "显式条件；指定实例未独立验收"
+    },
+    {
+      "id": "NU_NEG",
+      "kind": "input_or_module",
+      "status": "显式条件；指定实例未独立验收"
+    },
+    {
+      "id": "AFFINE_NORM",
+      "kind": "input_or_module",
+      "status": "归一化约定；指定线仍需核实"
+    },
+    {
+      "id": "CENTER_INTERVAL",
+      "kind": "input_or_module",
+      "status": "显式条件；指定实例未独立验收"
+    },
+    {
+      "id": "POS_INTERVAL",
+      "kind": "input_or_module",
+      "status": "显式条件；指定实例未独立验收"
+    },
+    {
+      "id": "FJETS",
+      "kind": "input_or_module",
+      "status": "内部证明模块；未独立验收"
+    },
+    {
+      "id": "SPHERE_KU",
+      "kind": "input_or_module",
+      "status": "外部接口；调用位置已核对，原定理适用性待独立验收"
+    },
+    {
+      "id": "FSPHERE",
+      "kind": "input_or_module",
+      "status": "内部证明模块；未独立验收"
+    },
+    {
+      "id": "REPAIR_BUDGET",
+      "kind": "input_or_module",
+      "status": "显式条件；指定实例未独立验收"
+    },
+    {
+      "id": "REPAIR_TO_STRONG",
+      "kind": "input_or_module",
+      "status": "未验证的应用门；旧G07保留"
+    },
+    {
+      "id": "FINITE_CONE23",
+      "kind": "input_or_module",
+      "status": "显式几何输入；根存在与整入射锥另列"
+    },
+    {
+      "id": "L001.PERSIST",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L001.EXCLUDE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L001.BH",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L002.DATA",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L002.FAMILY",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L003.TIDAL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L004.IDENTITY",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L004.LOG",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L004.FINITE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L004.NOBH",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L005.CHARGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L005.COUNTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L006.GLOBAL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L006.RADIAL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L006.INNERCONE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L007.STRIP",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L007.ZEROJETS",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L008.PREFIX",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L008.CENTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L008.ONECROSS",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L008.THREECROSS",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L009.WEDGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L009.EXIST",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L009.ACTUAL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L010.TRANSPORT",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L010.CENTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L010.PHASE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L011.BUDGET",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L011.WILSON",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L011.WEDGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L011.FORCED",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.KERNEL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.STRIP",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.EXIST",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.PP",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.BOUNDARY",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L012.MGHD_EDGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L013.LIMIT",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L013.RIGID",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L013.OUTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.VOLUME",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.CENTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.AXIS",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.LIFETIME",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.EXTENSION",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.NONZERO",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.GAPOUTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.OUTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.LIFETIME",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L016.CURVATURE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L016.PHYSICAL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L016.SINGULAR",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L017.POINCARE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L017.SHARP",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L017.RATIO",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.SIGN",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.CERT",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.CENTER",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.ROBIN",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L019.FIRST",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L019.BUDGET",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L020.PROFILE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L020.CURRENT",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L020.J",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L020.KERNEL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L021.FIX",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L021.CORE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L021.FAMILY",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L021.KERNEL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L022.TAIL",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L022.CONE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L022.FLOW",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L022.DECISION",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.ANLIM",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.FIRST",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.BRANCH",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.MGEOM",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.SMOOTH",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L004.AFFINE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L005.AREA",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L009.CONTINUE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L014.PREFIX",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.NEAREDGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.FINITETIME",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L015.INFINITETIME",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.IDENTITY",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.CHARGE",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L023.WIDTH",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    },
+    {
+      "id": "L018.SCREEN",
+      "kind": "claim",
+      "status": "正文与登记对照已完成；数学独立验收未完成"
+    }
+  ],
+  "proof_and_condition_edges": [
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "POS_DOMAIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "POS_DOMAIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "PERIODIC_PROFILE",
+      "target": "FRBASE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FRBASE",
+      "target": "FRPOS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "KDEF",
+      "target": "FRPOS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "PERIODIC_PROFILE",
+      "target": "FRPOS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "FENDPOINT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "PERIODIC_PROFILE",
+      "target": "FLIFT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FJETS",
+      "target": "FLIFT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FENDPOINT",
+      "target": "FLIFT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "FLOCAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FLIFT",
+      "target": "FSMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FSPHERE",
+      "target": "FSMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FLOCAL",
+      "target": "FSMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "FCENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FLOCAL",
+      "target": "FCENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "FCENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "FCENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FCENTER",
+      "target": "FGLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MGHD",
+      "target": "FGLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "FGLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FGLOBAL",
+      "target": "I001",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "I002",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "FJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FRBASE",
+      "target": "FJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FRPOS",
+      "target": "FJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FENDPOINT",
+      "target": "FJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FJETS",
+      "target": "FSPHERE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FLIFT",
+      "target": "FSPHERE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FRPOS",
+      "target": "FSPHERE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SPHERE_KU",
+      "target": "FSPHERE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L001.PERSIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "TOPO",
+      "target": "L001.PERSIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "L001.PERSIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L001.PERSIST",
+      "target": "L001.EXCLUDE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "PENROSE",
+      "target": "L001.EXCLUDE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L001.BH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "VIS",
+      "target": "L001.BH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L002.DATA",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "TOPO",
+      "target": "L002.DATA",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L002.DATA",
+      "target": "L002.FAMILY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L003.TIDAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "AFFINE_NORM",
+      "target": "L003.TIDAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L003.TIDAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.AFFINE",
+      "target": "L004.IDENTITY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.LOG",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.FINITE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.NOBH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "VIS",
+      "target": "L004.NOBH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L005.CHARGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.AFFINE",
+      "target": "L005.CHARGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L005.COUNTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "L005.COUNTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L006.GLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L002.DATA",
+      "target": "L006.GLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L002.FAMILY",
+      "target": "L006.GLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "KL",
+      "target": "L006.GLOBAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L006.GLOBAL",
+      "target": "L006.RADIAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L006.GLOBAL",
+      "target": "L006.INNERCONE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L007.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L007.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L007.ZEROJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L007.ZEROJETS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L008.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L008.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L008.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L008.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L008.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L008.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L008.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L008.CENTER",
+      "target": "L008.ONECROSS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L008.CENTER",
+      "target": "L008.THREECROSS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L009.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L009.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L009.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L009.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L009.WEDGE",
+      "target": "L009.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L009.CONTINUE",
+      "target": "L009.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L009.EXIST",
+      "target": "L009.ACTUAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L009.ACTUAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L009.ACTUAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L010.TRANSPORT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L010.TRANSPORT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L010.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L010.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L010.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L010.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L010.PHASE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "L010.PHASE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L011.BUDGET",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L011.BUDGET",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L011.BUDGET",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.WILSON",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L011.WILSON",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L011.WILSON",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L011.WILSON",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L009.WEDGE",
+      "target": "L011.WEDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.FORCED",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "TAIL_LOWER",
+      "target": "L011.FORCED",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L012.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L012.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.KERNEL",
+      "target": "L012.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L012.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L012.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L012.STRIP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L009.CONTINUE",
+      "target": "L012.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L012.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L012.EXIST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.PP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.EXIST",
+      "target": "L012.PP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "AFFINE_NORM",
+      "target": "L012.PP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.BOUNDARY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.KERNEL",
+      "target": "L012.BOUNDARY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.EXIST",
+      "target": "L012.BOUNDARY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.PP",
+      "target": "L012.MGHD_EDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L012.MGHD_EDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MGHD",
+      "target": "L012.MGHD_EDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L013.LIMIT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.BOUNDARY",
+      "target": "L013.LIMIT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L013.LIMIT",
+      "target": "L013.RIGID",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L013.RIGID",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L013.RIGID",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L013.RIGID",
+      "target": "L013.OUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L013.LIMIT",
+      "target": "L013.OUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.PREFIX",
+      "target": "L014.VOLUME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.VOLUME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L014.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.PREFIX",
+      "target": "L014.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L014.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L014.AXIS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L014.AXIS",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L014.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.PREFIX",
+      "target": "L014.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.VOLUME",
+      "target": "L014.EXTENSION",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "KOM_EXT",
+      "target": "L014.EXTENSION",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L015.NONZERO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L015.NONZERO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L015.NONZERO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L015.NONZERO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.NONZERO",
+      "target": "L015.GAPOUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L015.GAPOUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "L015.GAPOUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L015.GAPOUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.NONZERO",
+      "target": "L015.OUTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.NEAREDGE",
+      "target": "L015.OUTER",
+      "kind": "case_prerequisite",
+      "condition": "c=0"
+    },
+    {
+      "source": "L015.GAPOUTER",
+      "target": "L015.OUTER",
+      "kind": "case_prerequisite",
+      "condition": "c>0"
+    },
+    {
+      "source": "I001",
+      "target": "L015.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MGHD",
+      "target": "L015.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L015.LIFETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.FINITETIME",
+      "target": "L015.LIFETIME",
+      "kind": "case_prerequisite",
+      "condition": "t_end<∞"
+    },
+    {
+      "source": "L015.INFINITETIME",
+      "target": "L015.LIFETIME",
+      "kind": "case_prerequisite",
+      "condition": "t_end=∞"
+    },
+    {
+      "source": "SYS",
+      "target": "L016.CURVATURE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L016.CURVATURE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L016.PHYSICAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L016.PHYSICAL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L016.CURVATURE",
+      "target": "L016.SINGULAR",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L016.PHYSICAL",
+      "target": "L016.SINGULAR",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.LIFETIME",
+      "target": "L016.SINGULAR",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "BESSEL",
+      "target": "L017.POINCARE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L017.SHARP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L017.SHARP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L017.SHARP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L017.POINCARE",
+      "target": "L017.SHARP",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L017.SHARP",
+      "target": "L017.RATIO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L017.RATIO",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.IDENTITY",
+      "target": "L018.SIGN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CENTER_INTERVAL",
+      "target": "L018.SIGN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SL",
+      "target": "L018.SIGN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.SIGN",
+      "target": "L018.CERT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.CERT",
+      "target": "L018.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L018.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CENTER_INTERVAL",
+      "target": "L018.CENTER",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.IDENTITY",
+      "target": "L018.ROBIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "POS_INTERVAL",
+      "target": "L018.ROBIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SL",
+      "target": "L018.ROBIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L018.ROBIN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L019.FIRST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L019.FIRST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "NU_NEG",
+      "target": "L019.FIRST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L019.FIRST",
+      "target": "L019.BUDGET",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L019.BUDGET",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "E020",
+      "target": "L020.PROFILE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.CURRENT",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.J",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "E020",
+      "target": "L020.J",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.J",
+      "target": "L020.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "KDEF",
+      "target": "L020.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L021.FIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.CURRENT",
+      "target": "L021.FIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "E021",
+      "target": "L021.FIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L021.CORE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "E021",
+      "target": "L021.CORE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L021.FIX",
+      "target": "L021.FAMILY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L021.CORE",
+      "target": "L021.FAMILY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L021.FAMILY",
+      "target": "L021.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L020.KERNEL",
+      "target": "L021.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "KDEF",
+      "target": "L021.KERNEL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REPAIR_BUDGET",
+      "target": "L022.TAIL",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L022.CONE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L022.TAIL",
+      "target": "L022.FLOW",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "COMMON_FLOW",
+      "target": "L022.FLOW",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L022.FLOW",
+      "target": "L022.DECISION",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.CERT",
+      "target": "L022.DECISION",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L023.ANLIM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "ANLIM",
+      "target": "L023.ANLIM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.ANLIM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L023.ANLIM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FINITE_CONE23",
+      "target": "L023.FIRST",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L023.FIRST",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L023.CHARGE",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L023.WIDTH",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L023.ANLIM",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FLIFT",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FRPOS",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.BRANCH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L021.KERNEL",
+      "target": "L023.MGEOM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L021.FAMILY",
+      "target": "L023.MGEOM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FINITE_CONE23",
+      "target": "L023.MGEOM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "E023",
+      "target": "L023.MGEOM",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L023.BRANCH",
+      "target": "L023.SMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "L023.SMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "L023.SMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REPAIR_TO_STRONG",
+      "target": "L023.SMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L023.SMOOTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L004.AFFINE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L004.AFFINE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "AFFINE_NORM",
+      "target": "L004.AFFINE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L005.AREA",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L005.AREA",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L009.CONTINUE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "CHAR",
+      "target": "L009.CONTINUE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L009.CONTINUE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L014.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L014.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L014.PREFIX",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.NONZERO",
+      "target": "L015.NEAREDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L013.OUTER",
+      "target": "L015.NEAREDGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L015.FINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L015.FINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "INSEG",
+      "target": "L015.FINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L015.FINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L015.FINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L015.OUTER",
+      "target": "L015.INFINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L014.LIFETIME",
+      "target": "L015.INFINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "I001",
+      "target": "L015.INFINITETIME",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SYS",
+      "target": "L018.IDENTITY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "AFFINE_NORM",
+      "target": "L018.IDENTITY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "SMOOTH_DOMAIN",
+      "target": "L018.IDENTITY",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FINITE_CONE23",
+      "target": "L023.CHARGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.CHARGE",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "FINITE_CONE23",
+      "target": "L023.WIDTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.WIDTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "AFFINE_NORM",
+      "target": "L023.WIDTH",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L018.CERT",
+      "target": "L018.SCREEN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L018.SCREEN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    },
+    {
+      "source": "TOPO",
+      "target": "L018.SCREEN",
+      "kind": "common_prerequisite",
+      "condition": "共同前提"
+    }
+  ],
+  "application_or_explanatory_edges": [
+    {
+      "source": "L013.OUTER",
+      "target": "OUTER_INPUT",
+      "kind": "conditional_instance",
+      "condition": "同一种子初始近视界场非零"
+    },
+    {
+      "source": "L015.OUTER",
+      "target": "OUTER_INPUT",
+      "kind": "conditional_instance",
+      "condition": "中心实际活到t=1"
+    },
+    {
+      "source": "L021.FAMILY",
+      "target": "PERIODIC_PROFILE",
+      "kind": "conditional_instance",
+      "condition": "矩坐标、均值与端点空隙；还合并L021.KERNEL的核/λ"
+    },
+    {
+      "source": "L021.KERNEL",
+      "target": "PERIODIC_PROFILE",
+      "kind": "conditional_instance",
+      "condition": "核和耦合余量；需同时使用L021.FAMILY"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "REPAIR_BUDGET",
+      "kind": "conditional_instance",
+      "condition": "所选实际序列逐步满足指定δ*预算"
+    },
+    {
+      "source": "L022.TAIL",
+      "target": "L023.SMOOTH",
+      "kind": "optional_budget_implementation",
+      "condition": "足够高固定阶尾界经过REPAIR_TO_STRONG兑现ε_trap"
+    },
+    {
+      "source": "I001",
+      "target": "HORIZON",
+      "kind": "conditional_instance",
+      "condition": "导入链独立验收后，在该种子上核对坐标/全零jets"
+    },
+    {
+      "source": "I001",
+      "target": "INSEG",
+      "kind": "conditional_instance",
+      "condition": "导入全局标签/实际连通接口独立验收后"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L011.BUDGET",
+      "kind": "explanatory_equivalence",
+      "condition": "同一实际域同一个λ符号；非证明依赖"
+    }
+  ],
+  "semantics": "共同依赖取合取；case_prerequisite只在其condition分支使用。分支覆盖证明须单独核查。无环不意味着假设兑现或命题正确。实例边不并入通用条件定理的证明图。"
+}
