@@ -1,0 +1,931 @@
+{
+  "python": "3.12.14",
+  "mathematical_label": "GPT 主张，未经外部独立审查",
+  "scope": "FINITE_ALGEBRA_SOURCE_IDENTITY_AND_EVIDENCE_STATE_ONLY",
+  "checks": [
+    {
+      "name": "RN_mass_relation",
+      "status": "PASS",
+      "scope": "RN Laurent identity",
+      "value": null
+    },
+    {
+      "name": "RN_factorization",
+      "status": "PASS",
+      "scope": "RN roots parameterization",
+      "value": null
+    },
+    {
+      "name": "horizon_Hawking_mass",
+      "status": "PASS",
+      "scope": "r+=rp,Q²=rp*rm",
+      "value": null
+    },
+    {
+      "name": "extreme_horizon_mass_half",
+      "status": "PASS",
+      "scope": "specific exact RN reference",
+      "value": "1/2"
+    },
+    {
+      "name": "extreme_RN_curvature_reference",
+      "status": "PASS",
+      "scope": "M=Q=r=1 finite polynomial value",
+      "value": 8
+    },
+    {
+      "name": "charge_derivative_cancellation",
+      "status": "PASS",
+      "scope": "both null directions; X is their scalar flux factor",
+      "value": null
+    },
+    {
+      "name": "Gauss_current_conjugation",
+      "status": "PASS",
+      "scope": "Im(phi*barPi)=-Im(barphi*Pi); orientation bookkeeping",
+      "value": null
+    },
+    {
+      "name": "gauge_covariant_derivative_cancellation",
+      "status": "PASS",
+      "scope": "coefficient of i chi_prime phi",
+      "value": null
+    },
+    {
+      "name": "L023_mass_margins",
+      "status": "PASS",
+      "scope": "sufficient threshold arithmetic only",
+      "value": "15543/32768"
+    },
+    {
+      "name": "L023_width_margins",
+      "status": "PASS",
+      "scope": "sufficient threshold arithmetic only",
+      "value": null
+    },
+    {
+      "name": "marginal_strict_upgrade_coefficient",
+      "status": "PASS",
+      "scope": "sign only; actual collar remains an input",
+      "value": "-447/512"
+    },
+    {
+      "name": "subextreme_interval_positive",
+      "status": "PASS",
+      "scope": "exact interval propagation, assuming supplied intervals valid",
+      "value": {
+        "lo": "147/50",
+        "hi": "153/50"
+      }
+    },
+    {
+      "name": "extreme_candidate_not_exact_certificate",
+      "status": "PASS",
+      "scope": "interval includes zero; state must remain candidate",
+      "value": {
+        "lo": "-1/25",
+        "hi": "1/25"
+      }
+    },
+    {
+      "name": "signed_charge_interval_cross_zero",
+      "status": "PASS",
+      "scope": "absolute charge minimum is zero when signed interval crosses zero",
+      "value": null
+    },
+    {
+      "name": "zero_mass_denominator_rejected",
+      "status": "PASS",
+      "scope": "ratio requires strictly positive mass lower bound",
+      "value": null
+    },
+    {
+      "name": "finite_snapshot_not_terminal_certificate",
+      "status": "PASS",
+      "scope": "evidence-state logic only",
+      "value": null
+    },
+    {
+      "name": "empirical_not_rigorous_certificate",
+      "status": "PASS",
+      "scope": "evidence-state logic only",
+      "value": null
+    },
+    {
+      "name": "tail_antiderivative_alpha1",
+      "status": "PASS",
+      "scope": "integral of C/(1+u)^2; general alpha proof in detail03",
+      "value": null
+    },
+    {
+      "name": "p_t_diagonal_counterexample",
+      "status": "PASS",
+      "scope": "illustration, not EMCSF evolution",
+      "value": null
+    },
+    {
+      "name": "source_blob:README.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:RESULTS.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:ROADMAP.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:STATUS.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:VERIFICATION.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:definitions/MODEL.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/certify_admissible_profile.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/certify_filtered_J.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/check_first_period_thresholds.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/filtered_K8_n88_J_certificate.json",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/filtered_K8_n88_admissible_certificate.json",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/first_period_threshold_certificate.json",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/freeze_filtered_profile.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/kernel_algebra.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/AUDIT.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/INDEX.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L001.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L002.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L003.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L004.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L005.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L006.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L007.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L008.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L009.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L010.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L011.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L012.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L013.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L014.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L015.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L016.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L017.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L018.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L019.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L020.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L021.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L022.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/RECCVS_L023.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:proofs/ROUTES_AND_TASKS.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/NIGHT_SUMMARY_3_8_to_3_13_2026-10-12/RECCVS_Stage3_8_to_3_13_Night_Summary_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_COMMON_CAUCHY_2026-10-11/COMMON_CAUCHY_REALIZATION_mgeom.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:checks/reproduce.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:checks/verify_manifest.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/filtered_K8_n44_sigma1over20.json",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:experiments/filtered_K8_n88_sigma1over20.json",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_bondi_center_jets.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_p0_4567.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_realization_identities.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/global_development/check_ga_gb.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/global_identities/check_global.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/run_all.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/check_p0.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/current_check.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/endpoint_jet_check.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/exact_core.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/interval_checks.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/jacobian_check.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/run_checks.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/stability_check.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/symbolic_checks.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build_certificate.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/high_precision.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/interval_core.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/model.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/check_self_review.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/README.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "source_blob:reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.md",
+      "status": "PASS",
+      "scope": "source identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:51399d6007904198",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:fc828100260e9f7b",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:4c99ce4cd604e288",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:e176373dac8991ed",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:5f23b74320252819",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:11d7e43feceb6a72",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:ffce1d292c4a59a8",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:3396b58531b0f22c",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:b3db0846e5251dd4",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:9274a24fc8d5a403",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:16cd36909cf81686",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:87c1b9aa93128e48",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:18631eb0eeed429e",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:230b6dc49b4c1485",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:e03287ab76752e54",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:05771b7a87413f72",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:86e525048009f917",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:754602ecbe49930d",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:b78573f105785509",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:4fd9dcc3ae274177",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:03c8024350721e2b",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:a7d5a5bfafc6a1f5",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:50da3f0aa6625a30",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:07298581b7a66eaf",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:216fd9511368fb5e",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:ffe9253821f36220",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:94298355bc3e95c4",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:8517f5b5445fbe72",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:bf5ea2537353febf",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:190066f2d2f0a73f",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:579d0a90fecb706e",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    },
+    {
+      "name": "archive_tool:511121c1f77164d7",
+      "status": "PASS",
+      "scope": "embedded code identity only",
+      "value": null
+    }
+  ],
+  "passed": 152,
+  "pde_evolution_performed": false,
+  "independent_external_review_completed": false,
+  "original_1105_plan_recovered": false,
+  "new_critical_curve_constructed": false,
+  "old_actual_trapped_surface_unconditionally_certified": false
+}

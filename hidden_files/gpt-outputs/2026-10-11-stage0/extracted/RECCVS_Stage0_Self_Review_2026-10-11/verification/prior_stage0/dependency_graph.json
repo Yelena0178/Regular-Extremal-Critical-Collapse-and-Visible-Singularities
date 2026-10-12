@@ -1,0 +1,1714 @@
+{
+  "nodes": [
+    {
+      "id": "SYS",
+      "kind": "input",
+      "status": "定义输入"
+    },
+    {
+      "id": "TOPO",
+      "kind": "input",
+      "status": "定义输入"
+    },
+    {
+      "id": "VIS",
+      "kind": "input",
+      "status": "定义输入"
+    },
+    {
+      "id": "REG_CENTER",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "POS_DOMAIN",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "INSEG",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "HORIZON",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "OUTER_INPUT",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "FINITE_INTERVAL",
+      "kind": "input",
+      "status": "条件输入"
+    },
+    {
+      "id": "TAIL_LOWER",
+      "kind": "input",
+      "status": "未取得的条件"
+    },
+    {
+      "id": "COMMON_FLOW",
+      "kind": "input",
+      "status": "未取得的条件"
+    },
+    {
+      "id": "MINK_FILL",
+      "kind": "input",
+      "status": "尚未冻结的条件"
+    },
+    {
+      "id": "PERIODIC_PROFILE",
+      "kind": "input",
+      "status": "抽象条件"
+    },
+    {
+      "id": "KDEF",
+      "kind": "input",
+      "status": "定义输入"
+    },
+    {
+      "id": "FRBASE",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FRPOS",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FENDPOINT",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FLIFT",
+      "kind": "input",
+      "status": "内部未独立复核；非有效门槛"
+    },
+    {
+      "id": "FLOCAL",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FSMOOTH",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FCENTER",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "FGLOBAL",
+      "kind": "input",
+      "status": "内部未独立复核"
+    },
+    {
+      "id": "I001",
+      "kind": "input",
+      "status": "组合性内部输入"
+    },
+    {
+      "id": "I002",
+      "kind": "input",
+      "status": "内部计算输入"
+    },
+    {
+      "id": "CHAR",
+      "kind": "input",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "MGHD",
+      "kind": "input",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "KOM_EXT",
+      "kind": "input",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "CAUCHY",
+      "kind": "input",
+      "status": "标准工具；明确版本/定理号未固定"
+    },
+    {
+      "id": "PENROSE",
+      "kind": "input",
+      "status": "标准工具；明确版本/定理号未固定"
+    },
+    {
+      "id": "KL",
+      "kind": "input",
+      "status": "外部来源待逐项复核"
+    },
+    {
+      "id": "ANLIM",
+      "kind": "input",
+      "status": "外部来源及归一化待独立复核"
+    },
+    {
+      "id": "SL",
+      "kind": "input",
+      "status": "标准工具；稿内给出所需主要恒等式"
+    },
+    {
+      "id": "BESSEL",
+      "kind": "input",
+      "status": "标准特殊函数工具"
+    },
+    {
+      "id": "E020",
+      "kind": "input",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "E021",
+      "kind": "input",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "E023",
+      "kind": "input",
+      "status": "附件中已有；本轮未重跑数学认证"
+    },
+    {
+      "id": "L001.PERSIST",
+      "kind": "claim",
+      "lemma": "L001",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L001.EXCLUDE",
+      "kind": "claim",
+      "lemma": "L001",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L001.BH",
+      "kind": "claim",
+      "lemma": "L001",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L002.DATA",
+      "kind": "claim",
+      "lemma": "L002",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L002.FAMILY",
+      "kind": "claim",
+      "lemma": "L002",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L003.TIDAL",
+      "kind": "claim",
+      "lemma": "L003",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L004.IDENTITY",
+      "kind": "claim",
+      "lemma": "L004",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L004.LOG",
+      "kind": "claim",
+      "lemma": "L004",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L004.FINITE",
+      "kind": "claim",
+      "lemma": "L004",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L004.NOBH",
+      "kind": "claim",
+      "lemma": "L004",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L005.CHARGE",
+      "kind": "claim",
+      "lemma": "L005",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L005.COUNTER",
+      "kind": "claim",
+      "lemma": "L005",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L006.GLOBAL",
+      "kind": "claim",
+      "lemma": "L006",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L006.RADIAL",
+      "kind": "claim",
+      "lemma": "L006",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L006.INNERCONE",
+      "kind": "claim",
+      "lemma": "L006",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L007.STRIP",
+      "kind": "claim",
+      "lemma": "L007",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L007.ZEROJETS",
+      "kind": "claim",
+      "lemma": "L007",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L008.PREFIX",
+      "kind": "claim",
+      "lemma": "L008",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L008.CENTER",
+      "kind": "claim",
+      "lemma": "L008",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L008.ONECROSS",
+      "kind": "claim",
+      "lemma": "L008",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L008.THREECROSS",
+      "kind": "claim",
+      "lemma": "L008",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L009.WEDGE",
+      "kind": "claim",
+      "lemma": "L009",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L009.EXIST",
+      "kind": "claim",
+      "lemma": "L009",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L009.ACTUAL",
+      "kind": "claim",
+      "lemma": "L009",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L010.TRANSPORT",
+      "kind": "claim",
+      "lemma": "L010",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L010.CENTER",
+      "kind": "claim",
+      "lemma": "L010",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L010.PHASE",
+      "kind": "claim",
+      "lemma": "L010",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L011.BUDGET",
+      "kind": "claim",
+      "lemma": "L011",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L011.WILSON",
+      "kind": "claim",
+      "lemma": "L011",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L011.WEDGE",
+      "kind": "claim",
+      "lemma": "L011",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L011.FORCED",
+      "kind": "claim",
+      "lemma": "L011",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.KERNEL",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.STRIP",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.EXIST",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.PP",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.BOUNDARY",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L012.MGHD_EDGE",
+      "kind": "claim",
+      "lemma": "L012",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L013.LIMIT",
+      "kind": "claim",
+      "lemma": "L013",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L013.RIGID",
+      "kind": "claim",
+      "lemma": "L013",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L013.OUTER",
+      "kind": "claim",
+      "lemma": "L013",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L014.VOLUME",
+      "kind": "claim",
+      "lemma": "L014",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L014.CENTER",
+      "kind": "claim",
+      "lemma": "L014",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L014.AXIS",
+      "kind": "claim",
+      "lemma": "L014",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L014.LIFETIME",
+      "kind": "claim",
+      "lemma": "L014",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L014.EXTENSION",
+      "kind": "claim",
+      "lemma": "L014",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L015.NONZERO",
+      "kind": "claim",
+      "lemma": "L015",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L015.GAPOUTER",
+      "kind": "claim",
+      "lemma": "L015",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L015.OUTER",
+      "kind": "claim",
+      "lemma": "L015",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L015.LIFETIME",
+      "kind": "claim",
+      "lemma": "L015",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L016.CURVATURE",
+      "kind": "claim",
+      "lemma": "L016",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L016.PHYSICAL",
+      "kind": "claim",
+      "lemma": "L016",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L016.SINGULAR",
+      "kind": "claim",
+      "lemma": "L016",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L017.POINCARE",
+      "kind": "claim",
+      "lemma": "L017",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L017.SHARP",
+      "kind": "claim",
+      "lemma": "L017",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L017.RATIO",
+      "kind": "claim",
+      "lemma": "L017",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L018.SIGN",
+      "kind": "claim",
+      "lemma": "L018",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L018.CERT",
+      "kind": "claim",
+      "lemma": "L018",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L018.CENTER",
+      "kind": "claim",
+      "lemma": "L018",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L018.ROBIN",
+      "kind": "claim",
+      "lemma": "L018",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L019.FIRST",
+      "kind": "claim",
+      "lemma": "L019",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L019.BUDGET",
+      "kind": "claim",
+      "lemma": "L019",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L020.PROFILE",
+      "kind": "claim",
+      "lemma": "L020",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L020.CURRENT",
+      "kind": "claim",
+      "lemma": "L020",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L020.J",
+      "kind": "claim",
+      "lemma": "L020",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L020.KERNEL",
+      "kind": "claim",
+      "lemma": "L020",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L021.FIX",
+      "kind": "claim",
+      "lemma": "L021",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L021.CORE",
+      "kind": "claim",
+      "lemma": "L021",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L021.FAMILY",
+      "kind": "claim",
+      "lemma": "L021",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L021.KERNEL",
+      "kind": "claim",
+      "lemma": "L021",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L022.TAIL",
+      "kind": "claim",
+      "lemma": "L022",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L022.CONE",
+      "kind": "claim",
+      "lemma": "L022",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L022.FLOW",
+      "kind": "claim",
+      "lemma": "L022",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L022.DECISION",
+      "kind": "claim",
+      "lemma": "L022",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L023.ANLIM",
+      "kind": "claim",
+      "lemma": "L023",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L023.FIRST",
+      "kind": "claim",
+      "lemma": "L023",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L023.BRANCH",
+      "kind": "claim",
+      "lemma": "L023",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L023.MGEOM",
+      "kind": "claim",
+      "lemma": "L023",
+      "status": "按正文记录；未独立认证"
+    },
+    {
+      "id": "L023.SMOOTH",
+      "kind": "claim",
+      "lemma": "L023",
+      "status": "按正文记录；未独立认证"
+    }
+  ],
+  "proof_edges": [
+    {
+      "source": "PERIODIC_PROFILE",
+      "target": "FRBASE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FRBASE",
+      "target": "FRPOS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "KDEF",
+      "target": "FRPOS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "PERIODIC_PROFILE",
+      "target": "FRPOS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "FENDPOINT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FRBASE",
+      "target": "FLIFT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FRPOS",
+      "target": "FLIFT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FENDPOINT",
+      "target": "FLIFT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "FLOCAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FLIFT",
+      "target": "FSMOOTH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FLOCAL",
+      "target": "FSMOOTH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "FCENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FLOCAL",
+      "target": "FCENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "FCENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "FCENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FCENTER",
+      "target": "FGLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "MGHD",
+      "target": "FGLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "FGLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FGLOBAL",
+      "target": "I001",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "I002",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L001.PERSIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "TOPO",
+      "target": "L001.PERSIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "L001.PERSIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L001.PERSIST",
+      "target": "L001.EXCLUDE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "PENROSE",
+      "target": "L001.EXCLUDE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L001.BH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "VIS",
+      "target": "L001.BH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L002.DATA",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "TOPO",
+      "target": "L002.DATA",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L002.DATA",
+      "target": "L002.FAMILY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L003.TIDAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "VIS",
+      "target": "L003.TIDAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L003.TIDAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L004.IDENTITY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "VIS",
+      "target": "L004.IDENTITY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L004.IDENTITY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L004.IDENTITY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.LOG",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.FINITE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L004.NOBH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L005.CHARGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L004.IDENTITY",
+      "target": "L005.CHARGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L005.COUNTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "L005.COUNTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L006.GLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L002.DATA",
+      "target": "L006.GLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L002.FAMILY",
+      "target": "L006.GLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "KL",
+      "target": "L006.GLOBAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L006.GLOBAL",
+      "target": "L006.RADIAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L006.GLOBAL",
+      "target": "L006.INNERCONE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L007.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L007.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L007.ZEROJETS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L007.ZEROJETS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L008.PREFIX",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L008.PREFIX",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L008.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L008.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L008.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L008.CENTER",
+      "target": "L008.ONECROSS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L008.CENTER",
+      "target": "L008.THREECROSS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L009.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L009.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L009.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L009.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L009.WEDGE",
+      "target": "L009.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "L009.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L009.EXIST",
+      "target": "L009.ACTUAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L009.ACTUAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L009.ACTUAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L010.TRANSPORT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L010.TRANSPORT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L010.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L010.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L010.PHASE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "L010.PHASE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L011.BUDGET",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L011.BUDGET",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.WILSON",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L011.WILSON",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L011.WILSON",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L009.WEDGE",
+      "target": "L011.WEDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L011.BUDGET",
+      "target": "L011.FORCED",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "TAIL_LOWER",
+      "target": "L011.FORCED",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L012.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L012.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.KERNEL",
+      "target": "L012.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L012.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L012.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "HORIZON",
+      "target": "L012.STRIP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "L012.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L012.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L012.EXIST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.PP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.EXIST",
+      "target": "L012.PP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "VIS",
+      "target": "L012.PP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L012.BOUNDARY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.KERNEL",
+      "target": "L012.BOUNDARY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.EXIST",
+      "target": "L012.BOUNDARY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.PP",
+      "target": "L012.MGHD_EDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L012.MGHD_EDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "MGHD",
+      "target": "L012.MGHD_EDGE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L013.LIMIT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.BOUNDARY",
+      "target": "L013.LIMIT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L013.LIMIT",
+      "target": "L013.RIGID",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L012.STRIP",
+      "target": "L013.RIGID",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L013.RIGID",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L013.RIGID",
+      "target": "L013.OUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L013.LIMIT",
+      "target": "L013.OUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L014.VOLUME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.VOLUME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L014.VOLUME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L014.VOLUME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.VOLUME",
+      "target": "L014.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L014.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L014.AXIS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L014.AXIS",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L014.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "OUTER_INPUT",
+      "target": "L014.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L014.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.VOLUME",
+      "target": "L014.EXTENSION",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "KOM_EXT",
+      "target": "L014.EXTENSION",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L015.NONZERO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L015.NONZERO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "INSEG",
+      "target": "L015.NONZERO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L015.NONZERO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L015.NONZERO",
+      "target": "L015.GAPOUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L015.GAPOUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CHAR",
+      "target": "L015.GAPOUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L015.GAPOUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L015.NONZERO",
+      "target": "L015.OUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L013.OUTER",
+      "target": "L015.OUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L015.GAPOUTER",
+      "target": "L015.OUTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L015.OUTER",
+      "target": "L015.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.LIFETIME",
+      "target": "L015.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L015.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "I001",
+      "target": "L015.LIFETIME",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L016.CURVATURE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L016.CURVATURE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L014.AXIS",
+      "target": "L016.PHYSICAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L016.PHYSICAL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L016.CURVATURE",
+      "target": "L016.SINGULAR",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L016.PHYSICAL",
+      "target": "L016.SINGULAR",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L015.LIFETIME",
+      "target": "L016.SINGULAR",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "BESSEL",
+      "target": "L017.POINCARE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L017.SHARP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L017.SHARP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L017.POINCARE",
+      "target": "L017.SHARP",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L017.SHARP",
+      "target": "L017.RATIO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L017.RATIO",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L018.SIGN",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "VIS",
+      "target": "L018.SIGN",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FINITE_INTERVAL",
+      "target": "L018.SIGN",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SL",
+      "target": "L018.SIGN",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L018.SIGN",
+      "target": "L018.CERT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L018.CERT",
+      "target": "L018.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "REG_CENTER",
+      "target": "L018.CENTER",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L018.SIGN",
+      "target": "L018.ROBIN",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L019.FIRST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L019.FIRST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L019.FIRST",
+      "target": "L019.BUDGET",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L010.TRANSPORT",
+      "target": "L019.BUDGET",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "E020",
+      "target": "L020.PROFILE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.CURRENT",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.J",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "E020",
+      "target": "L020.J",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L020.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.J",
+      "target": "L020.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "KDEF",
+      "target": "L020.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L021.FIX",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.CURRENT",
+      "target": "L021.FIX",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.PROFILE",
+      "target": "L021.CORE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "E021",
+      "target": "L021.CORE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L021.FIX",
+      "target": "L021.FAMILY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L021.CORE",
+      "target": "L021.FAMILY",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L021.FAMILY",
+      "target": "L021.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L020.KERNEL",
+      "target": "L021.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "KDEF",
+      "target": "L021.KERNEL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "L022.TAIL",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L022.CONE",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L022.TAIL",
+      "target": "L022.FLOW",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "COMMON_FLOW",
+      "target": "L022.FLOW",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L022.FLOW",
+      "target": "L022.DECISION",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L018.CERT",
+      "target": "L022.DECISION",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "SYS",
+      "target": "L023.ANLIM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "ANLIM",
+      "target": "L023.ANLIM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.ANLIM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "POS_DOMAIN",
+      "target": "L023.ANLIM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FLIFT",
+      "target": "L023.FIRST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "MINK_FILL",
+      "target": "L023.FIRST",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L023.FIRST",
+      "target": "L023.BRANCH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L023.ANLIM",
+      "target": "L023.BRANCH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FLIFT",
+      "target": "L023.BRANCH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L021.KERNEL",
+      "target": "L023.MGEOM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L021.FAMILY",
+      "target": "L023.MGEOM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L023.FIRST",
+      "target": "L023.MGEOM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "E023",
+      "target": "L023.MGEOM",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L023.BRANCH",
+      "target": "L023.SMOOTH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "FSMOOTH",
+      "target": "L023.SMOOTH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "CAUCHY",
+      "target": "L023.SMOOTH",
+      "kind": "proof_or_stated_input"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L023.SMOOTH",
+      "kind": "proof_or_stated_input"
+    }
+  ],
+  "application_or_explanatory_edges": [
+    {
+      "source": "L013.OUTER",
+      "target": "L014.VOLUME",
+      "kind": "outer_input_instance",
+      "note": "近视界初始场非零情形"
+    },
+    {
+      "source": "L015.OUTER",
+      "target": "L014.VOLUME",
+      "kind": "outer_input_instance",
+      "note": "通用首非零点情形；不反向证明抽象L014"
+    },
+    {
+      "source": "L015.OUTER",
+      "target": "L014.LIFETIME",
+      "kind": "outer_input_instance",
+      "note": "固定实际外边供应"
+    },
+    {
+      "source": "L021.KERNEL",
+      "target": "FLIFT",
+      "kind": "periodic_profile_instance",
+      "note": "具体周期族；实例尚无认证根"
+    },
+    {
+      "source": "L022.TAIL",
+      "target": "L023.SMOOTH",
+      "kind": "optional_budget_implementation",
+      "note": "若共同强拓扑实现与ε_trap成立"
+    },
+    {
+      "source": "L001.EXCLUDE",
+      "target": "L018.CERT",
+      "kind": "downstream_screening",
+      "note": "陷俘证书成立之后才用于临界排除；不是谱证书的前提"
+    },
+    {
+      "source": "L008.PREFIX",
+      "target": "L011.BUDGET",
+      "kind": "equivalent_sign_view",
+      "note": "同一λ号的两个等价表示；不互相证明"
+    }
+  ],
+  "warning": "DAG有无环仅检验依赖记录；不认证任何数学命题"
+}

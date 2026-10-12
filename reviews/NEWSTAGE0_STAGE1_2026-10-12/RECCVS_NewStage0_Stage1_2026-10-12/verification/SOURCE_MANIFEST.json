@@ -1,0 +1,712 @@
+{
+  "commit": "60c617abf60393d3ce56cf4cefd50104b3e30fef",
+  "files": [
+    {
+      "repo_path": "README.md",
+      "git_blob_sha1": "cbc30c32e7f10f7e8d7b3ae3f2c2208028caf1c8",
+      "sha256": "f45e05aaa26f05d4922f9b46d8fc70281702aae26d19a4e1c6eb9d33dd88aca6",
+      "size": 4365,
+      "package_path": "sources/README.md"
+    },
+    {
+      "repo_path": "RESULTS.md",
+      "git_blob_sha1": "d024be223a87d18f30cbb81c61cfbe83206ef572",
+      "sha256": "61533181bf05b72e6fa9a67ecd0374ce7dde02427acdb0c30cfec1134d58cf53",
+      "size": 3290,
+      "package_path": "sources/RESULTS.md"
+    },
+    {
+      "repo_path": "ROADMAP.md",
+      "git_blob_sha1": "d790702bce4707f3acaf1584652d3e584406c3d3",
+      "sha256": "a8ac38f7c6e5ea6f1a0982a053cb94da40e0bc79578cd59cc6be23ac27d309b4",
+      "size": 1442,
+      "package_path": "sources/ROADMAP.md"
+    },
+    {
+      "repo_path": "STATUS.md",
+      "git_blob_sha1": "7d2f4f79d2956f34472634fd2c0f6fe08152a61e",
+      "sha256": "e49bffaa45b7e57f999cfe354b8175dc6517c53372e028431496f335e644b8ad",
+      "size": 2153,
+      "package_path": "sources/STATUS.md"
+    },
+    {
+      "repo_path": "VERIFICATION.md",
+      "git_blob_sha1": "80f146ea8a31c5f34871a8de806f8758c7cdee14",
+      "sha256": "9c3ed13f2ffa8d8c62d9ee4307a566ad31818db2217abb707fe03da84522c96a",
+      "size": 1582,
+      "package_path": "sources/VERIFICATION.md"
+    },
+    {
+      "repo_path": "definitions/MODEL.md",
+      "git_blob_sha1": "ba993a48464aadbf024da815ca0a2fa1b721fc67",
+      "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9",
+      "size": 7748,
+      "package_path": "sources/definitions/MODEL.md"
+    },
+    {
+      "repo_path": "experiments/certify_admissible_profile.py",
+      "git_blob_sha1": "6cd318a587ecb6c934c52f3b9ce8da00a2ba644d",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "size": 5877,
+      "package_path": "sources/experiments/certify_admissible_profile.py"
+    },
+    {
+      "repo_path": "experiments/certify_filtered_J.py",
+      "git_blob_sha1": "5345f0017212c68481050e67f63f43b9cfaa4f54",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "size": 3057,
+      "package_path": "sources/experiments/certify_filtered_J.py"
+    },
+    {
+      "repo_path": "experiments/check_first_period_thresholds.py",
+      "git_blob_sha1": "18eff860832dfd7ec15bfdd1cf1f0834f20b5e42",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "size": 2315,
+      "package_path": "sources/experiments/check_first_period_thresholds.py"
+    },
+    {
+      "repo_path": "experiments/filtered_K8_n88_J_certificate.json",
+      "git_blob_sha1": "2a03524ece8941e51ace65fad26f13f05db45c51",
+      "sha256": "f6bfa5e3a407d673c1cef4b83dddf7155fd617d0fc12c5101bcdc641c5509567",
+      "size": 1055,
+      "package_path": "sources/experiments/filtered_K8_n88_J_certificate.json"
+    },
+    {
+      "repo_path": "experiments/filtered_K8_n88_admissible_certificate.json",
+      "git_blob_sha1": "3eb523a8aa4a296e0b0f61d977944c355e06607f",
+      "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302",
+      "size": 1795,
+      "package_path": "sources/experiments/filtered_K8_n88_admissible_certificate.json"
+    },
+    {
+      "repo_path": "experiments/first_period_threshold_certificate.json",
+      "git_blob_sha1": "1138dca72375a27c5a77c98f79ccb6fd615c464a",
+      "sha256": "7a4576d5867563de8d46eb45ea59b0c3e7cbb197022bcbf492de53da9ed0dd79",
+      "size": 582,
+      "package_path": "sources/experiments/first_period_threshold_certificate.json"
+    },
+    {
+      "repo_path": "experiments/freeze_filtered_profile.py",
+      "git_blob_sha1": "caa8a2818de137c6bdd1d4e7ec2476cfc1931a93",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "size": 4358,
+      "package_path": "sources/experiments/freeze_filtered_profile.py"
+    },
+    {
+      "repo_path": "experiments/kernel_algebra.py",
+      "git_blob_sha1": "a37a4db2e37a4c45f272fb238ccc1a27187f940e",
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667",
+      "size": 988,
+      "package_path": "sources/experiments/kernel_algebra.py"
+    },
+    {
+      "repo_path": "inputs/AUDIT.md",
+      "git_blob_sha1": "d9c61ad026de5e64a15a385dbfb14f74c22cb388",
+      "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de",
+      "size": 7469,
+      "package_path": "sources/inputs/AUDIT.md"
+    },
+    {
+      "repo_path": "proofs/INDEX.md",
+      "git_blob_sha1": "5d60fc464c24b22a70f9eb16495ce0d28b5050b2",
+      "sha256": "69d17a83740cea909b27d82fd4d2c38fac040e1635d251fd1e7ba11c0d5299bb",
+      "size": 2701,
+      "package_path": "sources/proofs/INDEX.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L001.md",
+      "git_blob_sha1": "e858ad9127ab7a4266b137d48b5d2ae9b9b80366",
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30",
+      "size": 3464,
+      "package_path": "sources/proofs/RECCVS_L001.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L002.md",
+      "git_blob_sha1": "7d03f934a3e1278f4581d8ec077646fb57114592",
+      "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1",
+      "size": 3267,
+      "package_path": "sources/proofs/RECCVS_L002.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L003.md",
+      "git_blob_sha1": "a2fedb474d55b87672f17cc9b81f343ac31e0ae8",
+      "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7",
+      "size": 1346,
+      "package_path": "sources/proofs/RECCVS_L003.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L004.md",
+      "git_blob_sha1": "cf0a75b345b8d0f700192ee2ab7101ed14da6eac",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618",
+      "size": 4299,
+      "package_path": "sources/proofs/RECCVS_L004.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L005.md",
+      "git_blob_sha1": "a804821ea1e1880547e55eca5e02014d36c14edd",
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0",
+      "size": 3348,
+      "package_path": "sources/proofs/RECCVS_L005.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L006.md",
+      "git_blob_sha1": "f00ef7b8da6b79f9edf660181239162702a63d07",
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1",
+      "size": 7462,
+      "package_path": "sources/proofs/RECCVS_L006.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L007.md",
+      "git_blob_sha1": "df9628bd580180bd4804714a834d831b6606cd1d",
+      "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c",
+      "size": 3237,
+      "package_path": "sources/proofs/RECCVS_L007.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L008.md",
+      "git_blob_sha1": "9bb7f36a3c62c8d8f51f7e43d2e148f33cc1d61b",
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1",
+      "size": 5680,
+      "package_path": "sources/proofs/RECCVS_L008.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L009.md",
+      "git_blob_sha1": "4e6e04f040aaa359b1bcaccf7925f0297671e369",
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e",
+      "size": 7889,
+      "package_path": "sources/proofs/RECCVS_L009.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L010.md",
+      "git_blob_sha1": "bae9a6cff3be389e53aef1f11c043a8072975792",
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705",
+      "size": 3495,
+      "package_path": "sources/proofs/RECCVS_L010.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L011.md",
+      "git_blob_sha1": "c50e538bce31c3386b69931f8ae8d8627b3404d6",
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a",
+      "size": 4956,
+      "package_path": "sources/proofs/RECCVS_L011.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L012.md",
+      "git_blob_sha1": "3cfc0e62310b43fed7f94f986878ab1aa35537f2",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f",
+      "size": 11115,
+      "package_path": "sources/proofs/RECCVS_L012.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L013.md",
+      "git_blob_sha1": "3c66b950c5bce70ddcfa538e779e6a0f710bdcef",
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8",
+      "size": 4306,
+      "package_path": "sources/proofs/RECCVS_L013.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L014.md",
+      "git_blob_sha1": "0d3179e6c4db66a7ab2170d5edc21d5bc483cf72",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c",
+      "size": 5297,
+      "package_path": "sources/proofs/RECCVS_L014.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L015.md",
+      "git_blob_sha1": "807026a2dc5a4e18dd61c238ee852dc1c4e26695",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991",
+      "size": 8777,
+      "package_path": "sources/proofs/RECCVS_L015.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L016.md",
+      "git_blob_sha1": "de4a1cc383ecd1626e15c07d1733fdb1af4644f5",
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65",
+      "size": 4291,
+      "package_path": "sources/proofs/RECCVS_L016.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L017.md",
+      "git_blob_sha1": "2a401dc24ec9d6ae1fdbf52c56ccf5f4f8b96189",
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91",
+      "size": 4693,
+      "package_path": "sources/proofs/RECCVS_L017.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L018.md",
+      "git_blob_sha1": "0af6981a4e2a327deed6e9e6efd84cf8662119c7",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf",
+      "size": 5473,
+      "package_path": "sources/proofs/RECCVS_L018.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L019.md",
+      "git_blob_sha1": "9eea60e4bc1bfe255dd4b9df51817dd515dc117d",
+      "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a",
+      "size": 3679,
+      "package_path": "sources/proofs/RECCVS_L019.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L020.md",
+      "git_blob_sha1": "498aa2ae3f97b6b5d6419211ba1353a79ecb906a",
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471",
+      "size": 4570,
+      "package_path": "sources/proofs/RECCVS_L020.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L021.md",
+      "git_blob_sha1": "dd6d58b632a9612481b5b458f41494ca57eecb75",
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72",
+      "size": 5494,
+      "package_path": "sources/proofs/RECCVS_L021.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L022.md",
+      "git_blob_sha1": "4d6981847f3f10c2cc6226c95b860587d967a376",
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93",
+      "size": 5369,
+      "package_path": "sources/proofs/RECCVS_L022.md"
+    },
+    {
+      "repo_path": "proofs/RECCVS_L023.md",
+      "git_blob_sha1": "fcc68f96ac0c76b79f10886e058597271aba6972",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03",
+      "size": 8788,
+      "package_path": "sources/proofs/RECCVS_L023.md"
+    },
+    {
+      "repo_path": "proofs/ROUTES_AND_TASKS.md",
+      "git_blob_sha1": "a1556b43dc93d45d324ff92b4d1a2d57d3d457f5",
+      "sha256": "3b485f2f5cdbf43180037f1c470a4db9daafbe49306c7f72be71acc9504dea16",
+      "size": 10309,
+      "package_path": "sources/proofs/ROUTES_AND_TASKS.md"
+    },
+    {
+      "repo_path": "reviews/NIGHT_SUMMARY_3_8_to_3_13_2026-10-12/RECCVS_Stage3_8_to_3_13_Night_Summary_2026-10-12.md",
+      "git_blob_sha1": "265d3aef9e06574f65b2c5176e77cd0b6dee5448",
+      "sha256": "1ddb83de781e4b2c5a3e67f7a87fc21f0e5aa28199c9824de663dbf6a197b798",
+      "size": 20514,
+      "package_path": "sources/reviews/NIGHT_SUMMARY_3_8_to_3_13_2026-10-12/RECCVS_Stage3_8_to_3_13_Night_Summary_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.md",
+      "git_blob_sha1": "c20cc2015b7796dda3b38e10e7bab87a74ab9a37",
+      "sha256": "7f163bbcffb7d786d71c3b1bd689e88338f8bb3ededf8dd19286571ae0f92a21",
+      "size": 32068,
+      "package_path": "sources/reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.md",
+      "git_blob_sha1": "357d0662145285758de7585a1faf79c9ee13d449",
+      "sha256": "5eeed7934af1700e09203f643b60a74feee73e5ef0dfd2e1e9048ea976619f21",
+      "size": 33399,
+      "package_path": "sources/reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/COMMON_CAUCHY_REALIZATION_mgeom.md",
+      "git_blob_sha1": "bbf49cc19b417d5da8327ca4224966cbfc0af398",
+      "sha256": "01dbb4c814e96ef64432f8e7a50e7d9a6c15af79161aca18563ca107e8af2ca2",
+      "size": 21824,
+      "package_path": "sources/reviews/STAGE3_COMMON_CAUCHY_2026-10-11/COMMON_CAUCHY_REALIZATION_mgeom.md"
+    },
+    {
+      "repo_path": "checks/reproduce.py",
+      "git_blob_sha1": "17f919f31d6bc213772116604f95bdcf13cc5b04",
+      "sha256": "435b5eee749733b977ecfc9f8f7693769368548c6229a713c1cb59732b99ad51",
+      "size": 4673,
+      "package_path": "sources/checks/reproduce.py"
+    },
+    {
+      "repo_path": "checks/verify_manifest.py",
+      "git_blob_sha1": "22490d4291046b32c6ebc0225fdab40d9080a0d2",
+      "sha256": "599a370886118bc3c6d61a9115052d8f478ef3f34abd9fa727605a4bb1db584a",
+      "size": 735,
+      "package_path": "sources/checks/verify_manifest.py"
+    },
+    {
+      "repo_path": "experiments/filtered_K8_n44_sigma1over20.json",
+      "git_blob_sha1": "c41e9bf13340510b711f1d1a74484071259f9684",
+      "sha256": "8248a8eff1e8e966db6e5caaaedfa7cefacba63f3cbf2ae356663457ea8e3908",
+      "size": 171758,
+      "package_path": "sources/experiments/filtered_K8_n44_sigma1over20.json"
+    },
+    {
+      "repo_path": "experiments/filtered_K8_n88_sigma1over20.json",
+      "git_blob_sha1": "564f5452f4464d91ee5ab70ef115787eb33a3e65",
+      "sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1",
+      "size": 619400,
+      "package_path": "sources/experiments/filtered_K8_n88_sigma1over20.json"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_bondi_center_jets.py",
+      "git_blob_sha1": "c9d3d67f40798edbb6b8a86bea959632ca0175ab",
+      "sha256": "bf9d580429ba94d6ed592fe9833a6f9e87dc5722bf2ef8a954e69d2c354d0fd1",
+      "size": 4436,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_bondi_center_jets.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_p0_4567.py",
+      "git_blob_sha1": "5ea2831d7af5158c77b23b00847a538dd27cfe2a",
+      "sha256": "6f1de5f25b6fec164bb248b6d17a1ceb653daaefaa47e1a0b78bb77ceb2928d7",
+      "size": 4571,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_p0_4567.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_realization_identities.py",
+      "git_blob_sha1": "714a304a2a7842d41343972cafb9344f9129f47f",
+      "sha256": "bffa24c7b0b6711ff60b5d3d5f0689b35fa9ac65c6651074bbb06a5c8e3b8967",
+      "size": 2350,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_realization_identities.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/global_development/check_ga_gb.py",
+      "git_blob_sha1": "5fbeea22cfc7f810e70fde39b6325ac6ed3b8337",
+      "sha256": "7c78218283b0814b42485917fd0093a0f4d2340a65be58ff1c76125597e07fcc",
+      "size": 2181,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/global_development/check_ga_gb.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/global_identities/check_global.py",
+      "git_blob_sha1": "8712e2124334922eb8d9f98e17464e7aceac0cc1",
+      "sha256": "2edc4982de57b4ff8d6cf5cca99dd6aec1466da9e6f3ebdf42479cb87278df6d",
+      "size": 2413,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/global_identities/check_global.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/run_all.py",
+      "git_blob_sha1": "653ada4c06b84ce4aea7e54fc8a63a04052dff68",
+      "sha256": "cf494c75ec8d66586ed87760a2d258912ba20f4d91f0b85c60e4f92a0b33c182",
+      "size": 759,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/run_all.py"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/check_p0.py",
+      "git_blob_sha1": "509a7ddea5f124a9e4d9f5df87fa59aa31e896bc",
+      "sha256": "13603929c572ec1a544205e5556c2c5f4f9f5cfe2eb2112fb7685bbdd08cf787",
+      "size": 4232,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/check_p0.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/current_check.py",
+      "git_blob_sha1": "cdc74354d9fd62404fc82289c5d55330c5847081",
+      "sha256": "31a1e7102dd8a4fcac02db2885ddf9ee59654695e79e92f501192989511dae43",
+      "size": 1035,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/current_check.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/endpoint_jet_check.py",
+      "git_blob_sha1": "a60994eaba014828e652700928664c6b26150147",
+      "sha256": "a4ace3e7c1a238ecb73c2dadb793106fdd2a1b39638d2ecd620ec33b58917c56",
+      "size": 1069,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/endpoint_jet_check.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/exact_core.py",
+      "git_blob_sha1": "f57403f7e4bf89053043cc074fa5bc635dba5050",
+      "sha256": "2d094eea1155ae88b58d217a4e583ba7007fb450c516a6bdf472e3ceef2aae51",
+      "size": 2324,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/exact_core.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/interval_checks.py",
+      "git_blob_sha1": "e3fde8ff7e4b41e46a94f1dd040ac24c17e89082",
+      "sha256": "df7107ed61650cea1a54af1df7173cd2fc1aac677dd47c2e0b5e78f1733912b4",
+      "size": 3622,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/interval_checks.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/jacobian_check.py",
+      "git_blob_sha1": "3d2be6689da1eca1b201e81f004d92759a8a95f7",
+      "sha256": "2b7cc841145bb9bb41ab3356ede233c917a516f5c841eb7c7e5b38944dcd9274",
+      "size": 1592,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/jacobian_check.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/run_checks.py",
+      "git_blob_sha1": "5d5b76e6c9566dae3347f8d9238de384ed68e23c",
+      "sha256": "1283a78733dc00e0ce8f578410e63487e5a2e0a0de18e7aa7bc54caadd7f2250",
+      "size": 553,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/run_checks.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/stability_check.py",
+      "git_blob_sha1": "e84fba5526e62679d2eacd93b3eadbdca37323ea",
+      "sha256": "15769b6e5e6eae43755cfb8ca37034b3d1a3264db6b99e7097264e683c322cf3",
+      "size": 1632,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/stability_check.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/symbolic_checks.py",
+      "git_blob_sha1": "d417c3fd72e7ef52e447fd7997ef1a12a0bc7576",
+      "sha256": "122cb0ccba7a89868d51bb9dd41eef1a1073fec29dacd09adf58d60a4e3d848e",
+      "size": 2869,
+      "package_path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/symbolic_checks.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build_certificate.py",
+      "git_blob_sha1": "59ba65c344846951c24b93f91d2fd5f5ffad41d8",
+      "sha256": "368aa923d6bdd0423324b7a1cee233ebe3620a2dbe48fadf926b971e31bfeab3",
+      "size": 889,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build_certificate.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.py",
+      "git_blob_sha1": "76420a7d18db9ed3176bebc098108d0fce11bc76",
+      "sha256": "ec4b2bc09ce216158c47331b819cf6e12daf68a67bce58afc8d2ea819901145d",
+      "size": 6129,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/high_precision.py",
+      "git_blob_sha1": "cc701e5e1e6c774804f211d8f5fb9ede9a4233d0",
+      "sha256": "469ff0935dc329c317efc9f8f214be2c049dc83dd58180ac9ae9fe6ae071f6dc",
+      "size": 3212,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/high_precision.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/interval_core.py",
+      "git_blob_sha1": "523fd9b9a59d3c3dc5cd8093a4bd56b2ddd1583b",
+      "sha256": "925b4b53cae3485b7bb4c9042585ffe607af45e9d8ffb25fd1b39b2aa1a55dc8",
+      "size": 2472,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/interval_core.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/model.py",
+      "git_blob_sha1": "4d1e98f8e0bd0f8c7c7a14b79f45847f3d6cc513",
+      "sha256": "66c1ba9b123b4ec21a85f914d18bdc59d3c364bc4902b76e0c6244930d4155d5",
+      "size": 6181,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/model.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
+      "git_blob_sha1": "e37512523c4df5cbdf65dd5bda9e221f4bb486bd",
+      "sha256": "e9561e8ba6a87f8f55d12000b2c8b8cbca96a15c6cfe0a76d3ba5981f82a0ee3",
+      "size": 565,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py"
+    },
+    {
+      "repo_path": "inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
+      "git_blob_sha1": "f759640c16804a473a9c40a6af39c995c9c76162",
+      "sha256": "6f6e57a9e3f9625fdf440f6977540ebdc30205132519c38b5be53e54cf589a29",
+      "size": 2141,
+      "package_path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/check_self_review.py",
+      "git_blob_sha1": "540b1607807882ac1c622132d28422b830d3cd9d",
+      "sha256": "ffce1d292c4a59a89331f3c94cf56099a0d0621066b4a21d722c54c45a8fa7db",
+      "size": 6450,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/check_self_review.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "git_blob_sha1": "6cd318a587ecb6c934c52f3b9ce8da00a2ba644d",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "size": 5877,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_admissible_profile.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "git_blob_sha1": "5345f0017212c68481050e67f63f43b9cfaa4f54",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "size": 3057,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_filtered_J.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "git_blob_sha1": "18eff860832dfd7ec15bfdd1cf1f0834f20b5e42",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "size": 2315,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "git_blob_sha1": "caa8a2818de137c6bdd1d4e7ec2476cfc1931a93",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "size": 4358,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "git_blob_sha1": "a37a4db2e37a4c45f272fb238ccc1a27187f940e",
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667",
+      "size": 988,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/kernel_algebra.py"
+    },
+    {
+      "repo_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.md",
+      "git_blob_sha1": "90917551f565eaaa6a07722fa49ba116f6a9ef43",
+      "sha256": "78dec52c0fce30a3a9d0b8b7c908f0da235084244fad64eec7ab19c440c0b5ec",
+      "size": 21925,
+      "package_path": "sources/reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.md",
+      "git_blob_sha1": "48d738c650f2fffc81a125f2b52e4f9784345001",
+      "sha256": "7a09c705eee6aa4b2719086bff415be3bfa8413914eacb5ed236bef093d2925b",
+      "size": 12464,
+      "package_path": "sources/reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.md",
+      "git_blob_sha1": "55b8051ad1a7382138c2bbda1b979eb6c9c8e83d",
+      "sha256": "137a864d39135b4f86675785839525adb8fb62bdfd5594c5e1a3ae538017154f",
+      "size": 27474,
+      "package_path": "sources/reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+      "git_blob_sha1": "37b9052da8f9253aea1bf47ef54c96f4b86be679",
+      "sha256": "22b66c5d3b3edc7b919779fdad29654b28fc8c2194c5a87ef7269c91b7b85d77",
+      "size": 14197,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+      "git_blob_sha1": "aa3e4ccb62f83575f7c65368cff09035c51b092a",
+      "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3",
+      "size": 23080,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+      "git_blob_sha1": "fe1ac4f30c4fa175fc696545cdfb48c7929abd1d",
+      "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008",
+      "size": 22102,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+      "git_blob_sha1": "e73146446b8a6d03432905f1f3b3a47032edc14f",
+      "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339",
+      "size": 18306,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+      "git_blob_sha1": "c7722138a2b67b95d8ee510b77d6dc3ba6903c80",
+      "sha256": "782b0d50fe83792844d894889eb21238f2d33c714d80308b674a736013821a13",
+      "size": 3785,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+      "git_blob_sha1": "879af39b8814093ffc4e2846c2c1ad6891808d34",
+      "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b",
+      "size": 6281,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+      "git_blob_sha1": "e5c0f96d05f2823938b541f8d2511b84c1911d83",
+      "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d",
+      "size": 3809,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+      "git_blob_sha1": "a8329d9adb5b011eaa80e4cc4baf2d13ee77dfcf",
+      "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2",
+      "size": 8823,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md"
+    },
+    {
+      "repo_path": "inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+      "git_blob_sha1": "032befbf5a4216317e438902833be67631312fad",
+      "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04",
+      "size": 4178,
+      "package_path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md"
+    },
+    {
+      "repo_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.md",
+      "git_blob_sha1": "46dfc2d040d071de0b2cd15ec4cbaea2f1dad47a",
+      "sha256": "5cd83cc9c7db492dea27823c4da701465697ae4865d33d6f52ff39850bc3775e",
+      "size": 65034,
+      "package_path": "sources/reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/README.md",
+      "git_blob_sha1": "31551dd6ee25ca505202949082cc0c134eb9b79e",
+      "sha256": "8c8b8ba100f268b76ff673a2cf03dd52ffb3668a7a964893c83c988dfa5a20fd",
+      "size": 237,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/README.md"
+    },
+    {
+      "repo_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.md",
+      "git_blob_sha1": "3f2463d1c618e9d8b391fd78136b404cad9b4fe3",
+      "sha256": "980db2d245f617a33e660aedb2de0bc5918ea71855cdf96f79fbb77e7134e40a",
+      "size": 53713,
+      "package_path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.md",
+      "git_blob_sha1": "dbb1314ffadb716c56063b390e71e12a736a4ea8",
+      "sha256": "1f66edb298791306a0d79a9d2d9b180fc671126e3cf594b12930ab7cf95f9d11",
+      "size": 14934,
+      "package_path": "sources/reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.md",
+      "git_blob_sha1": "e6515d6e1b218864a856e9b1994384d2cadae956",
+      "sha256": "ac08c4d6a6f4cf06a9c4493738ece5aa653497301fa68a38b34aa6e98681d2df",
+      "size": 12089,
+      "package_path": "sources/reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.md",
+      "git_blob_sha1": "e9c2687b6f824427f69d5667ebee57e5fbe5fa33",
+      "sha256": "591732cc93582c24b1cd4565307d14c42cd127c94f2a7146cff84a36c0609f39",
+      "size": 17154,
+      "package_path": "sources/reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.md",
+      "git_blob_sha1": "5a055b5822bbb37c4dcb365c9511193d3734c426",
+      "sha256": "0113738eb2e2ae73f60e56c0fc3649ec264dfa1266fd1aedcd8d2e7361e01f01",
+      "size": 30923,
+      "package_path": "sources/reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.md",
+      "git_blob_sha1": "d65e70a5ccb728638dc40d0ec1a7a0f485602a88",
+      "sha256": "08f7475ba8056f5cf5158c06be61434967f3049e26cdbbe221c1b98071db3bcf",
+      "size": 35355,
+      "package_path": "sources/reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.md",
+      "git_blob_sha1": "c0e0b54d0fce2d4567f692416e6376415d77b9f1",
+      "sha256": "1ac9b81f7e00553e39eb95006946bd6bf0a30180eaa37872a5507fb68a47ca44",
+      "size": 28161,
+      "package_path": "sources/reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.md",
+      "git_blob_sha1": "967ecdfa41c42a2f98cd1f5d7f10076a0b7ab12f",
+      "sha256": "605e97a5ef69ccac09b25410eefec5502ec9a8e4161909d8cea6a7eddd20f725",
+      "size": 9026,
+      "package_path": "sources/reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.md",
+      "git_blob_sha1": "f047b3d661c80268ed2fe7d494be46cd3de2daf8",
+      "sha256": "f970773753d001bfc1d619a105395a25e6ec65c30d697faecdfb0c3cf4e4c6d6",
+      "size": 8959,
+      "package_path": "sources/reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.md",
+      "git_blob_sha1": "1d5409a6cf96af330ab807de6c98943a8056ad34",
+      "sha256": "41b6d2e29de2f11ff9271c5b6b12dd43e6a8b661d1092466f3b8843435d2c23f",
+      "size": 6132,
+      "package_path": "sources/reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.md"
+    },
+    {
+      "repo_path": "reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.md",
+      "git_blob_sha1": "f46ac981a3b9f9a7ba36c14ded4f70389ee0dfac",
+      "sha256": "f8f20cd9af6c69c98f32719e00eba4e5e11de9d5ea89b8484e366d8386c7075a",
+      "size": 21720,
+      "package_path": "sources/reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.md"
+    }
+  ]
+}

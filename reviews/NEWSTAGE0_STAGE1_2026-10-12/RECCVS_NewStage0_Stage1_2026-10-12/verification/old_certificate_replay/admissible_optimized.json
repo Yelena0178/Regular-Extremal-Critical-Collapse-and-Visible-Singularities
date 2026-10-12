@@ -1,0 +1,72 @@
+{
+  "status": "EXPLICIT_SMOOTH_PERIODIC_LEADING_FAMILY_NOT_FINITE_AMPLITUDE_SEED",
+  "profile_sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1",
+  "global_J_certificate": {
+    "root_count": 1,
+    "single_negative_to_positive": true,
+    "node_count": 11
+  },
+  "exact_checks": {
+    "lambda_interval": [
+      "1/2",
+      "51/100"
+    ],
+    "normalized_K0_lower": "2^-854",
+    "normalized_total_current_interval": [
+      "3",
+      "4"
+    ],
+    "origin_orders": {
+      "field": 36,
+      "field_derivative": 35
+    },
+    "normalized_coefficient_l1_bounds": {
+      "field": "<1",
+      "derivative": "<1"
+    },
+    "normalized_core_pointwise_upper": {
+      "field": "<1",
+      "derivative": "<1"
+    },
+    "core_polynomial_lower": "D/E_total > 2^-1998"
+  },
+  "core_positive_certificate": {
+    "left": "3/4",
+    "right": "33/4",
+    "node_count": 1,
+    "leaf_count": 1,
+    "leaves": [
+      {
+        "index": 0,
+        "depth": 0,
+        "all_bernstein_coefficients_positive": true
+      }
+    ]
+  },
+  "analytically_verified_constants": {
+    "left_cutoff_a": "2^-1000",
+    "right_cutoff_B": 1048576,
+    "period_T": 1048578,
+    "cutoff_H1_error_upper": "2^-20000",
+    "bump_centers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "bump_halfwidth": "1/4",
+    "moment_inverse_infinity_norm_upper": "2^128",
+    "repaired_base_H1_error_upper": "2^-19000",
+    "parameter_ball_max_complex_modulus": "2^-4096",
+    "family_H1_error_upper": "2^-3950",
+    "family_core_C1_error_upper": "2^-3950",
+    "family_lambda_upper": "3/5",
+    "family_single_block_K_lower": "2^-855",
+    "family_periodic_K_lower": "2^-855"
+  },
+  "analytic_dependency": "RECCVS_L020.md + RECCVS_L021.md; not an interval PDE solver"
+}

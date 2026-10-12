@@ -1,0 +1,1850 @@
+{
+  "matched_archives": 18,
+  "missing_archives": [],
+  "members": [
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/check_audit_package.py",
+      "sha256": "51399d6007904198a8d0295f8e11399b8eb8d6ed2baa4bedf4eb9d416aba20d5",
+      "local_path": "tools_from_archives/51399d6007904198/check_audit_package.py",
+      "functions": [
+        "get",
+        "digest",
+        "require"
+      ],
+      "docstring": "Check source bytes and audit metadata; this does not verify any theorem."
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "local_path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py",
+      "functions": [
+        "require"
+      ],
+      "docstring": "Exact conservative arithmetic for the sufficient bounds in L023.\n\nThese checks validate the analytical implication, not the presence of an\nactual finite-amplitude root or the choice of its incoming cone."
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667",
+      "local_path": "tools_from_archives/11d7e43feceb6a72/kernel_algebra.py",
+      "functions": [],
+      "docstring": "Exact algebra checks for L012; these do not certify PDE continuation."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/check_self_review.py",
+      "sha256": "ffce1d292c4a59a89331f3c94cf56099a0d0621066b4a21d722c54c45a8fa7db",
+      "local_path": "tools_from_archives/ffce1d292c4a59a8/check_self_review.py",
+      "functions": [
+        "get",
+        "digest",
+        "check",
+        "verifyspan",
+        "ancestors"
+      ],
+      "docstring": "Verify frozen bytes and audit metadata only, never mathematical validity."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "local_path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py",
+      "functions": [
+        "require"
+      ],
+      "docstring": "Exact conservative arithmetic for the sufficient bounds in L023.\n\nThese checks validate the analytical implication, not the presence of an\nactual finite-amplitude root or the choice of its incoming cone."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667",
+      "local_path": "tools_from_archives/11d7e43feceb6a72/kernel_algebra.py",
+      "functions": [],
+      "docstring": "Exact algebra checks for L012; these do not certify PDE continuation."
+    },
+    {
+      "archive_path": "reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.zip",
+      "archive_blob": "0d76f50839b8603c033e2a3165c32455ac674c92",
+      "member": "RECCVS_Stage1_L023_Audit_2026-10-11/sources/experiments/check_first_period_thresholds.py",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "local_path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py",
+      "functions": [
+        "require"
+      ],
+      "docstring": "Exact conservative arithmetic for the sufficient bounds in L023.\n\nThese checks validate the analytical implication, not the presence of an\nactual finite-amplitude root or the choice of its incoming cone."
+    },
+    {
+      "archive_path": "reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.zip",
+      "archive_blob": "0d76f50839b8603c033e2a3165c32455ac674c92",
+      "member": "RECCVS_Stage1_L023_Audit_2026-10-11/verification/check_audit.py",
+      "sha256": "3396b58531b0f22c186a16ec7c14c1567dd9e7e6cf0a72f2e6cdeefb0bd47399",
+      "local_path": "tools_from_archives/3396b58531b0f22c/check_audit.py",
+      "functions": [
+        "read",
+        "walk"
+      ],
+      "docstring": "Check audit packaging, immutable source hashes and exact conditional arithmetic.\n\nThis is not a theorem checker, PDE verifier or nonlinear root certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/check_manifest.py",
+      "sha256": "b3db0846e5251dd475b1a7d5efad3acc515e744cac83b0e99a5678658c4203c5",
+      "local_path": "tools_from_archives/b3db0846e5251dd4/check_manifest.py",
+      "functions": [],
+      "docstring": "Verify every listed delivery file against its exact SHA-256."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/check_manifest.py",
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0",
+      "local_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/independent_majorant_check.py",
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7",
+      "local_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "functions": [
+        "plus",
+        "times",
+        "scaled",
+        "sigma",
+        "conv",
+        "chain",
+        "get",
+        "fixed_zero_background",
+        "primitive",
+        "exponential",
+        "reciprocal",
+        "run"
+      ],
+      "docstring": "Independent positive-rational majorant arithmetic, without importing generator.\n\nThe analytic weighted-norm proof remains necessary; this checker verifies the\ncoefficient arithmetic and uses independent Taylor/geometric series formulae."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/jet_majorants.py",
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f",
+      "local_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "functions": [
+        "esum",
+        "eprod",
+        "factor_exp",
+        "Bound",
+        "total",
+        "polynomial_product",
+        "coefficient",
+        "inverse_radius",
+        "lapse_exp",
+        "integrate",
+        "derive"
+      ],
+      "docstring": "Effective dyadic majorants for the reduced finite K=8 FLIFT jet system.\n\nEntries are exponents a meaning a certified upper majorant 2**a; None is zero.\nThe analytic justification of the weighted algebra is in PROOF.md.\nNo floating point endpoint evolution is performed."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/root_certificate.py",
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022",
+      "local_path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "functions": [
+        "realify",
+        "audit_base",
+        "create"
+      ],
+      "docstring": "Assemble and check the reduced finite-endpoint root certificate.\n\nThe mathematical proof is PROOF.md. This is an analytic-enclosure Krawczyk\ncertificate, not a sampled numerical integration or a spacetime certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.zip",
+      "archive_blob": "847594365f23ff382b27d416eb2a31151a4b6f0d",
+      "member": "RECCVS_Stage3_10_Full_Strip_2026-10-12/code/check_strip.py",
+      "sha256": "86e525048009f91738d2286db341756e2e13b6fa39a61135ef9e0e02386dbc7a",
+      "local_path": "tools_from_archives/86e525048009f917/check_strip.py",
+      "functions": [
+        "ck",
+        "t"
+      ],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.zip",
+      "archive_blob": "8f59e52379fab0395e7af1bae9e1542f82ab2697",
+      "member": "RECCVS_Stage3_11_Interface_G_2026-10-12/code/check_G.py",
+      "sha256": "754602ecbe49930dcfa384737a59b85a0c758a5f6ac1d989ce3d654a3d30368d",
+      "local_path": "tools_from_archives/754602ecbe49930d/check_G.py",
+      "functions": [
+        "ck"
+      ],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.zip",
+      "archive_blob": "4715a5fdf5c7fb5946b004f0b4c89249c2be32bd",
+      "member": "RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12/code/check_bounds.py",
+      "sha256": "b78573f105785509d4390255d2baa59aafc10eca1bde7a6bac3a252ce8826091",
+      "local_path": "tools_from_archives/b78573f105785509/check_bounds.py",
+      "functions": [
+        "check",
+        "ident",
+        "positive_polynomial"
+      ],
+      "docstring": "GPT 主张，未经外部独立审查。\nExact arithmetic and symbolic identities only; never a PDE existence certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.zip",
+      "archive_blob": "4715a5fdf5c7fb5946b004f0b4c89249c2be32bd",
+      "member": "RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12/code/exact_rational.py",
+      "sha256": "4fd9dcc3ae2741772e7d301913a99ba8e6dee0aa70a09a1c53a1063d14835236",
+      "local_path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py",
+      "functions": [
+        "Poly",
+        "Rat",
+        "var",
+        "symbols"
+      ],
+      "docstring": "Small exact multivariate polynomial/rational engine using Fraction only.\n\nNo symbolic assumptions or floating-point evaluations are used. Identity\nchecks are zero numerator checks after exact denominator cross-multiplication.\nGPT 主张，未经外部独立审查。"
+    },
+    {
+      "archive_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.zip",
+      "archive_blob": "c06e28545eb3f8995147409ef55113aba9907abf",
+      "member": "RECCVS_Stage3_13_Development_Interface_2026-10-12/code/check_interface.py",
+      "sha256": "03c8024350721e2b4f928d4e1a1ba21636bd74b3655c3e219ce60765d31073bc",
+      "local_path": "tools_from_archives/03c8024350721e2b/check_interface.py",
+      "functions": [
+        "check",
+        "ident",
+        "inverse",
+        "transported",
+        "pair",
+        "dg"
+      ],
+      "docstring": "Exact finite algebra verification, not a PDE/geometric certification.\nGPT 主张，未经外部独立审查。\nRun: python3 -B code/check_interface.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.zip",
+      "archive_blob": "c06e28545eb3f8995147409ef55113aba9907abf",
+      "member": "RECCVS_Stage3_13_Development_Interface_2026-10-12/code/exact_rational.py",
+      "sha256": "4fd9dcc3ae2741772e7d301913a99ba8e6dee0aa70a09a1c53a1063d14835236",
+      "local_path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py",
+      "functions": [
+        "Poly",
+        "Rat",
+        "var",
+        "symbols"
+      ],
+      "docstring": "Small exact multivariate polynomial/rational engine using Fraction only.\n\nNo symbolic assumptions or floating-point evaluations are used. Identity\nchecks are zero numerator checks after exact denominator cross-multiplication.\nGPT 主张，未经外部独立审查。"
+    },
+    {
+      "archive_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.zip",
+      "archive_blob": "c06e28545eb3f8995147409ef55113aba9907abf",
+      "member": "RECCVS_Stage3_13_Development_Interface_2026-10-12/frozen/stage312/code/check_bounds.py",
+      "sha256": "b78573f105785509d4390255d2baa59aafc10eca1bde7a6bac3a252ce8826091",
+      "local_path": "tools_from_archives/b78573f105785509/check_bounds.py",
+      "functions": [
+        "check",
+        "ident",
+        "positive_polynomial"
+      ],
+      "docstring": "GPT 主张，未经外部独立审查。\nExact arithmetic and symbolic identities only; never a PDE existence certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.zip",
+      "archive_blob": "c06e28545eb3f8995147409ef55113aba9907abf",
+      "member": "RECCVS_Stage3_13_Development_Interface_2026-10-12/frozen/stage312/code/exact_rational.py",
+      "sha256": "4fd9dcc3ae2741772e7d301913a99ba8e6dee0aa70a09a1c53a1063d14835236",
+      "local_path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py",
+      "functions": [
+        "Poly",
+        "Rat",
+        "var",
+        "symbols"
+      ],
+      "docstring": "Small exact multivariate polynomial/rational engine using Fraction only.\n\nNo symbolic assumptions or floating-point evaluations are used. Identity\nchecks are zero numerator checks after exact denominator cross-multiplication.\nGPT 主张，未经外部独立审查。"
+    },
+    {
+      "archive_path": "reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.zip",
+      "archive_blob": "8c22fb54678da33c99a0ae77e37e1c38669260f2",
+      "member": "RECCVS_Stage3_7_High_Order_Flux_2026-10-11/code/check_flux.py",
+      "sha256": "a7d5a5bfafc6a1f54026614e8dbeffb4bd8bc82d18d25bee1ed89b67c2b08ccd",
+      "local_path": "tools_from_archives/a7d5a5bfafc6a1f5/check_flux.py",
+      "functions": [
+        "check",
+        "differentiate"
+      ],
+      "docstring": "Exact finite arithmetic checks. Not a formal PDE/existence proof."
+    },
+    {
+      "archive_path": "reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.zip",
+      "archive_blob": "b2da5cb744d94c5b0b70c4e49ae9df58f77e1efc",
+      "member": "RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12/code/check_weighted.py",
+      "sha256": "50da3f0aa6625a3018880d3f05baa6f31947a1160cef8c613970bcc69f98f963",
+      "local_path": "tools_from_archives/50da3f0aa6625a30/check_weighted.py",
+      "functions": [
+        "check",
+        "diff",
+        "rational_diff"
+      ],
+      "docstring": "Finite exact checks. Does not certify PDEs or recover the missing actual psi."
+    },
+    {
+      "archive_path": "reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.zip",
+      "archive_blob": "153bf393318a81b22577238d8163e9f2a71472e3",
+      "member": "RECCVS_Stage3_9_Jet_Certification_2026-10-12/code/check_jets.py",
+      "sha256": "07298581b7a66eafa3c090a9cf706a969668c148a056277001ea60ab9297c35a",
+      "local_path": "tools_from_archives/07298581b7a66eaf/check_jets.py",
+      "functions": [
+        "ck",
+        "mul",
+        "inv",
+        "sqrtjet",
+        "diff"
+      ],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/check_manifest.py",
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0",
+      "local_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/independent_majorant_check.py",
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7",
+      "local_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "functions": [
+        "plus",
+        "times",
+        "scaled",
+        "sigma",
+        "conv",
+        "chain",
+        "get",
+        "fixed_zero_background",
+        "primitive",
+        "exponential",
+        "reciprocal",
+        "run"
+      ],
+      "docstring": "Independent positive-rational majorant arithmetic, without importing generator.\n\nThe analytic weighted-norm proof remains necessary; this checker verifies the\ncoefficient arithmetic and uses independent Taylor/geometric series formulae."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/jet_majorants.py",
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f",
+      "local_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "functions": [
+        "esum",
+        "eprod",
+        "factor_exp",
+        "Bound",
+        "total",
+        "polynomial_product",
+        "coefficient",
+        "inverse_radius",
+        "lapse_exp",
+        "integrate",
+        "derive"
+      ],
+      "docstring": "Effective dyadic majorants for the reduced finite K=8 FLIFT jet system.\n\nEntries are exponents a meaning a certified upper majorant 2**a; None is zero.\nThe analytic justification of the weighted algebra is in PROOF.md.\nNo floating point endpoint evolution is performed."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/code/root_certificate.py",
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022",
+      "local_path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "functions": [
+        "realify",
+        "audit_base",
+        "create"
+      ],
+      "docstring": "Assemble and check the reduced finite-endpoint root certificate.\n\nThe mathematical proof is PROOF.md. This is an analytic-enclosure Krawczyk\ncertificate, not a sampled numerical integration or a spacetime certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/baseline/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/check_manifest.py",
+      "sha256": "216fd9511368fb5eb9069b0114434a046e4017a5e7642f2f21333a6d4efc3a39",
+      "local_path": "tools_from_archives/216fd9511368fb5e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/check_stage3.py",
+      "sha256": "ffe9253821f3622005d91fddb3e8e60c29418932c65fa824afbaa47ce355be5d",
+      "local_path": "tools_from_archives/ffe9253821f36220/check_stage3.py",
+      "functions": [
+        "p",
+        "audit"
+      ],
+      "docstring": "Exact arithmetic audit of Stage 3. Python stdlib only; do not use -O.\n\nPROOF_H.md supplies the analytic inequalities. This program checks their\nconstants and the inherited box-root handoff; it does not solve a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/independent_check.py",
+      "sha256": "94298355bc3e95c49c4cb4e36646f06943ef0c3abdc9e495ca4ef1cb56cc8cc3",
+      "local_path": "tools_from_archives/94298355bc3e95c4/independent_check.py",
+      "functions": [
+        "dy",
+        "lin_add",
+        "scale",
+        "derivative",
+        "audit"
+      ],
+      "docstring": "Independent integer/rational and exact kernel-identity check.\n\nDoes not import check_stage3. Does not assume existence of a PDE rectangle."
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/code/check_common.py",
+      "sha256": "8517f5b5445fbe72ddbb3bd822270d80823f95a64565bf75afbb0acfe2652465",
+      "local_path": "tools_from_archives/8517f5b5445fbe72/check_common.py",
+      "functions": [
+        "check",
+        "const",
+        "var",
+        "add",
+        "scale",
+        "mul",
+        "rp",
+        "diff",
+        "bound"
+      ],
+      "docstring": "Exact finite audit. This program does not solve or formally verify a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.zip",
+      "archive_blob": "796524a1ba40a43d11aa7eaec75229fefbfb24eb",
+      "member": "RECCVS_Stage3_Effective_Cauchy_2026-10-11/code/check_constants.py",
+      "sha256": "bf5ea2537353febf3e5d44073139854617804b9726bd48dfae37bd438cb76582",
+      "local_path": "tools_from_archives/bf5ea2537353febf/check_constants.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Exact/logarithmic constant audit; NOT a formal PDE proof.\n\nNo import from previous certificate generators. Run from any working directory."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/check_manifest.py",
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0",
+      "local_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/independent_majorant_check.py",
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7",
+      "local_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "functions": [
+        "plus",
+        "times",
+        "scaled",
+        "sigma",
+        "conv",
+        "chain",
+        "get",
+        "fixed_zero_background",
+        "primitive",
+        "exponential",
+        "reciprocal",
+        "run"
+      ],
+      "docstring": "Independent positive-rational majorant arithmetic, without importing generator.\n\nThe analytic weighted-norm proof remains necessary; this checker verifies the\ncoefficient arithmetic and uses independent Taylor/geometric series formulae."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/jet_majorants.py",
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f",
+      "local_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "functions": [
+        "esum",
+        "eprod",
+        "factor_exp",
+        "Bound",
+        "total",
+        "polynomial_product",
+        "coefficient",
+        "inverse_radius",
+        "lapse_exp",
+        "integrate",
+        "derive"
+      ],
+      "docstring": "Effective dyadic majorants for the reduced finite K=8 FLIFT jet system.\n\nEntries are exponents a meaning a certified upper majorant 2**a; None is zero.\nThe analytic justification of the weighted algebra is in PROOF.md.\nNo floating point endpoint evolution is performed."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/code/root_certificate.py",
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022",
+      "local_path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "functions": [
+        "realify",
+        "audit_base",
+        "create"
+      ],
+      "docstring": "Assemble and check the reduced finite-endpoint root certificate.\n\nThe mathematical proof is PROOF.md. This is an analytic-enclosure Krawczyk\ncertificate, not a sampled numerical integration or a spacetime certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/baseline/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/code/check_manifest.py",
+      "sha256": "216fd9511368fb5eb9069b0114434a046e4017a5e7642f2f21333a6d4efc3a39",
+      "local_path": "tools_from_archives/216fd9511368fb5e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/code/check_stage3.py",
+      "sha256": "ffe9253821f3622005d91fddb3e8e60c29418932c65fa824afbaa47ce355be5d",
+      "local_path": "tools_from_archives/ffe9253821f36220/check_stage3.py",
+      "functions": [
+        "p",
+        "audit"
+      ],
+      "docstring": "Exact arithmetic audit of Stage 3. Python stdlib only; do not use -O.\n\nPROOF_H.md supplies the analytic inequalities. This program checks their\nconstants and the inherited box-root handoff; it does not solve a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/baseline/code/independent_check.py",
+      "sha256": "94298355bc3e95c49c4cb4e36646f06943ef0c3abdc9e495ca4ef1cb56cc8cc3",
+      "local_path": "tools_from_archives/94298355bc3e95c4/independent_check.py",
+      "functions": [
+        "dy",
+        "lin_add",
+        "scale",
+        "derivative",
+        "audit"
+      ],
+      "docstring": "Independent integer/rational and exact kernel-identity check.\n\nDoes not import check_stage3. Does not assume existence of a PDE rectangle."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/baseline/code/check_common.py",
+      "sha256": "8517f5b5445fbe72ddbb3bd822270d80823f95a64565bf75afbb0acfe2652465",
+      "local_path": "tools_from_archives/8517f5b5445fbe72/check_common.py",
+      "functions": [
+        "check",
+        "const",
+        "var",
+        "add",
+        "scale",
+        "mul",
+        "rp",
+        "diff",
+        "bound"
+      ],
+      "docstring": "Exact finite audit. This program does not solve or formally verify a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/code/check_extension.py",
+      "sha256": "190066f2d2f0a73f54f4a6a49c2eeaa407713dfffca0188a3960749614bd09e1",
+      "local_path": "tools_from_archives/190066f2d2f0a73f/check_extension.py",
+      "functions": [
+        "require",
+        "val",
+        "v",
+        "plus",
+        "times",
+        "scale"
+      ],
+      "docstring": "Finite exact audits; no numerical spacetime evolution or formal PDE proof."
+    },
+    {
+      "archive_path": "reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.zip",
+      "archive_blob": "813f6d23554f5f3d086daf205cda57e002247ca8",
+      "member": "RECCVS_Stage3_Independent_Audit_2026-10-11/code/independent_audit.py",
+      "sha256": "579d0a90fecb706e7ac57c6b2a6e3b72914539f25e564bde7eb5972e9760e7a3",
+      "local_path": "tools_from_archives/579d0a90fecb706e/independent_audit.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Independent exact arithmetic audit; NOT a PDE existence certificate.\n\nOnly Python stdlib. No imports of the previous generator/checker.\nRun from any directory: python3 code/independent_audit.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.zip",
+      "archive_blob": "e5dffc45e1313dc296c50bbeb99c02bf5e70bcc0",
+      "member": "RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11/code/check_slice.py",
+      "sha256": "511121c1f77164d79ef9ecabb8ad08967fdb366452512fcb592d422f404b7702",
+      "local_path": "tools_from_archives/511121c1f77164d7/check_slice.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Exact rational comparisons only. Does not certify PDEs or root existence.\nAnalytic premises: 0<r0<1/16, 0<eps<r0/8, delta<eps/4096;\ntheta(1-x)=1-theta(x), and the physical harmonic collar in baseline.\nNo floating-point representation of epsilon, and no parameter sampling."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/check_manifest.py",
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0",
+      "local_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/independent_majorant_check.py",
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7",
+      "local_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "functions": [
+        "plus",
+        "times",
+        "scaled",
+        "sigma",
+        "conv",
+        "chain",
+        "get",
+        "fixed_zero_background",
+        "primitive",
+        "exponential",
+        "reciprocal",
+        "run"
+      ],
+      "docstring": "Independent positive-rational majorant arithmetic, without importing generator.\n\nThe analytic weighted-norm proof remains necessary; this checker verifies the\ncoefficient arithmetic and uses independent Taylor/geometric series formulae."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/jet_majorants.py",
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f",
+      "local_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "functions": [
+        "esum",
+        "eprod",
+        "factor_exp",
+        "Bound",
+        "total",
+        "polynomial_product",
+        "coefficient",
+        "inverse_radius",
+        "lapse_exp",
+        "integrate",
+        "derive"
+      ],
+      "docstring": "Effective dyadic majorants for the reduced finite K=8 FLIFT jet system.\n\nEntries are exponents a meaning a certified upper majorant 2**a; None is zero.\nThe analytic justification of the weighted algebra is in PROOF.md.\nNo floating point endpoint evolution is performed."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/code/root_certificate.py",
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022",
+      "local_path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "functions": [
+        "realify",
+        "audit_base",
+        "create"
+      ],
+      "docstring": "Assemble and check the reduced finite-endpoint root certificate.\n\nThe mathematical proof is PROOF.md. This is an analytic-enclosure Krawczyk\ncertificate, not a sampled numerical integration or a spacetime certificate."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "baseline/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "code/check_manifest.py",
+      "sha256": "216fd9511368fb5eb9069b0114434a046e4017a5e7642f2f21333a6d4efc3a39",
+      "local_path": "tools_from_archives/216fd9511368fb5e/check_manifest.py",
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "code/check_stage3.py",
+      "sha256": "ffe9253821f3622005d91fddb3e8e60c29418932c65fa824afbaa47ce355be5d",
+      "local_path": "tools_from_archives/ffe9253821f36220/check_stage3.py",
+      "functions": [
+        "p",
+        "audit"
+      ],
+      "docstring": "Exact arithmetic audit of Stage 3. Python stdlib only; do not use -O.\n\nPROOF_H.md supplies the analytic inequalities. This program checks their\nconstants and the inherited box-root handoff; it does not solve a PDE."
+    },
+    {
+      "archive_path": "reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.zip",
+      "archive_blob": "837d0f14a8336807318b21a4db92d651f3a19d13",
+      "member": "code/independent_check.py",
+      "sha256": "94298355bc3e95c49c4cb4e36646f06943ef0c3abdc9e495ca4ef1cb56cc8cc3",
+      "local_path": "tools_from_archives/94298355bc3e95c4/independent_check.py",
+      "functions": [
+        "dy",
+        "lin_add",
+        "scale",
+        "derivative",
+        "audit"
+      ],
+      "docstring": "Independent integer/rational and exact kernel-identity check.\n\nDoes not import check_stage3. Does not assume existence of a PDE rectangle."
+    }
+  ],
+  "unique": [
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/check_audit_package.py",
+      "sha256": "51399d6007904198a8d0295f8e11399b8eb8d6ed2baa4bedf4eb9d416aba20d5",
+      "local_path": "tools_from_archives/51399d6007904198/check_audit_package.py",
+      "functions": [
+        "get",
+        "digest",
+        "require"
+      ],
+      "docstring": "Check source bytes and audit metadata; this does not verify any theorem.",
+      "package_path": "tools_from_archives/51399d6007904198/check_audit_package.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c",
+      "local_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "functions": [
+        "require",
+        "bernstein",
+        "positive_certificate",
+        "abs_eval",
+        "certify"
+      ],
+      "docstring": "Exact bounds for an explicitly defined smooth periodic K=8 profile family.\n\nThis checks the rational parts of L021. The cutoff and bumps are defined\nanalytically in that proof; their integrals need not be rounded to create\nthe exact family. This is NOT a finite-amplitude formation root or a PDE.",
+      "package_path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799",
+      "local_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "functions": [
+        "signs_variations",
+        "primitive",
+        "split",
+        "certify"
+      ],
+      "docstring": "Exact integer Bernstein root isolation for the filtered leading profile.\n\nThe only approximate values printed are display values. Certificates use\nintegers and dyadic intervals. This certifies J's root structure, not a PDE.",
+      "package_path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c",
+      "local_path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py",
+      "functions": [
+        "require"
+      ],
+      "docstring": "Exact conservative arithmetic for the sufficient bounds in L023.\n\nThese checks validate the analytical implication, not the presence of an\nactual finite-amplitude root or the choice of its incoming cone.",
+      "package_path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b",
+      "local_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "functions": [
+        "add",
+        "scale",
+        "mul",
+        "deriv",
+        "cadd",
+        "cscale",
+        "cderiv",
+        "integral_exp",
+        "variations",
+        "make"
+      ],
+      "docstring": "Exact rational leading-profile discovery. This is NOT a finite-amplitude seed.\n\nUses the imported fixed-K filtered exponential construction. Prints exact\nleading integral checks and Descartes information. No numerical PDE is run.",
+      "package_path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.zip",
+      "archive_blob": "04e72308671c43fd3d47af32de7eae1b202dde16",
+      "member": "RECCVS_Stage0_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667",
+      "local_path": "tools_from_archives/11d7e43feceb6a72/kernel_algebra.py",
+      "functions": [],
+      "docstring": "Exact algebra checks for L012; these do not certify PDE continuation.",
+      "package_path": "tools_from_archives/11d7e43feceb6a72/kernel_algebra.py"
+    },
+    {
+      "archive_path": "reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.zip",
+      "archive_blob": "fdb20ea7ab07fbd8ed38abe4181d9c88fb8a10b3",
+      "member": "RECCVS_Stage0_Self_Review_2026-10-11/verification/check_self_review.py",
+      "sha256": "ffce1d292c4a59a89331f3c94cf56099a0d0621066b4a21d722c54c45a8fa7db",
+      "local_path": "tools_from_archives/ffce1d292c4a59a8/check_self_review.py",
+      "functions": [
+        "get",
+        "digest",
+        "check",
+        "verifyspan",
+        "ancestors"
+      ],
+      "docstring": "Verify frozen bytes and audit metadata only, never mathematical validity.",
+      "package_path": "tools_from_archives/ffce1d292c4a59a8/check_self_review.py"
+    },
+    {
+      "archive_path": "reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.zip",
+      "archive_blob": "0d76f50839b8603c033e2a3165c32455ac674c92",
+      "member": "RECCVS_Stage1_L023_Audit_2026-10-11/verification/check_audit.py",
+      "sha256": "3396b58531b0f22c186a16ec7c14c1567dd9e7e6cf0a72f2e6cdeefb0bd47399",
+      "local_path": "tools_from_archives/3396b58531b0f22c/check_audit.py",
+      "functions": [
+        "read",
+        "walk"
+      ],
+      "docstring": "Check audit packaging, immutable source hashes and exact conditional arithmetic.\n\nThis is not a theorem checker, PDE verifier or nonlinear root certificate.",
+      "package_path": "tools_from_archives/3396b58531b0f22c/check_audit.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/check_manifest.py",
+      "sha256": "b3db0846e5251dd475b1a7d5efad3acc515e744cac83b0e99a5678658c4203c5",
+      "local_path": "tools_from_archives/b3db0846e5251dd4/check_manifest.py",
+      "functions": [],
+      "docstring": "Verify every listed delivery file against its exact SHA-256.",
+      "package_path": "tools_from_archives/b3db0846e5251dd4/check_manifest.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/check_profile_norm.py",
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f",
+      "local_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "functions": [
+        "multiply",
+        "main"
+      ],
+      "docstring": "Independent exact L2 input check; this is not a finite endpoint solver.",
+      "package_path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/independent_check.py",
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d",
+      "local_path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "functions": [
+        "add",
+        "neg",
+        "mul",
+        "div",
+        "scale",
+        "frobenius",
+        "reconstruct_row",
+        "decoded_matrix",
+        "read_interval",
+        "main"
+      ],
+      "docstring": "Independent Frobenius reconstruction and exact certificate re-computation.\n\nNo finite 17-dimensional root is certified by this script.",
+      "package_path": "tools_from_archives/16cd36909cf81686/independent_check.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.zip",
+      "archive_blob": "a89cb93bcbd02174604bb1436a66ffaf0fbc81ca",
+      "member": "RECCVS_Stage2_R01_Attempt_2026-10-11/code/r01_exact.py",
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c",
+      "local_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "functions": [
+        "ceildiv",
+        "I",
+        "pow2_interval",
+        "log_atanh",
+        "log_interval_y_1_2",
+        "exp_positive",
+        "exp_negative",
+        "ca",
+        "cn",
+        "cm",
+        "ci",
+        "cs",
+        "addpoly",
+        "scalepoly",
+        "integral",
+        "kernels",
+        "matrix_and_inverse",
+        "ceil_log2_fraction",
+        "serialize_complex_matrix",
+        "calculate"
+      ],
+      "docstring": "Exact preparatory checks for R01; never certifies the missing finite jets.\n\nOnly Python integer/Fraction arithmetic is used. All transcendental bounds\ncome from explicit positive-term series with a remainder interval.",
+      "package_path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/check_manifest.py",
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0",
+      "local_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "functions": [],
+      "docstring": "",
+      "package_path": "tools_from_archives/18631eb0eeed429e/check_manifest.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/independent_majorant_check.py",
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7",
+      "local_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "functions": [
+        "plus",
+        "times",
+        "scaled",
+        "sigma",
+        "conv",
+        "chain",
+        "get",
+        "fixed_zero_background",
+        "primitive",
+        "exponential",
+        "reciprocal",
+        "run"
+      ],
+      "docstring": "Independent positive-rational majorant arithmetic, without importing generator.\n\nThe analytic weighted-norm proof remains necessary; this checker verifies the\ncoefficient arithmetic and uses independent Taylor/geometric series formulae.",
+      "package_path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/jet_majorants.py",
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f",
+      "local_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "functions": [
+        "esum",
+        "eprod",
+        "factor_exp",
+        "Bound",
+        "total",
+        "polynomial_product",
+        "coefficient",
+        "inverse_radius",
+        "lapse_exp",
+        "integrate",
+        "derive"
+      ],
+      "docstring": "Effective dyadic majorants for the reduced finite K=8 FLIFT jet system.\n\nEntries are exponents a meaning a certified upper majorant 2**a; None is zero.\nThe analytic justification of the weighted algebra is in PROOF.md.\nNo floating point endpoint evolution is performed.",
+      "package_path": "tools_from_archives/e03287ab76752e54/jet_majorants.py"
+    },
+    {
+      "archive_path": "reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.zip",
+      "archive_blob": "2f3f8f019abf5da507bddc96964265670843bf01",
+      "member": "RECCVS_Stage2_R01_Reduced16_2026-10-11/code/root_certificate.py",
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022",
+      "local_path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "functions": [
+        "realify",
+        "audit_base",
+        "create"
+      ],
+      "docstring": "Assemble and check the reduced finite-endpoint root certificate.\n\nThe mathematical proof is PROOF.md. This is an analytic-enclosure Krawczyk\ncertificate, not a sampled numerical integration or a spacetime certificate.",
+      "package_path": "tools_from_archives/05771b7a87413f72/root_certificate.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.zip",
+      "archive_blob": "847594365f23ff382b27d416eb2a31151a4b6f0d",
+      "member": "RECCVS_Stage3_10_Full_Strip_2026-10-12/code/check_strip.py",
+      "sha256": "86e525048009f91738d2286db341756e2e13b6fa39a61135ef9e0e02386dbc7a",
+      "local_path": "tools_from_archives/86e525048009f917/check_strip.py",
+      "functions": [
+        "ck",
+        "t"
+      ],
+      "docstring": "",
+      "package_path": "tools_from_archives/86e525048009f917/check_strip.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.zip",
+      "archive_blob": "8f59e52379fab0395e7af1bae9e1542f82ab2697",
+      "member": "RECCVS_Stage3_11_Interface_G_2026-10-12/code/check_G.py",
+      "sha256": "754602ecbe49930dcfa384737a59b85a0c758a5f6ac1d989ce3d654a3d30368d",
+      "local_path": "tools_from_archives/754602ecbe49930d/check_G.py",
+      "functions": [
+        "ck"
+      ],
+      "docstring": "",
+      "package_path": "tools_from_archives/754602ecbe49930d/check_G.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.zip",
+      "archive_blob": "4715a5fdf5c7fb5946b004f0b4c89249c2be32bd",
+      "member": "RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12/code/check_bounds.py",
+      "sha256": "b78573f105785509d4390255d2baa59aafc10eca1bde7a6bac3a252ce8826091",
+      "local_path": "tools_from_archives/b78573f105785509/check_bounds.py",
+      "functions": [
+        "check",
+        "ident",
+        "positive_polynomial"
+      ],
+      "docstring": "GPT 主张，未经外部独立审查。\nExact arithmetic and symbolic identities only; never a PDE existence certificate.",
+      "package_path": "tools_from_archives/b78573f105785509/check_bounds.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.zip",
+      "archive_blob": "4715a5fdf5c7fb5946b004f0b4c89249c2be32bd",
+      "member": "RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12/code/exact_rational.py",
+      "sha256": "4fd9dcc3ae2741772e7d301913a99ba8e6dee0aa70a09a1c53a1063d14835236",
+      "local_path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py",
+      "functions": [
+        "Poly",
+        "Rat",
+        "var",
+        "symbols"
+      ],
+      "docstring": "Small exact multivariate polynomial/rational engine using Fraction only.\n\nNo symbolic assumptions or floating-point evaluations are used. Identity\nchecks are zero numerator checks after exact denominator cross-multiplication.\nGPT 主张，未经外部独立审查。",
+      "package_path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.zip",
+      "archive_blob": "c06e28545eb3f8995147409ef55113aba9907abf",
+      "member": "RECCVS_Stage3_13_Development_Interface_2026-10-12/code/check_interface.py",
+      "sha256": "03c8024350721e2b4f928d4e1a1ba21636bd74b3655c3e219ce60765d31073bc",
+      "local_path": "tools_from_archives/03c8024350721e2b/check_interface.py",
+      "functions": [
+        "check",
+        "ident",
+        "inverse",
+        "transported",
+        "pair",
+        "dg"
+      ],
+      "docstring": "Exact finite algebra verification, not a PDE/geometric certification.\nGPT 主张，未经外部独立审查。\nRun: python3 -B code/check_interface.py",
+      "package_path": "tools_from_archives/03c8024350721e2b/check_interface.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.zip",
+      "archive_blob": "8c22fb54678da33c99a0ae77e37e1c38669260f2",
+      "member": "RECCVS_Stage3_7_High_Order_Flux_2026-10-11/code/check_flux.py",
+      "sha256": "a7d5a5bfafc6a1f54026614e8dbeffb4bd8bc82d18d25bee1ed89b67c2b08ccd",
+      "local_path": "tools_from_archives/a7d5a5bfafc6a1f5/check_flux.py",
+      "functions": [
+        "check",
+        "differentiate"
+      ],
+      "docstring": "Exact finite arithmetic checks. Not a formal PDE/existence proof.",
+      "package_path": "tools_from_archives/a7d5a5bfafc6a1f5/check_flux.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.zip",
+      "archive_blob": "b2da5cb744d94c5b0b70c4e49ae9df58f77e1efc",
+      "member": "RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12/code/check_weighted.py",
+      "sha256": "50da3f0aa6625a3018880d3f05baa6f31947a1160cef8c613970bcc69f98f963",
+      "local_path": "tools_from_archives/50da3f0aa6625a30/check_weighted.py",
+      "functions": [
+        "check",
+        "diff",
+        "rational_diff"
+      ],
+      "docstring": "Finite exact checks. Does not certify PDEs or recover the missing actual psi.",
+      "package_path": "tools_from_archives/50da3f0aa6625a30/check_weighted.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.zip",
+      "archive_blob": "153bf393318a81b22577238d8163e9f2a71472e3",
+      "member": "RECCVS_Stage3_9_Jet_Certification_2026-10-12/code/check_jets.py",
+      "sha256": "07298581b7a66eafa3c090a9cf706a969668c148a056277001ea60ab9297c35a",
+      "local_path": "tools_from_archives/07298581b7a66eaf/check_jets.py",
+      "functions": [
+        "ck",
+        "mul",
+        "inv",
+        "sqrtjet",
+        "diff"
+      ],
+      "docstring": "",
+      "package_path": "tools_from_archives/07298581b7a66eaf/check_jets.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/check_manifest.py",
+      "sha256": "216fd9511368fb5eb9069b0114434a046e4017a5e7642f2f21333a6d4efc3a39",
+      "local_path": "tools_from_archives/216fd9511368fb5e/check_manifest.py",
+      "functions": [],
+      "docstring": "",
+      "package_path": "tools_from_archives/216fd9511368fb5e/check_manifest.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/check_stage3.py",
+      "sha256": "ffe9253821f3622005d91fddb3e8e60c29418932c65fa824afbaa47ce355be5d",
+      "local_path": "tools_from_archives/ffe9253821f36220/check_stage3.py",
+      "functions": [
+        "p",
+        "audit"
+      ],
+      "docstring": "Exact arithmetic audit of Stage 3. Python stdlib only; do not use -O.\n\nPROOF_H.md supplies the analytic inequalities. This program checks their\nconstants and the inherited box-root handoff; it does not solve a PDE.",
+      "package_path": "tools_from_archives/ffe9253821f36220/check_stage3.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/baseline/code/independent_check.py",
+      "sha256": "94298355bc3e95c49c4cb4e36646f06943ef0c3abdc9e495ca4ef1cb56cc8cc3",
+      "local_path": "tools_from_archives/94298355bc3e95c4/independent_check.py",
+      "functions": [
+        "dy",
+        "lin_add",
+        "scale",
+        "derivative",
+        "audit"
+      ],
+      "docstring": "Independent integer/rational and exact kernel-identity check.\n\nDoes not import check_stage3. Does not assume existence of a PDE rectangle.",
+      "package_path": "tools_from_archives/94298355bc3e95c4/independent_check.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_COMMON_CAUCHY_2026-10-11/RECCVS_Stage3_Common_Cauchy_2026-10-11.zip",
+      "archive_blob": "cad22b0c3da66f4b6ee87428c202ed3cc396a0fe",
+      "member": "RECCVS_Stage3_Common_Cauchy_2026-10-11/code/check_common.py",
+      "sha256": "8517f5b5445fbe72ddbb3bd822270d80823f95a64565bf75afbb0acfe2652465",
+      "local_path": "tools_from_archives/8517f5b5445fbe72/check_common.py",
+      "functions": [
+        "check",
+        "const",
+        "var",
+        "add",
+        "scale",
+        "mul",
+        "rp",
+        "diff",
+        "bound"
+      ],
+      "docstring": "Exact finite audit. This program does not solve or formally verify a PDE.",
+      "package_path": "tools_from_archives/8517f5b5445fbe72/check_common.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.zip",
+      "archive_blob": "796524a1ba40a43d11aa7eaec75229fefbfb24eb",
+      "member": "RECCVS_Stage3_Effective_Cauchy_2026-10-11/code/check_constants.py",
+      "sha256": "bf5ea2537353febf3e5d44073139854617804b9726bd48dfae37bd438cb76582",
+      "local_path": "tools_from_archives/bf5ea2537353febf/check_constants.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Exact/logarithmic constant audit; NOT a formal PDE proof.\n\nNo import from previous certificate generators. Run from any working directory.",
+      "package_path": "tools_from_archives/bf5ea2537353febf/check_constants.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.zip",
+      "archive_blob": "1bc76c90b735fac066f03b0c2818cdd19008b866",
+      "member": "RECCVS_Stage3_Extension_2026-10-11/code/check_extension.py",
+      "sha256": "190066f2d2f0a73f54f4a6a49c2eeaa407713dfffca0188a3960749614bd09e1",
+      "local_path": "tools_from_archives/190066f2d2f0a73f/check_extension.py",
+      "functions": [
+        "require",
+        "val",
+        "v",
+        "plus",
+        "times",
+        "scale"
+      ],
+      "docstring": "Finite exact audits; no numerical spacetime evolution or formal PDE proof.",
+      "package_path": "tools_from_archives/190066f2d2f0a73f/check_extension.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.zip",
+      "archive_blob": "813f6d23554f5f3d086daf205cda57e002247ca8",
+      "member": "RECCVS_Stage3_Independent_Audit_2026-10-11/code/independent_audit.py",
+      "sha256": "579d0a90fecb706e7ac57c6b2a6e3b72914539f25e564bde7eb5972e9760e7a3",
+      "local_path": "tools_from_archives/579d0a90fecb706e/independent_audit.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Independent exact arithmetic audit; NOT a PDE existence certificate.\n\nOnly Python stdlib. No imports of the previous generator/checker.\nRun from any directory: python3 code/independent_audit.py",
+      "package_path": "tools_from_archives/579d0a90fecb706e/independent_audit.py"
+    },
+    {
+      "archive_path": "reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.zip",
+      "archive_blob": "e5dffc45e1313dc296c50bbeb99c02bf5e70bcc0",
+      "member": "RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11/code/check_slice.py",
+      "sha256": "511121c1f77164d79ef9ecabb8ad08967fdb366452512fcb592d422f404b7702",
+      "local_path": "tools_from_archives/511121c1f77164d7/check_slice.py",
+      "functions": [
+        "check"
+      ],
+      "docstring": "Exact rational comparisons only. Does not certify PDEs or root existence.\nAnalytic premises: 0<r0<1/16, 0<eps<r0/8, delta<eps/4096;\ntheta(1-x)=1-theta(x), and the physical harmonic collar in baseline.\nNo floating-point representation of epsilon, and no parameter sampling.",
+      "package_path": "tools_from_archives/511121c1f77164d7/check_slice.py"
+    }
+  ]
+}

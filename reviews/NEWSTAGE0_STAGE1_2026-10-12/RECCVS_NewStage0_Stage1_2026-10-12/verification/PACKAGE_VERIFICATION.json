@@ -1,0 +1,13 @@
+{
+  "scope": "IMMUTABLE_PACKAGE_BYTES_ONLY",
+  "files_checked": 159,
+  "status": "PASS",
+  "issues": [],
+  "excluded_runtime_outputs": [
+    "verification/EXACT_RECOMPUTATION.json",
+    "verification/PACKAGE_MANIFEST.json",
+    "verification/PACKAGE_VERIFICATION.json"
+  ],
+  "mathematical_label": "GPT 主张，未经外部独立审查",
+  "mathematical_correctness_certified": false
+}

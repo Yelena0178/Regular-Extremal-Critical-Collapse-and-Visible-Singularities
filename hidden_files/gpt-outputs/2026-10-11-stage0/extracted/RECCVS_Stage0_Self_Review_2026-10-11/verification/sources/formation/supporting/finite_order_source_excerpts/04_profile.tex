@@ -1,0 +1,147 @@
+\section{任意有限零矩的严格可行剖面}\label{sec:profile}
+\subsection{核、矩与构造目标}
+对半直线剖面 $z$ 定义
+\begin{equation}\label{eq:profile-densities}
+E=|z'|^2,\quad C=\Imn(\bar z z'),\quad
+M_s(z)=\int_0^\infty e^{-sx}z(x)\dd x.
+\end{equation}
+若 $E,C\in L^1$，令 $\lambda=2E_{\rm tot}/C_{\rm tot}$；若为周期 $T$ 的函数，令 $\lambda=2\bar E/\bar C$，横线表示周期平均。以下两种情形的核均有定义：
+\begin{align}
+I_C(x)&=\int_0^xC(y)\dd y+\int_x^\infty e^{x-y}C(y)\dd y,\label{eq:IC}\\
+I_E(x)&=\int_0^x(1-\tfrac12e^{y-x})E(y)\dd y
++\tfrac12\int_x^\infty e^{x-y}E(y)\dd y,\label{eq:IE}\\
+\Kcal(x)&=2\lambda I_C(x)-2I_E(x).\label{eq:K}
+\end{align}
+
+\begin{proposition}[固定有限阶的可行剖面族]\label{prop:profile}
+给定 $K\ge1$、$\mu>1/2$，存在 $T>0$ 及一个在 $c\in\C^K$ 的零点邻域光滑依赖的 $T$ 周期函数族 $z_c$，使其在周期端点的一个固定开邻域恒零，并满足
+\begin{gather}
+C_c\ge0,\quad \bar E_c,\bar C_c>0,\quad
+\lambda(c)<\mu,\quad \Kcal_c(x)>0\ (x\ge0),\label{eq:profile-target}\\
+(M_1(z_c),\ldots,M_K(z_c))=c.\label{eq:moment-coordinates}
+\end{gather}
+在一个固定小闭参数球上，所需有限阶导数一致有界，均值有统一正下界，核在任意固定紧区间有统一正下界。
+\end{proposition}
+
+\subsection{滤波器与正电流}
+取偶数 $n\ge4K+4$，$\sigma>0$，设
+\begin{equation}\label{eq:seed}
+h=x^{n/2}(x-2ni)^n e^{(-\sigma+i/4)x},\qquad
+z=P_K(\partial_x)h,\quad P_K(\zeta)=\prod_{s=1}^K(\zeta-s).
+\end{equation}
+原点零阶至少为 $n/2-K\ge2$，无穷远指数衰减。因此所有边界项消失，分部积分得 $M_s(z)=P_K(s)M_s(h)=0$，$1\le s\le K$。
+
+写 $h=e^{\gamma x}p(x)$，$\gamma=-\sigma+i/4$。若多项式 $p$ 的根均在闭上半平面，则 $p'+(\gamma-s)p$ 的根也在闭上半平面：在下半平面，
+\[
+\Imn(p'/p)=\sum_\rho\Imn\frac1{x-\rho}>0,
+\]
+而非根处的零点方程要求 $p'/p=-(\gamma-s)$，右侧虚部是 $-1/4$。实轴非根处同样不可能产生零点；旧实根只能减去一重。初始多项式在正实轴无根，所以滤波后亦无正实零点，并有
+\begin{equation}\label{eq:phase-positive}
+\Imn\frac{z'}z=\frac14+\sum_\rho\frac{\Imn\rho}{|x-\rho|^2}\ge\frac14
+\quad(x>0).
+\end{equation}
+故 $C>0$。
+
+\subsection{两个鞍点及严格端点余量}
+设 $y=x/(2n)$、$\theta=1/(2n)$，定义
+\begin{equation}\label{eq:lk}
+l_0(y)=\frac{1+3y^2}{4y(1+y^2)},\quad
+k_0(y)=\frac{y^2+3}{4(1+y^2)},\quad B_\sigma=l_0-\sigma+ik_0.
+\end{equation}
+直接计算 $h'/h=B_\sigma$。令 $R_0=1$、
+\begin{equation}\label{eq:Rrec}
+R_{j+1}=(B_\sigma-j-1)R_j+\theta\partial_yR_j;
+\end{equation}
+则 $z/h=R_K$。固定 $K,\sigma$ 时，$R_K\to P_K(B_\sigma)$ 于任意内紧集的有限阶导数范数。
+
+加权积分 $\int e^{-sx}|z|^2g(y)\dd x$（$s=0,1$）除去共同常数后的指数为 $nf_s(y)$，其中
+\[
+f_s(y)=\log y+\log(1+y^2)-(4\sigma+2s)y,
+\quad f_s''=-\frac{1+3y^4}{y^2(1+y^2)^2}<0.
+\]
+因此唯一鞍点 $y_s$ 满足 $l_0(y_s)=\sigma+s/2$，且是非退化全局最大点。最大点处 $P_K(B_\sigma)\ne0$。积分分成最大点小邻域、其余紧集及两端：其余紧集有严格指数损失；两端的固定阶有理增长分别被 $y^n$ 与 $e^{-n(4\sigma+2s)y}$ 吸收；最大点邻域作二阶 Taylor 及支配收敛。这证明下列比值极限，也说明不需要对 $K\to\infty$ 一致。
+
+记 $C_L=\int e^{-x}C$、$E_L=\int e^{-x}E$。有
+\begin{align}
+\lambda(n,\sigma)&\longrightarrow\Lambda_\sigma=2k_0(y_b),
+&l_0(y_b)&=\sigma,\label{eq:Lambda}\\
+\frac{E_L}{2C_L}&\longrightarrow T_\sigma
+=\frac{1/4+k_0(y_w)^2}{2k_0(y_w)},
+&l_0(y_w)&=\sigma+\tfrac12.\label{eq:Tlimit}
+\end{align}
+在第二鞍点处 $\Ren(h'/h)=1/2$，故分子中的实部平方为 $1/4$。隐函数展开给
+\begin{equation}\label{eq:sigma-expand}
+\Lambda_\sigma=\tfrac12+\tfrac{16}{9}\sigma^2+O(\sigma^4),\qquad
+T_\sigma=\tfrac12+\sigma^2+O(\sigma^3).
+\end{equation}
+具体地，$y_b=3/(4\sigma)+O(\sigma)$，而 $l_0(1)=1/2$、$l_0'(1)=-1/4$、$k_0'(1)=-1/4$，所以 $y_w=1-4\sigma+O(\sigma^2)$、$k_0(y_w)=1/2+\sigma+O(\sigma^2)$。将后者代入 $T_\sigma-1/2=(k_0(y_w)-1/2)^2/(2k_0(y_w))$ 即得第二展开。
+
+先取足够小的 $\sigma>0$，使 $\Lambda_\sigma<\mu$ 且 $\Lambda_\sigma>T_\sigma$；再取充分大的偶数 $n$，便有
+\begin{equation}\label{eq:Kzero}
+\lambda<\mu,\qquad \Kcal(0)=2\lambda C_L-E_L>0.
+\end{equation}
+
+\subsection{全半线的一次变号机制}
+仅有\eqref{eq:Kzero}不足以保证所有 $x$ 的正性。为作全区间控制，令 $u=y/(1+y)$、$\widetilde R_j=u^jR_j$。由\eqref{eq:Rrec}得精确递推
+\begin{equation}\label{eq:compactrec}
+\widetilde R_{j+1}
+=[uB_\sigma-(j+1)u-j\theta(1-u)^2]\widetilde R_j
++\theta u(1-u)^2\partial_u\widetilde R_j.
+\end{equation}
+$uB_\sigma$ 在 $[0,1]$ 光滑。$\theta=0$ 时
+$\widetilde R_K=\prod_{s=1}^K[u(B_\sigma-s)]$，内点因虚部非零而无零点；两端值分别为 $4^{-K}$ 与 $P_K(-\sigma+i/4)$。故在 $(\sigma,\theta)$ 充分小时，$|\widetilde R_K|$ 在闭区间有统一正下界。
+
+写 $l_n+ik_n=z'/z$。精确公式
+\[
+\frac{z'}z=B_\sigma+\theta(1-u)^2
+\left(\frac{\partial_u\widetilde R_K}{\widetilde R_K}-\frac K u\right)
+\]
+说明 $ul_n$、$k_n$ 在闭区间的所需有限阶范数收敛。令
+\[
+J_n=\lambda\bigl[(1+2l_n)k_n+\theta\partial_yk_n\bigr]-l_n^2-k_n^2.
+\]
+结合先 $\sigma\downarrow0$ 后 $n\to\infty$ 的比值极限，可使 $u^2J_n$ 于 $C^1([0,1])$ 任意接近 $u^2J_0$，其中
+\begin{equation}\label{eq:Jfactor}
+J_0(y)=\frac{(y-1)\mathcal Q(y)}{16y^2(1+y^2)^2},\quad
+\mathcal Q=y^5+y^2(4y^2-3y+1)+(6y^2-2y+1)>0.
+\end{equation}
+两个二次多项式判别式均负。紧化后的左右端值为 $-1/16$、$1/16$，唯一零点 $u=1/2$ 简单。取其小邻域，极限导数在其中有正下界；邻域外函数绝对值有正下界。$C^1$ 扰动因此保留恰好一次负到正的变号。可与\eqref{eq:Kzero}同时选参。
+
+令 $F(x)=\int_0^xC$、$P_E(x)=\int_0^xE$ 及
+$\Hscr=\lambda(F+C)-P_E$。则 $\Hscr'=|z|^2J_n$。$\Hscr(0)=0$，先降后升，终值为 $E_{\rm tot}>0$，故自身恰有一次负到正的零点 $x_h$。直接求导核得
+\begin{equation}\label{eq:KODE}
+\Kcal''-\Kcal=-2\Hscr,\quad
+\Kcal'(0)=\Kcal(0)>0,\quad
+\Kcal(\infty)=2E_{\rm tot}>0.
+\end{equation}
+在 $[0,x_h]$，只要 $\Kcal>0$ 就有 $\Kcal''\ge\Kcal>0$，所以不能首次触零。若在 $(x_h,\infty)$ 非正，正的终值迫使出现一个非正内部最小值，但该点由\eqref{eq:KODE}有 $\Kcal''<0$，矛盾。故 $\Kcal>0$ 全半线成立，且其下确界严格正。
+
+\subsection{截断、精确矩修复与周期化}
+取实非负平滑截断 $\chi$，在原点和无穷远的小尾部为零。由高阶原点零点及指数衰减，$\chi z\to z$ 于 $H^1$，而
+\[
+C_{\chi z}=\chi^2C\ge0.
+\]
+$E,C$ 在 $L^1$ 中收敛，所有有限矩残差趋零。在一个固定严格正电流内区间选 $K$ 个窄的实 bump $b_j$，积分为一，中心 $x_j$ 互异。矩阵
+\[
+A_{sj}=\int e^{-sx}b_j(x)\dd x
+\]
+趋近 $e^{-sx_j}$；这是以互异 $e^{-x_j}$ 为节点的非退化 Vandermonde 型矩阵。先固定足够窄的 bumps，再用其复系数消去矩残差。修正趋零于 $C^1$ 且仅支撑在严格正电流核心，因而保持 $C\ge0$。核权重有界，所以 $E,C$ 的 $L^1$ 小扰动保持 $\lambda<\mu$ 和 $\inf\Kcal>0$。
+
+将修复后的紧支撑函数置于 $[0,T]$ 内部，$T$ 大于支撑右端，作周期延拓。总能量与电流之比不变。设 $\Kcal_c$ 为单块紧支撑核，$\Kcal_{\rm per}$ 为周期核，直接按周期求和得
+\begin{align}
+\Kcal_{\rm per}(x)&=\Kcal_c(x)
++\frac{e^{x-T}}{1-e^{-T}}\Kcal_c(0),\quad0\le x\le T,\label{eq:periodK}\\
+\Kcal_{\rm per}(x+T)-\Kcal_{\rm per}(x)
+&=2E_{\rm per}+e^{-x}\int_0^T e^{y-T}E(y)\dd y>0.\label{eq:Kincrement}
+\end{align}
+这里 $E_{\rm per}=\int_0^TE$，因为 $\lambda C_{\rm per}=2E_{\rm per}$。半线矩等于单周期矩除以 $1-e^{-sT}$，所以全部仍为零。
+
+最后将核心 bumps 周期延拓，按其半线矩矩阵取右逆，得到 $z_c=z_0+\sum_jc_jv_j$ 且 $M_s(v_j)=\delta_{sj}$。在小闭参数球中保持核心正电流、$\lambda<\mu$ 和第一周期核正性；\eqref{eq:Kincrement}传播至全半线。固定端点空隙不受这些核心修复影响。这证明命题\ref{prop:profile}。
+
+选参次序完整写为
+\[
+(K,\mu)\ \longrightarrow\ \sigma\ \longrightarrow\ n
+\ \longrightarrow\ \text{截断与核心修复}
+\ \longrightarrow\ T\ \longrightarrow\ \text{参数球}.
+\]
+本节不声称上述选择对 $K$ 一致或具有已给定的有效复杂度上界。

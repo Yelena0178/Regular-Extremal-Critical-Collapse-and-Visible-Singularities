@@ -1,0 +1,15 @@
+{
+  "scope": "L023_SUFFICIENT_IMPLICATION_NOT_A_FROZEN_SEED",
+  "first_mass_threshold_upper": "841/32768",
+  "second_mass_threshold_upper": "7/16384",
+  "first_width_LHS_upper": "1024/116281",
+  "second_width_LHS_upper": "20480/116281",
+  "lower_actual_mass_ratio": "1/2",
+  "worst_mass_margin_lower": "15543/32768",
+  "fixed_period": 1048578,
+  "geometric_minimum_m_expression": "2^2104156",
+  "worst_physical_width_upper": "2^-3796",
+  "geometric_left_radius_lower": "1/4",
+  "finite_amplitude_root_certified": false,
+  "strict_upgrade_Q_squared_over_r_squared_upper": "65/512"
+}

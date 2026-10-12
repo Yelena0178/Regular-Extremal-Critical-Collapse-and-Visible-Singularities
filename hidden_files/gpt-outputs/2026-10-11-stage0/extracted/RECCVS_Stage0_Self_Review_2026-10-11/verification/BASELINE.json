@@ -1,0 +1,1046 @@
+{
+  "baseline_date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "scope": "Supplied archive and two supplied markdown files; remote Git commit not observed",
+  "repository_user_provided": "Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities",
+  "inputs": [
+    {
+      "filename": "01-RECCVS_First_Period_Trapping_2026-10-09.zip",
+      "size_bytes": 23638286,
+      "sha256": "346ba992740af3791c660dd1bdb742910a8d4c277430affbb4b77852f5745382"
+    },
+    {
+      "filename": "02-RECCVS_Global_Central_Control_2026-10-09.md",
+      "size_bytes": 34560,
+      "sha256": "325b614a7c3e97cce820f3ae6323849cf5f24e45f804b3951e73c1fd759f291a"
+    },
+    {
+      "filename": "03-RECCVS_First_Round_2026-10-09.md",
+      "size_bytes": 42569,
+      "sha256": "109eafbc52e3e6166d611942e48e4ef56707e104b38203dccecad0e6eadbfc2b"
+    }
+  ],
+  "archive_entries": [
+    {
+      "path": "RECCVS/README.md",
+      "size_bytes": 3058,
+      "sha256": "b72ceb4ecbd75293fa6575ee4e63c8299bc9b6d802be880f3f98f56f6a8f75b8"
+    },
+    {
+      "path": "RECCVS/definitions/MODEL.md",
+      "size_bytes": 7748,
+      "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+    },
+    {
+      "path": "RECCVS/experiments/KERNEL_ALGEBRA_RESULT.txt",
+      "size_bytes": 198,
+      "sha256": "0d296bfe311f361374c8858409be3e7620ca73b3e4b0993e9894047fb9da76e9"
+    },
+    {
+      "path": "RECCVS/experiments/ROUND_07_VERIFICATION.md",
+      "size_bytes": 1106,
+      "sha256": "d04f151bc96e1af9bf66ad9a474c2a82b9d1cad0361400084ee1409ded98a1aa"
+    },
+    {
+      "path": "RECCVS/experiments/SPECIFICATION.md",
+      "size_bytes": 2082,
+      "sha256": "95be6d3ad3262bc752da346c38e4f26315f0f8d2730a3d5e975d044c88b1162e"
+    },
+    {
+      "path": "RECCVS/experiments/certify_admissible_profile.py",
+      "size_bytes": 5877,
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c"
+    },
+    {
+      "path": "RECCVS/experiments/certify_filtered_J.py",
+      "size_bytes": 3057,
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799"
+    },
+    {
+      "path": "RECCVS/experiments/check_first_period_thresholds.py",
+      "size_bytes": 2315,
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c"
+    },
+    {
+      "path": "RECCVS/experiments/filtered_K8_n44_sigma1over20.json",
+      "size_bytes": 171758,
+      "sha256": "8248a8eff1e8e966db6e5caaaedfa7cefacba63f3cbf2ae356663457ea8e3908"
+    },
+    {
+      "path": "RECCVS/experiments/filtered_K8_n88_J_certificate.json",
+      "size_bytes": 1055,
+      "sha256": "f6bfa5e3a407d673c1cef4b83dddf7155fd617d0fc12c5101bcdc641c5509567"
+    },
+    {
+      "path": "RECCVS/experiments/filtered_K8_n88_admissible_certificate.json",
+      "size_bytes": 1795,
+      "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302"
+    },
+    {
+      "path": "RECCVS/experiments/filtered_K8_n88_sigma1over20.json",
+      "size_bytes": 619400,
+      "sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1"
+    },
+    {
+      "path": "RECCVS/experiments/first_period_threshold_certificate.json",
+      "size_bytes": 582,
+      "sha256": "7a4576d5867563de8d46eb45ea59b0c3e7cbb197022bcbf492de53da9ed0dd79"
+    },
+    {
+      "path": "RECCVS/experiments/freeze_filtered_profile.py",
+      "size_bytes": 4358,
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b"
+    },
+    {
+      "path": "RECCVS/experiments/kernel_algebra.py",
+      "size_bytes": 988,
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667"
+    },
+    {
+      "path": "RECCVS/experiments/requirements-kernel.txt",
+      "size_bytes": 14,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "path": "RECCVS/inputs/AUDIT.md",
+      "size_bytes": 7469,
+      "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/.gitignore",
+      "size_bytes": 50,
+      "sha256": "e14398f87cf8d6c0026fc8d4360dc8ada7987d211ddf83c461ed4aaef41f5a5c"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/README.md",
+      "size_bytes": 2781,
+      "sha256": "6afc46b86204d60832e00891953fb3030eec81dba899442973fa52e0c95605f7"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/REPRODUCE.md",
+      "size_bytes": 1435,
+      "sha256": "4446e1fcbd43cf3b89502698e0e1668c7f6bae81f2d4f36861f4f323427557de"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/SHA256SUMS.txt",
+      "size_bytes": 4955,
+      "sha256": "e21f31ffedd9a04865d3e99974a7e1933c84a17ebdddaa9f937ec53f06481940"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/SOURCE_MAP.json",
+      "size_bytes": 12920,
+      "sha256": "c2094c29b0099e02a9c3675161b1e25cb772827fccb3a57bdee2d36232c3fa8b"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/UPLOAD_GUIDE.md",
+      "size_bytes": 5246,
+      "sha256": "008a7e902768363c6053f196b500b5cd2408441da78ca3f1c97ceb98c7f202ff"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/VERIFICATION.md",
+      "size_bytes": 1894,
+      "sha256": "07f02f1b4d17cdb3a9a7bbf67d821e8c4d81928e657f19890972683b4fb7e772"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/PACKAGING_RUN.json",
+      "size_bytes": 6557,
+      "sha256": "f373b0084c93197904421de6fb2ded3b13cc4bc5334a3d1d4c0ba29e427a9314"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/RESULTS_NEW.json",
+      "size_bytes": 1070,
+      "sha256": "e0965d6e1930ef31f1d1be26d61b86eda6f2e30b62ebb8a13f0a6130604066e8"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_bondi_center_jets.py",
+      "size_bytes": 4436,
+      "sha256": "bf9d580429ba94d6ed592fe9833a6f9e87dc5722bf2ef8a954e69d2c354d0fd1"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_p0_4567.py",
+      "size_bytes": 4571,
+      "sha256": "6f1de5f25b6fec164bb248b6d17a1ceb653daaefaa47e1a0b78bb77ceb2928d7"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_realization_identities.py",
+      "size_bytes": 2350,
+      "sha256": "bffa24c7b0b6711ff60b5d3d5f0689b35fa9ac65c6651074bbb06a5c8e3b8967"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/expected/center_and_gluing/RESULTS_INHERITED.txt",
+      "size_bytes": 477,
+      "sha256": "9b135a56bbfd7064f4d2e9ffaf658654e95bd79f61d3c165e0149dee2881d023"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/expected/center_and_gluing/RESULTS_NEW.json",
+      "size_bytes": 1070,
+      "sha256": "e0965d6e1930ef31f1d1be26d61b86eda6f2e30b62ebb8a13f0a6130604066e8"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/expected/global_development/RESULTS_GA_GB.json",
+      "size_bytes": 1104,
+      "sha256": "3a5cc5c33ba095e9d902d91f0c19f3c89a771692003f31413397203e5fd00f87"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/expected/global_identities/RESULTS_GLOBAL.json",
+      "size_bytes": 1192,
+      "sha256": "3fc04e36f73494588a4a6d13ef8984ed66fcf8dc99daa0c0eb09553215036924"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/expected/smooth_data/RESULTS.json",
+      "size_bytes": 724,
+      "sha256": "d140f5178bfe163b92f54c5c5cdd5de03565c02a5e677079e4c81791033d2e32"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/global_development/RESULTS_GA_GB.json",
+      "size_bytes": 1104,
+      "sha256": "3a5cc5c33ba095e9d902d91f0c19f3c89a771692003f31413397203e5fd00f87"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/global_development/check_ga_gb.py",
+      "size_bytes": 2181,
+      "sha256": "7c78218283b0814b42485917fd0093a0f4d2340a65be58ff1c76125597e07fcc"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/global_identities/RESULTS_GLOBAL.json",
+      "size_bytes": 1192,
+      "sha256": "3fc04e36f73494588a4a6d13ef8984ed66fcf8dc99daa0c0eb09553215036924"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/global_identities/check_global.py",
+      "size_bytes": 2413,
+      "sha256": "2edc4982de57b4ff8d6cf5cca99dd6aec1466da9e6f3ebdf42479cb87278df6d"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/requirements.txt",
+      "size_bytes": 14,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/run_all.py",
+      "size_bytes": 759,
+      "sha256": "cf494c75ec8d66586ed87760a2d258912ba20f4d91f0b85c60e4f92a0b33c182"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/RESULTS.json",
+      "size_bytes": 724,
+      "sha256": "d140f5178bfe163b92f54c5c5cdd5de03565c02a5e677079e4c81791033d2e32"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/check_p0.py",
+      "size_bytes": 4232,
+      "sha256": "13603929c572ec1a544205e5556c2c5f4f9f5cfe2eb2112fb7685bbdd08cf787"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+      "size_bytes": 14197,
+      "sha256": "22b66c5d3b3edc7b919779fdad29654b28fc8c2194c5a87ef7269c91b7b85d77"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+      "size_bytes": 23080,
+      "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+      "size_bytes": 22102,
+      "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+      "size_bytes": 18306,
+      "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+      "size_bytes": 3785,
+      "sha256": "782b0d50fe83792844d894889eb21238f2d33c714d80308b674a736013821a13"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+      "size_bytes": 6281,
+      "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+      "size_bytes": 3809,
+      "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+      "size_bytes": 8823,
+      "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+      "size_bytes": 4178,
+      "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/references.bib",
+      "size_bytes": 670,
+      "sha256": "264a034950cf144a8ad1e75363f07a8c2e1c8e1189b325328a25decc3c158c98"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/review/SECOND_REVIEW.md",
+      "size_bytes": 1895,
+      "sha256": "6564ebd86968c11df208d463364d95e7d2257f9fbafc2bfe790242dbe713c8ab"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/review/current_review_status.md",
+      "size_bytes": 2978,
+      "sha256": "c9ac4b5adbe0de90161aa6335dea889abeb5a9479768edd0c061f892a7ecb1a1"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/center_localization_original.md",
+      "size_bytes": 22271,
+      "sha256": "493356031933b7109be40d15ec09b0d440c63c77664733af99647bfaf4b8d190"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_original.pdf",
+      "size_bytes": 496510,
+      "sha256": "ef13435bbf36c59b28b987c8446e99b2eab59e00d9bb339fcc664edbe2135f1e"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/01_framework.tex",
+      "size_bytes": 5264,
+      "sha256": "10760651f7852c8ece9047d8d514161046bebe8f248f574d7ba980394fd6ebcc"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/02_necessity.tex",
+      "size_bytes": 3968,
+      "sha256": "2471549a51a7890b3054dabb0a0e603e692c27b7598dfc47d5df45844e0d8895"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/04_profile.tex",
+      "size_bytes": 8631,
+      "sha256": "9519ff27a05f2074ecda59934493ec974d8413630430a86c67b0c7d985ac89a1"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/05_linear.tex",
+      "size_bytes": 5352,
+      "sha256": "5afe8229f97c9e08a7a8d060f76d1bc192eb3b80556d7fcf6d4b642f4d2317e0"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/06_positivity.tex",
+      "size_bytes": 6039,
+      "sha256": "6a687c1eea951e23d463989d8dd1f5f06752de915ad7fa03e8326adbb6291609"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/07_lifting.tex",
+      "size_bytes": 12726,
+      "sha256": "6734e448b0011ccc7c99299794c440c0365f3b022d1544d5bebf2129c01e7256"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/finite_order_source_excerpts/08_global.tex",
+      "size_bytes": 7601,
+      "sha256": "76e6b38de24c8602832b531c14197d38134ccdb0082b643e50773e83ba5ae772"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/source_excerpts/rebuilt_closure_2026-10-08.tex",
+      "size_bytes": 32075,
+      "sha256": "8ac24912d86a91c8d6fe1abda7ea66eca32b5569ec7d48cc6d11a48fac15c6ae"
+    },
+    {
+      "path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/supporting/source_excerpts/smooth_realization_2026-09-28.tex",
+      "size_bytes": 29977,
+      "sha256": "bfe3e9b682a639c35e29deb134b8104431db605f9f20ebb71dd36ff4dc7ab6a1"
+    },
+    {
+      "path": "RECCVS/inputs/imported/OPEN PROBLEM B/RN-Black-Hole-Lab_GitHub_2026-10-08_checked.zip",
+      "size_bytes": 646623,
+      "sha256": "6985b715136c70b1835a58071d1818887399f74a289768b790a0680577832e7e"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/00_status.md",
+      "size_bytes": 2980,
+      "sha256": "b806f449fe97a8ff8f4af9cfa78e1cc5ca75eed6f1c195534645c82f241c17c6"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/01_uniform_C1_residual_theorem.md",
+      "size_bytes": 13385,
+      "sha256": "7bee856c1beaa1920540ebcbe37b43d8035f2f93d3a64a45a594d770804da5b9"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/02_finite_L_tail_lemma.md",
+      "size_bytes": 2109,
+      "sha256": "a9f886edd5312ffcdd14743577bd205c322b02980d6730b03b77f7fa52564253"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/03_non_degenerate_zero_stability.md",
+      "size_bytes": 1323,
+      "sha256": "7978edb67fc662afadd808ce138af462c25236c0d8bcc8c879a266dca7cc9c8e"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/04_uniform_admissibility.md",
+      "size_bytes": 6931,
+      "sha256": "97a01474e37ff4a2715c8dac8fc14ac817f248371dd38b30ae92bfcdfb38aab2"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/05_full_KU_endpoint_audit.md",
+      "size_bytes": 5588,
+      "sha256": "3f9bc025fdce50b3b1781fec5ce44597e40c2c4e9b49c3caa5cc286a5a07244f"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/06_charge_matching_and_eM_bound.md",
+      "size_bytes": 1868,
+      "sha256": "42ff52f97bca9f7b5c384c3efb460ad7502e2d49419bbd898748928048b49b26"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/07_KU_replacement_principle.md",
+      "size_bytes": 3007,
+      "sha256": "c819b65db0dbaaaabfc6a2ed05be25618baef66a713059839d259137267acdd7"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/08_regularity_and_center_extension.md",
+      "size_bytes": 1813,
+      "sha256": "a72d2b35d27c20845a49035d1a5b02b977a554bc20224826597e5d641118397a"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/09_final_global_collapse_theorem.md",
+      "size_bytes": 2741,
+      "sha256": "59219e1652edadd2a9b5a383d76c3855c91ffddb1d0ceca4726dc984562c3410"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/10_remaining_gaps.md",
+      "size_bytes": 2993,
+      "sha256": "41fd125e995a2d9156f3c007d705b1af84b0c798d1e59edf3fda3d2dfb6a3dd3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/AUDIT_CERTIFICATE.md",
+      "size_bytes": 3485,
+      "sha256": "d9e94c9b43e34af96c9419fb1212b243996b212cbbc94603f26cf49c73d864d1"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/FINAL_PROOF.md",
+      "size_bytes": 39031,
+      "sha256": "26e2b7804d52e32861ef4a83445cd673261750428a576e530bfadd526f7f0135"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/FINAL_THEOREM.md",
+      "size_bytes": 2741,
+      "sha256": "59219e1652edadd2a9b5a383d76c3855c91ffddb1d0ceca4726dc984562c3410"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/README_zh.md",
+      "size_bytes": 889,
+      "sha256": "f55ade4e4502df06dec377960fb3616a54871d023ac3f4f3576e976a021ac0bd"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/SHA256SUMS.txt",
+      "size_bytes": 2798,
+      "sha256": "a6815e44b3eff43b1b91ad636b6f5e74eee72e998e28c3da62f243beffdb76ec"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/K_certificate.json",
+      "size_bytes": 18489,
+      "sha256": "68cbc0befdc7119440a9d4176f5e8f51f0d7df21633196f199f8b379f011f909"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/check_log.txt",
+      "size_bytes": 1030,
+      "sha256": "eb0df320a5896b358e2829675a1e6594ef3269dc56421fb820b5d252cbf4212a"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/correction_stability_certificate.json",
+      "size_bytes": 20585,
+      "sha256": "8296d8dbb45e444138b521119d71a590d33fa0f2216ad4e34a42a8ffe8c6ef92"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/current_certificate.json",
+      "size_bytes": 18408,
+      "sha256": "94480a3076fac612f2293f11fe4b3dbf83d237fd8746012f17a411c42c69fd75"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/profile.json",
+      "size_bytes": 13941,
+      "sha256": "bbc2638fc4ef4bbbfa6944374195797eedaab302191601798023eb2771fc41f8"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/provenance.json",
+      "size_bytes": 1492,
+      "sha256": "b889f2e0b222dd098769af26f0218419137c16d2b2f99f2629538224f7fae313"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/data/right_inverse.json",
+      "size_bytes": 2645,
+      "sha256": "79f51f52b03f12e7cc65efd400977bf59eb912fe4c15cb65219844ca6360ddfa"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/current_check.py",
+      "size_bytes": 1035,
+      "sha256": "31a1e7102dd8a4fcac02db2885ddf9ee59654695e79e92f501192989511dae43"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/endpoint_jet_check.py",
+      "size_bytes": 1069,
+      "sha256": "a4ace3e7c1a238ecb73c2dadb793106fdd2a1b39638d2ecd620ec33b58917c56"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/exact_core.py",
+      "size_bytes": 2324,
+      "sha256": "2d094eea1155ae88b58d217a4e583ba7007fb450c516a6bdf472e3ceef2aae51"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/interval_checks.py",
+      "size_bytes": 3622,
+      "sha256": "df7107ed61650cea1a54af1df7173cd2fc1aac677dd47c2e0b5e78f1733912b4"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/jacobian_check.py",
+      "size_bytes": 1592,
+      "sha256": "2b7cc841145bb9bb41ab3356ede233c917a516f5c841eb7c7e5b38944dcd9274"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/run_checks.py",
+      "size_bytes": 553,
+      "sha256": "1283a78733dc00e0ce8f578410e63487e5a2e0a0de18e7aa7bc54caadd7f2250"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/stability_check.py",
+      "size_bytes": 1632,
+      "sha256": "15769b6e5e6eae43755cfb8ca37034b3d1a3264db6b99e7097264e683c322cf3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/symbolic_checks.py",
+      "size_bytes": 2869,
+      "sha256": "122cb0ccba7a89868d51bb9dd41eef1a1073fec29dacd09adf58d60a4e3d848e"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/README.md",
+      "size_bytes": 4049,
+      "sha256": "9f9d5dd1dab9a9900cc8b62faf6e7545cf00fdbc3eb73049324529f1128b4fbe"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/SHA256SUMS.txt",
+      "size_bytes": 902,
+      "sha256": "c1b21d356e1a02db62027fc6cfcd2218360e5612b1b2fa5c4ebf4bb421ab5515"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/audit.json",
+      "size_bytes": 616,
+      "sha256": "35153847c1ff0d4315c58dc54c1c1775142fb8b62d78ae1e31e44679ff74f27f"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build.log",
+      "size_bytes": 263,
+      "sha256": "9bf8015b9f539a651e9b5368cca778c94dcc5d4edbc865234f7cf090987f6961"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build_certificate.py",
+      "size_bytes": 889,
+      "sha256": "368aa923d6bdd0423324b7a1cee233ebe3620a2dbe48fadf926b971e31bfeab3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/candidate_rational.json",
+      "size_bytes": 16883,
+      "sha256": "0cf3d6e4819f5163d19f487501ee3c9d72ef8eaf72d3c09eb65c7962d9d1c01f"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.json",
+      "size_bytes": 56144,
+      "sha256": "21016d9c66f8f6847de726f563715d420105204e64760a9575bae1dc107887f3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.py",
+      "size_bytes": 6129,
+      "sha256": "ec4b2bc09ce216158c47331b819cf6e12daf68a67bce58afc8d2ea819901145d"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/floating_candidate.json",
+      "size_bytes": 2816,
+      "sha256": "15fe3397513b156c094662b0d6159896059f00c73621904e298da8cb06920ba0"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/high_precision.py",
+      "size_bytes": 3212,
+      "sha256": "469ff0935dc329c317efc9f8f214be2c049dc83dd58180ac9ae9fe6ae071f6dc"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/interval_core.py",
+      "size_bytes": 2472,
+      "sha256": "925b4b53cae3485b7bb4c9042585ffe607af45e9d8ffb25fd1b39b2aa1a55dc8"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/model.py",
+      "size_bytes": 6181,
+      "sha256": "66c1ba9b123b4ec21a85f914d18bdc59d3c364bc4902b76e0c6244930d4155d5"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.log",
+      "size_bytes": 245,
+      "sha256": "2ca9840281ebe2cd526c701648ae7e048bde4d83a6958b5e772c0e3ecce258ef"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
+      "size_bytes": 565,
+      "sha256": "e9561e8ba6a87f8f55d12000b2c8b8cbca96a15c6cfe0a76d3ba5981f82a0ee3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
+      "size_bytes": 2141,
+      "sha256": "6f6e57a9e3f9625fdf440f6977540ebdc30205132519c38b5be53e54cf589a29"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/.github/workflows/rn-calculations.yml",
+      "size_bytes": 1647,
+      "sha256": "5b33929cbd09eeb8f46635c1bb9885ac097f9f184ab7097012c8af0837a224f3"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/.gitignore",
+      "size_bytes": 68,
+      "sha256": "da539a18c8cc31e9704342160341c2e3d6ccde369941788715fecf1a5a03386e"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/AGENTS.md",
+      "size_bytes": 770,
+      "sha256": "9d9bb9ac2c11126f67abf587c128016e3415a1c324388440ed2cfff96984fb9b"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/README.md",
+      "size_bytes": 3740,
+      "sha256": "0d9c358011b21836d0aae71a66e0121d1c3b0c085974b767a364b5608e799d44"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/main.py",
+      "size_bytes": 142,
+      "sha256": "1be694092cda1dd0931c851f262400a2d289fa669daf670e5d0d01d128052670"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/requirements.txt",
+      "size_bytes": 33,
+      "sha256": "9cd1fc2f0c815b8feb734f1e241926ced5739d9e9c49d3590ec68e936d389989"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/horizons.png",
+      "size_bytes": 71697,
+      "sha256": "3057c1d08af610c91ea97a32a25dec2de40596dc0b710e09e2914cc2ff92d668"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/metric_function.png",
+      "size_bytes": 76053,
+      "sha256": "766834406ca08692018c8092bf7b2cc9aea90d1605492186347e82def247ea19"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/photon_sphere.png",
+      "size_bytes": 63306,
+      "sha256": "7892b5eb9e8e160512116a1b9d8fc09b1ef12d2dc25085905ff1a2af907aad79"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/report.md",
+      "size_bytes": 1134,
+      "sha256": "ac6b1024f87d082c6d97642f0ae0328a65ebfdb2b21fb34ad46c28439c3aee47"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/rn_scan.csv",
+      "size_bytes": 20478,
+      "sha256": "b7611a759a43bfaa6014ceeda05127c8791f7146b698cbdf4b82c223cd8b2e26"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/summary.json",
+      "size_bytes": 561,
+      "sha256": "ed8863b1ffb044cdee0e2bad37ed4e07913a4691633245b2361035465e5557b7"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/results/temperature.png",
+      "size_bytes": 66427,
+      "sha256": "cbc76f6dc071f6e1ef7989eb06599c371272a6c7049cec3ca341ff0dab5eea19"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/rnlab/__init__.py",
+      "size_bytes": 170,
+      "sha256": "b81cb9dddff7f12379e9208de8ff4a09b38d0c1962a2f28511b564085411f848"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/rnlab/compute.py",
+      "size_bytes": 5876,
+      "sha256": "13ce959cc8457547f9a1a03d4c19af51e61babb337e8fb42ab1abd1131e15ee2"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/rnlab/physics.py",
+      "size_bytes": 2079,
+      "sha256": "eb657f86d19c35ff0099b587d5c52672e76de4cb7578ec8807375a4b946bb3fd"
+    },
+    {
+      "path": "RECCVS/inputs/round7_archives/RN-Black-Hole-Lab/RN-Black-Hole-Lab/tests/test_physics.py",
+      "size_bytes": 1963,
+      "sha256": "9f228a37dad96c90f2acb973b33afdce48a1589107bb2f2603ef82ee100f4c79"
+    },
+    {
+      "path": "RECCVS/literature/1107.0949.pdf",
+      "size_bytes": 2463554,
+      "sha256": "8ec86cd8f4c24ff82fc82341e4cd8878fbc017263bc94dd8ca7259c1ade90876"
+    },
+    {
+      "path": "RECCVS/literature/1107.0949.txt",
+      "size_bytes": 241281,
+      "sha256": "110c526360744216bbc49732d02bf8b704b955fd0bf3b0354db248572cba8dd9"
+    },
+    {
+      "path": "RECCVS/literature/1709.09137.pdf",
+      "size_bytes": 997484,
+      "sha256": "23452b85ec7e33bed01fc9f6cfb42a6b3ac999a59506a4aab25d1021be8d0a21"
+    },
+    {
+      "path": "RECCVS/literature/1709.09137.txt",
+      "size_bytes": 269551,
+      "sha256": "11edeb4533c0540a0c276cc0a9ecd888f186381a2a5ae38d9baa0ce1f3e0aead"
+    },
+    {
+      "path": "RECCVS/literature/2005.04090.pdf",
+      "size_bytes": 349707,
+      "sha256": "d446412d26e56344fc98c9311230b112cb002d55a5420a8a094f992f6e8a87d7"
+    },
+    {
+      "path": "RECCVS/literature/2005.04090.txt",
+      "size_bytes": 116827,
+      "sha256": "40fae5b06bca8fc7cf9ea7d0e7531afb74afe04aad58d43e4420a0c828681663"
+    },
+    {
+      "path": "RECCVS/literature/2109.03270.pdf",
+      "size_bytes": 782575,
+      "sha256": "c044652724ef980eab205c4fe34b2af37ccbbf0c447444a925606710c1c9326f"
+    },
+    {
+      "path": "RECCVS/literature/2109.03270.txt",
+      "size_bytes": 354886,
+      "sha256": "b78cabcce411e7449f72b41777cc44b7b88232067b92803b76f293141b8abd97"
+    },
+    {
+      "path": "RECCVS/literature/2211.15742.pdf",
+      "size_bytes": 1072337,
+      "sha256": "5c35c58615dcc49c603b6a7b966c3e9a165c5d3fbec82cabd3f549fb3dd8695a"
+    },
+    {
+      "path": "RECCVS/literature/2211.15742.txt",
+      "size_bytes": 207660,
+      "sha256": "f1e666c09a9dce2e96e0c24074434faefc75029a0f770e4871caa2f8e5a9db1a"
+    },
+    {
+      "path": "RECCVS/literature/2402.10190.pdf",
+      "size_bytes": 1754042,
+      "sha256": "d860f9d0d2c6745d3bb1b56db9a21f6e35d1fbb2d327ed5ea909f8c2d416c358"
+    },
+    {
+      "path": "RECCVS/literature/2402.10190.txt",
+      "size_bytes": 468615,
+      "sha256": "c5e6711af578c61037dc8770501277b63edc439acc239b85e2306abda37bda97"
+    },
+    {
+      "path": "RECCVS/literature/2410.16234.pdf",
+      "size_bytes": 1417367,
+      "sha256": "94df3f7767e6f11472d4f855a8e2cacbb72467095a877beb85968d38670fc88a"
+    },
+    {
+      "path": "RECCVS/literature/2410.16234.txt",
+      "size_bytes": 367880,
+      "sha256": "fbfc0583980e11db3ee48eca29d5b545de890b533f6b15f605191346c196f9fe"
+    },
+    {
+      "path": "RECCVS/literature/2504.12370.pdf",
+      "size_bytes": 2176174,
+      "sha256": "c9353d12711eba435f7731f0728f1c7c0a1b63526a846b9421f117d422fd1dec"
+    },
+    {
+      "path": "RECCVS/literature/2504.12370.txt",
+      "size_bytes": 270886,
+      "sha256": "b35d3b55d303383ba81c16a5ae4f8406fd4fb0f0d106db8621f58c7fe976b69d"
+    },
+    {
+      "path": "RECCVS/literature/2510.07431.pdf",
+      "size_bytes": 2561634,
+      "sha256": "e89598c1ca0ef6d420f93ae288a4d3eeeacb4840e8be20a825c31e115fe2ae9a"
+    },
+    {
+      "path": "RECCVS/literature/2510.07431.txt",
+      "size_bytes": 374076,
+      "sha256": "1709dd0cb0d3817cd4897eab5c1f675e82ab8b826cffd41f758c9cc02f0072f8"
+    },
+    {
+      "path": "RECCVS/literature/2602.11256.pdf",
+      "size_bytes": 2336595,
+      "sha256": "0b4f3164b17df8cc9ccb323287bf64cd1d49bfc65d5054f5e2e1f9343298a97b"
+    },
+    {
+      "path": "RECCVS/literature/2602.11256.txt",
+      "size_bytes": 131450,
+      "sha256": "cd923e4a515f06710debd3dfb254d765fb19d533b352201ca72fc46c0178c5eb"
+    },
+    {
+      "path": "RECCVS/literature/2603.10378.pdf",
+      "size_bytes": 2689911,
+      "sha256": "81caf2e2d93dc21e20e9d54a9e7f85e832f9961b2100d4c6db6ecfbe54e313cc"
+    },
+    {
+      "path": "RECCVS/literature/2603.10378.txt",
+      "size_bytes": 962772,
+      "sha256": "fde9954645284ed5277478bbd50f351de0750956c42ccbda01f4016f3d3ce303"
+    },
+    {
+      "path": "RECCVS/literature/2603.28861.pdf",
+      "size_bytes": 966638,
+      "sha256": "b9c28a87e7dfe5b02ad49b75ff9b6784e52937e93b10b171a37b59ea0a02a696"
+    },
+    {
+      "path": "RECCVS/literature/2603.28861.txt",
+      "size_bytes": 439451,
+      "sha256": "5569b68f68493d86969dd71c6727bebfc13b21fa8110d4f5e72fb4d4ab76da47"
+    },
+    {
+      "path": "RECCVS/literature/2603.28874.pdf",
+      "size_bytes": 1432278,
+      "sha256": "88fd8abd338272a3ac9c5e977f753f2588efbbfa43a4c79b880eaf93e84aea6d"
+    },
+    {
+      "path": "RECCVS/literature/2603.28874.txt",
+      "size_bytes": 661728,
+      "sha256": "5a275011daa73aca96b32de6e4ba02cfb10086e9bb59a3609413c7be2bd946b1"
+    },
+    {
+      "path": "RECCVS/literature/2609.17207.pdf",
+      "size_bytes": 4228552,
+      "sha256": "33ff19de6e6c4677d0eca4948bece5627fd8f381dae6bc089ae9ad94cf4dbe02"
+    },
+    {
+      "path": "RECCVS/literature/2609.17207.txt",
+      "size_bytes": 215262,
+      "sha256": "7d471ea685dfd3e0fff8ababf27389140373757f77c5cccae28d0dcc2de783d7"
+    },
+    {
+      "path": "RECCVS/literature/2609.33168.pdf",
+      "size_bytes": 745458,
+      "sha256": "23befcdb6742d676b5972d7919ffe5900b71942b04392d50a42011b66045581b"
+    },
+    {
+      "path": "RECCVS/literature/2609.33168.txt",
+      "size_bytes": 381428,
+      "sha256": "82b37135947863c33c5c2ffe34fa44ee85f8c7d989660f83443af4ff1a1d84d0"
+    },
+    {
+      "path": "RECCVS/literature/CENTRAL_FOCUSING_SOURCES_2026-10-09.md",
+      "size_bytes": 3285,
+      "sha256": "74ea1716c2400a369786c6b8a510965f5dbabd00887240bce0519e4e295a3380"
+    },
+    {
+      "path": "RECCVS/literature/COVERAGE.md",
+      "size_bytes": 9006,
+      "sha256": "7d361cf480423868d68a1c2108644fd07204bd32d834e4eae42acfec2ab451ae"
+    },
+    {
+      "path": "RECCVS/literature/FOLLOWUP_2026-10-09.md",
+      "size_bytes": 3030,
+      "sha256": "f06d48bf3a25d5e724c4a123bad53afaf0d270275898ed76e7368d5032616a9f"
+    },
+    {
+      "path": "RECCVS/literature/LOCATORS.md",
+      "size_bytes": 23314,
+      "sha256": "185f0cee23aad661d71b157a9cb07502e0afe37d2dde373357b0b3bf4cf61b5c"
+    },
+    {
+      "path": "RECCVS/literature/MANIFEST.json",
+      "size_bytes": 3836,
+      "sha256": "a15cf19e390c33a95d441734a3459cdf61dbd840309fe8a7864626022314cdc3"
+    },
+    {
+      "path": "RECCVS/literature/gr-qc_9606072.pdf",
+      "size_bytes": 174963,
+      "sha256": "f59656894e9ad57bc8d3f592de06fe14df1a5a38b1c0e63c29b624b44f013912"
+    },
+    {
+      "path": "RECCVS/literature/gr-qc_9606072.txt",
+      "size_bytes": 51830,
+      "sha256": "40ba7a04613d34984ce2774cb421a21e086c4998e72e2edd19d978bb119de466"
+    },
+    {
+      "path": "RECCVS/literature/gr-qc_9606093.pdf",
+      "size_bytes": 657886,
+      "sha256": "c5994b136dc156ee3692d3d64648d9a662d3c9069aa6d113994e403dad65edc4"
+    },
+    {
+      "path": "RECCVS/literature/gr-qc_9606093.txt",
+      "size_bytes": 74364,
+      "sha256": "2097e6c2e7a0ef722f16977805f9dcdef3849ae8f553c878a9010f791ebf6561"
+    },
+    {
+      "path": "RECCVS/literature/math_9901147.pdf",
+      "size_bytes": 229247,
+      "sha256": "5f3e4374408ad1ccb5fc664cf852f468c362785ab69e4a40779e23cabcb2d274"
+    },
+    {
+      "path": "RECCVS/literature/math_9901147.txt",
+      "size_bytes": 102414,
+      "sha256": "f2c707f1f5d098c0cfec97a1b5feefd2ff72cf3080dfa457ff381ad9c4664677"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L001.md",
+      "size_bytes": 3464,
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L002.md",
+      "size_bytes": 3267,
+      "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L003.md",
+      "size_bytes": 1346,
+      "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L004.md",
+      "size_bytes": 4299,
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L005.md",
+      "size_bytes": 3348,
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L006.md",
+      "size_bytes": 7462,
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L007.md",
+      "size_bytes": 3237,
+      "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L008.md",
+      "size_bytes": 5680,
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L009.md",
+      "size_bytes": 7889,
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L010.md",
+      "size_bytes": 3495,
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L011.md",
+      "size_bytes": 4956,
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L012.md",
+      "size_bytes": 11115,
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L013.md",
+      "size_bytes": 4306,
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L014.md",
+      "size_bytes": 5297,
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L015.md",
+      "size_bytes": 8777,
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L016.md",
+      "size_bytes": 4291,
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L017.md",
+      "size_bytes": 4693,
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L018.md",
+      "size_bytes": 5473,
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L019.md",
+      "size_bytes": 3679,
+      "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L020.md",
+      "size_bytes": 4570,
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L021.md",
+      "size_bytes": 5494,
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L022.md",
+      "size_bytes": 5369,
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    {
+      "path": "RECCVS/proofs/RECCVS_L023.md",
+      "size_bytes": 8788,
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    {
+      "path": "RECCVS/proofs/ROUTES_AND_TASKS.md",
+      "size_bytes": 10309,
+      "sha256": "3b485f2f5cdbf43180037f1c470a4db9daafbe49306c7f72be71acc9504dea16"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND04_FILES.json",
+      "size_bytes": 1028,
+      "sha256": "4f01936dd35f51ee04f29af42b199948e4635bda7b50efe1a8b6a3b83e0bf112"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_01.md",
+      "size_bytes": 4006,
+      "sha256": "223ee08c27092eeac7b05dbf2f9cec2e97be08817d9f3f5f590fd9cd0150134c"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_02.md",
+      "size_bytes": 5243,
+      "sha256": "3aae90ac44023e628cd37285f294108b5eb8b7baaecfd5d652ccd1e0bd271023"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_03.md",
+      "size_bytes": 6801,
+      "sha256": "7e02fd771ea883b9ee18b91ff669687b6b6584b7e424cdc0e5f725b4b912db5d"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_04.md",
+      "size_bytes": 7858,
+      "sha256": "6796d3dbc5d7a19de0df9160c41045e87668e7683551396f373c8754edce90e5"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_05.md",
+      "size_bytes": 1409,
+      "sha256": "bcdc1f51a9290774b7afea3433fe80375ff929a5f862950f9b454498e859e407"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_06.md",
+      "size_bytes": 4216,
+      "sha256": "727834e111614099bf5062f8591e153a4d7092819dae8864160a531c8567f6f9"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_07.md",
+      "size_bytes": 5112,
+      "sha256": "ce435c3bc5fca928ce51c54bf082531a890be4878abd53bca637c68459c95bff"
+    },
+    {
+      "path": "RECCVS/reviews/ROUND_07_FILE_MANIFEST.json",
+      "size_bytes": 40752,
+      "sha256": "8a7f1d936f5c214b7c1fa0f57be40e85e3ce1df33153471bb7b4c651ce5ddc67"
+    }
+  ],
+  "stage": "0",
+  "execution_date": "2026-10-11",
+  "remote_commit": null,
+  "root_certification_performed": false,
+  "pde_evolution_performed": false,
+  "mathematical_correctness_independently_verified": false
+}

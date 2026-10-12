@@ -1,0 +1,805 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 915,
+      "sha256": "706b4de08c93594ed22b3eb48bd46f30ee36cb0859e5f0611b0ffda9caac27be"
+    },
+    {
+      "path": "RECCVS_NewStage0_Stage1_2026-10-12.md",
+      "size": 16651,
+      "sha256": "f54d1fa390eb86008cb1de073cf368463b2c018be783ab86093db2092b60e127"
+    },
+    {
+      "path": "code/exact_recompute.py",
+      "size": 6773,
+      "sha256": "3a9e3491f6e2e7a989f85cb5ee0628ad33a43104fad3f159094ec900f1abd459"
+    },
+    {
+      "path": "code/verify_package.py",
+      "size": 1106,
+      "sha256": "660d16330ce3b3718239f0beafbb8bcd56c00f74934a3d0b48f63f4875ed08bc"
+    },
+    {
+      "path": "details/01_MODEL_AND_INITIAL_SPACE.md",
+      "size": 6179,
+      "sha256": "c000f3ce4b9bea19a4122f20f697fd4f964196478bdb745d205937453b225736"
+    },
+    {
+      "path": "details/02_OUTCOMES_MASS_AND_CRITICALITY.md",
+      "size": 8342,
+      "sha256": "94708245a2000213ee7386978b48a9c348ade8674b63709814202cb2024e4a8d"
+    },
+    {
+      "path": "details/03_NUMERICAL_EVIDENCE.md",
+      "size": 6909,
+      "sha256": "290dc6a66279ca97e0fcf794500dd06beb1079531067a7233e0ed6336c06f5f7"
+    },
+    {
+      "path": "details/04_STAGE_ACCEPTANCE.md",
+      "size": 5360,
+      "sha256": "6232c9e39ee971bf4f70a16071180776a9af303fd5fa1cc83235e337570ab02a"
+    },
+    {
+      "path": "details/05_TRAPPED_BASELINE_AUDIT.md",
+      "size": 6939,
+      "sha256": "a743a5d7e374bca8e1078c42e34963b97eead7bbfa8d6e8fc6ca3e55679fe688"
+    },
+    {
+      "path": "details/06_APPLICABILITY_INVENTORY.md",
+      "size": 17324,
+      "sha256": "f3da0fe08ea0ab28c7e7a7e85c8697fd39c38718b96a38868ccadba3a15f1f12"
+    },
+    {
+      "path": "details/07_SELF_REVIEW.md",
+      "size": 3966,
+      "sha256": "19dc1f400974a9f3fbe569c9057e87e37f485006c9ad1aa7cfe5304e36e28dc6"
+    },
+    {
+      "path": "details/08_SOURCES_AND_RECOMPUTATION.md",
+      "size": 4191,
+      "sha256": "836927a9af40be9f7ff68948ee019c8d102bea2c002731cf48560af955e56973"
+    },
+    {
+      "path": "sources/README.md",
+      "size": 4365,
+      "sha256": "f45e05aaa26f05d4922f9b46d8fc70281702aae26d19a4e1c6eb9d33dd88aca6"
+    },
+    {
+      "path": "sources/RESULTS.md",
+      "size": 3290,
+      "sha256": "61533181bf05b72e6fa9a67ecd0374ce7dde02427acdb0c30cfec1134d58cf53"
+    },
+    {
+      "path": "sources/ROADMAP.md",
+      "size": 1442,
+      "sha256": "a8ac38f7c6e5ea6f1a0982a053cb94da40e0bc79578cd59cc6be23ac27d309b4"
+    },
+    {
+      "path": "sources/STATUS.md",
+      "size": 2153,
+      "sha256": "e49bffaa45b7e57f999cfe354b8175dc6517c53372e028431496f335e644b8ad"
+    },
+    {
+      "path": "sources/VERIFICATION.md",
+      "size": 1582,
+      "sha256": "9c3ed13f2ffa8d8c62d9ee4307a566ad31818db2217abb707fe03da84522c96a"
+    },
+    {
+      "path": "sources/checks/reproduce.py",
+      "size": 4673,
+      "sha256": "435b5eee749733b977ecfc9f8f7693769368548c6229a713c1cb59732b99ad51"
+    },
+    {
+      "path": "sources/checks/verify_manifest.py",
+      "size": 735,
+      "sha256": "599a370886118bc3c6d61a9115052d8f478ef3f34abd9fa727605a4bb1db584a"
+    },
+    {
+      "path": "sources/definitions/MODEL.md",
+      "size": 7748,
+      "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+    },
+    {
+      "path": "sources/experiments/certify_admissible_profile.py",
+      "size": 5877,
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c"
+    },
+    {
+      "path": "sources/experiments/certify_filtered_J.py",
+      "size": 3057,
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799"
+    },
+    {
+      "path": "sources/experiments/check_first_period_thresholds.py",
+      "size": 2315,
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c"
+    },
+    {
+      "path": "sources/experiments/filtered_K8_n44_sigma1over20.json",
+      "size": 171758,
+      "sha256": "8248a8eff1e8e966db6e5caaaedfa7cefacba63f3cbf2ae356663457ea8e3908"
+    },
+    {
+      "path": "sources/experiments/filtered_K8_n88_J_certificate.json",
+      "size": 1055,
+      "sha256": "f6bfa5e3a407d673c1cef4b83dddf7155fd617d0fc12c5101bcdc641c5509567"
+    },
+    {
+      "path": "sources/experiments/filtered_K8_n88_admissible_certificate.json",
+      "size": 1795,
+      "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302"
+    },
+    {
+      "path": "sources/experiments/filtered_K8_n88_sigma1over20.json",
+      "size": 619400,
+      "sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1"
+    },
+    {
+      "path": "sources/experiments/first_period_threshold_certificate.json",
+      "size": 582,
+      "sha256": "7a4576d5867563de8d46eb45ea59b0c3e7cbb197022bcbf492de53da9ed0dd79"
+    },
+    {
+      "path": "sources/experiments/freeze_filtered_profile.py",
+      "size": 4358,
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b"
+    },
+    {
+      "path": "sources/experiments/kernel_algebra.py",
+      "size": 988,
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667"
+    },
+    {
+      "path": "sources/inputs/AUDIT.md",
+      "size": 7469,
+      "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_bondi_center_jets.py",
+      "size": 4436,
+      "sha256": "bf9d580429ba94d6ed592fe9833a6f9e87dc5722bf2ef8a954e69d2c354d0fd1"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_p0_4567.py",
+      "size": 4571,
+      "sha256": "6f1de5f25b6fec164bb248b6d17a1ceb653daaefaa47e1a0b78bb77ceb2928d7"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/center_and_gluing/check_realization_identities.py",
+      "size": 2350,
+      "sha256": "bffa24c7b0b6711ff60b5d3d5f0689b35fa9ac65c6651074bbb06a5c8e3b8967"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/global_development/check_ga_gb.py",
+      "size": 2181,
+      "sha256": "7c78218283b0814b42485917fd0093a0f4d2340a65be58ff1c76125597e07fcc"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/global_identities/check_global.py",
+      "size": 2413,
+      "sha256": "2edc4982de57b4ff8d6cf5cca99dd6aec1466da9e6f3ebdf42479cb87278df6d"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/run_all.py",
+      "size": 759,
+      "sha256": "cf494c75ec8d66586ed87760a2d258912ba20f4d91f0b85c60e4f92a0b33c182"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/checks/smooth_data/check_p0.py",
+      "size": 4232,
+      "sha256": "13603929c572ec1a544205e5556c2c5f4f9f5cfe2eb2112fb7685bbdd08cf787"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+      "size": 14197,
+      "sha256": "22b66c5d3b3edc7b919779fdad29654b28fc8c2194c5a87ef7269c91b7b85d77"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+      "size": 23080,
+      "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+      "size": 22102,
+      "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+      "size": 18306,
+      "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+      "size": 3785,
+      "sha256": "782b0d50fe83792844d894889eb21238f2d33c714d80308b674a736013821a13"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+      "size": 6281,
+      "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+      "size": 3809,
+      "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+      "size": 8823,
+      "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+    },
+    {
+      "path": "sources/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+      "size": 4178,
+      "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/current_check.py",
+      "size": 1035,
+      "sha256": "31a1e7102dd8a4fcac02db2885ddf9ee59654695e79e92f501192989511dae43"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/endpoint_jet_check.py",
+      "size": 1069,
+      "sha256": "a4ace3e7c1a238ecb73c2dadb793106fdd2a1b39638d2ecd620ec33b58917c56"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/exact_core.py",
+      "size": 2324,
+      "sha256": "2d094eea1155ae88b58d217a4e583ba7007fb450c516a6bdf472e3ceef2aae51"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/interval_checks.py",
+      "size": 3622,
+      "sha256": "df7107ed61650cea1a54af1df7173cd2fc1aac677dd47c2e0b5e78f1733912b4"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/jacobian_check.py",
+      "size": 1592,
+      "sha256": "2b7cc841145bb9bb41ab3356ede233c917a516f5c841eb7c7e5b38944dcd9274"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/run_checks.py",
+      "size": 553,
+      "sha256": "1283a78733dc00e0ce8f578410e63487e5a2e0a0de18e7aa7bc54caadd7f2250"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/stability_check.py",
+      "size": 1632,
+      "sha256": "15769b6e5e6eae43755cfb8ca37034b3d1a3264db6b99e7097264e683c322cf3"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_KU_final_closure_2026-09-25/C3_KU_final_closure/proof_checks/symbolic_checks.py",
+      "size": 2869,
+      "sha256": "122cb0ccba7a89868d51bb9dd41eef1a1073fec29dacd09adf58d60a4e3d848e"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/build_certificate.py",
+      "size": 889,
+      "sha256": "368aa923d6bdd0423324b7a1cee233ebe3620a2dbe48fadf926b971e31bfeab3"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/certificate.py",
+      "size": 6129,
+      "sha256": "ec4b2bc09ce216158c47331b819cf6e12daf68a67bce58afc8d2ea819901145d"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/high_precision.py",
+      "size": 3212,
+      "sha256": "469ff0935dc329c317efc9f8f214be2c049dc83dd58180ac9ae9fe6ae071f6dc"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/interval_core.py",
+      "size": 2472,
+      "sha256": "925b4b53cae3485b7bb4c9042585ffe607af45e9d8ffb25fd1b39b2aa1a55dc8"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/model.py",
+      "size": 6181,
+      "sha256": "66c1ba9b123b4ec21a85f914d18bdc59d3c364bc4902b76e0c6244930d4155d5"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
+      "size": 565,
+      "sha256": "e9561e8ba6a87f8f55d12000b2c8b8cbca96a15c6cfe0a76d3ba5981f82a0ee3"
+    },
+    {
+      "path": "sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
+      "size": 2141,
+      "sha256": "6f6e57a9e3f9625fdf440f6977540ebdc30205132519c38b5be53e54cf589a29"
+    },
+    {
+      "path": "sources/proofs/INDEX.md",
+      "size": 2701,
+      "sha256": "69d17a83740cea909b27d82fd4d2c38fac040e1635d251fd1e7ba11c0d5299bb"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L001.md",
+      "size": 3464,
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L002.md",
+      "size": 3267,
+      "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L003.md",
+      "size": 1346,
+      "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L004.md",
+      "size": 4299,
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L005.md",
+      "size": 3348,
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L006.md",
+      "size": 7462,
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L007.md",
+      "size": 3237,
+      "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L008.md",
+      "size": 5680,
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L009.md",
+      "size": 7889,
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L010.md",
+      "size": 3495,
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L011.md",
+      "size": 4956,
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L012.md",
+      "size": 11115,
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L013.md",
+      "size": 4306,
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L014.md",
+      "size": 5297,
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L015.md",
+      "size": 8777,
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L016.md",
+      "size": 4291,
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L017.md",
+      "size": 4693,
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L018.md",
+      "size": 5473,
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L019.md",
+      "size": 3679,
+      "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L020.md",
+      "size": 4570,
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L021.md",
+      "size": 5494,
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L022.md",
+      "size": 5369,
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    {
+      "path": "sources/proofs/RECCVS_L023.md",
+      "size": 8788,
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    {
+      "path": "sources/proofs/ROUTES_AND_TASKS.md",
+      "size": 10309,
+      "sha256": "3b485f2f5cdbf43180037f1c470a4db9daafbe49306c7f72be71acc9504dea16"
+    },
+    {
+      "path": "sources/reviews/NIGHT_SUMMARY_3_8_to_3_13_2026-10-12/RECCVS_Stage3_8_to_3_13_Night_Summary_2026-10-12.md",
+      "size": 20514,
+      "sha256": "1ddb83de781e4b2c5a3e67f7a87fc21f0e5aa28199c9824de663dbf6a197b798"
+    },
+    {
+      "path": "sources/reviews/STAGE0_AUDIT_2026-10-11/RECCVS_Stage0_Dependency_Audit_2026-10-11.md",
+      "size": 65034,
+      "sha256": "5cd83cc9c7db492dea27823c4da701465697ae4865d33d6f52ff39850bc3775e"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/README.md",
+      "size": 237,
+      "sha256": "8c8b8ba100f268b76ff673a2cf03dd52ffb3668a7a964893c83c988dfa5a20fd"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/RECCVS_Stage0_Self_Review_2026-10-11.md",
+      "size": 53713,
+      "sha256": "980db2d245f617a33e660aedb2de0bc5918ea71855cdf96f79fbb77e7134e40a"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/check_self_review.py",
+      "size": 6450,
+      "sha256": "ffce1d292c4a59a89331f3c94cf56099a0d0621066b4a21d722c54c45a8fa7db"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_admissible_profile.py",
+      "size": 5877,
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/certify_filtered_J.py",
+      "size": 3057,
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/check_first_period_thresholds.py",
+      "size": 2315,
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/freeze_filtered_profile.py",
+      "size": 4358,
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b"
+    },
+    {
+      "path": "sources/reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/experiments/kernel_algebra.py",
+      "size": 988,
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667"
+    },
+    {
+      "path": "sources/reviews/STAGE1_L023_AUDIT_2026-10-11/RECCVS_Stage1_L023_Audit_2026-10-11.md",
+      "size": 32068,
+      "sha256": "7f163bbcffb7d786d71c3b1bd689e88338f8bb3ededf8dd19286571ae0f92a21"
+    },
+    {
+      "path": "sources/reviews/STAGE2_R01_ATTEMPT_2026-10-11/RECCVS_Stage2_R01_Attempt_2026-10-11.md",
+      "size": 14934,
+      "sha256": "1f66edb298791306a0d79a9d2d9b180fc671126e3cf594b12930ab7cf95f9d11"
+    },
+    {
+      "path": "sources/reviews/STAGE2_R01_REDUCED16_2026-10-11/RECCVS_Stage2_R01_Reduced16_2026-10-11.md",
+      "size": 21925,
+      "sha256": "78dec52c0fce30a3a9d0b8b7c908f0da235084244fad64eec7ab19c440c0b5ec"
+    },
+    {
+      "path": "sources/reviews/STAGE3_10_FULL_STRIP_2026-10-12/RECCVS_Stage3_10_Full_Strip_2026-10-12.md",
+      "size": 12089,
+      "sha256": "ac08c4d6a6f4cf06a9c4493738ece5aa653497301fa68a38b34aa6e98681d2df"
+    },
+    {
+      "path": "sources/reviews/STAGE3_11_INTERFACE_G_2026-10-12/RECCVS_Stage3_11_Interface_G_2026-10-12.md",
+      "size": 17154,
+      "sha256": "591732cc93582c24b1cd4565307d14c42cd127c94f2a7146cff84a36c0609f39"
+    },
+    {
+      "path": "sources/reviews/STAGE3_12_FIXED_PSI_2026-10-12/RECCVS_Stage3_12_Fixed_Psi_Bounds_2026-10-12.md",
+      "size": 30923,
+      "sha256": "0113738eb2e2ae73f60e56c0fc3649ec264dfa1266fd1aedcd8d2e7361e01f01"
+    },
+    {
+      "path": "sources/reviews/STAGE3_13_DEV_INTERFACE_2026-10-12/RECCVS_Stage3_13_Development_Interface_2026-10-12.md",
+      "size": 33399,
+      "sha256": "5eeed7934af1700e09203f643b60a74feee73e5ef0dfd2e1e9048ea976619f21"
+    },
+    {
+      "path": "sources/reviews/STAGE3_7_HIGH_ORDER_FLUX_2026-10-11/RECCVS_Stage3_7_High_Order_Flux_2026-10-11.md",
+      "size": 35355,
+      "sha256": "08f7475ba8056f5cf5158c06be61434967f3049e26cdbbe221c1b98071db3bcf"
+    },
+    {
+      "path": "sources/reviews/STAGE3_8_AF_WEIGHTED_2026-10-12/RECCVS_Stage3_8_AF_Weighted_Budget_2026-10-12.md",
+      "size": 28161,
+      "sha256": "1ac9b81f7e00553e39eb95006946bd6bf0a30180eaa37872a5507fb68a47ca44"
+    },
+    {
+      "path": "sources/reviews/STAGE3_9_JET_CERT_2026-10-12/RECCVS_Stage3_9_Jet_Certification_2026-10-12.md",
+      "size": 9026,
+      "sha256": "605e97a5ef69ccac09b25410eefec5502ec9a8e4161909d8cea6a7eddd20f725"
+    },
+    {
+      "path": "sources/reviews/STAGE3_COMMON_CAUCHY_2026-10-11/COMMON_CAUCHY_REALIZATION_mgeom.md",
+      "size": 21824,
+      "sha256": "01dbb4c814e96ef64432f8e7a50e7d9a6c15af79161aca18563ca107e8af2ca2"
+    },
+    {
+      "path": "sources/reviews/STAGE3_EFFECTIVE_CAUCHY_2026-10-11/RECCVS_Stage3_Effective_Cauchy_2026-10-11.md",
+      "size": 8959,
+      "sha256": "f970773753d001bfc1d619a105395a25e6ec65c30d697faecdfb0c3cf4e4c6d6"
+    },
+    {
+      "path": "sources/reviews/STAGE3_EXTENSION_2026-10-11/RECCVS_Stage3_Extension_2026-10-11.md",
+      "size": 6132,
+      "sha256": "41b6d2e29de2f11ff9271c5b6b12dd43e6a8b661d1092466f3b8843435d2c23f"
+    },
+    {
+      "path": "sources/reviews/STAGE3_INDEPENDENT_AUDIT_2026-10-11/RECCVS_Stage3_Independent_Audit_2026-10-11.md",
+      "size": 12464,
+      "sha256": "7a09c705eee6aa4b2719086bff415be3bfa8413914eacb5ed236bef093d2925b"
+    },
+    {
+      "path": "sources/reviews/STAGE3_PAST_CAUCHY_2026-10-11/RECCVS_Stage3_Past_Cauchy_Surface_2026-10-11.md",
+      "size": 21720,
+      "sha256": "f8f20cd9af6c69c98f32719e00eba4e5e11de9d5ea89b8484e366d8386c7075a"
+    },
+    {
+      "path": "sources/reviews/STAGE3_R02_R03_2026-10-11/RECCVS_Stage3_R02_R03_2026-10-11.md",
+      "size": 27474,
+      "sha256": "137a864d39135b4f86675785839525adb8fb62bdfd5594c5e1a3ae538017154f"
+    },
+    {
+      "path": "tools_from_archives/03c8024350721e2b/check_interface.py",
+      "size": 10606,
+      "sha256": "03c8024350721e2b4f928d4e1a1ba21636bd74b3655c3e219ce60765d31073bc"
+    },
+    {
+      "path": "tools_from_archives/05771b7a87413f72/root_certificate.py",
+      "size": 6043,
+      "sha256": "05771b7a87413f72af9cd8dc1d6c5650777992ba2f5f8c1ade05fae5eac56022"
+    },
+    {
+      "path": "tools_from_archives/07298581b7a66eaf/check_jets.py",
+      "size": 3047,
+      "sha256": "07298581b7a66eafa3c090a9cf706a969668c148a056277001ea60ab9297c35a"
+    },
+    {
+      "path": "tools_from_archives/11d7e43feceb6a72/kernel_algebra.py",
+      "size": 988,
+      "sha256": "11d7e43feceb6a7299248db4dd38a51039d73e3c288b5f196b159cab2fea6667"
+    },
+    {
+      "path": "tools_from_archives/16cd36909cf81686/independent_check.py",
+      "size": 5220,
+      "sha256": "16cd36909cf816864dfd32cce9c36410627ba160e1cd73f3607e5d9368aece3d"
+    },
+    {
+      "path": "tools_from_archives/18631eb0eeed429e/check_manifest.py",
+      "size": 642,
+      "sha256": "18631eb0eeed429ef08282c05d2c6529290fff2da4a64c999ca5439040a7b4e0"
+    },
+    {
+      "path": "tools_from_archives/190066f2d2f0a73f/check_extension.py",
+      "size": 5423,
+      "sha256": "190066f2d2f0a73f54f4a6a49c2eeaa407713dfffca0188a3960749614bd09e1"
+    },
+    {
+      "path": "tools_from_archives/216fd9511368fb5e/check_manifest.py",
+      "size": 438,
+      "sha256": "216fd9511368fb5eb9069b0114434a046e4017a5e7642f2f21333a6d4efc3a39"
+    },
+    {
+      "path": "tools_from_archives/230b6dc49b4c1485/independent_majorant_check.py",
+      "size": 5555,
+      "sha256": "230b6dc49b4c14852e0e04f35894eab7d310916636781288152a9ef9b56802b7"
+    },
+    {
+      "path": "tools_from_archives/3396b58531b0f22c/check_audit.py",
+      "size": 2748,
+      "sha256": "3396b58531b0f22c186a16ec7c14c1567dd9e7e6cf0a72f2e6cdeefb0bd47399"
+    },
+    {
+      "path": "tools_from_archives/4c99ce4cd604e288/certify_filtered_J.py",
+      "size": 3057,
+      "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799"
+    },
+    {
+      "path": "tools_from_archives/4fd9dcc3ae274177/exact_rational.py",
+      "size": 3707,
+      "sha256": "4fd9dcc3ae2741772e7d301913a99ba8e6dee0aa70a09a1c53a1063d14835236"
+    },
+    {
+      "path": "tools_from_archives/50da3f0aa6625a30/check_weighted.py",
+      "size": 6638,
+      "sha256": "50da3f0aa6625a3018880d3f05baa6f31947a1160cef8c613970bcc69f98f963"
+    },
+    {
+      "path": "tools_from_archives/511121c1f77164d7/check_slice.py",
+      "size": 5676,
+      "sha256": "511121c1f77164d79ef9ecabb8ad08967fdb366452512fcb592d422f404b7702"
+    },
+    {
+      "path": "tools_from_archives/51399d6007904198/check_audit_package.py",
+      "size": 5502,
+      "sha256": "51399d6007904198a8d0295f8e11399b8eb8d6ed2baa4bedf4eb9d416aba20d5"
+    },
+    {
+      "path": "tools_from_archives/579d0a90fecb706e/independent_audit.py",
+      "size": 5817,
+      "sha256": "579d0a90fecb706e7ac57c6b2a6e3b72914539f25e564bde7eb5972e9760e7a3"
+    },
+    {
+      "path": "tools_from_archives/5f23b74320252819/freeze_filtered_profile.py",
+      "size": 4358,
+      "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b"
+    },
+    {
+      "path": "tools_from_archives/754602ecbe49930d/check_G.py",
+      "size": 2921,
+      "sha256": "754602ecbe49930dcfa384737a59b85a0c758a5f6ac1d989ce3d654a3d30368d"
+    },
+    {
+      "path": "tools_from_archives/8517f5b5445fbe72/check_common.py",
+      "size": 6645,
+      "sha256": "8517f5b5445fbe72ddbb3bd822270d80823f95a64565bf75afbb0acfe2652465"
+    },
+    {
+      "path": "tools_from_archives/86e525048009f917/check_strip.py",
+      "size": 3608,
+      "sha256": "86e525048009f91738d2286db341756e2e13b6fa39a61135ef9e0e02386dbc7a"
+    },
+    {
+      "path": "tools_from_archives/87c1b9aa93128e48/r01_exact.py",
+      "size": 12295,
+      "sha256": "87c1b9aa93128e48faddd12c9425118604542bd7705f375878220c6330f5128c"
+    },
+    {
+      "path": "tools_from_archives/9274a24fc8d5a403/check_profile_norm.py",
+      "size": 1170,
+      "sha256": "9274a24fc8d5a403523a6fdaf3d042ef11ec2ac4a94ae86471bc5d5861f4ab5f"
+    },
+    {
+      "path": "tools_from_archives/94298355bc3e95c4/independent_check.py",
+      "size": 4444,
+      "sha256": "94298355bc3e95c49c4cb4e36646f06943ef0c3abdc9e495ca4ef1cb56cc8cc3"
+    },
+    {
+      "path": "tools_from_archives/a7d5a5bfafc6a1f5/check_flux.py",
+      "size": 5619,
+      "sha256": "a7d5a5bfafc6a1f54026614e8dbeffb4bd8bc82d18d25bee1ed89b67c2b08ccd"
+    },
+    {
+      "path": "tools_from_archives/b3db0846e5251dd4/check_manifest.py",
+      "size": 636,
+      "sha256": "b3db0846e5251dd475b1a7d5efad3acc515e744cac83b0e99a5678658c4203c5"
+    },
+    {
+      "path": "tools_from_archives/b78573f105785509/check_bounds.py",
+      "size": 9584,
+      "sha256": "b78573f105785509d4390255d2baa59aafc10eca1bde7a6bac3a252ce8826091"
+    },
+    {
+      "path": "tools_from_archives/bf5ea2537353febf/check_constants.py",
+      "size": 5499,
+      "sha256": "bf5ea2537353febf3e5d44073139854617804b9726bd48dfae37bd438cb76582"
+    },
+    {
+      "path": "tools_from_archives/e03287ab76752e54/jet_majorants.py",
+      "size": 7457,
+      "sha256": "e03287ab76752e546a35795662b6f135d0d3c715767404fa758b297d82483e1f"
+    },
+    {
+      "path": "tools_from_archives/e176373dac8991ed/check_first_period_thresholds.py",
+      "size": 2315,
+      "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c"
+    },
+    {
+      "path": "tools_from_archives/fc828100260e9f7b/certify_admissible_profile.py",
+      "size": 5877,
+      "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c"
+    },
+    {
+      "path": "tools_from_archives/ffce1d292c4a59a8/check_self_review.py",
+      "size": 6450,
+      "sha256": "ffce1d292c4a59a89331f3c94cf56099a0d0621066b4a21d722c54c45a8fa7db"
+    },
+    {
+      "path": "tools_from_archives/ffe9253821f36220/check_stage3.py",
+      "size": 8689,
+      "sha256": "ffe9253821f3622005d91fddb3e8e60c29418932c65fa824afbaa47ce355be5d"
+    },
+    {
+      "path": "verification/ARCHIVE_TOOL_INVENTORY.json",
+      "size": 92265,
+      "sha256": "ec850f14084bbfb67a2f11f73cb8d65bc02e0771349924208d04c9ab6b05dedb"
+    },
+    {
+      "path": "verification/OLD_CERTIFICATE_REPLAY.log",
+      "size": 315,
+      "sha256": "df81d63c344925082ec194e5936d281a690fe8f85bc9479d8122dd94084e23e9"
+    },
+    {
+      "path": "verification/REPOSITORY_METADATA.json",
+      "size": 127906,
+      "sha256": "d2cb7665f06df02fd5ffac3dcfbb9d1648c9ae3289d612d7ae73e38edbc7fd4f"
+    },
+    {
+      "path": "verification/SOURCE_MANIFEST.json",
+      "size": 36433,
+      "sha256": "e40d684d968ade7de89de6464403487b8a24e5525bf4c63ed0735b0c601be886"
+    },
+    {
+      "path": "verification/STATUS.json",
+      "size": 833,
+      "sha256": "19b89e2d32590d62b07ac050fd51daa6f11db586cb54a58d76b150728600b2f6"
+    },
+    {
+      "path": "verification/TOOL_INVENTORY.csv",
+      "size": 89064,
+      "sha256": "f997efecb21693629e746e8ad2f70af2ceb59955e8e2e7d1e852cf92368aedff"
+    },
+    {
+      "path": "verification/TOOL_INVENTORY.json",
+      "size": 130722,
+      "sha256": "48cd8dfc9d34c1b3f28800de3d3e97c40f4e3df5fc61131ebdf2e2d35bf60fb6"
+    },
+    {
+      "path": "verification/old_certificate_replay/J_certificate.json",
+      "size": 1055,
+      "sha256": "f6bfa5e3a407d673c1cef4b83dddf7155fd617d0fc12c5101bcdc641c5509567"
+    },
+    {
+      "path": "verification/old_certificate_replay/admissible_certificate.json",
+      "size": 1795,
+      "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302"
+    },
+    {
+      "path": "verification/old_certificate_replay/admissible_optimized.json",
+      "size": 1795,
+      "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302"
+    },
+    {
+      "path": "verification/old_certificate_replay/profile.json",
+      "size": 619400,
+      "sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1"
+    },
+    {
+      "path": "verification/old_certificate_replay/report.json",
+      "size": 768,
+      "sha256": "c076620b4c1bb292503de987f7f83660f18a7f05af869b34750df72d3ca5beee"
+    },
+    {
+      "path": "verification/old_certificate_replay/tampered_profile.json",
+      "size": 615142,
+      "sha256": "e9d4d19284d794f7d7f85e8227b624a0e4ca7057fceb5aa7c5f31582a7f48d85"
+    },
+    {
+      "path": "verification/old_certificate_replay/threshold_certificate.json",
+      "size": 582,
+      "sha256": "7a4576d5867563de8d46eb45ea59b0c3e7cbb197022bcbf492de53da9ed0dd79"
+    }
+  ],
+  "excluded_runtime_outputs": [
+    "verification/EXACT_RECOMPUTATION.json",
+    "verification/PACKAGE_MANIFEST.json",
+    "verification/PACKAGE_VERIFICATION.json"
+  ],
+  "scope": "PACKAGE_BYTES_NOT_MATHEMATICAL_VALIDITY"
+}

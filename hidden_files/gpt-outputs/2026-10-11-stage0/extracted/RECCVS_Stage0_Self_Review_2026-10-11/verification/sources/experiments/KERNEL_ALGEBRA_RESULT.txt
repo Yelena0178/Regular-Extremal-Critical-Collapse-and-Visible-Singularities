@@ -1,0 +1,6 @@
+terminal_operator: 0
+source_operator: 0
+first_characteristic_boundary: 0
+second_characteristic_boundary: 0
+geometric_integral_primitive: 0
+Only the displayed algebraic identities have been checked.

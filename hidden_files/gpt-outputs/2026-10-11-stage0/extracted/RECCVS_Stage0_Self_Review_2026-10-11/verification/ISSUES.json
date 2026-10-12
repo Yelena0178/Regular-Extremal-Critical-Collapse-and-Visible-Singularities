@@ -1,0 +1,323 @@
+[
+  {
+    "id": "SR01",
+    "severity": "严重",
+    "title": "有限阶提升漏登精确矩坐标条件",
+    "affected": "PERIODIC_PROFILE / FLIFT",
+    "problem": "旧输入只列周期性、电流/核正性及λ<μ，未列M_s(z_c)=c_s；这些条件本身不保证参数的端点Jacobian可逆。",
+    "correction": "补登记矩坐标、所需参数导数一致界、均值统一正下界、τ0位于参数区间内；L021.FAMILY供应矩坐标，L021.KERNEL供应核/耦合余量。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 141,
+        "end_line": 149,
+        "heading": "## 6. 精确修复",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 95,
+        "end_line": 102,
+        "heading": "设c∈ℂ⁸、max|c_s|≤2⁻⁴⁰⁹⁶，定义",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR02",
+    "severity": "严重",
+    "title": "端点输入把前提与后续球面实现合并",
+    "affected": "FENDPOINT / FLIFT",
+    "problem": "旧FENDPOINT覆盖端点匹配§1–5并同时称为完整球面数据；§5使用非线性提升的jets及端点匹配，不能整体置于FLIFT之前。旧机器DAG无环不能证明此复合节点语义无环。",
+    "correction": "把FENDPOINT限为线性§1–4；新增FJETS、FSPHERE、SPHERE_KU。线性端点→有限jets/根→完整球面。形成稿有此拆分依据，未据此认定原数学证明存在不可消解循环。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "start_line": 49,
+        "end_line": 61,
+        "heading": "## 5. KU D_K 的最高阶核对",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 141,
+        "end_line": 149,
+        "heading": "## 6. 精确修复",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR03",
+    "severity": "中等",
+    "title": "分情况证明被平铺为统一前置",
+    "affected": "L015.OUTER / L015.LIFETIME",
+    "problem": "旧依赖数组不标分支，可能将c=0与c>0、t_end有限与无限的额外假设同时施加；尤其有限t_end情形可在t=1前终止，根本不需要OUTER。旧文字说明正确，机器表达未兑现。",
+    "correction": "新增NEAREDGE、FINITETIME、INFINITETIME；用带condition的case_rules与覆盖理由记录互斥穷尽分支。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 23,
+        "end_line": 28,
+        "heading": "令",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 104,
+        "end_line": 121,
+        "heading": "## 6. 轴线有限寿命的完整分情况",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR04",
+    "severity": "中等",
+    "title": "局部域、膨胀号及全局可见性被捆绑",
+    "affected": "L003 / L004 / L005 / L010 / L012",
+    "problem": "POS_DOMAIN同时要求ν<0，VIS兼有物理归一化与I+可见性；局部潮汐/输运无需这些全部条件。L004.IDENTITY仅覆盖正膨胀面积式，L005仿射电荷式却允许r_s非正，旧依赖未区分。",
+    "correction": "拆SMOOTH_DOMAIN、NU_NEG、AFFINE_NORM；新增L004.AFFINE和L005.AREA。只在陷俘号数或除ν时引入负号，只在全局逃逸结论引入VIS。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L003.md",
+        "start_line": 3,
+        "end_line": 12,
+        "heading": "设 γ 是光滑区域内的仿射径向零测地线，切向量 L，以固定初始单位法向 n归一化 -g(L,n)=1。沿线选平行传播单位角向框架 e_A（A=1,2）。在球对称电场、无质量 EMCSF 中，采用 R_abcd 的标准几何符号约定，有",
+        "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L004.md",
+        "start_line": 7,
+        "end_line": 18,
+        "heading": "固定 D001 的四维球对称、无质量 EMCSF 模型与固定耦合 e。设 γ:[0,S)→M 是从光滑正则中心发出的未来径向零测地线，s 为仿射参数，r(0)=0，b:=r_s(0)>0；以中心单位法向归一化时 b=1。要求 γ 上 s>0 时 r>0，场光滑。记 a=r_s。",
+        "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L005.md",
+        "start_line": 11,
+        "end_line": 25,
+        "heading": "对任何光滑段 [0,S]，令",
+        "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "start_line": 7,
+        "end_line": 26,
+        "heading": "记P=D_Uφ、T=D_tφ，选A_t=0，F_Ut=Ω²Q/(2r²)。D001的波方程与交换式逐项给",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR05",
+    "severity": "中等",
+    "title": "Robin版本继承了不适用的中心DN前提",
+    "affected": "L018.ROBIN",
+    "problem": "旧ROBIN直接依赖SIGN；SIGN明确从r(0)=0、r_s(0)=1及f(0)=0出发，不能无说明用作r(0)>0的前提。",
+    "correction": "提取共有ground-state恒等式；DN与Robin分别使用CENTER_INTERVAL/POS_INTERVAL和各自二次型，Robin记录w0边项。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 7,
+        "end_line": 28,
+        "heading": "从一个实际光滑正则中心事件发出未来出射径向零测地线 γ。以中心单位类时向量 E₀ 归一化切向 L：−g(L,E₀)=1；随后 L 仿射平行输运，参数记 s，中心 s=0。中心规则性给 r(0)=0、r_s(0)=1。设该实际零线光滑存在于 0≤s≤ℓ，且 r(s)>0 于 0<s≤ℓ，其所有非中心点满足 ν<0。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 40,
+        "end_line": 46,
+        "heading": "在 r>0 区域直接完成平方并用 18.1，得到",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 95,
+        "end_line": 101,
+        "heading": "设实际段以正半径 r(0)>0 起算。令 w₀=r_s(0)/r(0)。改用",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR06",
+    "severity": "中等",
+    "title": "尾部求和被过度绑定于完整形成链",
+    "affected": "L022.TAIL",
+    "problem": "从逐步预算推出Ck尾界只需该预算已兑现，不需先证明FLIFT、完整FSMOOTH；旧表让独立求和接口继承了端点根和中心实现。起算阶N0也未显式登记。",
+    "correction": "直接依赖REPAIR_BUDGET，要求N≥max(N0,k+1)；FSMOOTH仅作为预算供应实例。锥C1预算到真实强拓扑仍保留独立未验证门REPAIR_TO_STRONG。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 7,
+        "end_line": 21,
+        "heading": "形成稿的逐阶修复要求",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 165,
+        "end_line": 173,
+        "heading": "固定一个满足23.6的有限阶成员，其严格陷俘球位于一个有限实际光滑紧域。通常的强拓扑有限时间稳定性给εtrap>0，使该域内的严格陷俘在输入误差小于εtrap时保持。选择共同特征/Cauchy实现后，若源稿的逐阶光滑修复按",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR07",
+    "severity": "中等",
+    "title": "几何门槛误继承端点根存在前置",
+    "affected": "L023.MGEOM",
+    "problem": "旧MGEOM经FIRST间接依赖FLIFT，与正文“几何门槛未认证此m的根”不一致；这是机器图过强依赖，旧人类可读限制本来正确。",
+    "correction": "MGEOM改依赖有限锥约束、L021族与历史代数证书；BRANCH另合并真实根、整锥填充、电荷/物理宽度及An–Lim接口。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 140,
+        "end_line": 159,
+        "heading": "### L021族的显式几何长度门槛",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR08",
+    "severity": "中等",
+    "title": "假设摘要遗漏特化与估计区间",
+    "affected": "L002.DATA / L007.STRIP / L017.SHARP / FRBASE / FRPOS",
+    "problem": "L002旧摘要未列实f,g及K=0/Π纯虚的动量约束配置；L017逐命题项未列ν<0（整稿表已列）。FRPOS的q≥aδ漏写x≥T，x=0处其实q=0；FRBASE的R与1/R统一界只限x≤L。有限T的jets阶数/常数范围也需明确。",
+    "correction": "补全特化条件、q下界的周期后范围及R控制的有限脉冲范围；逐结论关联原输入陈述区间，保留旧记录供比较。短摘要不能代替原定理。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L002.md",
+        "start_line": 5,
+        "end_line": 19,
+        "heading": "固定 e∈R，0<r₀<R₀<∞，实函数 f,g∈C_c^∞((r₀,R₀))，固定支持和尺度。对参数 p 取",
+        "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L002.md",
+        "start_line": 38,
+        "end_line": 40,
+        "heading": "ρ=(Q²/r⁴+p²g²+Δp²f'²)/2，R(h)=4m'/r²，所以 Hamiltonian 恰是 (L002.1)。div E=Q'/(ar²)=ep²fg=e Im(φbarΠ)，满足 Gauss。标量动量密度 j_r=-Re(Π overline{∂rφ})=0；纯径向电场无 Poynting 通量，K=0满足动量约束。所有约束成立。",
+        "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L007.md",
+        "start_line": 7,
+        "end_line": 24,
+        "heading": "固定一份 μ>1/2 的形成解，使用导入稿 `proof/04_global_development_and_horizon.md` §2 的单位 M=Q=1 和坐标 (U,t)：U≤0 外侧，U>0 实际内侧。设实际光滑解在每个有限 T≥1 上含有",
+        "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "start_line": 7,
+        "end_line": 7,
+        "heading": "设一张实际光滑入射截面连接正则中心与外球 r=R>0，ν<0、Q(0)=0、φ(R)=0，固定 e≠0。记",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+        "start_line": 7,
+        "end_line": 13,
+        "heading": "取 b≥2 sup E，有 0≤q≤bδ。由于 `q'+q≥δE`，q≥δp，其中 `p(x)=∫_0^x exp(-(x-s))E(s)ds`。对 x≥T，",
+        "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 21,
+        "end_line": 25,
+        "heading": "周期 p 的稳态部分有均值 Ebar，初始瞬态指数衰减，故 `∫_0^x p=Ebar x+O_{C¹}(1)`。在 0≤x≤L 上，积分 q 的余项至多 Cδ²L=O(L⁻¹)，从而",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR09",
+    "severity": "中等",
+    "title": "矩修复的系数包络证书依赖未登记",
+    "affected": "L021.FIX / E021",
+    "problem": "L021§2用于尾界/矩残差的归一化系数上界由certify_admissible_profile.py核查；旧FIX只指L020而没有登记E021这项证据。存在数据文件不等于已复跑。",
+    "correction": "FIX新增E021，关联§1–2；明确有理系数包络与正文解析cutoff/bump积分修复承担不同证明部分，历史脚本仍标未重跑。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 35,
+        "end_line": 49,
+        "heading": "## 2. 截断误差的实数上界",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR10",
+    "severity": "轻微",
+    "title": "延续机制只在文字中登记",
+    "affected": "L012.EXIST",
+    "problem": "原稿明确使用L009§4同一延续机制；旧JSON仅将其写入assumptions，未在边中体现。不能改为直接引入L009楔域结论，否则会多带Ut≤c。",
+    "correction": "新增独立的条件性L009.CONTINUE机制节点；L009.EXIST与L012.EXIST各用自身低阶界来兑现。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 126,
+        "end_line": 140,
+        "heading": "需排除只在已有薄带上得估计、却没有获得L009.2覆盖的循环。对每个固定有限t_*，取允许的U_*≤min(η,c/t_*)。其过去矩形仍满足Ut≤c，故上节估计给r、Ω²严格正的上下界。",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 180,
+        "end_line": 186,
+        "heading": "## 6. 全时间存在的量词",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  },
+  {
+    "id": "SR11",
+    "severity": "轻微",
+    "title": "后续筛选示意边方向不一致",
+    "affected": "dependency_graph.application_or_explanatory_edges",
+    "problem": "旧L001.EXCLUDE→L018.CERT标为downstream_screening，备注虽说不是谱证书前提，箭头仍可能被工具按前置方向解释。",
+    "correction": "新增应用节点L018.SCREEN，明确只在负谱/积分证书、固定Cauchy种子和强拓扑共同满足时同时消费L018.CERT与L001.EXCLUDE。解释边与证明/条件边分开。",
+    "evidence": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 89,
+        "end_line": 91,
+        "heading": "由 18.5，实际解形成严格陷俘。证毕。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "start_line": 7,
+        "end_line": 13,
+        "heading": "固定 D002 的 s≥6 强拓扑和耦合 e。设 Ψ_* 是光滑约束数据，Σ≅R³，空间完备。其最大未来整体双曲发展在一个紧的光滑有限时间区域内含正半径严格陷俘对称球 S_*。那么存在 Ψ_* 的 X^s 相对邻域 U，使每个光滑 Ψ∈U 的发展都含严格陷俘球，并未来零测地不完备。因此",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      }
+    ],
+    "registration_status": "已在v2修正",
+    "mathematical_validation_status": "仅登记修正；相关解析/接口验收未关闭"
+  }
+]

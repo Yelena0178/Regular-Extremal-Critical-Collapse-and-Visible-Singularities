@@ -1,0 +1,2942 @@
+[
+  {
+    "id": "L001.PERSIST",
+    "lemma": "L001",
+    "title": "严格陷俘有限时间持久",
+    "dependencies": [
+      "SYS",
+      "TOPO",
+      "CAUCHY"
+    ],
+    "assumptions": [
+      "固定有限紧光滑参考片、严格负余量、共同规范"
+    ],
+    "scope": "该参考数据的相对强邻域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L001.md",
+      "start_line": 15,
+      "end_line": 32,
+      "heading": "## 证明",
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "start_line": 5,
+        "end_line": 14,
+        "heading": "## 精确命题",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L001.EXCLUDE",
+    "lemma": "L001",
+    "title": "不在N/D闭包",
+    "dependencies": [
+      "L001.PERSIST",
+      "PENROSE"
+    ],
+    "assumptions": [
+      "NEC、MGHD、非紧完备Cauchy面"
+    ],
+    "scope": "固定候选及其邻域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L001.md",
+      "start_line": 5,
+      "end_line": 14,
+      "heading": "## 精确命题",
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+    },
+    "limitation": "U⊂B需要另加全局可预测性/零无穷远条件",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L001.BH",
+    "lemma": "L001",
+    "title": "附加可预测性下黑洞邻域",
+    "dependencies": [
+      "L001.EXCLUDE",
+      "VIS"
+    ],
+    "assumptions": [
+      "另有全局可预测性/Kommemi陷俘遮蔽假设及适当I+识别"
+    ],
+    "scope": "满足额外假设的邻域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L001.md",
+      "start_line": 5,
+      "end_line": 14,
+      "heading": "## 精确命题",
+      "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+    },
+    "limitation": "本引理自身不给这些额外全局前提",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L002.DATA",
+    "lemma": "L002",
+    "title": "完整正则AF约束数据",
+    "dependencies": [
+      "SYS",
+      "TOPO"
+    ],
+    "assumptions": [
+      "固定0<r0<R0、实f,g∈Cc∞((r0,R0))及固定e；K=0、AΣ=0、φ0=pf、Π=-ipg；m(r0)=Q(r0)=0；小p使Δ≥1/2的bootstrap闭合；全部约束含动量/Gauss"
+    ],
+    "scope": "整张初始面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L002.md",
+      "start_line": 21,
+      "end_line": 48,
+      "heading": "## 证明",
+      "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+    },
+    "limitation": "本项目按e≠0采用；原L002的约束构造允许e=0，但不属于带电应用",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L002.md",
+        "start_line": 5,
+        "end_line": 19,
+        "heading": "固定 e∈R，0<r₀<R₀<∞，实函数 f,g∈C_c^∞((r₀,R₀))，固定支持和尺度。对参数 p 取",
+        "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L002.FAMILY",
+    "lemma": "L002",
+    "title": "参数光滑、统一范数及非零电荷",
+    "dependencies": [
+      "L002.DATA"
+    ],
+    "assumptions": [
+      "电荷首项非零时再给Q非零"
+    ],
+    "scope": "固定小p族",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L002.md",
+      "start_line": 21,
+      "end_line": 48,
+      "heading": "## 证明",
+      "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+    },
+    "limitation": "初始膨胀不能代替未来色散",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L002.md",
+        "start_line": 5,
+        "end_line": 19,
+        "heading": "固定 e∈R，0<r₀<R₀<∞，实函数 f,g∈C_c^∞((r₀,R₀))，固定支持和尺度。对参数 p 取",
+        "sha256": "14d234856c22fe5278bbe9d1921a5d9f7683e446ab6f88cd8e79a7a86902e2b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L003.TIDAL",
+    "lemma": "L003",
+    "title": "Ric(L,L)与PP角向潮汐",
+    "dependencies": [
+      "SYS",
+      "AFFINE_NORM",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "仿射径向L与平行角框架"
+    ],
+    "scope": "实际零线光滑段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L003.md",
+      "start_line": 1,
+      "end_line": 16,
+      "heading": "# RECCVS-L003：径向平行传播潮汐分量",
+      "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+    },
+    "limitation": "标量K、有限参数、可见性另证",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L004.IDENTITY",
+    "lemma": "L004",
+    "title": "正膨胀段的面积坐标指数恒等式",
+    "dependencies": [
+      "L004.AFFINE"
+    ],
+    "assumptions": [
+      "仅在 r_s>0 的最大初始区间用面积半径；中心积分可积"
+    ],
+    "scope": "实际正膨胀段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L004.md",
+      "start_line": 33,
+      "end_line": 46,
+      "heading": "## 证明",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L004.md",
+        "start_line": 5,
+        "end_line": 32,
+        "heading": "## 精确陈述",
+        "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L004.LOG",
+    "lemma": "L004",
+    "title": "完备有界半径的对数障碍",
+    "dependencies": [
+      "L004.IDENTITY"
+    ],
+    "assumptions": [
+      "S=∞、r_s>0、r≤RH"
+    ],
+    "scope": "该完整实际线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L004.md",
+      "start_line": 5,
+      "end_line": 32,
+      "heading": "## 精确陈述",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    "limitation": "有限S的退化版本同节；不推出曲率发散",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L004.FINITE",
+    "lemma": "L004",
+    "title": "有限仿射正半径膨胀退化的能量障碍",
+    "dependencies": [
+      "L004.IDENTITY"
+    ],
+    "assumptions": [
+      "S<∞、r→R*>0、r_s→0；仍在r_s>0段"
+    ],
+    "scope": "该线的有限仿射端",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L004.md",
+      "start_line": 5,
+      "end_line": 32,
+      "heading": "## 精确陈述",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    "limitation": "即使端点可光滑继续也成立；不验收曲率奇异",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L004.NOBH",
+    "lemma": "L004",
+    "title": "限定覆盖类中无黑洞",
+    "dependencies": [
+      "L004.IDENTITY",
+      "VIS"
+    ],
+    "assumptions": [
+      "每条所用中心出射线全未来 r_s>0、仿射完整、E有逐线有限上界；覆盖未来域；r→∞端为同一完整I+且每线确实到达；全时空结论另核初始面与过去域"
+    ],
+    "scope": "仅满足全部额外假设的类",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L004.md",
+      "start_line": 47,
+      "end_line": 54,
+      "heading": "## 明确限定类中的禁止结论",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L004.md",
+        "start_line": 5,
+        "end_line": 32,
+        "heading": "## 精确陈述",
+        "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L005.CHARGE",
+    "lemma": "L005",
+    "title": "仿射电荷—通量不等式（允许r_s非正）",
+    "dependencies": [
+      "SYS",
+      "L004.AFFINE"
+    ],
+    "assumptions": [
+      "Q(0)=0；H_S=∫r³|φ|²、F_S=∫r|D_sφ|²=b-r_s(S)；不要求 r_s 全段正"
+    ],
+    "scope": "从实际中心起算的有限光滑段，r在非中心点正",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L005.md",
+      "start_line": 7,
+      "end_line": 19,
+      "heading": "取 L004 的正则中心出射线，Q(0)=0。D001 给出",
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+    },
+    "limitation": "迫使陷俘还需振幅积分上界与另一膨胀负号",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L005.md",
+        "start_line": 25,
+        "end_line": 25,
+        "heading": "常数为 1，不依赖参数、时间或数据；仅模型归一化改变常数。证明：积分 Q_s，并对 \\(\\sqrt r|D_s\\phi|\\) 与 \\(r^{3/2}|\\phi|\\) 用 Cauchy–Schwarz。第二式对 Q_r 与对应的 r 权重重复即可。中心积分因 Q(0)=0、光滑场而合法。证毕。",
+        "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L005.md",
+        "start_line": 27,
+        "end_line": 31,
+        "heading": "若 \\(|\\phi|\\le\\Phi\\)，则",
+        "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L005.COUNTER",
+    "lemma": "L005",
+    "title": "能量发散而潮汐有界的局部实现",
+    "dependencies": [
+      "SYS",
+      "CHAR"
+    ],
+    "assumptions": [
+      "给定实际相容两特征边；正半径"
+    ],
+    "scope": "局部光滑反例片",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L005.md",
+      "start_line": 33,
+      "end_line": 58,
+      "heading": "## 完全光滑的局部面积能量发散",
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+    },
+    "limitation": "不是I001正则中心全局模型",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L006.GLOBAL",
+    "lemma": "L006",
+    "title": "小数据归一化与全局解接口",
+    "dependencies": [
+      "SYS",
+      "L002.DATA",
+      "L002.FAMILY",
+      "KL"
+    ],
+    "assumptions": [
+      "固定e与N≥14；转换后来源范数足够小"
+    ],
+    "scope": "L002充分小族",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L006.md",
+      "start_line": 27,
+      "end_line": 55,
+      "heading": "## 约束族进入来源数据空间",
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "start_line": 16,
+        "end_line": 26,
+        "heading": "## 归一化转换：固定 e 的合法同构",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "start_line": 5,
+        "end_line": 54,
+        "heading": "## 来源与准确量词",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L006.RADIAL",
+    "lemma": "L006",
+    "title": "所有径向零线完整",
+    "dependencies": [
+      "L006.GLOBAL"
+    ],
+    "assumptions": [
+      "来源C0与好角向导数界；中心穿越"
+    ],
+    "scope": "该小数据发展中的径向零线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L006.md",
+      "start_line": 56,
+      "end_line": 73,
+      "heading": "## 从估计直接补出的几何结论",
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "start_line": 5,
+        "end_line": 54,
+        "heading": "## 来源与准确量词",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L006.INNERCONE",
+    "lemma": "L006",
+    "title": "最终内锥因果线完整",
+    "dependencies": [
+      "L006.GLOBAL"
+    ],
+    "assumptions": [
+      "固定η>0，晚时ρ≤(1-η)t；连接系数可积"
+    ],
+    "scope": "满足内锥条件的因果线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L006.md",
+      "start_line": 56,
+      "end_line": 73,
+      "heading": "## 从估计直接补出的几何结论",
+      "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+    },
+    "limitation": "全部非径向外锥线和完整I+仍缺",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "start_line": 5,
+        "end_line": 54,
+        "heading": "## 来源与准确量词",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L007.STRIP",
+    "lemma": "L007",
+    "title": "每个有限T实际未陷俘薄带",
+    "dependencies": [
+      "SYS",
+      "I001"
+    ],
+    "assumptions": [
+      "每个固定有限T已有实际矩形0≤U≤aT、1≤t≤T；RN的λ、λ_U、λ_UU匹配，ν_H<0；该紧矩形C4界有限；bT可随T退化"
+    ],
+    "scope": "0<U≤bT，1≤t≤T",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L007.md",
+      "start_line": 26,
+      "end_line": 48,
+      "heading": "## 证明及宽度",
+      "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L007.md",
+        "start_line": 5,
+        "end_line": 24,
+        "heading": "## 输入及精确命题",
+        "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L007.ZEROJETS",
+    "lemma": "L007",
+    "title": "精确接合没有非零视界jet尾系数",
+    "dependencies": [
+      "I001",
+      "HORIZON"
+    ],
+    "assumptions": [
+      "全部标量jets为零"
+    ],
+    "scope": "该精确形成输入",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L007.md",
+      "start_line": 49,
+      "end_line": 57,
+      "heading": "## 确切推进与未覆盖部分",
+      "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L007.md",
+        "start_line": 5,
+        "end_line": 24,
+        "heading": "## 输入及精确命题",
+        "sha256": "551295a05fe2c632bac6e200fc51262522ff6a34b2540435a641b977f03f316c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L008.PREFIX",
+    "lemma": "L008",
+    "title": "视界前缀积分与膨胀号",
+    "dependencies": [
+      "SYS",
+      "SMOOTH_DOMAIN",
+      "NU_NEG"
+    ],
+    "assumptions": [
+      "完整实际前缀；ν传播可由MGHD提供"
+    ],
+    "scope": "单条入射前缀",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L008.md",
+      "start_line": 5,
+      "end_line": 25,
+      "heading": "## 1. 不需要中心边界的视界积分",
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 3,
+        "end_line": 24,
+        "heading": "2026-10-09。内部证明稿。固定 D001 的无质量、球对称 EMCSF，固定 e≠0。所有结论对实际光滑解成立；没有用参考RN代替实际中心。本文给出全截面判据，尚未证明形成输入在全部时间满足它。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L008.CENTER",
+    "lemma": "L008",
+    "title": "完整中心截面的积分因子公式",
+    "dependencies": [
+      "SYS",
+      "REG_CENTER",
+      "SMOOTH_DOMAIN",
+      "NU_NEG"
+    ],
+    "assumptions": [
+      "该截面确实连接中心；ν<0"
+    ],
+    "scope": "该截面全部正半径点",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L008.md",
+      "start_line": 26,
+      "end_line": 55,
+      "heading": "## 2. 在确实到达正则中心的截面上使用面积半径",
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 3,
+        "end_line": 24,
+        "heading": "2026-10-09。内部证明稿。固定 D001 的无质量、球对称 EMCSF，固定 e≠0。所有结论对实际光滑解成立；没有用参考RN代替实际中心。本文给出全截面判据，尚未证明形成输入在全部时间满足它。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L008.ONECROSS",
+    "lemma": "L008",
+    "title": "一次跨越充分排除陷俘",
+    "dependencies": [
+      "L008.CENTER"
+    ],
+    "assumptions": [
+      "外端λH≥0；实际Q/r满足指定一次跨越"
+    ],
+    "scope": "单截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L008.md",
+      "start_line": 56,
+      "end_line": 68,
+      "heading": "## 3. 单次跨越充分条件：控制整张截面",
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    "limitation": "跨越条件的全时间传播尚未证明",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 3,
+        "end_line": 24,
+        "heading": "2026-10-09。内部证明稿。固定 D001 的无质量、球对称 EMCSF，固定 e≠0。所有结论对实际光滑解成立；没有用参考RN代替实际中心。本文给出全截面判据，尚未证明形成输入在全部时间满足它。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L008.THREECROSS",
+    "lemma": "L008",
+    "title": "深部陷俘至少三次跨越",
+    "dependencies": [
+      "L008.CENTER"
+    ],
+    "assumptions": [
+      "晚时极端外端、Q_r(M)=0、完整中心截面"
+    ],
+    "scope": "该截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L008.md",
+      "start_line": 69,
+      "end_line": 79,
+      "heading": "## 4. 深部陷俘必须伴随至少三次电荷—半径跨越",
+      "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 3,
+        "end_line": 24,
+        "heading": "2026-10-09。内部证明稿。固定 D001 的无质量、球对称 EMCSF，固定 e≠0。所有结论对实际光滑解成立；没有用参考RN代替实际中心。本文给出全截面判据，尚未证明形成输入在全部时间满足它。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L009.WEDGE",
+    "lemma": "L009",
+    "title": "楔域几何/场统一bootstrap",
+    "dependencies": [
+      "SYS",
+      "HORIZON",
+      "L008.PREFIX",
+      "L010.TRANSPORT"
+    ],
+    "assumptions": [
+      "N,A固定；先定粗常数后缩c,η"
+    ],
+    "scope": "Ut≤c的实际过去矩形",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L009.md",
+      "start_line": 46,
+      "end_line": 89,
+      "heading": "## 2. 几何bootstrap：电荷扰动比半径缺口高阶",
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 90,
+        "end_line": 123,
+        "heading": "## 3. 场bootstrap：保留纯相位的结构",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 5,
+        "end_line": 44,
+        "heading": "## 1. 固定输入与量词",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L009.EXIST",
+    "lemma": "L009",
+    "title": "同一全时间楔域发展",
+    "dependencies": [
+      "L009.WEDGE",
+      "L009.CONTINUE"
+    ],
+    "assumptions": [
+      "低阶正半径界及每个有限矩形高阶输运"
+    ],
+    "scope": "0≤U≤η，t≥1，Ut≤c",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L009.md",
+      "start_line": 124,
+      "end_line": 143,
+      "heading": "## 4. 有限时间延续，及如何得到同一个全时间域",
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 5,
+        "end_line": 44,
+        "heading": "## 1. 固定输入与量词",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L009.ACTUAL",
+    "lemma": "L009",
+    "title": "楔域识别进同一Cauchy发展",
+    "dependencies": [
+      "L009.EXIST",
+      "I001",
+      "INSEG"
+    ],
+    "assumptions": [
+      "共同实际边、几何唯一性/MGHD接口"
+    ],
+    "scope": "原形成种子的楔域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L009.md",
+      "start_line": 124,
+      "end_line": 143,
+      "heading": "## 4. 有限时间延续，及如何得到同一个全时间域",
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 5,
+        "end_line": 44,
+        "heading": "## 1. 固定输入与量词",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L010.TRANSPORT",
+    "lemma": "L010",
+    "title": "共变波输运与Wilson积分",
+    "dependencies": [
+      "SYS",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "实际光滑 r>0、Ω²>0，A_t=0、P=D_Uφ、T=D_tφ；不需ν或λ正负"
+    ],
+    "scope": "实际光滑正半径片",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L010.md",
+      "start_line": 5,
+      "end_line": 27,
+      "heading": "## 1. 共变输运方程",
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "start_line": 7,
+        "end_line": 26,
+        "heading": "记P=D_Uφ、T=D_tφ，选A_t=0，F_Ut=Ω²Q/(2r²)。D001的波方程与交换式逐项给",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L010.CENTER",
+    "lemma": "L010",
+    "title": "中心复积分必要相容",
+    "dependencies": [
+      "L010.TRANSPORT",
+      "REG_CENTER",
+      "INSEG",
+      "HORIZON"
+    ],
+    "assumptions": [
+      "入射段到中心；晚时视界T=0"
+    ],
+    "scope": "仍正则的完整中心截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L010.md",
+      "start_line": 28,
+      "end_line": 47,
+      "heading": "## 2. 正则中心给出的复积分条件",
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+    },
+    "limitation": "不是全部四维中心光滑性的充分条件",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "start_line": 7,
+        "end_line": 26,
+        "heading": "记P=D_Uφ、T=D_tφ，选A_t=0，F_Ut=Ω²Q/(2r²)。D001的波方程与交换式逐项给",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L010.PHASE",
+    "lemma": "L010",
+    "title": "电流号不由正能量决定",
+    "dependencies": [
+      "SYS",
+      "CHAR"
+    ],
+    "assumptions": [
+      "两组局部相容角点/特征数据"
+    ],
+    "scope": "局部正半径反例",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L010.md",
+      "start_line": 48,
+      "end_line": 59,
+      "heading": "## 3. 单次跨越没有由能量给出的最大值原理",
+      "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "start_line": 7,
+        "end_line": 26,
+        "heading": "记P=D_Uφ、T=D_tφ，选A_t=0，F_Ut=Ω²Q/(2r²)。D001的波方程与交换式逐项给",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L011.BUDGET",
+    "lemma": "L011",
+    "title": "每条实际线的必要充分预算",
+    "dependencies": [
+      "SYS",
+      "SMOOTH_DOMAIN",
+      "NU_NEG"
+    ],
+    "assumptions": [
+      "真实起点；中心起点另要求REG_CENTER"
+    ],
+    "scope": "已有实际出射线光滑段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L011.md",
+      "start_line": 5,
+      "end_line": 26,
+      "heading": "## 1. 每条实际出射线上的必要充分预算",
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "令U固定，取该线的一段实际光滑未来发展，r>0、Ω²>0、ν<0。起点先进时间τ₀(U)为已有入射初始边上的点，或这条线的实际正则中心初点。若从中心起算，下面的初值和积分取光滑中心极限。记",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L011.WILSON",
+    "lemma": "L011",
+    "title": "晚时预算的Wilson表示",
+    "dependencies": [
+      "L011.BUDGET",
+      "L010.TRANSPORT",
+      "INSEG",
+      "HORIZON"
+    ],
+    "assumptions": [
+      "视界T=0；形成期通量单独扣除"
+    ],
+    "scope": "晚时实际连通域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L011.md",
+      "start_line": 27,
+      "end_line": 48,
+      "heading": "## 2. 将未知的出射尾部换成实际入射积分",
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "令U固定，取该线的一段实际光滑未来发展，r>0、Ω²>0、ν<0。起点先进时间τ₀(U)为已有入射初始边上的点，或这条线的实际正则中心初点。若从中心起算，下面的初值和积分取光滑中心极限。记",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L011.WEDGE",
+    "lemma": "L011",
+    "title": "楔域正预算闭合",
+    "dependencies": [
+      "L011.BUDGET",
+      "L009.WEDGE"
+    ],
+    "assumptions": [
+      "同一楔域内高阶平坦性"
+    ],
+    "scope": "Ut≤c",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L011.md",
+      "start_line": 49,
+      "end_line": 57,
+      "heading": "## 3. L009覆盖域的预算确已闭合",
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "令U固定，取该线的一段实际光滑未来发展，r>0、Ω²>0、ν<0。起点先进时间τ₀(U)为已有入射初始边上的点，或这条线的实际正则中心初点。若从中心起算，下面的初值和积分取光滑中心极限。记",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L011.FORCED",
+    "lemma": "L011",
+    "title": "额外非零尾下的强制聚焦",
+    "dependencies": [
+      "L011.BUDGET",
+      "TAIL_LOWER"
+    ],
+    "assumptions": [
+      "2β≤γ+1；线在全部未来实际存在"
+    ],
+    "scope": "满足额外下界的线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L011.md",
+      "start_line": 58,
+      "end_line": 76,
+      "heading": "## 4. 有条件的晚时强制聚焦判据",
+      "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+    },
+    "limitation": "原种子未证该尾下界；候选排除再调用L001.EXCLUDE",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "令U固定，取该线的一段实际光滑未来发展，r>0、Ω²>0、ν<0。起点先进时间τ₀(U)为已有入射初始边上的点，或这条线的实际正则中心初点。若从中心起算，下面的初值和积分取光滑中心极限。记",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.KERNEL",
+    "lemma": "L012",
+    "title": "显式Liouville有界核表示",
+    "dependencies": [
+      "SYS",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "固定q(U)>0、F(U)=∫q/4、Θ²=q[1+F(t-1)]^-2；源满足有限矩形积分表示；比较恒等式无需ν<0"
+    ],
+    "scope": "每个有限过去矩形",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 43,
+      "end_line": 79,
+      "heading": "## 2. 一个显式、有界的积分核",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.STRIP",
+    "lemma": "L012",
+    "title": "固定宽度全时间bootstrap",
+    "dependencies": [
+      "L012.KERNEL",
+      "L008.PREFIX",
+      "L010.TRANSPORT",
+      "HORIZON"
+    ],
+    "assumptions": [
+      "同一C∞输入；N→A→粗常数→η的选取次序"
+    ],
+    "scope": "0≤U≤η、t≥1；r≥3/4",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 80,
+      "end_line": 124,
+      "heading": "## 3. 给定粗bootstrap时的几何精确估计",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 125,
+        "end_line": 154,
+        "heading": "## 4. 场估计：以高阶平坦性吸收固定耦合",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 155,
+        "end_line": 179,
+        "heading": "## 5. 闭合度量bootstrap",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.EXIST",
+    "lemma": "L012",
+    "title": "固定条带实际全时间发展",
+    "dependencies": [
+      "L012.STRIP",
+      "L009.CONTINUE",
+      "I001",
+      "INSEG"
+    ],
+    "assumptions": [
+      "使用L009§4的有限矩形延续机制；同一实际边识别"
+    ],
+    "scope": "固定条带全部有限t",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 180,
+      "end_line": 187,
+      "heading": "## 6. 全时间存在的量词",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 124,
+        "end_line": 143,
+        "heading": "## 4. 有限时间延续，及如何得到同一个全时间域",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.PP",
+    "lemma": "L012",
+    "title": "有限仿射长度与全部径向PP曲率界",
+    "dependencies": [
+      "L012.STRIP",
+      "L012.EXIST",
+      "AFFINE_NORM"
+    ],
+    "assumptions": [
+      "每条固定U>0；t=1规范化框架"
+    ],
+    "scope": "0<U≤η的固定出射线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 188,
+      "end_line": 214,
+      "heading": "## 7. 有限仿射长度及有界曲率",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "长度U↓0可发散；本片没有曲率发散",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.BOUNDARY",
+    "lemma": "L012",
+    "title": "非退化连续度量边界",
+    "dependencies": [
+      "L012.STRIP",
+      "L012.KERNEL",
+      "L012.EXIST"
+    ],
+    "assumptions": [
+      "固定U1>0闭区间；可积源与支配收敛"
+    ],
+    "scope": "V=-1/t的正半径边界片",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 215,
+      "end_line": 227,
+      "heading": "## 8. 连续边界接口与保留的正则性限制",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "方程解/C²/C∞延拓未验收；MGHD内不可继续的解释另用I001全局接口",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L012.MGHD_EDGE",
+    "lemma": "L012",
+    "title": "完整视界下MGHD内常规端点障碍",
+    "dependencies": [
+      "L012.PP",
+      "I001",
+      "MGHD"
+    ],
+    "assumptions": [
+      "完整视界与实际MGHD整体双曲性；假想端点的因果过去包含全部晚时视界段"
+    ],
+    "scope": "每条固定U>0的t→∞端",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L012.md",
+      "start_line": 215,
+      "end_line": 227,
+      "heading": "## 8. 连续边界接口与保留的正则性限制",
+      "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+    },
+    "limitation": "因果紧性论证待独立复核；不等于方程解延拓正则性结论",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 5,
+        "end_line": 41,
+        "heading": "## 1. 命题与输入",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L013.LIMIT",
+    "lemma": "L013",
+    "title": "散射迹与α/t²极限",
+    "dependencies": [
+      "L012.STRIP",
+      "L012.BOUNDARY"
+    ],
+    "assumptions": [
+      "固定同一种子；端点支配函数可积"
+    ],
+    "scope": "[a,η]极限及(0,η]增长",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L013.md",
+      "start_line": 40,
+      "end_line": 56,
+      "heading": "## 2. 极限与正系数",
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L013.md",
+        "start_line": 5,
+        "end_line": 38,
+        "heading": "## 1. 精确命题",
+        "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L013.RIGID",
+    "lemma": "L013",
+    "title": "h=0与初始零场等价",
+    "dependencies": [
+      "L013.LIMIT",
+      "L012.STRIP",
+      "L010.TRANSPORT"
+    ],
+    "assumptions": [
+      "先选足够大N、再缩η；常数独立于时间且选取合法"
+    ],
+    "scope": "同一固定近视界条带",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L013.md",
+      "start_line": 61,
+      "end_line": 81,
+      "heading": "## 4. 反向估计：不丢失Wilson相位",
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L013.md",
+        "start_line": 5,
+        "end_line": 38,
+        "heading": "## 1. 精确命题",
+        "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L013.OUTER",
+    "lemma": "L013",
+    "title": "非零初始场提供正增长外边",
+    "dependencies": [
+      "L013.RIGID",
+      "L013.LIMIT"
+    ],
+    "assumptions": [
+      "实际初始场在[0,η]不恒零"
+    ],
+    "scope": "固定b=η的全时间外边",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L013.md",
+      "start_line": 82,
+      "end_line": 89,
+      "heading": "## 5. 进入全中心估计的接口",
+      "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+    },
+    "limitation": "h与晚时阈值没有族统一界",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L013.md",
+        "start_line": 5,
+        "end_line": 38,
+        "heading": "## 1. 精确命题",
+        "sha256": "61c0378c3e9e357a7108dc55b92b5ac254b24d68f66dc95c5986bcc61cd33ff8"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.VOLUME",
+    "lemma": "L014",
+    "title": "抽象外边给全余域有限体积",
+    "dependencies": [
+      "L014.PREFIX",
+      "OUTER_INPUT"
+    ],
+    "assumptions": [
+      "外边全部t≥1存在；α_b≥a0>0且α_b/t²→h_b>0；连通段单调穷尽；不预设中心或未陷俘"
+    ],
+    "scope": "整个实际D_b余域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 24,
+      "end_line": 47,
+      "heading": "## 2. 全余域有限体积：无需中心边界条件",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.CENTER",
+    "lemma": "L014",
+    "title": "中心截面电磁积分与加权半径界",
+    "dependencies": [
+      "SYS",
+      "L014.PREFIX",
+      "OUTER_INPUT",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "该实际完整截面确以仍正则中心结束，rλ→0；只此时消去中心端项；不需深部λ≥0"
+    ],
+    "scope": "仍存在中心的完整截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 48,
+      "end_line": 74,
+      "heading": "## 3. 入射段仍以正则中心结束时：全深部电磁积分与半径控制",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.AXIS",
+    "lemma": "L014",
+    "title": "dτ/dt=1/(2α)轴线恒等式",
+    "dependencies": [
+      "SYS",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "dr|Γ=0、Δ→1；相容双零坐标"
+    ],
+    "scope": "实际正则轴线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 75,
+      "end_line": 105,
+      "heading": "## 4. 中心固有时间：一个精确全局接口",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.LIFETIME",
+    "lemma": "L014",
+    "title": "外边下中心剩余固有长度有限",
+    "dependencies": [
+      "L014.AXIS",
+      "L014.PREFIX",
+      "OUTER_INPUT"
+    ],
+    "assumptions": [
+      "该正则中心段在固定外边更深处；T≥Tb，αΓ≥αb；允许 t_end有限或无限"
+    ],
+    "scope": "该正则轴线的实际剩余段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 75,
+      "end_line": 105,
+      "heading": "## 4. 中心固有时间：一个精确全局接口",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "limitation": "不推曲率、零仿射长度或可见性",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.EXTENSION",
+    "lemma": "L014",
+    "title": "体积可供正半径延拓原理调用",
+    "dependencies": [
+      "L014.VOLUME",
+      "KOM_EXT"
+    ],
+    "assumptions": [
+      "整个去端点菱形实际存在、r≥r0>0、紧初始边"
+    ],
+    "scope": "仅满足全部延拓前提的菱形",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 106,
+      "end_line": 118,
+      "heading": "## 5. 能调用的正半径延续与不能调用的结论",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.NONZERO",
+    "lemma": "L015",
+    "title": "中心与视界电荷差强迫非零场",
+    "dependencies": [
+      "SYS",
+      "I001",
+      "INSEG",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "中心活到t=1，完整该截面，QH=1/QΓ=0"
+    ],
+    "scope": "实际t=1截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 17,
+      "end_line": 29,
+      "heading": "## 2. t=1上的实际完整截面与非平凡性",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.GAPOUTER",
+    "lemma": "L015",
+    "title": "零场空隙后构造合法正外边",
+    "dependencies": [
+      "L015.NONZERO",
+      "SYS",
+      "CHAR",
+      "I001"
+    ],
+    "assumptions": [
+      "首非零点c>0；有限ERN参考矩形、固定宽度、反向Goursat唯一性"
+    ],
+    "scope": "同一解首非零点旁条带",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 50,
+      "end_line": 80,
+      "heading": "## 4. 首个非零点旁的固定宽度、全部时间实际条带",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "limitation": "w≥0选择的延拓不自动属于原MGHD",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 30,
+        "end_line": 49,
+        "heading": "## 3. c>0：只有已证零场区才识别为电真空",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 81,
+        "end_line": 103,
+        "heading": "## 5. 反向特征唯一性强迫增长系数为正",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.OUTER",
+    "lemma": "L015",
+    "title": "两种非零起点情形均提供外边",
+    "dependencies": [
+      "L015.NONZERO"
+    ],
+    "assumptions": [
+      "中心在t=1为实际正则点；c由15.1定义，0≤c<UΓ(1)"
+    ],
+    "scope": "中心活到t=1时同一实际全时间外边",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 5,
+      "end_line": 16,
+      "heading": "## 1. 命题：去除近视界非零假设",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "case_rules": [
+      {
+        "condition": "c=0",
+        "dependencies": [
+          "L015.NEAREDGE"
+        ]
+      },
+      {
+        "condition": "c>0",
+        "dependencies": [
+          "L015.GAPOUTER"
+        ]
+      }
+    ],
+    "case_coverage": "在 NONZERO 前提下 c≥0，两分支互斥且穷尽",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.LIFETIME",
+    "lemma": "L015",
+    "title": "全部轴线寿命分支固有长度有限",
+    "dependencies": [
+      "I001",
+      "MGHD",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "同一实际MGHD的唯一最大正则轴线；正规中心端点可继续轴线；没有跳到第二轴线"
+    ],
+    "scope": "同一实际MGHD轴线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 104,
+      "end_line": 122,
+      "heading": "## 6. 轴线有限寿命的完整分情况",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "limitation": "这一层不依赖先证明曲率奇异或深部λ号",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "case_rules": [
+      {
+        "condition": "t_end<∞",
+        "dependencies": [
+          "L015.FINITETIME"
+        ]
+      },
+      {
+        "condition": "t_end=∞",
+        "dependencies": [
+          "L015.INFINITETIME"
+        ]
+      }
+    ],
+    "case_coverage": "严格增加的实际t标签上确界有限或无限，穷尽；合并的是证明分支而非同时施加两分支假设",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L016.CURVATURE",
+    "lemma": "L016",
+    "title": "中心精确曲率/质量恒等式",
+    "dependencies": [
+      "SYS",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "旋转对称、无磁荷；逐事件中心极限"
+    ],
+    "scope": "四维实际正则中心",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L016.md",
+      "start_line": 37,
+      "end_line": 56,
+      "heading": "## 3. Einstein方程及Riemann分解",
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+    },
+    "limitation": "不依赖I001、L012或L015",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L016.md",
+        "start_line": 5,
+        "end_line": 29,
+        "heading": "## 1. 精确命题",
+        "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L016.PHYSICAL",
+    "lemma": "L016",
+    "title": "Dτφ=4αT=P/(-ν)",
+    "dependencies": [
+      "L014.AXIS",
+      "REG_CENTER"
+    ],
+    "assumptions": [
+      "中心空间共变梯度为零"
+    ],
+    "scope": "实际正则轴线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L016.md",
+      "start_line": 57,
+      "end_line": 71,
+      "heading": "## 4. 双零导数与物理导数的区别",
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L016.md",
+        "start_line": 5,
+        "end_line": 29,
+        "heading": "## 1. 精确命题",
+        "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L016.SINGULAR",
+    "lemma": "L016",
+    "title": "有限固有时曲率判据",
+    "dependencies": [
+      "L016.CURVATURE",
+      "L016.PHYSICAL",
+      "L015.LIFETIME"
+    ],
+    "assumptions": [
+      "另加limsup|αΓTΓ|=∞"
+    ],
+    "scope": "该轴线有限固有时端点",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L016.md",
+      "start_line": 72,
+      "end_line": 83,
+      "heading": "## 5. 已知有限寿命之后的准确曲率判据",
+      "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+    },
+    "limitation": "增长前提未证；趋轴邻域与零仿射/可见性另证",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L016.md",
+        "start_line": 5,
+        "end_line": 29,
+        "heading": "## 1. 精确命题",
+        "sha256": "20847dc17acb29a401ac7502505abae9a384a75ba3c8af8a892daa107be80d65"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L017.POINCARE",
+    "lemma": "L017",
+    "title": "加权Poincaré与ground-state分解",
+    "dependencies": [
+      "BESSEL"
+    ],
+    "assumptions": [
+      "中心有界且足够光滑的复f，f(R)=0；相容端点极限"
+    ],
+    "scope": "独立径向函数类",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L017.md",
+      "start_line": 30,
+      "end_line": 51,
+      "heading": "## 2. 加权 Poincaré 不等式及其证明",
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "start_line": 5,
+        "end_line": 28,
+        "heading": "## 1. 精确命题",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L017.SHARP",
+    "lemma": "L017",
+    "title": "S≥4j|Q|/(|e|R²)与径向尖锐性",
+    "dependencies": [
+      "SYS",
+      "REG_CENTER",
+      "NU_NEG",
+      "L017.POINCARE"
+    ],
+    "assumptions": [
+      "同一完整实际入射截面，ν<0、Q(0)=0、φ(R)=0、e≠0；中心有界/外端光滑；Wilson输运；尖锐性只在径向函数类"
+    ],
+    "scope": "该截面及独立径向函数类",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L017.md",
+      "start_line": 52,
+      "end_line": 80,
+      "heading": "## 3. 完成平方：同时保留场幅度和相位",
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+    },
+    "limitation": "径向极值不认证全时空约束实现",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "start_line": 5,
+        "end_line": 28,
+        "heading": "## 1. 精确命题",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L017.RATIO",
+    "lemma": "L017",
+    "title": "极端截面αΓ/αH下界",
+    "dependencies": [
+      "L017.SHARP",
+      "SYS"
+    ],
+    "assumptions": [
+      "R=M、|Q|=M；仍连接正则中心"
+    ],
+    "scope": "该极端完整截面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L017.md",
+      "start_line": 81,
+      "end_line": 93,
+      "heading": "## 4. 它闭合什么、不闭合什么",
+      "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+    },
+    "limitation": "φ_r(R)=0给严格性但无统一间隙；不决定陷俘号",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "start_line": 5,
+        "end_line": 28,
+        "heading": "## 1. 精确命题",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.SIGN",
+    "lemma": "L018",
+    "title": "首谱值与实际端点膨胀同号",
+    "dependencies": [
+      "L018.IDENTITY",
+      "CENTER_INTERVAL",
+      "SL"
+    ],
+    "assumptions": [
+      "中心型r(0)=0/r_s(0)=1、真实V有界，r>0于s>0、ν<0；DN型f(0)=0"
+    ],
+    "scope": "实际中心起算有限区间",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 38,
+      "end_line": 53,
+      "heading": "## 2. 证明：不预设未陷俘",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 5,
+        "end_line": 36,
+        "heading": "## 1. 实际解、归一化和量词",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.CERT",
+    "lemma": "L018",
+    "title": "正/负有限区间积分证书",
+    "dependencies": [
+      "L018.SIGN"
+    ],
+    "assumptions": [
+      "可靠V_-≤V≤V_+；实际区间存在"
+    ],
+    "scope": "该有限区间",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 54,
+      "end_line": 72,
+      "heading": "## 3. 无须本征求解的有限时间证书",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 5,
+        "end_line": 36,
+        "heading": "## 1. 实际解、归一化和量词",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.CENTER",
+    "lemma": "L018",
+    "title": "中心χ与二阶物理导数桥梁",
+    "dependencies": [
+      "L018.CERT",
+      "REG_CENTER",
+      "CENTER_INTERVAL"
+    ],
+    "assumptions": [
+      "实际χ=|Dτφ|²>0、V(0)=χ；同一线存在至ell=π/√χ且r>0于s>0、ν<0；全段|D_L²φ|≤χ/(2π)"
+    ],
+    "scope": "从该中心发出的实际有限线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 73,
+      "end_line": 92,
+      "heading": "## 4. 从中心物理导数到陷俘的定量桥梁",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "limitation": "χ大本身不提供存在长度或二阶界",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 5,
+        "end_line": 36,
+        "heading": "## 1. 实际解、归一化和量词",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.ROBIN",
+    "lemma": "L018",
+    "title": "正半径初点Robin版本",
+    "dependencies": [
+      "L018.IDENTITY",
+      "POS_INTERVAL",
+      "SL",
+      "NU_NEG"
+    ],
+    "assumptions": [
+      "r(0)>0、全段r>0；真实V有界，固定仿射尺度和w0；二次型加w0|f(0)|²；不把DN中心定理直接作为前提"
+    ],
+    "scope": "不从中心起算的实际段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 93,
+      "end_line": 102,
+      "heading": "## 5. 不从中心起算的实际线",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 5,
+        "end_line": 36,
+        "heading": "## 1. 实际解、归一化和量词",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L019.FIRST",
+    "lemma": "L019",
+    "title": "内部首次触零刚性",
+    "dependencies": [
+      "SYS",
+      "SMOOTH_DOMAIN",
+      "NU_NEG"
+    ],
+    "assumptions": [
+      "U内部点；U邻域λ≥0才能推λ_U=0"
+    ],
+    "scope": "有限紧实际光滑片内的正半径球",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L019.md",
+      "start_line": 5,
+      "end_line": 21,
+      "heading": "## 1. 首次触零的约束",
+      "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L019.md",
+        "start_line": 3,
+        "end_line": 20,
+        "heading": "2026-10-09。内部证明稿。D001、A_t=0、ν<0、P=D_Uφ、T=D_tφ；局部实际解结论，不依赖 L012。外部视界 U=0 不属于本命题要求的 U 内部点。",
+        "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L019.BUDGET",
+    "lemma": "L019",
+    "title": "无陷俘未来边际射线预算",
+    "dependencies": [
+      "L019.FIRST",
+      "L010.TRANSPORT"
+    ],
+    "assumptions": [
+      "每个未来点的U邻域λ≥0；整段实际存在"
+    ],
+    "scope": "该内部边际射线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L019.md",
+      "start_line": 22,
+      "end_line": 56,
+      "heading": "## 2. 无陷俘假设下的整个未来边际射线",
+      "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+    },
+    "limitation": "φ0≠0才有有限预算；超预算但仍存在才推出陷俘",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L019.md",
+        "start_line": 3,
+        "end_line": 20,
+        "heading": "2026-10-09。内部证明稿。D001、A_t=0、ν<0、P=D_Uφ、T=D_tφ；局部实际解结论，不依赖 L012。外部视界 U=0 不属于本命题要求的 U 内部点。",
+        "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L020.PROFILE",
+    "lemma": "L020",
+    "title": "固定有理剖面与八个零矩",
+    "dependencies": [
+      "E020"
+    ],
+    "assumptions": [
+      "K=8,n=88,σ=1/20；能量归一化"
+    ],
+    "scope": "辅助半线x≥0",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L020.md",
+      "start_line": 5,
+      "end_line": 32,
+      "heading": "## 1. 全部参数固定",
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L020.md",
+        "start_line": 5,
+        "end_line": 31,
+        "heading": "## 1. 全部参数固定",
+        "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L020.CURRENT",
+    "lemma": "L020",
+    "title": "正电流滤波论证",
+    "dependencies": [
+      "L020.PROFILE"
+    ],
+    "assumptions": [
+      "高斯有理多项式及上半平面根结构"
+    ],
+    "scope": "x>0辅助剖面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L020.md",
+      "start_line": 33,
+      "end_line": 45,
+      "heading": "## 2. 正电流的解析证明",
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L020.md",
+        "start_line": 5,
+        "end_line": 31,
+        "heading": "## 1. 全部参数固定",
+        "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L020.J",
+    "lemma": "L020",
+    "title": "J恰一次简单负到正变号",
+    "dependencies": [
+      "L020.PROFILE",
+      "E020"
+    ],
+    "assumptions": [
+      "精确分子与六叶整数覆盖证书"
+    ],
+    "scope": "紧化全半线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L020.md",
+      "start_line": 46,
+      "end_line": 75,
+      "heading": "## 3. 一次变号的整数证书",
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L020.md",
+        "start_line": 5,
+        "end_line": 31,
+        "heading": "## 1. 全部参数固定",
+        "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L020.KERNEL",
+    "lemma": "L020",
+    "title": "𝒦单调且≥𝒦(0)>2^-854",
+    "dependencies": [
+      "L020.PROFILE",
+      "L020.J",
+      "KDEF"
+    ],
+    "assumptions": [
+      "核ODE/边界按KDEF；正端点精确比较"
+    ],
+    "scope": "全辅助半线",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L020.md",
+      "start_line": 76,
+      "end_line": 112,
+      "heading": "## 4. 从正性升级为单调性和端点最小值",
+      "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L020.md",
+        "start_line": 5,
+        "end_line": 31,
+        "heading": "## 1. 全部参数固定",
+        "sha256": "0c246817944b0d351f5eec70d45a2f7a22f78e542452f13be6a6af2951f33471"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L021.FIX",
+    "lemma": "L021",
+    "title": "光滑截断与精确零矩修复",
+    "dependencies": [
+      "L020.PROFILE",
+      "L020.CURRENT",
+      "E021"
+    ],
+    "assumptions": [
+      "§1固定ρ、χ、归一化bump；§2全系数包络与H1截断误差；矩阵A精确定义且A^-1有界；d_s=M_s(χw)、α0=-A^-1d"
+    ],
+    "scope": "单块紧支持剖面",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L021.md",
+      "start_line": 51,
+      "end_line": 78,
+      "heading": "## 3. 矩矩阵的明确可逆性",
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    "limitation": "这里精确不意味着所有超越积分都是有理数",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 5,
+        "end_line": 49,
+        "heading": "## 1. 固定的光滑函数",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L021.CORE",
+    "lemma": "L021",
+    "title": "未修复w的电流核心界与条件性C1扰动规则",
+    "dependencies": [
+      "L020.PROFILE",
+      "E021"
+    ],
+    "assumptions": [
+      "E021核心Bernstein及系数上界；任意修复h满足||h||C1≤η≤1时的误差规则；本节点不自行认证具体α(c)小量"
+    ],
+    "scope": "[3/4,33/4]的w核心，以及满足给定C1小量的扰动",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L021.md",
+      "start_line": 79,
+      "end_line": 90,
+      "heading": "## 4. 电流核心的精确包络",
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 5,
+        "end_line": 49,
+        "heading": "## 1. 固定的光滑函数",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L021.FAMILY",
+    "lemma": "L021",
+    "title": "周期族M_s(z_c)=c_s",
+    "dependencies": [
+      "L021.FIX",
+      "L021.CORE"
+    ],
+    "assumptions": [
+      "固定T及|c_s|≤2^-4096；共同端点开空隙"
+    ],
+    "scope": "整个具体周期族",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L021.md",
+      "start_line": 91,
+      "end_line": 110,
+      "heading": "## 5. 固定周期与半线矩坐标",
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 5,
+        "end_line": 49,
+        "heading": "## 1. 固定的光滑函数",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L021.KERNEL",
+    "lemma": "L021",
+    "title": "λ<3/5与周期核>2^-855",
+    "dependencies": [
+      "L021.FAMILY",
+      "L020.KERNEL",
+      "KDEF"
+    ],
+    "assumptions": [
+      "单块L1比较与周期精确求和"
+    ],
+    "scope": "全周期半线及参数球",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L021.md",
+      "start_line": 111,
+      "end_line": 141,
+      "heading": "## 6. 核与耦合余量",
+      "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+    },
+    "limitation": "实际形成另需有限振幅FLIFT实例",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L021.md",
+        "start_line": 5,
+        "end_line": 49,
+        "heading": "## 1. 固定的光滑函数",
+        "sha256": "ecdad7f0286c57d7f174aa1251b7d26131e848f8f7543a9ffb533a0a6f2c8f72"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L022.TAIL",
+    "lemma": "L022",
+    "title": "同一光滑极限固定Ck尾界",
+    "dependencies": [
+      "REPAIR_BUDGET"
+    ],
+    "assumptions": [
+      "同一序列每步预算确已兑现；N≥max(N0,k+1)；高阶范数采用最大导数范数"
+    ],
+    "scope": "满足预算的同一序列；不依赖有限振幅端点提升是否完成",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L022.md",
+      "start_line": 5,
+      "end_line": 22,
+      "heading": "## 1. 尾部不是无控制的无限对象",
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 5,
+        "end_line": 21,
+        "heading": "## 1. 尾部不是无控制的无限对象",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L022.CONE",
+    "lemma": "L022",
+    "title": "显式锥几何安全预算",
+    "dependencies": [
+      "SYS"
+    ],
+    "assumptions": [
+      "参考r/t≥a,H/t≥h,β>0与场范数已认证"
+    ],
+    "scope": "同一仿射锥[0,1]",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L022.md",
+      "start_line": 23,
+      "end_line": 95,
+      "heading": "## 2. 不含隐藏连续依赖常数的锥几何预算",
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    "limitation": "a,h,β尚需具体有限成员",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 5,
+        "end_line": 21,
+        "heading": "## 1. 尾部不是无控制的无限对象",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L022.FLOW",
+    "lemma": "L022",
+    "title": "修复尾误差的实际W传播",
+    "dependencies": [
+      "L022.TAIL",
+      "COMMON_FLOW"
+    ],
+    "assumptions": [
+      "共同域、同一物理线、经过证明的C_flow"
+    ],
+    "scope": "该共同有限实际域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L022.md",
+      "start_line": 96,
+      "end_line": 110,
+      "heading": "## 3. 真正的时空传播还需要什么",
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    "limitation": "这是尚未取得输入的条件性接口",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 5,
+        "end_line": 21,
+        "heading": "## 1. 尾部不是无控制的无限对象",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L022.DECISION",
+    "lemma": "L022",
+    "title": "总误差下正/负谱判决",
+    "dependencies": [
+      "L022.FLOW",
+      "L018.CERT"
+    ],
+    "assumptions": [
+      "可靠数值包络、严格余量ρ、总误差满足门槛"
+    ],
+    "scope": "同一有限实际区间",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L022.md",
+      "start_line": 111,
+      "end_line": 136,
+      "heading": "## 4. 尾部误差与数值误差合并后的判决",
+      "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+    },
+    "limitation": "不是原种子的已完成实际符号证书",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 5,
+        "end_line": 21,
+        "heading": "## 1. 尾部不是无控制的无限对象",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.ANLIM",
+    "lemma": "L023",
+    "title": "保守充分条件给严格陷俘",
+    "dependencies": [
+      "SYS",
+      "ANLIM",
+      "MINK_FILL",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "23.1及完整外部经典发展接口；边际升级保持Q²/r²<1"
+    ],
+    "scope": "有限第一周期特征发展",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 5,
+      "end_line": 37,
+      "heading": "## 1. 外部接口和归一化审计",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.FIRST",
+    "lemma": "L023",
+    "title": "第一周期精确质量与半径宽度界",
+    "dependencies": [
+      "FINITE_CONE23"
+    ],
+    "assumptions": [
+      "真实锥约束、左端平直完整球面/m1=0；δ足够小的Riccati屏障0≤q≤bδ；E均值正确保q1>0；周期比较q2≤q1"
+    ],
+    "scope": "满足这些约束的实际有限形成锥；本计算不构造端点根或整入射锥",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 58,
+      "end_line": 99,
+      "heading": "## 3. 第一物理周期的质量集中：精确而非平均展开",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.BRANCH",
+    "lemma": "L023",
+    "title": "充分长指定分支严格陷俘",
+    "dependencies": [
+      "L023.FIRST",
+      "L023.CHARGE",
+      "L023.WIDTH",
+      "L023.ANLIM",
+      "FLIFT",
+      "FRPOS",
+      "MINK_FILL"
+    ],
+    "assumptions": [
+      "同一真实端点分支c_m→0、τ_m→τ0、ρ_m→正值；T≥log4，固定b,C0,ρ0；23.6四项逐项兑现；实际经典发展接口有效"
+    ],
+    "scope": "指定完整Minkowski填充分支",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 126,
+      "end_line": 162,
+      "heading": "## 5. 分支负号结论",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "limitation": "不是全部极端形成解的禁止定理",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.MGEOM",
+    "lemma": "L023",
+    "title": "L021族显式几何长度门槛",
+    "dependencies": [
+      "L021.KERNEL",
+      "L021.FAMILY",
+      "FINITE_CONE23",
+      "E023"
+    ],
+    "assumptions": [
+      "μ=3/5、T=1048578、c在指定球；τ∈[τ0/2,5τ0/4]、δ=τ/(mT)、b=2^3201、m≥2^2104156；Riccati屏障和积分约束确满足"
+    ],
+    "scope": "上述假设下的几何充分条件计算；不保证该m的端点残差有根",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 140,
+      "end_line": 162,
+      "heading": "### L021族的显式几何长度门槛",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "limitation": "移除旧版经L023.FIRST间接引入FLIFT的过强依赖；实际分支应用另见BRANCH",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.SMOOTH",
+    "lemma": "L023",
+    "title": "可选择修复保留陷俘并排除候选",
+    "dependencies": [
+      "L023.BRANCH",
+      "FSMOOTH",
+      "CAUCHY",
+      "REPAIR_TO_STRONG",
+      "L001.EXCLUDE"
+    ],
+    "assumptions": [
+      "已先获得实际严格陷俘有限成员和共同实现；选足够高固定阶预算，经过REPAIR_TO_STRONG传递后输入误差<ε_trap；实际执行同一修复序列"
+    ],
+    "scope": "选定有限成员及足够小修复的光滑极限",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 163,
+      "end_line": 175,
+      "heading": "## 6. 光滑修复及目标的准确影响",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "limitation": "ε_trap、传递界与指定序列仍未认证；C1锥预算单独不够",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L004.AFFINE",
+    "lemma": "L004",
+    "title": "不要求正出射膨胀的仿射聚焦恒等式",
+    "dependencies": [
+      "SYS",
+      "REG_CENTER",
+      "AFFINE_NORM"
+    ],
+    "assumptions": [
+      "实际中心发出；r_s(0)=b>0、s>0处r>0；可允许后续r_s≤0"
+    ],
+    "scope": "该线全部实际光滑正半径段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L004.md",
+      "start_line": 7,
+      "end_line": 20,
+      "heading": "固定 D001 的四维球对称、无质量 EMCSF 模型与固定耦合 e。设 γ:[0,S)→M 是从光滑正则中心发出的未来径向零测地线，s 为仿射参数，r(0)=0，b:=r_s(0)>0；以中心单位法向归一化时 b=1。要求 γ 上 s>0 时 r>0，场光滑。记 a=r_s。",
+      "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L004.md",
+        "start_line": 35,
+        "end_line": 35,
+        "heading": "球对称径向零方向的 Maxwell 能量通量为零；D001 的 Einstein 方程给 Ric(L,L)=2|D_Lφ|²。无剪切的径向 Raychaudhuri，或 warped-product 的角向曲率公式，给 r_ss=-r|D_sφ|²。中心光滑性保证 r=bs+O(s³)、D_sφ有界，因此右侧积分在 s=0 无奇异性。积分一次即得到 L004.1 的仿射形式。",
+        "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L004.md",
+        "start_line": 5,
+        "end_line": 32,
+        "heading": "## 精确陈述",
+        "sha256": "85b7a449586fd5516b3e9187d09ca861da5e81244ea6f330fd710ca61ac5b618"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L005.AREA",
+    "lemma": "L005",
+    "title": "正膨胀段面积电荷—能量式",
+    "dependencies": [
+      "SYS",
+      "L004.IDENTITY"
+    ],
+    "assumptions": [
+      "r_s>0、Q(0)=0；面积振幅积分实际有定义"
+    ],
+    "scope": "该实际正膨胀段",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L005.md",
+      "start_line": 20,
+      "end_line": 25,
+      "heading": "若 a>0、R=r(S)，另定义",
+      "sha256": "3e66282d0384392d67a26e328730b0cf4d34d7ffa60210f73f68f3062b5faaa0"
+    },
+    "additional_sources": [],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L009.CONTINUE",
+    "lemma": "L009",
+    "title": "条件于低阶界的有限矩形延续机制",
+    "dependencies": [
+      "SYS",
+      "CHAR",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "共同相容光滑特征边；每个固定有限矩形的 r、Ω²有正下界及低阶导数控制；最高阶线性输运可逐阶延续"
+    ],
+    "scope": "符合这些条件的有限正半径矩形；本节点不证明所需界",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L009.md",
+      "start_line": 126,
+      "end_line": 140,
+      "heading": "需排除只在已有薄带上得估计、却没有获得L009.2覆盖的循环。对每个固定有限t_*，取允许的U_*≤min(η,c/t_*)。其过去矩形仍满足Ut≤c，故上节估计给r、Ω²严格正的上下界。",
+      "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 5,
+        "end_line": 44,
+        "heading": "## 1. 固定输入与量词",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L014.PREFIX",
+    "lemma": "L014",
+    "title": "外边下单个实际前缀的α单调与截面体积界",
+    "dependencies": [
+      "SYS",
+      "OUTER_INPUT",
+      "SMOOTH_DOMAIN",
+      "INSEG"
+    ],
+    "assumptions": [
+      "固定外边α_b>0；前缀全部实际存在，入射Raychaudhuri；ν=-αΩ²"
+    ],
+    "scope": "任一实际前缀；不要求其末端为中心",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L014.md",
+      "start_line": 16,
+      "end_line": 31,
+      "heading": "令D_b为每个t上从U=b开始的**实际连通入射正半径段**之并。右端可以是正则中心、奇异/其他未来边界或无穷坐标端；下面第一部分不指定它。对每个实际前缀，入射约束给",
+      "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 5,
+        "end_line": 22,
+        "heading": "## 1. 可直接验证的外边输入",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.NEAREDGE",
+    "lemma": "L015",
+    "title": "c=0分支选取近视界正外边",
+    "dependencies": [
+      "L015.NONZERO",
+      "L013.OUTER"
+    ],
+    "assumptions": [
+      "c=0，因此每个小近视界区间都有实际初始非零值；按L012–13选同一种子的N、η"
+    ],
+    "scope": "中心活到t=1时的c=0分支",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 23,
+      "end_line": 28,
+      "heading": "令",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.FINITETIME",
+    "lemma": "L015",
+    "title": "有限t_end分支的轴线固有长度界",
+    "dependencies": [
+      "SYS",
+      "I001",
+      "INSEG",
+      "REG_CENTER",
+      "L014.AXIS"
+    ],
+    "assumptions": [
+      "t_end<∞；固定t0>0；实际视界在[t0,t_end]光滑且α_H正下界；每个仍正则中心段连接视界"
+    ],
+    "scope": "不要求中心到t=1；从任意正则中心点算实际剩余长度",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 108,
+      "end_line": 119,
+      "heading": "若t_end<∞，取任意固定正则中心点t₀>0。入射连接视界的实际段给",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L015.INFINITETIME",
+    "lemma": "L015",
+    "title": "无限t_end分支的轴线固有长度界",
+    "dependencies": [
+      "L015.OUTER",
+      "L014.LIFETIME",
+      "I001"
+    ],
+    "assumptions": [
+      "t_end=∞，故中心活到t=1；UΓ随后严格增加，中心在所选b之后"
+    ],
+    "scope": "同一实际轴线t_end=∞分支",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L015.md",
+      "start_line": 106,
+      "end_line": 106,
+      "heading": "轴线t严格增加。若t_end=∞，则Γ存在于t=1，以上构造给固定实际外边b。从初始t=1截面b<U_Γ(1)，且U_Γ随后严格增加，故每个实际晚时中心段都在该外边更深处。L014.10–11给有限剩余固有长度。",
+      "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L015.md",
+        "start_line": 5,
+        "end_line": 15,
+        "heading": "## 1. 命题：去除近视界非零假设",
+        "sha256": "384c7d9f94d385cdbea3d16143bafe2473a698241b7ccfdb07748249bca68991"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.IDENTITY",
+    "lemma": "L018",
+    "title": "中心/正半径端点的ground-state恒等式",
+    "dependencies": [
+      "SYS",
+      "AFFINE_NORM",
+      "SMOOTH_DOMAIN"
+    ],
+    "assumptions": [
+      "真实 V≥0、r_ss+Vr=0；r在区间内部正；中心型需f(0)=0消边项，正半径型用w0抵消左边项"
+    ],
+    "scope": "两种边界型分别使用；本节点不给实际区间存在性",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 40,
+      "end_line": 46,
+      "heading": "在 r>0 区域直接完成平方并用 18.1，得到",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 95,
+        "end_line": 101,
+        "heading": "设实际段以正半径 r(0)>0 起算。令 w₀=r_s(0)/r(0)。改用",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 5,
+        "end_line": 36,
+        "heading": "## 1. 实际解、归一化和量词",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.CHARGE",
+    "lemma": "L023",
+    "title": "第一周期电荷与两初始锥电荷比包络",
+    "dependencies": [
+      "FINITE_CONE23",
+      "MINK_FILL"
+    ],
+    "assumptions": [
+      "固定实际e=μ、C≥0、R≤1、R(L)=ρ>0、左端Q1=0；完整Minkowski入射锥Q=0"
+    ],
+    "scope": "指定两初始锥",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 102,
+      "end_line": 109,
+      "heading": "固定实际端点耦合e=µ，电荷从左端零值出发。第一周期上R≤1、C≥0，故",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L023.WIDTH",
+    "lemma": "L023",
+    "title": "中心归一化的物理宽度Δv",
+    "dependencies": [
+      "FINITE_CONE23",
+      "MINK_FILL",
+      "AFFINE_NORM"
+    ],
+    "assumptions": [
+      "左端β=q1ρ/t1>0、入射/前段平直；v=2β(t-t_c)、u=U/(2β)；原始Δt不可替代Δv"
+    ],
+    "scope": "同一指定初始两锥的物理归一化",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L023.md",
+      "start_line": 111,
+      "end_line": 124,
+      "heading": "原始t的中心点为t_c=t₁−ρ_m/β_m。改用",
+      "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 3,
+        "end_line": 56,
+        "heading": "2026-10-09。新内部推论。**条件于原有限阶形成分支存在、指定Minkowski入射填充，以及下述外部带电陷俘形成定理及其经典发展接口。** 本稿对这一明确分支给出负号机制，未给原来未冻结的任意光滑种子作无条件终审。",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "limitation": "",
+    "status": "正文与登记对照已完成；数学独立验收未完成",
+    "source_review": "原稿陈述、证明调用位置及适用域对照；未替代解析证明/外部接口独立认证"
+  },
+  {
+    "id": "L018.SCREEN",
+    "lemma": "L018",
+    "title": "实际负证书后的条件性临界筛选",
+    "dependencies": [
+      "L018.CERT",
+      "L001.EXCLUDE",
+      "TOPO"
+    ],
+    "assumptions": [
+      "选用CERT的严格负分支；证书属固定光滑正则单端AF约束Cauchy种子；L001有限参考片强拓扑接口成立"
+    ],
+    "scope": "该已实际认证陷俘候选及其强邻域",
+    "source": {
+      "original_path": "RECCVS/proofs/RECCVS_L018.md",
+      "start_line": 89,
+      "end_line": 91,
+      "heading": "由 18.5，实际解形成严格陷俘。证毕。",
+      "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+    },
+    "additional_sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "start_line": 7,
+        "end_line": 13,
+        "heading": "固定 D002 的 s≥6 强拓扑和耦合 e。设 Ψ_* 是光滑约束数据，Σ≅R³，空间完备。其最大未来整体双曲发展在一个紧的光滑有限时间区域内含正半径严格陷俘对称球 S_*。那么存在 Ψ_* 的 X^s 相对邻域 U，使每个光滑 Ψ∈U 的发展都含严格陷俘球，并未来零测地不完备。因此",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      }
+    ],
+    "limitation": "正证书或未判不触发筛选",
+    "status": "正文与登记对照已完成；数学独立验收未完成"
+  }
+]

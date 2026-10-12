@@ -1,0 +1,57 @@
+{
+  "removed_origin_order": 142,
+  "compact_degree": 386,
+  "x_scale": 176,
+  "node_count": 11,
+  "leaf_count": 6,
+  "positive_root_count": 1,
+  "first_sign": -1,
+  "last_sign": 1,
+  "leaves": [
+    {
+      "index": 0,
+      "depth": 5,
+      "variations": 0,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "index": 1,
+      "depth": 5,
+      "variations": 0,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "index": 1,
+      "depth": 4,
+      "variations": 0,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "index": 1,
+      "depth": 3,
+      "variations": 0,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "index": 1,
+      "depth": 2,
+      "variations": 1,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "index": 1,
+      "depth": 1,
+      "variations": 0,
+      "left_sign": 1,
+      "right_sign": 1
+    }
+  ],
+  "single_negative_to_positive": true,
+  "method": "exact integer Bernstein subdivision + Descartes rule",
+  "scope": "LEADING_PROFILE_J_ROOTS_ONLY"
+}

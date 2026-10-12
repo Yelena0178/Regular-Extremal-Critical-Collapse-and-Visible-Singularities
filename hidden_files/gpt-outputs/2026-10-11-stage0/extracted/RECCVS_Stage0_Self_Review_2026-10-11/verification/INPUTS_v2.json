@@ -1,0 +1,1369 @@
+[
+  {
+    "id": "SYS",
+    "title": "D001：EMCSF 归一化",
+    "status": "定义输入",
+    "statement": "四维、球对称、无质量复标量、无磁荷、固定 e≠0；签名与 Maxwell 取向按 MODEL.md。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "locator": "RECCVS-D001",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "start_line": 1,
+        "end_line": 96,
+        "heading": "# 模型、公式和命题定义",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "TOPO",
+    "title": "D002–D003：强拓扑与色散集合",
+    "status": "定义输入",
+    "statement": "约束空间 X^s，s≥6；AF/Coulomb 主项单列；D 要求所有因果测地完整、完整 I+ 与衰减。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "locator": "RECCVS-D002、D003",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "start_line": 1,
+        "end_line": 96,
+        "heading": "# 模型、公式和命题定义",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "VIS",
+    "title": "D004：物理归一化与可见性",
+    "status": "定义输入",
+    "statement": "零线仿射或类时固有时；框架在固定物理初点归一化；可见性接到同一完整 I+。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "locator": "RECCVS-D004",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "start_line": 1,
+        "end_line": 96,
+        "heading": "# 模型、公式和命题定义",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "REG_CENTER",
+    "title": "实际正则中心",
+    "status": "条件输入",
+    "statement": "四维实际光滑正则中心；Q=O(r^3)、m=O(r^3)，中心取极限；使用时必须标明该中心事件仍属于实际发展。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "locator": "",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/definitions/MODEL.md",
+        "start_line": 1,
+        "end_line": 96,
+        "heading": "# 模型、公式和命题定义",
+        "sha256": "eefeeeaaa4943eadc4051d7c0128a433e6264236291ba3fa51e0874c2ecdb8a9"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "POS_DOMAIN",
+    "title": "旧复合条件（兼容ID）",
+    "status": "兼容ID；不作为最小前置",
+    "statement": "旧 POS_DOMAIN 等于 SMOOTH_DOMAIN 与 NU_NEG 的合取；修订核心图不再用它代替单独的光滑域。",
+    "dependencies": [
+      "SMOOTH_DOMAIN",
+      "NU_NEG"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 7,
+        "end_line": 9,
+        "heading": "令 (U,t) 为同一实际双零图，ν=r_U<0、λ=r_t。由入射 Raychaudhuri 和初始 ν<0，ν在最大发展中保持负号；所用公开接口是 Kommemi 1107.0949v2 Proposition3.1，归一化不改变此符号。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "INSEG",
+    "title": "同一实际入射连通段",
+    "status": "条件输入",
+    "statement": "由 U=0 至所考察点的正半径前缀属于实际发展；只有明确到达正则中心时才使用中心端边项。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+        "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+      }
+    ],
+    "locator": "",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "start_line": 1,
+        "end_line": 61,
+        "heading": "# 已有形成输入审计",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+        "start_line": 1,
+        "end_line": 284,
+        "heading": "# OPEN B：依赖域与外部覆盖 的解析补证",
+        "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "HORIZON",
+    "title": "全零 jets 的晚时极端视界数据",
+    "status": "条件输入",
+    "statement": "M=Q_H=1，U=0、t≥1：r=Q=Ω²=1、λ=φ=0、ν=-a0<0，横向标量 jets 全零；t=1 内侧数据属于同一光滑种子。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "locator": "",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "start_line": 1,
+        "end_line": 61,
+        "heading": "# 已有形成输入审计",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L009.md",
+        "start_line": 1,
+        "end_line": 154,
+        "heading": "# RECCVS-L009：同一实际内侧解的全时间定量未陷俘楔域",
+        "sha256": "c84abd0106b72d779c84e01f674b7445ec240e757edc274169001788655ca75e"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L012.md",
+        "start_line": 1,
+        "end_line": 232,
+        "heading": "# RECCVS-L012：全零视界jets输入的固定宽度全时间内侧控制",
+        "sha256": "3b48638b9968005f72da32ba1d35c93fa973bc260e514d54bc3599bd7998c35f"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "OUTER_INPUT",
+    "title": "L014.1：抽象外边输入",
+    "status": "条件输入",
+    "statement": "固定 U=b 的全部 t≥1 外边：0<r_b≤R≤1、λ_b≥0、r_bλ_b≤C_b/t²、α_b/t²→h_b>0、α_b≥a0。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "locator": "§1，L014.1",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L014.md",
+        "start_line": 1,
+        "end_line": 118,
+        "heading": "# RECCVS-L014：整个实际中心余域的体积、聚焦权重与轴线寿命",
+        "sha256": "8ed5567dad1e15aeb7e2940b5ce2e9476ef0ee63e3bd4aa62f96ed3aaf93b35c"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FINITE_INTERVAL",
+    "title": "旧区间总称（兼容ID）",
+    "status": "兼容ID；修订核心图不使用",
+    "statement": "中心区间与正半径区间是两个不同实例类型；使用 CENTER_INTERVAL 或 POS_INTERVAL，不能无条件互换。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "从一个实际光滑正则中心事件发出未来出射径向零测地线 γ。以中心单位类时向量 E₀ 归一化切向 L：−g(L,E₀)=1；随后 L 仿射平行输运，参数记 s，中心 s=0。中心规则性给 r(0)=0、r_s(0)=1。设该实际零线光滑存在于 0≤s≤ℓ，且 r(s)>0 于 0<s≤ℓ，其所有非中心点满足 ν<0。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 95,
+        "end_line": 101,
+        "heading": "设实际段以正半径 r(0)>0 起算。令 w₀=r_s(0)/r(0)。改用",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "TAIL_LOWER",
+    "title": "实际非零尾部下界",
+    "status": "未取得的条件",
+    "statement": "同一实际线对全部 t≥t1 存在且 r≥r_->0、Ω²≤C(1+t)^(-γ)、|T|≥c(1+t)^(-β)，c>0。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "locator": "L011.4；不是现有种子的已知尾部",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L011.md",
+        "start_line": 1,
+        "end_line": 81,
+        "heading": "# RECCVS-L011：全剩余域的正通量预算与波—几何闭合接口",
+        "sha256": "e8951aa82c7540e9aeec615ec9327705132611b44c2e5667cc4a54a357d3d96a"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "COMMON_FLOW",
+    "title": "共同实际域与流误差",
+    "status": "未取得的条件",
+    "statement": "共同紧光滑域、同一物理初点/仿射归一化、Wilson 比较；强范数输入差到实际 W 的 C_flow 界。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "locator": "§3",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 1,
+        "end_line": 139,
+        "heading": "# RECCVS-L022：修复尾部的显式锥误差预算与有限陷俘证书容差",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "MINK_FILL",
+    "title": "完整 Minkowski 入射填充",
+    "status": "尚未冻结的条件",
+    "statement": "从左端球面至中心的整条初始入射锥为 Minkowski；共同 Cauchy 实现包含相应有限依赖域。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "locator": "§2；不是仅球面 jets 或局部平直空隙",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 1,
+        "end_line": 175,
+        "heading": "# RECCVS-L023：长周期有限阶形成分支的第一周期陷俘机制",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "PERIODIC_PROFILE",
+    "title": "周期族及矩坐标的完整假设",
+    "status": "抽象条件；L021可作为具体实例，尚无实际根认证",
+    "statement": "固定 K,T、c 的紧球和 τ 的正紧区间；所需 x/c 导数一致有界，共同端点开空隙；E、C 均值有统一正下界且 C≥0；精确半线矩 M_s(z_c)=c_s（1≤s≤K）；λ0<μ，τ0=-log(1-λ0/μ)/(2 Ebar0) 位于所选 τ 区间内部；核在所需 c 球上正。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+        "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 3,
+        "end_line": 7,
+        "heading": "## 1. 假设和量词",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 141,
+        "end_line": 149,
+        "heading": "## 6. 精确修复",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+        "start_line": 69,
+        "end_line": 83,
+        "heading": "## 引理 5：紧支撑修复与平坦周期化",
+        "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "KDEF",
+    "title": "形成核的完整定义",
+    "status": "定义输入",
+    "statement": "I_C(x)=∫_0^x C+∫_x^∞e^(x-y)C；I_E(x)=∫_0^x(1-e^(y-x)/2)E+(1/2)∫_x^∞e^(x-y)E；𝒦=2λI_C-2I_E。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+        "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+      }
+    ],
+    "locator": "文件首段；给 L020 缺省记号补足来源",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/01_profile_construction.md",
+        "start_line": 1,
+        "end_line": 91,
+        "heading": "# 剖面构造：任意固定有限 K 的剖面引理链",
+        "sha256": "4d58eaf904038b5e45c3f074fe371193e9d459ed0a2ce08b5327b7dfc6d2f06b"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FRBASE",
+    "title": "有限阶提升的半径/参数基底",
+    "status": "内部证明模块；未独立验收",
+    "statement": "固定周期族与正紧τ区间；q=O(δ)、q-δp=O_C1(δ²)在全部x≥0一致；R、1/R及一次参数导数的统一界仅在0≤x≤L=mT的有限脉冲，不能移到无限半线。",
+    "dependencies": [
+      "PERIODIC_PROFILE"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 9,
+        "end_line": 41,
+        "heading": "## 2. 半径和电荷的参数一致估计",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FRPOS",
+    "title": "周期后q下界及实际锥H正性",
+    "status": "内部证明模块；未独立验收",
+    "statement": "小δ下0≤q≤bδ在x≥0；q≥aδ仅对x≥T，且q(0)=0；无限周期H∞≥c*δt对0<t≤1；有限脉冲H_L≥H∞>0仅在其真实锥段t_-=exp(-L)≤t≤1，故ν<0。常数依赖固定族，有限成员的严格余量不宣称对m→∞不退化。",
+    "dependencies": [
+      "FRBASE",
+      "KDEF",
+      "PERIODIC_PROFILE"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+        "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+        "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+        "start_line": 3,
+        "end_line": 13,
+        "heading": "## 1. 固定参数族",
+        "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/04_radius_positivity.md",
+        "start_line": 65,
+        "end_line": 93,
+        "heading": "## 4. 尾区与选参顺序",
+        "sha256": "ebe6dee126f230dda9cd50ee821971281c60f18d7ec1951574127cf3dc3bfb04"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FENDPOINT",
+    "title": "线性背景端点与三角可逆性",
+    "status": "内部证明模块；未独立验收",
+    "statement": "仅指 Volterra 多项式核、对角元非零及普通/协变标量 jets 三角转换；不包含非线性完整球面 ERN 匹配。",
+    "dependencies": [
+      "SYS"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "start_line": 3,
+        "end_line": 47,
+        "heading": "## 1. 背景和规范变换",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FLIFT",
+    "title": "局部真实分支及联合端点非退化",
+    "status": "内部条件性存在模块；未独立验收/未有效化",
+    "statement": "在精确矩坐标等完整假设下，用有限 jets 的 C1 收敛及线性三角端点可逆性得到每个充分大 m 的局部精确根和可逆 Jacobian。量词非有效；不提供任何固定 m 的认证根。",
+    "dependencies": [
+      "PERIODIC_PROFILE",
+      "FJETS",
+      "FENDPOINT"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 141,
+        "end_line": 149,
+        "heading": "## 6. 精确修复",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FLOCAL",
+    "title": "Bondi 共同低阶寿命",
+    "status": "内部未独立复核",
+    "statement": "有符号半径 Bondi 光滑解、完整正半径方程、固定阶中心响应及参数 C1 控制。",
+    "dependencies": [
+      "SYS"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "locator": "§2–5；四维中心解释另在 FCENTER",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "start_line": 1,
+        "end_line": 498,
+        "heading": "# 同一光滑数据、中心局部化与局部演化",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FSMOOTH",
+    "title": "同一种子逐阶精确修复",
+    "status": "内部证明模块；指定修复序列未计算/独立验收",
+    "statement": "以 FLIFT 非退化基点、完整有限阶球面匹配及 FLOCAL 固定阶响应/共同寿命为输入；执行每步精确根、共同终端空隙、可求和预算，才得到同一光滑种子。",
+    "dependencies": [
+      "FLIFT",
+      "FSPHERE",
+      "FLOCAL"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "locator": "修订版精确来源区间见 source_spans",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "start_line": 384,
+        "end_line": 471,
+        "heading": "## 6. 联合非退化与同一种子：联合 Jacobian 与同一光滑种子",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FCENTER",
+    "title": "实际四维中心、接合与 cap",
+    "status": "内部未独立复核",
+    "statement": "中心奇偶、实际笛卡尔实现、一次 ERN 边值实现、共同条带和顶点填充。",
+    "dependencies": [
+      "FSMOOTH",
+      "FLOCAL",
+      "CHAR",
+      "CAUCHY"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+        "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+      }
+    ],
+    "locator": "§2–5",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+        "start_line": 1,
+        "end_line": 374,
+        "heading": "# OPEN B：支持与正性保持、5、6、7 的实现补强稿",
+        "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FGLOBAL",
+    "title": "全局 Cauchy/外部/视界识别",
+    "status": "内部未独立复核",
+    "statement": "实际保留域、单端 AF Cauchy 面、MGHD 识别、完整 I+ 及视界从中心出发。",
+    "dependencies": [
+      "FCENTER",
+      "MGHD",
+      "CHAR"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+        "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+      }
+    ],
+    "locator": "§2–6",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/04_global_development_and_horizon.md",
+        "start_line": 1,
+        "end_line": 284,
+        "heading": "# OPEN B：依赖域与外部覆盖 的解析补证",
+        "sha256": "af3694d7669e9d4e16c0c6c1c3170d7b942f87fb36f53c63232d01ea2d97d339"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "I001",
+    "title": "导入的光滑极端形成输入",
+    "status": "组合性内部输入",
+    "statement": "固定 eM>1/2 的一份同一光滑、正则中心、单端 AF、真正塌缩形成解；全局标签/晚时精确 ERN 按导入稿。",
+    "dependencies": [
+      "FGLOBAL"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+        "sha256": "22b66c5d3b3edc7b919779fdad29654b28fc8c2194c5a87ef7269c91b7b85d77"
+      }
+    ],
+    "locator": "AUDIT.md 的 I001 及主定理；没有临界族或非零视界尾部",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "start_line": 1,
+        "end_line": 61,
+        "heading": "# 已有形成输入审计",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/01_main_theorem.md",
+        "start_line": 1,
+        "end_line": 230,
+        "heading": "# OPEN B：光滑构造的全局闭合稿",
+        "sha256": "22b66c5d3b3edc7b919779fdad29654b28fc8c2194c5a87ef7269c91b7b85d77"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "I002",
+    "title": "限定视界类的严格半门槛",
+    "status": "内部计算输入",
+    "statement": "限定正则起源、有限时间精确端点等假设下 |e|M>1/2；不是一般渐近极端禁止结果。",
+    "dependencies": [
+      "SYS"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+        "sha256": "782b0d50fe83792844d894889eb21238f2d33c714d80308b674a736013821a13"
+      }
+    ],
+    "locator": "AUDIT.md 的 I002；L001–L023 核心 DAG 无需该输入",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/AUDIT.md",
+        "start_line": 1,
+        "end_line": 61,
+        "heading": "# 已有形成输入审计",
+        "sha256": "efb0e728b326e24d56cba9643cf13e7c1695ac4027b0be3ea7ce99ff37de87de"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/05_strict_half_threshold.md",
+        "start_line": 1,
+        "end_line": 69,
+        "heading": "# G6/G7：实际视界上的严格必要性与定量刚性",
+        "sha256": "782b0d50fe83792844d894889eb21238f2d33c714d80308b674a736013821a13"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "CHAR",
+    "title": "正半径特征适定与约束传播",
+    "status": "外部来源待逐项复核",
+    "statement": "KU 2211.15742 Proposition 2.1/Remark 2.1，球面数据 Proposition 2.3；GL 1709.09137 §10 的局部约束机制。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/literature/2211.15742.txt",
+        "sha256": "f1e666c09a9dce2e96e0c24074434faefc75029a0f770e4871caa2f8e5a9db1a"
+      },
+      {
+        "original_path": "RECCVS/literature/1709.09137.txt",
+        "sha256": "11edeb4533c0540a0c276cc0a9ecd888f186381a2a5ae38d9baa0ce1f3e0aead"
+      }
+    ],
+    "locator": "仅局部工具；GL 弱耦合全局主定理不在此输入内",
+    "source_spans": [],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "MGHD",
+    "title": "球对称全局商空间与 ν 传播",
+    "status": "外部来源待逐项复核",
+    "statement": "Kommemi 1107.0949v2 Proposition 2.1、3.1 及实际域接口，保留约定与连通性假设。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/literature/1107.0949.txt",
+        "sha256": "110c526360744216bbc49732d02bf8b704b955fd0bf3b0354db248572cba8dd9"
+      }
+    ],
+    "locator": "",
+    "source_spans": [],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "KOM_EXT",
+    "title": "正半径延拓原理",
+    "status": "外部来源待逐项复核",
+    "statement": "Kommemi Theorem 1.8/§4：整个去端点因果菱形在实际发展，r 有正下界且体积有限。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/literature/1107.0949.txt",
+        "sha256": "110c526360744216bbc49732d02bf8b704b955fd0bf3b0354db248572cba8dd9"
+      }
+    ],
+    "locator": "r=0 端点与已有 CH 片不能直接验收",
+    "source_spans": [],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "CAUCHY",
+    "title": "有限时间强拓扑 Cauchy 稳定性",
+    "status": "标准工具；明确版本/定理号未固定",
+    "statement": "固定谐和/Lorenz 规范；共同有限光滑参考片及足够高 Sobolev 控制，约束/规范传播与几何唯一性。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+        "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+      }
+    ],
+    "locator": "L001 证明1–3；形成 proof/03 §1；见缺口 G01",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "start_line": 1,
+        "end_line": 41,
+        "heading": "# RECCVS-L001：有限时间陷俘的阈值排除引理",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/03_regular_center_and_gluing.md",
+        "start_line": 1,
+        "end_line": 374,
+        "heading": "# OPEN B：支持与正性保持、5、6、7 的实现补强稿",
+        "sha256": "924b9c302cfa03090aaba623a09395b24641dbc6c34aa8e2136bf3f08261e008"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "PENROSE",
+    "title": "Penrose 零测地不完备定理",
+    "status": "标准工具；明确版本/定理号未固定",
+    "statement": "NEC、整体双曲、非紧 Cauchy 面、闭严格陷俘二曲面。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      }
+    ],
+    "locator": "L001 证明4–5；见 G01",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L001.md",
+        "start_line": 1,
+        "end_line": 41,
+        "heading": "# RECCVS-L001：有限时间陷俘的阈值排除引理",
+        "sha256": "8cbc4006c393c67249036c240bf9e65d4a65d10cd4999de6086aa483ec95bd30"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "KL",
+    "title": "Kauffman–Lindblad 小数据定理",
+    "status": "外部来源待逐项复核",
+    "statement": "2109.03270v2 Theorem 11.1，固定 N≥14、γ∈(1/2,1)，转换后加权数据范数足够小。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/literature/2109.03270.txt",
+        "sha256": "b78cabcce411e7449f72b41777cc44b7b88232067b92803b76f293141b8abd97"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      }
+    ],
+    "locator": "L006 §1–3；公开源状态按附件版本固定",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L006.md",
+        "start_line": 1,
+        "end_line": 76,
+        "heading": "# RECCVS-L006：小振幅约束族的全局解接口与部分完备性",
+        "sha256": "7a4e50898040d782b69725bd3e169b4a8d54df0c1b418f64707ede9f7a1054c1"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "ANLIM",
+    "title": "An–Lim 带电陷俘形成接口",
+    "status": "外部来源及归一化待独立复核",
+    "statement": "2005.04090v1 Theorem 1.3、证明(2.16)及§3；正确物理宽度、初始两锥及实际发展接口。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/literature/2005.04090.txt",
+        "sha256": "40fae5b06bca8fc7cf9ea7d0e7531afb74afe04aad58d43e4420a0c828681663"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "locator": "L023 §1；R05 待办",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 1,
+        "end_line": 175,
+        "heading": "# RECCVS-L023：长周期有限阶形成分支的第一周期陷俘机制",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "SL",
+    "title": "有限区间 Sturm–Liouville 工具",
+    "status": "标准工具；稿内给出所需主要恒等式",
+    "statement": "有界实际 V≥0、H1 稠密性、紧嵌入与首 Rayleigh 值取到。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "locator": "§1–3；不提供实际 V 的误差包络",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 1,
+        "end_line": 107,
+        "heading": "# RECCVS-L018：实际深中心零线的有限区间谱判据",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "BESSEL",
+    "title": "J0 首零点与加权 Poincaré",
+    "status": "标准特殊函数工具",
+    "statement": "J0(jx)>0 对 0≤x<1，J0(j)=0；j=j0,1；稿内给出 ground-state 与边项论证。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      }
+    ],
+    "locator": "§2–3",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L017.md",
+        "start_line": 1,
+        "end_line": 105,
+        "heading": "# RECCVS-L017：正则中心电荷的尖锐径向能量障碍",
+        "sha256": "9c26d2f6730866df0cf6273168091feee5ca269628122b06714860d415592a91"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "E020",
+    "title": "L020 历史有理/整数证书",
+    "status": "附件中已有；本轮未重跑数学认证",
+    "statement": "固定剖面、矩、J 分子、Bernstein/Descartes 覆盖；验收范围为领先辅助剖面。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/experiments/freeze_filtered_profile.py",
+        "sha256": "5f23b74320252819e90061de3263089644a8e195e6578e15374bc4188764c77b"
+      },
+      {
+        "original_path": "RECCVS/experiments/certify_filtered_J.py",
+        "sha256": "4c99ce4cd604e288cea1cb9356241bf35935f271762bce32fca0374a605db799"
+      },
+      {
+        "original_path": "RECCVS/experiments/filtered_K8_n88_sigma1over20.json",
+        "sha256": "9b2e148996231183c209b109d5aa0d19b8e87b2e3675b836659dccb9c20f9ad1"
+      },
+      {
+        "original_path": "RECCVS/experiments/filtered_K8_n88_J_certificate.json",
+        "sha256": "f6bfa5e3a407d673c1cef4b83dddf7155fd617d0fc12c5101bcdc641c5509567"
+      },
+      {
+        "original_path": "RECCVS/experiments/ROUND_07_VERIFICATION.md",
+        "sha256": "d04f151bc96e1af9bf66ad9a474c2a82b9d1cad0361400084ee1409ded98a1aa"
+      }
+    ],
+    "locator": "",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/experiments/ROUND_07_VERIFICATION.md",
+        "start_line": 1,
+        "end_line": 11,
+        "heading": "# 第七轮检查记录",
+        "sha256": "d04f151bc96e1af9bf66ad9a474c2a82b9d1cad0361400084ee1409ded98a1aa"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "E021",
+    "title": "L021 历史可行族证书",
+    "status": "附件中已有；本轮未重跑数学认证",
+    "statement": "精确有理系数/核心 Bernstein 包络；光滑 cutoff、bump 与超越积分矩阵的证明仍在正文。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/experiments/certify_admissible_profile.py",
+        "sha256": "fc828100260e9f7be00320191ac0c7e99cd584f84dce275e9319528a42947a5c"
+      },
+      {
+        "original_path": "RECCVS/experiments/filtered_K8_n88_admissible_certificate.json",
+        "sha256": "c092e57f0b127eb74bcc256f355ba690479e4252c692cefec6d461da57d01302"
+      },
+      {
+        "original_path": "RECCVS/experiments/ROUND_07_VERIFICATION.md",
+        "sha256": "d04f151bc96e1af9bf66ad9a474c2a82b9d1cad0361400084ee1409ded98a1aa"
+      }
+    ],
+    "locator": "",
+    "source_spans": [
+      {
+        "original_path": "RECCVS/experiments/ROUND_07_VERIFICATION.md",
+        "start_line": 1,
+        "end_line": 11,
+        "heading": "# 第七轮检查记录",
+        "sha256": "d04f151bc96e1af9bf66ad9a474c2a82b9d1cad0361400084ee1409ded98a1aa"
+      }
+    ],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "E023",
+    "title": "L023 历史门槛代数检查",
+    "status": "附件中已有；本轮未重跑数学认证",
+    "statement": "仅检查充分条件的代数；JSON 明记 finite_amplitude_root_certified=false。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/experiments/check_first_period_thresholds.py",
+        "sha256": "e176373dac8991ed8627958a492be9e141abef92de70f222f971600d5359974c"
+      },
+      {
+        "original_path": "RECCVS/experiments/first_period_threshold_certificate.json",
+        "sha256": "7a4576d5867563de8d46eb45ea59b0c3e7cbb197022bcbf492de53da9ed0dd79"
+      }
+    ],
+    "locator": "",
+    "source_spans": [],
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "SMOOTH_DOMAIN",
+    "title": "同一实际光滑正半径域",
+    "statement": "r>0、Ω²>0，积分前缀/特征片确实属于同一实际解；不附加 ν 或 λ 的符号。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L003.md",
+        "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L003.md",
+        "start_line": 3,
+        "end_line": 12,
+        "heading": "设 γ 是光滑区域内的仿射径向零测地线，切向量 L，以固定初始单位法向 n归一化 -g(L,n)=1。沿线选平行传播单位角向框架 e_A（A=1,2）。在球对称电场、无质量 EMCSF 中，采用 R_abcd 的标准几何符号约定，有",
+        "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L010.md",
+        "start_line": 7,
+        "end_line": 26,
+        "heading": "记P=D_Uφ、T=D_tφ，选A_t=0，F_Ut=Ω²Q/(2r²)。D001的波方程与交换式逐项给",
+        "sha256": "7bbf9ff79b1919c60ff16cc8ad0c9a08fbc78546ebce2964ecbb2772724a7705"
+      }
+    ],
+    "status": "显式条件；指定实例未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "NU_NEG",
+    "title": "入射膨胀负号",
+    "statement": "未来取向固定且 ν=r_U<0；只在膨胀号数、陷俘判断或需除以 ν 的面积坐标中要求。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L008.md",
+        "start_line": 7,
+        "end_line": 9,
+        "heading": "令 (U,t) 为同一实际双零图，ν=r_U<0、λ=r_t。由入射 Raychaudhuri 和初始 ν<0，ν在最大发展中保持负号；所用公开接口是 Kommemi 1107.0949v2 Proposition3.1，归一化不改变此符号。",
+        "sha256": "d303159b837cf8cf391866bd87ea027fa02640452a2d3236ced6a4c1d47036b1"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "从一个实际光滑正则中心事件发出未来出射径向零测地线 γ。以中心单位类时向量 E₀ 归一化切向 L：−g(L,E₀)=1；随后 L 仿射平行输运，参数记 s，中心 s=0。中心规则性给 r(0)=0、r_s(0)=1。设该实际零线光滑存在于 0≤s≤ℓ，且 r(s)>0 于 0<s≤ℓ，其所有非中心点满足 ν<0。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "status": "显式条件；指定实例未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "AFFINE_NORM",
+    "title": "径向仿射尺度与固定框架",
+    "statement": "径向零线切向仿射平行输运；初点按实际单位类时法向归一化，或明确记录固定的正仿射比例。局部公式不要求可见性/I+。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L003.md",
+        "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L019.md",
+        "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L003.md",
+        "start_line": 3,
+        "end_line": 12,
+        "heading": "设 γ 是光滑区域内的仿射径向零测地线，切向量 L，以固定初始单位法向 n归一化 -g(L,n)=1。沿线选平行传播单位角向框架 e_A（A=1,2）。在球对称电场、无质量 EMCSF 中，采用 R_abcd 的标准几何符号约定，有",
+        "sha256": "153ddb71ad1f28822da3d208162616636cfd82cd8bdfe931916b042c3ef7c8f7"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "从一个实际光滑正则中心事件发出未来出射径向零测地线 γ。以中心单位类时向量 E₀ 归一化切向 L：−g(L,E₀)=1；随后 L 仿射平行输运，参数记 s，中心 s=0。中心规则性给 r(0)=0、r_s(0)=1。设该实际零线光滑存在于 0≤s≤ℓ，且 r(s)>0 于 0<s≤ℓ，其所有非中心点满足 ν<0。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L019.md",
+        "start_line": 33,
+        "end_line": 37,
+        "heading": "沿该射线固定仿射参数 ds/dt=Ω²、s(t₀)=0。L010 的实际波输运精确给",
+        "sha256": "f83c36b92fca038e41c66e0b4c8092429aa6eaf48ba9ae64b1b3134c83c78d3a"
+      }
+    ],
+    "status": "归一化约定；指定线仍需核实",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "CENTER_INTERVAL",
+    "title": "实际中心起算有限区间",
+    "statement": "实际中心归一化 [0,ell]；r(0)=0、r_s(0)=1，r(s)>0 对 s>0，真实 V=|D_Lφ|² 有界且 ≥0，非中心 ν<0。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 7,
+        "end_line": 17,
+        "heading": "从一个实际光滑正则中心事件发出未来出射径向零测地线 γ。以中心单位类时向量 E₀ 归一化切向 L：−g(L,E₀)=1；随后 L 仿射平行输运，参数记 s，中心 s=0。中心规则性给 r(0)=0、r_s(0)=1。设该实际零线光滑存在于 0≤s≤ℓ，且 r(s)>0 于 0<s≤ℓ，其所有非中心点满足 ν<0。",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "status": "显式条件；指定实例未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "POS_INTERVAL",
+    "title": "实际正半径起算有限区间",
+    "statement": "r(0)>0、全段 r>0，记录固定仿射尺度及 w0=r_s(0)/r(0)，真实 V 有界且 ≥0；陷俘解释另用 NU_NEG。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L018.md",
+        "start_line": 95,
+        "end_line": 101,
+        "heading": "设实际段以正半径 r(0)>0 起算。令 w₀=r_s(0)/r(0)。改用",
+        "sha256": "63fdef29eb56240097d02f6f32ff7fb15a56070f1718a98056ce5e19278a2daf"
+      }
+    ],
+    "status": "显式条件；指定实例未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FJETS",
+    "title": "有限非线性 jets 与 C1 端点误差",
+    "statement": "固定 K 的五行输运层级、Minkowski 初始边量级及 C1(c,τ) 误差；以 FRBASE 和 FRPOS 的基底与 q 下界为输入。",
+    "dependencies": [
+      "SYS",
+      "FRBASE",
+      "FRPOS",
+      "FENDPOINT"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/03_nonlinear_lifting.md",
+        "start_line": 61,
+        "end_line": 139,
+        "heading": "## 4. 精确有限 jets 的代数规则",
+        "sha256": "d3814bfc3d283904a2a8e5492212b74e5501c2b79a91632945e66aba9a41dfb2"
+      }
+    ],
+    "status": "内部证明模块；未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "SPHERE_KU",
+    "title": "KU完整球面数据定义与约束接口",
+    "statement": "KU Definition 2.3、Proposition 2.3、Lemma 4.2：球面字段阶数、约束输运及 ERN 规范轨道条件；须核对其版本、规范与相容条件。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "start_line": 49,
+        "end_line": 65,
+        "heading": "## 5. KU D_K 的最高阶核对",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "status": "外部接口；调用位置已核对，原定理适用性待独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FSPHERE",
+    "title": "真实有限阶球面匹配",
+    "statement": "有限 jets、真实端点零点、正半径/横向膨胀及 KU 字段接口共同给完整 D_K 和右端 ERN 轨道；不得用于反向证明线性端点可逆性。",
+    "dependencies": [
+      "FJETS",
+      "FLIFT",
+      "FRPOS",
+      "SPHERE_KU"
+    ],
+    "sources": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/finite_order/02_endpoint_matching.md",
+        "start_line": 49,
+        "end_line": 61,
+        "heading": "## 5. KU D_K 的最高阶核对",
+        "sha256": "7389d9328534307ad955a9a13e3778a50268182e837bc7d6c51dcbf1aa08319d"
+      }
+    ],
+    "status": "内部证明模块；未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "REPAIR_BUDGET",
+    "title": "已兑现的逐步尾预算",
+    "statement": "同一序列从 n=N0 起每步确有 ||Φ_(n+1)-Φ_n||_(C^(n-1))+|β_(n+1)-β_n|<δ*2^-n；求 Ck 尾须 N≥max(N0,k+1)。预算存在陈述与计算兑现分开。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 7,
+        "end_line": 21,
+        "heading": "形成稿的逐阶修复要求",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      },
+      {
+        "original_path": "RECCVS/inputs/formation/RN-Black-Hole-Lab/proof/02_smooth_data_and_local_evolution.md",
+        "start_line": 430,
+        "end_line": 461,
+        "heading": "### 6.3 固定终端空隙与预算",
+        "sha256": "9379601e24a24712f2bf2fa09c4ec26c929890e3c4f648adef90e9fcd7e532f3"
+      }
+    ],
+    "status": "显式条件；指定实例未独立验收",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "REPAIR_TO_STRONG",
+    "title": "修复种子到共同实际强拓扑的桥",
+    "statement": "固定共同特征/Cauchy实现、同一有限实际参考片、足够高固定 Ck/Sobolev 阶数及误差传递界；种子尾小必须实际推出稳定定理所需输入误差<ε_trap。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 165,
+        "end_line": 173,
+        "heading": "固定一个满足23.6的有限阶成员，其严格陷俘球位于一个有限实际光滑紧域。通常的强拓扑有限时间稳定性给εtrap>0，使该域内的严格陷俘在输入误差小于εtrap时保持。选择共同特征/Cauchy实现后，若源稿的逐阶光滑修复按",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L022.md",
+        "start_line": 98,
+        "end_line": 109,
+        "heading": "设固定种子球的所有实际解共同光滑存在于一个紧深中心域，选同一中心事件标记及−g(L,E₀)=1的出射仿射归一化，沿各自实际零线使用同一s区间[0,ℓ]。必须先认证r>0于s>0、ν<0，以及中心事件和光线确实属于该共同域。",
+        "sha256": "2bed2552ad3f681f488b3e04dbae201f54ca2a661c0975a4d5b266ae0962ea93"
+      }
+    ],
+    "status": "未验证的应用门；旧G07保留",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  },
+  {
+    "id": "FINITE_CONE23",
+    "title": "L023有限锥约束输入（不含端点求根）",
+    "statement": "固定光滑周期族 C≥0、E均值正；L=mT、δ=τ/L>0，q_x=-q+q²+δE、R_x=-qR、零初值 q(0)=0/R(0)=1；同一仿射形成锥约束、正半径、左端完整平直球面、m1=Q1=φ1=0、H(t1)=t1/q1；实际使用前需验证 H>0/ν<0。此条件不声称端点根存在。",
+    "dependencies": [],
+    "sources": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "source_spans": [
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 40,
+        "end_line": 56,
+        "heading": "固定K、T>0及可行周期族z_c，C_c≥0，总电流C_b(c)>0，参数紧集上的sup E_c有限。有限脉冲的精确量为",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      },
+      {
+        "original_path": "RECCVS/proofs/RECCVS_L023.md",
+        "start_line": 63,
+        "end_line": 95,
+        "heading": " t_1\\le t\\le t_2:=e^{-(L-T)},\\quad",
+        "sha256": "16172285970abc3249409f96c1ffba82f4d366071303840e4850805a82e01e03"
+      }
+    ],
+    "status": "显式几何输入；根存在与整入射锥另列",
+    "locator": "修订版精确来源区间见 source_spans",
+    "verification_scope": "约定或条件/内部模块/外部调用来源登记；无自动的指定实例假设兑现"
+  }
+]

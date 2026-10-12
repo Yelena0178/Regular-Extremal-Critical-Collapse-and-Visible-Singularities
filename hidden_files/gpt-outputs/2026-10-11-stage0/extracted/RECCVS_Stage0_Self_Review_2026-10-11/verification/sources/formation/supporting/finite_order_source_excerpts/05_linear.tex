@@ -1,0 +1,101 @@
+\section{横向端点算子的全阶非退化性}\label{sec:linear}
+\subsection{精确电真空背景}
+令 $w=1+Ut/4$，考虑
+\begin{equation}\label{eq:throat}
+r_*=Q_*=1,\qquad\Omega_*^2=w^{-2},\qquad
+\ell_*=-2\log w,\qquad A_*=-\frac{t}{2w}.
+\end{equation}
+这是半径恒为一的电真空 throat 背景：半径方程右侧为零，$\partial_tA_*=-w^{-2}/2$，$\partial_U\partial_t\ell_*=-w^{-2}/2$。特别地 lapse 的电真空源不是零。
+
+在该背景上考虑耦合为 $e>0$ 的线性标量方程。置 $\nu=ie$、$\phi_*=w^{2\nu}\chi$，使用 $2\nu w_U/w+ieA_*=0$ 得
+\[
+D_U(w^{2\nu}\chi)=w^{2\nu}\chi_U,
+\qquad D_U^j(w^{2\nu}\chi)=w^{2\nu}\partial_U^j\chi.
+\]
+代入\eqref{eq:wave}得到
+\begin{equation}\label{eq:chi}
+w^2\chi_{Ut}+\frac\nu2 Uw\chi_U+\frac\nu4\chi=0.
+\end{equation}
+设 $\psi_j(t)=\partial_U^j\chi(0,t)$，输入 $\psi_0(t)=z(-\log t)$。正阶解取从 $t=0$ 积分的 Volterra 解，即 $\psi_j(0)=0$（$j\ge1$）。对任意有界输入这一定义都成立；不要求 $\psi_0$ 在 $t=0$ 连续。对\eqref{eq:chi}作 $n$ 次 $U$ 导数得到
+\begin{equation}\label{eq:psi-rec}
+\begin{aligned}
+\psi_{n+1}'&+\frac{nt}{2}\psi_n'
++\frac{n(n-1)t^2}{16}\psi_{n-1}'\\
+&+\frac{\nu(2n+1)}4\psi_n
++\frac{\nu n(n-1)t}{8}\psi_{n-1}=0.
+\end{aligned}
+\end{equation}
+对 $n=0$，含 $\psi_{-1}$ 的项省略。逐阶积分给 $\psi_j=O(t^j)$，以及固定有限阶的 $e$ 参数导数估计。
+
+\subsection{Volterra 核与下三角性}
+\begin{lemma}[多项式核]\label{lem:kernel}
+对每个 $j\ge1$，存在关于 $(t,s)$ 的齐次 $j-1$ 次多项式 $K_j(t,s;e)$，使
+\begin{equation}\label{eq:kernel}
+\psi_j(t)=\int_0^tK_j(t,s;e)\psi_0(s)\dd s.
+\end{equation}
+因此存在一个复下三角矩阵 $T^{(K)}_e$，使
+\begin{equation}\label{eq:triangular}
+\bigl(D_U\phi_*,\ldots,D_U^K\phi_*\bigr)(0,1)
+=T^{(K)}_e\bigl(M_1(z),\ldots,M_K(z)\bigr).
+\end{equation}
+\end{lemma}
+\begin{proof}
+首项为 $K_1=-\nu/4$。将\eqref{eq:psi-rec}积分，并对含 $t\psi_n'$ 与 $t^2\psi_{n-1}'$ 的项分部积分，得到
+\begin{equation}\label{eq:kernelrec}
+\begin{aligned}
+K_{n+1}(t,s)={}&-\frac{nt}{2}K_n(t,s)
+-\frac{n(n-1)t^2}{16}K_{n-1}(t,s)\\
+&+\left(\frac n2-\frac{\nu(2n+1)}4\right)\int_s^tK_n(v,s)\dd v\\
+&+\frac{n(n-1)(1-\nu)}8\int_s^t vK_{n-1}(v,s)\dd v.
+\end{aligned}
+\end{equation}
+$n=1$ 时省略含 $K_0$ 的项。归纳知右侧齐次次数为 $n$。在 $t=1$，核是 $s$ 的次数至多 $j-1$ 的多项式，而换元 $s=e^{-x}$ 给
+\[
+\int_0^1s^{a-1}\psi_0(s)\dd s=M_a(z).
+\]
+这证明对任意有界输入的下三角表示，不是仅对单项式的形式验证。
+\end{proof}
+
+\begin{proposition}[任意阶对角元]\label{prop:diagonal}
+矩阵 $T_e^{(K)}$ 的第 $j$ 个对角元为
+\begin{equation}\label{eq:diagonal}
+\boxed{d_j(e)=-\frac{ie}{4^j(j-1)!}
+\prod_{a=1}^{j-1}\bigl[(2a+1)ie-a(a+1)\bigr].}
+\end{equation}
+对每个 $e>0$，$T_e^{(K)}$ 可逆。
+\end{proposition}
+\begin{proof}
+对输入 $\psi_0=t^p$（$p>0$），令 $\chi=t^p f(\xi)$、$\xi=Ut/4$，并令 $u=\xi/(1+\xi)$。方程化为
+\[
+u(1-u)f_{uu}+[p+1+(2\nu-2)u]f_u+\nu f=0.
+\]
+写 $f=\sum_{a\ge0}c_au^a$、$c_0=1$，则
+\begin{equation}\label{eq:frob}
+c_{a+1}=\frac{a(a+1)-(2a+1)\nu}{(a+1)(p+a+1)}c_a.
+\end{equation}
+由多项式核，$\psi_j(1)$ 是 $\sum_{s=1}^jT_{js}/(p+s)$。其 $p=-j$ 处的留数就是 $T_{jj}$。从有限 Taylor 展开 $u^a=(\xi/(1+\xi))^a$ 提取 $\xi^j$ 时，仅 $a=j$ 的 $c_j$ 在 $p=-j$ 有极点。于是
+\[
+T_{jj}=\frac{j!}{4^j}\mathop{\rm Res}_{p=-j}c_j
+=-\frac\nu{4^j(j-1)!}
+\prod_{a=1}^{j-1}[(2a+1)\nu-a(a+1)].
+\]
+这里用到 $\prod_{s=1}^{j-1}(s-j)=(-1)^{j-1}(j-1)!$，抵消了分子中 $j-1$ 个符号。取 $\nu=ie$ 得\eqref{eq:diagonal}。$e>0$ 时每个因子均非零。
+\end{proof}
+
+\subsection{普通导数、协变导数与完整球面数据}\label{sec:data}
+任意 $j$ 阶 $D_U^j\phi$ 等于 $\partial_U^j\phi$ 加上只含低于 $j$ 阶标量导数及至多 $j-1$ 阶势导数的有限三角组合。所以在 $\phi=0$ 的球面，逐阶令协变导数为零等价于逐阶令普通导数为零。
+
+为从标量匹配进入时空拼接，需要的是\cite[Definition 2.3]{KU}的完整球面数据。各字段的最高纯方向阶数如下。
+\begin{center}\small
+\begin{tabular}{p{0.12\textwidth}p{0.26\textwidth}p{0.48\textwidth}}
+\toprule 字段 & 所需纯导数 & 如何补齐最高阶\\\midrule
+$r$ & $U,t$ 至 $K+1$ & 两个 Raychaudhuri 约束求 $K-1$ 次导数，仅用标量至 $K$ 阶\\
+$\Omega^2$ & $U,t$ 至 $K$ & lapse 输运及锥规范\\
+$\phi$ & $U,t$ 至 $K$ & 横向输运；切向端点平坦性\\
+$Q$ & $U,t$ 至 $K$ & Maxwell 方程求 $K-1$ 次导数\\
+$A_U$ & $U$ 至 $K$，$t$ 至 $K+1$ & 势方程以及电磁规范初值\\\bottomrule
+\end{tabular}
+\end{center}
+第\ref{sec:lift}节先求得 $r,Q,\ell,\phi$ 至 $K$ 阶和 $A_U$ 至 $K-1$ 阶；势输运再给 $\partial_U^KA_U$。最高 $\partial_U^{K+1}r$ 由横向 Raychaudhuri 求得，因此不额外调用第 $K+1$ 个标量导数或矩。混合导数用场方程递推。
+
+初球给真正 Minkowski 的全部相容数据。\cite[Proposition 2.3]{KU}的约束输运使生成数据保持相容。在终端，$r=Q=1$、$r_t=0$、$r_U<0$、两纯方向标量导数至 $K$ 阶为零，正是\cite[Lemma 4.2]{KU}的 ERN 球面识别条件。这里使用规范轨道等价，不把电真空混合导数误设为零。

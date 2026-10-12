@@ -1,0 +1,7 @@
+PASS: exact frozen profile regeneration
+PASS: global J certificate
+PASS: admissible leading-family certificate
+PASS: checks remain effective under Python -O
+PASS: sufficient first-period thresholds
+PASS: n=44 and tampered-input rejection
+PASS: bounded-scope replay completed; report in checks/generated/report.json
