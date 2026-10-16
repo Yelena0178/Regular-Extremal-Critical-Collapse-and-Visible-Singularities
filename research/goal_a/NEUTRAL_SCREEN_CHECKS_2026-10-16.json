@@ -1,0 +1,43 @@
+{
+  "consistency": "pass",
+  "evidence": "E0_saved_artifact_consistency_only",
+  "goal_A_proved": false,
+  "rigorous_PDE_error": false,
+  "actual_strict_trapping_certified": false,
+  "observed_fixed_point_expansions": [
+    {
+      "epsilon": 0.05,
+      "theta_out": [
+        -0.8727722343282989,
+        -0.8727892769964217,
+        -0.8727931553456062
+      ],
+      "theta_in": [
+        -5.5924922397859,
+        -5.5924023488551855,
+        -5.5923754345678836
+      ]
+    },
+    {
+      "epsilon": 0.0,
+      "theta_out": [
+        -0.6572604986502407,
+        -0.6572836587187869,
+        -0.6572893670048434
+      ],
+      "theta_in": [
+        -5.130762466018964,
+        -5.13072981021339,
+        -5.130720505131272
+      ]
+    }
+  ],
+  "source_sha256": {
+    "NEUTRAL_CHARACTERISTIC_RESULTS_2026-10-16.json": "f34f68de984c671bd341f85359089e31d48348239a132e7499fe72591952bcfb",
+    "NEUTRAL_ONSET_SCAN_2026-10-16.json": "b84ddeebbae758e2af6d4117dccd875e57db65a802a6a6010c63f23b926fb0fa",
+    "NEUTRAL_SHAPE_SCAN_2026-10-16.json": "7eeeaf0873b2858d88ddd78028390cdf221adbd0a5903988e153a2bb22822679",
+    "check_neutral_screen.py": "b3548021ed9ea34f14926db8f8f79b72de9cb8b68a428d1341eaecb25c16401d",
+    "NEUTRAL_CAUSAL_SCREEN.md": "898876dbf00c5ec34c27819747d04fa278fc483454babe03e4d7e7914a8c197e",
+    "NEUTRAL_CHARACTERISTIC_METHOD.md": "d1c3764c5240ae48f816a5f1fce8788df47c37050652d2c44717324af471d5cc"
+  }
+}

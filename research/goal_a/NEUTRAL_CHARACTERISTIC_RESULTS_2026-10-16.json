@@ -1,0 +1,263 @@
+{
+  "evidence": "E0_manufactured_characteristic_benchmarks",
+  "runs": [
+    {
+      "configuration": {
+        "steps": 96,
+        "outer_v": 4.8,
+        "final_u": 2.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": false,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_configuration": {
+        "steps": 96,
+        "outer_v": 4.8,
+        "final_u": 4.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": true,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_errors": {
+        "r": 0.0,
+        "S": 0.0,
+        "phi": 0.0048833495758621726,
+        "psi": 1.9984014443252818e-15,
+        "axis_phi": 0.0048833495758621726
+      },
+      "FLRW_errors": {
+        "r": 1.1418761181325454e-05,
+        "S": 0.0002549694092408572,
+        "phi": 3.558675238957143e-05,
+        "psi": 3.6274748932974e-05,
+        "axis_phi": 1.7193265426929116e-06
+      },
+      "flat_report": {
+        "completed_u": 4.3999999999999995,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 1.3322676295501878e-15,
+        "axis_band_cells": 10,
+        "axis_band_coordinate_width": 0.24999999999999997,
+        "axis_closure_cell_iterations": 0,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_report": {
+        "completed_u": 2.4,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 2.9900526499204716e-12,
+        "axis_band_cells": 10,
+        "axis_band_coordinate_width": 0.24999999999999997,
+        "axis_closure_cell_iterations": 2320,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_trapped_sample": {
+        "r": 0.46351934569386144,
+        "nu": -0.39608618849757865,
+        "lambda": -0.025377420114463537,
+        "Omega2": 0.137482711121479,
+        "Hawking_mass": 0.2995373905965438,
+        "theta_out": -0.5906300674422916,
+        "theta_in": -9.218447390243336
+      },
+      "heldout_constraints": {
+        "u_constraint": 5.533627713361078e-05,
+        "v_constraint": 5.978710250176267e-05,
+        "stencil_points": 2745
+      },
+      "central_mu_at_t2": 0.062438513068559555,
+      "central_mu_exact": 0.0625
+    },
+    {
+      "configuration": {
+        "steps": 192,
+        "outer_v": 4.8,
+        "final_u": 2.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": false,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_configuration": {
+        "steps": 192,
+        "outer_v": 4.8,
+        "final_u": 4.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": true,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_errors": {
+        "r": 0.0,
+        "S": 0.0,
+        "phi": 0.0003508109866227904,
+        "psi": 7.66053886991358e-15,
+        "axis_phi": 0.0003508109866227904
+      },
+      "FLRW_errors": {
+        "r": 2.9548250080058125e-06,
+        "S": 6.435149415606745e-05,
+        "phi": 8.727092078331111e-06,
+        "psi": 9.203932615498012e-06,
+        "axis_phi": 4.830872263328345e-07
+      },
+      "flat_report": {
+        "completed_u": 4.3999999999999995,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 2.220446049250313e-15,
+        "axis_band_cells": 14,
+        "axis_band_coordinate_width": 0.175,
+        "axis_closure_cell_iterations": 0,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_report": {
+        "completed_u": 2.4,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 2.9986013672100853e-12,
+        "axis_band_cells": 14,
+        "axis_band_coordinate_width": 0.175,
+        "axis_closure_cell_iterations": 5683,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_trapped_sample": {
+        "r": 0.4635142018716223,
+        "nu": -0.3960907271769532,
+        "lambda": -0.025306194551009135,
+        "Omega2": 0.1374956267587929,
+        "Hawking_mass": 0.2993382658791387,
+        "theta_out": -0.5889512475296201,
+        "theta_in": -9.218222338232938
+      },
+      "heldout_constraints": {
+        "u_constraint": 1.8823515432198068e-05,
+        "v_constraint": 1.9602503442239794e-05,
+        "stencil_points": 11439
+      },
+      "central_mu_at_t2": 0.06245775623815615,
+      "central_mu_exact": 0.0625
+    },
+    {
+      "configuration": {
+        "steps": 384,
+        "outer_v": 4.8,
+        "final_u": 2.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": false,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_configuration": {
+        "steps": 384,
+        "outer_v": 4.8,
+        "final_u": 4.4,
+        "centre_cells": null,
+        "iterations": 8,
+        "iteration_tolerance": 3e-12,
+        "iteration_failure_tolerance": 1e-08,
+        "max_abs_log_omega2": 30.0,
+        "freeze_geometry": true,
+        "arithmetic_omega2_average": true,
+        "exact_flat_cap_v": null
+      },
+      "flat_errors": {
+        "r": 0.0,
+        "S": 0.0,
+        "phi": 2.2927573933573253e-05,
+        "psi": 1.1018963519404679e-14,
+        "axis_phi": 2.2927573933573253e-05
+      },
+      "FLRW_errors": {
+        "r": 7.567403177977106e-07,
+        "S": 1.618358200428105e-05,
+        "phi": 2.146425794657958e-06,
+        "psi": 2.3235266825016865e-06,
+        "axis_phi": 1.3079804139781714e-07
+      },
+      "flat_report": {
+        "completed_u": 4.3999999999999995,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 3.552713678800501e-15,
+        "axis_band_cells": 20,
+        "axis_band_coordinate_width": 0.12499999999999999,
+        "axis_closure_cell_iterations": 0,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_report": {
+        "completed_u": 2.4,
+        "stop_reason": null,
+        "maximum_last_iteration_change": 2.998767900663779e-12,
+        "axis_band_cells": 20,
+        "axis_band_coordinate_width": 0.12499999999999999,
+        "axis_closure_cell_iterations": 14474,
+        "exact_flat_cap_v": null,
+        "evidence": "E0_neutral_axis_diamond_evolution",
+        "strict_trapping_certified": false
+      },
+      "FLRW_trapped_sample": {
+        "r": 0.46351286561526495,
+        "nu": -0.39609197182505446,
+        "lambda": -0.025288415719995076,
+        "Omega2": 0.13749889832865472,
+        "Hawking_mass": 0.29928852936238876,
+        "theta_out": -0.5885321756329192,
+        "theta_in": -9.21816821227809
+      },
+      "heldout_constraints": {
+        "u_constraint": 5.565502264825994e-06,
+        "v_constraint": 5.640053267585987e-06,
+        "stencil_points": 46683
+      },
+      "central_mu_at_t2": 0.062471247063897783,
+      "central_mu_exact": 0.0625
+    }
+  ],
+  "rejected_axis_variant": [
+    {
+      "steps": 96,
+      "central_mu": 0.065050595087927,
+      "exact": 0.0625
+    },
+    {
+      "steps": 192,
+      "central_mu": 0.06509443679850482,
+      "exact": 0.0625
+    }
+  ],
+  "goal_A_proved": false,
+  "rigorous_PDE_error": false,
+  "source_sha256": {
+    "neutral_characteristic.py": "500d0fed82528388415cecac23f8ec9699c3d00537aa3710b79f6fa3cbaf7780",
+    "verify_neutral_characteristic.py": "f18948625a541de055dd165a76f158092da5d452fef4c8c072a9658bd415d78d"
+  }
+}
