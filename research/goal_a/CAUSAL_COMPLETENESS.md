@@ -143,6 +143,8 @@ r(a)\le r(a_0)+\dot r(a_0)(a-a_0)
 
 新增闭合的是小数据接口中的全部因果完备和未来最大性。尚需：规则完整 \(\mathcal I^+\) 的构造、每点逃逸到同一 \(\mathcal I^+\)、Bondi 极限、工作标签下的完整局部衰减接口。目标 A 的极端端点、邻侧连接和真正形成更未取得。
 
+后续补充：[A-NULL01](SMALL_DATA_NULL_INFINITY.md) 与 [A-SD01](SMALL_DATA_DISPERSION.md) 已为同一小数据接口写出上述零无穷远、Bondi 及局部衰减的内部证明；仍待独立数学复核，不延伸到未知临界族。
+
     python research/goal_a/verify_causal_algebra.py
 
 该标准库脚本验证 (G3) 的轨道/角向组合、RN 有效势独立核对及错误质量替换的拒绝；不把有限代数复算当作上述分析证明或外部审查。
