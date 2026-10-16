@@ -25,6 +25,7 @@
 | [A-JET01](FIRST_TRANSVERSE_JET.md) | 后置固定相位弱脉冲不添纵向电荷，带电交换子给可逆的横向复方向；C1 参数平滑化与隐函数定理给充分小辅助参数下的精确三实根及 H>β/8192 | 显式 β0/η0 与指定根盒、高阶横向 jets、完整 RN、全中心发展及真正临界族 |
 | [A-EVOL03](NEUTRAL_CHARACTERISTIC_METHOD.md) | 同模型中性双零方程；解析平直波穿轴与全耦合收缩 FLRW 比较；独立约束、中心质量系数及失败轴线版本对照 | 非线性稳定性、连续 PDE 误差及实际候选未来；FLRW 不渐近平坦 |
 | [A-SCREEN01](NEUTRAL_CAUSAL_SCREEN.md) | 精确真空帽将早期筛选化为正半径特征矩形；冻结 β=0.003 C0 输入及已分辨平滑开启实验的三档同点双负膨胀；另一固定 e 的 R=10 形状在有限预穿轴窗口未见同类信号 | 原 η 平滑层、严格陷俘、原光滑族排除、新形状光滑电荷根及横向匹配、全局无陷俘和临界性 |
+| [A-GOUR01](RATIONAL_GOURSAT_CERTIFICATION.md) | 不在出射零膨胀处退化的六变量有理输运；精确约束缺陷传播；逐单元 Banach误差管道命题；独立强场数值、全域管道的 E0成本预测和一个带入流前提的精确有理单元核 | 整条初始边的实际误差、全单元网格的严格包络和拼接；单元核的入流误差仍是假设，不认证实际陷俘 |
 
 不将本轮命题编号混入原 L001–L023；新的命题和方法仅在本目录编号。
 
@@ -133,6 +134,14 @@ A-JET01 将早期充电段放在 [0,β]，后段加入 βWg 的固定相位光�
     python research/goal_a/check_neutral_screen.py
 
 原 R=5 形状在固定点的 θout 随 N=192/384/768 约为 −0.872772/−0.872789/−0.872793，θin约−5.5924。中心仍精确真空，轴线近似次数为零。结果仅 E0，局部残差下降不能代替全域误差，也未将原极薄 η 层数值分辨。优先把该正半径矩形做成连续解认证，再决定是否值得继续此形状的高阶 jets。R=10、Φ=0.7、ρ=1/8 的另一固定耦合形状只通过了有限预穿轴窗口的数值筛选，尚无光滑约束根或 RN匹配证书。[一致性报告](NEUTRAL_SCREEN_CHECKS_2026-10-16.json) 保留未认证标签及源文件哈希。
+
+后续 [A-GOUR01](RATIONAL_GOURSAT_CERTIFICATION.md) 已把连续误差接口写成逐单元可核验的不等式，并证明满足这些不等式会给有限矩形内的实际解。独立有理输运的384²样本复现原菱形演化的同点信号。192²/384²的普通浮点管道预测在**假定**边界误差下可覆盖全域；48²/96²失败也保留。一个强场单元已用精确 Hermite/Bernstein与有理区间核验，但入流误差尚未证明，故不能升级为实际陷俘。下一步兑现边界误差，再向整个网格传播严格包络。
+
+    python research/goal_a/verify_neutral_transport.py
+    python -O research/goal_a/verify_neutral_transport.py
+    python research/goal_a/explore_transport_tube.py
+    python research/goal_a/verify_rational_transport_cell.py
+    python -O research/goal_a/verify_rational_transport_cell.py
 
 1. **初值层**：全体 \|a\|≤2 的明确初值族已有连续半径正屏障；\|a\|>2 的扫描成员仍需认证，浮点近似误差也须与解析初值存在分开。支持/单位固定；Δ 失正仅拒绝这份坐标数据。
 2. **演化层**：径向 shift 的弱场规范比较和带电双负膨胀探索已取得；下一步是实际有限因果域的连续 PDE 误差及坐标/约束控制。A-EVOL02 §6 已写出把 r,m,W 包络升级为实际陷俘的明确充分条件，当前尚无这些输入。
