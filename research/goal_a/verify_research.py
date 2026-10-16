@@ -15,6 +15,21 @@ def require(condition, message):
 
 
 def run():
+    # Analytic input bounds are proved in EXACT_INITIAL_BUDGET.md. Only their
+    # rational combination, not the exponential-function proof, is checked here.
+    amplitude_limit = F(1, 8)
+    c1, cq, c2 = F(281, 20), F(3), F(1263, 14)
+    mass_bound = c1*amplitude_limit**2+c2*amplitude_limit**4
+    delta_bound = 1-2*mass_bound
+    require(mass_bound == F(69259, 286720), "rational initial mass budget")
+    require(delta_bound == F(74101, 143360) and delta_bound > F(1, 2),
+            "strict continuous-radius bootstrap margin")
+    charge_lower = F(3, 5)*F(1, 5)*amplitude_limit**2*F(10, 27)
+    require(charge_lower == F(1, 1440), "explicit nonzero charge budget")
+    kappa, source_max = F(3, 5), F(801, 400)
+    finite_amplitude_delta = (1-kappa*kappa)/(1+2*4*source_max)
+    require(finite_amplitude_delta == F(32, 851) and finite_amplitude_delta > 0,
+            "finite-amplitude Delta barrier budget")
     p = Parameters()
     grids = (256, 512, 1024, 2048)
     runs = [integrate(p, n) for n in grids]
@@ -95,6 +110,23 @@ def run():
         "evidence_scope": "initial_constraint_grid_experiment_and_exact_abstract_examples",
         "goal_A_proved": False, "spacetime_evolution_performed": False,
         "rigorous_float_error_bound": False,
+        "analytic_initial_parameter_rectangle": {
+            "amplitude_absolute_maximum": str(amplitude_limit),
+            "frequency_absolute_maximum": "1/4",
+            "mass_upper_bound": str(mass_bound),
+            "all_radius_delta_lower_bound": str(delta_bound),
+            "explicit_member_charge_strict_lower_bound": str(charge_lower),
+            "proof": "EXACT_INITIAL_BUDGET.md",
+            "scope": "continuous_initial_ODE_only_not_spacetime",
+        },
+        "analytic_finite_amplitude_rectangle": {
+            "amplitude_absolute_maximum": "2",
+            "frequency_absolute_maximum": "1/4",
+            "charge_to_radius_upper_bound": str(kappa),
+            "all_radius_delta_lower_bound": str(finite_amplitude_delta),
+            "proof": "EXACT_INITIAL_BUDGET.md section 4",
+            "scope": "continuous_initial_ODE_only_not_spacetime",
+        },
         "parameters": asdict(p), "grids": grids,
         "successive_grid_differences": comparisons, "observed_orders": orders,
         "original_constraint_residuals": residual_series,
@@ -118,7 +150,7 @@ def run():
         name: hashlib.sha256((base/name).read_bytes()).hexdigest()
         for name in ("incoming_family.py", "verify_research.py",
                      "ACCEPTANCE.md", "INCOMING_CONSTRAINT_FAMILY.md",
-                     "BONDI_TAIL_OBSTRUCTION.md")
+                     "BONDI_TAIL_OBSTRUCTION.md", "EXACT_INITIAL_BUDGET.md")
     }
     output = base/"RESULTS_2026-10-16.json"
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n",

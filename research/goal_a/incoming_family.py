@@ -173,6 +173,13 @@ def summary(rows, p):
         "minimum_sampled_delta": min(1-2*m/r for r, m, _ in rows),
         "analytic_exterior_minimum_evaluated_in_float":
             exterior_minimum(mass, q, radius),
-        "certified_all_radius_positivity": False,
+        "exact_family_all_radius_positivity": {
+            "analytic_proof_applies":
+                p.inner == 1 and p.outer == 21 and p.coupling == 0.6
+                and abs(p.amplitude) <= 2 and abs(p.frequency) <= 0.25,
+            "lower_bound_if_applicable": "32/851",
+            "proof": "EXACT_INITIAL_BUDGET.md section 4",
+        },
+        "floating_ODE_approximation_error_certified": False,
         "outcome": "UNKNOWN_no_spacetime_evolution",
     }
