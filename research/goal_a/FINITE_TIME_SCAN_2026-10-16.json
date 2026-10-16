@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-16",
+  "evidence": "E0_single_grid_finite_time_exploration",
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "goal_A_proved": false,
+  "dispersion_formation_bracket_certified": false,
+  "experiments": [
+    {
+      "time": 24.0,
+      "iterations": 1918,
+      "minimum_sampled_delta": 0.9883112261719682,
+      "maximum_observed_coordinate_speed": 0.998912281428538,
+      "initial_ADM_mass_estimate": 0.0348224361049018,
+      "mass_boundary_drift": -4.156204759381277e-07,
+      "charge_boundary_drift": -1.5240957820794598e-07,
+      "outer_buffer_scalar_max": 5.559824123662461e-178,
+      "estimated_travel_distance": 23.973894754284913,
+      "initial_boundary_gap": 43.0,
+      "finite_boundary_independence_proved": false,
+      "classification": "UNKNOWN_finite_time_only",
+      "configuration": {
+        "steps": 1024,
+        "outer_radius": 64.0,
+        "final_time": 24.0,
+        "cfl": 0.2,
+        "amplitude": 0.25,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "central_scalar_absolute_value": 0.0002591050122306727,
+      "finite_radius_observation": 8.0,
+      "Hawking_mass_inside_finite_radius": 0.002421638095667098,
+      "charge_inside_finite_radius": 0.00040707878669523723,
+      "independent_propagation_residuals": {
+        "mass_propagation_max": 1.154516663764895e-06,
+        "charge_propagation_max": 1.0198738006478303e-06,
+        "potential_gradient_max_interior": 1.1366631933075596e-08
+      },
+      "final_Bondi_mass": "UNKNOWN",
+      "final_Bondi_charge": "UNKNOWN"
+    },
+    {
+      "time": 24.0,
+      "iterations": 1912,
+      "minimum_sampled_delta": 0.9535398375398314,
+      "maximum_observed_coordinate_speed": 0.9956604252093851,
+      "initial_ADM_mass_estimate": 0.1391037801576434,
+      "mass_boundary_drift": -1.050539947311524e-06,
+      "charge_boundary_drift": -3.5637653739151176e-07,
+      "outer_buffer_scalar_max": 3.3419193001504563e-180,
+      "estimated_travel_distance": 23.895850205025244,
+      "initial_boundary_gap": 43.0,
+      "finite_boundary_independence_proved": false,
+      "classification": "UNKNOWN_finite_time_only",
+      "configuration": {
+        "steps": 1024,
+        "outer_radius": 64.0,
+        "final_time": 24.0,
+        "cfl": 0.2,
+        "amplitude": 0.5,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "central_scalar_absolute_value": 0.0023843645884223615,
+      "finite_radius_observation": 8.0,
+      "Hawking_mass_inside_finite_radius": 0.01725046693877494,
+      "charge_inside_finite_radius": 0.003847391214540547,
+      "independent_propagation_residuals": {
+        "mass_propagation_max": 4.319511892548339e-06,
+        "charge_propagation_max": 3.984366436504683e-06,
+        "potential_gradient_max_interior": 4.8638466244714e-08
+      },
+      "final_Bondi_mass": "UNKNOWN",
+      "final_Bondi_charge": "UNKNOWN"
+    },
+    {
+      "time": 24.0,
+      "iterations": 1887,
+      "minimum_sampled_delta": 0.8204127556815863,
+      "maximum_observed_coordinate_speed": 0.98280927641174,
+      "initial_ADM_mass_estimate": 0.5538682969695832,
+      "mass_boundary_drift": 1.5438758807717612e-05,
+      "charge_boundary_drift": 9.191238964589843e-06,
+      "outer_buffer_scalar_max": 4.7963896843091e-190,
+      "estimated_travel_distance": 23.587422633881758,
+      "initial_boundary_gap": 43.0,
+      "finite_boundary_independence_proved": false,
+      "classification": "UNKNOWN_finite_time_only",
+      "configuration": {
+        "steps": 1024,
+        "outer_radius": 64.0,
+        "final_time": 24.0,
+        "cfl": 0.2,
+        "amplitude": 1.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "central_scalar_absolute_value": 0.037517763341003346,
+      "finite_radius_observation": 8.0,
+      "Hawking_mass_inside_finite_radius": 0.18861373842384363,
+      "charge_inside_finite_radius": 0.127455797788533,
+      "independent_propagation_residuals": {
+        "mass_propagation_max": 1.770637526392338e-05,
+        "charge_propagation_max": 1.4594152574085029e-05,
+        "potential_gradient_max_interior": 2.671742744866901e-07
+      },
+      "final_Bondi_mass": "UNKNOWN",
+      "final_Bondi_charge": "UNKNOWN"
+    },
+    {
+      "time": 24.0,
+      "iterations": 1792,
+      "minimum_sampled_delta": 0.47241333337429225,
+      "maximum_observed_coordinate_speed": 0.9331459310046811,
+      "initial_ADM_mass_estimate": 2.1995099325947467,
+      "mass_boundary_drift": 0.0006831661675668066,
+      "charge_boundary_drift": 0.0010263236369647544,
+      "outer_buffer_scalar_max": 1.4216716376777697e-231,
+      "estimated_travel_distance": 22.395502344112348,
+      "initial_boundary_gap": 43.0,
+      "finite_boundary_independence_proved": false,
+      "classification": "UNKNOWN_finite_time_only",
+      "configuration": {
+        "steps": 1024,
+        "outer_radius": 64.0,
+        "final_time": 24.0,
+        "cfl": 0.2,
+        "amplitude": 2.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "central_scalar_absolute_value": 0.47229559938813787,
+      "finite_radius_observation": 8.0,
+      "Hawking_mass_inside_finite_radius": 1.5986288498197212,
+      "charge_inside_finite_radius": 2.3206735918091415,
+      "independent_propagation_residuals": {
+        "mass_propagation_max": 0.0002766691337126037,
+        "charge_propagation_max": 0.00016870897613738278,
+        "potential_gradient_max_interior": 5.647768593232405e-05
+      },
+      "final_Bondi_mass": "UNKNOWN",
+      "final_Bondi_charge": "UNKNOWN"
+    },
+    {
+      "configuration": {
+        "steps": 1280,
+        "outer_radius": 80.0,
+        "final_time": 40.0,
+        "cfl": 0.2,
+        "amplitude": 2.0,
+        "frequency": 0.0,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "stop_reason": "polar coordinate stop; physical outcome UNKNOWN",
+      "classification": "UNKNOWN_computational_stop",
+      "stop_context": {
+        "last_completed_time": 37.921304958288886,
+        "attempted_dt": 0.012879462239898571,
+        "minimum_sampled_stage_delta": 0.049969525188777175,
+        "completed_iterations": 2944,
+        "classification": "UNKNOWN_coordinate_stop"
+      }
+    },
+    {
+      "configuration": {
+        "steps": 1280,
+        "outer_radius": 80.0,
+        "final_time": 40.0,
+        "cfl": 0.2,
+        "amplitude": 2.0,
+        "frequency": 0.1,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "stop_reason": "polar coordinate stop; physical outcome UNKNOWN",
+      "classification": "UNKNOWN_computational_stop",
+      "stop_context": {
+        "last_completed_time": 38.92271059631306,
+        "attempted_dt": 0.012965305274983489,
+        "minimum_sampled_stage_delta": 0.04991090818388022,
+        "completed_iterations": 3002,
+        "classification": "UNKNOWN_coordinate_stop"
+      }
+    },
+    {
+      "time": 40.0,
+      "iterations": 3028,
+      "minimum_sampled_delta": 0.07911295956155684,
+      "maximum_observed_coordinate_speed": 0.9462167220488584,
+      "initial_ADM_mass_estimate": 2.199509932594747,
+      "mass_boundary_drift": 0.00012527749418200784,
+      "charge_boundary_drift": 0.0010681390334088547,
+      "outer_buffer_scalar_max": 3.1559152064935952e-201,
+      "estimated_travel_distance": 37.84866888195434,
+      "initial_boundary_gap": 59.0,
+      "finite_boundary_independence_proved": false,
+      "classification": "UNKNOWN_finite_time_only",
+      "configuration": {
+        "steps": 1280,
+        "outer_radius": 80.0,
+        "final_time": 40.0,
+        "cfl": 0.2,
+        "amplitude": 2.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "flat_background": false,
+        "minimum_delta": 0.05
+      },
+      "central_scalar_absolute_value": 1.6834178094082528,
+      "finite_radius_observation": 8.0,
+      "Hawking_mass_inside_finite_radius": 0.7650248205799739,
+      "charge_inside_finite_radius": 0.578075044875447,
+      "independent_propagation_residuals": {
+        "mass_propagation_max": 0.0016378213264102836,
+        "charge_propagation_max": 0.0014994144574083153,
+        "potential_gradient_max_interior": 0.0019100178069801034
+      },
+      "final_Bondi_mass": "UNKNOWN",
+      "final_Bondi_charge": "UNKNOWN"
+    }
+  ],
+  "scope": "finite_slice_observations_only_not_final_parameters",
+  "remaining": [
+    "grid_error_envelope",
+    "horizon_regular_coordinates",
+    "all_future_dispersion",
+    "Bondi_extraction",
+    "exact_extremality"
+  ],
+  "source_sha256": {
+    "polar_evolution.py": "66d22a9d2f9f5be037be136fedc777fa4e737fe4174049617f8313b0a0df19df",
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a",
+    "explore_polar_family.py": "74bba31f61e1d4e7123c930d717aec2873029843f29e3b3a816a0806d80f576d"
+  }
+}
