@@ -30,7 +30,8 @@
         "frequency": 0.2,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "central_scalar_absolute_value": 0.0002591050122306727,
       "finite_radius_observation": 8.0,
@@ -66,7 +67,8 @@
         "frequency": 0.2,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "central_scalar_absolute_value": 0.0023843645884223615,
       "finite_radius_observation": 8.0,
@@ -102,7 +104,8 @@
         "frequency": 0.2,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "central_scalar_absolute_value": 0.037517763341003346,
       "finite_radius_observation": 8.0,
@@ -138,7 +141,8 @@
         "frequency": 0.2,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "central_scalar_absolute_value": 0.47229559938813787,
       "finite_radius_observation": 8.0,
@@ -162,7 +166,8 @@
         "frequency": 0.0,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "stop_reason": "polar coordinate stop; physical outcome UNKNOWN",
       "classification": "UNKNOWN_computational_stop",
@@ -184,7 +189,8 @@
         "frequency": 0.1,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "stop_reason": "polar coordinate stop; physical outcome UNKNOWN",
       "classification": "UNKNOWN_computational_stop",
@@ -218,7 +224,8 @@
         "frequency": 0.2,
         "coupling": 0.6,
         "flat_background": false,
-        "minimum_delta": 0.05
+        "minimum_delta": 0.05,
+        "record_axis": false
       },
       "central_scalar_absolute_value": 1.6834178094082528,
       "finite_radius_observation": 8.0,
@@ -242,7 +249,7 @@
     "exact_extremality"
   ],
   "source_sha256": {
-    "polar_evolution.py": "66d22a9d2f9f5be037be136fedc777fa4e737fe4174049617f8313b0a0df19df",
+    "polar_evolution.py": "bec80ada50a672e2583e32df9420db5ab5308efc82de996d61cd76a2a4eb1462",
     "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a",
     "explore_polar_family.py": "74bba31f61e1d4e7123c930d717aec2873029843f29e3b3a816a0806d80f576d"
   }

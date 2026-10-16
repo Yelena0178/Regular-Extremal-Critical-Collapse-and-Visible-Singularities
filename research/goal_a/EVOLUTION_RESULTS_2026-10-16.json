@@ -15,7 +15,8 @@
     "frequency": 0.2,
     "coupling": 0.6,
     "flat_background": false,
-    "minimum_delta": 0.05
+    "minimum_delta": 0.05,
+    "record_axis": false
   },
   "grids": [
     128,
@@ -201,7 +202,7 @@
     "parameter_neighborhood_trichotomy"
   ],
   "source_sha256": {
-    "polar_evolution.py": "66d22a9d2f9f5be037be136fedc777fa4e737fe4174049617f8313b0a0df19df",
+    "polar_evolution.py": "bec80ada50a672e2583e32df9420db5ab5308efc82de996d61cd76a2a4eb1462",
     "verify_evolution.py": "7d6a837081c49a602a55b0a7d1c7ad714ce4383290447825f4cb9b531affacea",
     "POLAR_EVOLUTION.md": "207b52ec23626ac4bb781427664a184161674b2026e3ad5c340e9bf36c020508",
     "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a"

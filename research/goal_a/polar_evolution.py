@@ -32,6 +32,7 @@ class Configuration:
     coupling: float = 0.6
     flat_background: bool = False
     minimum_delta: float = 0.05
+    record_axis: bool = False
 
     def validate(self):
         if self.steps < 32 or self.outer_radius <= 21:
@@ -195,6 +196,8 @@ def evolve(config):
     initial_g = geometry(r, fields, config.coupling, config.flat_background)
     g = initial_g
     t, iterations = 0., 0
+    tau = 0.
+    axis = [(0., 0., float(abs(fields[0, 0])))] if config.record_axis else None
     maximum_speed = float(np.max(g["speed"]))
     minimum_delta = float(np.min(g["delta"]))
     while t < config.final_time-1e-13:
@@ -215,8 +218,13 @@ def evolve(config):
         fields = fields+dt*(k1+2*k2+2*k3+k4)/6
         if not np.all(np.isfinite(fields)):
             raise ValueError("nonfinite evolving scalar")
+        if config.record_axis:
+            tau += dt*(g1["alpha"][0]+2*g2["alpha"][0]
+                       +2*g3["alpha"][0]+g4["alpha"][0])/6
         t += dt
         iterations += 1
+        if config.record_axis:
+            axis.append((t, float(tau), float(abs(fields[0, 0]))))
         g = g4
     final_g = geometry(r, fields, config.coupling, config.flat_background)
     initial_mass = float(initial_g["mass"][-1]+initial_g["charge"][-1]**2/(2*r[-1]))
@@ -233,4 +241,6 @@ def evolve(config):
         "finite_boundary_independence_proved": False,
         "classification": "UNKNOWN_finite_time_only",
     }
+    if config.record_axis:
+        report["axis_trace"] = axis
     return r, fields, report
