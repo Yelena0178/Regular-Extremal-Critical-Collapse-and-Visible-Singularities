@@ -1,0 +1,29 @@
+{
+  "evidence": "E0_C0_reference_thin_layer_feasibility",
+  "trial_first_cell_theta_error": 1.0,
+  "maximum_trial_boundary": [
+    1.0000001199040866e-07,
+    1.0000001992850329e-07,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "actual_thin_layer_transfer": false,
+  "original_eta_seed_transfer": false,
+  "goal_A_proved": false,
+  "fixed_point": {
+    "r": 0.6811628284200338,
+    "kappa": 0.26726906504945663,
+    "theta": 0.6035239122148608,
+    "nu": -0.8116829346700928,
+    "z": -0.9183502282237517,
+    "m": 0.4722856173125276,
+    "lambda": -0.10335402273180325,
+    "Omega2": 0.8677509562634995,
+    "theta_out": -0.6515367025717099,
+    "theta_in": -5.116793800672745
+  },
+  "completed": false,
+  "failure": "nonpositive tube on diagonal 707"
+}

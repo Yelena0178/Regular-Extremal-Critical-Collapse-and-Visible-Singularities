@@ -1,0 +1,86 @@
+{
+  "verified_cells": 147456,
+  "minimum_strict_margin": 9.864805152953781e-10,
+  "global_tube_lower_r_k_minus_nu": [
+    0.38140808673283644,
+    0.2352534410811675,
+    0.4999990648721875
+  ],
+  "status": "PASS",
+  "scope": "frozen resolved neutral characteristic rectangle",
+  "arithmetic": "outward IEEE-754 binary64 basic operations plus rational boundary certificate",
+  "arithmetic_assumptions": [
+    "correctly rounded binary64 basic operations",
+    "gradual underflow",
+    "correct nextafter",
+    "Python integer and Fraction arithmetic"
+  ],
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "exact_rectangle": {
+    "u_max": "5456281861425155/2251799813685248",
+    "v_min": "3587012847399191/1125899906842624",
+    "v_max": "5285773053255619/1125899906842624",
+    "n": 384
+  },
+  "shared_exact_dyadic_Hermite": true,
+  "outgoing_boundary_sha256": "20a8627a18f9897fafebdb72699eb653b014de180c2bb017fdc9f36b0329fcba",
+  "incoming_vacuum_polynomial_exact": true,
+  "endpoint_error_radii": [
+    0.011417432648456042,
+    0.024348279054008784,
+    0.0594214003161168,
+    0.04390641207443168,
+    0.09998743110803315,
+    0.05670538762769064
+  ],
+  "endpoint_lower": [
+    0.6393181901353983,
+    0.23525344108117738,
+    0.5536802177661584,
+    -0.9034328374010934,
+    -1.017929693761395,
+    0.4367970083279787
+  ],
+  "endpoint_upper": [
+    0.6621530554323106,
+    0.283949999189195,
+    0.6725230183983921,
+    -0.8156200132522298,
+    -0.8179548315453286,
+    0.5502077835833601
+  ],
+  "strict_2m_minus_r_lower": 0.2114409612236466,
+  "finite_rectangle_PDE_certified": true,
+  "local_strict_trapped_sphere_certified": true,
+  "original_eta_seed_transfer": false,
+  "complete_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "elapsed_seconds": 150.3176482,
+  "array_sha256": {
+    "nodes": "604d11588e669cb0a4fe97e3d77ac0e75713aa864201e1253d3d30087ec6fe6e",
+    "du": "2a7ebdbc333140978896c8dd69f5d0034d6694d76e9ab7bb35a2f3e2dfb4c52d",
+    "dv": "b3242afe0d08852ab78f78d6143fce0a95e5107f07bab2dc4b5251f7c704fd2a",
+    "duv": "b7e9b7c5fd161da0ee646e7a209eff6fb6f08e29eda19c35bfcba057274ddbce",
+    "field_low": "fe8223692813a639fc93959c6ad3725012c23bc808562e36c42a974f3a8ea78a",
+    "field_high": "76bbd45a7a842e9e13e94f9fef7e1f5bc1804ebcba1e0bc18eabd3e5d6b2072e",
+    "residual_upper": "e107c525cd693c1bb6f8f3fcb0e969bb8751910cc8e75dc32d0d59009cc14438",
+    "radii": "cf5db5aeb1a28eb983b09f6b25439a80b45614c203cd2b06273760e57493a190"
+  },
+  "source_sha256": {
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "certify_transport_grid.py": "52245fd0af576e15aaac127b69e2f07a1328dacb282b16de88c6107659e13ea9",
+    "verify_interval_transport_grid.py": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b",
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "certify_onset_boundary.py": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47",
+    "ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json": "3137dc48c29461d0e60541f8da9cbb064dfd2452d996346d9f9db580dc24edc5",
+    "RATIONAL_GOURSAT_CERTIFICATION.md": "05cef218d936b531be68a6bf4f6e3c00e8aab1c73a688634503ed15361a71d88"
+  }
+}
