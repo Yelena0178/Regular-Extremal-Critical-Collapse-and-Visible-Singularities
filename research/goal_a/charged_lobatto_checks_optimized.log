@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "batch_RHS_comparisons": 20,
+  "benchmarks": {
+    "RN": [
+      {
+        "n": 8,
+        "endpoint_error": 1.8197726658897295e-10,
+        "iterations": {
+          "maximum_iterations": 7,
+          "maximum_last_change": 1.376676550535194e-13
+        }
+      },
+      {
+        "n": 16,
+        "endpoint_error": 1.1363465723945865e-11,
+        "iterations": {
+          "maximum_iterations": 7,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      },
+      {
+        "n": 32,
+        "endpoint_error": 8.22453216642316e-13,
+        "iterations": {
+          "maximum_iterations": 6,
+          "maximum_last_change": 5.329070518200751e-15
+        }
+      }
+    ],
+    "FLRW": [
+      {
+        "n": 8,
+        "endpoint_error": 3.512678328537744e-05,
+        "iterations": {
+          "maximum_iterations": 14,
+          "maximum_last_change": 2.97761815204467e-13
+        }
+      },
+      {
+        "n": 16,
+        "endpoint_error": 2.272218477650245e-06,
+        "iterations": {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.9522218003563694e-13
+        }
+      },
+      {
+        "n": 32,
+        "endpoint_error": 1.433008500195676e-07,
+        "iterations": {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.962352585456074e-13
+        }
+      }
+    ]
+  },
+  "scope": "observed fourth order on independent backgrounds only",
+  "rigorous_PDE_error": false,
+  "goal_A_proved": false
+}

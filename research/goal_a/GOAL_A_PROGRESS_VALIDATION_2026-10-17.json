@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "source_hashes_checked": 62,
+  "ordinary_optimized_verifiers_compared": 3,
+  "maximum_piecewise_residual_ratio": 0.2566323558396147,
+  "reports": [
+    "NEW_SHAPE_CONSTRAINT_CERTIFICATE_2026-10-17.json",
+    "NEW_SHAPE_SCREEN_N128_2026-10-17.json",
+    "NEW_SHAPE_AUDIT_2026-10-17.json",
+    "NEW_SHAPE_AXIS_EXPLORATION_2026-10-17.json",
+    "NEW_SHAPE_JETS_2026-10-17.json",
+    "NEW_SHAPE_JET_CHECKS_2026-10-17.json",
+    "NEW_SHAPE_CHARGED_SCREEN_2026-10-17.json",
+    "NEW_SHAPE_CHARGED_GRADED_2026-10-17.json",
+    "NEW_SHAPE_CHARGED_PIECEWISE_2026-10-17.json",
+    "CHARGED_CHARACTERISTIC_CHECKS_2026-10-17.json",
+    "AF_OUTER_EXTENSION_CHECKS_2026-10-17.json"
+  ],
+  "proof_sha256": {
+    "NEW_SHAPE_CONSTRAINTS.md": "3a8bbbf5c988da26c0ea08b9135ec6f6d47961eee246f2e695ee4b7ad81cd583",
+    "CHARGED_CHARACTERISTIC_METHOD.md": "a3df423413dddd106fd60d2038a257b119d13f2c3131adb7ff378ac5c1c8d694",
+    "AF_OUTER_EXTENSION.md": "d968946ebdeb18fd6c7eadb0ab3ef916cba66970d497a30b652bc9e7456d7b6c",
+    "PAST_COLLAR_AND_AF_REALIZATION.md": "91c71a10fc3733c473348cb4b65b22b00f6de1ef8a1c007b039dca6ee0739e8b"
+  },
+  "scope": "provenance, exact algebra, abstract budgets, E0 benchmarks; not independent mathematical review",
+  "finite_amplitude_smooth_root_certified": false,
+  "global_three_branch_curve_proved": false,
+  "goal_A_proved": false
+}

@@ -1,0 +1,855 @@
+{
+  "runs": [
+    {
+      "R": 10.0,
+      "n": 24,
+      "parameters": {
+        "min_sampled_H": 0.0036489987140884434,
+        "cap_radius": 0.20869339766878794,
+        "onset_length": 1.7307958617002421,
+        "terminal_Q": 9.999999999999996,
+        "s": 0.5938815312760597
+      },
+      "endpoint_lambda": 0.000312168055919483,
+      "endpoint_Q": 8.877681717212155,
+      "endpoint_r": 9.633619423549936,
+      "endpoint_nu": -1.4924797201933835,
+      "sampled_off_segment_minimum_lambda": 0.006881483647655233,
+      "fixed_points": [
+        {
+          "u": 0.19825872778534853,
+          "v": 10.384611436800746,
+          "r": 2.5205090621472337,
+          "lambda_value": 0.15636543168595626,
+          "Q": 1.0297632116546327,
+          "heldout_constraint_residuals": {
+            "radius": -1.0259110261728877e-05,
+            "scalar": 0.00011096416803782377,
+            "charge": 9.879902214354752e-05,
+            "mass": 1.361347602626961e-05
+          }
+        },
+        {
+          "u": 0.19825872778534853,
+          "v": 86.30873820054319,
+          "r": 9.282626355604998,
+          "lambda_value": 0.04205130057019685,
+          "Q": 7.412522119973263,
+          "heldout_constraint_residuals": {
+            "radius": -2.28546693413767e-05,
+            "scalar": 0.0001048708698292244,
+            "charge": -0.0014942693311663646,
+            "mass": -1.7421427505048825e-06
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        3.397282455352979e-14,
+        1.1457501614131615e-13
+      ],
+      "joint_r_k_errors": [
+        6.661338147750939e-16,
+        4.440892098500626e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 18,
+          "maximum_last_change": 2.99704705497561e-13
+        },
+        {
+          "maximum_iterations": 21,
+          "maximum_last_change": 2.9953817204386723e-13
+        },
+        {
+          "maximum_iterations": 21,
+          "maximum_last_change": 2.9665159217984183e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 10.0,
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0036489987140884434,
+        "cap_radius": 0.20869339766878794,
+        "onset_length": 1.7307958617002421,
+        "terminal_Q": 9.999999999999996,
+        "s": 0.5938815312760597
+      },
+      "endpoint_lambda": -2.2574753408770244e-05,
+      "endpoint_Q": 9.25473206381973,
+      "endpoint_r": 9.633933307922106,
+      "endpoint_nu": -1.4709177109148275,
+      "sampled_off_segment_minimum_lambda": 0.0033345057820824277,
+      "fixed_points": [
+        {
+          "u": 0.19825872778534853,
+          "v": 10.384611436800746,
+          "r": 2.520508938786334,
+          "lambda_value": 0.15636578379927898,
+          "Q": 1.029752060526446,
+          "heldout_constraint_residuals": {
+            "radius": -6.448270967462921e-07,
+            "scalar": 7.593944949182311e-06,
+            "charge": 6.75360840934891e-06,
+            "mass": 9.223874824493272e-07
+          }
+        },
+        {
+          "u": 0.19825872778534853,
+          "v": 86.30873820054319,
+          "r": 9.282623722008152,
+          "lambda_value": 0.04203059030143013,
+          "Q": 7.412383302827257,
+          "heldout_constraint_residuals": {
+            "radius": -1.899684880450614e-06,
+            "scalar": 7.26902970053116e-06,
+            "charge": -0.00010499060744706412,
+            "mass": -1.1353798012869731e-06
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        3.0753177782116836e-14,
+        1.900701818158268e-13
+      ],
+      "joint_r_k_errors": [
+        3.219646771412954e-15,
+        5.329070518200751e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.9914959398524843e-13
+        },
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.999822612537173e-13
+        },
+        {
+          "maximum_iterations": 17,
+          "maximum_last_change": 2.9976021664879227e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 10.0,
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0036489987140884434,
+        "cap_radius": 0.20869339766878794,
+        "onset_length": 1.7307958617002421,
+        "terminal_Q": 9.999999999999996,
+        "s": 0.5938815312760597
+      },
+      "endpoint_lambda": -7.79651215845833e-05,
+      "endpoint_Q": 9.324734811578232,
+      "endpoint_r": 9.633976190015828,
+      "endpoint_nu": -1.466914825715083,
+      "sampled_off_segment_minimum_lambda": 0.001612498114434202,
+      "fixed_points": [
+        {
+          "u": 0.19825872778534853,
+          "v": 10.384611436800746,
+          "r": 2.5205089306886572,
+          "lambda_value": 0.15636580628338642,
+          "Q": 1.0297513445536284,
+          "heldout_constraint_residuals": {
+            "radius": -4.0357924946388124e-08,
+            "scalar": 4.865796550593512e-07,
+            "charge": 4.3262552279488276e-07,
+            "mass": 5.895048671433756e-08
+          }
+        },
+        {
+          "u": 0.19825872778534853,
+          "v": 86.30873820054319,
+          "r": 9.282623530047667,
+          "lambda_value": 0.04202883944783796,
+          "Q": 7.4123753896589815,
+          "heldout_constraint_residuals": {
+            "radius": -1.3012178677607178e-07,
+            "scalar": 4.6746058741244304e-07,
+            "charge": -6.780870737799205e-06,
+            "mass": -9.38906241643167e-08
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        2.942091015256665e-14,
+        2.2293278334473143e-13
+      ],
+      "joint_r_k_errors": [
+        3.3306690738754696e-16,
+        4.440892098500626e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.9996317929548155e-13
+        },
+        {
+          "maximum_iterations": 11,
+          "maximum_last_change": 2.998712389512548e-13
+        },
+        {
+          "maximum_iterations": 13,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 11.0,
+      "n": 24,
+      "parameters": {
+        "min_sampled_H": 0.0037776292899328458,
+        "cap_radius": 0.18597759621009274,
+        "onset_length": 1.9763199919612775,
+        "terminal_Q": 11.0,
+        "s": 0.6389143695714092
+      },
+      "endpoint_lambda": 0.0007702840598587668,
+      "endpoint_Q": 9.923789420003942,
+      "endpoint_r": 10.771855230665693,
+      "endpoint_nu": -1.0436655830759898,
+      "sampled_off_segment_minimum_lambda": 0.0093450795599497,
+      "fixed_points": [
+        {
+          "u": 0.1766787163995881,
+          "v": 10.431889713693746,
+          "r": 2.8264859110579748,
+          "lambda_value": 0.18580409216468458,
+          "Q": 1.152351526911811,
+          "heldout_constraint_residuals": {
+            "radius": -7.384789922515456e-06,
+            "scalar": 0.0002458878567273987,
+            "charge": 0.00026820833746471484,
+            "mass": 3.2284531872484035e-05
+          }
+        },
+        {
+          "u": 0.1766787163995881,
+          "v": 75.20697273742451,
+          "r": 10.259160380347478,
+          "lambda_value": 0.055988598730182436,
+          "Q": 8.816594798284438,
+          "heldout_constraint_residuals": {
+            "radius": 6.877212478530181e-06,
+            "scalar": 0.00023561460764234596,
+            "charge": -0.004036778206062408,
+            "mass": 3.533517685117005e-05
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        4.007905118896815e-14,
+        9.059419880941277e-14
+      ],
+      "joint_r_k_errors": [
+        4.440892098500626e-16,
+        5.329070518200751e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 17,
+          "maximum_last_change": 2.9831692671677956e-13
+        },
+        {
+          "maximum_iterations": 19,
+          "maximum_last_change": 2.948752353404416e-13
+        },
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.984279490192421e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 11.0,
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0037776292899328458,
+        "cap_radius": 0.18597759621009274,
+        "onset_length": 1.9763199919612775,
+        "terminal_Q": 11.0,
+        "s": 0.6389143695714092
+      },
+      "endpoint_lambda": 0.00015343601633834578,
+      "endpoint_Q": 10.535956638480805,
+      "endpoint_r": 10.772207566296734,
+      "endpoint_nu": -1.0162992683047627,
+      "sampled_off_segment_minimum_lambda": 0.004650533646015534,
+      "fixed_points": [
+        {
+          "u": 0.1766787163995881,
+          "v": 10.431889713693746,
+          "r": 2.82648573086495,
+          "lambda_value": 0.18580450922760397,
+          "Q": 1.1523354668853296,
+          "heldout_constraint_residuals": {
+            "radius": -4.6255368221781445e-07,
+            "scalar": 1.755741069860917e-05,
+            "charge": 1.91427322704385e-05,
+            "mass": 2.2965081990233838e-06
+          }
+        },
+        {
+          "u": 0.1766787163995881,
+          "v": 75.20697273742451,
+          "r": 10.259158042195256,
+          "lambda_value": 0.055994995910329276,
+          "Q": 8.816620477282903,
+          "heldout_constraint_residuals": {
+            "radius": 4.917612164423435e-07,
+            "scalar": 1.6881608421406633e-05,
+            "charge": -0.0002901847454577222,
+            "mass": 1.951853565884676e-06
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        2.942091015256665e-14,
+        1.2612133559741778e-13
+      ],
+      "joint_r_k_errors": [
+        6.106226635438361e-16,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.9992675010248604e-13
+        },
+        {
+          "maximum_iterations": 14,
+          "maximum_last_change": 2.9914959398524843e-13
+        },
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.984279490192421e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 11.0,
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0037776292899328458,
+        "cap_radius": 0.18597759621009274,
+        "onset_length": 1.9763199919612775,
+        "terminal_Q": 11.0,
+        "s": 0.6389143695714092
+      },
+      "endpoint_lambda": 2.1008069267284677e-05,
+      "endpoint_Q": 10.666765487648114,
+      "endpoint_r": 10.772264177439911,
+      "endpoint_nu": -1.0103641254759868,
+      "sampled_off_segment_minimum_lambda": 0.0023166587478608875,
+      "fixed_points": [
+        {
+          "u": 0.1766787163995881,
+          "v": 10.431889713693746,
+          "r": 2.826485718732121,
+          "lambda_value": 0.18580453697155083,
+          "Q": 1.152334392212495,
+          "heldout_constraint_residuals": {
+            "radius": -2.8919784095249312e-08,
+            "scalar": 1.1405028148339147e-06,
+            "charge": 1.2433775699038918e-06,
+            "mass": 1.490321628327962e-07
+          }
+        },
+        {
+          "u": 0.1766787163995881,
+          "v": 75.20697273742451,
+          "r": 10.259157879410102,
+          "lambda_value": 0.0559954564829645,
+          "Q": 8.816622776377615,
+          "heldout_constraint_residuals": {
+            "radius": 3.2047268005985785e-08,
+            "scalar": 1.0975660601750588e-06,
+            "charge": -1.8884268026653217e-05,
+            "mass": 1.1723658221995947e-07
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        4.196643033083092e-14,
+        1.7319479184152442e-13
+      ],
+      "joint_r_k_errors": [
+        7.549516567451064e-15,
+        1.9984014443252818e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.999822612537173e-13
+        },
+        {
+          "maximum_iterations": 11,
+          "maximum_last_change": 2.9976021664879227e-13
+        },
+        {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 12.0,
+      "n": 24,
+      "parameters": {
+        "min_sampled_H": 0.003618321475061012,
+        "cap_radius": 0.1615975434041112,
+        "onset_length": 2.2246103385684517,
+        "terminal_Q": 12.0,
+        "s": 0.6780179707331756
+      },
+      "endpoint_lambda": 0.0015743350305996108,
+      "endpoint_Q": 10.65824730726473,
+      "endpoint_r": 11.84865102134241,
+      "endpoint_nu": -0.7987803021843571,
+      "sampled_off_segment_minimum_lambda": 0.01173527089987244,
+      "fixed_points": [
+        {
+          "u": 0.15351766623390564,
+          "v": 10.632558871337405,
+          "r": 3.125294297457824,
+          "lambda_value": 0.21139669807595082,
+          "Q": 1.2727665829448835,
+          "heldout_constraint_residuals": {
+            "radius": -5.169905993751556e-06,
+            "scalar": 0.0005562866154354201,
+            "charge": 0.0007206917168076088,
+            "mass": 8.175962929787839e-05
+          }
+        },
+        {
+          "u": 0.15351766623390564,
+          "v": 68.872108435131,
+          "r": 11.220175507736947,
+          "lambda_value": 0.06954724065916598,
+          "Q": 10.123425401856226,
+          "heldout_constraint_residuals": {
+            "radius": 6.00764226296735e-06,
+            "scalar": 0.0005475466201798566,
+            "charge": -0.011030617819990596,
+            "mass": -0.0002098790464519773
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        3.5083047578154947e-14,
+        4.1744385725905886e-14
+      ],
+      "joint_r_k_errors": [
+        2.7755575615628914e-16,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 17,
+          "maximum_last_change": 2.9995450567810167e-13
+        },
+        {
+          "maximum_iterations": 17,
+          "maximum_last_change": 2.9687363678476686e-13
+        },
+        {
+          "maximum_iterations": 13,
+          "maximum_last_change": 2.9665159217984183e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 12.0,
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.003618321475061012,
+        "cap_radius": 0.1615975434041112,
+        "onset_length": 2.2246103385684517,
+        "terminal_Q": 12.0,
+        "s": 0.6780179707331756
+      },
+      "endpoint_lambda": 0.0003656617633298579,
+      "endpoint_Q": 11.579329379944648,
+      "endpoint_r": 11.849071792771785,
+      "endpoint_nu": -0.7656122711065495,
+      "sampled_off_segment_minimum_lambda": 0.005858694266307585,
+      "fixed_points": [
+        {
+          "u": 0.15351766623390564,
+          "v": 10.632558871337405,
+          "r": 3.125294055867765,
+          "lambda_value": 0.21139738340939765,
+          "Q": 1.2727367503321112,
+          "heldout_constraint_residuals": {
+            "radius": -3.189396002578615e-07,
+            "scalar": 4.233332795769535e-05,
+            "charge": 5.483440706333109e-05,
+            "mass": 6.212687574475018e-06
+          }
+        },
+        {
+          "u": 0.15351766623390564,
+          "v": 68.872108435131,
+          "r": 11.220174195220515,
+          "lambda_value": 0.06955288087612793,
+          "Q": 10.123710275102356,
+          "heldout_constraint_residuals": {
+            "radius": 4.1298369807263313e-07,
+            "scalar": 4.175420284196343e-05,
+            "charge": -0.0008428512504288221,
+            "mass": -1.7699794731651508e-05
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        2.631228568361621e-14,
+        6.217248937900877e-14
+      ],
+      "joint_r_k_errors": [
+        5.551115123125783e-16,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.9937163859017346e-13
+        },
+        {
+          "maximum_iterations": 13,
+          "maximum_last_change": 2.9953817204386723e-13
+        },
+        {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 12.0,
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.003618321475061012,
+        "cap_radius": 0.1615975434041112,
+        "onset_length": 2.2246103385684517,
+        "terminal_Q": 12.0,
+        "s": 0.6780179707331756
+      },
+      "endpoint_lambda": 7.05199427376301e-05,
+      "endpoint_Q": 11.804802257461608,
+      "endpoint_r": 11.849148202277751,
+      "endpoint_nu": -0.7573263589337621,
+      "sampled_off_segment_minimum_lambda": 0.0029304290498360563,
+      "fixed_points": [
+        {
+          "u": 0.15351766623390564,
+          "v": 10.632558871337405,
+          "r": 3.125294038858708,
+          "lambda_value": 0.21139743209074358,
+          "Q": 1.2727346243794295,
+          "heldout_constraint_residuals": {
+            "radius": -1.9837363529617846e-08,
+            "scalar": 2.8128867674926388e-06,
+            "charge": 3.643434671796175e-06,
+            "mass": 4.1265410297142147e-07
+          }
+        },
+        {
+          "u": 0.15351766623390564,
+          "v": 68.872108435131,
+          "r": 11.220174105605198,
+          "lambda_value": 0.069553270570841,
+          "Q": 10.123731822778852,
+          "heldout_constraint_residuals": {
+            "radius": 2.6551970219723664e-08,
+            "scalar": 2.776028811043038e-06,
+            "charge": -5.6069349218645925e-05,
+            "mass": -1.2110318383662388e-06
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        3.5416114485542494e-14,
+        1.127986593019159e-13
+      ],
+      "joint_r_k_errors": [
+        9.547918011776346e-15,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.999822612537173e-13
+        },
+        {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.9976021664879227e-13
+        },
+        {
+          "maximum_iterations": 9,
+          "maximum_last_change": 2.984279490192421e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 14.0,
+      "n": 24,
+      "parameters": {
+        "min_sampled_H": 0.0027339379455732418,
+        "cap_radius": 0.11052146843803526,
+        "onset_length": 2.72504049376158,
+        "terminal_Q": 13.999999999999998,
+        "s": 0.7413466187547645
+      },
+      "endpoint_lambda": 0.004690991889378338,
+      "endpoint_Q": 11.458231883453427,
+      "endpoint_r": 13.930316883553465,
+      "endpoint_nu": -0.5432680485998894,
+      "sampled_off_segment_minimum_lambda": 0.015955404142760237,
+      "fixed_points": [
+        {
+          "u": 0.10499539501613349,
+          "v": 11.299021163600852,
+          "r": 3.711412170573087,
+          "lambda_value": 0.25256289339340227,
+          "Q": 1.5116827791918186,
+          "heldout_constraint_residuals": {
+            "radius": -4.514709108227599e-07,
+            "scalar": 0.003185627305440342,
+            "charge": 0.005431977862284165,
+            "mass": 0.0005809742499003068
+          }
+        },
+        {
+          "u": 0.10499539501613349,
+          "v": 63.16417480606704,
+          "r": 13.124081874138774,
+          "lambda_value": 0.09407440685244232,
+          "Q": 12.640887221675007,
+          "heldout_constraint_residuals": {
+            "radius": -2.9344936196967764e-06,
+            "scalar": 0.0031710601639443705,
+            "charge": -0.08211334596328967,
+            "mass": -0.0018573806771540191
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        1.9317880628477724e-14,
+        5.46229728115577e-14
+      ],
+      "joint_r_k_errors": [
+        2.1094237467877974e-14,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 16,
+          "maximum_last_change": 2.978728375069295e-13
+        },
+        {
+          "maximum_iterations": 15,
+          "maximum_last_change": 2.97761815204467e-13
+        },
+        {
+          "maximum_iterations": 11,
+          "maximum_last_change": 2.984279490192421e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 14.0,
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0027339379455732418,
+        "cap_radius": 0.11052146843803526,
+        "onset_length": 2.72504049376158,
+        "terminal_Q": 13.999999999999998,
+        "s": 0.7413466187547645
+      },
+      "endpoint_lambda": 0.0013203605425470858,
+      "endpoint_Q": 13.247468280171862,
+      "endpoint_r": 13.930832443832832,
+      "endpoint_nu": -0.497768290472746,
+      "sampled_off_segment_minimum_lambda": 0.007980117321201104,
+      "fixed_points": [
+        {
+          "u": 0.10499539501613349,
+          "v": 11.299021163600852,
+          "r": 3.7114117108750846,
+          "lambda_value": 0.2525657570301001,
+          "Q": 1.5115395617983873,
+          "heldout_constraint_residuals": {
+            "radius": 4.602405950793198e-08,
+            "scalar": 0.00030442708078951713,
+            "charge": 0.0005190687348839984,
+            "mass": 5.549899253451396e-05
+          }
+        },
+        {
+          "u": 0.10499539501613349,
+          "v": 63.16417480606704,
+          "r": 13.124081623401322,
+          "lambda_value": 0.09407197789517625,
+          "Q": 12.642931063324829,
+          "heldout_constraint_residuals": {
+            "radius": -3.483186815228523e-07,
+            "scalar": 0.00030327071830446085,
+            "charge": -0.007864557771128489,
+            "mass": -0.00018468070549992888
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        3.730349362740526e-14,
+        3.5083047578154947e-14
+      ],
+      "joint_r_k_errors": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 14,
+          "maximum_last_change": 2.9992675010248604e-13
+        },
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.993161274389422e-13
+        },
+        {
+          "maximum_iterations": 9,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "R": 14.0,
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0027339379455732418,
+        "cap_radius": 0.11052146843803526,
+        "onset_length": 2.72504049376158,
+        "terminal_Q": 13.999999999999998,
+        "s": 0.7413466187547645
+      },
+      "endpoint_lambda": 0.00028499688420535084,
+      "endpoint_Q": 13.812165559635815,
+      "endpoint_r": 13.930952185703637,
+      "endpoint_nu": -0.48304849613874756,
+      "sampled_off_segment_minimum_lambda": 0.003990275645795289,
+      "fixed_points": [
+        {
+          "u": 0.10499539501613349,
+          "v": 11.299021163600852,
+          "r": 3.711411672533749,
+          "lambda_value": 0.25256600821492226,
+          "Q": 1.5115269969892187,
+          "heldout_constraint_residuals": {
+            "radius": 5.004298531119389e-09,
+            "scalar": 2.2400682958982298e-05,
+            "charge": 3.819445261049603e-05,
+            "mass": 4.08346251662417e-06
+          }
+        },
+        {
+          "u": 0.10499539501613349,
+          "v": 63.16417480606704,
+          "r": 13.124081610280838,
+          "lambda_value": 0.09407166911837479,
+          "Q": 12.643113459216059,
+          "heldout_constraint_residuals": {
+            "radius": -2.665059357920274e-08,
+            "scalar": 2.232148843079122e-05,
+            "charge": -0.0005791385399422921,
+            "mass": -1.3765426226441946e-05
+          }
+        }
+      ],
+      "continuous_u_stage_errors": [
+        5.517808432387028e-14,
+        4.529709940470639e-14
+      ],
+      "joint_r_k_errors": [
+        3.3306690738754696e-15,
+        2.4980018054066022e-15
+      ],
+      "iterations": [
+        {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.998712389512548e-13
+        },
+        {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.9976021664879227e-13
+        },
+        {
+          "maximum_iterations": 8,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      ],
+      "evidence": "E0_tensor_Lobatto_C0_cone",
+      "actual_smooth_solution_certified": false,
+      "no_trapping_certified": false,
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "independent C0 cones, fixed e=3/5, E0 only",
+  "actual_smooth_seed_transferred": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "explore_lobatto_shapes.py": "92219e52d83c3671a5922f97d51fc8da6960f6e0426d40b058832c39d2455973",
+    "charged_shape_family.py": "079005a024475edc421200819d776801da30a6aab9a886514155b64b9ded01de",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "new_shape_jets.py": "c5c82df9467a3c7a28c1747b4776836e963536202e6882f60d28856050eef281",
+    "charged_graded_screen.py": "0f411b1472537493f55eee5727230a45957804e2394bf9c165ffd9b8dce94d07"
+  }
+}

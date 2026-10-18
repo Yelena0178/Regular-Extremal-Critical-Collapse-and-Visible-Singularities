@@ -1,0 +1,167 @@
+{
+  "runs": [
+    {
+      "n": 48,
+      "evidence": "E0_C0_piecewise_one_sided_traces",
+      "fixed_points": [
+        {
+          "u": 0.19826328956816208,
+          "v": 10.384698132569472,
+          "r": 2.5204545692994396,
+          "lambda_value": 0.15629966065569123,
+          "Q": 1.0307242493387756,
+          "heldout_constraint_residuals": {
+            "radius": 5.9469392319211334e-05,
+            "scalar": 0.002852559961614452,
+            "charge": 0.003512784583764028,
+            "mass": 0.0008278000255127482
+          }
+        },
+        {
+          "u": 0.19826328956816208,
+          "v": 86.31160337887661,
+          "r": 9.282841395516462,
+          "lambda_value": 0.03960850606996359,
+          "Q": 7.434909004013319,
+          "heldout_constraint_residuals": {
+            "radius": 0.002435562205225103,
+            "scalar": 0.001991212734138501,
+            "charge": 0.08707961505643347,
+            "mass": 0.05614072026411465
+          }
+        }
+      ],
+      "endpoint_lambda": -0.0031894655466850174,
+      "endpoint_Q": 8.687301517592083,
+      "joint_continuous_field_errors": [
+        1.4377388168895777e-14,
+        7.166489623955385e-14
+      ]
+    },
+    {
+      "n": 96,
+      "evidence": "E0_C0_piecewise_one_sided_traces",
+      "fixed_points": [
+        {
+          "u": 0.19826328956816208,
+          "v": 10.384698132569472,
+          "r": 2.5204744591674033,
+          "lambda_value": 0.15634573937293328,
+          "Q": 1.029991407616179,
+          "heldout_constraint_residuals": {
+            "radius": 1.4999503437085338e-05,
+            "scalar": 0.0007180505111144447,
+            "charge": 0.0008824176203238165,
+            "mass": 0.00020742392613776195
+          }
+        },
+        {
+          "u": 0.19826328956816208,
+          "v": 86.31160337887661,
+          "r": 9.282621651542424,
+          "lambda_value": 0.041414721195356705,
+          "Q": 7.418108655076271,
+          "heldout_constraint_residuals": {
+            "radius": 0.0006165090062845296,
+            "scalar": 0.0005095483178783498,
+            "charge": 0.022347446757539302,
+            "mass": 0.01434097621071384
+          }
+        }
+      ],
+      "endpoint_lambda": -0.0008041180444661399,
+      "endpoint_Q": 9.146883528712287,
+      "joint_continuous_field_errors": [
+        4.2521541843143495e-14,
+        9.164891068280667e-14
+      ]
+    },
+    {
+      "n": 192,
+      "evidence": "E0_C0_piecewise_one_sided_traces",
+      "fixed_points": [
+        {
+          "u": 0.19826328956816208,
+          "v": 10.384698132569472,
+          "r": 2.520479498853185,
+          "lambda_value": 0.15635727038176556,
+          "Q": 1.0298082664913586,
+          "heldout_constraint_residuals": {
+            "radius": 3.7554316480448158e-06,
+            "scalar": 0.00018012434928112113,
+            "charge": 0.00022113665315953712,
+            "mass": 5.1920026268970076e-05
+          }
+        },
+        {
+          "u": 0.19826328956816208,
+          "v": 86.31160337887661,
+          "r": 9.282566490098866,
+          "lambda_value": 0.04187251991600819,
+          "Q": 7.413731186829938,
+          "heldout_constraint_residuals": {
+            "radius": 0.00015528954483642193,
+            "scalar": 0.00012894093509053354,
+            "charge": 0.005663219657845886,
+            "mass": 0.003625943023612521
+          }
+        }
+      ],
+      "endpoint_lambda": -0.00025962114055476593,
+      "endpoint_Q": 9.283901308116233,
+      "joint_continuous_field_errors": [
+        1.9984014443252818e-15,
+        1.031952301389083e-13
+      ]
+    },
+    {
+      "n": 384,
+      "evidence": "E0_C0_piecewise_one_sided_traces",
+      "fixed_points": [
+        {
+          "u": 0.19826328956816208,
+          "v": 10.384698132569472,
+          "r": 2.5204807669974403,
+          "lambda_value": 0.15636015450176233,
+          "Q": 1.0297625030679176,
+          "heldout_constraint_residuals": {
+            "radius": 9.359863524238676e-07,
+            "scalar": 4.536858969173389e-05,
+            "charge": 5.5580306223823595e-05,
+            "mass": 1.301779675905168e-05
+          }
+        },
+        {
+          "u": 0.19826328956816208,
+          "v": 86.31160337887661,
+          "r": 9.282552771117244,
+          "lambda_value": 0.04198790114412073,
+          "Q": 7.412612160112936,
+          "heldout_constraint_residuals": {
+            "radius": 3.903291661903202e-05,
+            "scalar": 3.2332094127712076e-05,
+            "charge": 0.0014229038957100926,
+            "mass": 0.0009123055436393024
+          }
+        }
+      ],
+      "endpoint_lambda": -0.00012782406724596478,
+      "endpoint_Q": 9.320505492062962,
+      "joint_continuous_field_errors": [
+        1.3877787807814457e-13,
+        9.528489108845406e-14
+      ]
+    }
+  ],
+  "scope": "separate one-sided theta at C0 joints, not a smooth-root certificate",
+  "actual_smooth_PDE_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charged_piecewise_screen.py": "e099780504475560a724c1939638a330a210449ec0f26d5e75761ad53f19e7a1",
+    "charged_graded_screen.py": "0f411b1472537493f55eee5727230a45957804e2394bf9c165ffd9b8dce94d07",
+    "charged_characteristic_screen.py": "a38683c5c4c88b48b15b6a6495587a2e0535ccf775202f56bbe7831b1e7048d5",
+    "new_shape_jets.py": "c5c82df9467a3c7a28c1747b4776836e963536202e6882f60d28856050eef281",
+    "NEW_SHAPE_JETS_2026-10-17.json": "8cf18562c5e039189202b11c1a03c47d3c6aaf28815e9366c41a9eff6434ad92"
+  }
+}

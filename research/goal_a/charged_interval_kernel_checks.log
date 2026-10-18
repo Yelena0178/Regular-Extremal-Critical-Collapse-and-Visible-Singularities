@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exact_Hermite_coefficients": 192,
+  "exact_residual_components": 12,
+  "rational_Jacobian_comparisons": 144,
+  "zero_radius_rejected": true,
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "scope": "finite outward kernel only; actual candidate boundary and all cells not certified",
+  "actual_candidate_PDE_certified": false,
+  "goal_A_proved": false
+}
