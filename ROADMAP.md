@@ -1,8 +1,10 @@
 # 下一步研究任务
 
-本地任务更新：2026-10-20。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+本地任务更新：2026-10-21。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
 
 ## 当前优先任务
+
+[A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md)已给出两个旋转来源候选的具体光滑自由函数与完整空间约束 E0 实现。下一步应对这些重构后数据认证连续半径正性，并作实际 Cauchy 早期演化或强范数转移；它们尚未继承原种子的边缘球或通过筛选，不能直接作为 P01 的陷俘上端。
 
 | 优先项 | 现有入口 | 必须补足的证据 |
 |---|---|---|

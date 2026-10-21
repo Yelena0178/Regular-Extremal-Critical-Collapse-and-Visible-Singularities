@@ -2,7 +2,7 @@
 
 本文件整理原稿已有结论，不增添数学证明；具体假设以各证明正文为准。
 
-## 后续成果（2026-10-16 至 10-20）
+## 后续成果（2026-10-16 至 10-21）
 
 基础衔接：[10-11 至 10-12 阶段审查](reviews/README.md)中，16 实维消元材料记录了冻结有限八阶 jet 端点系统的内部根认证；后续共同 Cauchy、条带、强范数与发展接口仍为条件性推进，阶段 3 整体未闭合。该有限根证据不等于目标 A 的临界基点。
 
@@ -12,6 +12,7 @@
 | [A-GRID01](research/goal_a/FULL_TRANSPORT_GRID_CERTIFICATION.md)及[A-TRANSFER01](research/goal_a/THIN_ONSET_PARAMETER_TRANSFER.md) | 冻结 ε=0.05 中性实验 147456 单元认证；原 R=5 小参数路线条件性筛选 | 列明 binary64 假设；不是所有原光滑种子或完整未来的认证 |
 | A-EXIT01–23，见[研究首页](research/goal_a/README.md) | 完整出射约束至中心分析、I⁺、零 Bondi、局部二阶衰减及共同支撑类相对稳定出口 | 依赖前置分析和待复核适定性接口；不识别正质量端点 |
 | [A-AF03](research/goal_a/AF_REALIZATION_WITH_TRANSVERSE_FLUX.md) | 对两个旋转种子保留非零横向场的完整 AF 初值非有效实现稿 | 有限特征片段实现不证明真正形成或 RN 终态 |
+| [A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md) | 两个旋转来源候选的具体光滑自由函数及中心到 RN 外尾约束数值重求解 | E0；改变原种子，尚缺连续半径误差及重构后未来筛选；ADM 参数不作为终态 |
 | [A-CAUS01](research/goal_a/MARGINAL_SEED_CAUSAL_INTERFACE.md) | 条件性黑洞区、外部定理意义的完整 I⁺及正几何质量下界；提出逃逸见证接口 | 依赖 A-AF03；初始片全部逃逸仍缺 |
 | [A-END01](research/goal_a/FINITE_MARGINAL_TAIL_GATE.md) | 末端非零横向通量与曲率终态门槛 | 若边缘锥成为最终事件视界才阻碍目标 RN 收敛，因果身份未证 |
 | [A-PATH01](research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md) | 初始未陷俘的约束收缩路径及首个色散边界候选 | 依赖小数据链和陷俘上端；是否在 D 外、极端 RN 与右侧终态仍缺 |

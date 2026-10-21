@@ -10,7 +10,7 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 318,
+    "research": 351,
     "reviews": 314
   },
   "files": [
@@ -61,18 +61,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 5724,
-      "sha256": "c8db965d3d9bbe7b31d8db7e3aec853c60f6a6bfb2622dfdc2ee0bf41329f5ed"
+      "size_bytes": 5991,
+      "sha256": "44561198bc1508e2a7064b20690bcff83df853c5830b98a7a0e66b1a34db0f12"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 3587,
-      "sha256": "8de23d4fbec18376343443e34bc7f23cdcb816f4b8569dce96fe9586762eb216"
+      "size_bytes": 3961,
+      "sha256": "1b02609e31a796697b716f6fc4c350377f450860a1c1f0fbfc72888dfd8540f4"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 4259,
-      "sha256": "152acfa35553c112d593f362869bac64d35de3c438762516a2c80861424093c8"
+      "size_bytes": 4512,
+      "sha256": "f17d6764639aeb92883f40dbeaa8956673ed062f40395d203519e328301f1fb1"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -1691,8 +1691,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 27563,
-      "sha256": "d55b304260123c7ea6bbfcae9a668b4d5e3abfa3c81b18cb54b04ef6ab1449a5"
+      "size_bytes": 30662,
+      "sha256": "d9c3312acc13e6636ac8679f2d1d8123e22d7889db38c89676f70d1d68431d23"
     },
     {
       "path": "research/goal_a/FINITE_MARGINAL_TAIL_GATE.md",
@@ -2026,8 +2026,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 9138,
-      "sha256": "379c42d8f7b9107efec5311795accfa489db4fba1c3481cd122236c52a0de4b8"
+      "size_bytes": 9778,
+      "sha256": "f4b61ee0463b5d36168641eb7e423267ff6203a77834d6edd4cd90c482849229"
     },
     {
       "path": "research/goal_a/RESULTS_2026-10-16.json",
@@ -2038,6 +2038,156 @@
       "path": "research/goal_a/RETARDED_CAUCHY_BOUNDS.md",
       "size_bytes": 5485,
       "sha256": "0ada0c065dd3c07f880f5a131edf90551e61ccfdb62c7ce63b35fde42dbbdfb8"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_2026-10-21.json",
+      "size_bytes": 2974,
+      "sha256": "eb1d7f6eabe457e8e5f207eba3c61883168d65f5747430bdfa32a831cb21edd7"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_2026-10-21_S0.5.npz",
+      "size_bytes": 58524,
+      "sha256": "d8fa047359581e6326b6b79219c6d879e08175d7de45a52122a231e2a3f30382"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_2026-10-21_S0.npz",
+      "size_bytes": 36604,
+      "sha256": "d71a7f60b5dc05a49606779ac010ff4420a507c5fa671090966abc2eca8b4cf0"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_2026-10-21_S1.npz",
+      "size_bytes": 59617,
+      "sha256": "ad41e9c9628f6209bd8613564577993281bbc51532fe6afc24f1c4b685073868"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21.json",
+      "size_bytes": 1666,
+      "sha256": "b83a38ec6961b3a36ee8235fac4aaeec5bf65cd61bd3ac6d25b9e4365e07a26d"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21_S1.npz",
+      "size_bytes": 67534,
+      "sha256": "aad0558fc29c757358dd312614a78916afb99eec8555fa966d4e4c3c5825c3fd"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N96_2026-10-21.json",
+      "size_bytes": 1666,
+      "sha256": "4277fa51e47a7b5916a3c02a9d34f68aa110f716cdfc7a7866a43d70971714c5"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A020_W8_N96_2026-10-21_S1.npz",
+      "size_bytes": 32082,
+      "sha256": "ac77264c731113686f712da4e5a3adce373335324549504d1f954679009dd7b7"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_2026-10-21.json",
+      "size_bytes": 2982,
+      "sha256": "49695d66711b611dba94ff3bb7ada60d60c8b055a51ae6ed9b382ea504f56e6f"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_2026-10-21_S0.5.npz",
+      "size_bytes": 58957,
+      "sha256": "2839dfc85b2bc9156cab86e5333f803aca39cada59160811eb13c0cd136c7490"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_2026-10-21_S0.npz",
+      "size_bytes": 36815,
+      "sha256": "991589c343e1ffc21af53130f8afdb580eacaf6cc1a70dc69f631c4580ff0902"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz",
+      "size_bytes": 60338,
+      "sha256": "3b0c4fd7d121241fa9bf0c3d9b79d9a10de2e9e3924f706315e7c798f65a24ab"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21.json",
+      "size_bytes": 1667,
+      "sha256": "0203ccc21e632e1c36a87d1b6099397c9278a07e94cf869b53315c4218b28fed"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21_S1.npz",
+      "size_bytes": 66388,
+      "sha256": "bf5a218286c26a0f2192153dd95a6f4ae138f8b0d23de70ba95580e15338e8fc"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N96_2026-10-21.json",
+      "size_bytes": 1666,
+      "sha256": "3f8a16e8c267a059a6befa4402dc9585df644f24de6fc6e99364f1f13fe7b135"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_A030_W4_N96_2026-10-21_S1.npz",
+      "size_bytes": 32514,
+      "sha256": "7869c7adc51c547e6af5ba2415da3b61de264af23b5472b8f19f5adaaa2283ba"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json",
+      "size_bytes": 2868,
+      "sha256": "ff8eb9f8ff67bad7b53fb0406539261ed11a72ddaf34b2d4f82f4cdeda4bea99"
+    },
+    {
+      "path": "research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md",
+      "size_bytes": 9014,
+      "sha256": "ddb4f71cd57e0d25a2697a8448a06659b2e36775c4c7d5829a8f0915fc3a99c6"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json",
+      "size_bytes": 2974,
+      "sha256": "4d2bcdd9de45ec2c45e21c2bdef730afe7c240eefd7e88f8484ae93f1a317f91"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz",
+      "size_bytes": 151827,
+      "sha256": "492686919d3d4c50a489dbcc17774cb9232972fbb326a7544d6c6f13ac5bfc92"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json",
+      "size_bytes": 2945,
+      "sha256": "0e056212baa98c37f7f0069e0db7417d5abd0d3faf3e9e12fcb3e50293809d11"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.npz",
+      "size_bytes": 42426,
+      "sha256": "e33fdac8bc33ba33bd074aa5cf62e5c54312d743fbe7ca489444314b0c4038cc"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.json",
+      "size_bytes": 2969,
+      "sha256": "6a9b3fceb56294057d8981919126b7fee587dfefaf67546e3c83a78644934b51"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.npz",
+      "size_bytes": 79011,
+      "sha256": "82f2c1f8536102943c2b3af45296d57e876b1a551a9c22eba41905490adec2a2"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.json",
+      "size_bytes": 2974,
+      "sha256": "975d4b806a1497213081955fc479442f6270793921745d6561a99bb0dda170bd"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.npz",
+      "size_bytes": 151644,
+      "sha256": "f9fc1e80d54493ffed7dc1e108948ca3aa86fa31e52151d1e063d2a783c61f3b"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.json",
+      "size_bytes": 2973,
+      "sha256": "75e24bec044589e57340e0d6b015bf0a170127d6be9d3d4663d558ff0595fdb3"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.npz",
+      "size_bytes": 42402,
+      "sha256": "4c2efcb5add7563f6b8956690fd9c3f09338ae96dc80673484acaaa1cd52942a"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.json",
+      "size_bytes": 2979,
+      "sha256": "896a60db0571785f85cc701cd14a4f7a336822683f885897c782d8324eb4f5ae"
+    },
+    {
+      "path": "research/goal_a/ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.npz",
+      "size_bytes": 79001,
+      "sha256": "6e211ec9a7d68e746a16f0da968ff5197c37b23ebf34b629155a63306b1ddd34"
     },
     {
       "path": "research/goal_a/ROTATING_TERMINAL_FLUX_N2048_2026-10-20.json",
@@ -2690,6 +2840,16 @@
       "sha256": "988fcfe105d1a1a4b59d28e778ec402015fdab4b2b15f040800315239d77b2ab"
     },
     {
+      "path": "research/goal_a/rotating_af_numeric.py",
+      "size_bytes": 7808,
+      "sha256": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182"
+    },
+    {
+      "path": "research/goal_a/rotating_past_slice.py",
+      "size_bytes": 8594,
+      "sha256": "1cf6c2bd2f115e838fe6d209e096ef81bc6c9711a8a17eed35501e84cd530b9f"
+    },
+    {
       "path": "research/goal_a/second_jet_shooting.py",
       "size_bytes": 4771,
       "sha256": "e49eeb4058141f795fd21d174fb62a9abb0f840015a0fc354338e52fd092e47a"
@@ -2968,6 +3128,11 @@
       "path": "research/goal_a/verify_research.py",
       "size_bytes": 7853,
       "sha256": "f6bf1801b78dcc78a2a3a0030e59cf514dc20cbbda960df2d3c05d98feeec111"
+    },
+    {
+      "path": "research/goal_a/verify_rotating_af_interface.py",
+      "size_bytes": 6572,
+      "sha256": "37b40de0de2492edeb64352fc3f4b71f4c35c35675ccd809775168d15c418049"
     },
     {
       "path": "research/goal_a/verify_second_jet.py",

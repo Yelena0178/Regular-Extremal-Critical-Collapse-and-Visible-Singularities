@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **316** 个文件。
+本目录共列出 **349** 个文件。
 
-## 研究文档与阶段记录（64）
+## 研究文档与阶段记录（65）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [AF_OUTER_EXTENSION.md — A-AF01：两阶端点匹配后的外侧约束延拓接口](AF_OUTER_EXTENSION.md)
@@ -66,6 +66,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [RATIONAL_GOURSAT_CERTIFICATION.md — A-GOUR01：有限因果域的有理输运与逐单元误差管道](RATIONAL_GOURSAT_CERTIFICATION.md)
 - [README.md — 目标 A：当前进展与专题导航](README.md)
 - [RETARDED_CAUCHY_BOUNDS.md — A-RET01：小数据的迟时内部质量、电荷界](RETARDED_CAUCHY_BOUNDS.md)
+- [ROTATING_CAUCHY_AF_IMPLEMENTATION.md — A-AF04：旋转候选的具体空间数据与 AF 数值实现](ROTATING_CAUCHY_AF_IMPLEMENTATION.md)
 - [SCHNEIDER_2026_INTERFACE_AUDIT.md — A-SCH01：Schneider 有限耦合拼接剖面的接口审计](SCHNEIDER_2026_INTERFACE_AUDIT.md)
 - [SECOND_TRANSVERSE_JET.md — A-JET02：二阶横向输运与精确 RN 拼接的缺失条件](SECOND_TRANSVERSE_JET.md)
 - [SMALL_DATA_DISPERSION.md — A-SD01：L002/L006 小数据的完整色散接口](SMALL_DATA_DISPERSION.md)
@@ -75,7 +76,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [THIN_ONSET_PARAMETER_TRANSFER.md — A-TRANSFER01：极薄开启层、几何参数盒与原 R=5 小参数种子的筛选](THIN_ONSET_PARAMETER_TRANSFER.md)
 - [TWO_PULSE_SECOND_JET.md — A-JET03：两个无直接充电脉冲消去前两阶横向标量残差](TWO_PULSE_SECOND_JET.md)
 
-## 核验与认证脚本（59）
+## 核验与认证脚本（60）
 
 - [certify_early_charged_constraints.py](certify_early_charged_constraints.py)
 - [certify_onset_boundary.py](certify_onset_boundary.py)
@@ -132,12 +133,13 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_outgoing_strip_continuation.py](verify_outgoing_strip_continuation.py)
 - [verify_rational_transport_cell.py](verify_rational_transport_cell.py)
 - [verify_research.py](verify_research.py)
+- [verify_rotating_af_interface.py](verify_rotating_af_interface.py)
 - [verify_second_jet.py](verify_second_jet.py)
 - [verify_supported_exit.py](verify_supported_exit.py)
 - [verify_thin_parameter_transfer.py](verify_thin_parameter_transfer.py)
 - [verify_two_pulse_second_jet.py](verify_two_pulse_second_jet.py)
 
-## 构造、演化与探索脚本（47）
+## 构造、演化与探索脚本（49）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
@@ -180,6 +182,8 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [prepare_frozen_charged_reference.py](prepare_frozen_charged_reference.py)
 - [rational_transport_cell.py](rational_transport_cell.py)
 - [replay_charged_tubes.py](replay_charged_tubes.py)
+- [rotating_af_numeric.py](rotating_af_numeric.py)
+- [rotating_past_slice.py](rotating_past_slice.py)
 - [second_jet_shooting.py](second_jet_shooting.py)
 - [smooth_pulse_jet_repair.py](smooth_pulse_jet_repair.py)
 - [thin_boundary_certificate.py](thin_boundary_certificate.py)
@@ -187,7 +191,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（79）
+## JSON 证据与结果（92）
 
 - [AF_OUTER_EXTENSION_CHECKS_2026-10-17.json](AF_OUTER_EXTENSION_CHECKS_2026-10-17.json)
 - [AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json](AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json)
@@ -251,6 +255,19 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json](ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json)
 - [RATIONAL_TRANSPORT_CELL_CHECKS_2026-10-16.json](RATIONAL_TRANSPORT_CELL_CHECKS_2026-10-16.json)
 - [RESULTS_2026-10-16.json](RESULTS_2026-10-16.json)
+- [ROTATING_AF_A020_W8_N192_2026-10-21.json](ROTATING_AF_A020_W8_N192_2026-10-21.json)
+- [ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21.json](ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21.json)
+- [ROTATING_AF_A020_W8_N96_2026-10-21.json](ROTATING_AF_A020_W8_N96_2026-10-21.json)
+- [ROTATING_AF_A030_W4_N192_2026-10-21.json](ROTATING_AF_A030_W4_N192_2026-10-21.json)
+- [ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21.json](ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21.json)
+- [ROTATING_AF_A030_W4_N96_2026-10-21.json](ROTATING_AF_A030_W4_N96_2026-10-21.json)
+- [ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json](ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json](ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json](ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.json](ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.json](ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.json](ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.json)
+- [ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.json](ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.json)
 - [ROTATING_TERMINAL_FLUX_N2048_2026-10-20.json](ROTATING_TERMINAL_FLUX_N2048_2026-10-20.json)
 - [SECOND_JET_CHECKS_2026-10-16.json](SECOND_JET_CHECKS_2026-10-16.json)
 - [SHIFT_STRONG_SCAN_2026-10-16.json](SHIFT_STRONG_SCAN_2026-10-16.json)
@@ -269,7 +286,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/charged_floor_proposal_2026-10-17/manifest.json](checkpoints/charged_floor_proposal_2026-10-17/manifest.json)
 - [verification.json](verification.json)
 
-## 日志、数值数据与运行环境（67）
+## 日志、数值数据与运行环境（83）
 
 - [EARLY_CHARGED_A20_W8_N192_2026-10-17.npz](EARLY_CHARGED_A20_W8_N192_2026-10-17.npz)
 - [EARLY_CHARGED_A20_W8_N48_2026-10-17.npz](EARLY_CHARGED_A20_W8_N48_2026-10-17.npz)
@@ -279,6 +296,22 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [EARLY_CHARGED_A30_W4_N96_2026-10-17.npz](EARLY_CHARGED_A30_W4_N96_2026-10-17.npz)
 - [FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz](FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz)
 - [FROZEN_CHARGED_REFERENCE_N96_2026-10-17.npz](FROZEN_CHARGED_REFERENCE_N96_2026-10-17.npz)
+- [ROTATING_AF_A020_W8_N192_2026-10-21_S0.5.npz](ROTATING_AF_A020_W8_N192_2026-10-21_S0.5.npz)
+- [ROTATING_AF_A020_W8_N192_2026-10-21_S0.npz](ROTATING_AF_A020_W8_N192_2026-10-21_S0.npz)
+- [ROTATING_AF_A020_W8_N192_2026-10-21_S1.npz](ROTATING_AF_A020_W8_N192_2026-10-21_S1.npz)
+- [ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21_S1.npz](ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21_S1.npz)
+- [ROTATING_AF_A020_W8_N96_2026-10-21_S1.npz](ROTATING_AF_A020_W8_N96_2026-10-21_S1.npz)
+- [ROTATING_AF_A030_W4_N192_2026-10-21_S0.5.npz](ROTATING_AF_A030_W4_N192_2026-10-21_S0.5.npz)
+- [ROTATING_AF_A030_W4_N192_2026-10-21_S0.npz](ROTATING_AF_A030_W4_N192_2026-10-21_S0.npz)
+- [ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz)
+- [ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21_S1.npz)
+- [ROTATING_AF_A030_W4_N96_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N96_2026-10-21_S1.npz)
+- [ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz)
+- [ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.npz)
+- [ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.npz)
+- [ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.npz](ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.npz)
+- [ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.npz](ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.npz)
+- [ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.npz](ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.npz)
 - [af_outer_extension_checks.log](af_outer_extension_checks.log)
 - [af_outer_extension_checks_optimized.log](af_outer_extension_checks_optimized.log)
 - [alternative_candidates_validation.log](alternative_candidates_validation.log)

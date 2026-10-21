@@ -1,0 +1,85 @@
+{
+  "configuration": {
+    "amplitude": 0.2,
+    "frequency": 8.0,
+    "coupling": 0.6
+  },
+  "n": 192,
+  "depth": 1.1627651223337916,
+  "parameters": {
+    "radius": 14.534564029172396,
+    "cap": 9.630958755757522,
+    "scale": 36.30291718924878,
+    "cap_radius_ratio": 0.33131226834279914,
+    "initial_slope": 1.2488478194593595,
+    "charge_integral": 0.11466918879173066,
+    "minimum_sampled_H": 0.26529434826272746
+  },
+  "strip": {
+    "u_min": -1.1627651223337916,
+    "u_max": 0.0,
+    "v_min": 9.630958755757522,
+    "v_max": 50.4717405936624
+  },
+  "graph": {
+    "u_start": -0.38758837411126384,
+    "u_end": -0.6861060872535961,
+    "minimum_sampled_f": 0.0006219041117417889,
+    "minimum_sampled_lambda": 0.000282677307404764,
+    "minimum_sampled_expansion_out": 0.0008412836146015357,
+    "maximum_sampled_expansion_in": -0.0034190663563093107,
+    "maximum_tail_abs_ell": 1.5656035283569652e-19,
+    "final_radial_gauge_phase": 0.032604562650230075
+  },
+  "bulk_residuals": {
+    "radial_transport": 1.2458111594941534e-07,
+    "scalar_radial_gauge": 4.482761570068461e-05,
+    "charge": 0.00012552223391848472,
+    "hawking_mass": 0.00023335128679669026,
+    "radial_extrinsic_curvature": 0.00015397542299323743
+  },
+  "omitted_gauge_bulk_residual": 0.00489555807403837,
+  "algebraic_metric_identity": 1.7763568394002505e-14,
+  "terminal": {
+    "r": 14.916892242364678,
+    "Q": 14.534859430878207,
+    "m": 7.453550724981052,
+    "f": 0.0006563560454481143,
+    "D": 0.0006563560454481143,
+    "phi": {
+      "real": -0.005118203739960906,
+      "imag": 0.003783551130004335
+    },
+    "gradient": {
+      "real": 0.017636555920558572,
+      "imag": 0.03267678323442413
+    },
+    "chi": {
+      "real": 0.030966815503166194,
+      "imag": 0.026002736280764674
+    },
+    "ell": -0.0,
+    "radial_speed": 0.0005966913848581004,
+    "lam": 0.0002983456924290502,
+    "omega2": 1.0243208389885636,
+    "expansion_out": 0.003434957658772943,
+    "expansion_in": -0.003434957658772943
+  },
+  "iterations": {
+    "maximum_iterations": 6,
+    "maximum_last_change": 2.9995450567810167e-13
+  },
+  "evidence": "E0 interpolated actual-seed past strip and finite spatial graph",
+  "rigorous_PDE_error": false,
+  "complete_AF_free_data": false,
+  "certified_C_infinity_profile": false,
+  "critical_curve_located": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "rotating_past_slice.py": "1cf6c2bd2f115e838fe6d209e096ef81bc6c9711a8a17eed35501e84cd530b9f",
+    "early_charged_pulse_candidate.py": "77dbed4b59d03d6f10647c5ef1b7b454bd8620d842ebabbc9f1ac8903d9c707f",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

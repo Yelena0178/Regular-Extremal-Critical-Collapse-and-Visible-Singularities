@@ -18,6 +18,8 @@
 
 ## 专题导航
 
+2026-10-21 新增：[A-AF04 具体空间数据与 AF 实现](ROTATING_CAUCHY_AF_IMPLEMENTATION.md)把两个旋转种子的过去薄带接到光滑自由函数及完整空间约束重求解；[独立核验](verify_rotating_af_interface.py)与[报告](ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json)覆盖转换恒等式、负 u 已知解比较、加密和独立质量变量复算。结果为 E0 新初值；连续半径认证、原种子转移、重构后未来筛选与三分支仍缺。
+
 | 主题 | 研究入口 | 代码与证据入口 / 范围 |
 |---|---|---|
 | 初值与尾部障碍 | [A-IC01](INITIAL_DATA_AND_TAIL_OBSTRUCTION.md)、[A-INC01](INCOMING_CONSTRAINT_FAMILY.md)、[连续半径预算](EXACT_INITIAL_BUDGET.md)、[A-TAIL01](BONDI_TAIL_OBSTRUCTION.md) | [初值生成器](incoming_family.py)、[约束和平衡律复算](verify_research.py)；初值预算不证明未来命运，尾部论证有额外连续性前提 |
@@ -50,6 +52,7 @@
 - **10-17**：有限域认证、参数转移、新形状与带电工具；改为全局阈值主线。
 - **10-18**：出射出口与中心链推进至 A-EXIT23；保留横向回流的 A-AF03 实现。
 - **10-20**：终态门槛、全局因果接口、收缩路径与首个边界候选。
+- **10-21**：两个旋转来源候选的具体光滑自由函数、完整空间约束数值重求解及独立比较；尚未认证新初值的未来。
 
 当前优先任务见 [路线图](../../ROADMAP.md)。边界候选不自动在 D 外；初始未陷俘不等于整片逃逸；有限域计算不认证最终极端性。
 
