@@ -4,7 +4,7 @@
 
 ## 当前优先任务
 
-[A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md)已给出两个旋转来源候选的具体光滑自由函数与完整空间约束 E0 实现。下一步应对这些重构后数据认证连续半径正性，并作实际 Cauchy 早期演化或强范数转移；它们尚未继承原种子的边缘球或通过筛选，不能直接作为 P01 的陷俘上端。
+[A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md)已给出具体自由函数与约束 E0 实现；[A-AF05](research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md)对两组冻结规范数据完成列明算术假设下的全半径及整条收缩路径正性认证。下一步应演化这些确切定义的 Cauchy 初值，或取得到原特征域的强范数转移；它们尚未继承原种子的边缘球或通过早期未来筛选，不能直接作为 P01 的陷俘上端。
 
 | 优先项 | 现有入口 | 必须补足的证据 |
 |---|---|---|

@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **349** 个文件。
+本目录共列出 **357** 个文件。
 
-## 研究文档与阶段记录（65）
+## 研究文档与阶段记录（66）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [AF_OUTER_EXTENSION.md — A-AF01：两阶端点匹配后的外侧约束延拓接口](AF_OUTER_EXTENSION.md)
@@ -66,6 +66,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [RATIONAL_GOURSAT_CERTIFICATION.md — A-GOUR01：有限因果域的有理输运与逐单元误差管道](RATIONAL_GOURSAT_CERTIFICATION.md)
 - [README.md — 目标 A：当前进展与专题导航](README.md)
 - [RETARDED_CAUCHY_BOUNDS.md — A-RET01：小数据的迟时内部质量、电荷界](RETARDED_CAUCHY_BOUNDS.md)
+- [ROTATING_AF_CONTINUOUS_BARRIER.md — A-AF05：两组规范化光滑初值的连续半径认证](ROTATING_AF_CONTINUOUS_BARRIER.md)
 - [ROTATING_CAUCHY_AF_IMPLEMENTATION.md — A-AF04：旋转候选的具体空间数据与 AF 数值实现](ROTATING_CAUCHY_AF_IMPLEMENTATION.md)
 - [SCHNEIDER_2026_INTERFACE_AUDIT.md — A-SCH01：Schneider 有限耦合拼接剖面的接口审计](SCHNEIDER_2026_INTERFACE_AUDIT.md)
 - [SECOND_TRANSVERSE_JET.md — A-JET02：二阶横向输运与精确 RN 拼接的缺失条件](SECOND_TRANSVERSE_JET.md)
@@ -76,10 +77,11 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [THIN_ONSET_PARAMETER_TRANSFER.md — A-TRANSFER01：极薄开启层、几何参数盒与原 R=5 小参数种子的筛选](THIN_ONSET_PARAMETER_TRANSFER.md)
 - [TWO_PULSE_SECOND_JET.md — A-JET03：两个无直接充电脉冲消去前两阶横向标量残差](TWO_PULSE_SECOND_JET.md)
 
-## 核验与认证脚本（60）
+## 核验与认证脚本（62）
 
 - [certify_early_charged_constraints.py](certify_early_charged_constraints.py)
 - [certify_onset_boundary.py](certify_onset_boundary.py)
+- [certify_rotating_af_barrier.py](certify_rotating_af_barrier.py)
 - [certify_rotating_terminal_flux.py](certify_rotating_terminal_flux.py)
 - [certify_thin_onset_grid.py](certify_thin_onset_grid.py)
 - [certify_thin_parameter_grid.py](certify_thin_parameter_grid.py)
@@ -133,6 +135,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_outgoing_strip_continuation.py](verify_outgoing_strip_continuation.py)
 - [verify_rational_transport_cell.py](verify_rational_transport_cell.py)
 - [verify_research.py](verify_research.py)
+- [verify_rotating_af_barrier.py](verify_rotating_af_barrier.py)
 - [verify_rotating_af_interface.py](verify_rotating_af_interface.py)
 - [verify_second_jet.py](verify_second_jet.py)
 - [verify_supported_exit.py](verify_supported_exit.py)
@@ -191,7 +194,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（92）
+## JSON 证据与结果（95）
 
 - [AF_OUTER_EXTENSION_CHECKS_2026-10-17.json](AF_OUTER_EXTENSION_CHECKS_2026-10-17.json)
 - [AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json](AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json)
@@ -261,6 +264,9 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [ROTATING_AF_A030_W4_N192_2026-10-21.json](ROTATING_AF_A030_W4_N192_2026-10-21.json)
 - [ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21.json](ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21.json)
 - [ROTATING_AF_A030_W4_N96_2026-10-21.json](ROTATING_AF_A030_W4_N96_2026-10-21.json)
+- [ROTATING_AF_BARRIER_A020_W8_N4096_2026-10-21.json](ROTATING_AF_BARRIER_A020_W8_N4096_2026-10-21.json)
+- [ROTATING_AF_BARRIER_A030_W4_N4096_2026-10-21.json](ROTATING_AF_BARRIER_A030_W4_N4096_2026-10-21.json)
+- [ROTATING_AF_BARRIER_CHECKS_2026-10-21.json](ROTATING_AF_BARRIER_CHECKS_2026-10-21.json)
 - [ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json](ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json)
 - [ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json](ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json)
 - [ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json](ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json)
@@ -286,7 +292,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/charged_floor_proposal_2026-10-17/manifest.json](checkpoints/charged_floor_proposal_2026-10-17/manifest.json)
 - [verification.json](verification.json)
 
-## 日志、数值数据与运行环境（83）
+## 日志、数值数据与运行环境（85）
 
 - [EARLY_CHARGED_A20_W8_N192_2026-10-17.npz](EARLY_CHARGED_A20_W8_N192_2026-10-17.npz)
 - [EARLY_CHARGED_A20_W8_N48_2026-10-17.npz](EARLY_CHARGED_A20_W8_N48_2026-10-17.npz)
@@ -306,6 +312,8 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz)
 - [ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N192_TIGHT_2026-10-21_S1.npz)
 - [ROTATING_AF_A030_W4_N96_2026-10-21_S1.npz](ROTATING_AF_A030_W4_N96_2026-10-21_S1.npz)
+- [ROTATING_CANONICAL_A020_W8_2026-10-21.npz](ROTATING_CANONICAL_A020_W8_2026-10-21.npz)
+- [ROTATING_CANONICAL_A030_W4_2026-10-21.npz](ROTATING_CANONICAL_A030_W4_2026-10-21.npz)
 - [ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz)
 - [ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.npz)
 - [ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.npz](ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.npz)

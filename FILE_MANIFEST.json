@@ -10,7 +10,7 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 351,
+    "research": 359,
     "reviews": 314
   },
   "files": [
@@ -61,18 +61,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 5991,
-      "sha256": "44561198bc1508e2a7064b20690bcff83df853c5830b98a7a0e66b1a34db0f12"
+      "size_bytes": 6285,
+      "sha256": "f509948cad4909782403e9022c085ee4dc0036c83e470585a98d4b7cb138fa30"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 3961,
-      "sha256": "1b02609e31a796697b716f6fc4c350377f450860a1c1f0fbfc72888dfd8540f4"
+      "size_bytes": 4074,
+      "sha256": "4b065c064fcd8296a5a8e0e7f8e94aa20dd2134d1f110a65d542b13aee209624"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 4512,
-      "sha256": "f17d6764639aeb92883f40dbeaa8956673ed062f40395d203519e328301f1fb1"
+      "size_bytes": 4544,
+      "sha256": "8fa2c6a1c8e4f3fe042c7da405ddbb268c43fa3b59cf0aa0f3f4007c91e77a79"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -1691,8 +1691,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 30662,
-      "sha256": "d9c3312acc13e6636ac8679f2d1d8123e22d7889db38c89676f70d1d68431d23"
+      "size_bytes": 31408,
+      "sha256": "769fb9311c5db75ed4ad22511a274ab1511736692c2ee774fd7e88ac4155c574"
     },
     {
       "path": "research/goal_a/FINITE_MARGINAL_TAIL_GATE.md",
@@ -2026,8 +2026,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 9778,
-      "sha256": "f4b61ee0463b5d36168641eb7e423267ff6203a77834d6edd4cd90c482849229"
+      "size_bytes": 10343,
+      "sha256": "74f90e43b1fc104753f59423cb4a88bb6ef1ee99f8cbb5c33ab00b7670fd0801"
     },
     {
       "path": "research/goal_a/RESULTS_2026-10-16.json",
@@ -2120,14 +2120,44 @@
       "sha256": "7869c7adc51c547e6af5ba2415da3b61de264af23b5472b8f19f5adaaa2283ba"
     },
     {
+      "path": "research/goal_a/ROTATING_AF_BARRIER_A020_W8_N4096_2026-10-21.json",
+      "size_bytes": 239190,
+      "sha256": "522fbde77127b509f73df4fc4ab2f5710dbf36802b1d5d25fa632058b127170b"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_BARRIER_A030_W4_N4096_2026-10-21.json",
+      "size_bytes": 238971,
+      "sha256": "4f962c4e488f3ef6ec9fc00da3c67e0848aba47aff1a2636268420063afed5a1"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_BARRIER_CHECKS_2026-10-21.json",
+      "size_bytes": 1226,
+      "sha256": "193e59ff7454fabad742e7f9a6f7083bfbf68b786c7baaab7f72feea2f195865"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md",
+      "size_bytes": 9897,
+      "sha256": "88b6cd2d49a8a185ec48120cc9f23fd162419b7572fe57eda444b19c1d7ae84e"
+    },
+    {
       "path": "research/goal_a/ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json",
       "size_bytes": 2868,
       "sha256": "ff8eb9f8ff67bad7b53fb0406539261ed11a72ddaf34b2d4f82f4cdeda4bea99"
     },
     {
+      "path": "research/goal_a/ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
+      "size_bytes": 522978,
+      "sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e"
+    },
+    {
+      "path": "research/goal_a/ROTATING_CANONICAL_A030_W4_2026-10-21.npz",
+      "size_bytes": 514956,
+      "sha256": "1a71809aae2ed543874c2ff29a1ae1faeb5092e0755f13e149a0b5db8cf2c073"
+    },
+    {
       "path": "research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md",
-      "size_bytes": 9014,
-      "sha256": "ddb4f71cd57e0d25a2697a8448a06659b2e36775c4c7d5829a8f0915fc3a99c6"
+      "size_bytes": 9294,
+      "sha256": "401e2a93ea59300269738b1b365892b2990398ed425dbcb8a8664322351fe2cf"
     },
     {
       "path": "research/goal_a/ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json",
@@ -2333,6 +2363,11 @@
       "path": "research/goal_a/certify_onset_boundary.py",
       "size_bytes": 8430,
       "sha256": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47"
+    },
+    {
+      "path": "research/goal_a/certify_rotating_af_barrier.py",
+      "size_bytes": 12966,
+      "sha256": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
     },
     {
       "path": "research/goal_a/certify_rotating_terminal_flux.py",
@@ -3128,6 +3163,11 @@
       "path": "research/goal_a/verify_research.py",
       "size_bytes": 7853,
       "sha256": "f6bf1801b78dcc78a2a3a0030e59cf514dc20cbbda960df2d3c05d98feeec111"
+    },
+    {
+      "path": "research/goal_a/verify_rotating_af_barrier.py",
+      "size_bytes": 7324,
+      "sha256": "0129d8c038f4bf4c6e547a1c6a89d7f2f78e7ee5f367eced612a919faafb769f"
     },
     {
       "path": "research/goal_a/verify_rotating_af_interface.py",

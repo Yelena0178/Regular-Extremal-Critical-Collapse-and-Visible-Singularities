@@ -13,6 +13,7 @@
 | A-EXIT01–23，见[研究首页](research/goal_a/README.md) | 完整出射约束至中心分析、I⁺、零 Bondi、局部二阶衰减及共同支撑类相对稳定出口 | 依赖前置分析和待复核适定性接口；不识别正质量端点 |
 | [A-AF03](research/goal_a/AF_REALIZATION_WITH_TRANSVERSE_FLUX.md) | 对两个旋转种子保留非零横向场的完整 AF 初值非有效实现稿 | 有限特征片段实现不证明真正形成或 RN 终态 |
 | [A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md) | 两个旋转来源候选的具体光滑自由函数及中心到 RN 外尾约束数值重求解 | E0；改变原种子，尚缺连续半径误差及重构后未来筛选；ADM 参数不作为终态 |
+| [A-AF05](research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md) | 两组冻结规范数据各经 3,555,328 个闭区间屏障检查；完整 AF 及整条合法收缩路径有共同 f>3/10000 | 依赖列明算术假设；不保留原特征种子，不认证未来筛选、临界点或三分支 |
 | [A-CAUS01](research/goal_a/MARGINAL_SEED_CAUSAL_INTERFACE.md) | 条件性黑洞区、外部定理意义的完整 I⁺及正几何质量下界；提出逃逸见证接口 | 依赖 A-AF03；初始片全部逃逸仍缺 |
 | [A-END01](research/goal_a/FINITE_MARGINAL_TAIL_GATE.md) | 末端非零横向通量与曲率终态门槛 | 若边缘锥成为最终事件视界才阻碍目标 RN 收敛，因果身份未证 |
 | [A-PATH01](research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md) | 初始未陷俘的约束收缩路径及首个色散边界候选 | 依赖小数据链和陷俘上端；是否在 D 外、极端 RN 与右侧终态仍缺 |
