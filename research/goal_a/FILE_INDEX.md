@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **400** 个文件。
+本目录共列出 **422** 个文件。
 
-## 研究文档与阶段记录（67）
+## 研究文档与阶段记录（68）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [AF_OUTER_EXTENSION.md — A-AF01：两阶端点匹配后的外侧约束延拓接口](AF_OUTER_EXTENSION.md)
@@ -66,6 +66,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [PROGRESS_ARCHIVE_2026-10-20.md — 导航整理前的研究首页（保存于 2026-10-20）](PROGRESS_ARCHIVE_2026-10-20.md)
 - [RATIONAL_GOURSAT_CERTIFICATION.md — A-GOUR01：有限因果域的有理输运与逐单元误差管道](RATIONAL_GOURSAT_CERTIFICATION.md)
 - [README.md — 目标 A：当前进展与专题导航](README.md)
+- [REGULAR_AXIS_CAUCHY_SCREEN.md — A-AXIS01：正则轴线接口及补齐中心后的筛选](REGULAR_AXIS_CAUCHY_SCREEN.md)
 - [RETARDED_CAUCHY_BOUNDS.md — A-RET01：小数据的迟时内部质量、电荷界](RETARDED_CAUCHY_BOUNDS.md)
 - [ROTATING_AF_CONTINUOUS_BARRIER.md — A-AF05：两组规范化光滑初值的连续半径认证](ROTATING_AF_CONTINUOUS_BARRIER.md)
 - [ROTATING_CAUCHY_AF_IMPLEMENTATION.md — A-AF04：旋转候选的具体空间数据与 AF 数值实现](ROTATING_CAUCHY_AF_IMPLEMENTATION.md)
@@ -78,7 +79,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [THIN_ONSET_PARAMETER_TRANSFER.md — A-TRANSFER01：极薄开启层、几何参数盒与原 R=5 小参数种子的筛选](THIN_ONSET_PARAMETER_TRANSFER.md)
 - [TWO_PULSE_SECOND_JET.md — A-JET03：两个无直接充电脉冲消去前两阶横向标量残差](TWO_PULSE_SECOND_JET.md)
 
-## 核验与认证脚本（64）
+## 核验与认证脚本（66）
 
 - [certify_early_charged_constraints.py](certify_early_charged_constraints.py)
 - [certify_onset_boundary.py](certify_onset_boundary.py)
@@ -103,6 +104,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_center_higher_regularity.py](verify_center_higher_regularity.py)
 - [verify_center_integral_reconstruction.py](verify_center_integral_reconstruction.py)
 - [verify_center_weak_weight.py](verify_center_weak_weight.py)
+- [verify_centered_cauchy_diamond.py](verify_centered_cauchy_diamond.py)
 - [verify_charged_cauchy_diamond.py](verify_charged_cauchy_diamond.py)
 - [verify_charged_characteristic.py](verify_charged_characteristic.py)
 - [verify_charged_interval_kernel.py](verify_charged_interval_kernel.py)
@@ -137,6 +139,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_outgoing_strip_bootstrap.py](verify_outgoing_strip_bootstrap.py)
 - [verify_outgoing_strip_continuation.py](verify_outgoing_strip_continuation.py)
 - [verify_rational_transport_cell.py](verify_rational_transport_cell.py)
+- [verify_regular_axis_limits.py](verify_regular_axis_limits.py)
 - [verify_research.py](verify_research.py)
 - [verify_rotating_af_barrier.py](verify_rotating_af_barrier.py)
 - [verify_rotating_af_interface.py](verify_rotating_af_interface.py)
@@ -145,13 +148,14 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_thin_parameter_transfer.py](verify_thin_parameter_transfer.py)
 - [verify_two_pulse_second_jet.py](verify_two_pulse_second_jet.py)
 
-## 构造、演化与探索脚本（54）
+## 构造、演化与探索脚本（56）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
 - [audit_canonical_cauchy_screen.py](audit_canonical_cauchy_screen.py)
 - [audit_early_charged_refinement.py](audit_early_charged_refinement.py)
 - [canonical_cauchy_data.py](canonical_cauchy_data.py)
+- [centered_cauchy_diamond.py](centered_cauchy_diamond.py)
 - [charged_cauchy_diamond.py](charged_cauchy_diamond.py)
 - [charged_characteristic_screen.py](charged_characteristic_screen.py)
 - [charged_graded_screen.py](charged_graded_screen.py)
@@ -197,12 +201,13 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [rotating_past_slice.py](rotating_past_slice.py)
 - [second_jet_shooting.py](second_jet_shooting.py)
 - [smooth_pulse_jet_repair.py](smooth_pulse_jet_repair.py)
+- [summarize_centered_cauchy_screen.py](summarize_centered_cauchy_screen.py)
 - [thin_boundary_certificate.py](thin_boundary_certificate.py)
 - [thin_onset_reference.py](thin_onset_reference.py)
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（114）
+## JSON 证据与结果（125）
 
 - [AF_OUTER_EXTENSION_CHECKS_2026-10-17.json](AF_OUTER_EXTENSION_CHECKS_2026-10-17.json)
 - [AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json](AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json)
@@ -213,10 +218,13 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.json](CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.json)
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.json)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N2048_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N2048_2026-10-22.json)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N4096_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N4096_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.json)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N2048_2026-10-22.json](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N2048_2026-10-22.json)
 - [CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.json](CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.json)
 - [CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.json](CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.json)
 - [CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.json](CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.json)
@@ -224,7 +232,14 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.json](CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.json)
 - [CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.json](CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.json)
 - [CANONICAL_CAUCHY_SCREEN_AUDIT_2026-10-22.json](CANONICAL_CAUCHY_SCREEN_AUDIT_2026-10-22.json)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.json](CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.json)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.json](CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.json)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.json](CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.json)
+- [CANONICAL_CENTERED_A020_W8_S1001_T8_N1024_2026-10-22.json](CANONICAL_CENTERED_A020_W8_S1001_T8_N1024_2026-10-22.json)
+- [CANONICAL_CENTERED_A020_W8_S1001_T8_N2048_2026-10-22.json](CANONICAL_CENTERED_A020_W8_S1001_T8_N2048_2026-10-22.json)
 - [CAUSAL_ALGEBRA_RESULTS_2026-10-16.json](CAUSAL_ALGEBRA_RESULTS_2026-10-16.json)
+- [CENTERED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json](CENTERED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json)
+- [CENTERED_CAUCHY_SCREEN_SUMMARY_2026-10-22.json](CENTERED_CAUCHY_SCREEN_SUMMARY_2026-10-22.json)
 - [CERTIFIED_BOUNDARY_TUBE_FORECAST_2026-10-16.json](CERTIFIED_BOUNDARY_TUBE_FORECAST_2026-10-16.json)
 - [CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-21.json](CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-21.json)
 - [CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json](CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json)
@@ -283,6 +298,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [NULL_INFINITY_ALGEBRA_RESULTS_2026-10-16.json](NULL_INFINITY_ALGEBRA_RESULTS_2026-10-16.json)
 - [ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json](ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json)
 - [RATIONAL_TRANSPORT_CELL_CHECKS_2026-10-16.json](RATIONAL_TRANSPORT_CELL_CHECKS_2026-10-16.json)
+- [REGULAR_AXIS_LIMITS_CHECKS_2026-10-22.json](REGULAR_AXIS_LIMITS_CHECKS_2026-10-22.json)
 - [RESULTS_2026-10-16.json](RESULTS_2026-10-16.json)
 - [ROTATING_AF_A020_W8_N192_2026-10-21.json](ROTATING_AF_A020_W8_N192_2026-10-21.json)
 - [ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21.json](ROTATING_AF_A020_W8_N192_TIGHT_2026-10-21.json)
@@ -319,23 +335,29 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/charged_floor_proposal_2026-10-17/manifest.json](checkpoints/charged_floor_proposal_2026-10-17/manifest.json)
 - [verification.json](verification.json)
 
-## 日志、数值数据与运行环境（101）
+## 日志、数值数据与运行环境（107）
 
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.npz](CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.npz)
 - [CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.npz)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N2048_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N2048_2026-10-22.npz)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N4096_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N4096_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.npz)
+- [CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N2048_2026-10-22.npz](CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N2048_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.npz](CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.npz)
 - [CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.npz](CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.npz)
 - [CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.npz](CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.npz](CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.npz](CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.npz)
 - [CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.npz](CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.npz)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.npz](CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.npz)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.npz](CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.npz)
+- [CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.npz](CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.npz)
 - [EARLY_CHARGED_A20_W8_N192_2026-10-17.npz](EARLY_CHARGED_A20_W8_N192_2026-10-17.npz)
 - [EARLY_CHARGED_A20_W8_N48_2026-10-17.npz](EARLY_CHARGED_A20_W8_N48_2026-10-17.npz)
 - [EARLY_CHARGED_A20_W8_N96_2026-10-17.npz](EARLY_CHARGED_A20_W8_N96_2026-10-17.npz)

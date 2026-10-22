@@ -2,7 +2,7 @@
 
 本地进展截止：**2026-10-22**。[研究首页](research/goal_a/README.md)提供专题、核验入口及全部 A-EXIT01–23 文件；[完整索引](research/goal_a/FILE_INDEX.md)覆盖后续研究材料。
 
-最新归档：[规范 Cauchy 有限未来筛选](research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md)。A020_W8 的 s=1001/1000 完整初值通过连续屏障，合法路径延伸至该参数；t≤4 三档网格和 t≤8 单档有限楔区均无负 λ 样本。未来部分仅为 E0，未证明连续无陷俘、全局色散或三分支终态。按用户要求停止额外审查，保留已有结果及验证记录。
+最新进展：[正则轴线接口与中心筛选](research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md)补入旧计算遗漏的晚期中心区。A020_W8、s=1001/1000 在 t=6.25 的三档网格均出现约 −1.116 的负 λ，撤回“早期筛选通过”的工作假设；有限数值信号尚非实际陷俘证书。原[完整初值及外部楔区结果](research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md)仍保留。新增轴线精确极限、已知解测试、中心原始数据及数值停止报告；没有启动额外审查。
 
 ## 当前汇总
 

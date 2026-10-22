@@ -6,6 +6,8 @@
 
 ## 当前主线与最新进展
 
+**10-22 最新更正：** [A-AXIS01 正则轴线接口与中心筛选](REGULAR_AXIS_CAUCHY_SCREEN.md)补入晚期中心区后，s=1001/1000 的三档计算均出现强负 λ，不能再作为已通过早期筛选的候选。完整初值认证仍有效；实际陷俘与三分支均未证明。[轴线实现](centered_cauchy_diamond.py)、[精确极限检查](verify_regular_axis_limits.py)、[代数报告](REGULAR_AXIS_LIMITS_CHECKS_2026-10-22.json)、[已知解检查](verify_centered_cauchy_diamond.py)、[基准报告](CENTERED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json)、[结果汇总脚本](summarize_centered_cauchy_screen.py)及[三档中心记录汇总](CENTERED_CAUCHY_SCREEN_SUMMARY_2026-10-22.json)均已归档。
+
 自 10-17 采用 [全局阈值优先路线](GLOBAL_THRESHOLD_ROUTE.md)：先研究完整色散出口、形成侧及边界，再识别极端性和同一条合法初值曲线。形状扫描、有限域证书与横向匹配保留为工具。
 
 | 进展 | 已有内容与前提 | 未闭合项 |
