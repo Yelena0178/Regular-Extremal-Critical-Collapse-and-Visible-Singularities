@@ -1,6 +1,6 @@
 # 目标 A：当前进展与专题导航
 
-进展材料截止 **2026-10-20**。本目录自 2026-10-16 开始，基线为 main 提交 `3d5bf6b`。**目标 A 仍未解决**；现有解析稿未经外部独立数学复核。本页汇总本地材料，不表示远端已同步。
+进展材料截止 **2026-10-22**。本目录自 2026-10-16 开始，基线为 main 提交 `3d5bf6b`。**目标 A 仍未解决**；现有解析稿未经外部独立数学复核。本页汇总本地材料，远端同步状态以 Git 提交为准。
 
 [仓库地图](../../atlas-map.md) · [正式验收](ACCEPTANCE.md) · [当前任务](../../ROADMAP.md) · [完整文件索引](FILE_INDEX.md) · [复算说明](../../REPRODUCE.md) · [整理前阶段记录](PROGRESS_ARCHIVE_2026-10-20.md)
 
@@ -17,6 +17,8 @@
 | 10-18：A-EXIT01–23 出射出口与中心链 | 从完整出射壳约束推进到 I⁺、零 Bondi 两次极限、二阶局部衰减及共同支撑类相对稳定出口的内部论证 | 分析链独立复核、有限 Cauchy 适定性接口、连接正质量临界端点和形成侧 |
 
 ## 专题导航
+
+2026-10-22 新增：[规范 Cauchy 有限未来筛选与参数延伸](CANONICAL_CAUCHY_EARLY_SCREEN.md)。新候选 A020_W8，s=1001/1000，取得[完整初值区间证书](ROTATING_AF_BARRIER_A020_W8_S1001_N4096_2026-10-22.json)，并在 t≤4 三档网格及 t≤8 单档有限楔区保留正 λ 样本。[初始化](canonical_cauchy_data.py)、[演化器](charged_cauchy_diamond.py)、[基准检查](verify_charged_cauchy_diamond.py)、[测试记录](CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json)、[有限结果汇总脚本](audit_canonical_cauchy_screen.py)与[汇总记录](CANONICAL_CAUCHY_SCREEN_AUDIT_2026-10-22.json)均归档；未来结论仍是 E0，未认证连续无陷俘或三分支终态。历史源码及所有原始 JSON/NPZ 见完整索引。
 
 2026-10-21 新增：[A-AF04 具体空间数据与 AF 实现](ROTATING_CAUCHY_AF_IMPLEMENTATION.md)把两个旋转种子的过去薄带接到光滑自由函数及完整空间约束重求解；[独立核验](verify_rotating_af_interface.py)与[报告](ROTATING_AF_INTERFACE_CHECKS_2026-10-21.json)覆盖转换恒等式、负 u 已知解比较、加密和独立质量变量复算。结果为 E0 新初值；连续半径认证、原种子转移、重构后未来筛选与三分支仍缺。
 

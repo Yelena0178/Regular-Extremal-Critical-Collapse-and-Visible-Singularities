@@ -1,6 +1,8 @@
 # 下一步研究任务
 
-本地任务更新：2026-10-21。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+本地任务更新：2026-10-22。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+
+[最新有限筛选](research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md)已演化冻结 Cauchy 初值并保留 s=1001/1000 新候选，初值认证区间已相应延伸。下一数学缺口是带初始化误差的连续 PDE 控制与晚期中心覆盖；正样本不证明全局色散，原成员的负样本也尚未认证实际陷俘。本次按用户指令停止额外审查，先同步全部已有成果。
 
 ## 当前优先任务
 

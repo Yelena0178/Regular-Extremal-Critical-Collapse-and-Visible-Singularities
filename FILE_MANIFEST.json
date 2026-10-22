@@ -10,7 +10,7 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 359,
+    "research": 402,
     "reviews": 314
   },
   "files": [
@@ -61,18 +61,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 6285,
-      "sha256": "f509948cad4909782403e9022c085ee4dc0036c83e470585a98d4b7cb138fa30"
+      "size_bytes": 6810,
+      "sha256": "a8d37b790fcc67652bb83586c0b1ccaaff095658073fda9b9bfb9fcb841de6d8"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 4074,
-      "sha256": "4b065c064fcd8296a5a8e0e7f8e94aa20dd2134d1f110a65d542b13aee209624"
+      "size_bytes": 4486,
+      "sha256": "bcf7ff78f4e78ae6a7b7a31a553a0c8e4a0b8fc3e40860fd6236010cb9338698"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 4544,
-      "sha256": "8fa2c6a1c8e4f3fe042c7da405ddbb268c43fa3b59cf0aa0f3f4007c91e77a79"
+      "size_bytes": 4964,
+      "sha256": "1638d8f49b5a9682c35a3314ca399a0adc07b2ed344cf938f094b79f32b2a4e8"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -1455,6 +1455,166 @@
       "sha256": "8bdd7dae6ba64dc3ff857105707f1b94018d6b3cd2f354212c039d6a3fc31223"
     },
     {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.json",
+      "size_bytes": 5104,
+      "sha256": "a755263f924d876df4590ff750c19b27389e9cc9ecd1cdadb8e576e89060ebb2"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.npz",
+      "size_bytes": 716326,
+      "sha256": "2e1e5cee6b1dc68d2c9c588128ddd8e4eeb404dffe921f491266050e066d584d"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.json",
+      "size_bytes": 5104,
+      "sha256": "c7cfcfd65f6cb07b34b6faa5194cdfd22b5caa12a548bdd4a558c3009a8e4d4d"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.npz",
+      "size_bytes": 1412961,
+      "sha256": "5bcfd2a1cf92e8bf4997868ad443c48d1633f9aef36bed8ebd34ffbc8d3bac26"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.json",
+      "size_bytes": 5092,
+      "sha256": "08696f37a74010dbbba04ff021ccf79deaf42a2254693177375204a3b391b809"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N256_2026-10-21.npz",
+      "size_bytes": 184424,
+      "sha256": "8b3d234deb779570ec2f00c068a43678e5481f5b168cdb93af47a59b325133fd"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.json",
+      "size_bytes": 5088,
+      "sha256": "77b5084e81c8d8343f05981e7075b95199a479cbfc6796c7564ccce87f70c7a7"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.npz",
+      "size_bytes": 363272,
+      "sha256": "79c61cb380c67b136ac1fba9776478e5807b1f96a5ca15ab10fbe8f3cc9621b7"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.json",
+      "size_bytes": 5086,
+      "sha256": "d40ce5a99e808a8395560c776fee87d8e33ebd759cda53cda040a3db93415cd4"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S0999_CORE_T4_N512_2026-10-22.npz",
+      "size_bytes": 357707,
+      "sha256": "d30b0f556b05f7c01ce0cbb3db23ae54fecd3f78f9ae5946e417590fa1cba91c"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.json",
+      "size_bytes": 4934,
+      "sha256": "5cdba7cf50391de700db7978eb0c99fb373c208b8d458b0937e2f8a937711d1a"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.npz",
+      "size_bytes": 729931,
+      "sha256": "3790d6f22f8c485cda2b96cd39d401d4e3c077b3b42c5bc051c358d7a595eb5f"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.json",
+      "size_bytes": 4938,
+      "sha256": "df8ece0240136ee892743dc407923162ef9c942876223ce839ee8dcc11d72c6d"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.npz",
+      "size_bytes": 1439747,
+      "sha256": "68a829458fa210256c6f9962d09dd9bceb2fd057e771a24a4354987782c8b354"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.json",
+      "size_bytes": 4933,
+      "sha256": "d3da638c44af316fb551de8a0e075d84615447eb8bb1f04d1b1505791ed7a725"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.npz",
+      "size_bytes": 370031,
+      "sha256": "d322450de03a37f8f0560264b2ac4ca9a90498d7b256b9c20d944e2a92521842"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.json",
+      "size_bytes": 4934,
+      "sha256": "69c7347cef04e089da60cb839e26bb449c30902945ae5f10d40fd0c0cf498eb2"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.npz",
+      "size_bytes": 345408,
+      "sha256": "9e5703bfcc30ee31864922fe26eb25efa29a6ce68c6c1437b30d0d12fdbc056a"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.json",
+      "size_bytes": 4265,
+      "sha256": "3fae92e7c0759de6ed7ab516fc107f724c845722cfe2df9f8e16de248716e68c"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_T2_N128_2026-10-21.npz",
+      "size_bytes": 177159,
+      "sha256": "75ed9299bf3830fc83d964352381e818a328ee64d9e66783be4d7759411e52a7"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.json",
+      "size_bytes": 4279,
+      "sha256": "15ff3184f81168fea015d88fbdcba3880331c9b30530436828aa8314b75acb79"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A020_W8_T2_N256_2026-10-21.npz",
+      "size_bytes": 348655,
+      "sha256": "a6126796d2b756d2897c8231eef9a85f3e6e4ee7a240ef8299b9a7dc02a23e8e"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.json",
+      "size_bytes": 5081,
+      "sha256": "a8c6023ac96657267ac9ea180f5be6351ff7b6d90a9d5bd449660bacae421282"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.npz",
+      "size_bytes": 678471,
+      "sha256": "2f215a66a819e014e55d28d7043e57173df680652554c97939a17469f829b096"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.json",
+      "size_bytes": 5097,
+      "sha256": "4fbc45b48c30e2435ba64b9524082331b221614e61c7fbacb85588ea183ce42f"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.npz",
+      "size_bytes": 1340150,
+      "sha256": "c6d11383a7df090d342f6299f3d4dbfbde33825a56fe9d2eb7cbbfd42e56fb2a"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.json",
+      "size_bytes": 5070,
+      "sha256": "3e4b2df013658e639bbfda648a9de84699ca8ed58925b0bb5cbff6ea35601948"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.npz",
+      "size_bytes": 344128,
+      "sha256": "5a7cce5fedb9665aeb84d506b56e8f792aac393228301786761e2227bd4b59fd"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.json",
+      "size_bytes": 4260,
+      "sha256": "5c77250cf93a28dfdb4af5796a8dc6ef1b967d60ee4e1c412c37cf2da724b4c8"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_A030_W4_T2_N128_2026-10-21.npz",
+      "size_bytes": 167187,
+      "sha256": "29a1750a89fd03f97670143e5337f58a21938ab0a24041bef390c652bd1cb11d"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md",
+      "size_bytes": 6143,
+      "sha256": "f1eaa7998b21c52f5757367dfe0a7b8457c7c73616635dd75c9ff534a9bfdec6"
+    },
+    {
+      "path": "research/goal_a/CANONICAL_CAUCHY_SCREEN_AUDIT_2026-10-22.json",
+      "size_bytes": 24947,
+      "sha256": "87d7c11067498160dd5b1245ae1ec991bbae5ccb6962b392a07e5dc77ac5dd03"
+    },
+    {
       "path": "research/goal_a/CAUSAL_ALGEBRA_RESULTS_2026-10-16.json",
       "size_bytes": 1297,
       "sha256": "858a2bfe15e2077f48465d612935e98bf6ccada2c0e6905a73e7bbf09dc336e1"
@@ -1528,6 +1688,16 @@
       "path": "research/goal_a/CERTIFIED_BOUNDARY_TUBE_FORECAST_2026-10-16.json",
       "size_bytes": 2145,
       "sha256": "930e9be28a7bc8e2a62c7d089c728c3e747608229af40d426e7e5d1ff55d930a"
+    },
+    {
+      "path": "research/goal_a/CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-21.json",
+      "size_bytes": 14967,
+      "sha256": "05c9ea938b72ad270be09a279620ecffa14e9a42b95f249c0f57d7b65886f77c"
+    },
+    {
+      "path": "research/goal_a/CHARGED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json",
+      "size_bytes": 15408,
+      "sha256": "aeb25a4890d6aa0064930a86c5ce3b38ca17021ab4a9777edfa74e9e3ea9b4e1"
     },
     {
       "path": "research/goal_a/CHARGED_CHARACTERISTIC_CHECKS_2026-10-17.json",
@@ -1691,8 +1861,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 31408,
-      "sha256": "769fb9311c5db75ed4ad22511a274ab1511736692c2ee774fd7e88ac4155c574"
+      "size_bytes": 36210,
+      "sha256": "5612461527080943f0ebfff57fc5100e869f3de6d6f6f0d05a13a1202aa234a2"
     },
     {
       "path": "research/goal_a/FINITE_MARGINAL_TAIL_GATE.md",
@@ -2026,8 +2196,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 10343,
-      "sha256": "74f90e43b1fc104753f59423cb4a88bb6ef1ee99f8cbb5c33ab00b7670fd0801"
+      "size_bytes": 11122,
+      "sha256": "e4af246c1afdc30815c0acbfbb792c30ab429992435374b012faffe45248ecb0"
     },
     {
       "path": "research/goal_a/RESULTS_2026-10-16.json",
@@ -2121,18 +2291,23 @@
     },
     {
       "path": "research/goal_a/ROTATING_AF_BARRIER_A020_W8_N4096_2026-10-21.json",
-      "size_bytes": 239190,
-      "sha256": "522fbde77127b509f73df4fc4ab2f5710dbf36802b1d5d25fa632058b127170b"
+      "size_bytes": 239266,
+      "sha256": "bd32d8ea5426cc2e650209738745ebdd8cc362e6dd1081426de34fa5a3c9ccdb"
+    },
+    {
+      "path": "research/goal_a/ROTATING_AF_BARRIER_A020_W8_S1001_N4096_2026-10-22.json",
+      "size_bytes": 239320,
+      "sha256": "936c4c74218db8c7929e557d810fcf08e7d2f6963e334b4a2b1d842c610fd316"
     },
     {
       "path": "research/goal_a/ROTATING_AF_BARRIER_A030_W4_N4096_2026-10-21.json",
-      "size_bytes": 238971,
-      "sha256": "4f962c4e488f3ef6ec9fc00da3c67e0848aba47aff1a2636268420063afed5a1"
+      "size_bytes": 239045,
+      "sha256": "b3d2feead136bd93a27e6135e156f835a6415c61cb3fef256fc05bdf7d5ded33"
     },
     {
       "path": "research/goal_a/ROTATING_AF_BARRIER_CHECKS_2026-10-21.json",
       "size_bytes": 1226,
-      "sha256": "193e59ff7454fabad742e7f9a6f7083bfbf68b786c7baaab7f72feea2f195865"
+      "sha256": "eed4c2b8e041e73ad1efdc8b5d24503e0897329d60e80721d1f45cb7e2d12b36"
     },
     {
       "path": "research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md",
@@ -2148,6 +2323,11 @@
       "path": "research/goal_a/ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
       "size_bytes": 522978,
       "sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e"
+    },
+    {
+      "path": "research/goal_a/ROTATING_CANONICAL_A020_W8_S1001_REFERENCE_2026-10-22.npz",
+      "size_bytes": 522929,
+      "sha256": "6712c0ae1f912d64a09f45aa1ee1a33e812ddd900d6bfc38f7aaa65e70bdbc2c"
     },
     {
       "path": "research/goal_a/ROTATING_CANONICAL_A030_W4_2026-10-21.npz",
@@ -2350,9 +2530,19 @@
       "sha256": "b660b853dbdc768070f74d5eb17c033bf4d0290add65d3357e062e06b36d1634"
     },
     {
+      "path": "research/goal_a/audit_canonical_cauchy_screen.py",
+      "size_bytes": 6781,
+      "sha256": "2bf40130b19ecc79d9c21fa0515a416d3567a7089bc2ccb30e1c7b933b653d14"
+    },
+    {
       "path": "research/goal_a/audit_early_charged_refinement.py",
       "size_bytes": 3213,
       "sha256": "21fa0fd6277137eb037a2dccd88d28a0a228aca9e8abdf8ee2a1aca62aa25c08"
+    },
+    {
+      "path": "research/goal_a/canonical_cauchy_data.py",
+      "size_bytes": 7225,
+      "sha256": "bfd0b250ac9e5dfe5a367a10d073a8d7667fba47ef73be9651ae60350ccca4d9"
     },
     {
       "path": "research/goal_a/certify_early_charged_constraints.py",
@@ -2366,8 +2556,8 @@
     },
     {
       "path": "research/goal_a/certify_rotating_af_barrier.py",
-      "size_bytes": 12966,
-      "sha256": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
+      "size_bytes": 13495,
+      "sha256": "bca9a84587da700371c896400dd3d3ad81749b2adf1593bad85a75fd24038e87"
     },
     {
       "path": "research/goal_a/certify_rotating_terminal_flux.py",
@@ -2388,6 +2578,11 @@
       "path": "research/goal_a/certify_transport_grid.py",
       "size_bytes": 5220,
       "sha256": "52245fd0af576e15aaac127b69e2f07a1328dacb282b16de88c6107659e13ea9"
+    },
+    {
+      "path": "research/goal_a/charged_cauchy_diamond.py",
+      "size_bytes": 7524,
+      "sha256": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df"
     },
     {
       "path": "research/goal_a/charged_characteristic_checks.log",
@@ -2508,6 +2703,21 @@
       "path": "research/goal_a/check_neutral_screen.py",
       "size_bytes": 4100,
       "sha256": "b3548021ed9ea34f14926db8f8f79b72de9cb8b68a428d1341eaecb25c16401d"
+    },
+    {
+      "path": "research/goal_a/checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+      "size_bytes": 7075,
+      "sha256": "044888edb03408c662bfb631889086a613cf9885c6a7f8d8daa0c21f8c32f985"
+    },
+    {
+      "path": "research/goal_a/checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py",
+      "size_bytes": 12966,
+      "sha256": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
+    },
+    {
+      "path": "research/goal_a/checkpoints/canonical_cauchy_v1_2026-10-22/charged_cauchy_diamond.py",
+      "size_bytes": 7524,
+      "sha256": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df"
     },
     {
       "path": "research/goal_a/checkpoints/charged_floor_proposal_2026-10-17/FROZEN_CHARGED_FAILURE_DIAGNOSTIC_2026-10-17.json",
@@ -2993,6 +3203,11 @@
       "path": "research/goal_a/verify_center_weak_weight.py",
       "size_bytes": 1346,
       "sha256": "549697d84a635bc32416789af36c9f4935c2717715212adfc7bb1e0d1cfa66a9"
+    },
+    {
+      "path": "research/goal_a/verify_charged_cauchy_diamond.py",
+      "size_bytes": 6180,
+      "sha256": "dcb033cef0b731eac6fc2dffe113efd58b66545e23a9fe35e90ac524729a1705"
     },
     {
       "path": "research/goal_a/verify_charged_characteristic.py",

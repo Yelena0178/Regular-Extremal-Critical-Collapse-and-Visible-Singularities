@@ -11,6 +11,7 @@ import time
 from decimal import Decimal, localcontext
 from pathlib import Path
 from hashlib import sha256
+from fractions import Fraction
 import numpy as np
 from interval_transport_grid import V, down, up
 
@@ -131,7 +132,7 @@ def segments(data):
     return result
 
 
-def prepare(source, output, pieces=32):
+def prepare(source, output, pieces=32, parameter=Fraction(1)):
     from scipy.integrate import solve_ivp
     from rotating_af_numeric import SmoothFreeProfile
     from constraint_contraction import rhs
@@ -146,14 +147,14 @@ def prepare(source, output, pieces=32):
     fs, dfs = [], []
     state = np.array([0., 1.])
     for left, right, *_ in segments(data):
-        sol = solve_ivp(lambda r, y: rhs(r, y, smooth.profile, 1.), (left, right), state,
+        sol = solve_ivp(lambda r, y: rhs(r, y, smooth.profile, float(parameter)), (left, right), state,
                         method='DOP853', rtol=2e-12, atol=2e-14,
                         max_step=(right-left)/pieces, dense_output=True)
         require(sol.success, 'proposal integration')
         radii = np.linspace(left, right, pieces+1)
         states = sol.sol(radii).T
         fs.append(states[:, 1])
-        dfs.append([rhs(r, y, smooth.profile, 1.)[1] for r, y in zip(radii, states)])
+        dfs.append([rhs(r, y, smooth.profile, float(parameter))[1] for r, y in zip(radii, states)])
         state = states[-1]
     # Shared values and slopes are forced identical, so the canonical real
     # Hermite function is C1 even if dense-output endpoint rounding differs.
@@ -191,11 +192,14 @@ def barrier(coeff_f, coeff_df, length, n, epsilon):
     return V(np.array(low), np.array(high)), V(np.array(dlo), np.array(dhi))
 
 
-def certify(input_path, output, n=4096, epsilon=1/4096):
+def certify(input_path, output, n=4096, epsilon=1/4096, parameter=Fraction(1)):
     start = time.monotonic()
     with np.load(input_path) as raw:
         data = dict(raw)
     segs = segments(data)
+    parameter = Fraction(parameter)
+    require(parameter >= 0, 'negative profile parameter')
+    scale = V.rational(parameter)
     require(data['f'].shape == data['df'].shape and data['f'].shape[0] == len(segs)
             and data['f'].shape[1] >= 2 and np.all(np.isfinite(data['f']))
             and np.all(np.isfinite(data['df'])), 'nonfinite/malformed barrier')
@@ -212,6 +216,8 @@ def certify(input_path, output, n=4096, epsilon=1/4096):
         length = V(right)-V(left)
         r = V(left)+length*t
         val, der = fields(segment, t, H, Hp)
+        if parameter != 1:
+            val, der = scale*val, scale*der
         pr, pi, cr, ci, ell = [val[:, j] for j in range(5)]
         gr, gi = der[:, 0], der[:, 1]
         qprime = V.rational('3/5')*r*r*(pi*cr-pr*ci)
@@ -255,6 +261,7 @@ def certify(input_path, output, n=4096, epsilon=1/4096):
         require(float(numerator.lo) > 0, 'RN lower continuation monotonicity')
         tail = dict(lower_f=float(fend.lo), derivative_numerator_lower=float(numerator.lo))
     report = dict(status=status, input=input_path.name,
+        profile_parameter=dict(numerator=parameter.numerator, denominator=parameter.denominator),
         input_sha256=sha256(input_path.read_bytes()).hexdigest(), subdivisions_per_segment=n,
         epsilon=epsilon, segments_total=len(segs), segments_checked=len(records),
         minimum_certified_lower_f=min_f, minimum_comparison_gap=min_gap,
@@ -281,10 +288,11 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--prepare', action='store_true')
     parser.add_argument('--subdivisions', type=int, default=4096)
+    parser.add_argument('--parameter', type=Fraction, default=Fraction(1))
     args = parser.parse_args()
     if args.prepare:
-        prepare(args.input, args.output)
+        prepare(args.input, args.output, parameter=args.parameter)
     else:
-        result = certify(args.input, args.output, args.subdivisions)
+        result = certify(args.input, args.output, args.subdivisions, parameter=args.parameter)
         if result['status'] != 'PASS':
             raise SystemExit(1)

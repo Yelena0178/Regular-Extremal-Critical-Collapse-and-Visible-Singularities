@@ -1,0 +1,133 @@
+{
+  "completed": true,
+  "final_time": 2.0,
+  "time_steps": 128,
+  "initial_spatial_intervals": 1360,
+  "spacing": 0.03125,
+  "initial_x_left": 0.5,
+  "initial_x_right": 43.0,
+  "final_x_left": 2.5,
+  "final_x_right": 41.0,
+  "maximum_iterations": 7,
+  "maximum_change": 2.9414248814418897e-12,
+  "worst": {
+    "time": 2.0,
+    "x": 5.03125,
+    "radius": 14.560045743548743,
+    "lambda_value": 0.00019899184520040614,
+    "nu": -0.4971834268308433,
+    "Q": 14.523757167230402,
+    "f": 3.952929956518858e-05
+  },
+  "first_negative_sample": null,
+  "history": [
+    {
+      "time": 0.0,
+      "x": 7.03125,
+      "radius": 14.90596501073157,
+      "lambda_value": 0.0031354358960888344,
+      "nu": -0.049591504546837986,
+      "Q": 14.534665091107279,
+      "f": 0.0006219639339888339
+    },
+    {
+      "time": 0.25,
+      "x": 6.78125,
+      "radius": 14.881131952177583,
+      "lambda_value": 0.0025337553693195805,
+      "nu": -0.049728741856265066,
+      "Q": 14.53535144625567,
+      "f": 0.0005026536264761683
+    },
+    {
+      "time": 0.5,
+      "x": 6.5625,
+      "radius": 14.857871507118231,
+      "lambda_value": 0.002223901972384217,
+      "nu": -0.049851089963275745,
+      "Q": 14.531919651009868,
+      "f": 0.0004413464750466778
+    },
+    {
+      "time": 0.75,
+      "x": 6.3125,
+      "radius": 14.832932742602615,
+      "lambda_value": 0.0021483125511005483,
+      "nu": -0.049889526827408784,
+      "Q": 14.526949080567606,
+      "f": 0.0004263836545647104
+    },
+    {
+      "time": 1.0,
+      "x": 6.0625,
+      "radius": 14.80799414012052,
+      "lambda_value": 0.0020654672198552014,
+      "nu": -0.04985715976499225,
+      "Q": 14.52326954571497,
+      "f": 0.00040997872452741557
+    },
+    {
+      "time": 1.25,
+      "x": 5.8125,
+      "radius": 14.783078594855244,
+      "lambda_value": 0.0018876403805062906,
+      "nu": -0.04980531058164667,
+      "Q": 14.522390827525143,
+      "f": 0.00037471682435008535
+    },
+    {
+      "time": 1.5,
+      "x": 5.53125,
+      "radius": 14.756600495484454,
+      "lambda_value": 0.0013423731774701787,
+      "nu": -0.04973178093295188,
+      "Q": 14.523612076588067,
+      "f": 0.0002664268689289706
+    },
+    {
+      "time": 1.75,
+      "x": 5.28125,
+      "radius": 14.72070736554266,
+      "lambda_value": 0.0010656417908146453,
+      "nu": -0.14567794921802388,
+      "Q": 14.523358784703042,
+      "f": 0.00021153347218261231
+    },
+    {
+      "time": 2.0,
+      "x": 5.03125,
+      "radius": 14.560045743548743,
+      "lambda_value": 0.00019899184520040614,
+      "nu": -0.4971834268308433,
+      "Q": 14.523757167230402,
+      "f": 3.952929956518858e-05
+    }
+  ],
+  "evidence": "E0 second-order characteristic-foot trapezoidal Cauchy scheme",
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "initial_data": {
+    "canonical_input": "ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
+    "canonical_sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "parameter": 1.0,
+    "inner_radius": 2.504636782467196,
+    "outer_support_radius": 16.079685567920432,
+    "outer_support_proper_distance": 28.875158812007516,
+    "radius_max": 18.079685567920432,
+    "proper_distance_max": 43.02466739418984,
+    "ADM_mass": 14.550688965091686,
+    "ADM_charge": 14.551181450427215,
+    "initialization_tolerance": 2e-12,
+    "initial_gauge": "u=t-x, v=t+x; x initial proper distance; Omega^2=1; A_u=A_v=0",
+    "initialization_error_certified": false
+  },
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charged_cauchy_diamond.py": "a0efd160e0576334b9eed1d05199a43044542b60ee55e153b90a72ee903c7295",
+    "canonical_cauchy_data.py": "90954e556fc0fb79c5448cf9f46bac78cc56d345ede20e00eaa75ef602a35ced",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "certify_rotating_af_barrier.py": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
+  }
+}

@@ -1,6 +1,10 @@
 {
   "status": "PASS",
   "input": "ROTATING_CANONICAL_A030_W4_2026-10-21.npz",
+  "profile_parameter": {
+    "numerator": 1,
+    "denominator": 1
+  },
   "input_sha256": "1a71809aae2ed543874c2ff29a1ae1faeb5092e0755f13e149a0b5db8cf2c073",
   "subdivisions_per_segment": 4096,
   "epsilon": 0.000244140625,
@@ -7839,9 +7843,9 @@
   "original_seed_preserved": false,
   "early_future_screen_certified": false,
   "critical_three_branch_theorem": false,
-  "elapsed_seconds": 24.182789800001046,
+  "elapsed_seconds": 97.40695219999907,
   "source_sha256": {
-    "certify_rotating_af_barrier.py": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9",
+    "certify_rotating_af_barrier.py": "bca9a84587da700371c896400dd3d3ad81749b2adf1593bad85a75fd24038e87",
     "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3"
   }
 }

@@ -1,6 +1,8 @@
 # 当前成果状态
 
-本地进展截止：**2026-10-21**。[研究首页](research/goal_a/README.md)提供专题、核验入口及全部 A-EXIT01–23 文件；[完整索引](research/goal_a/FILE_INDEX.md)覆盖后续研究材料。
+本地进展截止：**2026-10-22**。[研究首页](research/goal_a/README.md)提供专题、核验入口及全部 A-EXIT01–23 文件；[完整索引](research/goal_a/FILE_INDEX.md)覆盖后续研究材料。
+
+最新归档：[规范 Cauchy 有限未来筛选](research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md)。A020_W8 的 s=1001/1000 完整初值通过连续屏障，合法路径延伸至该参数；t≤4 三档网格和 t≤8 单档有限楔区均无负 λ 样本。未来部分仅为 E0，未证明连续无陷俘、全局色散或三分支终态。按用户要求停止额外审查，保留已有结果及验证记录。
 
 ## 当前汇总
 
