@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "analytic": {
+    "general_rho_primitive_exact": true,
+    "smooth_H_perturbation_upper": "1/2^26",
+    "smoothed_H_lower": "1/1024",
+    "smoothed_geometry_inside_screen_box": true,
+    "physical_ramp_width_upper": "645/401734511064747568885490523085290650630550748445698208825344",
+    "two_jet_real_block_I_to_four_coefficient": "41/72000000000000",
+    "nonlinear_IFT_thresholds_effective": false
+  },
+  "independent_boundary_point_comparisons": 225,
+  "independent_exact_cells": [
+    [
+      3,
+      0
+    ],
+    [
+      16,
+      12
+    ],
+    [
+      31,
+      44
+    ]
+  ],
+  "exact_coefficient_comparisons": 288,
+  "wrong_denominator_rejected": true,
+  "continuous_s_partition_cells": 128,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_new_shape.py": "084cdead3138f1d5a7ed351b408845bfc4187895bd2c702d2093c3b2517b80bf",
+    "new_shape_constraints.py": "301eee19018420a972d278fc709ace1deb40e5c5e155b05f609852e9524f3721",
+    "new_shape_screen.py": "ff5ac1e6909f761f7f7d54bccaefd4139b90c6d03a27af0c56ccefeceb3cc693",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f",
+    "rational_transport_cell.py": "47766dea3f8dfd861edc079e0b55a6ea37ac46afcabfa1263c1b392a96edc2ac",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "graded_transport.py": "e1f539a8b18faf57adc4c5a38db5cf0ae6807ca4a373ea2b28b0da294b7c849f",
+    "thin_boundary_certificate.py": "a98aa6c920d4f596ac42fc02c680342ae1d1ee761fec38373156a4b2cf6f3317",
+    "thin_parameter_boundary.py": "0c85bdf78c09ef710dc5a1a3a4879cbbc71d17f7c0b3640a6b79b4d722ca7e8e",
+    "certify_onset_boundary.py": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "NEW_SHAPE_CONSTRAINTS.md": "3a8bbbf5c988da26c0ea08b9135ec6f6d47961eee246f2e695ee4b7ad81cd583"
+  }
+}

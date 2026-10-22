@@ -1,0 +1,25 @@
+[0.020869339766878783, 5.719196251372801, 0.0036489987140884412, 0.9999999999999997]
+{"stage": "exact_boundary", "piece": 0, "cells": 24, "errors": ["15049363280837136426433065964815518322104311655899/3138550867693340381917894711603833208051177722232017256448", "115790367963237513654170461511509828875048132329797521/6277101735386680763835789423207666416102355444464034512896", "11927322977433866121894940756942337709468727056751/6277101735386680763835789423207666416102355444464034512896", "608416823557926200425282998994409872489762452699/1569275433846670190958947355801916604025588861116008628224"], "display_errors": [4.795003782079077e-09, 1.8446469858928392e-05, 1.9001321756814128e-09, 3.8770556808281306e-10]}
+{"stage": "exact_boundary", "piece": 1, "cells": 24, "errors": ["140934439330866203553979276000524447810927609426842427/6277101735386680763835789423207666416102355444464034512896", "2311069457377198848810218993730783383869892883377975569641/6277101735386680763835789423207666416102355444464034512896", "119457060750791724598155998987848491433304049775536959/6277101735386680763835789423207666416102355444464034512896", "66293490342290621033571278555386460088842778369643233/6277101735386680763835789423207666416102355444464034512896"], "display_errors": [2.2452151529799028e-05, 0.36817460586128814, 1.9030607720974424e-05, 1.0561162322504053e-05]}
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys; sys.path.insert(0,'research/goal_a'); import frozen_charged_boundary as f; print([float(x.lo) for x in [f.F0,f.P0,f.H0,f.QFINAL]]); print(f.certify(24)[-1]['display_errors'])
+                                                                                                                                                          ~~~~~~~~~^^^^
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\frozen_charged_boundary.py", line 221, in certify
+    h=b-a;middle=boundary_jets(piece,I((a+b)/2));whole=boundary_jets(piece,I(a,b))
+                                                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\frozen_charged_boundary.py", line 161, in boundary_jets
+    rj=R*fj;kj=rj/(S*hj)
+               ~~^^~~~~~
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\frozen_charged_boundary.py", line 114, in __truediv__
+    def __truediv__(self,x):return self*self.lift(x).reciprocal()
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\frozen_charged_boundary.py", line 111, in reciprocal
+    c=[1/self.c[0]]
+       ~^~~~~~~~~~
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\verify_horizon_seed.py", line 70, in __rtruediv__
+    return self.lift(other) * self.reciprocal()
+                              ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Windows11\Documents\ChatGPT\Research\RECCVS\research/goal_a\verify_horizon_seed.py", line 63, in reciprocal
+    raise ZeroDivisionError("interval contains zero")
+ZeroDivisionError: interval contains zero

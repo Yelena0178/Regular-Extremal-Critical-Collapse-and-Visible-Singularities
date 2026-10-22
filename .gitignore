@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 checks/generated/
 .DS_Store
+research/goal_a/checkpoints/*.html

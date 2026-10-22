@@ -1,0 +1,9 @@
+{"configuration": {"amplitude": 0.1, "frequency": 2.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.1, "frequency": 4.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.1, "frequency": 8.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.2, "frequency": 2.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.2, "frequency": 4.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.2, "frequency": 8.0, "coupling": 0.6}, "n": 24, "endpoint_lambda": 0.05189130234425187, "minimum_sampled_lambda": -1.3782458142504492e-05, "parameters": {"radius": 14.534564029172396, "cap": 9.630958755757522, "scale": 36.30291718924878, "cap_radius_ratio": 0.33131226834279914, "initial_slope": 1.2488478194593595, "charge_integral": 0.11466918879173066, "minimum_sampled_H": 0.26529434826272746}}
+{"configuration": {"amplitude": 0.3, "frequency": 2.0, "coupling": 0.6}, "n": 24, "failure": "overflow encountered in multiply"}
+{"configuration": {"amplitude": 0.3, "frequency": 4.0, "coupling": 0.6}, "n": 24, "endpoint_lambda": 0.061755945323270084, "minimum_sampled_lambda": -8.084469543704787e-05, "parameters": {"radius": 12.969291026307372, "cap": 11.299493058916315, "scale": 26.774702255845522, "cap_radius_ratio": 0.4356249326195249, "initial_slope": 1.0322346148889234, "charge_integral": 0.12850869513884303, "minimum_sampled_H": 0.42202124045840256}}
+{"configuration": {"amplitude": 0.3, "frequency": 8.0, "coupling": 0.6}, "n": 24, "failure": "nonpositive flat cap"}

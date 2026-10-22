@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "exact_residual_components": 12,
+  "rational_Jacobian_comparisons": 144,
+  "independent_RHS_components": 12,
+  "U_components": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    10
+  ],
+  "scope": "outward kernel only",
+  "complete_rectangle_certified": false,
+  "goal_A_proved": false
+}

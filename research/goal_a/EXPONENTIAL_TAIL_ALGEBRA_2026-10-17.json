@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exact_identities": [
+    "raychaudhuri",
+    "positive_charge_flux",
+    "bessel_norm_derivative",
+    "cumulative_charge_derivative"
+  ],
+  "rational_Bessel_point_comparisons": 130,
+  "precision_digits": 220,
+  "scope": "null constraint identities only; no spacetime or critical curve proof",
+  "actual_smooth_onset_certified": false,
+  "complete_PDE_rectangle_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_exponential_tail_algebra.py": "1034057897ac44e1099bbff84c5e4525eac7f7f9d56cba90d8bbc8f76780f3a3",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f"
+  }
+}

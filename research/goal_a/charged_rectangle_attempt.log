@@ -1,0 +1,21 @@
+{"stage": "charged_cell_bounds", "piece": 0, "rows_complete": 4}
+{"stage": "charged_cell_bounds", "piece": 0, "rows_complete": 28}
+{"stage": "charged_cell_bounds", "piece": 0, "rows_complete": 52}
+{"stage": "charged_cell_bounds", "piece": 0, "rows_complete": 76}
+{"stage": "charged_tube_start", "piece": 0, "maximum_residuals": [0.0007626810873747362, 0.027078111167592192, 0.48101655275866656, 0.09814725692570937, 0.07036764778781751, 1.0076533633072409, 0.205602931901931, 0.0010303338408173062, 0.5452894215256935, 0.11126157851826905, 4.273284282098578e-15, 1.3269505459234086e-19], "boundary_errors": [1.875911165988639e-11, 2.3785545191233172e-08, 7.433748961371866e-12, 1.5168652835091879e-12]}
+{"stage": "charged_tube", "piece": 0, "diagonal": 0, "margin": 7.888568972316258e-13}
+{"stage": "charged_tube", "piece": 0, "diagonal": 32, "margin": 5.435855451597517e-13}
+{"stage": "charged_tube_failure", "failure": "charged compression failed on diagonal 55"}
+{
+  "status": "FAIL",
+  "scope": "attempted frozen C0 charged finite rectangle",
+  "complete_C0_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false,
+  "failure": "charged compression failed on diagonal 55",
+  "completed_pieces": [],
+  "prepared_cache": "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz",
+  "prepared_cache_sha256": "c41c13ae6e564a2d618d3271a7bc97c0177548993eb590bde94613cb2a588e3b",
+  "elapsed_seconds": 122.3547335000003
+}

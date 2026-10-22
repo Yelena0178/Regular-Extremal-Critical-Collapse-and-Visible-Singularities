@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "exact_homogeneous_identities": [
+    "radius_v_constraint_u",
+    "scalar_v_constraint_u",
+    "charge_v_constraint_u",
+    "mass_v_constraint_u"
+  ],
+  "u_direction_components": [
+    "r",
+    "kappa",
+    "theta_real",
+    "theta_imag",
+    "m",
+    "phi_real",
+    "phi_imag",
+    "Q"
+  ],
+  "v_direction_components": [
+    "nu",
+    "z_real",
+    "z_imag",
+    "A_u"
+  ],
+  "omitted_electromagnetic_mass_term_rejected": true,
+  "complete_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charged_u_constraints.py": "544d993f6ed08a041a78039b65336584f970f9ea7a13967e7cdf475e38aadda9",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}
