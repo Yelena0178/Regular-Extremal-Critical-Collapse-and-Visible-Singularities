@@ -1,0 +1,37 @@
+{
+  "symbolic_current_energy_and_null_decomposition": true,
+  "negative_control_rejected": true,
+  "opposite_direction_geometry_error": 0.0,
+  "direction_independent_charge_error": 2.469136006766348e-13,
+  "initial_constraint_residuals": [
+    {
+      "intervals": 512,
+      "gauss": 6.369872422693108e-08,
+      "hamiltonian": 3.886356160116844e-06
+    },
+    {
+      "intervals": 1024,
+      "gauss": 3.996015080111456e-09,
+      "hamiltonian": 2.4383220063178834e-07
+    },
+    {
+      "intervals": 2048,
+      "gauss": 2.50422207222125e-10,
+      "hamiltonian": 1.5851196619176555e-08
+    }
+  ],
+  "observer_preserves_vacuum_evolution": true,
+  "vacuum_mass_error": 0.0,
+  "nested_charge_enclosures": true,
+  "independent_60_digit_charge": "5.7684301785445396845716433719418412",
+  "high_precision_check_is_not_certificate": true,
+  "finite_PDE_error_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charge_preserving_shell.py": "d6077a4f726cd4348968b26ac903f61cea218785a10d13ae911b172827ba2373",
+    "charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3",
+    "certify_charge_shell_initial.py": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0",
+    "screen_charge_preserving_shell.py": "9cda548058d76daa5c8e2e4340c5551ee3ab46780a004b1d2b972858e6bac272",
+    "centered_cauchy_diamond.py": "1fffada927c6e1237736cfb2ebf50b8ecd768a2b92de46c6004c86390171a49f"
+  }
+}

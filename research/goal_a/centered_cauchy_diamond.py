@@ -35,7 +35,7 @@ def reconstruct_axis(foot, flow, h):
     return state, axis_flow(k, V), V, float(radial_defect)
 
 
-def evolve_centered(initial, initial_axis, initial_V, x_right, final_time, time_steps, axis_method='parity'):
+def evolve_centered(initial, initial_axis, initial_V, x_right, final_time, time_steps, axis_method='parity', observer=None):
     if time_steps < 8 or time_steps % 2 or final_time <= 0 or x_right <= final_time:
         raise ValueError('positive time, even steps >=8 and nonempty causal domain required')
     if axis_method not in ('parity', 'transport'):
@@ -62,6 +62,9 @@ def evolve_centered(initial, initial_axis, initial_V, x_right, final_time, time_
 
     def record(t):
         nonlocal worst, first_negative
+        if observer is not None:
+            # Read-only diagnostics on each accepted complete row, including t=0.
+            observer(float(t), x, state)
         positive = state[:, 0] > 0
         y, xp = state[positive], x[positive]
         lam = y[:, 1]*(1-2*y[:, 7]/y[:, 0])

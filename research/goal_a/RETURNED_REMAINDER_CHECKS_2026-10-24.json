@@ -1,0 +1,161 @@
+{
+  "claim_ids": [
+    "RETURN15.1",
+    "RETURN15.2",
+    "RETURN15.3",
+    "RETURN15.4",
+    "RETURN15.5"
+  ],
+  "logic": "PROVED for returned remainder rad_eta and full non-cutoff low-frequency body amplitude with explicit actual A/D/K/q inputs; main-return derivative/late cutoff/full-space/Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_DENSITY_CONVOLUTION_AND_LOG_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "outgoing E1 leading cancellation",
+    "retarded change of variables/Jacobian and radial primitives",
+    "source weight ratio and cone exponent margins",
+    "logarithmic absorption carries R^{-h}"
+  ],
+  "density_controls": [
+    {
+      "R": "4.0",
+      "z_over_R": "0.25",
+      "metric_target_normalized": "0.1635920486948154",
+      "electric_target_normalized": "0.2241927908309341"
+    },
+    {
+      "R": "4.0",
+      "z_over_R": "1.0",
+      "metric_target_normalized": "0.4855073076045056",
+      "electric_target_normalized": "0.6744882163517197"
+    },
+    {
+      "R": "4.0",
+      "z_over_R": "8.0",
+      "metric_target_normalized": "1.037541961313893",
+      "electric_target_normalized": "1.814944216045707"
+    },
+    {
+      "R": "4.0",
+      "z_over_R": "64.0",
+      "metric_target_normalized": "1.049863950560499",
+      "electric_target_normalized": "2.11651585101854"
+    },
+    {
+      "R": "16.0",
+      "z_over_R": "0.25",
+      "metric_target_normalized": "0.2348334925361821",
+      "electric_target_normalized": "0.3979604293922917"
+    },
+    {
+      "R": "16.0",
+      "z_over_R": "1.0",
+      "metric_target_normalized": "0.5925602326773864",
+      "electric_target_normalized": "0.9522948588812967"
+    },
+    {
+      "R": "16.0",
+      "z_over_R": "8.0",
+      "metric_target_normalized": "1.078291363048974",
+      "electric_target_normalized": "2.034504224188046"
+    },
+    {
+      "R": "16.0",
+      "z_over_R": "64.0",
+      "metric_target_normalized": "1.053805182554547",
+      "electric_target_normalized": "2.187474683046038"
+    }
+  ],
+  "convolution_controls": [
+    {
+      "R": "1.0",
+      "t_over_R": "0.0",
+      "amplitude_target_normalized": "2.666666666666667",
+      "derivative_target_normalized": "0.7272727272727273"
+    },
+    {
+      "R": "1.0",
+      "t_over_R": "1.0",
+      "amplitude_target_normalized": "3.670596836852324",
+      "derivative_target_normalized": "1.657097826690391"
+    },
+    {
+      "R": "1.0",
+      "t_over_R": "16.0",
+      "amplitude_target_normalized": "6.610996751589932",
+      "derivative_target_normalized": "3.571583170683505"
+    },
+    {
+      "R": "1.0",
+      "t_over_R": "128.0",
+      "amplitude_target_normalized": "8.453851948229486",
+      "derivative_target_normalized": "3.971620494121704"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "0.0",
+      "amplitude_target_normalized": "3.114692931185956",
+      "derivative_target_normalized": "1.109320201073688"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "1.0",
+      "amplitude_target_normalized": "4.408022106616943",
+      "derivative_target_normalized": "2.601069924535088"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "16.0",
+      "amplitude_target_normalized": "7.058394995996873",
+      "derivative_target_normalized": "3.801036211599865"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "128.0",
+      "amplitude_target_normalized": "8.629056256476187",
+      "derivative_target_normalized": "3.987382157065687"
+    }
+  ],
+  "log_gap_negative_controls": [
+    {
+      "h": "0.25",
+      "log_gain_at_exp_one_over_h": "1.839397205857212"
+    },
+    {
+      "h": "0.05",
+      "log_gain_at_exp_one_over_h": "7.725468264600289"
+    },
+    {
+      "h": "0.01",
+      "log_gain_at_exp_one_over_h": "37.15582355831567"
+    }
+  ],
+  "delay_removed_before_symbol_estimate": true,
+  "returned_remainder_amplitude_estimated_with_inputs": true,
+  "returned_remainder_derivative_estimated_with_inputs": true,
+  "all_non_cutoff_low_frequency_body_amplitude_estimated_with_inputs": true,
+  "analytic_uniform_kernel_bounds_machine_certified": false,
+  "leading_returned_derivative_tail_verified": false,
+  "full_body_future_cutoff_removed": false,
+  "negative_time_kernel_bound_uniform_in_radius_verified": false,
+  "actual_W_set_to_zero": false,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "full_spatial_A_or_high_frequency_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_returned_remainder_cone.py": "95ab668e9ee02dcfc21ef18fabb2459891c97c97be5fd8278b4f601561a5b5be",
+    "RETURNED_REMAINDER_CONE_ESTIMATE.md": "d5de99dc1840754b065aaed17a1b532cbe1fd3c5ac96159ba77a8f742c5447dd",
+    "PHYSICAL_TRACE_GREEN_AND_DELAY.md": "c3387eb8e838773be773b590f8d3777c31b72144ea0cc47cf4590ee9c4af253e",
+    "PHYSICAL_TRACE_LOW_FREQUENCY.md": "79992b88eea81b0d851ab386716fd8556ef90b6dea579cadc7443989beb4487e",
+    "ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

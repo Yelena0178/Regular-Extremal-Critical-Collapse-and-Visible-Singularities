@@ -1,10 +1,14 @@
 # 下一步研究任务
 
-本地任务更新：2026-10-22。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+本地任务更新：2026-10-27。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+
+恢复后的首要动作见 [检查点](research/goal_a/RECOVERY_CHECKPOINT.md)：[A-LOCAL23](research/goal_a/FULL_RN_FUTURE_LOCALIZATION.md)已将固定RN完整有限r的未来截断、体源和真实W滤波功能在过去窗全A中局部化。下一步合并CONE22，写出保留真实过去W边界算子的有限窗全A/D不等式，辨认最小充分迹条件并用实际方程或限定反控制审计。不能把未来功能存在改写成W点态尾，也不再重复同一截断缺口。实际A/D闭合、高频、强视界、精确极端及同一X⁶三分支仍OPEN。本持续目标仅本地保存，不提交或推送，旧同步措辞不构成本轮授权。
 
 [中心筛选更新](research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md)已补入晚期正则轴线数值更新，s=1001/1000 在三档网格均出现强负 λ，不再作为早期筛选通过候选。下一步应研究改变中心聚焦相关自由数据，或取得该有限负信号的连续陷俘证书；还需独立带电中心动态基准和带初始化误差的 PDE 控制。外部正样本不证明色散，中心负样本也尚未认证实际陷俘。继续保留全部结果并同步 GitHub，不启动额外审查。
 
 ## 当前优先任务
+
+[A-DIR01 保持电荷方向族](research/goal_a/CHARGE_PRESERVING_DIRECTION_FAMILY.md)已补整族初值正性与中心有限筛选。下一轮构造优先检验：在保持总电荷的同时改变其径向分布/到达时序，能否避开低电荷聚焦前沿，并在固定面积区域保留质量和电荷。不得把 d≈.7–.8 的有限数值过渡直接当作极端边界，也不得将较长坐标时间或初始 ADM 正下界当作正质量长期滞留。具体第二参数提案与未兑现条件见 A-DIR01 §5。
 
 [A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md)已给出具体自由函数与约束 E0 实现；[A-AF05](research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md)对两组冻结规范数据完成列明算术假设下的全半径及整条收缩路径正性认证。下一步应演化这些确切定义的 Cauchy 初值，或取得到原特征域的强范数转移；它们尚未继承原种子的边缘球或通过早期未来筛选，不能直接作为 P01 的陷俘上端。
 

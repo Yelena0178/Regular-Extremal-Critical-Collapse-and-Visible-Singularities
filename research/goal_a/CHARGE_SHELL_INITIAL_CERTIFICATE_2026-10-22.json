@@ -1,0 +1,35 @@
+{
+  "exact_parameters": {
+    "amplitude": "2/5",
+    "frequency": "3/20",
+    "radius": 10,
+    "width": 4,
+    "coupling": "3/5",
+    "direction_interval": [
+      "-1",
+      "1"
+    ]
+  },
+  "panels": 1024,
+  "charge_lower": "37763854010238077171652877902139153642519122363184608124962369354225874899550898392434056121288417701178498196696966977/6553600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "charge_upper": "7568825070905575627314685420670890223427494932226888423020141977854606848708012682385334395460511713351629218362849809/1310720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "charge_decimal_display": [
+    5.762306825292676,
+    5.7745552603954895
+  ],
+  "uniform_integrated_rS_upper": "5696/375",
+  "uniform_all_radius_f_lower": "7594122602197261284012811469220033580252185036933459860170801035237243/70000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "uniform_all_radius_f_lower_display": 1.0848746574567516e-07,
+  "certified_simpler_strict_f_lower": "1/10000000",
+  "uniform_ADM_mass_lower_display": 1.1858635696005198,
+  "claim": "conditional-on-arithmetic analytic initial-data certificate for the whole direction family",
+  "arithmetic_assumptions": [
+    "CPython Decimal.exp correctly rounded",
+    "Fraction exact integer arithmetic and directed Decimal input rounding"
+  ],
+  "numerical_ODE_used": false,
+  "future_focusing_certified": false,
+  "retained_mass_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0"
+}

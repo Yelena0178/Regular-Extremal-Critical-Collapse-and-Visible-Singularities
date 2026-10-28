@@ -1,8 +1,9 @@
 {
-  "snapshot_date": "2026-10-20",
+  "snapshot_date": "2026-10-27",
   "scope": "current tracked and non-ignored repository files; excludes itself and ignored generated outputs; bytes only",
   "historical_manifest": "checks/FILE_MANIFEST_2026-10-10.json",
   "directory_file_counts": {
+    ".agents": 12,
     "checks": 8,
     "definitions": 1,
     "experiments": 14,
@@ -10,10 +11,75 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 424,
+    "research": 618,
     "reviews": 314
   },
   "files": [
+    {
+      "path": ".agents/skills/math-research-goal-runner/README.md",
+      "size_bytes": 5450,
+      "sha256": "3389cc3c8794dc93a7def364f0fd47bd0c0032008363744df98d2fae6d68fd6b"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/SKILL.md",
+      "size_bytes": 4566,
+      "sha256": "fdd7daf9ae007a9198705622761839e9f4f19945913e33d9a87ea7acbbc42c20"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/VALIDATION.md",
+      "size_bytes": 2143,
+      "sha256": "86df599781101d77019d5298a8b9551c10e19d0bd235ee31fcfeb197b8ca9650"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/assets/CHECKPOINT-TEMPLATE.md",
+      "size_bytes": 1748,
+      "sha256": "a2b1f04f0264d1dda9b803c37739437a35119a907c4171471f8e1980e02a7f3f"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/assets/CLAIM-TEMPLATE.md",
+      "size_bytes": 1281,
+      "sha256": "17e008cd32fd94f916d8840b8b60528404faf5b0a36a30207436b86a2572b500"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/assets/GOAL-TEMPLATE.md",
+      "size_bytes": 1368,
+      "sha256": "8d8d1e5c379943871557365b3231c3d06ecf7225340b6118704eb402cdda7694"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/EVIDENCE-STANDARDS.md",
+      "size_bytes": 3045,
+      "sha256": "e8b0b2b693f9827fc0b9ce9cbde5d5c0424217507128dae19be0434d1e274ee0"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/GOAL-CONTROL.md",
+      "size_bytes": 3938,
+      "sha256": "687d30097f38390f131006b21a200f25e6ae1540879412d45371fbefc279403a"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/PROOF-AUDIT.md",
+      "size_bytes": 2245,
+      "sha256": "5984d12d16a8aa48ac33d5b6845c01513ca08f1c31b3460121dc42dc3c9cbbb5"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/RECCVS-PROFILE.md",
+      "size_bytes": 5898,
+      "sha256": "cfa60efbe1b99e99ccf01dc016a56a5647adacbe77bf33c609adff86f26008f9"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/RESEARCH-METHODOLOGY.md",
+      "size_bytes": 3307,
+      "sha256": "7f7cc7e03d31b96586073f65fbee4fb6248be095e57bd4bd70cede1b44f08777"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/scripts/validate_skill.py",
+      "size_bytes": 12066,
+      "sha256": "95c4b6bed6d2338eb77b4563f9ba8eba82092d0d8022f4fd323b039548472c6b"
+    },
+    {
+      "path": ".gitattributes",
+      "size_bytes": 16959,
+      "sha256": "c89f2e62e297d589fffc8cf0e83973986eb5153a1153ec986a3e6b57431c154b"
+    },
     {
       "path": ".gitignore",
       "size_bytes": 99,
@@ -61,18 +127,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 7345,
-      "sha256": "c5e184bca1702b3b193d9c922a58d0f19ff00da2b402a47e60fde757bfb17442"
+      "size_bytes": 24340,
+      "sha256": "b23e8358ed2a51e44b5081bfdf058bad8d67ed5c3f89599b1b23dbac62a7366f"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 4601,
-      "sha256": "b12f6d4957cd79d28031eadb2aa03f3d2372cb184d045d9c982ca8eb1ce65388"
+      "size_bytes": 5803,
+      "sha256": "a3bb5dbbd42a8e72bdbb12ab6db4ae1c28f1cab7ac1248b9a1f600b3f39aadeb"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 5076,
-      "sha256": "73ef795c62de09cc9819206e1cac319166faddfc22c52ea00a3b93c254fb9fcc"
+      "size_bytes": 19313,
+      "sha256": "3661828b6251cff5621e2b2fbbc35e25e177f57b3a30232e6310940618984a9b"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -117,7 +183,7 @@
     {
       "path": "checks/update_navigation.py",
       "size_bytes": 4497,
-      "sha256": "4fcbbd4591afe6ca09a268856009cc51a518761a60f1f3f98d8bfa7303de1ae3"
+      "sha256": "3aa7ad3218bba41d3498164c0d7885d6299ceb9f1906589ac0c6e1b066bae937"
     },
     {
       "path": "checks/verify_manifest.py",
@@ -1241,8 +1307,8 @@
     },
     {
       "path": "literature/COVERAGE.md",
-      "size_bytes": 9052,
-      "sha256": "441e0bfea152d9b9bb6b2c49a9f73a1cea7a3b08ef42abbce16b4f99e4f6c888"
+      "size_bytes": 10789,
+      "sha256": "f92787ffccf1bd6935fca594e892607bd0f92a7445342a63b492a77958ca10d4"
     },
     {
       "path": "literature/FOLLOWUP_2026-10-09.md",
@@ -1251,8 +1317,8 @@
     },
     {
       "path": "literature/LOCATORS.md",
-      "size_bytes": 23572,
-      "sha256": "73de1427ddf96f4361f3a22368a45bc2c9541381ae71e52e6ac1e397265a8a47"
+      "size_bytes": 25830,
+      "sha256": "1fe423450714791b2c749b0bd08a208c13fdc9a9f119d7582572f49108aa9b9c"
     },
     {
       "path": "literature/MANIFEST.json",
@@ -1266,8 +1332,8 @@
     },
     {
       "path": "literature/SOURCES.md",
-      "size_bytes": 2242,
-      "sha256": "0581be95f5517a9837c2d01170963a1dccc104a64b82d5a03fc8f8f44bc1faed"
+      "size_bytes": 4906,
+      "sha256": "28f4d10f7728a426e5a595fe790e6db5787c60a37a7642e6026698a6dda48795"
     },
     {
       "path": "proofs/INDEX.md",
@@ -1406,8 +1472,28 @@
     },
     {
       "path": "research/goal_a/ACCEPTANCE.md",
-      "size_bytes": 3854,
-      "sha256": "a339fd175e2721ecd28297ff561d902ea61a7ba1e9dd3795935c9095c5174dcb"
+      "size_bytes": 6224,
+      "sha256": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+    },
+    {
+      "path": "research/goal_a/ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md",
+      "size_bytes": 12655,
+      "sha256": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e"
+    },
+    {
+      "path": "research/goal_a/ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json",
+      "size_bytes": 5146,
+      "sha256": "fcda954c29670791adbaa5afa2ebef2bc25f6dc653f91d9455af6bba2e269f34"
+    },
+    {
+      "path": "research/goal_a/ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json",
+      "size_bytes": 3443,
+      "sha256": "d0106b8952143383e7ff9fa25dbce2ff92442083be4cf5683da16348a94b25e0"
+    },
+    {
+      "path": "research/goal_a/ACTUAL_BONDI_COMPLETENESS_BRIDGE.md",
+      "size_bytes": 12081,
+      "sha256": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743"
     },
     {
       "path": "research/goal_a/AF_OUTER_EXTENSION.md",
@@ -1448,6 +1534,71 @@
       "path": "research/goal_a/AREAL_SHIFT_RESULTS_2026-10-16.json",
       "size_bytes": 12512,
       "sha256": "35a33c16d95371ff2ff4b0e1310f1b9217555c34e8cc5b2a1f383b6b9b3bf3a5"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.json",
+      "size_bytes": 78618,
+      "sha256": "a3ca4848f7101ef65e2aeb62cf30b42bdffdbaca27a6b9bd1b5cfec0756a9cee"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.log",
+      "size_bytes": 3899,
+      "sha256": "9338abaef6ad5071a4686513cba506e1429607c371a73a67061c96f28a88e851"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.json",
+      "size_bytes": 171405,
+      "sha256": "079a2e38188ffa81f1651a0e7b1c9258dac83152b681e159bf7d29973d7a0529"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D05_T30_N1024_2026-10-22.json",
+      "size_bytes": 78393,
+      "sha256": "79c9eba315d99aa914305ca789117a5127eae1814c8a02ba83ae51eba02cb889"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D05_T30_N1024_2026-10-22.log",
+      "size_bytes": 4078,
+      "sha256": "ab530cde33598e5e12aa25d21cee7eda13211e44afa48987f3acb902bef753b5"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D08_T30_N1024_2026-10-22.json",
+      "size_bytes": 171499,
+      "sha256": "53ffb65c5c0e9b4c5f3f5c3cd80b9360bd9dc19f56140a0cb5c6571c8c97822b"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D08_T30_N1024_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D08_T60_N3072_2026-10-22.json",
+      "size_bytes": 422258,
+      "sha256": "c35794bf6feacb7c8ccca5840f28fd5d394f2b5cf0c10b2e6be761a1c5f71d76"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_BP2_D08_T60_N3072_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_CHECKS_2026-10-22.json",
+      "size_bytes": 2254,
+      "sha256": "2223a2673285e807d7a98de6e7a717c8b71f5943999dd99f8e1417d99645ebea"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_INITIAL_CERTIFICATE_2026-10-22.json",
+      "size_bytes": 1892,
+      "sha256": "1b2c5cf83c50180172c6e96c861a48108b332d98b60a2d7c3e6855ecc24ce212"
+    },
+    {
+      "path": "research/goal_a/BIASED_SHELL_INITIAL_SCAN_2026-10-22.json",
+      "size_bytes": 20408,
+      "sha256": "8ea02be333d768c499d9c14f76931aca659f0042bd49611f97c6449b55cab1da"
     },
     {
       "path": "research/goal_a/BONDI_TAIL_OBSTRUCTION.md",
@@ -1696,8 +1847,8 @@
     },
     {
       "path": "research/goal_a/CENTERED_CAUCHY_DIAMOND_CHECKS_2026-10-22.json",
-      "size_bytes": 9080,
-      "sha256": "40339680af3d4aa16339201a44df0a720232856aae2a88b12994e4745309bcbf"
+      "size_bytes": 8794,
+      "sha256": "61f7076894ce5031704d5bb7a859ac87a5a5316ec63e7631a74943ee8b507b8f"
     },
     {
       "path": "research/goal_a/CENTERED_CAUCHY_SCREEN_SUMMARY_2026-10-22.json",
@@ -1728,6 +1879,16 @@
       "path": "research/goal_a/CENTER_CONSTRAINT_PROPAGATION.md",
       "size_bytes": 3744,
       "sha256": "0f02f4c424ba3871a8e2d5faae12b5b5c350fdee325e7e5a6480dfe15c51e6f4"
+    },
+    {
+      "path": "research/goal_a/CENTER_ESCAPE_CHARACTERISTIC_EXTENSION.md",
+      "size_bytes": 11816,
+      "sha256": "f3049925a024a41cb52ac03cc16a4181d5e03619c7dd4689bd082fa552364326"
+    },
+    {
+      "path": "research/goal_a/CENTER_ESCAPE_EXTENSION_CHECKS_2026-10-23.json",
+      "size_bytes": 5634,
+      "sha256": "f95d9a070de63fc418b9a5e11ce2e051f678816b878cf1f785ab70c90d3ed79b"
     },
     {
       "path": "research/goal_a/CENTER_EVOLUTION_FLUX.md",
@@ -1840,6 +2001,116 @@
       "sha256": "59bfbef884162cf62d70b4a45d4180e4d94a9c022c5a6f5548fdbd13f228cca9"
     },
     {
+      "path": "research/goal_a/CHARGE_PRESERVING_DIRECTION_FAMILY.md",
+      "size_bytes": 10402,
+      "sha256": "3bdb28cdec57b057dd90e2adb40dcc35b95b1a6189238b23a0c3ed63c06157ca"
+    },
+    {
+      "path": "research/goal_a/CHARGE_PRESERVING_SHELL_CHECKS_2026-10-22.json",
+      "size_bytes": 1493,
+      "sha256": "558be54e6512519ef2bab188783288ae048f5bd7ea9690a8c3221966cb99f7bd"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_M05_T30_N768_2026-10-22.json",
+      "size_bytes": 29157,
+      "sha256": "7586b4b739ec5b94a363986881026529d8031726e39e17e19efd3df0786cbbc3"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P05_T13p5_N1536_2026-10-22.json",
+      "size_bytes": 218090,
+      "sha256": "1cd102b42a7ca68c9b38f5c0828ed33b52ea94a4aac5168d6762f82d12f07010"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P05_T13p5_N1536_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P05_T30_N768_2026-10-22.json",
+      "size_bytes": 65906,
+      "sha256": "8213ef8b9d20fb91ab85ce8be8b9da79355b7fa8d290a69ea0a9753b727c4a5e"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P06_T45_N1536_2026-10-22.json",
+      "size_bytes": 77181,
+      "sha256": "c653ca5ac9e2c305f3d0b6c817a194af6ce962a88d01e6177082cbbfef03aafd"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P06_T45_N1536_2026-10-22.log",
+      "size_bytes": 3698,
+      "sha256": "43e9a2eefa6e19685a322fe91f7626d075f1e2e1a0aa3e82b843d516dea2905d"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P07_T45_N1536_2026-10-22.json",
+      "size_bytes": 85655,
+      "sha256": "454720fa56562f3c1fc131a39b31486b4b38ac45b5b87b5681ce9aa940aac8fe"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P07_T45_N1536_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P08_T45_N1536_2026-10-22.json",
+      "size_bytes": 234449,
+      "sha256": "32fcd0959935e1a5988037256ec0c2ed72a7cf75d609a215b9d460f5ac4dd86b"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P08_T45_N1536_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P08_T45_N3072_2026-10-22.json",
+      "size_bytes": 419817,
+      "sha256": "f93649efe7449d6269873e370817fa7e7cab7254b56011931bca4b6c36ee81b4"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P08_T45_N3072_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_P10_T30_N768_2026-10-22.json",
+      "size_bytes": 140509,
+      "sha256": "e44cf7c0e228ea9e09d1552952082dd39cf9f29f0e14fd4e4e4af67917c8c186"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A04_W015_Z0_T30_N768_2026-10-22.json",
+      "size_bytes": 31107,
+      "sha256": "d774750b5594dd0a1a411ee8da097a0435f623861f70dde1d8b2c078ec16dbfc"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A05_W015_P10_T60_N1536_2026-10-22.json",
+      "size_bytes": 234979,
+      "sha256": "0c824b23086a0358ee3e84a1ea8434f799e059d0df20dce188c20fd512dfb51e"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_A05_W015_P10_T60_N1536_2026-10-22.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_AXIS_REGRESSION_2026-10-22.json",
+      "size_bytes": 9080,
+      "sha256": "389d1f5dbcdae3ec2e05dd938f6270244875cc3b6444399285a14e3b5154540d"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_INITIAL_CERTIFICATE_2026-10-22.json",
+      "size_bytes": 1727,
+      "sha256": "6521ea90b0b2721ca6d4ae8c00968412663df669b63ec1d8fffdf30d18ba3dc4"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_INITIAL_SCAN_2026-10-22.json",
+      "size_bytes": 6095,
+      "sha256": "b13524bf8a88f7277544244fc2a547af3d8c498eac098baff9eb98af3901d1ee"
+    },
+    {
+      "path": "research/goal_a/CHARGE_SHELL_SCREEN_SUMMARY_2026-10-22.json",
+      "size_bytes": 15221,
+      "sha256": "c4d8604fb13de50dd03d8541f4fb2df6fb8fb2838129384184540c5eead0d35e"
+    },
+    {
       "path": "research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md",
       "size_bytes": 10465,
       "sha256": "5687d95b211ae6ee5f766180d9140a2d258b28d0a8f87b0326fb8f04ecfbed6c"
@@ -1853,6 +2124,31 @@
       "path": "research/goal_a/CONTRACTION_IMPLEMENTATION_CHECKS_2026-10-20.json",
       "size_bytes": 1822,
       "sha256": "c00c48c6d808b76a0ca25608843a2daf5acabd0bcb3d5697730381bae3aa7e58"
+    },
+    {
+      "path": "research/goal_a/COULOMB_MELLIN_GATE_CHECKS_2026-10-23.json",
+      "size_bytes": 3054,
+      "sha256": "2ed3ef3111adc2f757dea69437a9a6b183e7d02ba38c5d2494ca4c00827748c9"
+    },
+    {
+      "path": "research/goal_a/COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md",
+      "size_bytes": 12644,
+      "sha256": "559f1a22cf5f0c92da754eebed0bb83226b626ef79fc30bc4a34e5dca30693ae"
+    },
+    {
+      "path": "research/goal_a/DLMF_KUMMER_EULER_RECEIPT_2026-10-24_R24.json",
+      "size_bytes": 1409,
+      "sha256": "48ce14cd3b708f5f27808303a45fd92552023863b5f7da0dc7226ebd0e9ced34"
+    },
+    {
+      "path": "research/goal_a/DLMF_MELLIN_GAMMA_RECEIPT_2026-10-24_R25.json",
+      "size_bytes": 706,
+      "sha256": "f300ecbe0de275ad3a65b2679fdea204fa863ad5f2884111ac17794adac41a4e"
+    },
+    {
+      "path": "research/goal_a/DLMF_WHITTAKER_RECEIPT_2026-10-23_R17.json",
+      "size_bytes": 1328,
+      "sha256": "33b2ce6ec14b3c1b174e6e86996369e18bfc9f29139079e9db4609f3641b37c9"
     },
     {
       "path": "research/goal_a/EARLY_CHARGED_A20_W8_N192_2026-10-17.npz",
@@ -1940,14 +2236,64 @@
       "sha256": "79c4fc0f6cbbca2c8bc4fa9e2adc980ec2d0db3575700f08d7958544c99f2116"
     },
     {
+      "path": "research/goal_a/EXTERIOR_TRACE_MULTIPLIER_AUDIT.md",
+      "size_bytes": 9913,
+      "sha256": "99171ca0c3e25c85e366206bf6b7935a42a6478b6865da80ec3586267c273ece"
+    },
+    {
+      "path": "research/goal_a/EXTERIOR_TRACE_MULTIPLIER_CHECKS_2026-10-23.json",
+      "size_bytes": 1534,
+      "sha256": "fe45ace635be75ddd18503f31921d55894eebd8ce72c126883100183339bd864"
+    },
+    {
+      "path": "research/goal_a/FAR_ZONE_RP_AND_COULOMB_BALANCE.md",
+      "size_bytes": 10152,
+      "sha256": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf"
+    },
+    {
+      "path": "research/goal_a/FAR_ZONE_RP_CHECKS_2026-10-23.json",
+      "size_bytes": 2271,
+      "sha256": "340d2c175f6dcbd64e31d0bbabde177bf9cecb05e1c5cf1cafc7fd2666b17880"
+    },
+    {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 38645,
-      "sha256": "2179d56e467a61173f85a917edab591fba93744eee14d610bf3587dca0f30024"
+      "size_bytes": 57841,
+      "sha256": "6fcdec51ba52aae6f27016b74e61ca36cd77a51e78aa4829a5d2becbf4f74f5d"
+    },
+    {
+      "path": "research/goal_a/FINITE_BONDI_CONSTRAINT_CHECKS_2026-10-23.json",
+      "size_bytes": 1228,
+      "sha256": "fd6b0742083e5f5659b50e05513251a83123e2a0ce8e620393dd3dff7e474d9d"
+    },
+    {
+      "path": "research/goal_a/FINITE_BONDI_EXTERIOR_REALIZATION.md",
+      "size_bytes": 8880,
+      "sha256": "3234644116d9ddb803125dfa200c575aaca78ee146806c76be4f5afa36d7957b"
+    },
+    {
+      "path": "research/goal_a/FINITE_MARGINAL_RIGIDITY.md",
+      "size_bytes": 8212,
+      "sha256": "52afd862d252f57c62843af3be3bcee5079dbeca056d469134a7c24d5daa0cd0"
+    },
+    {
+      "path": "research/goal_a/FINITE_MARGINAL_RIGIDITY_CHECKS_2026-10-23.json",
+      "size_bytes": 1168,
+      "sha256": "ceaa92c015e2d67f40d6bed74e35445b3ad4798f08874338500640bdf9372c8a"
     },
     {
       "path": "research/goal_a/FINITE_MARGINAL_TAIL_GATE.md",
       "size_bytes": 5726,
       "sha256": "b8eb60fafcf70da102dc79a0a4a79efb5fd342dff844828ff2deb70c5d43f051"
+    },
+    {
+      "path": "research/goal_a/FINITE_RADIUS_RN_GREEN_AND_LOCAL_BODY.md",
+      "size_bytes": 11751,
+      "sha256": "ed44730cdf73d8daf54339d95d2d4ce6da9250fa9d89ee5869d77eda536601b2"
+    },
+    {
+      "path": "research/goal_a/FINITE_RADIUS_RN_GREEN_CHECKS_2026-10-26.json",
+      "size_bytes": 36651,
+      "sha256": "7ce130449b7622e4032e600a884dbb976b04d63b3310120cc537a035b1bae89f"
     },
     {
       "path": "research/goal_a/FINITE_TIME_SCAN_2026-10-16.json",
@@ -2035,6 +2381,26 @@
       "sha256": "a1e4d309403cea7e81c033cf3913726fa51ccd197ab3e0c5c5c4e4de60ba9a1a"
     },
     {
+      "path": "research/goal_a/FULL_RN_FUTURE_LOCALIZATION.md",
+      "size_bytes": 11018,
+      "sha256": "4921e31d6931e0de2a714e0484d8a4549434af6950588e2043ce78f9b9e6b369"
+    },
+    {
+      "path": "research/goal_a/FULL_RN_FUTURE_LOCALIZATION_CHECKS_2026-10-27.json",
+      "size_bytes": 16391,
+      "sha256": "f19dde80e3471f035a7b610f4ca40ec507ac53a293ddf0451353aafb903166ae"
+    },
+    {
+      "path": "research/goal_a/FULL_SPACE_PHYSICAL_TRACE_AUDIT.md",
+      "size_bytes": 7626,
+      "sha256": "3e5118352f08c09cca31a04b185aafc13ea6b5be820077a47e7f134cc5a57132"
+    },
+    {
+      "path": "research/goal_a/FULL_SPACE_TRACE_CHECKS_2026-10-24.json",
+      "size_bytes": 10901,
+      "sha256": "cb92df6a360c8e1ab08da9f39db0bc89d7cf847d3a1878408c6535cbf805696c"
+    },
+    {
       "path": "research/goal_a/FULL_TRANSPORT_GRID_CERTIFICATE_2026-10-17.json",
       "size_bytes": 3463,
       "sha256": "842eebf6bcefedad5e7c719c2c6128fb61c74ba7d682fda8c352fb9ea13cdbb2"
@@ -2043,6 +2409,26 @@
       "path": "research/goal_a/FULL_TRANSPORT_GRID_CERTIFICATION.md",
       "size_bytes": 5657,
       "sha256": "da3bb4ae7fb7a0625f4538a016783e7c67bc352bf8ec3f08f62e32bad895828e"
+    },
+    {
+      "path": "research/goal_a/GLOBAL_COVARIANT_MORAWETZ.md",
+      "size_bytes": 9966,
+      "sha256": "e137fc5afc7d716a905d405d891d7e34495cf0aa52c9326777268bf6ea9738fa"
+    },
+    {
+      "path": "research/goal_a/GLOBAL_COVARIANT_MORAWETZ_CHECKS_2026-10-23.json",
+      "size_bytes": 1737,
+      "sha256": "32e6b122a9515489a45b57466dfd8e2bb099a3752cd7edb136531954c85cde32"
+    },
+    {
+      "path": "research/goal_a/GLOBAL_RN_SOURCE_NORM_AUDIT.md",
+      "size_bytes": 12007,
+      "sha256": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d"
+    },
+    {
+      "path": "research/goal_a/GLOBAL_RN_SOURCE_NORM_CHECKS_2026-10-23.json",
+      "size_bytes": 2135,
+      "sha256": "f4e44dcb4d997b25afc8d625ae4830705b80c0cca1b865f19feed6e4e9ed99dc"
     },
     {
       "path": "research/goal_a/GLOBAL_THRESHOLD_ROUTE.md",
@@ -2075,6 +2461,51 @@
       "sha256": "9a3103fc9c38e5d7cc0878676a4bce3adae103814cee6174282fbd456d435dd1"
     },
     {
+      "path": "research/goal_a/INCOMING_OPTICAL_D05_T13p5_N1536_2026-10-23.json",
+      "size_bytes": 4181783,
+      "sha256": "5a944eddccee981e7590fab58431af83781ac4ba2182de70ba20d6308f188ec2"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_D05_T13p5_N768_2026-10-23.json",
+      "size_bytes": 2095227,
+      "sha256": "68ed64c280f45d99df85547e28b821cbc7fffc464ea7c7e12f37f5f89ae9fff3"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_D08_T20_N1024_2026-10-23.json",
+      "size_bytes": 2369051,
+      "sha256": "6c26b0702500414dc5514e1941705db3b9bccaf12f5b2cf97aecb181d15d32f0"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_D08_T20_N2048_2026-10-23.json",
+      "size_bytes": 4731547,
+      "sha256": "00ac92efb59edaae00a040d9c11b56e6c87b280707e0458722fa6d298d7b3dff"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_DEPTH_CHECKS_2026-10-23.json",
+      "size_bytes": 2898,
+      "sha256": "f1936f13cd0d8e317beda00222b80e7a9245a7920270d62e47a165903e57c55a"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_DEPTH_GATE.md",
+      "size_bytes": 21851,
+      "sha256": "f12a9a8d1b5012f5ce0f8cd7b77a848143a8c02aaa620f6988ff5eee197e75d4"
+    },
+    {
+      "path": "research/goal_a/INCOMING_OPTICAL_SCREEN_AUDIT_2026-10-23.json",
+      "size_bytes": 12924,
+      "sha256": "e2dab959d8556a6080d61e176be6c0845075a4c86d3f34ee889148e3dc82833c"
+    },
+    {
+      "path": "research/goal_a/INFINITE_RADIAL_RN_BODY_CHECKS_2026-10-27.json",
+      "size_bytes": 47659,
+      "sha256": "4fefbea31b7fed0fbe848840325f35c749e46984f3a34c84618093bdb2c078ed"
+    },
+    {
+      "path": "research/goal_a/INFINITE_RADIAL_RN_BODY_TRANSFER.md",
+      "size_bytes": 12343,
+      "sha256": "fbba3505e553db17340f52bc9123a4acac910ccbfb3b71f5350e334820cff683"
+    },
+    {
       "path": "research/goal_a/INITIAL_DATA_AND_TAIL_OBSTRUCTION.md",
       "size_bytes": 8943,
       "sha256": "96903d37042a63aabaec1f4e203700c05ea25d4ba96b0b5397c6b12013504a84"
@@ -2085,9 +2516,49 @@
       "sha256": "625d1bc5bb33cc0c95b999d3137c8fc86c2c4f3c1384ed1cd03a7b69a168305d"
     },
     {
+      "path": "research/goal_a/LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md",
+      "size_bytes": 11073,
+      "sha256": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede"
+    },
+    {
+      "path": "research/goal_a/LOW_FREQUENCY_SHELL_CHECKS_2026-10-23.json",
+      "size_bytes": 3812,
+      "sha256": "ececc835b36357a2ec6ca972d510d0fedaaf7ecbd4a40cdb9847c3bce223b7a3"
+    },
+    {
+      "path": "research/goal_a/LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md",
+      "size_bytes": 10113,
+      "sha256": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5"
+    },
+    {
+      "path": "research/goal_a/LOW_FREQUENCY_SYMBOL_CHECKS_2026-10-23.json",
+      "size_bytes": 3455,
+      "sha256": "d8681b956c25c4ec1cfdb12130c0ab9f4e9d432cb7e6ebaceaeef11e2d3f79bb"
+    },
+    {
       "path": "research/goal_a/MARGINAL_SEED_CAUSAL_INTERFACE.md",
       "size_bytes": 8925,
       "sha256": "bb529281df90b581b55b381b0c287a1f3f28b3486dde9e339c51fd312892c930"
+    },
+    {
+      "path": "research/goal_a/MELLIN_CHARGE_BOOTSTRAP_CHECKS_2026-10-23.json",
+      "size_bytes": 3691,
+      "sha256": "8733c22d4457e37afa21956df9da5d9a4e4b4e37542a2b64dbfe7e6873ad2869"
+    },
+    {
+      "path": "research/goal_a/MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md",
+      "size_bytes": 10589,
+      "sha256": "67f53fb6e28fcfa2d876232132c44c52c4eb13d8c0b122cc2b071775b4a24e1a"
+    },
+    {
+      "path": "research/goal_a/MODULATED_BONDI_RADIAL_CHECKS_2026-10-23.json",
+      "size_bytes": 4350,
+      "sha256": "7a07166b2e30971b8574409a95659ecf80e505f6b4f36a616f797736579cb93b"
+    },
+    {
+      "path": "research/goal_a/MODULATED_BONDI_RADIAL_IMPROVEMENT.md",
+      "size_bytes": 10021,
+      "sha256": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23"
     },
     {
       "path": "research/goal_a/NEUTRAL_CAUSAL_SCREEN.md",
@@ -2185,6 +2656,11 @@
       "sha256": "32c80f391f4e8a503f5c602ccd7cf11dc52b3a9b6e38785678f48e68f6c0d42f"
     },
     {
+      "path": "research/goal_a/NULL_INNER_OPTICAL_BOOTSTRAP_CHECKS_2026-10-23.json",
+      "size_bytes": 2089,
+      "sha256": "3e82ee8a38f31fe77e7214d09eeddc4cf552b4947045e97f192c9490ce72667e"
+    },
+    {
       "path": "research/goal_a/ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json",
       "size_bytes": 2627,
       "sha256": "3137dc48c29461d0e60541f8da9cbb064dfd2452d996346d9f9db580dc24edc5"
@@ -2193,6 +2669,16 @@
       "path": "research/goal_a/ONSET_BOUNDARY_CERTIFICATION.md",
       "size_bytes": 5197,
       "sha256": "7a4b1dde310680578d76da4cb36d9faf056889f030af00895edaff59f5aa131f"
+    },
+    {
+      "path": "research/goal_a/ORDINARY_TIME_COMMUTATION_AND_ENERGY_GATE.md",
+      "size_bytes": 11837,
+      "sha256": "daa16162ae8fae1d655e16c292894a448830dcf0fd978b7d4cc5aa6883bbbb57"
+    },
+    {
+      "path": "research/goal_a/ORDINARY_TIME_COMMUTATION_CHECKS_2026-10-24.json",
+      "size_bytes": 15560,
+      "sha256": "3936979566772b0bc0b89eafb6be491f95b45f6e627872105b9b1f716973d1fa"
     },
     {
       "path": "research/goal_a/OUTGOING_BACKSCATTER_BUDGET.md",
@@ -2255,6 +2741,26 @@
       "sha256": "91c71a10fc3733c473348cb4b65b22b00f6de1ef8a1c007b039dca6ee0739e8b"
     },
     {
+      "path": "research/goal_a/PHYSICAL_TRACE_CHECKS_2026-10-24.json",
+      "size_bytes": 11707,
+      "sha256": "e3c4e3d4559da01dee6038db3e47ead1c0492fac3458df6f8707f0ff56184796"
+    },
+    {
+      "path": "research/goal_a/PHYSICAL_TRACE_GREEN_AND_DELAY.md",
+      "size_bytes": 7743,
+      "sha256": "c3387eb8e838773be773b590f8d3777c31b72144ea0cc47cf4590ee9c4af253e"
+    },
+    {
+      "path": "research/goal_a/PHYSICAL_TRACE_GREEN_CHECKS_2026-10-24.json",
+      "size_bytes": 5116,
+      "sha256": "42e8bc5e0382a69496dfa21137746ba33d8b710723553055e3cead1a02791b4c"
+    },
+    {
+      "path": "research/goal_a/PHYSICAL_TRACE_LOW_FREQUENCY.md",
+      "size_bytes": 7591,
+      "sha256": "79992b88eea81b0d851ab386716fd8556ef90b6dea579cadc7443989beb4487e"
+    },
+    {
       "path": "research/goal_a/POLAR_EVOLUTION.md",
       "size_bytes": 4606,
       "sha256": "207b52ec23626ac4bb781427664a184161674b2026e3ad5c340e9bf36c020508"
@@ -2263,6 +2769,11 @@
       "path": "research/goal_a/PROGRESS_ARCHIVE_2026-10-20.md",
       "size_bytes": 31737,
       "sha256": "6e8a33665b5e8b6b3b560eaa1aaa887123246d2f091646b156ab86084dd016a5"
+    },
+    {
+      "path": "research/goal_a/RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md",
+      "size_bytes": 7582,
+      "sha256": "af5914d7ca211ea874689e64fe8777b53ccf4154aecea161aee6d516023431ab"
     },
     {
       "path": "research/goal_a/RATIONAL_GOURSAT_CERTIFICATION.md",
@@ -2276,8 +2787,168 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 11846,
-      "sha256": "3a11775be8361f2620e09b6574193a82937cd736ce35dbad88f855141fbb6a55"
+      "size_bytes": 33707,
+      "sha256": "95f8488a048739e351e1596769b60bfad14052370d8237bc1f36c72e8c7c7e22"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_CHECKPOINT.md",
+      "size_bytes": 73170,
+      "sha256": "2b4ae8b4d28c4c875ad05074c69fa83d1b0e6f48d90584da2d26f2495ad6b20f"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23.json",
+      "size_bytes": 34145,
+      "sha256": "c3c7225ab4d13e4b55dd3055a0ff3f28d7b451a7c7815ed0699a3a61482dcde6"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R02.json",
+      "size_bytes": 47954,
+      "sha256": "53503265df6c29433af9038f5e507c44c0ac29e89572ca5950db033a097e5153"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R03.json",
+      "size_bytes": 51095,
+      "sha256": "d013bc2baf6b974045bcfa65d20cca0061ad9b25d0b0c24a81b25630ebf5115a"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R04.json",
+      "size_bytes": 53161,
+      "sha256": "00b311c34b5ff8a475437d97d0501df2efcb2f0ee961183dd27386bcecefbebc"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R05.json",
+      "size_bytes": 54663,
+      "sha256": "06707dbc1f76a5a5a81b0cbb2e43f1e2fc58b4af3978c941a828265f5fc8b81e"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R06.json",
+      "size_bytes": 55856,
+      "sha256": "8dd773edfcdb7ba297ce43935a06888e44dbc8a9b01d0af99725a1f19db9099c"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R07.json",
+      "size_bytes": 60675,
+      "sha256": "a56d0167c36987a23690e1e006558a0664f1f694a7e381e064405cc2fc6b08b9"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R08.json",
+      "size_bytes": 63431,
+      "sha256": "b752d55899f1be00843198c836e7825dbca970eaaab9194ad47ebb1720924848"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R09.json",
+      "size_bytes": 67571,
+      "sha256": "6d1c5d1482bace74ae427f8894803db45a5a4a3132ed045d8e8d769b9aa05e23"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R10.json",
+      "size_bytes": 71095,
+      "sha256": "2c296412ca75b2005135a80dbda5f42233ec1cff53e6e99fd2dd9949f349b33d"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R11.json",
+      "size_bytes": 72758,
+      "sha256": "1c83fed35964eb40ff0c94f491375d9c3e8834b4fff7d1638f226dcd0e07d062"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R12.json",
+      "size_bytes": 75690,
+      "sha256": "76dc8df0880d1e13bdd0138b921a48e97120192f4519ca3a8727be18b65d256b"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R13.json",
+      "size_bytes": 78380,
+      "sha256": "62c0b59dc2c986162ca63e1f9e6f7942959774778f413b11bd78f179820f532a"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R14.json",
+      "size_bytes": 81273,
+      "sha256": "d38f7f0c028353712a768d43fa7465f7668963695720cd7275fb64134c689bf4"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R15.json",
+      "size_bytes": 84473,
+      "sha256": "9787c2967938829e675095ae52b35c7c7c7cc0e0cb9be8420a91c9290f437510"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R16.json",
+      "size_bytes": 86987,
+      "sha256": "95a4ed11073b3f22851356e5541b95344ba291f90764dcc51ca555b1aef2075c"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R17.json",
+      "size_bytes": 90279,
+      "sha256": "baac16f773b19f0045b5d5d374b186178dc747186de590319c8b32aab15c5c34"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R18.json",
+      "size_bytes": 93259,
+      "sha256": "311f49ec71234b8c568c1a4c94176d11a93eac292fd37d37f01236c46c5afe01"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R19.json",
+      "size_bytes": 96983,
+      "sha256": "99e852aca5b58972980d15cf425844ba79c62549be4e640e21779c5b3f0a0ebe"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R20.json",
+      "size_bytes": 99241,
+      "sha256": "f85845e6746011af50fce5e92ed199587f71ff320e657e1c59298c33d17f41a4"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R21.json",
+      "size_bytes": 102488,
+      "sha256": "081b449004a6526e7bd4a1f956153bfc5fe2aeba08475ce2e9eef40d632598a0"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R22.json",
+      "size_bytes": 105403,
+      "sha256": "c7b54b8b72d9997da0053cec19a4d856a9d6c29158c0c6d44d6083efb684ad7c"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R23.json",
+      "size_bytes": 108405,
+      "sha256": "b2a3bf652811ceaf4181a3cae2e8ee81f0d0c8f0d10f2286690b9045f7633d06"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R24.json",
+      "size_bytes": 112195,
+      "sha256": "daf73508d71af3fbcde8b92d9a29d35f9593e75b2d07c57be0534cd0a625e4d4"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R25.json",
+      "size_bytes": 114977,
+      "sha256": "8f28ae1197ca507bfdfd7f49dc2d5d0142747e66b7be6c1c280efefdf6b94df7"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R26.json",
+      "size_bytes": 117548,
+      "sha256": "f6f1069ad88ce1f8d72ce423be844c0f0678b65e6e7768b4992424ea1b1b0172"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-24_R27.json",
+      "size_bytes": 120708,
+      "sha256": "4fb62f44098de225d58fbaf676dfe23aa54bfeb429d05fea1075d364dbdd5db2"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-26_R28.json",
+      "size_bytes": 124069,
+      "sha256": "6d981f637accfa1e85fd47731bce2cdcece4ccb3a4d7ff83b98e92bd5f7a96fa"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-26_R29.json",
+      "size_bytes": 126800,
+      "sha256": "8f3d11c00dc071baee0f6b52ae8a5330ff24c7eacd3575365e5384087b918200"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-27_R30.json",
+      "size_bytes": 130222,
+      "sha256": "dabf842ecc3f2f527a28cbcbb96e154399d3643a9d0690275fc36360f747067d"
+    },
+    {
+      "path": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-27_R31.json",
+      "size_bytes": 133207,
+      "sha256": "ba836413d8a314f7701f22b70b73139a56e77576b7274e230d9581f8a014537d"
     },
     {
       "path": "research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md",
@@ -2290,6 +2961,26 @@
       "sha256": "52e2ff0367d2084415b2bd7c9aa0ada4a30f4a0ad00316d534ab3d5f95d5b510"
     },
     {
+      "path": "research/goal_a/REGULAR_CENTER_BONDI_MATCHING.md",
+      "size_bytes": 12469,
+      "sha256": "19aef127c5f18d9e9405a8d3de1b336d406824543815cd4c64f16254499be2cc"
+    },
+    {
+      "path": "research/goal_a/REGULAR_CENTER_MATCHING_CHECKS_2026-10-23.json",
+      "size_bytes": 4601,
+      "sha256": "001a3f4d443ce08158c0d5428561c7f052a15b517982e431c48a3882a14e9cb8"
+    },
+    {
+      "path": "research/goal_a/REGULAR_EF_INVERSION_AND_TRANSVERSE_GATE.md",
+      "size_bytes": 8066,
+      "sha256": "b122d3df7bceeb138b91aa8bfdf7b80eb9531d4bf8f4bfd8c608ff526e8abbe9"
+    },
+    {
+      "path": "research/goal_a/REGULAR_EF_INVERSION_CHECKS_2026-10-23.json",
+      "size_bytes": 1563,
+      "sha256": "f1b91299888152da3c533d2083f4bd15eb118921c4df2a46a68923e9cf4fe507"
+    },
+    {
       "path": "research/goal_a/RESULTS_2026-10-16.json",
       "size_bytes": 9284,
       "sha256": "e2d91dc25903a37c2f1ff34f14e5ad19cc7b3f8c972c403976d44fe65fe7bfca"
@@ -2298,6 +2989,36 @@
       "path": "research/goal_a/RETARDED_CAUCHY_BOUNDS.md",
       "size_bytes": 5485,
       "sha256": "0ada0c065dd3c07f880f5a131edf90551e61ccfdb62c7ce63b35fde42dbbdfb8"
+    },
+    {
+      "path": "research/goal_a/RETURNED_REMAINDER_CHECKS_2026-10-24.json",
+      "size_bytes": 5637,
+      "sha256": "091107b7ffd40ffd69475c9352742138cd590c62ee179ef0eaa6eca32eabe7f1"
+    },
+    {
+      "path": "research/goal_a/RETURNED_REMAINDER_CONE_ESTIMATE.md",
+      "size_bytes": 7363,
+      "sha256": "d5de99dc1840754b065aaed17a1b532cbe1fd3c5ac96159ba77a8f742c5447dd"
+    },
+    {
+      "path": "research/goal_a/REVERSED_CENTERED_A020_W8_S1001_T8_N1024_2026-10-22.json",
+      "size_bytes": 107299,
+      "sha256": "d10740cdc4fee09c4def2d21701edd7d29c6a6de28ec431372a0c28f0ac329ad"
+    },
+    {
+      "path": "research/goal_a/REVERSED_CENTERED_A020_W8_S1001_T8_N2048_2026-10-22.json",
+      "size_bytes": 232868,
+      "sha256": "64f1200b47f4adb6809b6f939ef2c5d1e2f0f2f7af738913fda2d8869c81061b"
+    },
+    {
+      "path": "research/goal_a/REVERSED_CENTERED_A020_W8_S1001_T8_N2048_2026-10-22.npz",
+      "size_bytes": 736194,
+      "sha256": "02c0c562a9d7872485426b05bf7105bfd0d2662aaee373440143fd8950063563"
+    },
+    {
+      "path": "research/goal_a/RN_TAIL_PRIMARY_RECEIPT_2026-10-23_R15.json",
+      "size_bytes": 2223,
+      "sha256": "9b002f2a84c2a3f92574843c3bfc29e23e1f255574cc3d0f886aaf66e2bb21a4"
     },
     {
       "path": "research/goal_a/ROTATING_AF_A020_W8_N192_2026-10-21.json",
@@ -2535,6 +3256,21 @@
       "sha256": "a1ef87b53d8e45d829edd2ca0e7e471378b04d1c012cfb9869fb70bb9e4d7ca2"
     },
     {
+      "path": "research/goal_a/SPECTRAL_CUTOFF_CHECKS_2026-10-23.json",
+      "size_bytes": 3909,
+      "sha256": "7012814036e7972c7dd162e34f9c9f7880d84b0793a78acc5234b196a63178d2"
+    },
+    {
+      "path": "research/goal_a/STATIC_GEOMETRY_FREEZING_AND_RN_ROBIN.md",
+      "size_bytes": 12061,
+      "sha256": "da189e3a51bd7f77560b93b37ca8aab0c8aa8f89899e073f9620ebcbf78cac74"
+    },
+    {
+      "path": "research/goal_a/STATIC_GEOMETRY_RN_ROBIN_CHECKS_2026-10-26.json",
+      "size_bytes": 35091,
+      "sha256": "ce380af1cb75edd7fb77ec86288eca4773c6677182dfccc0d890611769760eba"
+    },
+    {
       "path": "research/goal_a/SYNC_PROGRESS_2026-10-18.md",
       "size_bytes": 2573,
       "sha256": "1b1e554e4f4ae0efc8a5181ea84eb541ea8f4605de1561297feb88fb4564a9e5"
@@ -2543,6 +3279,16 @@
       "path": "research/goal_a/SYNC_VALIDATION_2026-10-18.json",
       "size_bytes": 3824,
       "sha256": "2e6b1f289f0fbc4f0aa0fcbcf5ba6597cc7b10d5b385078f087e79662ad58c90"
+    },
+    {
+      "path": "research/goal_a/TAIL_CURRENT_AND_CARRIER_AUDIT.md",
+      "size_bytes": 9356,
+      "sha256": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e"
+    },
+    {
+      "path": "research/goal_a/TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json",
+      "size_bytes": 2800,
+      "sha256": "c120b355222201b90ad73f2ce422a760fafa2bdd4bccede5a558dc94a28dc509"
     },
     {
       "path": "research/goal_a/THIN_ONSET_GRID_CERTIFICATE_2026-10-17.json",
@@ -2580,6 +3326,16 @@
       "sha256": "867763408814ebe2cbb3e605811ecf9181c7c0671c6828a150e65179975235c3"
     },
     {
+      "path": "research/goal_a/TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md",
+      "size_bytes": 10103,
+      "sha256": "73ab1cb1b70c927e7b50579f84e14fe9ee45826c358236174f91f885b883ed04"
+    },
+    {
+      "path": "research/goal_a/TIMELIKE_CHARGE_JETS_CHECKS_2026-10-24.json",
+      "size_bytes": 10558,
+      "sha256": "ee073ad7e68b48c5ade69e02e3a87a0f6890a21e7af41fa03c6be92c9b05c10f"
+    },
+    {
       "path": "research/goal_a/TRANSPORT_TUBE_FORECAST_2026-10-16.json",
       "size_bytes": 12777,
       "sha256": "52b3d802b6e9e35320abf8d8d2e1db0f7c38bc41531064c7955b18d8a88825b6"
@@ -2593,6 +3349,26 @@
       "path": "research/goal_a/TWO_PULSE_SECOND_JET_CHECKS_2026-10-16.json",
       "size_bytes": 10325,
       "sha256": "8128aa316f936971c8e4d4f8be6ecf3e1298231b29d40cf817a945157a4a61b3"
+    },
+    {
+      "path": "research/goal_a/UNIFORM_UPPER_KERNEL_AND_FUTURE_LOCALIZATION.md",
+      "size_bytes": 10783,
+      "sha256": "e6ae7679bbee3fc793ed3b540c5008d22943b04fe8fc6660b1f00a1d10bdc41e"
+    },
+    {
+      "path": "research/goal_a/UNIFORM_UPPER_KERNEL_CHECKS_2026-10-24.json",
+      "size_bytes": 30575,
+      "sha256": "6e507adf96c3c23b1e235f159631cae58176a2cc433cabe563707bd75f0ddd10"
+    },
+    {
+      "path": "research/goal_a/WORLD_TUBE_RADIATION_CHECKS_2026-10-23.json",
+      "size_bytes": 3587,
+      "sha256": "6289a428e2cff6e67b8d3dfde9ce7691f3b3d717b5a3c870e6992837da105ee6"
+    },
+    {
+      "path": "research/goal_a/WORLD_TUBE_RADIATION_TRANSFER.md",
+      "size_bytes": 10460,
+      "sha256": "05f8700fdd7f97e60c9fe91fd891e733b0a19bfa16e4213456c6e8114eb8c403"
     },
     {
       "path": "research/goal_a/af_outer_extension_checks.log",
@@ -2630,14 +3406,34 @@
       "sha256": "21fa0fd6277137eb037a2dccd88d28a0a228aca9e8abdf8ee2a1aca62aa25c08"
     },
     {
+      "path": "research/goal_a/audit_incoming_optical_depth.py",
+      "size_bytes": 2957,
+      "sha256": "c7429f90103fa5e4a36f3ebc8042442526f41871fba2e1e71b8612c167b2e38e"
+    },
+    {
+      "path": "research/goal_a/biased_charge_shell.py",
+      "size_bytes": 3389,
+      "sha256": "5cee494da89a606344bc439efc604d7fda60a280dc5711ca1d707c25727a251a"
+    },
+    {
       "path": "research/goal_a/canonical_cauchy_data.py",
       "size_bytes": 7225,
       "sha256": "bfd0b250ac9e5dfe5a367a10d073a8d7667fba47ef73be9651ae60350ccca4d9"
     },
     {
       "path": "research/goal_a/centered_cauchy_diamond.py",
-      "size_bytes": 8925,
-      "sha256": "5339723e7a01baf4f0b80a3fddd20d28a2756d1d0eff4f9229307f6bf10a6d57"
+      "size_bytes": 9096,
+      "sha256": "1fffada927c6e1237736cfb2ebf50b8ecd768a2b92de46c6004c86390171a49f"
+    },
+    {
+      "path": "research/goal_a/certify_biased_shell_initial.py",
+      "size_bytes": 2339,
+      "sha256": "7bbb08ead702ed755708b31ac8496c2d79c698d2eedd600115210eadaf115aff"
+    },
+    {
+      "path": "research/goal_a/certify_charge_shell_initial.py",
+      "size_bytes": 3664,
+      "sha256": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0"
     },
     {
       "path": "research/goal_a/certify_early_charged_constraints.py",
@@ -2673,6 +3469,11 @@
       "path": "research/goal_a/certify_transport_grid.py",
       "size_bytes": 5220,
       "sha256": "52245fd0af576e15aaac127b69e2f07a1328dacb282b16de88c6107659e13ea9"
+    },
+    {
+      "path": "research/goal_a/charge_preserving_shell.py",
+      "size_bytes": 5780,
+      "sha256": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3"
     },
     {
       "path": "research/goal_a/charged_cauchy_diamond.py",
@@ -2840,9 +3641,49 @@
       "sha256": "8371158015e6112dbfcc9dcd533be6c49215e7375332768cee9c3cddad288c21"
     },
     {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_CHECKS_2026-10-23.json",
+      "size_bytes": 2898,
+      "sha256": "2202cbb17f2466e9e78d26a352821a200d159277a29d0b92f9e6c08fdf8c7ef6"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_GATE.md",
+      "size_bytes": 13492,
+      "sha256": "b9b5424468217d305c81720c6711d4c91210692e188480cabf145861da498153"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_SCREEN_AUDIT_2026-10-23.json",
+      "size_bytes": 12924,
+      "sha256": "aa1b41b44b77903788611ecc2e3f8c1b4c7af5fff2a40c6061c1007e1ddb90dc"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/RECOVERY_CHECKPOINT.md",
+      "size_bytes": 9721,
+      "sha256": "b20641c76ab6b4c01f7874a82da9ab52b18910f3506e31fc4853ca9e507937d4"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/audit_incoming_optical_depth.py",
+      "size_bytes": 2957,
+      "sha256": "c7429f90103fa5e4a36f3ebc8042442526f41871fba2e1e71b8612c167b2e38e"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/source-map.json",
+      "size_bytes": 948,
+      "sha256": "3b83d2aebc1d6e7b61d1de7ba3c4fa825be4cf8504ce18fd3aed4a379e049fd8"
+    },
+    {
+      "path": "research/goal_a/checkpoints/optical_R02_2026-10-23/verify_incoming_optical_depth.py",
+      "size_bytes": 7444,
+      "sha256": "abe1c735075e84769a346cb8b610c3053bcd917b917b19dc7a54403d8ba7c562"
+    },
+    {
       "path": "research/goal_a/constraint_contraction.py",
       "size_bytes": 4408,
       "sha256": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c"
+    },
+    {
+      "path": "research/goal_a/directed_canonical_data.py",
+      "size_bytes": 4047,
+      "sha256": "d2808041965a7c8ec1aa93db437d26b2ce1c5c778cfa52f968b8f3ae7dc7fa35"
     },
     {
       "path": "research/goal_a/early_charged_constraint_audit.log",
@@ -3180,6 +4021,11 @@
       "sha256": "988fcfe105d1a1a4b59d28e778ec402015fdab4b2b15f040800315239d77b2ab"
     },
     {
+      "path": "research/goal_a/reversed_canonical_data.py",
+      "size_bytes": 2356,
+      "sha256": "c5002f64b3784d1b477950fef8e1d3191e2506eb3968f081efdd80025d8969b0"
+    },
+    {
       "path": "research/goal_a/rotating_af_numeric.py",
       "size_bytes": 7808,
       "sha256": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182"
@@ -3188,6 +4034,21 @@
       "path": "research/goal_a/rotating_past_slice.py",
       "size_bytes": 8594,
       "sha256": "1cf6c2bd2f115e838fe6d209e096ef81bc6c9711a8a17eed35501e84cd530b9f"
+    },
+    {
+      "path": "research/goal_a/screen_biased_charge_shell.py",
+      "size_bytes": 3115,
+      "sha256": "a4f15324e691d9f3f6fe578394f9cb75c2775ae69d4bb06829c3f79133aa8ccf"
+    },
+    {
+      "path": "research/goal_a/screen_charge_preserving_shell.py",
+      "size_bytes": 7464,
+      "sha256": "9cda548058d76daa5c8e2e4340c5551ee3ab46780a004b1d2b972858e6bac272"
+    },
+    {
+      "path": "research/goal_a/screen_incoming_optical_depth.py",
+      "size_bytes": 5859,
+      "sha256": "f240162fef56de658518a72b6e692c0443d18a9e47b2cabf57ab6852ca6633d7"
     },
     {
       "path": "research/goal_a/second_jet_shooting.py",
@@ -3208,6 +4069,11 @@
       "path": "research/goal_a/summarize_centered_cauchy_screen.py",
       "size_bytes": 5191,
       "sha256": "32c4ec9e280df7671e1e9eba68a5fc6e07f0f2c352121702b945d491983adc02"
+    },
+    {
+      "path": "research/goal_a/summarize_charge_shell.py",
+      "size_bytes": 3969,
+      "sha256": "9f16b87f833fd5293021a9a08ba428636b798bd7b177ed5079b348b3cd4e3ae4"
     },
     {
       "path": "research/goal_a/thin_boundary_certificate.py",
@@ -3240,6 +4106,16 @@
       "sha256": "eb4a92efa2a78ff759ae1be5fca24ac769a67b5cf3fd95ddedb3b4c7f1f34a55"
     },
     {
+      "path": "research/goal_a/verify_actual_body_source.py",
+      "size_bytes": 8859,
+      "sha256": "d918d76e671c85a3795e38d8d20f1aea44be5a326b07730257dd7b815810f8bb"
+    },
+    {
+      "path": "research/goal_a/verify_actual_bondi_bridge.py",
+      "size_bytes": 7516,
+      "sha256": "32db2b3957050ad545d59c06437045f21de6cd9d5b1dc0eac87282da5125c819"
+    },
+    {
       "path": "research/goal_a/verify_af_outer_extension.py",
       "size_bytes": 3731,
       "sha256": "a25ef6eb752a9e238d1a51a0019960819881dcca8bc0e36cf392a1f2d18e3f8b"
@@ -3253,6 +4129,11 @@
       "path": "research/goal_a/verify_areal_shift.py",
       "size_bytes": 10235,
       "sha256": "74632786a278cce3c75b198f7c0bde27194e87c258527f565b1a35bfb49b7c9f"
+    },
+    {
+      "path": "research/goal_a/verify_biased_shell.py",
+      "size_bytes": 4627,
+      "sha256": "c63ab14d311993f85b470c684578350322d0fe499b0872b83b54f52949cd4dda"
     },
     {
       "path": "research/goal_a/verify_causal_algebra.py",
@@ -3285,6 +4166,11 @@
       "sha256": "6ef01eb6f618abb5bc6a587881b206e666e22b9bba59c64c55a77bc6103c301d"
     },
     {
+      "path": "research/goal_a/verify_center_escape_extension.py",
+      "size_bytes": 7880,
+      "sha256": "5597990dfca812694918b6ad702839b93ec7d451dd662d2972d6aa030e01d34f"
+    },
+    {
       "path": "research/goal_a/verify_center_evolution_flux.py",
       "size_bytes": 1629,
       "sha256": "ed972b8c626864eed3794205144aec54c845da9224276db871efa30ce44739c5"
@@ -3308,6 +4194,11 @@
       "path": "research/goal_a/verify_centered_cauchy_diamond.py",
       "size_bytes": 3611,
       "sha256": "59ddee48abf9678b816095dc03b23d99963ad8123b3a99007c9dde2b141065c4"
+    },
+    {
+      "path": "research/goal_a/verify_charge_preserving_shell.py",
+      "size_bytes": 5043,
+      "sha256": "d6077a4f726cd4348968b26ac903f61cea218785a10d13ae911b172827ba2373"
     },
     {
       "path": "research/goal_a/verify_charged_cauchy_diamond.py",
@@ -3350,6 +4241,11 @@
       "sha256": "f39f807e938963f0433c7bf198c8dd9d23df7875e57a3312db8a6d14095bc5f2"
     },
     {
+      "path": "research/goal_a/verify_coulomb_mellin_gate.py",
+      "size_bytes": 8613,
+      "sha256": "cec60860b71407a732f77de6b3a3dcd7a6feb69e57bec133507e5723a515e75f"
+    },
+    {
       "path": "research/goal_a/verify_early_charged_constraints.py",
       "size_bytes": 3142,
       "sha256": "3c9057fdb9671187621d232399ab2ad4335b95655ba92e38508c1355bff9e9d1"
@@ -3363,6 +4259,31 @@
       "path": "research/goal_a/verify_exponential_tail_algebra.py",
       "size_bytes": 2642,
       "sha256": "1034057897ac44e1099bbff84c5e4525eac7f7f9d56cba90d8bbc8f76780f3a3"
+    },
+    {
+      "path": "research/goal_a/verify_exterior_trace_multiplier.py",
+      "size_bytes": 5833,
+      "sha256": "4ee9f82e0bccb717498ca97ff03a48acd34da719093260f1b55036299f069146"
+    },
+    {
+      "path": "research/goal_a/verify_far_zone_rp.py",
+      "size_bytes": 6671,
+      "sha256": "c02989949d804be88ddea9e0e6df212dce03eb27afb9d187c678fbe4240c96a0"
+    },
+    {
+      "path": "research/goal_a/verify_finite_bondi_constraints.py",
+      "size_bytes": 4145,
+      "sha256": "d8c1cb654aa78d713be93aa2904ec54d0ee2e98bb8b8496abfcbfba92ecce3ce"
+    },
+    {
+      "path": "research/goal_a/verify_finite_marginal_rigidity.py",
+      "size_bytes": 3434,
+      "sha256": "37deb4914298d775131acd5d735c28146f8d6fdc5f44f22e092eebfac11a8dd4"
+    },
+    {
+      "path": "research/goal_a/verify_finite_radius_rn_green.py",
+      "size_bytes": 9812,
+      "sha256": "c9b3309dee7492a76aa3a4f83c15a92eafc8bb2b06533b719e2d88876135eb64"
     },
     {
       "path": "research/goal_a/verify_first_jet.py",
@@ -3380,6 +4301,26 @@
       "sha256": "beae8dfd6abb8f7d5635ea84657f4922b8098a4e1959a2c62e6a61ca523b66e1"
     },
     {
+      "path": "research/goal_a/verify_full_rn_future_localization.py",
+      "size_bytes": 8667,
+      "sha256": "4c096e375cf0a2dfe4bb5983be886b769d085ef44a30c5b0f4cb2cb8e1f07469"
+    },
+    {
+      "path": "research/goal_a/verify_full_space_trace.py",
+      "size_bytes": 8009,
+      "sha256": "5b1bd186d73ed17eb14f50df4c72e9f309301d011ad7805a02b1d931353c7337"
+    },
+    {
+      "path": "research/goal_a/verify_global_covariant_morawetz.py",
+      "size_bytes": 6049,
+      "sha256": "4a7cba07ba50c585d36a5dafa501cc442a0faa4dcbf5fbf644d87a13bceae458"
+    },
+    {
+      "path": "research/goal_a/verify_global_rn_source_norm.py",
+      "size_bytes": 8135,
+      "sha256": "201a07d833183587f7bb698cfa057988ffed9a07ecf6c20d9b2f7e7978f4fee7"
+    },
+    {
       "path": "research/goal_a/verify_graded_transport.py",
       "size_bytes": 2208,
       "sha256": "75b30d1d631743b25daa8b9f048c459387518897daad57fb8b2557e24387f5b2"
@@ -3395,6 +4336,16 @@
       "sha256": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f"
     },
     {
+      "path": "research/goal_a/verify_incoming_optical_depth.py",
+      "size_bytes": 7444,
+      "sha256": "abe1c735075e84769a346cb8b610c3053bcd917b917b19dc7a54403d8ba7c562"
+    },
+    {
+      "path": "research/goal_a/verify_infinite_radial_rn_body.py",
+      "size_bytes": 10365,
+      "sha256": "36fb666bd297ec85e274bf6b601535738e2d4384c62cd6980e221a7cc6551a99"
+    },
+    {
       "path": "research/goal_a/verify_initial_constraints.py",
       "size_bytes": 5771,
       "sha256": "532d01f3658672558c69af1bb820dd018d39911fa7b5ad688006013c6fcd47a3"
@@ -3403,6 +4354,26 @@
       "path": "research/goal_a/verify_interval_transport_grid.py",
       "size_bytes": 3909,
       "sha256": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b"
+    },
+    {
+      "path": "research/goal_a/verify_low_frequency_shell.py",
+      "size_bytes": 9336,
+      "sha256": "95f92a877b7768aff3260d3ffd4e93d4131d09b8f592646e4eb035478b7989ee"
+    },
+    {
+      "path": "research/goal_a/verify_low_frequency_symbol.py",
+      "size_bytes": 7619,
+      "sha256": "54ecc0a4487760df34c27b2c7fa46e5068090ed9debcbec368a1b2e039220828"
+    },
+    {
+      "path": "research/goal_a/verify_mellin_charge_bootstrap.py",
+      "size_bytes": 8984,
+      "sha256": "06914bb716dd3dd7352b5e0abf9416171e3f5e92492ab484a025334e8bd7697e"
+    },
+    {
+      "path": "research/goal_a/verify_modulated_bondi_radial.py",
+      "size_bytes": 8428,
+      "sha256": "b8b5408e4924ad9433d0c3641be354d8199e0a63b5f31c2e4801b8fde843a431"
     },
     {
       "path": "research/goal_a/verify_neutral_characteristic.py",
@@ -3430,9 +4401,19 @@
       "sha256": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9"
     },
     {
+      "path": "research/goal_a/verify_null_inner_optical_bootstrap.py",
+      "size_bytes": 6960,
+      "sha256": "e0519994446571c9201b2639f7beb59438a3d00f812d28de08ebbd48269066da"
+    },
+    {
       "path": "research/goal_a/verify_onset_boundary_kernel.py",
       "size_bytes": 2371,
       "sha256": "34ac749cfab665c18c9e21a3e988213ba37363568d4029c29586a9d870f9f61c"
+    },
+    {
+      "path": "research/goal_a/verify_ordinary_time_commutation.py",
+      "size_bytes": 11335,
+      "sha256": "806aedc2004d1afcbe4d0b5865fb641939baa2c04644d8347d57bbd9387be545"
     },
     {
       "path": "research/goal_a/verify_outgoing_backscatter.py",
@@ -3475,6 +4456,16 @@
       "sha256": "d853f3954ef7f9fe90462fe37e54afbd97f0a25bf7b74bbb0412594ad077ae1d"
     },
     {
+      "path": "research/goal_a/verify_physical_trace_green.py",
+      "size_bytes": 7262,
+      "sha256": "0248ba84e9eb3e82da8f694364cd85e98bd87dcef0abbdda6fac8f4207783b14"
+    },
+    {
+      "path": "research/goal_a/verify_physical_trace_low_frequency.py",
+      "size_bytes": 7362,
+      "sha256": "98ff64273c358bc4402cea5a97c15653199cd32c19a79e5c4b6a050979204051"
+    },
+    {
       "path": "research/goal_a/verify_rational_transport_cell.py",
       "size_bytes": 4816,
       "sha256": "2c00c3f4ae514ccce65396611963fe740ea23a92ef073f2e5fc5137dfd18abf8"
@@ -3485,9 +4476,24 @@
       "sha256": "17d8261655bc51aae6abe5e0033b64ff2cc3fc61f9a013aec20207ac3735c49e"
     },
     {
+      "path": "research/goal_a/verify_regular_center_matching.py",
+      "size_bytes": 7917,
+      "sha256": "b1b918e077827bdd94f0acdc57f211e9db56ac94f3717e276047c1d811d3c29f"
+    },
+    {
+      "path": "research/goal_a/verify_regular_ef_inversion.py",
+      "size_bytes": 5857,
+      "sha256": "f88745c0231bd4dd44ff6c01eb433f74f0c7bdc68e8d88a3a4732c2237854917"
+    },
+    {
       "path": "research/goal_a/verify_research.py",
       "size_bytes": 7853,
       "sha256": "f6bf1801b78dcc78a2a3a0030e59cf514dc20cbbda960df2d3c05d98feeec111"
+    },
+    {
+      "path": "research/goal_a/verify_returned_remainder_cone.py",
+      "size_bytes": 6271,
+      "sha256": "95ab668e9ee02dcfc21ef18fabb2459891c97c97be5fd8278b4f601561a5b5be"
     },
     {
       "path": "research/goal_a/verify_rotating_af_barrier.py",
@@ -3505,9 +4511,24 @@
       "sha256": "c24fcee4a20d70b45c0e517eeff9a704d6258ec3f67b63abf4bf25579dd4e0e3"
     },
     {
+      "path": "research/goal_a/verify_spectral_cutoff.py",
+      "size_bytes": 7761,
+      "sha256": "3aaba6b98b26d637bab746920aba19b3cd84b9ac8659c59ea7a31735967aa1cb"
+    },
+    {
+      "path": "research/goal_a/verify_static_geometry_rn_robin.py",
+      "size_bytes": 10026,
+      "sha256": "5e9e75af7dfbc346d84e79a91d118b1b1cf6f240cab40a174a1aba0eb78cb477"
+    },
+    {
       "path": "research/goal_a/verify_supported_exit.py",
       "size_bytes": 2457,
       "sha256": "d35bb1aa5b74adc650b7a6abf4ea91ea3e7a427d5c4544d014cd7c67c1de8465"
+    },
+    {
+      "path": "research/goal_a/verify_tail_current_carrier.py",
+      "size_bytes": 6563,
+      "sha256": "4e42aafbd6b6ecffed10d68d259a0ecdcc8fd5a8a804cbc7382c37586e171887"
     },
     {
       "path": "research/goal_a/verify_thin_parameter_transfer.py",
@@ -3515,9 +4536,24 @@
       "sha256": "d7c66ce6524ba56fc2a9d32e77b2679d1886b932a95cc60fec75c214bb4879a6"
     },
     {
+      "path": "research/goal_a/verify_timelike_charge_jets.py",
+      "size_bytes": 8633,
+      "sha256": "61f72b893f7545795a99c803956388ca41fb20b9e3f8fce7f4d8d89acc1063aa"
+    },
+    {
       "path": "research/goal_a/verify_two_pulse_second_jet.py",
       "size_bytes": 5720,
       "sha256": "1eceb6febbfa9e04b55684c345417e0f48f45e8b8d5064c4f93d619be3196734"
+    },
+    {
+      "path": "research/goal_a/verify_uniform_upper_kernel.py",
+      "size_bytes": 8256,
+      "sha256": "ff65d579c5c7294bbefa84e5d2ef821974516f5cfe5b03502b88c74eb3c952af"
+    },
+    {
+      "path": "research/goal_a/verify_world_tube_radiation.py",
+      "size_bytes": 7253,
+      "sha256": "8c1f5dd282e5bef0c566c35adb4c78d0f89df8dcfe3cc8bc92436efb7df2ba67"
     },
     {
       "path": "reviews/FIRST_ROUND_2026-10-09.md",

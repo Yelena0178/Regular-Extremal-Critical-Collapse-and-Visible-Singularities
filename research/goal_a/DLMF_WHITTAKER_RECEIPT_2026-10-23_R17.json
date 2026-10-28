@@ -1,0 +1,13 @@
+{
+  "scope": "Standard special-function identities only; no physical model stability claim is attributed to DLMF.",
+  "verification_method": "Read rendered equations in official DLMF HTML via web. Direct TeX retrieval was unsupported or returned HTTP 403; no raw source-content hash is claimed.",
+  "sources": [
+    {"equation": "13.14.1", "url": "https://dlmf.nist.gov/13.14.E1", "recorded_formula": "W''+(-1/4+kappa/z+(1/4-mu^2)/z^2)W=0"},
+    {"equation": "13.14.2", "url": "https://dlmf.nist.gov/13.14.E2", "recorded_formula": "M_{kappa,mu}(z)=exp(-z/2)z^(1/2+mu) 1F1(1/2+mu-kappa;1+2mu;z)"},
+    {"equation": "13.14.21", "url": "https://dlmf.nist.gov/13.14.E21", "recorded_formula": "W_{kappa,mu}(z)~exp(-z/2)z^kappa in the stated infinity sector"},
+    {"equation": "13.14.33", "url": "https://dlmf.nist.gov/13.14.E33", "recorded_formula": "W_{kappa,mu}=Gamma(-2mu)/Gamma(1/2-mu-kappa) M_{kappa,mu}+Gamma(2mu)/Gamma(1/2+mu-kappa) M_{kappa,-mu}, 2mu not integer"},
+    {"equation": "5.4.4", "url": "https://dlmf.nist.gov/5.4.E4", "recorded_formula": "abs(Gamma(1/2+iy))^2=pi/cosh(pi*y)"}
+  ],
+  "analytic_use": "Derive the reflecting external-Coulomb model root family in WORLD_TUBE_RADIATION_TRANSFER.md; Rouche proof and model scope are separate from the cited identities.",
+  "is_complete_EMCSF_counterexample": false
+}

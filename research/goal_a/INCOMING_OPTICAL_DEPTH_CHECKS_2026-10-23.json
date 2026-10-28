@@ -1,0 +1,83 @@
+{
+  "claim_ids": [
+    "O01.1",
+    "O01.2",
+    "O01.3",
+    "O01.4",
+    "O01.5",
+    "O01.6"
+  ],
+  "logic": "PROVED (checked finite identities only)",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "EXPERIMENTAL (trace controls)"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "mixed-equation radial transport",
+    "Raychaudhuri log-k derivative",
+    "integrating-factor ODE",
+    "weighted Hawking mass budget",
+    "vacuum RN",
+    "nonzero-depth radial model and inner endpoint",
+    "bounded-mass unbounded-depth countermodel",
+    "moving layer interior, damping cancellation, charge work sign and Young absorption"
+  ],
+  "negative_controls": [
+    "reversed optical exponent",
+    "negative inner endpoint",
+    "ERN inside exceeds Q/r=1",
+    "moving-area endpoint terms cannot be omitted"
+  ],
+  "limitations": [
+    "radial model is not an EMCSF construction",
+    "no continuous PDE bounds or global theorem"
+  ],
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_incoming_optical_depth.py": "abe1c735075e84769a346cb8b610c3053bcd917b917b19dc7a54403d8ba7c562",
+    "INCOMING_OPTICAL_DEPTH_GATE.md": "f12a9a8d1b5012f5ce0f8cd7b77a848143a8c02aaa620f6988ff5eee197e75d4",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "screen_incoming_optical_depth.py": "f240162fef56de658518a72b6e692c0443d18a9e47b2cabf57ab6852ca6633d7",
+    "verify_centered_cauchy_diamond.py": "59ddee48abf9678b816095dc03b23d99963ad8123b3a99007c9dde2b141065c4",
+    "centered_cauchy_diamond.py": "1fffada927c6e1237736cfb2ebf50b8ecd768a2b92de46c6004c86390171a49f",
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3"
+  },
+  "exact_trace_observer_controls": {
+    "FLRW": [
+      {
+        "steps": 64,
+        "log_k_defect": 8.214830967620546e-07,
+        "mixed_defect": 1.1102230246251565e-16
+      },
+      {
+        "steps": 128,
+        "log_k_defect": 2.0537289501659783e-07,
+        "mixed_defect": 2.220446049250313e-16
+      }
+    ],
+    "curved_Minkowski": [
+      {
+        "steps": 64,
+        "log_k_defect": 0.0,
+        "mixed_defect": 8.807373046759714e-06
+      },
+      {
+        "steps": 128,
+        "log_k_defect": 0.0,
+        "mixed_defect": 2.201843261606662e-06
+      }
+    ]
+  },
+  "observer_input_unchanged": true,
+  "exact_trace_controls_are_floating": true,
+  "moving_layer_FLRW_control": {
+    "derivative": 0.017213988773821798,
+    "full_rhs": 0.01721398877215325,
+    "discrepancy": 1.6685472448152439e-12,
+    "omission_of_endpoint_terms_rejected": true
+  }
+}

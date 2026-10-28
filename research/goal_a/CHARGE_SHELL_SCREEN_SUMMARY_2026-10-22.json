@@ -1,0 +1,423 @@
+{
+  "runs": [
+    {
+      "report": "CHARGE_SHELL_A04_W015_M05_T30_N768_2026-10-22.json",
+      "report_sha256": "7586b4b739ec5b94a363986881026529d8031726e39e17e19efd3df0786cbbc3",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": -0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 30.0,
+      "requested_steps": 768,
+      "completed": false,
+      "failed_time": 6.484375,
+      "ADM_mass": 6.149732225501647,
+      "ADM_charge": 5.768430178544536,
+      "minimum_sampled_lambda": -1.964267339010318,
+      "first_negative": {
+        "time": 5.1953125,
+        "x": 3.2421875,
+        "radius": 2.68047798463664,
+        "lambda_value": -7.29201072853083e-05,
+        "nu": -0.6313875875992578,
+        "Q": 0.13116744251139875,
+        "f": -0.00014011717342299335
+      },
+      "first_negative_abs_Q_over_r": 0.04893434800180966,
+      "last_mass_diagnostic_time": 5.625,
+      "last_mass_diagnostic_axis_time": 5.625,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 4.8062394885245805,
+        "renormalized_mass": 5.9287462719255135,
+        "charge": 5.60626345574538,
+        "f": 0.3133943587822028
+      },
+      "fixed_outer_radius_mass_fraction": 0.9640657600245176,
+      "final_row_residuals": null,
+      "maximum_recorded_ray_budget_defect": 0.01395427978430508
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P05_T13p5_N1536_2026-10-22.json",
+      "report_sha256": "1cd102b42a7ca68c9b38f5c0828ed33b52ea94a4aac5168d6762f82d12f07010",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 13.5,
+      "requested_steps": 1536,
+      "completed": true,
+      "failed_time": null,
+      "ADM_mass": 6.149732225501647,
+      "ADM_charge": 5.768430178544536,
+      "minimum_sampled_lambda": -0.02385722348579754,
+      "first_negative": {
+        "time": 13.271484375,
+        "x": 2.232421875,
+        "radius": 0.850094322112828,
+        "lambda_value": -9.288091104850869e-05,
+        "nu": -0.3505552132020135,
+        "Q": 0.02739426603692034,
+        "f": -0.0008528943861914051
+      },
+      "first_negative_abs_Q_over_r": 0.0322249723640484,
+      "last_mass_diagnostic_time": 13.5,
+      "last_mass_diagnostic_axis_time": 10.55662204376903,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 1.1066904590355635,
+        "renormalized_mass": 1.1321528626965773,
+        "charge": 0.8443620683737432,
+        "f": 0.8419013629949195
+      },
+      "fixed_outer_radius_mass_fraction": 0.18409791210124196,
+      "final_row_residuals": {
+        "radius": 5.555185581582189e-05,
+        "scalar": 0.0034557295984172813,
+        "charge": 0.00014449286409116968,
+        "mass": 0.0001333878864468955
+      },
+      "maximum_recorded_ray_budget_defect": 4.745369997253071e-05
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P05_T30_N768_2026-10-22.json",
+      "report_sha256": "8213ef8b9d20fb91ab85ce8be8b9da79355b7fa8d290a69ea0a9753b727c4a5e",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 30.0,
+      "requested_steps": 768,
+      "completed": false,
+      "failed_time": 14.1015625,
+      "ADM_mass": 6.149732225501647,
+      "ADM_charge": 5.768430178544536,
+      "minimum_sampled_lambda": -0.19029186356765737,
+      "first_negative": {
+        "time": 13.28125,
+        "x": 2.1875,
+        "radius": 0.8307400854611494,
+        "lambda_value": -0.0009957876687658306,
+        "nu": -0.3498321542767009,
+        "Q": 0.024939302170051414,
+        "f": -0.009214861255075979
+      },
+      "first_negative_abs_Q_over_r": 0.03002058358145489,
+      "last_mass_diagnostic_time": 14.0625,
+      "last_mass_diagnostic_axis_time": 10.708286176971866,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.9072468731053006,
+        "renormalized_mass": 0.9297302080719588,
+        "charge": 0.7934313953117996,
+        "f": 0.8703933038420999
+      },
+      "fixed_outer_radius_mass_fraction": 0.1511822261490611,
+      "final_row_residuals": null,
+      "maximum_recorded_ray_budget_defect": 0.0007975777272096578
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P06_T45_N1536_2026-10-22.json",
+      "report_sha256": "c653ca5ac9e2c305f3d0b6c817a194af6ce962a88d01e6177082cbbfef03aafd",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.6,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 45.0,
+      "requested_steps": 1536,
+      "completed": false,
+      "failed_time": 15.146484375,
+      "ADM_mass": 6.320713038384309,
+      "ADM_charge": 5.768430178544532,
+      "minimum_sampled_lambda": -0.02764769827516732,
+      "first_negative": {
+        "time": 15.0,
+        "x": 0.52734375,
+        "radius": 0.07071007150607533,
+        "lambda_value": -0.0001499140440251303,
+        "nu": -0.17467024549441118,
+        "Q": -0.0004258580269659694,
+        "f": -0.004974131465303344
+      },
+      "first_negative_abs_Q_over_r": 0.006022593640417689,
+      "last_mass_diagnostic_time": 14.0625,
+      "last_mass_diagnostic_axis_time": 11.205441009159369,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.9221613264795555,
+        "renormalized_mass": 0.9338056099682586,
+        "charge": 0.5709990697747982,
+        "f": 0.8682626676457778
+      },
+      "fixed_outer_radius_mass_fraction": 0.14773738410484089,
+      "final_row_residuals": null,
+      "maximum_recorded_ray_budget_defect": 0.00034384466553348536
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P07_T45_N1536_2026-10-22.json",
+      "report_sha256": "454720fa56562f3c1fc131a39b31486b4b38ac45b5b87b5681ce9aa940aac8fe",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.7,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 45.0,
+      "requested_steps": 1536,
+      "completed": false,
+      "failed_time": 16.875,
+      "ADM_mass": 6.497845024294181,
+      "ADM_charge": 5.7684301785445316,
+      "minimum_sampled_lambda": -0.005285868397921133,
+      "first_negative": {
+        "time": 16.845703125,
+        "x": 0.322265625,
+        "radius": 0.02399536280162404,
+        "lambda_value": -0.005285868397921133,
+        "nu": -0.11209063610184662,
+        "Q": 9.985947085013231e-05,
+        "f": -0.2676166740073078
+      },
+      "first_negative_abs_Q_over_r": 0.004161615378591971,
+      "last_mass_diagnostic_time": 15.46875,
+      "last_mass_diagnostic_axis_time": 11.957311720947956,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.41594925798571764,
+        "renormalized_mass": 0.41958748319976885,
+        "charge": 0.3191712800259989,
+        "f": 0.9405786774306117
+      },
+      "fixed_outer_radius_mass_fraction": 0.06457332879300949,
+      "final_row_residuals": null,
+      "maximum_recorded_ray_budget_defect": 0.00019096304857349478
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P08_T45_N1536_2026-10-22.json",
+      "report_sha256": "32fcd0959935e1a5988037256ec0c2ed72a7cf75d609a215b9d460f5ac4dd86b",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 45.0,
+      "requested_steps": 1536,
+      "completed": true,
+      "failed_time": null,
+      "ADM_mass": 6.673542088627098,
+      "ADM_charge": 5.768430178544533,
+      "minimum_sampled_lambda": 0.12022802849276147,
+      "first_negative": null,
+      "first_negative_abs_Q_over_r": null,
+      "last_mass_diagnostic_time": 45.0,
+      "last_mass_diagnostic_axis_time": 22.464137165195798,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.11545164674885727,
+        "renormalized_mass": 0.11547470326180345,
+        "charge": -0.025408312861992063,
+        "f": 0.9835069076073061
+      },
+      "fixed_outer_radius_mass_fraction": 0.017303360303757263,
+      "final_row_residuals": {
+        "radius": 0.00010029749819351341,
+        "scalar": 0.0112912850873264,
+        "charge": 0.018887817294876617,
+        "mass": 0.0006445955703478223
+      },
+      "maximum_recorded_ray_budget_defect": 8.404425857813473e-05
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P08_T45_N3072_2026-10-22.json",
+      "report_sha256": "f93649efe7449d6269873e370817fa7e7cab7254b56011931bca4b6c36ee81b4",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 45.0,
+      "requested_steps": 3072,
+      "completed": true,
+      "failed_time": null,
+      "ADM_mass": 6.673542088627098,
+      "ADM_charge": 5.768430178544533,
+      "minimum_sampled_lambda": 0.12024701557188767,
+      "first_negative": null,
+      "first_negative_abs_Q_over_r": null,
+      "last_mass_diagnostic_time": 45.0,
+      "last_mass_diagnostic_axis_time": 22.464460682100714,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.11544203615637873,
+        "renormalized_mass": 0.1154649382738006,
+        "charge": -0.025323097911046186,
+        "f": 0.9835082805490888
+      },
+      "fixed_outer_radius_mass_fraction": 0.017301897064614814,
+      "final_row_residuals": {
+        "radius": 2.413766483611024e-05,
+        "scalar": 0.0034870126911706757,
+        "charge": 0.0056472066440968974,
+        "mass": 6.30290502928732e-05
+      },
+      "maximum_recorded_ray_budget_defect": 1.719402624960698e-05
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_P10_T30_N768_2026-10-22.json",
+      "report_sha256": "e44cf7c0e228ea9e09d1552952082dd39cf9f29f0e14fd4e4e4af67917c8c186",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 30.0,
+      "requested_steps": 768,
+      "completed": true,
+      "failed_time": null,
+      "ADM_mass": 6.997503025249695,
+      "ADM_charge": 5.76843017854453,
+      "minimum_sampled_lambda": 0.13161529160346608,
+      "first_negative": null,
+      "first_negative_abs_Q_over_r": null,
+      "last_mass_diagnostic_time": 30.0,
+      "last_mass_diagnostic_axis_time": 16.029833432599656,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.06554395425068907,
+        "renormalized_mass": 0.06626536751683151,
+        "charge": -0.14212519640087962,
+        "f": 0.9906365779641872
+      },
+      "fixed_outer_radius_mass_fraction": 0.009469859073689638,
+      "final_row_residuals": {
+        "radius": 0.00022481908498944714,
+        "scalar": 0.0008383750779337687,
+        "charge": 0.002378985509375155,
+        "mass": 0.0032189696139844903
+      },
+      "maximum_recorded_ray_budget_defect": 1.3943234920170758e-06
+    },
+    {
+      "report": "CHARGE_SHELL_A04_W015_Z0_T30_N768_2026-10-22.json",
+      "report_sha256": "d774750b5594dd0a1a411ee8da097a0435f623861f70dde1d8b2c078ec16dbfc",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 30.0,
+      "requested_steps": 768,
+      "completed": false,
+      "failed_time": 6.71875,
+      "ADM_mass": 5.67300304551323,
+      "ADM_charge": 5.768430178544537,
+      "minimum_sampled_lambda": -0.14703137084567647,
+      "first_negative": {
+        "time": 6.5625,
+        "x": 0.9375,
+        "radius": 0.6580291226372287,
+        "lambda_value": -0.006391575253785926,
+        "nu": -0.6922944237197486,
+        "Q": 0.006280766571762119,
+        "f": -0.019644480004098686
+      },
+      "first_negative_abs_Q_over_r": 0.00954481550389481,
+      "last_mass_diagnostic_time": 6.5625,
+      "last_mass_diagnostic_axis_time": 6.533727543649502,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 3.474967665523736,
+        "renormalized_mass": 4.212198547824474,
+        "charge": 4.543397924947875,
+        "f": 0.5035760477823235
+      },
+      "fixed_outer_radius_mass_fraction": 0.7424989047301668,
+      "final_row_residuals": null,
+      "maximum_recorded_ray_budget_defect": 0.00373400941771751
+    },
+    {
+      "report": "CHARGE_SHELL_A05_W015_P10_T60_N1536_2026-10-22.json",
+      "report_sha256": "0c824b23086a0358ee3e84a1ea8434f799e059d0df20dce188c20fd512dfb51e",
+      "source_hashes_match_current": true,
+      "parameters": {
+        "amplitude": 0.5,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "requested_time": 60.0,
+      "requested_steps": 1536,
+      "completed": true,
+      "failed_time": null,
+      "ADM_mass": 9.396710350140959,
+      "ADM_charge": 9.013172153975832,
+      "minimum_sampled_lambda": 0.033323222448160064,
+      "first_negative": null,
+      "first_negative_abs_Q_over_r": null,
+      "last_mass_diagnostic_time": 60.0,
+      "last_mass_diagnostic_axis_time": 14.9021588237313,
+      "fixed_outer_radius_gate": {
+        "radius": 14.0,
+        "covered": true,
+        "hawking_mass": 0.6602148398615938,
+        "renormalized_mass": 0.6665992726435382,
+        "charge": -0.4228050589745149,
+        "f": 0.9056835943054866
+      },
+      "fixed_outer_radius_mass_fraction": 0.07093964247110572,
+      "final_row_residuals": {
+        "radius": 0.00044799509156021045,
+        "scalar": 0.0011851014326313132,
+        "charge": 0.003607436140051403,
+        "mass": 0.0032901942570067177
+      },
+      "maximum_recorded_ray_budget_defect": 5.593803514797324e-05
+    }
+  ],
+  "all_sources_match": true,
+  "evidence": "finite E0 samples",
+  "initial_family_certificate": "CHARGE_SHELL_INITIAL_CERTIFICATE_2026-10-22.json",
+  "future_focusing_certified": false,
+  "positive_mass_long_residence_proved": false,
+  "goal_A_proved": false
+}

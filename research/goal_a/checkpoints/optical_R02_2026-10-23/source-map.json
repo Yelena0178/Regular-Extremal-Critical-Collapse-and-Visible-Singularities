@@ -1,0 +1,12 @@
+{
+  "scope": "R02 exact proof prefix and receipts, preserved before R03 regeneration; other numerical reports and unchanged dependencies remain at repository source paths",
+  "file_sha256": {
+    "audit_incoming_optical_depth.py": "c7429f90103fa5e4a36f3ebc8042442526f41871fba2e1e71b8612c167b2e38e",
+    "INCOMING_OPTICAL_DEPTH_CHECKS_2026-10-23.json": "2202cbb17f2466e9e78d26a352821a200d159277a29d0b92f9e6c08fdf8c7ef6",
+    "INCOMING_OPTICAL_DEPTH_GATE.md": "b9b5424468217d305c81720c6711d4c91210692e188480cabf145861da498153",
+    "INCOMING_OPTICAL_SCREEN_AUDIT_2026-10-23.json": "aa1b41b44b77903788611ecc2e3f8c1b4c7af5fff2a40c6061c1007e1ddb90dc",
+    "verify_incoming_optical_depth.py": "abe1c735075e84769a346cb8b610c3053bcd917b917b19dc7a54403d8ba7c562",
+    "RECOVERY_CHECKPOINT.md": "b20641c76ab6b4c01f7874a82da9ab52b18910f3506e31fc4853ca9e507937d4"
+  },
+  "source_snapshot": "research/goal_a/RECOVERY_SNAPSHOT_2026-10-23_R02.json"
+}

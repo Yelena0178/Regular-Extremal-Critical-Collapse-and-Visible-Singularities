@@ -1,0 +1,34 @@
+{
+  "claim_ids": [
+    "M02.1",
+    "M02.2",
+    "M02.3",
+    "M02.5"
+  ],
+  "logic": "PROVED (finite identities only)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "marginal mixed derivative",
+    "wave plus commutator sign",
+    "quadratic affine curvature coefficient",
+    "ERN control",
+    "sharp quadratic Taylor gradient bound"
+  ],
+  "negative_controls": [
+    "wrong commutator rejected",
+    "subextremal RN interior trapped",
+    "unbounded coordinate with finite affine integral"
+  ],
+  "pde_existence_certified": false,
+  "horizon_identity_certified": false,
+  "affine_completeness_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_finite_marginal_rigidity.py": "37deb4914298d775131acd5d735c28146f8d6fdc5f44f22e092eebfac11a8dd4",
+    "FINITE_MARGINAL_RIGIDITY.md": "52afd862d252f57c62843af3be3bcee5079dbeca056d469134a7c24d5daa0cd0",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

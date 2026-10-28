@@ -1,0 +1,90 @@
+{
+  "claim_ids": [
+    "INNER06.1",
+    "INNER06.2",
+    "INNER06.3",
+    "INNER06.4",
+    "INNER06.5",
+    "INNER06.6"
+  ],
+  "logic": "PROVED for exact transformations and scoped controls; uniform reference estimates and actual budget implications analytic; actual uniform budget OPEN",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "RESONANT_OSCILLATOR_COUNTERCONTROL",
+    "CHARACTERISTIC_PATH_COUNTERCONTROL",
+    "FINITE_FIXED_RN_ODE_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "full RN Mellin potential and logarithmic metric derivative",
+    "Mellin divergence source and physical signed flux",
+    "zero-data resonant source and exact growing energy",
+    "parallel-gauge and reduced physical characteristic charge currents",
+    "positive-exponent time weight and one-half charge area factor",
+    "scalar-to-coefficient bootstrap algebra",
+    "critical log-time phase-loop densities",
+    "three finite RN logarithmic transfer and signed-flow controls"
+  ],
+  "negative_controls": [
+    "nonzero individual signed flux does not bound cross Wronskian",
+    "bare log-L2 forcing has energy growth equal to half the interval length",
+    "critical time-weight energy can tend to zero with fixed nonzero path charge"
+  ],
+  "finite_RN_controls": [
+    {
+      "omega": 0.02,
+      "radial_interval": [
+        10.0,
+        15.0
+      ],
+      "log_interval_length": 0.4054651081081642,
+      "determinant_error": 2.1538326677728037e-14,
+      "signed_flux_error": 7.16093850883226e-15,
+      "energy_min": 0.21999999999999997,
+      "energy_max": 0.22543390586275117
+    },
+    {
+      "omega": 0.002,
+      "radial_interval": [
+        10.0,
+        150.0
+      ],
+      "log_interval_length": 2.70805020110221,
+      "determinant_error": 2.0317081350640365e-14,
+      "signed_flux_error": 6.661338147750939e-15,
+      "energy_min": 0.21999999999999997,
+      "energy_max": 0.25894124761954607
+    },
+    {
+      "omega": 0.0002,
+      "radial_interval": [
+        10.0,
+        1499.9999999999998
+      ],
+      "log_interval_length": 5.0106352940962555,
+      "determinant_error": 1.1435297153639112e-14,
+      "signed_flux_error": 3.83026943495679e-15,
+      "energy_min": 0.21999999999999997,
+      "energy_max": 0.3602391877397361
+    }
+  ],
+  "path_countercontrol_is_actual_EMCSF_solution": false,
+  "actual_uniform_incoming_weighted_budget_verified": false,
+  "actual_Coulomb_potential_bootstrap_closed": false,
+  "global_RN_inverse_Wronskian_bound_verified": false,
+  "actual_weighted_radiation_flux_verified": false,
+  "late_charge_limit_verified": false,
+  "horizon_parameter_agreement_verified": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_mellin_charge_bootstrap.py": "06914bb716dd3dd7352b5e0abf9416171e3f5e92492ab484a025334e8bd7697e",
+    "MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md": "67f53fb6e28fcfa2d876232132c44c52c4eb13d8c0b122cc2b071775b4a24e1a",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md": "559f1a22cf5f0c92da754eebed0bb83226b626ef79fc30bc4a34e5dca30693ae",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

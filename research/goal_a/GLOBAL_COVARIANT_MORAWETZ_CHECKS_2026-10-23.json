@@ -1,0 +1,44 @@
+{
+  "claim_ids": [
+    "M01.1",
+    "M01.2",
+    "M01.3",
+    "M01.4",
+    "M01.5",
+    "M01.6",
+    "M01.7"
+  ],
+  "logic": "PROVED (checked finite identities/control integrals only)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "actual momentum residual",
+    "full actual weighted current residual",
+    "generic-radius coefficient reduction",
+    "flat positive weights",
+    "Gaussian energy, trace and center",
+    "ERN near-horizon coefficient sign",
+    "bounded horizon-sign repair still fails inside the exterior",
+    "charged inversion potential/phase and tortoise reflection"
+  ],
+  "limits": [
+    "free-wave estimate is not a nonlinear EMCSF proof",
+    "bounded-weight class obstruction only excludes pointwise coercivity of the stated current",
+    "center regularity and AF boundary coverage must be proved for actual domains",
+    "fixed ERN inversion is not a nonlinear collapse symmetry"
+  ],
+  "Gaussian": {
+    "energy": "sqrt(2)*sqrt(pi)/2",
+    "trace": "sqrt(2)*sqrt(pi)*(exp(2*b**2) - 1)*exp(-2*b**2)/(2*b**2)"
+  },
+  "ERN_amplitude_leading_coefficient": "(6*M**8 + 18*M**7 + 18*M**6 + 6*M**5)/(2*M**2*(M**11 + 4*M**10 + 6*M**9 + 4*M**8 + M**7))",
+  "sympy_version": "1.14.0",
+  "actual_global_decay_verified": false,
+  "actual_horizon_identity_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_global_covariant_morawetz.py": "4a7cba07ba50c585d36a5dafa501cc442a0faa4dcbf5fbf644d87a13bceae458",
+    "GLOBAL_COVARIANT_MORAWETZ.md": "e137fc5afc7d716a905d405d891d7e34495cf0aa52c9326777268bf6ea9738fa",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

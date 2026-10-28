@@ -1,6 +1,70 @@
 # 当前成果状态
 
-本地进展截止：**2026-10-22**。[研究首页](research/goal_a/README.md)提供专题、核验入口及全部 A-EXIT01–23 文件；[完整索引](research/goal_a/FILE_INDEX.md)覆盖后续研究材料。
+本地进展截止：**2026-10-27**。[研究首页](research/goal_a/README.md)提供专题、核验入口及全部 A-EXIT01–23 文件；[完整索引](research/goal_a/FILE_INDEX.md)覆盖后续研究材料。
+
+10-27 第三十一回合：[A-LOCAL23](research/goal_a/FULL_RN_FUTURE_LOCALIZATION.md)以实际质量预算和新的固定RN复核控制联合未来截断，取得扩张过去窗、全观察空间的局部化；未来体源及真实W滤波功能也已支付。没有推出W点态尾或实际A/D闭合。12组复ODE/36项积分式及传输、范数对照通过，仅支持有限核验范围；完整A1–A6仍OPEN，未提交推送。
+
+10-27 第三十回合：[A-CONE22](research/goal_a/INFINITE_RADIAL_RN_BODY_TRANSFER.md)在指定源包络下证明无限径向低频体源的全空间幅度及辐射导数界；RN传播锥密度支付旧源范数的log缺陷，内向直接项的辐射极限也单独验证。实际统一A/D/K仍是前提，时间截断及真实W尚未支付，高频与完整A1–A6继续OPEN。核验中的大时间窄峰分辨问题已修复并经加密对照，有限样本不认证统一解析命题。未提交推送。
+
+10-26 第二十九回合：[A-SPACE21](research/goal_a/FINITE_RADIUS_RN_GREEN_AND_LOCAL_BODY.md)给完整有限r Green恒等式及低频全观察空间核；静态冻结的时间增益支付紧径向体源和非线性端校正。实际W保留，径向导数含F₁/f对角项；γ源范数的log反控制阻止直接放大到无限源区。12组参考ODE、48处带源射击/Green对照和负控制通过，非实际PDE或连续参数证明。完整Goal A仍OPEN，未提交推送。
+
+10-26 第二十八回合：[A-RN20](research/goal_a/STATIC_GEOMETRY_FREEZING_AND_RN_ROBIN.md)兑现实际有限窗的静态几何冻结，降低了非截断源的几何误差阶；在q紧集、M/R+Q²/R²充分小时证明远区RN物理Robin近零分母非消失，保留复频率/归一相位与长区间。60项有限复模态对照不是连续参数证书，也不支付实际迹。全A/高频、强视界和同一X⁶三分支仍OPEN；未提交推送。
+
+10-24 第二十七回合：[A-COM19](research/goal_a/ORDINARY_TIME_COMMUTATION_AND_ENERGY_GATE.md)关闭普通时间交换的顶阶低层体强迫损失，给实际A/D/K条件下的时间加权L¹–径向L²及径向L¹界，并将F″控制化为真实交换迹H_P加已知修正。H_P仍未兑现。审计保留内端∂uW，排除P/Q_u的错误Maxwell配对及指定能量自动正性；负功能不是Goal A反例。全目标仍OPEN，契约和Git分支未改，未提交推送。
+
+10-24 第二十六回合：[A-JET18](research/goal_a/TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md)由实际世界管电荷流推出更强的有限窗冻结和条件性终电荷尾，并以现有A/D/K输入支付系数一阶时间变差。实际第一次迹交换保留F″；系数控制没有闭合载频包络。审计用Bondi啁啾反控制区分仅辐射输入与真实径向结构，并纠正更强时间幂的径向转换饱和。完整A1–A6仍OPEN，未提交推送，原契约不变。
+
+10-24 第二十五回合：[A-TRACE17](research/goal_a/FULL_SPACE_PHYSICAL_TRACE_AUDIT.md)证明辅助有限r核存在非绝对可积振荡尾，排除H_η-only全A推广；新增时间正则/载频条件可支付纯边界全A，但实际前提未验证。没有把额外输入当已完成，也未把反控制当实际Goal A反例。实际H/全A、高频/体源与强终态仍OPEN。
+
+10-24 第二十四回合：[A-UPPER16](research/goal_a/UNIFORM_UPPER_KERNEL_AND_FUTURE_LOCALIZATION.md)完成完整P的空间一致负时间界及实际未来体源/晚交换子的过去窗局部化，无统一A/H输入。Maxwell势L²由质量支付；未来W只在实际Green兼容性定义的滤波功能意义局部化，点态H尾仍OPEN。人工截断的过去窗极限不缩小原实际全未来验收；全空间A/高频、强视界、精确极端与同曲线仍未证。
+
+10-24 第二十三回合：[A-RETURN15](research/goal_a/RETURNED_REMAINDER_CONE_ESTIMATE.md)完成返回余项的幅度与导数尾，并将全部非截断低频体源误差的幅度合并控制。证明保留径向延迟与时间关联，用h>0吸收log，不升级η=1/4端点。实际统一A/H、全空间A/高频、主返回D尾及体源未来截断仍OPEN，未将辐射幅度估计当完整强终态。
+
+10-24 第二十二回合：[A-GREEN14](research/goal_a/PHYSICAL_TRACE_GREEN_AND_DELAY.md)给物理W体源Green公式及自然边界通量，精确消去Z输入。新返回项的传播延迟必须保留；实际源包络已支付其主项幅度，两个余项/导数尾/体源晚截断尚未证。未把固定r解析性当空间一致因果界，也未将真实W设零；强终态、三分支和Goal A仍OPEN。
+
+10-24 第二十一回合：[A-ROBIN13](research/goal_a/PHYSICAL_TRACE_LOW_FREQUENCY.md)建立辅助Coulomb波算子的W边界近零分母下界与单侧低频尾；实际边界精确匹配，世界管晚截断可由质量支付。不将辅助算子当D001解，不把真实内部换成齐次Robin条件。新体源Green核、全频/真实W尾/全空间A及强终态仍OPEN；R20检查点已恢复完成，契约未改。
+
+10-23 第二十回合：[A-CUTOFF12](research/goal_a/RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md)以径向分部/实际质量输入证明晚截断在固定及下端收缩频带上的L²移除，不需统一A/H。无穷端不能删，分项后不能擅加零频处方；超低频联合抵消与完整加权尾仍OPEN。低频集中的范数反控制不属实际源或D001。强视界、完整三分支及Goal A未完成，契约未改。
+
+10-23 第十九回合：[A-BODY11](research/goal_a/ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)完成带明确A/D/K输入的实际低频体源误差估计：有限窗末端冻结避免固定电荷差的log空间损失，不先假定终电荷。实际质量预算还无须统一A/D便给Z的L²及弱截断极限；完整源范数的截断小性仍未证，不能以弱范数替代。因果内区、全空间A/高频、统一A/H与强终态仍OPEN；契约、分支未改。
+
+10-23 第十八回合：[A-SYMBOL10](research/goal_a/LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md)关闭固定参考世界管模式的频率导数缺口，给低频核与实际边界辐射贡献的时间映射；不额外损失真实迹时间导数。负频率、移动端点、未来卷积和η>0条件均显式处理。实际体源/统一A/H/全空间A/强终态仍OPEN，未将这一贡献当完整尾估计；契约和Git分支未改。
+
+10-23 第十七回合：[A-TRACE09](research/goal_a/WORLD_TUBE_RADIATION_TRANSFER.md)给实际 D≤H+ε_RA、完整世界管辐射公式和散度源的低频抵消；保留真实边界与未来截断。外加 Coulomb 反射模型存在解析增长模，故不能用默认稳定的反射内边界替代实际内部；这不是完整 D001 失稳结论。实际 A/H、强终态及同一曲线三分支仍 OPEN，契约未改，新解析证据 INTERNAL_AUDIT。
+
+10-23 第十六回合：[A-MOD08](research/goal_a/MODULATED_BONDI_RADIAL_IMPROVEMENT.md)由幅度条件推出实际径向导数、质量/电荷/光学余项，并以有限时Bondi量吸收长期主项。外向区低阶势误差的径向幂次改善，参数相位变化有条件性锥内界；未证明调制算子全局尾估计，也未假定M_B≥|Q_B|或最终参数。完整 A/D、强RN与三分支仍OPEN。
+
+10-23 第十五回合：[A-CARRIER07](research/goal_a/TAIL_CURRENT_AND_CARRIER_AUDIT.md)审计发现一般极端固定 RN 载频不自动满足 B_σ；改用允许该载频的实际幅度/辐射导数尾范数。实际波方程径向核给二次电荷/势映射，终电荷结论仍条件性依赖真实 A/D 尾估计。内区供能、强视界、精确极端等式与同一三分支未闭合；Goal A OPEN，契约未改。
+
+10-23 第十四回合：[A-INNER06](research/goal_a/MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md)给超临界参考耦合的长内侧齐次统一控制，并证明一个实际带权入射标量预算可支付此前独立的库仑势小性输入。预算有限窗连续，统一小性及完整 PDE 估计未证；受迫长区间的 log 代价、交叉 Wronskian 和实际内区供能仍须处理。终电荷结论保持条件性，Goal A OPEN；新解析证据 INTERNAL_AUDIT。
+
+10-23 第十三回合：[A-LOW05](research/goal_a/LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md)给固定 RN 临界壳层的 ω 一致估计，并将实际非线性算子误差改写成一阶散度源。该带的转移无需源时间导数或先验光学时间导数；时间变化系数由全频率 Plancherel 控制，不作带保持假设。真实势小性、两侧频率接合、世界管和未来截断仍未闭合，Goal A OPEN；解析证据 INTERNAL_AUDIT。
+
+10-23 第十二回合：[A-COUL04](research/goal_a/COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md)保留全部 b 导数写出实际库仑功平衡，证明相关光学导数可降至一阶。严格负能量剖面及实际径向约束族表明：扣库仑不自动产生强耦合正标量能量；指定 r^p 流在 |eQ_*|≥1/2 不能闭合纯标量正性。完整 RN 频率算子定位低频漂移壳层，未给实际时间误差或全未来衰减。内部解析审计，Goal A OPEN。
+
+10-23 第十一回合：[A-FAR03](research/goal_a/FAR_ZONE_RP_AND_COULOMB_BALANCE.md)证明实际远区世界管幅度/电荷一致界，以及足够大半径、任意固定 eM 的 r^p 积分正性。正性不依赖最终 Q 或 RN；精确静态 RN 反驳删除库仑内边界的推理。实际时间加权辐射仍缺库仑扣除后的全域供能控制，Q_f/视界相认/三分支未闭合。解析证据 INTERNAL_AUDIT，完整 Goal A OPEN。
+
+10-23 第十回合：[A-BOND02](research/goal_a/ACTUAL_BONDI_COMPLETENESS_BRIDGE.md)对 ESC01 新形成种子补齐实际规则 I⁺、单位 Bondi 时间未来无界、出射物理仿射完整，以及有限时间 Q_B/M_B 提取。正终质量的有序极限与源几何量相认；晚时 Q_f、视界参数一致性及 RN 强收敛未证。有限通量且幅度趋零仍不足终电荷收敛，已给边界 ODE 反控制。A1–A6 全目标仍 OPEN，新证明 INTERNAL_AUDIT。
+
+10-23 第九回合：[A-ESC01](research/goal_a/CENTER_ESCAPE_CHARACTERISTIC_EXTENSION.md)在新的 AF 补全中兑现边缘种子的实际中心逃逸见证，给初始整片可见及随后视界起源的内部解析证明；低聚焦关断、长仿射薄带和小空间能量的 AF 接合均分开审计。仅得到源定理含义的 I⁺ 完整性，未填冻结 Bondi/规则边界桥、RN 终态或三分支。δ→0 的 ADM 近极端性不是固定 X⁶ 端点。Goal A 仍 OPEN。
+
+10-23 第八回合：[A-CENTER03](research/goal_a/REGULAR_CENTER_BONDI_MATCHING.md)在明确正质量条件下完成有限 Bondi 外段的完整正则中心约束填充、固定 X⁶ 参数实现，并核对外部 Cauchy 定理以实现有限外区转移。带电/中性双壳还可保留有正质量预算的强场种子；不能据有限信号选择极端终态。新解析证明 INTERNAL_AUDIT，全未来/实际视界及 A1–A6 仍 OPEN。
+
+10-23 第七回合：[A-BON01](research/goal_a/FINITE_BONDI_EXTERIOR_REALIZATION.md)把带电矩兼容信号提升为实际有限窗口 AF 外区及 Cauchy 外段，给出解析存在证明和剩余约束传播。外半径可依赖窗口，不是固定区域全未来；正则中心填充、实际视界和三分支仍未完成。[A-EF01](research/goal_a/REGULAR_EF_INVERSION_AND_TRANSVERSE_GATE.md)的横向门槛对候选的应用仍 CONDITIONAL。
+
+10-23 第六回合：[A-MOR01](research/goal_a/GLOBAL_COVARIANT_MORAWETZ.md)完成实际径向耦合乘子及中心/AF 有限域通量审计，另给完整自由波控制。一个有界权重类的全域点态正性路线被严格排除；带电 ERN 反演提供退化估计的参考，未提供实际事件视界或非线性终态。所有完整 A1–A6 门槛仍未闭合。
+
+10-23 第五回合：[A-SOURCE01](research/goal_a/GLOBAL_RN_SOURCE_NORM_AUDIT.md)排除仅凭系数小作同阶 RN 强迫吸收的步骤，并建立实际协变交换、Maxwell 功抵消和 Einstein 质量能量预算。这里关闭的是部分算子接口与零阶结构，未得到幅度迹可积或全局三分支；A1–A6 的完整门槛状态不变。
+
+10-23 第四回合：[A-TRACE01](research/goal_a/EXTERIOR_TRACE_MULTIPLIER_AUDIT.md)将实际外环迹问题化为有界边界泛函/源预算，并以全系统精确局部解反驳仅靠局部导数通量闭合幅度的步骤。局部恒等式与反例已内部审计；RN 参考的全局带权误差、AF/视界边界控制仍未兑现。目标 A 保持 OPEN，不继续把局部接口累积作为全局完成证据。
+
+10-23 第三回合：[O01.7–11](research/goal_a/INCOMING_OPTICAL_DEPTH_GATE.md)在明确的实际出射内层条件下关闭内端入流与出射导数体积分，剩余为外端幅度平方迹及进入时刻的光学预算。解析引理及内部审计已完成；实际候选应用仍 CONDITIONAL，没有新增完整 A1–A6 验收门槛的闭合证据。
+
+10-23 第二回合：[A-OPT01](research/goal_a/INCOMING_OPTICAL_DEPTH_GATE.md)给出规范不变的入射光学深度判据及移动层演化式，避免用小 λ 或有界质量误判几何近边际性。精确反例排除“仅靠有界质量取得 B 一致界”的步骤；四次有限诊断不构成 PDE 证书。目标候选的全时间通量/滞留控制仍 OPEN。
+
+10-23：[A-MARG02](research/goal_a/FINITE_MARGINAL_RIGIDITY.md)给出有限边际球的局部极端刚性、横向曲率仿射分类及近边际定量判据，已内部反驳式审计。契约 A1–A6 已展开锁定；[恢复检查点](research/goal_a/RECOVERY_CHECKPOINT.md)保存当前依赖与源哈希。未闭合最终视界身份和完整三分支，目标 A 仍 OPEN；未提交或推送。
+
+新增构造：[A-DIR01 保持电荷的方向族](research/goal_a/CHARGE_PRESERVING_DIRECTION_FAMILY.md)固定 Q(r) 调节初始入射/出射比例，整条方向路径有全半径 f>10⁻⁷ 的条件性初值证书。含中心有限演化与加密显示“避免负样本”和“保留核心质量”仍冲突：d=.8 在 t≤45 两档无负 λ 样本，但 r=14 质量仅约初始 ADM 的1.73%；d=.5 出现低电荷中心负信号。没有未来 PDE 认证、正质量长期滞留或目标 A 证明。
 
 最新进展：[正则轴线接口与中心筛选](research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md)补入旧计算遗漏的晚期中心区。A020_W8、s=1001/1000 在 t=6.25 的三档网格均出现约 −1.116 的负 λ，撤回“早期筛选通过”的工作假设；有限数值信号尚非实际陷俘证书。原[完整初值及外部楔区结果](research/goal_a/CANONICAL_CAUCHY_EARLY_SCREEN.md)仍保留。新增轴线精确极限、已知解测试、中心原始数据及数值停止报告；没有启动额外审查。
 
