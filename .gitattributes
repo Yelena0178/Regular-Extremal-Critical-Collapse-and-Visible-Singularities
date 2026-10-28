@@ -299,3 +299,6 @@
 "/research/goal_a/verify_world_tube_radiation.py" -text
 "/reviews/README.md" -text
 "/task-rules.md" -text
+"/research/goal_a/PROGRESS_ARCHIVE_2026-10-28.md" -text whitespace=cr-at-eol
+"/checks/verify_research_snapshot.py" -text
+"/checks/REPOSITORY_AUDIT_2026-10-28.md" -text

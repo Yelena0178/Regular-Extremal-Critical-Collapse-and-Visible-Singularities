@@ -9,6 +9,7 @@ DOCUMENTS = (
     "REPRODUCE.md", "VERIFICATION.md", "PROVENANCE.md", "CHANGELOG.md",
     "atlas-map.md", "task-rules.md", "research/README.md", "checks/README.md", "reviews/README.md",
     "research/goal_a/README.md", "research/goal_a/FILE_INDEX.md",
+    "UPLOAD_GUIDE.md", "checks/REPOSITORY_AUDIT_2026-10-28.md",
 )
 
 

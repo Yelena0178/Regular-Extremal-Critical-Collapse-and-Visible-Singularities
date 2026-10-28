@@ -1,26 +1,27 @@
 # 下一步研究任务
 
-本地任务更新：2026-10-27。主线为 [全局阈值优先](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。每项验收材料注明实际解、规范、区域、常数及依赖。
+更新：2026-10-28。最终标准为 [A1–A6 冻结契约](research/goal_a/ACCEPTANCE.md)。已有成果至 R31，本次只整理材料和恢复优先级，没有新增数学证明。
 
-恢复后的首要动作见 [检查点](research/goal_a/RECOVERY_CHECKPOINT.md)：[A-LOCAL23](research/goal_a/FULL_RN_FUTURE_LOCALIZATION.md)已将固定RN完整有限r的未来截断、体源和真实W滤波功能在过去窗全A中局部化。下一步合并CONE22，写出保留真实过去W边界算子的有限窗全A/D不等式，辨认最小充分迹条件并用实际方程或限定反控制审计。不能把未来功能存在改写成W点态尾，也不再重复同一截断缺口。实际A/D闭合、高频、强视界、精确极端及同一X⁶三分支仍OPEN。本持续目标仅本地保存，不提交或推送，旧同步措辞不构成本轮授权。
+## 优先关闭核心构造缺口
 
-[中心筛选更新](research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md)已补入晚期正则轴线数值更新，s=1001/1000 在三档网格均出现强负 λ，不再作为早期筛选通过候选。下一步应研究改变中心聚焦相关自由数据，或取得该有限负信号的连续陷俘证书；还需独立带电中心动态基准和带初始化误差的 PDE 控制。外部正样本不证明色散，中心负样本也尚未认证实际陷俘。继续保留全部结果并同步 GitHub，不启动额外审查。
-
-## 当前优先任务
-
-[A-DIR01 保持电荷方向族](research/goal_a/CHARGE_PRESERVING_DIRECTION_FAMILY.md)已补整族初值正性与中心有限筛选。下一轮构造优先检验：在保持总电荷的同时改变其径向分布/到达时序，能否避开低电荷聚焦前沿，并在固定面积区域保留质量和电荷。不得把 d≈.7–.8 的有限数值过渡直接当作极端边界，也不得将较长坐标时间或初始 ADM 正下界当作正质量长期滞留。具体第二参数提案与未兑现条件见 A-DIR01 §5。
-
-[A-AF04](research/goal_a/ROTATING_CAUCHY_AF_IMPLEMENTATION.md)已给出具体自由函数与约束 E0 实现；[A-AF05](research/goal_a/ROTATING_AF_CONTINUOUS_BARRIER.md)对两组冻结规范数据完成列明算术假设下的全半径及整条收缩路径正性认证。下一步应演化这些确切定义的 Cauchy 初值，或取得到原特征域的强范数转移；它们尚未继承原种子的边缘球或通过早期未来筛选，不能直接作为 P01 的陷俘上端。
-
-| 优先项 | 现有入口 | 必须补足的证据 |
+| 顺序 | 直接研究动作 | 判定产出 |
 |---|---|---|
-| P01 定位首个边界候选 | [A-PATH01](research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md) | 兑现同一路径的小端色散与陷俘上端前提，定位候选并判定是否在 D 外；无有限规则陷俘不等于已形成极端黑洞 |
-| P02 证明真正形成 | [A-AF03](research/goal_a/AF_REALIZATION_WITH_TRANSVERSE_FLUX.md)、[A-CAUS01](research/goal_a/MARGINAL_SEED_CAUSAL_INTERFACE.md) | 独立复核完整 AF 实现；提供初始中心逃逸见证并覆盖整片；区分定理意义 I⁺ 完整性和目标全部边界条款 |
-| P03 识别极端终态与因果身份 | [A-END01](research/goal_a/FINITE_MARGINAL_TAIL_GATE.md) | 判定边缘锥是否为最终事件视界；证明目标范数中的 RN 收敛、Bondi / 视界终态一致及正质量精确极端性 |
-| P04 核对完整色散出口链 | A-EXIT01–23，见[研究首页](research/goal_a/README.md) | 有限 Cauchy 适定性、中心与外区拼接、高阶范数和共同支撑类相对稳定性的所有前提；不能无证明延伸到临界端点 |
-| P05 闭合同一曲线三分支 | [ACCEPTANCE](research/goal_a/ACCEPTANCE.md)、[尾部障碍](research/goal_a/BONDI_TAIL_OBSTRUCTION.md) | 固定强拓扑的同一 C¹ 约束曲线、负侧完整色散、端点真正极端形成、正侧亚极端 RN，以及真正边界身份 |
+| 1. 审计核心候选能否到达极端端点 | 对选定的确切合法初值列出固定面积区域保留质量 / 电荷的所需条件，重用[中心筛选](research/goal_a/REGULAR_AXIS_CAUCHY_SCREEN.md)、[方向族](research/goal_a/CHARGE_PRESERVING_DIRECTION_FAMILY.md)及失败记录 | 一项实际必要估计、可适用的构造引理或限定候选类的排除；有限样本不得冒充端点 |
+| 2. 构造正质量极端终态 | 对同一候选闭合实际解的 Bondi / 视界参数相认、正下界及精确 Mf=|Qf| | 验收 A4 的实际解证据；不以 ADM、有限时拟合或局部边际球替换 |
+| 3. 闭合三分支连接 | 审计 [PATH01](research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md) 的小端色散和形成侧输入，连接整个负侧、端点与右侧 | 固定强 X⁶ 中同一 C¹ 曲线的全参数论证；不得拼接互不相关的三个例子 |
+| 4. 兑现所需依赖 | 对确实用于前述构造的适定性、参数依赖、外部定理和强收敛逐项核对 | 关闭 A6 的必要边，不以辅助工具数量代替进展 |
 
-有限域证书、脉冲形状扫描与 jets 修复作为上述任务的按需工具；不再默认优先扩展它们。只改变保留边缘球的 AF 外尾不能提供色散负侧。
+初始 ADM 正下界、较长坐标时间、有限区域未见陷俘均不证明正质量长期滞留。保留边缘球而仅改变 AF 外尾不能提供完整色散负侧。外部楔区的正样本与补中心后的负样本必须共同考虑。
+
+## 现有外区工具何时继续
+
+[R31 检查点](research/goal_a/RECOVERY_CHECKPOINT.md)保留当轮下一动作：合并 LOCAL23 与 CONE22，写出保留真实过去 W 的有限窗全 A/D 不等式。该动作现作为**条件性技术支线**：只有能指向一个具体候选和核心构造障碍时才优先开展。
+
+不能把未来 W 滤波功能的存在当作过去 W 点态尾；实际 A/D、高频、共同高阶 AF、规则视界强收敛和同参数双极限仍未闭合。对等价失败反复细化时应回到候选或机制层改变策略。
+
+## 恢复顺序
+
+先按[维护记录](checks/REPOSITORY_AUDIT_2026-10-28.md)核对当前清单、R31 科学文件及 55 份收据；再读检查点的 STATE / ATTEMPTS 和上表。R31 的旧分支 HEAD 与“未提交”是历史状态；当前 GitHub 位置见[获取与同步](UPLOAD_GUIDE.md)。
 
 ## 第七轮历史任务（2026-10-09）
 

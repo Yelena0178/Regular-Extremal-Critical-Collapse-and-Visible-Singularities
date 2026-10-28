@@ -2,93 +2,58 @@
 
 **Regular Extremal Critical Collapse and Visible Singularities · RECCVS**
 
-四维球对称 Einstein–Maxwell–charged scalar field 系统的数学相对论研究项目。
-研究正则中心、单端渐近平坦初值能否在真正全局色散/黑洞边界形成非零质量极端终态，以及其内部边界、曲率与可见性。
+四维球对称 Einstein–Maxwell–无质量带电复标量场的数学相对论研究。研究正则中心、单端渐近平坦初值能否在完整色散与真正形成黑洞的边界产生正质量极端 RN 终态。
 
-本地研究材料更新至 **2026-10-20**。早期 **2026-10-09 第七轮 / 0.1.0** 快照继续保留；后续研究集中于 `research/goal_a/`。本页描述当前工作树，不表示这些修改已提交或同步到 GitHub 默认分支。
-**目标 A–D 仍开放；内部证明稿尚待独立数学复核。** 本次导航整理没有新增数学证明或重新认证研究结果。
+**目标 A–D 均未完成。** 研究成果更新至 2026-10-27 的 R31；仓库入口与材料核对更新至 2026-10-28。内部解析稿、条件性接口、有限计算各有独立作用域，均不等于完整目标证明。
 
-[仓库地图](atlas-map.md) · [当前状态](STATUS.md) · [成果总览](RESULTS.md) · [下一步](ROADMAP.md) · [目标 A 研究首页](research/goal_a/README.md) · [完整研究文件索引](research/goal_a/FILE_INDEX.md)
+当前成果位于 [研究分支](https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities/tree/codex/goal-a-research-2026-10-16)，通过 [草稿 PR #5](https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities/pull/5) 汇入 `main`。2026-10-28 核对时，默认分支 `main` 仍为 10-12 基线；应以正在阅读的分支和提交为准。
 
-## 后续研究进展（2026-10-16 至 10-20）
+## 从这里开始
 
-10-11 至 10-12 的[阶段审查](reviews/README.md)已记录旧有限八阶 jet 端点系统的内部根认证，以及共同 Cauchy / 全条带等条件性推进；阶段 3 整体仍未闭合。不能继续把该有限根笼统记作“未求出”，也不能将它当作完整形成或目标 A 认证。
-
-当前采用 [全局阈值优先路线](research/goal_a/GLOBAL_THRESHOLD_ROUTE.md)，最终标准见 [目标 A 验收](research/goal_a/ACCEPTANCE.md)。
-
-| 方向 | 当前材料与限制 |
+| 要了解什么 | 入口 |
 |---|---|
-| 初值、演化与有限域工具 | 新增约束初值族、极坐标 / shift / 特征演化、精确代数及区间工具；冻结中性实验有有限矩形陷俘证书，不等于原光滑种子或全局认证 |
-| 小数据与完整色散出口 | 指定小数据分析链及 A-EXIT01–23，推进到中心完整性、I⁺、零 Bondi、二阶衰减和相对稳定出口；仍需前置分析及适定性接口复核 |
-| 候选与完整 AF 实现 | 旋转种子的整锥有理证书、二维 E0 筛选和 [A-AF03](research/goal_a/AF_REALIZATION_WITH_TRANSVERSE_FLUX.md) 非有效实现稿；尚无真正形成及 RN 终态认证 |
-| 10-20 全局因果与终态门槛 | [A-CAUS01](research/goal_a/MARGINAL_SEED_CAUSAL_INTERFACE.md) 条件性黑洞结论与逃逸接口；[A-END01](research/goal_a/FINITE_MARGINAL_TAIL_GATE.md) 给带事件视界身份前提的曲率门槛 |
-| 10-20 同一约束路径与边界 | [A-PATH01](research/goal_a/CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md) 保持初始未陷俘的收缩路径和首个色散边界候选；候选定位、是否在 D 外、极端终态及右侧分支仍未证明 |
+| 已有什么、还缺什么 | [当前状态](STATUS.md)、[成果与证据范围](RESULTS.md) |
+| 固定模型与最终要求 | [D001 模型](definitions/MODEL.md)、[Goal A 契约 A1–A6](research/goal_a/ACCEPTANCE.md) |
+| 按主题审查研究 | [目标 A 专题导航](research/goal_a/README.md)、[完整文件索引](research/goal_a/FILE_INDEX.md) |
+| 下一轮研究和恢复 | [路线图](ROADMAP.md)、[R31 检查点](research/goal_a/RECOVERY_CHECKPOINT.md)、[维护与恢复说明](checks/REPOSITORY_AUDIT_2026-10-28.md) |
+| 下载、复算与核对证据 | [获取与同步](UPLOAD_GUIDE.md)、[复算说明](REPRODUCE.md)、[验证记录](VERIFICATION.md) |
+| 查找旧证明和来源 | [仓库地图](atlas-map.md)、[L001–L023](proofs/INDEX.md)、[阶段审查](reviews/README.md)、[文献来源](literature/SOURCES.md) |
 
-全部专题、A-EXIT01–23 阅读顺序、核验入口和结果文件见 [研究首页](research/goal_a/README.md) 与 [完整索引](research/goal_a/FILE_INDEX.md)。
+## 当前研究处于哪里
 
-## 第七轮基础成果（截至 2026-10-09）
-
-| 成果 | 证明入口 | 准确范围 |
-|---|---|---|
-| 有限时间严格陷俘的阈值排除 | [L001](proofs/RECCVS_L001.md) | 标准稳定性与不完备定理的组合；用于候选筛选 |
-| 近视界实际内侧控制 | [L007–L012 索引](proofs/INDEX.md) | 特殊精确接合输入的薄带、楔域及固定宽度全时间条带 |
-| 全中心体积控制与轴线有限寿命 | [L013–L016 索引](proofs/INDEX.md) | 条件于形成输入及前置估计；有限固有寿命不等于曲率奇点 |
-| 深中心的有限区间陷俘判据 | [L018](proofs/RECCVS_L018.md)、[L019](proofs/RECCVS_L019.md) | 判据针对实际解；尚未认证原种子的全部所需输入 |
-| 固定八阶领先剖面及精确证书 | [L020](proofs/RECCVS_L020.md)、[L021](proofs/RECCVS_L021.md) | 辅助领先剖面与周期族；不是有限振幅端点根或时空演化 |
-| 修复尾部的定量预算 | [L022](proofs/RECCVS_L022.md) | 给出锥误差接口；陷俘保留仍须实际有限时间稳定域 |
-| 第一周期严格陷俘机制 | [L023](proofs/RECCVS_L023.md) | 条件于有限阶形成分支、完整 Minkowski 入射填充及 An–Lim 定理接口；充分长成员陷俘 |
-
-**该快照的候选筛选结论：** 指定实现的充分长有限阶分支含严格陷俘球，因此不能作为完备色散侧临界基点。原来尚未冻结的任意光滑种子未获无条件认证；本结论也不禁止全部极端形成解。后续有限域证书、转移与候选状态以研究首页为准。
-
-## 阅读顺序
-
-1. [成果总览](RESULTS.md)与[当前状态](STATUS.md)：结论、假设和未闭合项。
-2. [模型与目标定义](definitions/MODEL.md)：作用量、规范、约束空间、可见性。
-3. [后续研究首页](research/goal_a/README.md)与[正式验收](research/goal_a/ACCEPTANCE.md)：当前主线、进展和缺口。
-4. [形成输入审计](inputs/AUDIT.md)与[全部 23 份旧证明索引](proofs/INDEX.md)：按需核对基础依赖。
-5. [第七轮评审](reviews/ROUND_07.md)、[旧研究路线](proofs/ROUTES_AND_TASKS.md)及[后续阶段记录](research/goal_a/PROGRESS_ARCHIVE_2026-10-20.md)。
-6. [复算说明](REPRODUCE.md)、[本次检查记录](VERIFICATION.md)。
-
-## 开放目标
-
-| 目标 | 当前状态 |
+| 已保存的成果 | 尚未跨过的门槛 |
 |---|---|
-| A：正则中心的真正全局极端临界分支 | 未证明；尚无合格且经认证的临界基点 |
-| B：统一受控初值族中的可见曲率放大 | 未证明 |
-| C：单解有限仿射参数的可见曲率奇点 | 未证明 |
-| D：指定拓扑中的一般性与稳定性 | 未证明 |
+| 合法约束初值、连续半径证书、有限未来筛选及反例记录 | 尚无已认证的正质量极端临界端点 |
+| A-EXIT01–23 小数据 / 出射出口与中心分析链 | 尚未接入同一条目标曲线的整个负侧 |
+| ESC01、BOND02 特定形成种子的中心逃逸及实际 Bondi 外区内部解析稿 | 不提供该种子的强 RN 终态，也不提供临界三分支 |
+| RN20 → SPACE21 → CONE22 → LOCAL23 的参考核、体源与未来局部化 | 实际过去边界迹、A/D 闭合、高频及规则视界强终态仍缺 |
 
-下一步具体任务见 [ROADMAP.md](ROADMAP.md)。
+最终要求是在固定强 X⁶ 拓扑下同一条 C¹ 曲线上，同时证明负侧完整色散、端点真正形成且 Mf=|Qf|>0、正侧真正形成且 0<|Qf|<Mf，以及真正边界身份。不能按文件数、检查数或已写接口数估计完成比例。精确定义以 [ACCEPTANCE](research/goal_a/ACCEPTANCE.md) 为准。
 
-## 目录
+## 材料结构
 
-| 目录或文件 | 内容 |
+| 位置 | 用途 |
 |---|---|
-| `atlas-map.md`、`task-rules.md` | 主题路由与例行导航维护 |
-| `research/goal_a/` | 10-16 至 10-20 后续研究、演化与认证工具、证据和完整文件索引 |
-| `definitions/` | 模型及命题定义 |
-| `proofs/` | 23 份原证明稿与路线记录 |
-| `experiments/` | 精确计算脚本、输入和原证书 |
-| `inputs/` | 形成输入、历史支持材料、接口审计 |
-| `literature/` | 文献矩阵、定理定位、版本与来源链接 |
-| `reviews/` | 七轮记录、10-11 至 10-12 阶段审查及原始首页，见目录导航 |
-| `checks/` | 当前打包复算结果和材料来源记录 |
-| `hidden_files/` | 过程输出与使用记录，作为历史来源按需读取 |
+| 根目录状态、成果、路线图 | 当前结论、证据边界和工作优先级 |
+| `research/goal_a/` | 研究稿、实现、报告、数值记录、恢复快照；原路径保留 |
+| `definitions/`、`proofs/` | 模型定义与早期 23 份证明稿 |
+| `inputs/`、`experiments/` | 形成输入、辅助剖面及精确计算 |
+| `literature/`、`reviews/`、`hidden_files/` | 外部来源、阶段审查和历史过程材料 |
+| `checks/`、`FILE_MANIFEST.json` | 导航、字节完整性、证据收据和复算入口 |
 
-## 复算与审查
+按主题找文件用研究导航；按文件名找材料用完整索引；逐轮经过见 [截至 R31 的原研究首页](research/goal_a/PROGRESS_ARCHIVE_2026-10-28.md)。历史记录中的“未提交”等措辞只描述当轮状态。
+
+## 快速检查
 
 ```bash
-python3 checks/reproduce.py
-python3 checks/update_navigation.py --check
-python3 checks/verify_navigation.py
-python3 checks/verify_manifest.py
+python checks/update_navigation.py --check
+python checks/verify_navigation.py
+python checks/verify_manifest.py
+python checks/verify_research_snapshot.py --allow-navigation-updates
 ```
 
-旧核心证书与导航检查使用 Python 标准库。L012 核代数另需 SymPy，后续演化 / 求根按需使用 NumPy / SciPy，入口与范围见 [REPRODUCE.md](REPRODUCE.md)。旧复算程序不覆盖全部后续研究；计算通过不认证完整 PDE、因果结构或独立同行审查。
+这些只检查材料与记录一致性。研究实验的依赖、输出及范围见 [REPRODUCE](REPRODUCE.md)；重新运行应使用独立检出，避免覆盖已归档报告。
 
-## 来源、许可与贡献
+## 来源与引用
 
-本次打包保留全部 23 份证明正文。材料重组和排除清单见 [PROVENANCE.md](PROVENANCE.md)。第三方论文全文未放入主仓库，版本化链接见 [literature/SOURCES.md](literature/SOURCES.md)。完整原始快照随交付包单独提供。
-
-尚未选定统一再使用许可，见 [LICENSE_NOTICE.md](LICENSE_NOTICE.md)。引用元数据见 `CITATION.cff`；其中不含尚未创建的仓库 URL。
-欢迎提交逐条数学复核与反例，具体要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+来源和历史范围见 [PROVENANCE](PROVENANCE.md)，许可见 [LICENSE_NOTICE](LICENSE_NOTICE.md)。[CITATION.cff](CITATION.cff) 保留 0.1.0 历史版本信息并提供实际仓库地址；引用后续研究时另注明提交 SHA、研究稿编号及日期。第三方文献按 [SOURCES](literature/SOURCES.md) 的版本链接获取。审查与贡献方式见 [CONTRIBUTING](CONTRIBUTING.md)。

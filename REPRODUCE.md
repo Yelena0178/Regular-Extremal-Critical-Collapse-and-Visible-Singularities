@@ -1,18 +1,32 @@
 # 复算说明
 
-## 当前工作树与导航检查（2026-10-20）
+## 当前材料的只读检查（2026-10-28）
 
-在仓库根目录执行。下面三项仅检查导航与文件字节，不运行研究实验：
+先按[获取指南](UPLOAD_GUIDE.md)检出研究分支。以下命令使用 Python 标准库，不运行 PDE 实验或覆盖研究报告：
 
 ```bash
 python checks/update_navigation.py --check
 python checks/verify_navigation.py
 python checks/verify_manifest.py
+python checks/verify_research_snapshot.py --allow-navigation-updates
 ```
 
-新增研究文件后运行 `python checks/update_navigation.py --write` 刷新 [完整研究索引](research/goal_a/FILE_INDEX.md) 与根目录清单，再执行上述检查。维护规则见 [task-rules](task-rules.md)。
+前三项检查当前文件集合、链接与字节。最后一项核对 R31 科学文件及全部报告 / 源码收据，只允许明确列出的导航文件与旧快照不同，并逐项打印差异；它不跳过科学来源。去掉选项即严格核对当轮全部 221 个文件，当前导航整理后应报告相应差异。旧快照的精确恢复与差异解释见[维护记录](checks/REPOSITORY_AUDIT_2026-10-28.md)。
 
-当前 FILE_MANIFEST.json 覆盖 Git 已跟踪及未忽略文件（排除自身和被忽略输出），包括后续研究与历史材料；它不表示文件已提交。10-10 原始清单按原字节保存在 checks/FILE_MANIFEST_2026-10-10.json，仅用于历史比对。旧快照报告均保持原范围。
+新增材料后执行 `python checks/update_navigation.py --write`，再重复上述检查。清单不认证数学正确性；`.gitattributes` 用于保留既有证据的检出字节。
+
+## 最近 R29–R31 的研究核验
+
+下列脚本会在自身目录写入报告，应在独立克隆中运行并比较输出，避免覆盖主工作树的归档证据。R31 报告记录 Python 3.13.5 / SciPy 1.16.3；依赖由现有 requirements 文件给出，不将其他版本自动视为等价。
+
+```bash
+python -m pip install -r research/goal_a/requirements-shooting.txt -r experiments/requirements-kernel.txt
+python research/goal_a/verify_finite_radius_rn_green.py
+python research/goal_a/verify_infinite_radial_rn_body.py
+python research/goal_a/verify_full_rn_future_localization.py
+```
+
+对应输出为 `FINITE_RADIUS_RN_GREEN_CHECKS_2026-10-26.json`、`INFINITE_RADIAL_RN_BODY_CHECKS_2026-10-27.json`、`FULL_RN_FUTURE_LOCALIZATION_CHECKS_2026-10-27.json`，均在 `research/goal_a/`。实际文件名和分析范围亦见[完整索引](research/goal_a/FILE_INDEX.md)。这些检查覆盖符号恒等式及有限 ODE / 积分 / 负控制，不认证连续参数、实际全局 PDE 或 Goal A。
 
 ## 后续研究的按需复算
 

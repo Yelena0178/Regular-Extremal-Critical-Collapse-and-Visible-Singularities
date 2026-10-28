@@ -1,5 +1,11 @@
 # 来源与保存范围
 
+## 2026-10-28 材料完整性与历史界限
+
+R31 研究已同步到研究分支 `codex/goal-a-research-2026-10-16`。本次重整导航，原研究首页按原字节保存在 [PROGRESS_ARCHIVE_2026-10-28](research/goal_a/PROGRESS_ARCHIVE_2026-10-28.md)，旧证明、验收、科学脚本、报告、数值文件及快照保持原字节。导航差异与收据核对见[维护记录](checks/REPOSITORY_AUDIT_2026-10-28.md)。
+
+当前仓库公开材料范围由 [FILE_MANIFEST](FILE_MANIFEST.json) 列明。下文 `source-archives/` 及原始 ZIP 指早期交付包，不表示这些附件位于当前 Git 仓库；未在仓库中的原交付附件不能从 Git 凭空恢复。第三方论文使用 [版本化来源链接](literature/SOURCES.md)，不把全文缺席误记为本次研究成果丢失。
+
 ## 2026-10-20 本地后续研究与导航
 
 在原 main 基线 `3d5bf6b` 之后，本地 research/goal_a/ 累积 10-16 至 10-20 的研究稿、代码、证书与探索记录。当前入口见 [仓库地图](atlas-map.md) 和 [研究首页](research/goal_a/README.md)，全文件分类见 [FILE_INDEX](research/goal_a/FILE_INDEX.md)。

@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **616** 个文件。
+本目录共列出 **617** 个文件。
 
-## 研究文档与阶段记录（103）
+## 研究文档与阶段记录（104）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md — A-BODY11：实际体源、有限窗末端冻结与截断余项](ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)
@@ -87,9 +87,10 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [PHYSICAL_TRACE_LOW_FREQUENCY.md — A-ROBIN13：物理W迹的零频分母与实际边界匹配](PHYSICAL_TRACE_LOW_FREQUENCY.md)
 - [POLAR_EVOLUTION.md — A-EVOL01：极坐标面积半径规范的有限时间演化接口](POLAR_EVOLUTION.md)
 - [PROGRESS_ARCHIVE_2026-10-20.md — 导航整理前的研究首页（保存于 2026-10-20）](PROGRESS_ARCHIVE_2026-10-20.md)
+- [PROGRESS_ARCHIVE_2026-10-28.md — 目标 A：当前进展与专题导航](PROGRESS_ARCHIVE_2026-10-28.md)
 - [RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md — A-CUTOFF12：径向分部与实际晚截断的谱移除](RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md)
 - [RATIONAL_GOURSAT_CERTIFICATION.md — A-GOUR01：有限因果域的有理输运与逐单元误差管道](RATIONAL_GOURSAT_CERTIFICATION.md)
-- [README.md — 目标 A：当前进展与专题导航](README.md)
+- [README.md — 目标 A：当前状态与专题导航](README.md)
 - [RECOVERY_CHECKPOINT.md — Goal A 可恢复检查点 GA-R20261027-31](RECOVERY_CHECKPOINT.md)
 - [REGULAR_AXIS_CAUCHY_SCREEN.md — A-AXIS01：正则轴线接口及补齐中心后的筛选](REGULAR_AXIS_CAUCHY_SCREEN.md)
 - [REGULAR_CENTER_BONDI_MATCHING.md — A-CENTER03：有限 Bondi 外段的正则中心填充](REGULAR_CENTER_BONDI_MATCHING.md)
