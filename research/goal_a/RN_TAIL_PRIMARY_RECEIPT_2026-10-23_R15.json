@@ -1,0 +1,40 @@
+{
+  "source_url": "https://arxiv.org/html/2603.28861v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.28861v1",
+  "read_at_utc": "2026-10-23T15:45:42.583265+00:00",
+  "official_html_bytes": 3118213,
+  "official_html_sha256": "86a7c8b05d53ac9eb07fb52bba532270cf7214055c3c5ce2fa1255efc1d5b3b1",
+  "selected_nodes": [
+    {
+      "element_id": "S1.Thmtheorem1",
+      "node_html_sha256": "79dabfb1b380092efd83c887fa993e57ff272e3b85c605f79b0ad0067020e587",
+      "math_count": 52,
+      "math_alttext_sequence_sha256": "7a04acf573009610d0d877f1c72616ea901b0265da79e10a469ac07e462a7cde"
+    },
+    {
+      "element_id": "S4.Thmtheorem1.p1",
+      "node_html_sha256": "6e876a2f94fa82bf74a3761d129b8457761b0262866a641b7321401c89644889",
+      "math_count": 143,
+      "math_alttext_sequence_sha256": "865ed2ea6e593e0234b4b551e70a82f6b128718d72db31ef9b77a6649d8d0973"
+    },
+    {
+      "element_id": "S4.I1.i2.p1",
+      "node_html_sha256": "14bd749b6864458ea6039eab8af33af98cf305b5675c27fe34ebe95b063071f6",
+      "math_count": 42,
+      "math_alttext_sequence_sha256": "ec0549da0222d833bf854913e76e855518471c943ffd1df49c9a395f2b6753b0"
+    },
+    {
+      "element_id": "S4.I1.i3.p1",
+      "node_html_sha256": "eab89e9eea2ede15280875f773a93c0759aec181efd6d580b1ec0e7044715e92",
+      "math_count": 37,
+      "math_alttext_sequence_sha256": "de53cf5fa678bd2a22593395092de14a23d07b862403c95e26cac37eac4173c2"
+    }
+  ],
+  "inspection": "Official PDF text plus selected official HTML MathML alttext; theorem 1.1 and theorem 4.1 including radiation derivative statement",
+  "screenshot_note": "PDF screenshot tool returned a citation marker rather than an image; no visual formula inspection was claimed",
+  "full_html_archived_in_repository": false,
+  "external_temp_cache_is_recovery_dependency": false,
+  "own_scope_note": "Fixed RN linear two-channel tails only; no Einstein-Maxwell feedback or collapse theorem.",
+  "comparison_mapping_source": "GLOBAL_RN_SOURCE_NORM_AUDIT.md S01.1: A_G=-A_P and scalar charge q_G=e",
+  "next_analytic_use": "Audit ordinary weighted radiation budget and derive actual charge-current estimates; no source tail transferred to actual collapse without proof"
+}

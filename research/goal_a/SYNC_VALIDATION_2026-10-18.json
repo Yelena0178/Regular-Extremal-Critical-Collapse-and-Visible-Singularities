@@ -1,0 +1,47 @@
+{
+  "scope": "Algebra and finite budgets only; not global existence or criticality proof",
+  "results": [
+    {
+      "script": "verify_outgoing_exit.py",
+      "returncode": 0,
+      "stdout": "gauss: EXACT_ZERO\nmomentum: EXACT_ZERO\nhamiltonian: EXACT_ZERO\noutgoing: EXACT_ZERO\nquadratic_bound: EXACT_ZERO\nsingle_Pi_sign_reversal: REJECTED\nScope: constraint algebra only; full dispersion remains unproved.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_outgoing_backscatter.py",
+      "returncode": 0,
+      "stdout": "covariant_product_rule: EXACT_ZERO\nrenormalized_mass_potential: EXACT_ZERO\ncommutator_sign_change: REJECTED\nradial_integral_2: EXACT_ZERO\nradial_integral_3: EXACT_ZERO\nradial_integral_4: EXACT_ZERO\nradial_integral_6: EXACT_ZERO\nradial_integral_8: EXACT_ZERO\nnull_integral_4: EXACT_ZERO\nnull_integral_6: EXACT_ZERO\nnull_integral_8: EXACT_ZERO\nScope: algebra/integrals only; geometric bootstrap and center remain open.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_outgoing_strip_bootstrap.py",
+      "returncode": 0,
+      "stdout": "scalar_conversion: EXACT_ZERO\ncharge_u: EXACT_ZERO\nmass_u: EXACT_ZERO\nkappa_u: EXACT_ZERO\nnu_v: EXACT_ZERO\nmetric: rational_margin=48844679/104857600\nnu_exponent: rational_margin=9523079/52428800\nkappa_exponent: rational_margin=15/64\nvolterra: rational_margin=80112712583/322122547200\nzeta: rational_margin=80112712583/161061273600\ncharge_mass: rational_margin=6367/12800\nScope: identities and constant feasibility; no global existence certification.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_outgoing_cauchy_strip.py",
+      "returncode": 0,
+      "stdout": "null_norm: EXACT_ZERO\ninitial_kappa: EXACT_ZERO\ninitial_chi: EXACT_ZERO\ninitial_zeta: EXACT_ZERO\ninitial_mass_derivative: EXACT_ZERO\ninitial_constraint: rational_margin=4866394/75\nmetric: rational_margin=35105116541/80530636800\nnu: rational_margin=4906127741/40265318400\nkappa: rational_margin=903/4096\nwave: rational_margin=65848677333427/263882790666240\nderivative: rational_margin=65848677333427/131941395333120\nmass_charge: rational_margin=10051/20480\nbudgets: Mb=24403/150, M=314953/150, q=126/5\nScope: explicit initial-data budgets and strip estimates; center/global dispersion open.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_outgoing_inner_trace.py",
+      "returncode": 0,
+      "stdout": "charge_cancellation: EXACT_ZERO\nenergy_bound_identity: EXACT_ZERO\nPsi_and_chi_L1: EXACT_LESS_THAN 1/2000; approximate_bound=0.000462617442992\ncharge_total_variation: EXACT_LESS_THAN 1/10000000; approximate_bound=6.4204469568e-08\nchi_L2_squared: EXACT_LESS_THAN 1/500000000000; approximate_bound=1.92703738114e-12\nrenormalized_mass: EXACT_LESS_THAN 11/1000000000000; approximate_bound=1.00371787026e-11\nScope: conditional trace budgets; center concentration and global existence unproved.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_center_derivative_system.py",
+      "returncode": 0,
+      "stdout": "charged_radial_transport: EXACT_ZERO\nomitted_commutator: REJECTED\ninitial_R_squared_limit: EXACT_ZERO\nScope: identities only; finite-region estimates and center theorem require analysis.\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_center_cone_norm.py",
+      "returncode": 0,
+      "stdout": "mean_subtraction_identity: EXACT_ZERO\nBV_kernel_norm_squared: EXACT_ONE_HALF\namplitude: EXACT_LESS_THAN 63/5000000000; approximate_bound=1.25758367005e-08\ncompactness: EXACT_LESS_THAN 1/1562500000000000; approximate_bound=6.32606677918e-16\nhawking_mass: EXACT_LESS_THAN 3/1000000000000; approximate_bound=2.9089016054e-12\nScope: one cone only; propagation to all future cones unproved.\n",
+      "stderr": ""
+    }
+  ]
+}

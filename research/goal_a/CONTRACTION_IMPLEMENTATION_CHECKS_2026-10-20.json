@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "evidence": "E0 implementation checks, not candidate evolution",
+  "near_null_reference_precision_digits": 90,
+  "near_null_signed_tilt_cases_checked": 2,
+  "polar_maximum_difference": 1.4432899320127035e-15,
+  "geometric_residuals_512": {
+    "hamiltonian": 2.60117989756177e-10,
+    "momentum": 1.2896844894077478e-09,
+    "gauss": 1.1192818242662222e-11
+  },
+  "geometric_residuals_1024": {
+    "hamiltonian": 1.6271246665571643e-11,
+    "momentum": 8.069925205093819e-11,
+    "gauss": 6.999377629817978e-13
+  },
+  "omitted_momentum_residual": 0.0008320389992675932,
+  "sample_ADM": [
+    {
+      "s": 0.0,
+      "mass": 0.0,
+      "charge": 0.0,
+      "minimum_sampled_f": 1.0
+    },
+    {
+      "s": 0.25,
+      "mass": 0.017618102664545825,
+      "charge": 0.021249813123118858,
+      "minimum_sampled_f": 0.9979380764579058
+    },
+    {
+      "s": 0.5,
+      "mass": 0.07276026439605153,
+      "charge": 0.08499925249247543,
+      "minimum_sampled_f": 0.9914919629497058
+    },
+    {
+      "s": 0.75,
+      "mass": 0.16909687958447212,
+      "charge": 0.19124831810806983,
+      "minimum_sampled_f": 0.9802672590888968
+    },
+    {
+      "s": 1.0,
+      "mass": 0.3105367080230759,
+      "charge": 0.33999700996990173,
+      "minimum_sampled_f": 0.9638727443554232
+    }
+  ],
+  "original_AF03_candidate_implemented": false,
+  "boundary_parameter_located": false,
+  "three_branch_goal_proved": false,
+  "source_sha256": {
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "verify_contraction_implementation.py": "f39f807e938963f0433c7bf198c8dd9d23df7875e57a3312db8a6d14095bc5f2",
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a"
+  }
+}

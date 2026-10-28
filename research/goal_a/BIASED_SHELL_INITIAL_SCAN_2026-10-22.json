@@ -1,0 +1,493 @@
+{
+  "initial_data": [
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.2121742993032765,
+      "ADM_charge": 5.768430178544514,
+      "minimum_sampled_initial_f": 0.2670062069008305,
+      "proper_support": 16.584373302062854,
+      "proper_max": 20.130837150896404,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -2.0,
+      "normalization": 0.6798846299388652,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 147.29904583282513,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 2.217524662152095e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.16987051041871334,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.736448633364289,
+      "ADM_charge": 5.76843017854451,
+      "minimum_sampled_initial_f": 0.18937541232358607,
+      "proper_support": 17.601409379151157,
+      "proper_max": 21.6225660761894,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -2.0,
+      "normalization": 0.6798846299388652,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 147.29904583282513,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 2.217524662152095e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.1698705104187135,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 7.056416715224492,
+      "ADM_charge": 5.768430178544515,
+      "minimum_sampled_initial_f": 0.1417415184193182,
+      "proper_support": 18.572891776387532,
+      "proper_max": 23.000925112302333,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -2.0,
+      "normalization": 0.6798846299388652,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 147.29904583282513,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 2.217524662152095e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.16987051041871346,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.159093128577769,
+      "ADM_charge": 5.768430178544527,
+      "minimum_sampled_initial_f": 0.2749067781203869,
+      "proper_support": 16.5913119462323,
+      "proper_max": 20.09864610025192,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -1.0,
+      "normalization": 0.8662988873476024,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 115.6025463371218,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 3.4262513406180826e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.2663853725011905,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.686791355154654,
+      "ADM_charge": 5.768430178544529,
+      "minimum_sampled_initial_f": 0.1968278381440052,
+      "proper_support": 17.602088497268795,
+      "proper_max": 21.569796705194335,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -1.0,
+      "normalization": 0.8662988873476024,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 115.6025463371218,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 3.4262513406180826e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.26638537250119065,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 7.012100586141308,
+      "ADM_charge": 5.768430178544529,
+      "minimum_sampled_initial_f": 0.14846005907227688,
+      "proper_support": 18.565302653640206,
+      "proper_max": 22.9293654902538,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": -1.0,
+      "normalization": 0.8662988873476024,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 115.6025463371218,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 3.4262513406180826e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.2663853725011905,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.149732225501647,
+      "ADM_charge": 5.768430178544536,
+      "minimum_sampled_initial_f": 0.27629903164504743,
+      "proper_support": 16.665150992326783,
+      "proper_max": 20.165719382664168,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 0.0,
+      "normalization": 1.0,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 100.14635726639825,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 8.947716085445229e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.3892250207420729,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.673542088627098,
+      "ADM_charge": 5.768430178544533,
+      "minimum_sampled_initial_f": 0.19881417727101774,
+      "proper_support": 17.69337340302675,
+      "proper_max": 21.647183277590493,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 0.0,
+      "normalization": 1.0,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 100.14635726639825,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 8.947716085445229e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.3892250207420733,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.997503025249695,
+      "ADM_charge": 5.76843017854453,
+      "minimum_sampled_initial_f": 0.15066983660135289,
+      "proper_support": 18.67047946937056,
+      "proper_max": 23.01408481645867,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 0.0,
+      "normalization": 1.0,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 100.14635726639825,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 8.947716085445229e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.3892250207420732,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.187071355771179,
+      "ADM_charge": 5.768430178544535,
+      "minimum_sampled_initial_f": 0.27073927445471424,
+      "proper_support": 16.84570035838423,
+      "proper_max": 20.37349503623392,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 1.0,
+      "normalization": 1.0353928342814054,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 96.72305423661051,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 1.0782543545443783e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.526616852175002,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.69835716269937,
+      "ADM_charge": 5.768430178544541,
+      "minimum_sampled_initial_f": 0.19508927822894181,
+      "proper_support": 17.926616554891826,
+      "proper_max": 21.906579795861692,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 1.0,
+      "normalization": 1.0353928342814054,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 96.72305423661051,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 1.0782543545443783e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.5266168521750016,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 7.013338408321282,
+      "ADM_charge": 5.76843017854454,
+      "minimum_sampled_initial_f": 0.14826922866401512,
+      "proper_support": 18.949127184736632,
+      "proper_max": 23.314938400918244,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 1.0,
+      "normalization": 1.0353928342814054,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 96.72305423661051,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 1.0782543545443783e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.5266168521750021,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.5,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.272453229847632,
+      "ADM_charge": 5.768430178544532,
+      "minimum_sampled_initial_f": 0.2580136876160189,
+      "proper_support": 17.195892684973753,
+      "proper_max": 20.788438943077683,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 2.0,
+      "normalization": 0.9591272531690742,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 104.41404613986559,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 6.726354534204175e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.660326453127458,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 0.8,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 6.760184601643439,
+      "ADM_charge": 5.76843017854454,
+      "minimum_sampled_initial_f": 0.18579592564761077,
+      "proper_support": 18.38207964866512,
+      "proper_max": 22.4295733535381,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 2.0,
+      "normalization": 0.9591272531690742,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 104.41404613986559,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 6.726354534204175e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.6603264531274569,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    },
+    {
+      "parameters": {
+        "amplitude": 0.4,
+        "frequency": 0.15,
+        "direction": 1.0,
+        "radius": 10.0,
+        "width": 4.0
+      },
+      "coupling": 0.6,
+      "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+      "ADM_mass": 7.057231610388804,
+      "ADM_charge": 5.768430178544541,
+      "minimum_sampled_initial_f": 0.14160490295370434,
+      "proper_support": 19.494282338276143,
+      "proper_max": 23.923519155811345,
+      "initialization_tolerance": 2e-11,
+      "initialization_error_certified": false,
+      "all_radius_initial_positivity_certified": false,
+      "charge_bias": 2.0,
+      "normalization": 0.9591272531690742,
+      "quadrature": {
+        "base_integral": 100.14635726639825,
+        "tilted_integral": 104.41404613986559,
+        "base_error_estimate": 8.947716085445229e-12,
+        "tilted_error_estimate": 6.726354534204175e-12,
+        "errors_certified": false
+      },
+      "mathematical_normalization": "C_beta=integral(r^2*a^2)/integral(r^2*a^2*exp(-beta*z))",
+      "charge_fraction_inside_R": 0.660326453127457,
+      "analytic_initial_certificate_scope": "A=2/5, omega=3/20, R=10, W=4, |d|<=1, |beta|<=2; exact integral normalization",
+      "floating_evaluator_error_certified": false
+    }
+  ],
+  "future_focusing_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_biased_shell.py": "c63ab14d311993f85b470c684578350322d0fe499b0872b83b54f52949cd4dda",
+    "biased_charge_shell.py": "5cee494da89a606344bc439efc604d7fda60a280dc5711ca1d707c25727a251a",
+    "charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3",
+    "certify_biased_shell_initial.py": "7bbb08ead702ed755708b31ac8496c2d79c698d2eedd600115210eadaf115aff",
+    "certify_charge_shell_initial.py": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "backgrounds": {
+    "FLRW": {
+      "runs": [
+        {
+          "steps": 32,
+          "maximum_state_error": 2.1354689299202256e-05,
+          "axis_state_error": 1.2091282144743865e-05,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 1.4390965963319555e-05,
+          "minimum_lambda": 0.2886671146759929,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 1.0878323932539402e-05,
+              "scalar": 1.9149923919464795e-05,
+              "charge": 0.0,
+              "mass": 1.5552347364895802e-05
+            },
+            "x_range": [
+              0.125,
+              1.875
+            ]
+          }
+        },
+        {
+          "steps": 64,
+          "maximum_state_error": 6.049779032735181e-06,
+          "axis_state_error": 3.964276286738677e-06,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 4.539350954167653e-06,
+          "minimum_lambda": 0.28867312958658836,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 3.6119762290565127e-06,
+              "scalar": 6.3076836004927195e-06,
+              "charge": 0.0,
+              "mass": 4.012085106544494e-06
+            },
+            "x_range": [
+              0.0625,
+              1.9375
+            ]
+          }
+        },
+        {
+          "steps": 128,
+          "maximum_state_error": 1.6837725391738445e-06,
+          "axis_state_error": 1.2341372246371662e-06,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 1.3778787494663713e-06,
+          "minimum_lambda": 0.28867463334097404,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 1.1351060349995556e-06,
+              "scalar": 2.0157365652195836e-06,
+              "charge": 0.0,
+              "mass": 1.0187104177439288e-06
+            },
+            "x_range": [
+              0.03125,
+              1.96875
+            ]
+          }
+        },
+        {
+          "steps": 256,
+          "maximum_state_error": 4.6310798829107824e-07,
+          "axis_state_error": 3.866812149366794e-07,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 4.0641337044442807e-07,
+          "minimum_lambda": 0.28867500928124196,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 3.4370827972640683e-07,
+              "scalar": 6.303094002568788e-07,
+              "charge": 0.0,
+              "mass": 2.566506079951236e-07
+            },
+            "x_range": [
+              0.015625,
+              1.984375
+            ]
+          }
+        }
+      ],
+      "error_ratios": [
+        3.5298296323969263,
+        3.592990675393453,
+        3.635809750091245
+      ]
+    },
+    "complex_FLRW": {
+      "runs": [
+        {
+          "steps": 32,
+          "maximum_state_error": 2.1354689299202256e-05,
+          "axis_state_error": 1.2091282144743865e-05,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 1.439096596331948e-05,
+          "minimum_lambda": 0.2886671146759929,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 1.0878323932539402e-05,
+              "scalar": 1.9149923919304828e-05,
+              "charge": 1.9710794513104918e-16,
+              "mass": 1.5552347364611308e-05
+            },
+            "x_range": [
+              0.125,
+              1.875
+            ]
+          }
+        },
+        {
+          "steps": 64,
+          "maximum_state_error": 6.049779023742374e-06,
+          "axis_state_error": 3.9642762780789376e-06,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 4.539350926745016e-06,
+          "minimum_lambda": 0.2886731295865884,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 3.6119761684383356e-06,
+              "scalar": 6.307677237332937e-06,
+              "charge": 4.041467995123479e-16,
+              "mass": 4.012085105295493e-06
+            },
+            "x_range": [
+              0.0625,
+              1.9375
+            ]
+          }
+        },
+        {
+          "steps": 128,
+          "maximum_state_error": 1.6837725391738445e-06,
+          "axis_state_error": 1.2341372246371662e-06,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 1.3778787494663396e-06,
+          "minimum_lambda": 0.288674633340974,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 1.1351060349995556e-06,
+              "scalar": 2.0157365822323208e-06,
+              "charge": 1.6352505752881427e-15,
+              "mass": 1.0187104184725126e-06
+            },
+            "x_range": [
+              0.03125,
+              1.96875
+            ]
+          }
+        },
+        {
+          "steps": 256,
+          "maximum_state_error": 4.6310799284299264e-07,
+          "axis_state_error": 3.7048466461353513e-07,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 4.0641248026789836e-07,
+          "minimum_lambda": 0.28867500928124185,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 3.4370729457000593e-07,
+              "scalar": 6.303089817990545e-07,
+              "charge": 4.072390539421791e-15,
+              "mass": 2.5665060999352507e-07
+            },
+            "x_range": [
+              0.015625,
+              1.984375
+            ]
+          }
+        }
+      ],
+      "error_ratios": [
+        3.5298296376439073,
+        3.5929906700525853,
+        3.6358097143546675
+      ]
+    },
+    "curved_Minkowski": {
+      "runs": [
+        {
+          "steps": 32,
+          "maximum_state_error": 0.00011718750001454836,
+          "axis_state_error": 1.4099832412739488e-14,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 0.00011718750001454836,
+          "minimum_lambda": 0.50017578125,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 5.859375001104894e-05,
+              "scalar": 0.0,
+              "charge": 0.0,
+              "mass": 0.0
+            },
+            "x_range": [
+              0.125,
+              1.875
+            ]
+          }
+        },
+        {
+          "steps": 64,
+          "maximum_state_error": 2.929687500508038e-05,
+          "axis_state_error": 1.6653345369377348e-15,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 2.929687500508038e-05,
+          "minimum_lambda": 0.5000439453125,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 1.4648437514308554e-05,
+              "scalar": 0.0,
+              "charge": 0.0,
+              "mass": 0.0
+            },
+            "x_range": [
+              0.0625,
+              1.9375
+            ]
+          }
+        },
+        {
+          "steps": 128,
+          "maximum_state_error": 7.324218820659034e-06,
+          "axis_state_error": 8.071321389024888e-14,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 7.324218820659034e-06,
+          "minimum_lambda": 0.500010986328125,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 3.6621094509081686e-06,
+              "scalar": 0.0,
+              "charge": 0.0,
+              "mass": 0.0
+            },
+            "x_range": [
+              0.03125,
+              1.96875
+            ]
+          }
+        },
+        {
+          "steps": 256,
+          "maximum_state_error": 1.8310547827971035e-06,
+          "axis_state_error": 1.8396395518038844e-13,
+          "axis_radial_defect": 0.0,
+          "axis_kappa_defect": 1.8310547827971035e-06,
+          "minimum_lambda": 0.5000027465820313,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 9.15527460843002e-07,
+              "scalar": 0.0,
+              "charge": 0.0,
+              "mass": 0.0
+            },
+            "x_range": [
+              0.015625,
+              1.984375
+            ]
+          }
+        }
+      ],
+      "error_ratios": [
+        3.999999999802943,
+        3.9999999621043876,
+        3.9999998304095636
+      ]
+    }
+  },
+  "axis_RHS_limit_errors": [
+    6.681531047808553e-05,
+    6.6815310478252066e-06,
+    6.681531047880718e-07
+  ],
+  "source_sha256": {
+    "centered_cauchy_diamond.py": "5339723e7a01baf4f0b80a3fddd20d28a2756d1d0eff4f9229307f6bf10a6d57",
+    "verify_centered_cauchy_diamond.py": "59ddee48abf9678b816095dc03b23d99963ad8123b3a99007c9dde2b141065c4",
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  },
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "goal_A_proved": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FAIL",
+  "scope": "attempted frozen C0 charged finite rectangle",
+  "complete_C0_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false,
+  "failure": "invalid charged radius proposal on diagonal 34",
+  "completed_pieces": [
+    {
+      "piece": 0,
+      "verified_cells": 9216,
+      "minimum_margin": 2.0145047378641735e-13
+    },
+    {
+      "piece": 1,
+      "verified_cells": 9216,
+      "minimum_margin": 2.62663258343649e-11
+    }
+  ],
+  "prepared_cache": "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz",
+  "prepared_cache_sha256": "fc463c6d7be68017b76dabf3ae9575343184d957a24a1727e685cf4d808ba584",
+  "elapsed_seconds": 96.48261809999894,
+  "source_sha256": {
+    "attempt_charged_rectangle.py": "b660b853dbdc768070f74d5eb17c033bf4d0290add65d3357e062e06b36d1634",
+    "charged_interval_kernel.py": "82e9ff18b95d30a341aa82ffda29752747decffbe4ea456e3903e9d74a5f8813",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "graded_transport.py": "e1f539a8b18faf57adc4c5a38db5cf0ae6807ca4a373ea2b28b0da294b7c849f",
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "frozen_charged_boundary.py": "a37bc9993faddc69a3371cc901655db56ab7ff8b1861ca9a75cccb0e49e42a1b",
+    "FROZEN_CHARGED_REFERENCE_N96_2026-10-17.json": "6f4e92a47004e4ce90804a3766e6bf0daae276115e08af1fc6daff2f13d4c410",
+    "FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json": "c881b0fa19bcd702cbd20b3786293223f0b18c3340896c92b606d9c0162f36ef",
+    "checkpoints\\charged_floor_proposal_2026-10-17\\attempt_charged_rectangle.py": "20edda2635202176c9c8f0f4133d0963aa47562911d711a8666f16267023c6a7",
+    "checkpoints\\charged_floor_proposal_2026-10-17\\FROZEN_CHARGED_RECTANGLE_ATTEMPT_2026-10-17.json": "ba6f4444d24a5b0c28bb608cfb1966fa7667ae1ce30179a2657f3654ccf19691",
+    "checkpoints\\charged_floor_proposal_2026-10-17\\FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz": "c41c13ae6e564a2d618d3271a7bc97c0177548993eb590bde94613cb2a588e3b",
+    "checkpoints\\charged_floor_proposal_2026-10-17\\FROZEN_CHARGED_FAILURE_DIAGNOSTIC_2026-10-17.json": "1ea027306792f828150081501f915d9017d7872d6f43518bcf8dc1ee72130151",
+    "checkpoints\\charged_floor_proposal_2026-10-17\\manifest.json": "8371158015e6112dbfcc9dcd533be6c49215e7375332768cee9c3cddad288c21"
+  }
+}

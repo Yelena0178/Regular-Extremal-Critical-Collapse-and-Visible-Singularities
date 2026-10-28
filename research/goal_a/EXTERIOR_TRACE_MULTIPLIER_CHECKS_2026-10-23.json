@@ -1,0 +1,49 @@
+{
+  "claim_ids": [
+    "T01.1",
+    "T01.2",
+    "T01.3",
+    "T01.4",
+    "T01.6"
+  ],
+  "logic": "PROVED (finite identities and explicit local counterexample only)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "actual reduced potential",
+    "covariant multiplier identity",
+    "Young absorption",
+    "fixed-radius trace weight",
+    "rational ERN weak-field annulus",
+    "constant-scalar Schwarzschild wave and boundary balance",
+    "common-conformal first-order source",
+    "radial anchoring and Av-zero secular control"
+  ],
+  "negative_controls": [
+    "omitted electric commutator",
+    "omitted timelike amplitude boundary",
+    "bounded mass and zero local derivative flux do not bound amplitude trace"
+  ],
+  "RN_example": {
+    "M": "1/10",
+    "Q": "1/10",
+    "e": "3/5",
+    "r_interval": [
+      "2/5",
+      "1/2"
+    ],
+    "eta": "9/16",
+    "c": "972/15625",
+    "absorption_margin": "46/3125"
+  },
+  "global_boundary_budget_verified": false,
+  "nonlinear_RN_transfer_verified": false,
+  "global_AF_counterexample": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_exterior_trace_multiplier.py": "4ee9f82e0bccb717498ca97ff03a48acd34da719093260f1b55036299f069146",
+    "EXTERIOR_TRACE_MULTIPLIER_AUDIT.md": "99171ca0c3e25c85e366206bf6b7935a42a6478b6865da80ec3586267c273ece",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

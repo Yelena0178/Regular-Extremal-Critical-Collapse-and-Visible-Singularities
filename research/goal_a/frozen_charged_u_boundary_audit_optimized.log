@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "extra_jet_enclosures": 540,
+  "outgoing_constraint_checks": 54,
+  "precision_digits": 80,
+  "scope": "independent finite audit; rational Taylor supplies continuum coverage",
+  "complete_rectangle_certified": false,
+  "goal_A_proved": false
+}

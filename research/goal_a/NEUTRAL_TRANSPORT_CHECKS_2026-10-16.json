@@ -1,0 +1,175 @@
+{
+  "evidence": "exact_finite_algebra_and_E0_transport_benchmarks",
+  "goal_A_proved": false,
+  "rigorous_PDE_error": false,
+  "actual_strict_trapping_certified": false,
+  "algebra": {
+    "identities": [
+      "E_u",
+      "G_v",
+      "scalar_integrability",
+      "mass_identity",
+      "r_mixed",
+      "S_mixed"
+    ],
+    "arithmetic": "exact rational Laurent polynomials",
+    "rejected_wave_variants": 2,
+    "RHS_Jacobian_sample_checks": 7
+  },
+  "FLRW_runs": [
+    {
+      "configuration": {
+        "steps_u": 32,
+        "steps_v": 32,
+        "final_u": 2.2,
+        "initial_v": 2.6,
+        "final_v": 4.7,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "max_errors": [
+        0.00014870802983524278,
+        2.3767064091614887e-05,
+        0.00017900741951631938,
+        0.00023686524665694764,
+        2.9723729171760027e-05,
+        0.000976631932528782
+      ],
+      "fixed_point": {
+        "r": 0.46336369741364364,
+        "kappa": 0.08676153438064484,
+        "theta": -0.36510038749523027,
+        "nu": -0.39632928444381166,
+        "z": 0.9212738973181036,
+        "m": 0.30024858792651055,
+        "lambda": -0.025677261880389022,
+        "Omega2": 0.13754454735331254,
+        "theta_out": -0.5976748853619148,
+        "theta_in": -9.225129250499979
+      },
+      "exact_fixed_point": {
+        "r": 0.4635124054434789,
+        "kappa": 0.08678530144473645,
+        "theta": -0.36492138007571395,
+        "nu": -0.3960924191971547,
+        "z": 0.9213036210472754,
+        "m": 0.29927195599398176,
+        "lambda": -0.025282494842371595,
+        "Omega2": 0.13749999999999996,
+        "theta_out": -0.5883926072406481,
+        "theta_in": -9.218150846770149
+      },
+      "maximum_last_iteration_change": 1.9950707752514063e-13
+    },
+    {
+      "configuration": {
+        "steps_u": 64,
+        "steps_v": 64,
+        "final_u": 2.2,
+        "initial_v": 2.6,
+        "final_v": 4.7,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "max_errors": [
+        3.720148659536182e-05,
+        5.942004335859896e-06,
+        4.471497790947687e-05,
+        5.912936879903796e-05,
+        7.454130126038905e-06,
+        0.00024396995389303067
+      ],
+      "fixed_point": {
+        "r": 0.4634752039568835,
+        "kappa": 0.08677935944040059,
+        "theta": -0.36496609505362343,
+        "nu": -0.39615154856595375,
+        "z": 0.9212961669171493,
+        "m": 0.2995159259478748,
+        "lambda": -0.025381118505569594,
+        "Omega2": 0.13751111050350484,
+        "theta_out": -0.5907113959048095,
+        "theta_in": -9.219894473598371
+      },
+      "exact_fixed_point": {
+        "r": 0.4635124054434789,
+        "kappa": 0.08678530144473645,
+        "theta": -0.36492138007571395,
+        "nu": -0.3960924191971547,
+        "z": 0.9213036210472754,
+        "m": 0.29927195599398176,
+        "lambda": -0.025282494842371595,
+        "Omega2": 0.13749999999999996,
+        "theta_out": -0.5883926072406481,
+        "theta_in": -9.218150846770149
+      },
+      "maximum_last_iteration_change": 1.9984014443252818e-13
+    },
+    {
+      "configuration": {
+        "steps_u": 128,
+        "steps_v": 128,
+        "final_u": 2.2,
+        "initial_v": 2.6,
+        "final_v": 4.7,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "max_errors": [
+        9.307577688411062e-06,
+        1.4862400455478708e-06,
+        1.118049309301039e-05,
+        1.4778051355746058e-05,
+        1.8671279856663503e-06,
+        6.09864966205631e-05
+      ],
+      "fixed_point": {
+        "r": 0.46350309786579047,
+        "kappa": 0.0867838152046909,
+        "theta": -0.36493256056880696,
+        "nu": -0.39610719724851046,
+        "z": 0.9213017539192897,
+        "m": 0.2993329424906023,
+        "lambda": -0.02530714981967939,
+        "Omega2": 0.13750277522905113,
+        "theta_out": -0.5889722790757406,
+        "theta_in": -9.21858685723443
+      },
+      "exact_fixed_point": {
+        "r": 0.4635124054434789,
+        "kappa": 0.08678530144473645,
+        "theta": -0.36492138007571395,
+        "nu": -0.3960924191971547,
+        "z": 0.9213036210472754,
+        "m": 0.29927195599398176,
+        "lambda": -0.025282494842371595,
+        "Omega2": 0.13749999999999996,
+        "theta_out": -0.5883926072406481,
+        "theta_in": -9.218150846770149
+      },
+      "maximum_last_iteration_change": 1.9984014443252818e-13
+    }
+  ],
+  "cell_kernel": {
+    "exact_positive_margins": [
+      "173/2000",
+      "173/2000",
+      "173/2000",
+      "173/2000",
+      "173/2000",
+      "173/2000"
+    ],
+    "bad_inequality_rejected": true,
+    "scope": "finite inequality only; supplied bounds not certified"
+  },
+  "source_sha256": {
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "transport_defect.py": "85bc01f91a1258f6302cda4d9a7530657f13a606dd5f94ea03840795c00eda9d",
+    "verify_neutral_transport.py": "54f8764a317e2e76e820b45a736a9674b427c806922aae43164c2d715eb110b7",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "RATIONAL_GOURSAT_CERTIFICATION.md": "05cef218d936b531be68a6bf4f6e3c00e8aab1c73a688634503ed15361a71d88"
+  }
+}

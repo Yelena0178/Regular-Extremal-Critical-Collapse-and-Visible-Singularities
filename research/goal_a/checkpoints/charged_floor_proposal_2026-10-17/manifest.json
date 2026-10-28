@@ -1,0 +1,9 @@
+{
+  "reason": "preserve initial failed proposal and its cached exact-polynomial bounds before correcting floor propagation",
+  "files": {
+    "attempt_charged_rectangle.py": "20edda2635202176c9c8f0f4133d0963aa47562911d711a8666f16267023c6a7",
+    "FROZEN_CHARGED_RECTANGLE_ATTEMPT_2026-10-17.json": "ba6f4444d24a5b0c28bb608cfb1966fa7667ae1ce30179a2657f3654ccf19691",
+    "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz": "c41c13ae6e564a2d618d3271a7bc97c0177548993eb590bde94613cb2a588e3b",
+    "FROZEN_CHARGED_FAILURE_DIAGNOSTIC_2026-10-17.json": "1ea027306792f828150081501f915d9017d7872d6f43518bcf8dc1ee72130151"
+  }
+}

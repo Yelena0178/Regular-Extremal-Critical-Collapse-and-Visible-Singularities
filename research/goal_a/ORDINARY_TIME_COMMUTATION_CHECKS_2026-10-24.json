@@ -1,0 +1,519 @@
+{
+  "round": "R27",
+  "logic": "PROVED identities/conditional forcing bounds; REFUTED automatic positivity of specified test-field energy",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "EXACT_RATIONAL_ENERGY_BOUND",
+    "FINITE_MAJORANT_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT; no actual PDE or independent mathematical certification",
+  "source_sha256": {
+    "verify_ordinary_time_commutation.py": "806aedc2004d1afcbe4d0b5865fb641939baa2c04644d8347d57bbd9387be545",
+    "ORDINARY_TIME_COMMUTATION_AND_ENERGY_GATE.md": "daa16162ae8fae1d655e16c292894a448830dcf0fd978b7d4cc5aa6883bbbb57",
+    "TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md": "73ab1cb1b70c927e7b50579f84e14fe9ee45826c358236174f91f885b883ed04",
+    "GLOBAL_RN_SOURCE_NORM_AUDIT.md": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d",
+    "PHYSICAL_TRACE_GREEN_AND_DELAY.md": "c3387eb8e838773be773b590f8d3777c31b72144ea0cc47cf4590ee9c4af253e",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  },
+  "exact_commutation_and_maxwell_identities": "PASS",
+  "local_energy_balance_with_end_flux": "PASS",
+  "negative_energy_exact_bound": {
+    "flat_energy_upper_exact": "-73/600",
+    "RN_error_bound_exact": "1448843/799760000",
+    "total_energy_upper_exact": "-287565871/2399280000",
+    "positive": false,
+    "scope": "specified static test-field canonical energy; not actual Goal-A data or instability"
+  },
+  "finite_majorants": [
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.4480447968",
+      "TPsi_majorant_ratio": "0.2725752262"
+    },
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.3659852176",
+      "TPsi_majorant_ratio": "0.1800941862"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.892186859",
+      "TPsi_majorant_ratio": "0.7832773005"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.845835989",
+      "TPsi_majorant_ratio": "0.7028444635"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.9649318428",
+      "TPsi_majorant_ratio": "0.9294840232"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.9422917607",
+      "TPsi_majorant_ratio": "0.8865521565"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.4480447968",
+      "TPsi_majorant_ratio": "0.2725752262"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.3659852176",
+      "TPsi_majorant_ratio": "0.1800941862"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.892186859",
+      "TPsi_majorant_ratio": "0.7832773005"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.845835989",
+      "TPsi_majorant_ratio": "0.7028444635"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.9649318428",
+      "TPsi_majorant_ratio": "0.9294840232"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.9422917607",
+      "TPsi_majorant_ratio": "0.8865521565"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.4480447968",
+      "TPsi_majorant_ratio": "0.2725752262"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.3659852176",
+      "TPsi_majorant_ratio": "0.1800941862"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.892186859",
+      "TPsi_majorant_ratio": "0.7832773005"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.845835989",
+      "TPsi_majorant_ratio": "0.7028444635"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "r_over_R": "1.0",
+      "TZ_majorant_ratio": "1.0",
+      "TPsi_majorant_ratio": "1.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "r_over_R": "4.0",
+      "TZ_majorant_ratio": "0.9649318428",
+      "TPsi_majorant_ratio": "0.9294840232"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "r_over_R": "64.0",
+      "TZ_majorant_ratio": "0.9422917607",
+      "TPsi_majorant_ratio": "0.8865521565"
+    }
+  ],
+  "finite_weighted_integrals": [
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "weighted_force_time_integral": "1.0526315789474",
+      "radial_L2_square_majorant_integral": "0.125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "weighted_force_time_integral": "1.0526315789474",
+      "radial_L2_square_majorant_integral": "0.03125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "weighted_force_time_integral": "1.0526315789474",
+      "radial_L2_square_majorant_integral": "0.0078125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "weighted_force_time_integral": "1.25",
+      "radial_L2_square_majorant_integral": "0.125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "weighted_force_time_integral": "1.25",
+      "radial_L2_square_majorant_integral": "0.03125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "weighted_force_time_integral": "1.25",
+      "radial_L2_square_majorant_integral": "0.0078125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "weighted_force_time_integral": "1.9230769230769",
+      "radial_L2_square_majorant_integral": "0.125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "weighted_force_time_integral": "1.9230769230769",
+      "radial_L2_square_majorant_integral": "0.03125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "weighted_force_time_integral": "1.9230769230769",
+      "radial_L2_square_majorant_integral": "0.0078125",
+      "extra_U_transport_moment_not_paid_by_same_majorant": true
+    }
+  ],
+  "finite_radial_and_bridge_controls": [
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.2285917e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.793662e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "8.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "0.0",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "4.1254227e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.1389086e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "32.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.4012985e-45",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "2.8698593e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4012494e-22",
+      "L1_threehalf_primitive_error": "5.6051939e-44",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.025",
+      "R": "128.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "7.0064923e-46",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.2285917e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.793662e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "8.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "0.0",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "4.1254227e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.1389086e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "32.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.4012985e-45",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "2.8698593e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4012494e-22",
+      "L1_threehalf_primitive_error": "5.6051939e-44",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.1",
+      "R": "128.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "7.0064923e-46",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.2285917e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.793662e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "8.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "0.0",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "4.1254227e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "3.1389086e-43",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "32.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "1.4012985e-45",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "U": "1.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "2.8698593e-42",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "U": "16.0",
+      "L1_half_primitive_error": "1.4012494e-22",
+      "L1_threehalf_primitive_error": "5.6051939e-44",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    },
+    {
+      "eta": "0.24",
+      "R": "128.0",
+      "U": "1024.0",
+      "L1_half_primitive_error": "1.4023399e-22",
+      "L1_threehalf_primitive_error": "7.0064923e-46",
+      "commuted_amplitude_and_bridge_majorants": "PASS"
+    }
+  ],
+  "finite_RN_energy_check": {
+    "RN_energy": "-0.1243905415238197",
+    "flat_energy": "-0.1243832416439717",
+    "interval_certified": false
+  },
+  "ordinary_commuted_bulk_forcing_bound_under_A_D_K": true,
+  "commuted_radiation_bridge_under_unknown_H_P": true,
+  "actual_A_D_K_uniform_bounds_verified": false,
+  "real_inner_commuted_trace_bound_verified": false,
+  "F_double_prime_or_carrier_envelope_bound_verified": false,
+  "full_commuted_energy_propagation_verified": false,
+  "negative_energy_is_actual_goal_counterexample": false,
+  "negative_energy_proves_mode_instability": false,
+  "high_frequency_or_strong_horizon_limit_verified": false,
+  "goal_A_proved": false
+}

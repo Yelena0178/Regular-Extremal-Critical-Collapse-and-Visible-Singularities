@@ -1,0 +1,80 @@
+{
+  "claim_ids": [
+    "BOND02.1",
+    "BOND02.2",
+    "BOND02.3",
+    "BOND02.4",
+    "BOND02.5",
+    "BOND02.6",
+    "BOND02.7",
+    "BOND02.8"
+  ],
+  "logic": "PROVED for listed exact identities; actual exterior analytic proof is separate",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "FIXED_RN_FINITE_CONTROLS",
+    "BOUNDARY_ODE_COUNTERCONTROL"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "metric connection and parallel ingoing null normalization",
+    "outgoing affine parameter",
+    "radial optical cancellation",
+    "complete ingoing mass square",
+    "independent charged wave and both reduced transports",
+    "reduced Maxwell flux",
+    "logarithmic charge bootstrap tail",
+    "finite-energy vanishing-amplitude charge-divergent boundary balance",
+    "conditional weighted radiation tail integral"
+  ],
+  "negative_controls": [
+    "wrong electric sign fails radial cancellation",
+    "finite energy plus F->0 does not imply Q_B late limit in boundary ODEs"
+  ],
+  "RN_controls": [
+    {
+      "R": 50.0,
+      "T": 10.0,
+      "affine_length": 9.978934629759738,
+      "lower_bound": 9.49851236780699,
+      "upper_bound": 10.921828349424503,
+      "relative_difference_from_unit_time": 0.0021065370240261894
+    },
+    {
+      "R": 100.0,
+      "T": 10.0,
+      "affine_length": 9.994865874015336,
+      "lower_bound": 9.77640357118762,
+      "upper_bound": 10.428043135846817,
+      "relative_difference_from_unit_time": 0.0005134125984664895
+    },
+    {
+      "R": 200.0,
+      "T": 10.0,
+      "affine_length": 9.998733194374559,
+      "lower_bound": 9.894305739313193,
+      "upper_bound": 10.206745215782767,
+      "relative_difference_from_unit_time": 0.00012668056254416804
+    }
+  ],
+  "boundary_countercontrol_is_actual_EMCSF_solution": false,
+  "analytic_source": "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md BOND02.1-BOND02.7",
+  "actual_seed_numerical_PDE_certified": false,
+  "late_charge_limit_verified": false,
+  "weighted_actual_radiation_flux_verified": false,
+  "horizon_final_parameter_agreement_verified": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_actual_bondi_bridge.py": "32db2b3957050ad545d59c06437045f21de6cd9d5b1dc0eac87282da5125c819",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "CENTER_ESCAPE_CHARACTERISTIC_EXTENSION.md": "f3049925a024a41cb52ac03cc16a4181d5e03619c7dd4689bd082fa552364326",
+    "REGULAR_CENTER_BONDI_MATCHING.md": "19aef127c5f18d9e9405a8d3de1b336d406824543815cd4c64f16254499be2cc",
+    "FINITE_BONDI_EXTERIOR_REALIZATION.md": "3234644116d9ddb803125dfa200c575aaca78ee146806c76be4f5afa36d7957b",
+    "MARGINAL_SEED_CAUSAL_INTERFACE.md": "bb529281df90b581b55b381b0c287a1f3f28b3486dde9e339c51fd312892c930",
+    "OUTGOING_NULL_INFINITY.md": "de79d95768a7b180d86881bf89df30317a09276a4f96491fb9d820cce391da11",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "../../reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/details/02_OUTCOMES_MASS_AND_CRITICALITY.md": "abf3228ea5525526f4a30cce24c4026099978be2ff16dcc621bffabc1a19798c",
+    "../../reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/literature/1107.0949.txt": "68263d1418132daa58a7e397411ce29b07477cdbbb18bcec281e4a86a9fdd742"
+  }
+}

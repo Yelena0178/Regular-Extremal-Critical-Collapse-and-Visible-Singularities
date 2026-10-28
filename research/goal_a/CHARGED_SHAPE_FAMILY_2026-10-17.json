@@ -1,0 +1,564 @@
+{
+  "runs": [
+    {
+      "configuration": {
+        "radius": 10.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0036489987140884434,
+        "cap_radius": 0.20869339766878794,
+        "onset_length": 1.7307958617002421,
+        "terminal_Q": 9.999999999999996,
+        "s": 0.5938815312760597
+      },
+      "endpoint_lambda": -0.0031854838149205163,
+      "endpoint_Q": 8.687278071852493,
+      "endpoint_nu": -1.4889301753636082,
+      "endpoint_r": 9.636358611073774,
+      "fixed_points": [
+        {
+          "u": 0.19825872778534853,
+          "v": 10.384611436800746,
+          "r": 2.520482307771699,
+          "lambda_value": 0.1563043586221441,
+          "Q": 1.030728125600693,
+          "heldout_constraint_residuals": {
+            "radius": 5.946699230807706e-05,
+            "scalar": 0.0028527912897597456,
+            "charge": 0.0035129932325161373,
+            "mass": 0.0008278007021297606
+          }
+        },
+        {
+          "u": 0.19825872778534853,
+          "v": 86.30873820054319,
+          "r": 9.282916670737478,
+          "lambda_value": 0.03961211532400049,
+          "Q": 7.435038302072957,
+          "heldout_constraint_residuals": {
+            "radius": 0.0024340161813917807,
+            "scalar": 0.001990070385099608,
+            "charge": 0.08704032021266883,
+            "mass": 0.05611919787603803
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 10.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0036489987140884434,
+        "cap_radius": 0.20869339766878794,
+        "onset_length": 1.7307958617002421,
+        "terminal_Q": 9.999999999999996,
+        "s": 0.5938815312760597
+      },
+      "endpoint_lambda": -0.0008032565583934425,
+      "endpoint_Q": 9.146955337282744,
+      "endpoint_nu": -1.4744073512749583,
+      "endpoint_r": 9.634568641988945,
+      "fixed_points": [
+        {
+          "u": 0.19825872778534853,
+          "v": 10.384611436800746,
+          "r": 2.520502196216729,
+          "lambda_value": 0.15635043547395372,
+          "Q": 1.0299952961507284,
+          "heldout_constraint_residuals": {
+            "radius": 1.4998897771401065e-05,
+            "scalar": 0.0007181089384872718,
+            "charge": 0.0008824704281594764,
+            "mass": 0.00020742416945845887
+          }
+        },
+        {
+          "u": 0.19825872778534853,
+          "v": 86.30873820054319,
+          "r": 9.282696960536931,
+          "lambda_value": 0.041417175983302364,
+          "Q": 7.4182477518884005,
+          "heldout_constraint_residuals": {
+            "radius": 0.0006161252593246888,
+            "scalar": 0.0005092498979551052,
+            "charge": 0.022337373446342568,
+            "mass": 0.014335501391530503
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 11.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0037776292899328458,
+        "cap_radius": 0.18597759621009274,
+        "onset_length": 1.9763199919612775,
+        "terminal_Q": 11.0,
+        "s": 0.6389143695714092
+      },
+      "endpoint_lambda": -0.0001481657882564575,
+      "endpoint_Q": 9.624255321536962,
+      "endpoint_nu": -1.053595513440803,
+      "endpoint_r": 10.771627532940125,
+      "fixed_points": [
+        {
+          "u": 0.1766787163995881,
+          "v": 10.431889713693746,
+          "r": 2.8264679623619187,
+          "lambda_value": 0.1857545379981604,
+          "Q": 1.1533298141532888,
+          "heldout_constraint_residuals": {
+            "radius": 4.877337719513819e-05,
+            "scalar": 0.00452317602807305,
+            "charge": 0.0057081294663630655,
+            "mass": 0.0009599379199628222
+          }
+        },
+        {
+          "u": 0.1766787163995881,
+          "v": 75.20697273742451,
+          "r": 10.259252479253231,
+          "lambda_value": 0.05484904853763925,
+          "Q": 8.821174608609684,
+          "heldout_constraint_residuals": {
+            "radius": 0.0011485544414068516,
+            "scalar": 0.002901229775900677,
+            "charge": -0.0013579442231232974,
+            "mass": 0.03075246473257831
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 11.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0037776292899328458,
+        "cap_radius": 0.18597759621009274,
+        "onset_length": 1.9763199919612775,
+        "terminal_Q": 11.0,
+        "s": 0.6389143695714092
+      },
+      "endpoint_lambda": 2.506799998551694e-05,
+      "endpoint_Q": 10.373611881038975,
+      "endpoint_nu": -1.0231168250054825,
+      "endpoint_r": 10.772083282568342,
+      "fixed_points": [
+        {
+          "u": 0.1766787163995881,
+          "v": 10.431889713693746,
+          "r": 2.8264812245782176,
+          "lambda_value": 0.1857920242875627,
+          "Q": 1.1525833447152192,
+          "heldout_constraint_residuals": {
+            "radius": 1.2297678230410725e-05,
+            "scalar": 0.0011415299484243242,
+            "charge": 0.0014388143290601785,
+            "mass": 0.00024132617599659234
+          }
+        },
+        {
+          "u": 0.1766787163995881,
+          "v": 75.20697273742451,
+          "r": 10.259180723639368,
+          "lambda_value": 0.05570328753272091,
+          "Q": 8.81782341173702,
+          "heldout_constraint_residuals": {
+            "radius": 0.00029275346939583446,
+            "scalar": 0.0007293023702673541,
+            "charge": -0.00025319521234123954,
+            "mass": 0.007825739665329845
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 12.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.003618321475061012,
+        "cap_radius": 0.1615975434041112,
+        "onset_length": 2.2246103385684517,
+        "terminal_Q": 12.0,
+        "s": 0.6780179707331756
+      },
+      "endpoint_lambda": 0.001155479205586974,
+      "endpoint_Q": 10.398475626985853,
+      "endpoint_nu": -0.8067357234552832,
+      "endpoint_r": 11.848051923185785,
+      "fixed_points": [
+        {
+          "u": 0.15351766623390564,
+          "v": 10.632558871337405,
+          "r": 3.1252809715194583,
+          "lambda_value": 0.2113529937596394,
+          "Q": 1.2738405174289578,
+          "heldout_constraint_residuals": {
+            "radius": 4.3689262397561546e-05,
+            "scalar": 0.00700991625510988,
+            "charge": 0.009704927583180922,
+            "mass": 0.0013126975794507112
+          }
+        },
+        {
+          "u": 0.15351766623390564,
+          "v": 68.872108435131,
+          "r": 11.220223019645138,
+          "lambda_value": 0.06875260916710413,
+          "Q": 10.121161075345992,
+          "heldout_constraint_residuals": {
+            "radius": 0.0008002200618152377,
+            "scalar": 0.006204624070586962,
+            "charge": -0.08373021400834979,
+            "mass": 0.021027090298351148
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 12.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.003618321475061012,
+        "cap_radius": 0.1615975434041112,
+        "onset_length": 2.2246103385684517,
+        "terminal_Q": 12.0,
+        "s": 0.6780179707331756
+      },
+      "endpoint_lambda": 0.0004187166435142396,
+      "endpoint_Q": 11.40400462819921,
+      "endpoint_nu": -0.7718805684391934,
+      "endpoint_r": 11.848846476767138,
+      "fixed_points": [
+        {
+          "u": 0.15351766623390564,
+          "v": 10.632558871337405,
+          "r": 3.1252907323153325,
+          "lambda_value": 0.21138629738445358,
+          "Q": 1.2730119097250336,
+          "heldout_constraint_residuals": {
+            "radius": 1.101823468008245e-05,
+            "scalar": 0.0017774330535910475,
+            "charge": 0.002458872180230165,
+            "mass": 0.0003317819909247066
+          }
+        },
+        {
+          "u": 0.15351766623390564,
+          "v": 68.872108435131,
+          "r": 11.220185847288867,
+          "lambda_value": 0.06934960935891113,
+          "Q": 10.123094010727142,
+          "heldout_constraint_residuals": {
+            "radius": 0.00020356586156519696,
+            "scalar": 0.0015738718955410418,
+            "charge": -0.021297150149353072,
+            "mass": 0.005313072609051339
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 14.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0027339379455732418,
+        "cap_radius": 0.11052146843803526,
+        "onset_length": 2.72504049376158,
+        "terminal_Q": 13.999999999999998,
+        "s": 0.7413466187547645
+      },
+      "endpoint_lambda": 0.0037301588764248185,
+      "endpoint_Q": 11.779289636911846,
+      "endpoint_nu": -0.5351970891428789,
+      "endpoint_r": 13.929846051560302,
+      "fixed_points": [
+        {
+          "u": 0.10499539501613349,
+          "v": 11.299021163600852,
+          "r": 3.7114040426023673,
+          "lambda_value": 0.25251878459611743,
+          "Q": 1.513242731796503,
+          "heldout_constraint_residuals": {
+            "radius": 4.707233925360654e-05,
+            "scalar": 0.0178768009958933,
+            "charge": 0.030885828389378256,
+            "mass": 0.00342945057259747
+          }
+        },
+        {
+          "u": 0.10499539501613349,
+          "v": 63.16417480606704,
+          "r": 13.124105732580903,
+          "lambda_value": 0.09356856807073662,
+          "Q": 12.628742395973543,
+          "heldout_constraint_residuals": {
+            "radius": 0.0005017785688245374,
+            "scalar": 0.017863557773498594,
+            "charge": -0.41858638418807637,
+            "mass": 0.009730329965662143
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 14.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0027339379455732418,
+        "cap_radius": 0.11052146843803526,
+        "onset_length": 2.72504049376158,
+        "terminal_Q": 13.999999999999998,
+        "s": 0.7413466187547645
+      },
+      "endpoint_lambda": 0.001271084425759391,
+      "endpoint_Q": 13.237808691587635,
+      "endpoint_nu": -0.4980707382608522,
+      "endpoint_r": 13.930643071699414,
+      "fixed_points": [
+        {
+          "u": 0.10499539501613349,
+          "v": 11.299021163600852,
+          "r": 3.7114097520806144,
+          "lambda_value": 0.2525540647053024,
+          "Q": 1.5119627868665069,
+          "heldout_constraint_residuals": {
+            "radius": 1.1963789466107322e-05,
+            "scalar": 0.004637679442460424,
+            "charge": 0.008009919856222125,
+            "mass": 0.0008877038260843295
+          }
+        },
+        {
+          "u": 0.10499539501613349,
+          "v": 63.16417480606704,
+          "r": 13.124087535025767,
+          "lambda_value": 0.09394467772999507,
+          "Q": 12.639410853322273,
+          "heldout_constraint_residuals": {
+            "radius": 0.0001266298360371454,
+            "scalar": 0.004633945716568283,
+            "charge": -0.10895800164685099,
+            "mass": 0.002330830707417242
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 16.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 48,
+      "parameters": {
+        "min_sampled_H": 0.0015004876298525798,
+        "cap_radius": 0.05895883010535257,
+        "onset_length": 3.2262793846906472,
+        "terminal_Q": 16.000000000000004,
+        "s": 0.7891887280394596
+      },
+      "endpoint_lambda": 0.005901993293635083,
+      "endpoint_Q": 13.645513700209019,
+      "endpoint_nu": -0.3611723533943551,
+      "endpoint_r": 15.972796496133311,
+      "fixed_points": [
+        {
+          "u": 0.056010888600084935,
+          "v": 12.164545232556092,
+          "r": 4.289186245303518,
+          "lambda_value": 0.283133885716387,
+          "Q": 1.7550167616523584,
+          "heldout_constraint_residuals": {
+            "radius": 7.189437931609532e-05,
+            "scalar": 0.059672476953087465,
+            "charge": 0.12628948848324267,
+            "mass": 0.013153879312666095
+          }
+        },
+        {
+          "u": 0.056010888600084935,
+          "v": 61.90152497858929,
+          "r": 15.018076463261464,
+          "lambda_value": 0.11416502906306518,
+          "Q": 15.152672889040076,
+          "heldout_constraint_residuals": {
+            "radius": 0.0002768231823754991,
+            "scalar": 0.06004167689297006,
+            "charge": -1.840810516708471,
+            "mass": -0.015346527205029936
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "radius": 16.0,
+        "amplitude": 0.7,
+        "radius_ratio": 0.125,
+        "coupling": 0.6,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      },
+      "n": 96,
+      "parameters": {
+        "min_sampled_H": 0.0015004876298525798,
+        "cap_radius": 0.05895883010535257,
+        "onset_length": 3.2262793846906472,
+        "terminal_Q": 16.000000000000004,
+        "s": 0.7891887280394596
+      },
+      "endpoint_lambda": 0.002107440682835117,
+      "endpoint_Q": 15.134954762879365,
+      "endpoint_nu": -0.3302905173535208,
+      "endpoint_r": 15.97332404941238,
+      "fixed_points": [
+        {
+          "u": 0.056010888600084935,
+          "v": 12.164545232556092,
+          "r": 4.28918892964605,
+          "lambda_value": 0.2831865561081882,
+          "Q": 1.7525289233803283,
+          "heldout_constraint_residuals": {
+            "radius": 1.9151866730848788e-05,
+            "scalar": 0.01676272241787105,
+            "charge": 0.03547310529713865,
+            "mass": 0.0036880291040634616
+          }
+        },
+        {
+          "u": 0.056010888600084935,
+          "v": 61.90152497858929,
+          "r": 15.018066486309202,
+          "lambda_value": 0.11437629712339784,
+          "Q": 15.180642680079268,
+          "heldout_constraint_residuals": {
+            "radius": 6.663038732676596e-05,
+            "scalar": 0.016851596294367305,
+            "charge": -0.5183972453047438,
+            "mass": -0.0050527641057787065
+          }
+        }
+      ],
+      "evidence": "E0_auxiliary_C0_cone_charged_screen",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "finite pre-axis C0 shapes, e=3/5 fixed",
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charged_shape_family.py": "079005a024475edc421200819d776801da30a6aab9a886514155b64b9ded01de",
+    "new_shape_jets.py": "c5c82df9467a3c7a28c1747b4776836e963536202e6882f60d28856050eef281",
+    "charged_piecewise_screen.py": "e099780504475560a724c1939638a330a210449ec0f26d5e75761ad53f19e7a1",
+    "charged_characteristic_screen.py": "a38683c5c4c88b48b15b6a6495587a2e0535ccf775202f56bbe7831b1e7048d5",
+    "charged_graded_screen.py": "0f411b1472537493f55eee5727230a45957804e2394bf9c165ffd9b8dce94d07"
+  }
+}

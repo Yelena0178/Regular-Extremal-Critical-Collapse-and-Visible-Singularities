@@ -1,0 +1,156 @@
+{
+  "completed": true,
+  "final_time": 4.0,
+  "time_steps": 1024,
+  "initial_spatial_intervals": 5487,
+  "spacing": 0.0078125,
+  "initial_x_left": 0.15506072529185672,
+  "initial_x_right": 43.022248225291854,
+  "core_fill_time": 3.640625,
+  "maximum_outgoing_coordinate": 3.4855642747081435,
+  "final_x_left": 0.5144357252918568,
+  "final_x_right": 39.022248225291854,
+  "maximum_iterations": 6,
+  "maximum_change": 2.984501534797346e-12,
+  "worst": {
+    "time": 4.0,
+    "x": 6.983185725291857,
+    "radius": 14.535670732471214,
+    "lambda_value": -4.216829355569401e-05,
+    "nu": -0.5180593149740916,
+    "Q": 14.533830115397686,
+    "f": -2.7499738304292975e-06
+  },
+  "first_negative_sample": {
+    "time": 2.35546875,
+    "x": 5.3386544752918565,
+    "radius": 14.535803770081362,
+    "lambda_value": -3.889836435848712e-07,
+    "nu": -0.5175417275099023,
+    "Q": 14.53389172113062,
+    "f": -2.0497189723300835e-08
+  },
+  "history": [
+    {
+      "time": 0.0,
+      "x": 7.0300607252918565,
+      "radius": 14.90590230400449,
+      "lambda_value": 0.0031358895580758934,
+      "nu": -0.04959093697947835,
+      "Q": 14.534657301392187,
+      "f": 0.0006220468057965833
+    },
+    {
+      "time": 0.5,
+      "x": 6.5378732252918565,
+      "radius": 14.856585783605489,
+      "lambda_value": 0.0023604216082260504,
+      "nu": -0.049834004653453376,
+      "Q": 14.53445686016213,
+      "f": 0.00046833712795424365
+    },
+    {
+      "time": 1.0,
+      "x": 6.0378732252918565,
+      "radius": 14.806737261230692,
+      "lambda_value": 0.001727626844532457,
+      "nu": -0.04981565514086908,
+      "Q": 14.533887611343948,
+      "f": 0.0003428452468290377
+    },
+    {
+      "time": 1.5,
+      "x": 5.5378732252918565,
+      "radius": 14.75697642739284,
+      "lambda_value": 0.0011589755087261365,
+      "nu": -0.04971373174452727,
+      "Q": 14.533897979325943,
+      "f": 0.00023004140312310462
+    },
+    {
+      "time": 2.0,
+      "x": 5.0378732252918565,
+      "radius": 14.563503187675169,
+      "lambda_value": 3.348502856206151e-05,
+      "nu": -0.4936254359030967,
+      "Q": 14.533884888147098,
+      "f": 6.6520496597721746e-06
+    },
+    {
+      "time": 2.5,
+      "x": 5.4831857252918565,
+      "radius": 14.535792821600015,
+      "lambda_value": -1.2722206986087471e-05,
+      "nu": -0.5175925648103592,
+      "Q": 14.533891009523312,
+      "f": -6.831366379245196e-07
+    },
+    {
+      "time": 3.0,
+      "x": 5.983185725291857,
+      "radius": 14.535753715392215,
+      "lambda_value": -3.228801638898292e-05,
+      "nu": -0.5177599755929359,
+      "Q": 14.533884854318687,
+      "f": -1.8502344549808925e-06
+    },
+    {
+      "time": 3.5,
+      "x": 6.483185725291857,
+      "radius": 14.535713103720788,
+      "lambda_value": -3.859783929146776e-05,
+      "nu": -0.5179149580683358,
+      "Q": 14.533868349722464,
+      "f": -2.3598408402936144e-06
+    },
+    {
+      "time": 4.0,
+      "x": 6.983185725291857,
+      "radius": 14.535670732471214,
+      "lambda_value": -4.216829355569401e-05,
+      "nu": -0.5180593149740916,
+      "Q": 14.533830115397686,
+      "f": -2.7499738304292975e-06
+    }
+  ],
+  "final_row_constraints": {
+    "maximum_absolute": {
+      "radius": 0.017169435125212823,
+      "scalar": 0.0020548562174633137,
+      "charge": 0.012667181262637744,
+      "mass": 0.011766420358323058
+    },
+    "x_range": [
+      0.5300607252918568,
+      39.006623225291854
+    ]
+  },
+  "evidence": "E0 second-order characteristic-foot trapezoidal Cauchy scheme",
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "initial_data": {
+    "canonical_input": "ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
+    "canonical_sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "parameter": 1.0,
+    "inner_radius": 2.504636782467196,
+    "outer_support_radius": 16.079685567920432,
+    "outer_support_proper_distance": 28.87515881203666,
+    "vacuum_proper_end": 3.8765181322964177,
+    "radius_max": 18.079685567920432,
+    "proper_distance_max": 43.02466739428084,
+    "ADM_mass": 14.550688965089952,
+    "ADM_charge": 14.55118145042376,
+    "initialization_tolerance": 2e-12,
+    "initial_gauge": "u=t-x, v=t+x; x initial proper distance; Omega^2=1; A_u=A_v=0",
+    "initialization_error_certified": false
+  },
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "canonical_cauchy_data.py": "044888edb03408c662bfb631889086a613cf9885c6a7f8d8daa0c21f8c32f985",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "certify_rotating_af_barrier.py": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
+  }
+}

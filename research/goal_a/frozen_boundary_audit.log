@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "high_precision_jet_comparisons": 540,
+  "defining_constraint_comparisons": 81,
+  "precision_digits": 80,
+  "junctions_checked": 2,
+  "complete_rectangle_certified": false,
+  "scope": "independent finite high-precision audit; continuum coverage is the rational Taylor proof",
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false
+}

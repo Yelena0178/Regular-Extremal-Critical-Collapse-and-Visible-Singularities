@@ -1,0 +1,2 @@
+{"stage": "frozen_reference", "n": 96}
+{"status": "E0_REFERENCE_ONLY", "n": 96, "endpoint_lambda": -7.796512158514174e-05, "shared_u_stage_errors": [2.919886554764162e-14, 2.255973186038318e-13], "elapsed_seconds": 60.448934799998824}

@@ -1,0 +1,35 @@
+{
+  "scope": "finite exact algebra only; not analytic or PDE certification",
+  "arithmetic": "sparse Laurent polynomials over rational complex numbers",
+  "checks_passed": [
+    "exact_radial_Einstein_scalar_cancellation",
+    "reject_missing_radial_electric_energy",
+    "independent_divergence_wave_transport",
+    "reject_omitted_charged_commutator",
+    "D001_potential_gradient_orientation",
+    "reject_wrong_potential_gradient_sign",
+    "independent_Maxwell_Gauss_time_compatibility",
+    "reject_omitted_Maxwell_advection",
+    "independent_mixed_stress_mass_flux",
+    "RN_electrovac_radial_identity",
+    "Bondi_mass_flux_time_normalization",
+    "strict_cutoff_exit_and_integrable_optical_exponents"
+  ],
+  "cutoff_exit": {
+    "time_condition": "t >= 8(1+u), u >= 0",
+    "rho_over_one_plus_t_lower_bound": "2527/3200",
+    "required_lower_bound": "3/4",
+    "strict_margin": "127/3200"
+  },
+  "optical_exponents": {
+    "gamma": "3/4",
+    "delta_upper_bound": "1/100",
+    "nonlinear_integral_power": "1/100",
+    "time_derivative_decay_power": "-99/50"
+  },
+  "source_sha256": {
+    "SMALL_DATA_NULL_INFINITY.md": "a6fb9c1d61e132b93874e25f242b578bd8c1e6ab3fe497a1a8fafe83574381d4",
+    "SMALL_DATA_DISPERSION.md": "e430b505264633591deeff314b817ab23c19578392b733a6df96f4818e13880f",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9"
+  }
+}

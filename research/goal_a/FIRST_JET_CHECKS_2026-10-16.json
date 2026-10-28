@@ -1,0 +1,201 @@
+{
+  "evidence": "E0_float_ODE_consistency_and_finite_algebra",
+  "goal_A_proved": false,
+  "rigorous_root_box": false,
+  "baseline_moment_difference": 6.141607115472628e-16,
+  "late_bump_integral_numeric": 0.3838172639958344,
+  "auxiliary_limit_point_numeric": [
+    0.1580159290037361,
+    -0.4499213012844269,
+    -0.691160103329562
+  ],
+  "auxiliary_analytic_charge_slope_numeric": -3.7580734169363677,
+  "auxiliary_analytic_determinant_numeric": -0.012456521697006133,
+  "auxiliary_finite_difference_determinant": -0.012456521814018594,
+  "runs": [
+    {
+      "configuration": {
+        "beta": 0.003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-09,
+        "atol": 2e-11,
+        "max_step": 0.06
+      },
+      "parameters": {
+        "s": 0.15800516347090265,
+        "W_real": -0.4512711355253939,
+        "W_imag": -0.6932574280048509,
+        "physical_late_amplitude": 0.002481584875272356
+      },
+      "scaled_residual": [
+        -1.1102230246251565e-16,
+        -5.551115123125783e-17,
+        6.938893903907228e-18
+      ],
+      "unscaled_charge_error": -5.551115123125783e-16,
+      "unscaled_J_real": -1.6653345369377348e-19,
+      "unscaled_J_imag": 2.0816681711721686e-20,
+      "base_J_over_beta": [
+        0.039793124225343444,
+        -0.025902902750749517
+      ],
+      "late_coefficient": [
+        1.5873758340062575e-07,
+        -0.057400109950752
+      ],
+      "heldout_Gauss_integral_error": 4.440892098500626e-16,
+      "heldout_late_wave_form_error": 4.477692522320947e-11,
+      "q_final": 0.9999999999999999,
+      "r_initial": 1.5929537011234158,
+      "centre_normalized_affine_window_length_0_1": 60698.11644036411,
+      "centre_normalized_affine_length_vertex_to_endpoint": 60699.709394065234,
+      "min_sampled_H_over_beta_on_early_segment": 0.008747957896895052,
+      "min_sampled_H_on_late_segment": 4.820790745400972e-05,
+      "min_sampled_H": 2.6243873690685157e-05,
+      "min_sampled_late_radius": 4.999899518276369,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 9
+      }
+    },
+    {
+      "configuration": {
+        "beta": 0.003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.04
+      },
+      "parameters": {
+        "s": 0.15800516347102328,
+        "W_real": -0.45127113586605105,
+        "W_imag": -0.693257428527958,
+        "physical_late_amplitude": 0.0024815848771451068
+      },
+      "scaled_residual": [
+        6.661338147750939e-16,
+        4.85722573273506e-17,
+        -3.8163916471489756e-17
+      ],
+      "unscaled_charge_error": 3.3306690738754696e-15,
+      "unscaled_J_real": 1.457167719820518e-19,
+      "unscaled_J_imag": -1.1449174941446927e-19,
+      "base_J_over_beta": [
+        0.0397931242253296,
+        -0.025902902750752185
+      ],
+      "late_coefficient": [
+        1.5873757980965342e-07,
+        -0.057400109907422094
+      ],
+      "heldout_Gauss_integral_error": 4.440892098500626e-16,
+      "heldout_late_wave_form_error": 1.4525325386935087e-12,
+      "q_final": 1.0000000000000007,
+      "r_initial": 1.592953701123525,
+      "centre_normalized_affine_window_length_0_1": 60698.116440162245,
+      "centre_normalized_affine_length_vertex_to_endpoint": 60699.70939386337,
+      "min_sampled_H_over_beta_on_early_segment": 0.008747957896924745,
+      "min_sampled_H_on_late_segment": 4.820790763178711e-05,
+      "min_sampled_H": 2.6243873690774238e-05,
+      "min_sampled_late_radius": 4.999899518277485,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 7
+      }
+    },
+    {
+      "configuration": {
+        "beta": 0.003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-11,
+        "atol": 2e-13,
+        "max_step": 0.02
+      },
+      "parameters": {
+        "s": 0.1580051634710301,
+        "W_real": -0.4512711358774535,
+        "W_imag": -0.6932574285454641,
+        "physical_late_amplitude": 0.002481584877207783
+      },
+      "scaled_residual": [
+        -4.440892098500626e-16,
+        -6.938893903907228e-18,
+        3.469446951953614e-18
+      ],
+      "unscaled_charge_error": -2.220446049250313e-15,
+      "unscaled_J_real": -2.0816681711721686e-20,
+      "unscaled_J_imag": 1.0408340855860843e-20,
+      "base_J_over_beta": [
+        0.03979312422532879,
+        -0.025902902750752337
+      ],
+      "late_coefficient": [
+        1.587375795163876e-07,
+        -0.057400109905971726
+      ],
+      "heldout_Gauss_integral_error": 5.551115123125783e-16,
+      "heldout_late_wave_form_error": 2.609024122459322e-15,
+      "q_final": 0.9999999999999996,
+      "r_initial": 1.59295370112353,
+      "centre_normalized_affine_window_length_0_1": 60698.1164401508,
+      "centre_normalized_affine_length_vertex_to_endpoint": 60699.709393851925,
+      "min_sampled_H_over_beta_on_early_segment": 0.008747957896926423,
+      "min_sampled_H_on_late_segment": 4.82079076470905e-05,
+      "min_sampled_H": 2.624387369077927e-05,
+      "min_sampled_late_radius": 4.999899518277547,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 7
+      }
+    }
+  ],
+  "successive_parameter_differences": [
+    5.231071131817089e-10,
+    1.750610767459193e-11
+  ],
+  "finite_beta_jacobian_determinants": [
+    -0.012382308608149855,
+    -0.012382306441497728,
+    -0.012382305899718943
+  ],
+  "finite_beta_jacobian_step_differences": [
+    6.576567068705685e-07,
+    1.6440071526346856e-07
+  ],
+  "no_claim": [
+    "interval_root_certificate",
+    "explicit_analytic_beta0",
+    "smooth_layer_resolution",
+    "all_higher_transverse_jets",
+    "regular_centre_future",
+    "RN_terminal_geometry",
+    "criticality"
+  ],
+  "source_sha256": {
+    "FIRST_TRANSVERSE_JET.md": "add7d06512b636bc3a5d129db8401dd395fd5eb2d9960074b9fe559080db86f8",
+    "first_jet_shooting.py": "23766f7658fbfe42a75bf99bbb24e90340f8076d6f8fb54f01b44be8100bb0dd",
+    "verify_first_jet.py": "b6100d8129ccae2886f3fd30025ccd9c9474ebc1076121f9d33a9bb16e651d0b",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f"
+  }
+}

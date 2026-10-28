@@ -1,0 +1,27 @@
+{
+  "status": "VERIFIED_PARTIAL_RESULT",
+  "source_hashes_checked": 38,
+  "ordinary_optimized_comparisons": 4,
+  "certified_C0_pieces": [
+    0,
+    1
+  ],
+  "certified_cells": 18432,
+  "remaining_failure": "invalid charged radius proposal on diagonal 34",
+  "complete_rectangle_certified": false,
+  "actual_smooth_seed_certified": false,
+  "global_critical_curve_proved": false,
+  "goal_A_proved": false,
+  "reports": [
+    "FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json",
+    "FROZEN_CHARGED_BOUNDARY_AUDIT_2026-10-17.json",
+    "FROZEN_CHARGED_REFERENCE_N96_2026-10-17.json",
+    "FROZEN_CHARGED_RECTANGLE_ATTEMPT_2026-10-17.json",
+    "FROZEN_CHARGED_TUBE_REPLAY_2026-10-17.json",
+    "CHARGED_U_CONSTRAINT_CHECKS_2026-10-17.json"
+  ],
+  "proof_sha256": {
+    "FROZEN_CHARGED_CERTIFICATION.md": "b12c77ad4dc77422bea7d5d0d36ddb7b7638e053f6950ca54ab9db10ebf637b2",
+    "CHARGED_U_CONSTRAINED_FORMULATION.md": "030cd43c3285d2ac67afbb3bd1c715feb66c9114a202f267d6c2dc7333f77a6b"
+  }
+}

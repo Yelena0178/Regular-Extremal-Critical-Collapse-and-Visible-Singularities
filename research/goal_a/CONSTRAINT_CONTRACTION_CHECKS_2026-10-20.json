@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "exact constraint, scaling, and leading focusing identities only",
+  "actual_AF_seed_implemented_numerically": false,
+  "full_evolution_certified": false,
+  "small_data_analysis_independently_verified": false,
+  "boundary_parameter_computed": false,
+  "extremal_endpoint_proved": false,
+  "three_branch_goal_proved": false,
+  "source_sha256": {
+    "verify_constraint_contraction.py": "9e286c1abb95036c41fa266a319ea64b8c3faab78870d9f31734ffe864137ac7",
+    "CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md": "5687d95b211ae6ee5f766180d9140a2d258b28d0a8f87b0326fb8f04ecfbed6c",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "claim_ids": [
+    "FAR03.1",
+    "FAR03.2",
+    "FAR03.3",
+    "FAR03.4",
+    "FAR03.5"
+  ],
+  "logic": "PROVED for exact identities and scoped controls; global inequalities are analytic arguments",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "EXACT_RN_CONTROL",
+    "LINEAR_REFERENCE_FINITE_CONTROL"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "independent radial metric and actual wave jet",
+    "Maxwell-completed rp current with all radial constraints",
+    "full nonlinear dimensionless bulk including b_r and Q_r",
+    "Hardy derivative, explicit threshold and absorption constants",
+    "stationary RN electromagnetic boundary and bulk balance",
+    "weighted Kodama terminal Coulomb balance",
+    "generic scalar/Coulomb energy split with nonzero work",
+    "finite delayed outgoing linear pulse energy moments"
+  ],
+  "negative_controls": [
+    "omitting electromagnetic radial flux fails exact current identity",
+    "positive static RN Coulomb bulk cannot have zero inner flux",
+    "bounded unweighted exterior boundary energy does not pay weighted radiation"
+  ],
+  "pulse_control": {
+    "unweighted_energy": "1/770",
+    "weighted_energy": "L**2/770 + 3*L/770 + 3/1001",
+    "is_actual_EMCSF_solution": false
+  },
+  "analytic_source": "FAR_ZONE_RP_AND_COULOMB_BALANCE.md FAR03.1-FAR03.5",
+  "actual_far_zone_global_inequality_computer_certified": false,
+  "actual_weighted_radiation_flux_verified": false,
+  "late_charge_limit_verified": false,
+  "horizon_parameter_agreement_verified": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_far_zone_rp.py": "c02989949d804be88ddea9e0e6df212dce03eb27afb9d187c678fbe4240c96a0",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "GLOBAL_COVARIANT_MORAWETZ.md": "e137fc5afc7d716a905d405d891d7e34495cf0aa52c9326777268bf6ea9738fa",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

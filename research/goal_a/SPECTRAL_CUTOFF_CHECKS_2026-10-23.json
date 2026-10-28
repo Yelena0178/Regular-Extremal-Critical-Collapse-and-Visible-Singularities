@@ -1,0 +1,97 @@
+{
+  "claim_ids": [
+    "CUTOFF12.1",
+    "CUTOFF12.2",
+    "CUTOFF12.3",
+    "CUTOFF12.4",
+    "CUTOFF12.5"
+  ],
+  "logic": "PROVED for scoped actual cutoff removal in fixed/shrinking frequency bands using mass inputs; zero-frequency joint cancellation and full weighted tails/Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_ENVELOPE_AND_PACKET_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "radial integration by parts with both endpoints and Fourier sign",
+    "weighted dual-kernel envelope integral and actual input scalings",
+    "shrinking-band exponents for amplitude and derivative",
+    "slow-packet time/energy/Fourier scaling"
+  ],
+  "finite_radial_controls": [
+    {
+      "lambda": "0.001",
+      "lambda_times_radial_envelope_integral": "2.515763454545455"
+    },
+    {
+      "lambda": "0.0001",
+      "lambda_times_radial_envelope_integral": "2.515795134545455"
+    },
+    {
+      "lambda": "0.00001",
+      "lambda_times_radial_envelope_integral": "2.515795451345455"
+    }
+  ],
+  "finite_rate_controls": [
+    {
+      "T": "32.0",
+      "amplitude_alpha_1_4_envelope": "3.006211937952657",
+      "derivative_alpha_3_4_envelope": "1.568867984952362"
+    },
+    {
+      "T": "256.0",
+      "amplitude_alpha_1_4_envelope": "1.5625",
+      "derivative_alpha_3_4_envelope": "0.9267766952966369"
+    },
+    {
+      "T": "2048.0",
+      "amplitude_alpha_1_4_envelope": "0.8661518148664004",
+      "derivative_alpha_3_4_envelope": "0.5967035957273253"
+    }
+  ],
+  "slow_packet_negative_control": [
+    {
+      "T": "16.0",
+      "weighted_amplitude_at_peak": "1.18217701125397",
+      "derivative_energy": "0.05098942459485005"
+    },
+    {
+      "T": "64.0",
+      "weighted_amplitude_at_peak": "1.168750770274445",
+      "derivative_energy": "0.004506870987477325"
+    },
+    {
+      "T": "256.0",
+      "weighted_amplitude_at_peak": "1.165353772938234",
+      "derivative_energy": "0.0003983548796472661"
+    }
+  ],
+  "negative_controls": [
+    "dropping infinity term creates nonzero output for zero radial source",
+    "spectral-band convergence and small flux do not imply full weighted-amplitude convergence"
+  ],
+  "actual_mass_inputs_require_uniform_A_H": false,
+  "actual_cutoff_removed_on_fixed_nonzero_bands": true,
+  "actual_cutoff_amplitude_removed_above_T_minus_alpha_for_alpha_below_1_3": true,
+  "actual_cutoff_derivative_removed_above_T_minus_alpha_for_alpha_below_1": true,
+  "analytic_uniform_reference_kernels_machine_certified": false,
+  "joint_zero_frequency_cancellation_verified": false,
+  "full_weighted_cutoff_removed": false,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "full_spatial_A_or_high_frequency_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_spectral_cutoff.py": "3aaba6b98b26d637bab746920aba19b3cd84b9ac8659c59ea7a31735967aa1cb",
+    "RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md": "af5914d7ca211ea874689e64fe8777b53ccf4154aecea161aee6d516023431ab",
+    "ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e",
+    "WORLD_TUBE_RADIATION_TRANSFER.md": "05f8700fdd7f97e60c9fe91fd891e733b0a19bfa16e4213456c6e8114eb8c403",
+    "LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

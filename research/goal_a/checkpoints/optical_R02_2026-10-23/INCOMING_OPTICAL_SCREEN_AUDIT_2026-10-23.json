@@ -1,0 +1,355 @@
+{
+  "evidence": "EXPERIMENTAL",
+  "logic": "finite diagnostic receipt only",
+  "audit": "INTERNAL_AUDIT",
+  "numpy_version": "2.3.4",
+  "scipy_version": "1.16.3",
+  "runs": [
+    {
+      "report": "INCOMING_OPTICAL_D05_T13p5_N768_2026-10-23.json",
+      "report_sha256": "68ed64c280f45d99df85547e28b821cbc7fffc464ea7c7e12f37f5f89ae9fff3",
+      "sources_match_current": true,
+      "completed": true,
+      "time": 13.5,
+      "steps": 768,
+      "min_f_r_ge_quarter": {
+        "t": 13.5,
+        "x": 1.93359375,
+        "r": 0.664788784700067,
+        "f": -0.26438550957067086,
+        "lambda_value": -0.023856651446685823,
+        "kappa": 0.09023433805213475,
+        "charge_ratio": 0.014645091080076297
+      },
+      "min_lambda_r_ge_quarter": {
+        "t": 13.5,
+        "x": 1.93359375,
+        "r": 0.664788784700067,
+        "f": -0.26438550957067086,
+        "lambda_value": -0.023856651446685823,
+        "kappa": 0.09023433805213475,
+        "charge_ratio": 0.014645091080076297
+      },
+      "maximum_log_k_defect": 0.00024498418626095475,
+      "maximum_mixed_defect": 0.0002394327422325926,
+      "all_sampled_rays_decrease_in_radius": true,
+      "first_half_radius_layers": [
+        {
+          "v": 12.0,
+          "theta": 0.5013480253385266,
+          "sampled_qmax": 0.3399527767723126,
+          "B": 0.5465169110979775,
+          "outer_f": 0.6061964137809988,
+          "inner_f": 0.9146559299594963,
+          "lower_bound_if_continuous_premises_hold": 0.2567169423097143,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 14.0,
+          "theta": 0.5008400297857952,
+          "sampled_qmax": 0.44260047601924074,
+          "B": 0.7939958569301431,
+          "outer_f": 0.47210959720957246,
+          "inner_f": 0.8750209539175945,
+          "lower_bound_if_continuous_premises_hold": 0.18204706352939143,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 16.0,
+          "theta": 0.5005712803255332,
+          "sampled_qmax": 0.4337053058771076,
+          "B": 1.3256972571582686,
+          "outer_f": 0.2777449385974369,
+          "inner_f": 0.7704790082194946,
+          "lower_bound_if_continuous_premises_hold": 0.10795066211750082,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 20.0,
+          "theta": 0.5004072077598201,
+          "sampled_qmax": 0.40193711407152516,
+          "B": 1.180557373687865,
+          "outer_f": 0.3580882480565821,
+          "inner_f": 0.791589263124971,
+          "lower_bound_if_continuous_premises_hold": 0.1288514733718513,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 24.0,
+          "theta": 0.5005410601370539,
+          "sampled_qmax": 0.37424306446999406,
+          "B": 1.0624780776934062,
+          "outer_f": 0.43018030575820887,
+          "inner_f": 0.8138504359355712,
+          "lower_bound_if_continuous_premises_hold": 0.14875808140456276,
+          "continuous_premises_certified": false
+        }
+      ]
+    },
+    {
+      "report": "INCOMING_OPTICAL_D05_T13p5_N1536_2026-10-23.json",
+      "report_sha256": "5a944eddccee981e7590fab58431af83781ac4ba2182de70ba20d6308f188ec2",
+      "sources_match_current": true,
+      "completed": true,
+      "time": 13.5,
+      "steps": 1536,
+      "min_f_r_ge_quarter": {
+        "t": 13.5,
+        "x": 1.93359375,
+        "r": 0.6648349167330836,
+        "f": -0.2641405452841663,
+        "lambda_value": -0.023835759522446303,
+        "kappa": 0.09023892752550897,
+        "charge_ratio": 0.014688540646417968
+      },
+      "min_lambda_r_ge_quarter": {
+        "t": 13.5,
+        "x": 1.951171875,
+        "r": 0.670664374363424,
+        "f": -0.2641190344669566,
+        "lambda_value": -0.02385722348579754,
+        "kappa": 0.09032754316229438,
+        "charge_ratio": 0.015205392827401043
+      },
+      "maximum_log_k_defect": 6.430333394291665e-05,
+      "maximum_mixed_defect": 6.011844842923608e-05,
+      "all_sampled_rays_decrease_in_radius": true,
+      "first_half_radius_layers": [
+        {
+          "v": 12.0,
+          "theta": 0.5005180329713222,
+          "sampled_qmax": 0.33995372375496763,
+          "B": 0.5465657847540759,
+          "outer_f": 0.6061996118517584,
+          "inner_f": 0.9147417834956965,
+          "lower_bound_if_continuous_premises_hold": 0.25627922973943207,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 14.0,
+          "theta": 0.5001025061393517,
+          "sampled_qmax": 0.4426030453463203,
+          "B": 0.7940173396767461,
+          "outer_f": 0.47211468967026327,
+          "inner_f": 0.8751846271358542,
+          "lower_bound_if_continuous_premises_hold": 0.18177456667428354,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 16.0,
+          "theta": 0.5005710962518769,
+          "sampled_qmax": 0.4337058612401078,
+          "B": 1.3257807371047412,
+          "outer_f": 0.2777430602292008,
+          "inner_f": 0.770481418849881,
+          "lower_bound_if_continuous_premises_hold": 0.10794154703959029,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 20.0,
+          "theta": 0.50040700779734,
+          "sampled_qmax": 0.401937742091445,
+          "B": 1.1806150174425523,
+          "outer_f": 0.3580882175575062,
+          "inner_f": 0.7915940443685265,
+          "lower_bound_if_continuous_premises_hold": 0.12884391703702208,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 24.0,
+          "theta": 0.5000160123979525,
+          "sampled_qmax": 0.374244573668069,
+          "B": 1.0626297960589668,
+          "outer_f": 0.4301802462983415,
+          "inner_f": 0.8140408467555494,
+          "lower_bound_if_continuous_premises_hold": 0.14857930094963787,
+          "continuous_premises_certified": false
+        }
+      ]
+    },
+    {
+      "report": "INCOMING_OPTICAL_D08_T20_N1024_2026-10-23.json",
+      "report_sha256": "6c26b0702500414dc5514e1941705db3b9bccaf12f5b2cf97aecb181d15d32f0",
+      "sources_match_current": true,
+      "completed": true,
+      "time": 20.0,
+      "steps": 1024,
+      "min_f_r_ge_quarter": {
+        "t": 0.0,
+        "x": 16.6796875,
+        "r": 13.539480349217682,
+        "f": 0.19881423939176157,
+        "lambda_value": 0.22294295200328804,
+        "kappa": 1.12136310097981,
+        "charge_ratio": 0.42603884947463766
+      },
+      "min_lambda_r_ge_quarter": {
+        "t": 17.16796875,
+        "x": 0.95703125,
+        "r": 0.2504560861766959,
+        "f": 0.9255388855590202,
+        "lambda_value": 0.12442338977283375,
+        "kappa": 0.13443345462214992,
+        "charge_ratio": 0.006887220241721318
+      },
+      "maximum_log_k_defect": 0.00040518632049901804,
+      "maximum_mixed_defect": 0.0003460242959405502,
+      "all_sampled_rays_decrease_in_radius": true,
+      "first_half_radius_layers": [
+        {
+          "v": 12.0,
+          "theta": 0.5018319990753275,
+          "sampled_qmax": 0.30532195112027616,
+          "B": 0.7988085601926214,
+          "outer_f": 0.5137350813605077,
+          "inner_f": 0.9867341393541529,
+          "lower_bound_if_continuous_premises_hold": 0.20471111224510175,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 14.0,
+          "theta": 0.500235497008269,
+          "sampled_qmax": 0.4299053250571898,
+          "B": 0.9611937444374136,
+          "outer_f": 0.44901406964295276,
+          "inner_f": 0.9826172046763333,
+          "lower_bound_if_continuous_premises_hold": 0.15595081005878508,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 16.0,
+          "theta": 0.5005608338917111,
+          "sampled_qmax": 0.4378314462779714,
+          "B": 1.7054629388263896,
+          "outer_f": 0.2234457909770844,
+          "inner_f": 0.9601037065735876,
+          "lower_bound_if_continuous_premises_hold": 0.07351200166263075,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 20.0,
+          "theta": 0.5009171097389226,
+          "sampled_qmax": 0.41081442025213405,
+          "B": 1.6947630288593762,
+          "outer_f": 0.26316662623943965,
+          "inner_f": 0.9539578616033731,
+          "lower_bound_if_continuous_premises_hold": 0.07646481348585135,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 24.0,
+          "theta": 0.5007124422065793,
+          "sampled_qmax": 0.3863888017205056,
+          "B": 1.5259198099175793,
+          "outer_f": 0.340536272048378,
+          "inner_f": 0.9560916777996425,
+          "lower_bound_if_continuous_premises_hold": 0.09261218883876798,
+          "continuous_premises_certified": false
+        }
+      ]
+    },
+    {
+      "report": "INCOMING_OPTICAL_D08_T20_N2048_2026-10-23.json",
+      "report_sha256": "00ac92efb59edaae00a040d9c11b56e6c87b280707e0458722fa6d298d7b3dff",
+      "sources_match_current": true,
+      "completed": true,
+      "time": 20.0,
+      "steps": 2048,
+      "min_f_r_ge_quarter": {
+        "t": 0.0,
+        "x": 16.6796875,
+        "r": 13.539480349217682,
+        "f": 0.19881423939176157,
+        "lambda_value": 0.22294295200328804,
+        "kappa": 1.12136310097981,
+        "charge_ratio": 0.42603884947463766
+      },
+      "min_lambda_r_ge_quarter": {
+        "t": 17.255859375,
+        "x": 0.966796875,
+        "r": 0.2503866916548673,
+        "f": 0.9364460326103805,
+        "lambda_value": 0.124382348110689,
+        "kappa": 0.1328238294351766,
+        "charge_ratio": 0.006129324058938344
+      },
+      "maximum_log_k_defect": 8.263810753594836e-05,
+      "maximum_mixed_defect": 8.823153279480245e-05,
+      "all_sampled_rays_decrease_in_radius": true,
+      "first_half_radius_layers": [
+        {
+          "v": 12.0,
+          "theta": 0.500912097448244,
+          "sampled_qmax": 0.3053219129881861,
+          "B": 0.7989222235324367,
+          "outer_f": 0.5137361957076578,
+          "inner_f": 0.9867490040273316,
+          "lower_bound_if_continuous_premises_hold": 0.20431264007206953,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 14.0,
+          "theta": 0.5002357807719903,
+          "sampled_qmax": 0.4299103928477714,
+          "B": 0.961407806107691,
+          "outer_f": 0.44902606743154594,
+          "inner_f": 0.9826199822925554,
+          "lower_bound_if_continuous_premises_hold": 0.1559166855649546,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 16.0,
+          "theta": 0.5005614348889444,
+          "sampled_qmax": 0.43783377459452494,
+          "B": 1.705807161068652,
+          "outer_f": 0.2234308093536823,
+          "inner_f": 0.9601044522073358,
+          "lower_bound_if_continuous_premises_hold": 0.073486604423396,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 20.0,
+          "theta": 0.5002640653695352,
+          "sampled_qmax": 0.410816344884272,
+          "B": 1.6947624899324645,
+          "outer_f": 0.26316662623943965,
+          "inner_f": 0.9540196261979975,
+          "lower_bound_if_continuous_premises_hold": 0.07636502237979334,
+          "continuous_premises_certified": false
+        },
+        {
+          "v": 24.0,
+          "theta": 0.5001407824362718,
+          "sampled_qmax": 0.3863939268867422,
+          "B": 1.5262320461525765,
+          "outer_f": 0.3405361572164658,
+          "inner_f": 0.9561432624002115,
+          "lower_bound_if_continuous_premises_hold": 0.09247714426522344,
+          "continuous_premises_certified": false
+        }
+      ]
+    }
+  ],
+  "refinement": [
+    {
+      "coarse": "INCOMING_OPTICAL_D05_T13p5_N768_2026-10-23.json",
+      "fine": "INCOMING_OPTICAL_D05_T13p5_N1536_2026-10-23.json",
+      "log_k_defect_ratio": 3.809820910350186,
+      "mixed_defect_ratio": 3.982683327471814
+    },
+    {
+      "coarse": "INCOMING_OPTICAL_D08_T20_N1024_2026-10-23.json",
+      "fine": "INCOMING_OPTICAL_D08_T20_N2048_2026-10-23.json",
+      "log_k_defect_ratio": 4.903141330078961,
+      "mixed_defect_ratio": 3.9217758660646753
+    }
+  ],
+  "finite_PDE_error_certified": false,
+  "continuous_inequality_premises_certified": false,
+  "positive_mass_extremal_endpoint_proved": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "audit_incoming_optical_depth.py": "c7429f90103fa5e4a36f3ebc8042442526f41871fba2e1e71b8612c167b2e38e",
+    "INCOMING_OPTICAL_DEPTH_GATE.md": "b9b5424468217d305c81720c6711d4c91210692e188480cabf145861da498153"
+  }
+}

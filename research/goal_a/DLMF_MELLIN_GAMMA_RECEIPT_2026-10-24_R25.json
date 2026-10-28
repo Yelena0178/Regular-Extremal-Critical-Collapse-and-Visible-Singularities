@@ -1,0 +1,18 @@
+{
+  "read_date": "2026-10-24",
+  "provider": "NIST DLMF official HTML",
+  "raw_page_bytes_saved_or_hashed": false,
+  "entries": [
+    {
+      "url": "https://dlmf.nist.gov/5.4#E3",
+      "equation": "5.4.3",
+      "formula_checked": "abs(Gamma(i y)) = sqrt(pi/[y sinh(pi y)]) for nonzero real y"
+    },
+    {
+      "url": "https://dlmf.nist.gov/5.5#E1",
+      "equation": "5.5.1",
+      "formula_checked": "Gamma(z+1) = z Gamma(z)"
+    }
+  ],
+  "derived_use": "Together with the already-read Gamma-Laplace identity in the R24 receipt, these control causal primitives of imaginary powers. Mellin-series kernel bounds and trace-space results are the local TRACE17 proof, not a theorem attributed to DLMF."
+}

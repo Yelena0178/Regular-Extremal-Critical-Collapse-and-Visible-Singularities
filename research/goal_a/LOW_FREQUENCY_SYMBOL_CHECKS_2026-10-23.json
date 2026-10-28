@@ -1,0 +1,84 @@
+{
+  "claim_ids": [
+    "SYMBOL10.1",
+    "SYMBOL10.2",
+    "SYMBOL10.3",
+    "SYMBOL10.4"
+  ],
+  "logic": "PROVED for scoped reference symbol/time maps and actual finite-window boundary contribution; actual source/A/H/Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_CONVOLUTION_QUADRATURE_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "signed adiabatic matrix for both real-frequency signs",
+    "four Mellin conormal coefficient derivatives and integral bounds",
+    "moving endpoint conversion and four Leibniz commutators",
+    "long-range phase endpoint, physical momentum and A-to-h conversion"
+  ],
+  "finite_convolution_controls": [
+    {
+      "t": "2.0",
+      "amplitude_weighted_majorant": "4.281585346172992",
+      "first_derivative_weighted_majorant": "2.181580111053918",
+      "second_derivative_weighted_majorant": "1.207485821420279"
+    },
+    {
+      "t": "16.0",
+      "amplitude_weighted_majorant": "6.610996751589932",
+      "first_derivative_weighted_majorant": "3.571583170683505",
+      "second_derivative_weighted_majorant": "1.355572914187165"
+    },
+    {
+      "t": "128.0",
+      "amplitude_weighted_majorant": "8.453851948229486",
+      "first_derivative_weighted_majorant": "3.971620494121704",
+      "second_derivative_weighted_majorant": "1.336015347546157"
+    },
+    {
+      "t": "1024.0",
+      "amplitude_weighted_majorant": "9.675898345824809",
+      "first_derivative_weighted_majorant": "4.022424153236591",
+      "second_derivative_weighted_majorant": "1.33349827640615"
+    }
+  ],
+  "endpoint_negative_control": [
+    {
+      "T": "16.0",
+      "sqrtT_convolution": "1.634547613698553"
+    },
+    {
+      "T": "256.0",
+      "sqrtT_convolution": "2.764275301268803"
+    },
+    {
+      "T": "4096.0",
+      "sqrtT_convolution": "3.871308338999296"
+    }
+  ],
+  "negative_controls": [
+    "amplitude-only symbols allow arbitrary delayed packets",
+    "eta=0 general half-integral map has logarithmic loss"
+  ],
+  "analytic_uniform_symbol_estimate_machine_certified": false,
+  "actual_body_source_estimate_verified": false,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "frequency_derivatives_are_charge_parameter_derivatives": false,
+  "future_cutoff_fully_removed": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_low_frequency_symbol.py": "54ecc0a4487760df34c27b2c7fa46e5068090ed9debcbec368a1b2e039220828",
+    "LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5",
+    "WORLD_TUBE_RADIATION_TRANSFER.md": "05f8700fdd7f97e60c9fe91fd891e733b0a19bfa16e4213456c6e8114eb8c403",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md": "67f53fb6e28fcfa2d876232132c44c52c4eb13d8c0b122cc2b071775b4a24e1a",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

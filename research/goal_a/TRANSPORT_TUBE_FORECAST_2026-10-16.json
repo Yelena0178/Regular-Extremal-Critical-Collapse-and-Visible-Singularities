@@ -1,0 +1,386 @@
+{
+  "evidence": "E0_float_tube_feasibility_with_assumed_boundary_errors",
+  "goal_A_proved": false,
+  "rigorous_PDE_error": false,
+  "actual_strict_trapping_certified": false,
+  "runs": [
+    {
+      "configuration": {
+        "steps_u": 48,
+        "steps_v": 48,
+        "final_u": 2.423075900559526,
+        "initial_v": 3.18590740224706,
+        "final_v": 4.694709557334082,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "maximum_last_iteration_change": 1.999511667349907e-13,
+      "evidence": "E0_rational_transport_trapezoid",
+      "rigorous_PDE_error": false,
+      "actual_strict_trapping_certified": false,
+      "input": {
+        "s_C0": 0.1580051634710301,
+        "r_cap": 1.59295370112353,
+        "v_cap": 3.18590740224706,
+        "v_onset_width": 1.660244398871992,
+        "v_end": 4.846151801119052,
+        "field_amplitude": 0.5,
+        "smoothing_fraction": 0.05,
+        "radius_ratio": 0.5,
+        "fixed_coupling": 0.6,
+        "target_radius": 5.0,
+        "input_reference": "FIRST_JET_CHECKS last run: beta=0.003, C0 early segment",
+        "outer_null_constraint_budget_C0": null
+      },
+      "fixed_point": {
+        "r": 0.6483309111586776,
+        "kappa": 0.25799898848933994,
+        "theta": 0.6145403664812505,
+        "nu": -0.8632135485599831,
+        "z": -0.9210526012314906,
+        "m": 0.496502774148685,
+        "lambda": -0.13716098709652383,
+        "Omega2": 0.8908328895150774,
+        "theta_out": -0.89659382489657,
+        "theta_in": -5.64265359698298
+      },
+      "maximum_float_residual_forecast": [
+        0.0010845874403900948,
+        0.0006588012401423295,
+        0.0024955410405681816,
+        0.006439568799358233,
+        0.3086148227402267,
+        0.31412921599558374
+      ],
+      "forecasts": [
+        {
+          "completed": false,
+          "first_failed_cell": [
+            42,
+            45
+          ],
+          "failed_u": 2.170672160917909,
+          "failed_v": 4.631842800872122,
+          "failed_radii": [
+            0.07456657573463123,
+            0.3330623344983086,
+            1.1533456693161266,
+            0.506171766362302,
+            0.9652075763980701,
+            2.3900587526916555
+          ],
+          "assumed_boundary_error": 1e-10,
+          "rigorous_PDE_error": false
+        }
+      ]
+    },
+    {
+      "configuration": {
+        "steps_u": 96,
+        "steps_v": 96,
+        "final_u": 2.423075900559526,
+        "initial_v": 3.18590740224706,
+        "final_v": 4.694709557334082,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "maximum_last_iteration_change": 1.999650445227985e-13,
+      "evidence": "E0_rational_transport_trapezoid",
+      "rigorous_PDE_error": false,
+      "actual_strict_trapping_certified": false,
+      "input": {
+        "s_C0": 0.1580051634710301,
+        "r_cap": 1.59295370112353,
+        "v_cap": 3.18590740224706,
+        "v_onset_width": 1.660244398871992,
+        "v_end": 4.846151801119052,
+        "field_amplitude": 0.5,
+        "smoothing_fraction": 0.05,
+        "radius_ratio": 0.5,
+        "fixed_coupling": 0.6,
+        "target_radius": 5.0,
+        "input_reference": "FIRST_JET_CHECKS last run: beta=0.003, C0 early segment",
+        "outer_null_constraint_budget_C0": null
+      },
+      "fixed_point": {
+        "r": 0.6499537647860528,
+        "kappa": 0.259313413784159,
+        "theta": 0.6135348026512302,
+        "nu": -0.8610353697738864,
+        "z": -0.918192219652927,
+        "m": 0.49432446879594216,
+        "lambda": -0.13512992192822587,
+        "Omega2": 0.8931120844998887,
+        "theta_out": -0.8799866235537305,
+        "theta_in": -5.607193410576464
+      },
+      "maximum_float_residual_forecast": [
+        0.0002834512207395967,
+        0.00017128860802191988,
+        0.0005914267803329206,
+        0.0031535166215866223,
+        0.2160357532889038,
+        0.13341781383623114
+      ],
+      "forecasts": [
+        {
+          "completed": false,
+          "first_failed_cell": [
+            93,
+            94
+          ],
+          "failed_u": 2.372595152631203,
+          "failed_v": 4.678992868218591,
+          "failed_radii": [
+            0.0530621606798336,
+            0.257957048446556,
+            0.9125087052370806,
+            0.4799745841519846,
+            0.8720617138053546,
+            2.1048698498107266
+          ],
+          "assumed_boundary_error": 1e-10,
+          "rigorous_PDE_error": false
+        }
+      ]
+    },
+    {
+      "configuration": {
+        "steps_u": 192,
+        "steps_v": 192,
+        "final_u": 2.423075900559526,
+        "initial_v": 3.18590740224706,
+        "final_v": 4.694709557334082,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "maximum_last_iteration_change": 1.9984014443252818e-13,
+      "evidence": "E0_rational_transport_trapezoid",
+      "rigorous_PDE_error": false,
+      "actual_strict_trapping_certified": false,
+      "input": {
+        "s_C0": 0.1580051634710301,
+        "r_cap": 1.59295370112353,
+        "v_cap": 3.18590740224706,
+        "v_onset_width": 1.660244398871992,
+        "v_end": 4.846151801119052,
+        "field_amplitude": 0.5,
+        "smoothing_fraction": 0.05,
+        "radius_ratio": 0.5,
+        "fixed_coupling": 0.6,
+        "target_radius": 5.0,
+        "input_reference": "FIRST_JET_CHECKS last run: beta=0.003, C0 early segment",
+        "outer_null_constraint_budget_C0": null
+      },
+      "fixed_point": {
+        "r": 0.650718997985399,
+        "kappa": 0.25959237267020496,
+        "theta": 0.6131183842078253,
+        "nu": -0.8595479228233432,
+        "z": -0.9179521118898732,
+        "m": 0.4935225294043162,
+        "lambda": -0.13417109442052258,
+        "Omega2": 0.8925283388378316,
+        "theta_out": -0.8730004350287353,
+        "theta_in": -5.5927524016532635
+      },
+      "maximum_float_residual_forecast": [
+        7.192492928995979e-05,
+        4.348451284057037e-05,
+        0.00015136110201550087,
+        0.0012446744270977951,
+        0.07716113867687459,
+        0.06135813337388653
+      ],
+      "forecasts": [
+        {
+          "completed": true,
+          "endpoint_radii": [
+            0.01303153078735022,
+            0.02584646729704866,
+            0.059874129584319945,
+            0.05390360380533857,
+            0.11584655124306377,
+            0.05954822674160715
+          ],
+          "maximum_radii": [
+            0.01303153078735022,
+            0.02584646729704866,
+            0.059874129584319945,
+            0.05390360380533857,
+            0.11584655124306377,
+            0.05954822674160715
+          ],
+          "minimum_float_tube_margin": 9.794791156190069e-11,
+          "assumed_boundary_error": 1e-10,
+          "absolute_slack": 1e-10,
+          "rigorous_PDE_error": false,
+          "hypothetical_2m_minus_r_lower_float": 0.20419807655266886
+        },
+        {
+          "completed": true,
+          "endpoint_radii": [
+            0.01892371020194025,
+            0.04260831805940121,
+            0.10089472784830665,
+            0.08291963253229645,
+            0.17795106563162855,
+            0.09967745414594162
+          ],
+          "maximum_radii": [
+            0.01892371020194025,
+            0.04260831805940121,
+            0.10089472784830665,
+            0.08291963253229645,
+            0.17795106563162855,
+            0.09967745414594162
+          ],
+          "minimum_float_tube_margin": 9.762912302285629e-11,
+          "assumed_boundary_error": [
+            1e-06,
+            1e-06,
+            0.001,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "absolute_slack": 1e-10,
+          "rigorous_PDE_error": false,
+          "hypothetical_2m_minus_r_lower_float": 0.11804744232940978
+        }
+      ]
+    },
+    {
+      "configuration": {
+        "steps_u": 384,
+        "steps_v": 384,
+        "final_u": 2.423075900559526,
+        "initial_v": 3.18590740224706,
+        "final_v": 4.694709557334082,
+        "max_iterations": 16,
+        "iteration_tolerance": 2e-13,
+        "failure_tolerance": 2e-10
+      },
+      "maximum_last_iteration_change": 1.9999129167835764e-13,
+      "evidence": "E0_rational_transport_trapezoid",
+      "rigorous_PDE_error": false,
+      "actual_strict_trapping_certified": false,
+      "input": {
+        "s_C0": 0.1580051634710301,
+        "r_cap": 1.59295370112353,
+        "v_cap": 3.18590740224706,
+        "v_onset_width": 1.660244398871992,
+        "v_end": 4.846151801119052,
+        "field_amplitude": 0.5,
+        "smoothing_fraction": 0.05,
+        "radius_ratio": 0.5,
+        "fixed_coupling": 0.6,
+        "target_radius": 5.0,
+        "input_reference": "FIRST_JET_CHECKS last run: beta=0.003, C0 early segment",
+        "outer_null_constraint_budget_C0": null
+      },
+      "fixed_point": {
+        "r": 0.6507356227838544,
+        "kappa": 0.2596017201351862,
+        "theta": 0.6131016180822753,
+        "nu": -0.8595264253266616,
+        "z": -0.9179422626533618,
+        "m": 0.49350239595566936,
+        "lambda": -0.13414980166672183,
+        "Omega2": 0.892538154065796,
+        "theta_out": -0.8728347922252543,
+        "theta_in": -5.59243889697243
+      },
+      "maximum_float_residual_forecast": [
+        1.820559395114339e-05,
+        1.099869659391454e-05,
+        3.8541544659753845e-05,
+        0.0003479328524453583,
+        0.02579290998961192,
+        0.017942125699765724
+      ],
+      "forecasts": [
+        {
+          "completed": true,
+          "endpoint_radii": [
+            0.00287632730225978,
+            0.004921715035684531,
+            0.011391739039983544,
+            0.010531522378955376,
+            0.02338923321966908,
+            0.011331570890475729
+          ],
+          "maximum_radii": [
+            0.00287632730225978,
+            0.004921715035684531,
+            0.011391739039983544,
+            0.010531522378955376,
+            0.02338923321966908,
+            0.011331570890475729
+          ],
+          "minimum_float_tube_margin": 9.875759905246306e-11,
+          "assumed_boundary_error": 1e-10,
+          "absolute_slack": 1e-10,
+          "rigorous_PDE_error": false,
+          "hypothetical_2m_minus_r_lower_float": 0.31072970004427314
+        },
+        {
+          "completed": true,
+          "endpoint_radii": [
+            0.007574521110888746,
+            0.015097423084334372,
+            0.036590609834150925,
+            0.02803331120519362,
+            0.06417849967800228,
+            0.03487832762463811
+          ],
+          "maximum_radii": [
+            0.007574521110888746,
+            0.015097423084334372,
+            0.036590609834150925,
+            0.02803331120519362,
+            0.06417849967800228,
+            0.03487832762463811
+          ],
+          "minimum_float_tube_margin": 9.86485573703875e-11,
+          "assumed_boundary_error": [
+            1e-06,
+            1e-06,
+            0.001,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "absolute_slack": 1e-10,
+          "rigorous_PDE_error": false,
+          "hypothetical_2m_minus_r_lower_float": 0.2589379927673193
+        }
+      ]
+    }
+  ],
+  "independent_diamond_sample_differences": {
+    "r": 3.785945611789465e-06,
+    "nu": 4.024123871904095e-06,
+    "lambda": 5.505130596855645e-06,
+    "Omega2": 1.5141479686731074e-06
+  },
+  "no_claim": [
+    "outward_rounding",
+    "certified_boundary_errors",
+    "original_eta_layer",
+    "global_centre_future",
+    "formal_exclusion_of_A_JET01"
+  ],
+  "source_sha256": {
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "transport_defect.py": "85bc01f91a1258f6302cda4d9a7530657f13a606dd5f94ea03840795c00eda9d",
+    "explore_transport_tube.py": "c01fd19957a55d6013af3defb5d95a9fa7f503c7339036495f6645e609a23c5c",
+    "neutral_onset_input.py": "092315a30d850e2eaa10871f23bbf332c234105156112e81d897b4706a0f6803",
+    "FIRST_JET_CHECKS_2026-10-16.json": "28a5f531e198a37084e6a5e4b57a2bab9203e65d4a1f93997ced3822d42382f5",
+    "RATIONAL_GOURSAT_CERTIFICATION.md": "05cef218d936b531be68a6bf4f6e3c00e8aab1c73a688634503ed15361a71d88",
+    "NEUTRAL_ONSET_SCAN_2026-10-16.json": "b84ddeebbae758e2af6d4117dccd875e57db65a802a6a6010c63f23b926fb0fa"
+  }
+}

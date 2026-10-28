@@ -1,0 +1,62 @@
+{
+  "claim_ids": [
+    "COUL04.1",
+    "COUL04.2",
+    "COUL04.3",
+    "COUL04.4",
+    "COUL04.5",
+    "COUL04.6"
+  ],
+  "logic": "PROVED for listed identities and rational countercontrols; actual constraint extension and global-form arguments are analytic",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "EXACT_RN_QUADRATIC_CONTROL",
+    "ASYMPTOTIC_COULOMB_MODEL"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "V_r/V_t with both optical derivatives",
+    "pointwise Coulomb work integration by parts including optical correction",
+    "independent actual optical beta transport and complete wave reconstruction",
+    "radial canonical energy endpoint identity",
+    "Mellin derivative and current, sharp quadratic completion",
+    "asymptotic zero-frequency indicial polynomial",
+    "full fixed RN time-frequency operator with gauge and tortoise phases",
+    "rational negative RN canonical energy and scalar rp bounds",
+    "actual quadratic Maxwell and exact exponential optical constraint response"
+  ],
+  "negative_controls": [
+    "dropping beta destroys Coulomb work identity",
+    "omitting charged radial gauge phase fails complete RN mode transform",
+    "canonical scalar/Coulomb-interaction energy is negative at q=3/5",
+    "no strictly positive uniform scalar-rp form for absolute q at least 1/2"
+  ],
+  "rational_control": {
+    "A": "1/12012",
+    "B": "1/770",
+    "I0": "5/3003",
+    "I1": "59/54600",
+    "E0": "-71/1201200",
+    "RN_energy_upper": "-67699351/1201200000000",
+    "RN_scalar_rp_upper": "-21465351/400400000000"
+  },
+  "polynomial_control_is_C_infinity": false,
+  "C_infinity_negative_profile_justification": "analytic H1 density on a finite logarithmic annulus with strict negative margin",
+  "actual_constraint_negative_energy_justification": "analytic fixed-profile epsilon^2 expansion with O(epsilon^4) remainder",
+  "actual_constraint_ODE_numerically_certified": false,
+  "actual_weighted_radiation_flux_verified": false,
+  "late_charge_limit_verified": false,
+  "actual_instability_or_no_decay_proved": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_coulomb_mellin_gate.py": "cec60860b71407a732f77de6b3a3dcd7a6feb69e57bec133507e5723a515e75f",
+    "COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md": "559f1a22cf5f0c92da754eebed0bb83226b626ef79fc30bc4a34e5dca30693ae",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "GLOBAL_COVARIANT_MORAWETZ.md": "e137fc5afc7d716a905d405d891d7e34495cf0aa52c9326777268bf6ea9738fa",
+    "FINITE_BONDI_EXTERIOR_REALIZATION.md": "3234644116d9ddb803125dfa200c575aaca78ee146806c76be4f5afa36d7957b",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

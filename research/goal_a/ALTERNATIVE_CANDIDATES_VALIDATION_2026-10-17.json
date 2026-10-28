@@ -1,0 +1,35 @@
+{
+  "status": "VERIFIED_CONSTRAINT_AND_E0_ARTIFACTS",
+  "source_hashes_checked": 46,
+  "candidate_cache_hashes_checked": 6,
+  "ordinary_optimized_comparisons": 7,
+  "certified_null_constraint_seeds": 2,
+  "certified_null_constraint_cells": 4096,
+  "certified_two_dimensional_cells_for_new_seeds": 0,
+  "finest_grid": 192,
+  "finest_E0_endpoint_lambda": [
+    0.051890841033152516,
+    0.061752351273136254
+  ],
+  "no_trapping_PDE_certificate": false,
+  "full_AF_Cauchy_realization": false,
+  "same_critical_curve": false,
+  "global_three_branch_terminal_states": false,
+  "goal_A_proved": false,
+  "report_sha256": {
+    "FROZEN_CHARGED_U_BOUNDARY_2026-10-17.json": "fe64e388adafd0e806672e20589cd8135234e534ae02be953f57a4761ba67d93",
+    "FROZEN_CHARGED_U_BOUNDARY_AUDIT_2026-10-17.json": "a1e4d309403cea7e81c033cf3913726fa51ccd197ab3e0c5c5c4e4de60ba9a1a",
+    "CHARGED_U_KERNEL_CHECKS_2026-10-17.json": "59bfbef884162cf62d70b4a45d4180e4d94a9c022c5a6f5548fdbd13f228cca9",
+    "EARLY_CHARGED_CONSTRAINT_CERTIFICATE_N2048_2026-10-17.json": "4196aedcb4de15364c5783c5b078033c7cafb3a7b5a7706958f66a11bacdf81b",
+    "EARLY_CHARGED_CONSTRAINT_AUDIT_2026-10-17.json": "225d2888095eb53cad102f8b520c06402c96f8500dd9ded5190796835318be97",
+    "EXPONENTIAL_TAIL_ALGEBRA_2026-10-17.json": "ba1f9e6bfde83e9a0648cead550f3685fc69066a13cba72ee11b33ae64dbe69e",
+    "EXPONENTIAL_TAIL_SCREEN_N24_2026-10-17.json": "a6ebdfb720b2dee3f2008bf434f5eed3e38274432a2cfb18fd769c6573c5094b",
+    "EXPONENTIAL_TAIL_SCREEN_N48_2026-10-17.json": "79c4fc0f6cbbca2c8bc4fa9e2adc980ec2d0db3575700f08d7958544c99f2116",
+    "EARLY_CHARGED_PULSE_SCREEN_N24_2026-10-17.json": "da8ff238502258298a2928f38dc0bcd15645859baaea9947559d1802b0124ae4",
+    "EARLY_CHARGED_REFINEMENT_48_96_2026-10-17.json": "652c6758ba5ec5fd1cc8e37d06a7026c92064bd6eac6d7a4c4e26dc71b87b1f3",
+    "EARLY_CHARGED_REFINEMENT_192_2026-10-17.json": "8246d0b7e043d0b3232b4dc656462a750cbef924fbe0c0535c8c4d3500d1c397",
+    "EARLY_CHARGED_REFINEMENT_AUDIT_2026-10-17.json": "67d2df0ee486fc5dc32da11b36e5d29df2e4a17016047543714342c226f8fb98"
+  },
+  "document_sha256": "bfc2b047e3124f1ce995835eba37b9971bccc48a98163adab6b2a5272515f3a1",
+  "validator_sha256": "651831f71010e2c9a31136528be97ab32ee2e22ec56b915e7208e224b4a79723"
+}

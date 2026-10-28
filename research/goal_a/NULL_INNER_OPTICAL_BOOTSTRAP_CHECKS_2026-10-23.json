@@ -1,0 +1,60 @@
+{
+  "claim_ids": [
+    "O01.7",
+    "O01.8",
+    "O01.9",
+    "O01.10",
+    "O01.11"
+  ],
+  "logic": "PROVED (checked finite identities and explicit controls only)",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "EXPERIMENTAL (FLRW derivative control)"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "geometric mass flux from renormalized mass",
+    "fixed-area derivative",
+    "moving-boundary mass cancellation",
+    "Hardy absorption constants",
+    "remaining damping",
+    "rational subextremal RN thin strip",
+    "complex weighted Hardy control",
+    "covariant radial phase transport",
+    "fixed-radius lapse/trace conversion and integrable tail"
+  ],
+  "negative_controls": [
+    "renormalized mass is not geometric mass",
+    "arbitrary moving endpoint leaves residual",
+    "constant field needs Hardy boundary term",
+    "decay and derivative L2 do not imply amplitude L2",
+    "ordinary radial derivative loses gauge term",
+    "large f loses absorption"
+  ],
+  "complex_Hardy_control": {
+    "exact_margin": "779/60"
+  },
+  "RN_control": {
+    "M": "5/8",
+    "Q": "3/8",
+    "a": "9/8",
+    "b": "23/20",
+    "smallness_margin": "22194411629/453342420000"
+  },
+  "FLRW_fixed_area_control": {
+    "difference": 0.00400580095474487,
+    "formula": 0.004005800954644981,
+    "error": 9.98897145554345e-14
+  },
+  "actual_candidate_strip_verified": false,
+  "boundary_trace_integrability_verified": false,
+  "goal_A_proved": false,
+  "sympy_version": "1.14.0",
+  "source_sha256": {
+    "verify_null_inner_optical_bootstrap.py": "e0519994446571c9201b2639f7beb59438a3d00f812d28de08ebbd48269066da",
+    "INCOMING_OPTICAL_DEPTH_GATE.md": "f12a9a8d1b5012f5ce0f8cd7b77a848143a8c02aaa620f6988ff5eee197e75d4",
+    "verify_centered_cauchy_diamond.py": "59ddee48abf9678b816095dc03b23d99963ad8123b3a99007c9dde2b141065c4",
+    "OUTGOING_LOCAL_DECAY.md": "e97064d04591972276cc8a841d6889488cecd49915d00e471b3fba76ade3ddb3",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

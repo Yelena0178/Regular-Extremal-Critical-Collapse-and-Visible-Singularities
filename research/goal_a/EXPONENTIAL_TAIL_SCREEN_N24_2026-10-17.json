@@ -1,0 +1,111 @@
+{
+  "runs": [
+    {
+      "configuration": {
+        "c": 0.5,
+        "frequency_ratio": 0.5,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 14,21; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.5,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 15,22; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.5,
+        "frequency_ratio": 2.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 16,19; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.75,
+        "frequency_ratio": 0.5,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 13,20; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.75,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 15,19; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.75,
+        "frequency_ratio": 2.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 16,17; change=1.5843551359751018e-08",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 1.0,
+        "frequency_ratio": 0.5,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 13,19; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 1.0,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 16,17; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 1.0,
+        "frequency_ratio": 2.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "Lobatto stage failed at 17,19; change=nan",
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "new infinite-tail constraint seed; finite Goursat experiment",
+  "actual_smooth_seed_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "exponential_tail_candidate.py": "d04ae5eb7c8fd7578d508f0a21887ce8f61aca7e4261403d42ab30c6190afa31",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "round": "R26",
+  "logic": "PROVED only for the stated identities and conditional estimates",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_ENVELOPE_QUADRATURE"
+  ],
+  "audit": "INTERNAL_AUDIT; no independent or interval PDE certification",
+  "source_sha256": {
+    "verify_timelike_charge_jets.py": "61f72b893f7545795a99c803956388ca41fb20b9e3f8fce7f4d8d89acc1063aa",
+    "TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md": "73ab1cb1b70c927e7b50579f84e14fe9ee45826c358236174f91f885b883ed04",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md": "559f1a22cf5f0c92da754eebed0bb83226b626ef79fc30bc4a34e5dca30693ae",
+    "ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e",
+    "FULL_SPACE_PHYSICAL_TRACE_AUDIT.md": "3e5118352f08c09cca31a04b185aafc13ea6b5be820077a47e7f134cc5a57132",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  },
+  "exact_identities": "PASS: Maxwell orientation, fixed-r mass cancellation, optical transport, commutator, coefficient product rules and gauge identity",
+  "exact_envelopes": "PASS: temporal integral, radial powers, maximum and saturated source envelope",
+  "finite_charge_integrals": [
+    {
+      "eta": "0.025",
+      "R": "1.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.025",
+      "R": "1.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "1.0",
+      "U": "1024.0",
+      "time_integral_error": "1.710569e-49"
+    },
+    {
+      "eta": "0.025",
+      "R": "4.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.025",
+      "R": "4.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "4.0",
+      "U": "1024.0",
+      "time_integral_error": "1.710569e-49"
+    },
+    {
+      "eta": "0.025",
+      "R": "64.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.025",
+      "R": "64.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "64.0",
+      "U": "1024.0",
+      "time_integral_error": "1.710569e-49"
+    },
+    {
+      "eta": "0.1",
+      "R": "1.0",
+      "U": "1.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "1.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "1.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "4.0",
+      "U": "1.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "4.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "4.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "64.0",
+      "U": "1.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "64.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "64.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "1.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.24",
+      "R": "1.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "1.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "4.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.24",
+      "R": "4.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "4.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "64.0",
+      "U": "1.0",
+      "time_integral_error": "8.758115e-47"
+    },
+    {
+      "eta": "0.24",
+      "R": "64.0",
+      "U": "16.0",
+      "time_integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "64.0",
+      "U": "1024.0",
+      "time_integral_error": "0.0"
+    }
+  ],
+  "finite_source_envelopes": [
+    {
+      "eta": "0.025",
+      "r": "1.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.9474471437"
+    },
+    {
+      "eta": "0.025",
+      "r": "1.0",
+      "U": "16.0",
+      "first_ratio": "0.09850007132",
+      "second_ratio": "0.1756679741"
+    },
+    {
+      "eta": "0.025",
+      "r": "1.0",
+      "U": "1024.0",
+      "first_ratio": "0.001952172024",
+      "second_ratio": "0.003695550679"
+    },
+    {
+      "eta": "0.025",
+      "r": "4.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.8945445407"
+    },
+    {
+      "eta": "0.025",
+      "r": "4.0",
+      "U": "16.0",
+      "first_ratio": "0.1435872944",
+      "second_ratio": "0.5137809212"
+    },
+    {
+      "eta": "0.025",
+      "r": "4.0",
+      "U": "1024.0",
+      "first_ratio": "0.003082147825",
+      "second_ratio": "0.01373195211"
+    },
+    {
+      "eta": "0.025",
+      "r": "64.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.2658281229"
+    },
+    {
+      "eta": "0.025",
+      "r": "64.0",
+      "U": "16.0",
+      "first_ratio": "0.2588556762",
+      "second_ratio": "0.8945445407"
+    },
+    {
+      "eta": "0.025",
+      "r": "64.0",
+      "U": "1024.0",
+      "first_ratio": "0.01080207654",
+      "second_ratio": "0.1756679741"
+    },
+    {
+      "eta": "0.1",
+      "r": "1.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.9966697508"
+    },
+    {
+      "eta": "0.1",
+      "r": "1.0",
+      "U": "16.0",
+      "first_ratio": "0.1492981899",
+      "second_ratio": "0.2800959806"
+    },
+    {
+      "eta": "0.1",
+      "r": "1.0",
+      "U": "1024.0",
+      "first_ratio": "0.005521576304",
+      "second_ratio": "0.01099563823"
+    },
+    {
+      "eta": "0.1",
+      "r": "4.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.7643446983"
+    },
+    {
+      "eta": "0.1",
+      "r": "4.0",
+      "U": "16.0",
+      "first_ratio": "0.2176376408",
+      "second_ratio": "0.6654007077"
+    },
+    {
+      "eta": "0.1",
+      "r": "4.0",
+      "U": "1024.0",
+      "first_ratio": "0.00871763051",
+      "second_ratio": "0.03318673762"
+    },
+    {
+      "eta": "0.1",
+      "r": "64.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.1498546471"
+    },
+    {
+      "eta": "0.1",
+      "r": "64.0",
+      "U": "16.0",
+      "first_ratio": "0.3923518367",
+      "second_ratio": "0.7643446983"
+    },
+    {
+      "eta": "0.1",
+      "r": "64.0",
+      "U": "1024.0",
+      "first_ratio": "0.03055288628",
+      "second_ratio": "0.2800959806"
+    },
+    {
+      "eta": "0.24",
+      "r": "1.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.9308262071"
+    },
+    {
+      "eta": "0.24",
+      "r": "1.0",
+      "U": "16.0",
+      "first_ratio": "0.3244950958",
+      "second_ratio": "0.5685619562"
+    },
+    {
+      "eta": "0.24",
+      "r": "1.0",
+      "U": "1024.0",
+      "first_ratio": "0.03845449089",
+      "second_ratio": "0.07151905298"
+    },
+    {
+      "eta": "0.24",
+      "r": "4.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.4842055741"
+    },
+    {
+      "eta": "0.24",
+      "r": "4.0",
+      "U": "16.0",
+      "first_ratio": "0.4730288234",
+      "second_ratio": "0.916172772"
+    },
+    {
+      "eta": "0.24",
+      "r": "4.0",
+      "U": "1024.0",
+      "first_ratio": "0.06071310521",
+      "second_ratio": "0.1464161816"
+    },
+    {
+      "eta": "0.24",
+      "r": "64.0",
+      "U": "1.0",
+      "first_ratio": "1.0",
+      "second_ratio": "0.04367743713"
+    },
+    {
+      "eta": "0.24",
+      "r": "64.0",
+      "U": "16.0",
+      "first_ratio": "0.8527648387",
+      "second_ratio": "0.4842055741"
+    },
+    {
+      "eta": "0.24",
+      "r": "64.0",
+      "U": "1024.0",
+      "first_ratio": "0.2127826589",
+      "second_ratio": "0.5685619562"
+    }
+  ],
+  "finite_radial_saturation_countercontrols": [
+    {
+      "eta": "0.025",
+      "ratio_against_false_r_minus_g": [
+        "7.90386134785",
+        "501.186983034",
+        "251188.643151"
+      ]
+    },
+    {
+      "eta": "0.1",
+      "ratio_against_false_r_minus_g": [
+        "3.9613144039",
+        "63.0957029002",
+        "3981.07170553"
+      ]
+    },
+    {
+      "eta": "0.24",
+      "ratio_against_false_r_minus_g": [
+        "1.09103658342",
+        "1.31825607943",
+        "1.73780082875"
+      ]
+    }
+  ],
+  "finite_optical_integrals": [
+    {
+      "eta": "0.025",
+      "R": "1.0",
+      "integral_error": "4.3790577e-47"
+    },
+    {
+      "eta": "0.025",
+      "R": "4.0",
+      "integral_error": "0.0"
+    },
+    {
+      "eta": "0.025",
+      "R": "64.0",
+      "integral_error": "4.2764235e-50"
+    },
+    {
+      "eta": "0.1",
+      "R": "1.0",
+      "integral_error": "4.3790577e-47"
+    },
+    {
+      "eta": "0.1",
+      "R": "4.0",
+      "integral_error": "0.0"
+    },
+    {
+      "eta": "0.1",
+      "R": "64.0",
+      "integral_error": "4.2764235e-50"
+    },
+    {
+      "eta": "0.24",
+      "R": "1.0",
+      "integral_error": "4.3790577e-47"
+    },
+    {
+      "eta": "0.24",
+      "R": "4.0",
+      "integral_error": "0.0"
+    },
+    {
+      "eta": "0.24",
+      "R": "64.0",
+      "integral_error": "4.2764235e-50"
+    }
+  ],
+  "actual_new_global_PDE_simulation": false,
+  "A_D_K_uniform_input_verified": false,
+  "improved_charge_freezing_under_A_D_K": true,
+  "coefficient_first_time_variation_under_A_D_K": true,
+  "actual_trace_channel_conditions_verified": false,
+  "F_double_prime_estimate_verified": false,
+  "finite_radius_full_body_source_verified": false,
+  "high_frequency_and_horizon_limit_verified": false,
+  "goal_A_proved": false
+}
