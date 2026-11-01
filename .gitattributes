@@ -26,6 +26,12 @@
 "/research/README.md" -text
 "/research/goal_a/ACCEPTANCE.md" -text
 "/research/goal_a/CORE_CANDIDATE_REVIEW_2026-11-01.md" -text
+"/research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md" -text
+"/research/goal_a/probe_split_focusing_budget.py" -text
+"/research/goal_a/summarize_split_focusing.py" -text
+"/research/goal_a/SPLIT_FOCUSING_RAYS_N512_2026-11-01.json" -text
+"/research/goal_a/SPLIT_FOCUSING_RAYS_N1024_2026-11-01.json" -text
+"/research/goal_a/SPLIT_FOCUSING_DECISION_2026-11-01.json" -text
 "/research/goal_a/split_direction_shell.py" -text
 "/research/goal_a/verify_split_direction_shell.py" -text
 "/research/goal_a/screen_split_direction_shell.py" -text

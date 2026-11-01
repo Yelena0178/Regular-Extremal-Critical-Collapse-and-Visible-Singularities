@@ -83,3 +83,5 @@ python checks/verify_research_snapshot.py --allow-navigation-updates
 新增 [GA-REVIEW-20261101-1](../research/goal_a/CORE_CANDIDATE_REVIEW_2026-11-01.md)、独立包络/相位方向的初值实现和核验、四份有限未来探针及汇总回执。旧科学稿、源码、原始数据、R31 检查点和旧快照保持原字节；新文件另列入换行属性、完整索引和当前清单。
 
 根 README、STATUS、RESULTS、ROADMAP、atlas-map 和研究首页更新当前入口、作用域与下一步。其中 STATUS/RESULTS/ROADMAP/研究首页仍属于既有 R31 导航例外；不增加科学文件豁免。新增初值论证和有限计算不关闭 Goal A，不把原有条件性成果升级为实际极端端点。当前回执逐份核对新探针及五份旧候选报告的源码哈希，R31 的55份历史报告仍独立核对。
+
+后续 GA-REVIEW-20261101-2 执行上述关键射线诊断，新增 [FOCUS01](../research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)、只读 observer、容量汇总和三份报告。原 R31 及上一轮科学文件/报告不变；同一组当前导航入口、完整索引和清单更新，不新增历史科学文件豁免。下一步按真实预算转向保持 Q(r) 的包络/几何对照；有限容量判断不升级为全族不可能性定理。

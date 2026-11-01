@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **626** 个文件。
+本目录共列出 **632** 个文件。
 
-## 研究文档与阶段记录（105）
+## 研究文档与阶段记录（106）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md — A-BODY11：实际体源、有限窗末端冻结与截断余项](ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)
@@ -108,6 +108,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [STATIC_GEOMETRY_FREEZING_AND_RN_ROBIN.md — A-RN20：实际静态几何冻结与远区RN物理Robin阈值](STATIC_GEOMETRY_FREEZING_AND_RN_ROBIN.md)
 - [SYNC_PROGRESS_2026-10-18.md — 2026-10-18 GitHub 同步快照](SYNC_PROGRESS_2026-10-18.md)
 - [TAIL_CURRENT_AND_CARRIER_AUDIT.md — A-CARRIER07：载频尾审计与实际电荷电流闭合映射](TAIL_CURRENT_AND_CARRIER_AUDIT.md)
+- [TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md — FOCUS01：关键射线的聚焦归因与电荷容量门槛](TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)
 - [THIN_ONSET_PARAMETER_TRANSFER.md — A-TRANSFER01：极薄开启层、几何参数盒与原 R=5 小参数种子的筛选](THIN_ONSET_PARAMETER_TRANSFER.md)
 - [TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md — A-JET18：实际世界管电荷流、加强冻结与一阶系数交换](TIMELIKE_CHARGE_AND_COEFFICIENT_JETS.md)
 - [TWO_PULSE_SECOND_JET.md — A-JET03：两个无直接充电脉冲消去前两阶横向标量残差](TWO_PULSE_SECOND_JET.md)
@@ -223,7 +224,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_uniform_upper_kernel.py](verify_uniform_upper_kernel.py)
 - [verify_world_tube_radiation.py](verify_world_tube_radiation.py)
 
-## 构造、演化与探索脚本（68）
+## 构造、演化与探索脚本（70）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
@@ -275,6 +276,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [new_shape_screen.py](new_shape_screen.py)
 - [polar_evolution.py](polar_evolution.py)
 - [prepare_frozen_charged_reference.py](prepare_frozen_charged_reference.py)
+- [probe_split_focusing_budget.py](probe_split_focusing_budget.py)
 - [rational_transport_cell.py](rational_transport_cell.py)
 - [replay_charged_tubes.py](replay_charged_tubes.py)
 - [reversed_canonical_data.py](reversed_canonical_data.py)
@@ -289,12 +291,13 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [split_direction_shell.py](split_direction_shell.py)
 - [summarize_centered_cauchy_screen.py](summarize_centered_cauchy_screen.py)
 - [summarize_charge_shell.py](summarize_charge_shell.py)
+- [summarize_split_focusing.py](summarize_split_focusing.py)
 - [thin_boundary_certificate.py](thin_boundary_certificate.py)
 - [thin_onset_reference.py](thin_onset_reference.py)
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（230）
+## JSON 证据与结果（233）
 
 - [ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json](ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json)
 - [ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json](ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json)
@@ -505,6 +508,9 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [SPLIT_DA08_DQM08_T15_N256_2026-11-01.json](SPLIT_DA08_DQM08_T15_N256_2026-11-01.json)
 - [SPLIT_DA08_DQM08_T15_N512_2026-11-01.json](SPLIT_DA08_DQM08_T15_N512_2026-11-01.json)
 - [SPLIT_DIRECTION_CHECKS_2026-11-01.json](SPLIT_DIRECTION_CHECKS_2026-11-01.json)
+- [SPLIT_FOCUSING_DECISION_2026-11-01.json](SPLIT_FOCUSING_DECISION_2026-11-01.json)
+- [SPLIT_FOCUSING_RAYS_N1024_2026-11-01.json](SPLIT_FOCUSING_RAYS_N1024_2026-11-01.json)
+- [SPLIT_FOCUSING_RAYS_N512_2026-11-01.json](SPLIT_FOCUSING_RAYS_N512_2026-11-01.json)
 - [STATIC_GEOMETRY_RN_ROBIN_CHECKS_2026-10-26.json](STATIC_GEOMETRY_RN_ROBIN_CHECKS_2026-10-26.json)
 - [SYNC_VALIDATION_2026-10-18.json](SYNC_VALIDATION_2026-10-18.json)
 - [TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json](TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json)

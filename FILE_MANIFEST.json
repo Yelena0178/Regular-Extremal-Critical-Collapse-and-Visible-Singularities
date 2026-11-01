@@ -11,7 +11,7 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 628,
+    "research": 634,
     "reviews": 314
   },
   "files": [
@@ -92,8 +92,8 @@
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 17921,
-      "sha256": "958404d1dec726940fb040b8b46157b43cb1932f5f68068718725777b8110dd7"
+      "size_bytes": 18294,
+      "sha256": "d401721de9c3bb76fafa7f67d614e0e694515c064a6142c8c01f222d0fdfe045"
     },
     {
       "path": ".gitignore",
@@ -132,8 +132,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4662,
-      "sha256": "a5436f212611a5d5406d04b1c4160d4192e00914d7fc0dc9e767b6369c38715d"
+      "size_bytes": 4670,
+      "sha256": "1153d3ffde03676bfcb5afc12b0fab3ff3668b490d49cb1bc35fa23928ce9063"
     },
     {
       "path": "REPRODUCE.md",
@@ -142,18 +142,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 10786,
-      "sha256": "f0fc984a0336524a1538dbb34ff1048fef27e1600adf860c382cc92d12301916"
+      "size_bytes": 11320,
+      "sha256": "7e6c66df1804b1ec810f67b1dcef027398d036a3bd1c1953962be06351aea8a3"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 5028,
-      "sha256": "41d05a09bc9d9bb4cbee5478dedb1442a8cea9caccbe695e6c0755139dc44ae9"
+      "size_bytes": 5237,
+      "sha256": "501906726669102450364afc9e8c162afa68017fb533eec304e0be1b7c9a855f"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 3460,
-      "sha256": "cd1c65485cd12ca6cb7d0778c6dce95dc957185a1718b19fec900800f48d2934"
+      "size_bytes": 3549,
+      "sha256": "3e26d5cdfff0254c7f7379d7ed48d7742efbf0609dfff0cdca6201997ee7df17"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -167,8 +167,8 @@
     },
     {
       "path": "atlas-map.md",
-      "size_bytes": 1942,
-      "sha256": "13eae1d6bf1e8063754fb10ca7d2ffc3820e4020d08683290735ec6a42e3e190"
+      "size_bytes": 1956,
+      "sha256": "ea1ba19da4dbe098c7e7638c6ef2ad7181ffa8f0fba256a9b0f76d4a2ec4b74b"
     },
     {
       "path": "checks/FILE_MANIFEST_2026-10-10.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "checks/REPOSITORY_AUDIT_2026-10-28.md",
-      "size_bytes": 7082,
-      "sha256": "cbd291eecf6301806c5bef1adc2c0091d71413a12ae5b7a7ffa118bd8d72534a"
+      "size_bytes": 7541,
+      "sha256": "69f5bbfa08e290efc7d8017241fe271909650d81e71c111ec3753812c252885a"
     },
     {
       "path": "checks/SOURCE_MAP.json",
@@ -2287,8 +2287,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 58716,
-      "sha256": "870f57484277bcafbee54ec7864a4d9129e48f2d5abfb1947c95f444dc63bd2b"
+      "size_bytes": 59255,
+      "sha256": "38b4e5a8f7a2f2844ced7f528dcb84cd8e79245ac81783b9b40729fdc9c64114"
     },
     {
       "path": "research/goal_a/FINITE_BONDI_CONSTRAINT_CHECKS_2026-10-23.json",
@@ -2822,8 +2822,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 6667,
-      "sha256": "e805232c8318ec4050632bf82d1d269a3ad3fa3e8c8e3d2a2cfe65f02895aac4"
+      "size_bytes": 6766,
+      "sha256": "24449a0548bee2a34e4ad1a7ae6c1fa4a206106d79f74cf3ad659970773b7caf"
     },
     {
       "path": "research/goal_a/RECOVERY_CHECKPOINT.md",
@@ -3321,6 +3321,21 @@
       "sha256": "684928f5340e3364919661475f8a2d6f3d7d714075eee253cf1517a78ffe69b7"
     },
     {
+      "path": "research/goal_a/SPLIT_FOCUSING_DECISION_2026-11-01.json",
+      "size_bytes": 5482,
+      "sha256": "1a068acb616ce96e76c83af0db27bfecb5b9775bbbafa8704985d0fddda50d9a"
+    },
+    {
+      "path": "research/goal_a/SPLIT_FOCUSING_RAYS_N1024_2026-11-01.json",
+      "size_bytes": 585768,
+      "sha256": "ed71222469dce9124ede053cb33c5480239df13d0cf2aab8cd7d6c78b1d695a2"
+    },
+    {
+      "path": "research/goal_a/SPLIT_FOCUSING_RAYS_N512_2026-11-01.json",
+      "size_bytes": 317348,
+      "sha256": "57f5a0cd77427a1d1871f4b58521b2879382787ac793173a0c0710651b75838a"
+    },
+    {
       "path": "research/goal_a/STATIC_GEOMETRY_FREEZING_AND_RN_ROBIN.md",
       "size_bytes": 12061,
       "sha256": "da189e3a51bd7f77560b93b37ca8aab0c8aa8f89899e073f9620ebcbf78cac74"
@@ -3349,6 +3364,11 @@
       "path": "research/goal_a/TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json",
       "size_bytes": 2800,
       "sha256": "c120b355222201b90ad73f2ce422a760fafa2bdd4bccede5a558dc94a28dc509"
+    },
+    {
+      "path": "research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md",
+      "size_bytes": 7801,
+      "sha256": "0a6b4ae20ad2f5da7c993686deabca7997509b0ec97b1d0f2deca740b8e75b17"
     },
     {
       "path": "research/goal_a/THIN_ONSET_GRID_CERTIFICATE_2026-10-17.json",
@@ -4061,6 +4081,11 @@
       "sha256": "d82b1c227b398da72ec3ce6c035e6330b1cb2a33310e960c8054ff983e1aad29"
     },
     {
+      "path": "research/goal_a/probe_split_focusing_budget.py",
+      "size_bytes": 5601,
+      "sha256": "64c3c59963011f46a3236169c79f7391e2ddd5b181ba8479b3068da1cfcbd972"
+    },
+    {
       "path": "research/goal_a/rational_transport_cell.py",
       "size_bytes": 4712,
       "sha256": "47766dea3f8dfd861edc079e0b55a6ea37ac46afcabfa1263c1b392a96edc2ac"
@@ -4144,6 +4169,11 @@
       "path": "research/goal_a/summarize_charge_shell.py",
       "size_bytes": 3969,
       "sha256": "9f16b87f833fd5293021a9a08ba428636b798bd7b177ed5079b348b3cd4e3ae4"
+    },
+    {
+      "path": "research/goal_a/summarize_split_focusing.py",
+      "size_bytes": 4319,
+      "sha256": "24b178a4d04f45426efb8844e2ce58421b714b0b0ad848a1d099bc44a19a87ee"
     },
     {
       "path": "research/goal_a/thin_boundary_certificate.py",
