@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **617** 个文件。
+本目录共列出 **626** 个文件。
 
-## 研究文档与阶段记录（104）
+## 研究文档与阶段记录（105）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md — A-BODY11：实际体源、有限窗末端冻结与截断余项](ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)
@@ -39,6 +39,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [CHARGED_U_CONSTRAINED_FORMULATION.md — A-CHG03：沿较短 u 方向输运质量、标量和电荷](CHARGED_U_CONSTRAINED_FORMULATION.md)
 - [CHARGE_PRESERVING_DIRECTION_FAMILY.md — A-DIR01：保持电荷分布的方向族与中心聚焦筛选](CHARGE_PRESERVING_DIRECTION_FAMILY.md)
 - [CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md — A-PATH01：约束收缩路径与首个色散边界](CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md)
+- [CORE_CANDIDATE_REVIEW_2026-11-01.md — Goal A 战略复盘：回到电荷输送与聚焦代价](CORE_CANDIDATE_REVIEW_2026-11-01.md)
 - [COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md — A-COUL04：库仑功的完整分部与大耦合标量能量障碍](COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md)
 - [EXACT_INITIAL_BUDGET.md — A-INC01-B：一个显式参数矩形的全半径正定预算](EXACT_INITIAL_BUDGET.md)
 - [EXTERIOR_TRACE_MULTIPLIER_AUDIT.md — A-TRACE01：实际外环乘子、幅度迹与全局边界障碍](EXTERIOR_TRACE_MULTIPLIER_AUDIT.md)
@@ -115,7 +116,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_GATE.md — A-OPT01：入射光学深度与几何近边际门槛](checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_GATE.md)
 - [checkpoints/optical_R02_2026-10-23/RECOVERY_CHECKPOINT.md — Goal A 可恢复检查点 GA-R20261023-02](checkpoints/optical_R02_2026-10-23/RECOVERY_CHECKPOINT.md)
 
-## 核验与认证脚本（103）
+## 核验与认证脚本（104）
 
 - [certify_biased_shell_initial.py](certify_biased_shell_initial.py)
 - [certify_charge_shell_initial.py](certify_charge_shell_initial.py)
@@ -212,6 +213,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_rotating_af_interface.py](verify_rotating_af_interface.py)
 - [verify_second_jet.py](verify_second_jet.py)
 - [verify_spectral_cutoff.py](verify_spectral_cutoff.py)
+- [verify_split_direction_shell.py](verify_split_direction_shell.py)
 - [verify_static_geometry_rn_robin.py](verify_static_geometry_rn_robin.py)
 - [verify_supported_exit.py](verify_supported_exit.py)
 - [verify_tail_current_carrier.py](verify_tail_current_carrier.py)
@@ -221,7 +223,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_uniform_upper_kernel.py](verify_uniform_upper_kernel.py)
 - [verify_world_tube_radiation.py](verify_world_tube_radiation.py)
 
-## 构造、演化与探索脚本（66）
+## 构造、演化与探索脚本（68）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
@@ -281,8 +283,10 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [screen_biased_charge_shell.py](screen_biased_charge_shell.py)
 - [screen_charge_preserving_shell.py](screen_charge_preserving_shell.py)
 - [screen_incoming_optical_depth.py](screen_incoming_optical_depth.py)
+- [screen_split_direction_shell.py](screen_split_direction_shell.py)
 - [second_jet_shooting.py](second_jet_shooting.py)
 - [smooth_pulse_jet_repair.py](smooth_pulse_jet_repair.py)
+- [split_direction_shell.py](split_direction_shell.py)
 - [summarize_centered_cauchy_screen.py](summarize_centered_cauchy_screen.py)
 - [summarize_charge_shell.py](summarize_charge_shell.py)
 - [thin_boundary_certificate.py](thin_boundary_certificate.py)
@@ -290,7 +294,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（225）
+## JSON 证据与结果（230）
 
 - [ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json](ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json)
 - [ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json](ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json)
@@ -496,6 +500,11 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [SHIFT_STRONG_SCAN_2026-10-16.json](SHIFT_STRONG_SCAN_2026-10-16.json)
 - [SMOOTH_PULSE_JET_REPAIR_2026-10-17.json](SMOOTH_PULSE_JET_REPAIR_2026-10-17.json)
 - [SPECTRAL_CUTOFF_CHECKS_2026-10-23.json](SPECTRAL_CUTOFF_CHECKS_2026-10-23.json)
+- [SPLIT_DA08_DQ08_T15_N256_2026-11-01.json](SPLIT_DA08_DQ08_T15_N256_2026-11-01.json)
+- [SPLIT_DA08_DQ08_T15_N512_2026-11-01.json](SPLIT_DA08_DQ08_T15_N512_2026-11-01.json)
+- [SPLIT_DA08_DQM08_T15_N256_2026-11-01.json](SPLIT_DA08_DQM08_T15_N256_2026-11-01.json)
+- [SPLIT_DA08_DQM08_T15_N512_2026-11-01.json](SPLIT_DA08_DQM08_T15_N512_2026-11-01.json)
+- [SPLIT_DIRECTION_CHECKS_2026-11-01.json](SPLIT_DIRECTION_CHECKS_2026-11-01.json)
 - [STATIC_GEOMETRY_RN_ROBIN_CHECKS_2026-10-26.json](STATIC_GEOMETRY_RN_ROBIN_CHECKS_2026-10-26.json)
 - [SYNC_VALIDATION_2026-10-18.json](SYNC_VALIDATION_2026-10-18.json)
 - [TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json](TAIL_CURRENT_CARRIER_CHECKS_2026-10-23.json)

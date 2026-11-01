@@ -77,3 +77,9 @@ python checks/verify_research_snapshot.py --allow-navigation-updates
 本次在 `.agents/skills/math-research-goal-runner/` 加入战略停滞复盘、每轮 GitHub 同步及通用启动 prompt，并更新相关入口、检查点模板、包校验清单和验证记录；新增文件在 `.gitattributes` 中明确保留字节。具体规则和验证边界见[skill 验证记录](../.agents/skills/math-research-goal-runner/VALIDATION.md)。
 
 `checks/update_navigation.py` 的清单日期由 2026-10-28 更新为 2026-11-01，仍属于上文已声明的 R31 导航差异路径；`FILE_MANIFEST.json` 随当前文件刷新。本登记不改写上文的 10-28 历史检查结果，也不修改研究正文、冻结验收或历史科学证据。当前交付另执行导航、清单、R31 收据及独立检出核对，不据此提升数学结论状态。
+
+### 同日后续研究：核心候选战略复盘
+
+新增 [GA-REVIEW-20261101-1](../research/goal_a/CORE_CANDIDATE_REVIEW_2026-11-01.md)、独立包络/相位方向的初值实现和核验、四份有限未来探针及汇总回执。旧科学稿、源码、原始数据、R31 检查点和旧快照保持原字节；新文件另列入换行属性、完整索引和当前清单。
+
+根 README、STATUS、RESULTS、ROADMAP、atlas-map 和研究首页更新当前入口、作用域与下一步。其中 STATUS/RESULTS/ROADMAP/研究首页仍属于既有 R31 导航例外；不增加科学文件豁免。新增初值论证和有限计算不关闭 Goal A，不把原有条件性成果升级为实际极端端点。当前回执逐份核对新探针及五份旧候选报告的源码哈希，R31 的55份历史报告仍独立核对。

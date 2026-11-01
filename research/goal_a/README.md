@@ -1,11 +1,11 @@
 # 目标 A：当前状态与专题导航
 
-数学记录截至 **2026-10-27 / R31**；导航维护：2026-10-28。**完整 Goal A 为 OPEN。** [ACCEPTANCE](ACCEPTANCE.md) 固定 A1–A6，不因材料整理改变。[当前状态](../../STATUS.md)给验收差距，[路线图](../../ROADMAP.md)给研究优先级。
+研究更新至 **2026-11-01 的核心候选战略复盘**；此前完整检查点为 R31。**完整 Goal A 为 OPEN。** [ACCEPTANCE](ACCEPTANCE.md) 固定 A1–A6。[当前状态](../../STATUS.md)给验收差距，[路线图](../../ROADMAP.md)给研究优先级。
 
 ## 先读哪些材料
 
 1. [冻结契约](ACCEPTANCE.md)与[D001](../../definitions/MODEL.md)：模型、强初值空间、三分支量词和强终态。
-2. [R31 检查点](RECOVERY_CHECKPOINT.md)：STATE 依赖、三轴状态、ATTEMPTS 失败记录及当轮下一步。
+2. [11-01 核心候选复盘](CORE_CANDIDATE_REVIEW_2026-11-01.md)：当前战略、SPLIT01 初值推导、实际探针及下一判别；[R31 检查点](RECOVERY_CHECKPOINT.md)保存旧依赖、三轴状态及失败记录，旧下一步不覆盖新优先级。
 3. 下表中相关研究稿，再读配套脚本和报告；所有文件在[完整索引](FILE_INDEX.md)。
 4. [2026-10-28 维护记录](../../checks/REPOSITORY_AUDIT_2026-10-28.md)：解释后续导航差异及如何恢复旧快照。
 

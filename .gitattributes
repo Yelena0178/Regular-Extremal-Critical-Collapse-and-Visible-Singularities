@@ -25,6 +25,15 @@
 "/checks/verify_navigation.py" -text
 "/research/README.md" -text
 "/research/goal_a/ACCEPTANCE.md" -text
+"/research/goal_a/CORE_CANDIDATE_REVIEW_2026-11-01.md" -text
+"/research/goal_a/split_direction_shell.py" -text
+"/research/goal_a/verify_split_direction_shell.py" -text
+"/research/goal_a/screen_split_direction_shell.py" -text
+"/research/goal_a/SPLIT_DIRECTION_CHECKS_2026-11-01.json" -text
+"/research/goal_a/SPLIT_DA08_DQ08_T15_N256_2026-11-01.json" -text
+"/research/goal_a/SPLIT_DA08_DQ08_T15_N512_2026-11-01.json" -text
+"/research/goal_a/SPLIT_DA08_DQM08_T15_N256_2026-11-01.json" -text
+"/research/goal_a/SPLIT_DA08_DQM08_T15_N512_2026-11-01.json" -text
 "/research/goal_a/ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md" -text
 "/research/goal_a/ACTUAL_BONDI_COMPLETENESS_BRIDGE.md" -text
 "/research/goal_a/AF_OUTER_EXTENSION.md" -text
