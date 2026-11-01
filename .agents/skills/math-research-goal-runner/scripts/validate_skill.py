@@ -17,8 +17,10 @@ REQUIRED = (
     'SKILL.md', 'README.md', 'references/GOAL-CONTROL.md',
     'references/RESEARCH-METHODOLOGY.md', 'references/PROOF-AUDIT.md',
     'references/EVIDENCE-STANDARDS.md', 'references/RECCVS-PROFILE.md',
+    'references/PROGRESS-REVIEW.md', 'references/GITHUB-SYNC.md',
     'assets/GOAL-TEMPLATE.md', 'assets/CLAIM-TEMPLATE.md',
-    'assets/CHECKPOINT-TEMPLATE.md', 'scripts/validate_skill.py',
+    'assets/CHECKPOINT-TEMPLATE.md', 'assets/RESEARCH-STARTER.zh-CN.md',
+    'scripts/validate_skill.py',
 )
 LOGIC = {'PROVED', 'CONDITIONAL', 'CONJECTURAL', 'OPEN', 'REFUTED'}
 EVIDENCE = {'ANALYTIC', 'EXACT_ALGEBRA', 'CERTIFIED_NUMERICS',

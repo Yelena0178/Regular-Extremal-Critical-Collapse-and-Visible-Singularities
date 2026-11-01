@@ -24,6 +24,28 @@
 |---|---|---|---|---|---|---|
 | {{id}} | {{rev}} | {{claim}} | {{derivation_or_experiment}} | {{result}} | {{diagnosis}} | {{action}} |
 
+## Research health / strategic review delta
+
+- Core bottleneck signature (necessary gap / missing input / mechanism): {{signature}}
+- Last valid strategic movement (round / time / evidence / before-after gap): {{baseline}}
+- Local gains that do not yet move that frontier: {{local_results_and_bridge_still_missing}}
+- Rounds / active minutes since strategic movement; unknown timing stays unknown: {{counters}}
+- Thresholds and last check (default 5 rounds OR 180 active minutes; 2 equivalent failures): {{settings_and_check}}
+- Last review / unchanged-frontier review count / next review deadline: {{review_history}}
+- Review receipt and actual route change, or evidence for a bounded continuation: {{receipt}}
+- Next discriminating test / rejection criterion / effort budget: {{test_and_budget}}
+
+## GitHub synchronization delta
+
+- Ongoing authorization source, or explicit no-sync restriction: {{authorization}}
+- Confirmed local repository / GitHub remote and push destination / existing branch: {{mapping}}
+- Current round artifact paths / precommit HEAD / actual validation: {{round_scope}}
+- Previous confirmed round / local commit / remote observation / verification time: {{previous_receipt}}
+- Pending round/commit and status (local-only / committed-pending / verification-pending): {{pending_or_none}}
+- Error / retry count / next retry or required action: {{sync_recovery}}
+
+Carry the current commit's post-push receipt in the user report or an external log, then into the next checkpoint; do not try to embed this checkpoint's own commit hash or create a receipt-only commit loop.
+
 ## Resume action
 
-First verify versions, dirty hashes and evidence scope; do not restart the whole archive. Then execute {{specific_next_derivation_or_command}} on {{claim_id}}, using {{inputs}}. Expected result or falsification criterion: {{decision}}. Alternative route if it fails: {{alternative_and_trigger}}. Do not repeat attempts {{ids}} without a changed mathematical input.
+First verify versions, dirty hashes, evidence scope, research-health counters and pending sync; do not restart the whole archive or reset the strategic clock. Perform a due strategic review before repeating the same route. Then execute {{specific_next_derivation_or_command}} on {{claim_id}}, using {{inputs}}. Expected result or falsification criterion: {{decision}}. Alternative route if it fails: {{alternative_and_trigger}}. Do not repeat attempts {{ids}} without a changed mathematical input.

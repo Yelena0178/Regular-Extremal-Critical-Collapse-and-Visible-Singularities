@@ -22,7 +22,7 @@ A cycle may legitimately fail. Record the attempted derivation and precise failu
 
 ## Change routes when evidence warrants it
 
-Group equivalent failures by signature (missing uniform bound, incompatible center condition, unverified causal identity, same failed candidate mechanism). After two materially equivalent attempts, diagnose before repeating: can a stronger estimate fix it, must the candidate change, or is a counterexample likely? This is a route-change trigger, not a runtime blocked-status rule.
+Track local progress separately from movement of the critical frontier, following [strategic review](PROGRESS-REVIEW.md). Repeated auxiliary lemmas can coexist with a strategically stalled project. Group equivalent failures by mechanism (missing uniform bound, incompatible center condition, unverified causal identity, same failed candidate mechanism), even when notation or claim IDs change. Two equivalent failures trigger review; a persistent bottleneck also triggers review without any failed calculation. These are research-review triggers, not runtime blocked-status rules.
 
 Try a genuinely different estimate, coordinate/gauge with justified conversion, compactness/contradiction argument, candidate family or theorem interface. Record why it attacks the failure and a stopping criterion. Further precision is justified only if it can resolve a specified uncertainty and the numerical/analytic error budget supports that use.
 

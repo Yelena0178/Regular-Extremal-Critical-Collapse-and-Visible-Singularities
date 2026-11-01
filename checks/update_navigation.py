@@ -13,7 +13,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = "research/goal_a/FILE_INDEX.md"
 MANIFEST = "FILE_MANIFEST.json"
-DATE = "2026-10-28"
+DATE = "2026-11-01"
 
 
 def repository_files():

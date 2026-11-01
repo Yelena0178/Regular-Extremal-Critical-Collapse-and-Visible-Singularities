@@ -9,8 +9,11 @@
 "/.agents/skills/math-research-goal-runner/assets/CHECKPOINT-TEMPLATE.md" -text
 "/.agents/skills/math-research-goal-runner/assets/CLAIM-TEMPLATE.md" -text
 "/.agents/skills/math-research-goal-runner/assets/GOAL-TEMPLATE.md" -text
+"/.agents/skills/math-research-goal-runner/assets/RESEARCH-STARTER.zh-CN.md" -text
 "/.agents/skills/math-research-goal-runner/references/EVIDENCE-STANDARDS.md" -text
 "/.agents/skills/math-research-goal-runner/references/GOAL-CONTROL.md" -text
+"/.agents/skills/math-research-goal-runner/references/GITHUB-SYNC.md" -text
+"/.agents/skills/math-research-goal-runner/references/PROGRESS-REVIEW.md" -text
 "/.agents/skills/math-research-goal-runner/references/PROOF-AUDIT.md" -text
 "/.agents/skills/math-research-goal-runner/references/RECCVS-PROFILE.md" -text
 "/.agents/skills/math-research-goal-runner/references/RESEARCH-METHODOLOGY.md" -text

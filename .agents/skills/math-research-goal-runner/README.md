@@ -5,8 +5,8 @@
 ## 内容与用途
 
 - 主入口保留目标契约、实际研究循环与完成门槛。
-- 五份 references 按需加载目标控制、研究方法、反驳审计、证据标准及 RECCVS 适配。
-- 三份 assets 提供 GOAL、CLAIMS、CHECKPOINT；后者也包含 STATE 和 ATTEMPTS 格式。复用仓库已有管理记录，安装不生成真实研究状态。
+- 七份 references 按需加载目标控制、研究方法、反驳审计、证据标准、RECCVS 适配、战略停滞复盘和每轮 GitHub 同步。
+- 四份 assets 提供 GOAL、CLAIMS、CHECKPOINT 及通用中文启动 prompt；检查点也包含 STATE、ATTEMPTS、战略复盘和同步状态。复用仓库已有管理记录，安装不生成真实研究状态。
 - 标准库校验器检查结构、受限 frontmatter、UTF-8、Markdown 围栏、包内文件链接与 Python 语法；临时副本测试损坏输入与条件性依赖拦截。
 
 本包故意只使用单行纯文本 `name`/`description` frontmatter。校验器拒绝其他 YAML 写法，不能代替通用 YAML 解析器；文件链接检查不解析完整 Markdown 或标题锚点。RECCVS 源路径采用代码文本并由启动时核对，避免使通用包依赖特定仓库布局。
@@ -31,6 +31,14 @@ python -O .agents/skills/math-research-goal-runner/scripts/validate_skill.py --s
 证明义务 S1：x≥0 或 x<0；前者非负数乘积非负，后者 -x>0 且 x²=(-x)²>0。审计重点为零值和负号，不依赖数值采样。状态为 PROVED / ANALYTIC / INTERNAL_AUDIT；下一步是复查有序域乘法规则与两个分支覆盖。若乘法规则仅被假定而未在所用模型中核对，则该应用应为 CONDITIONAL，不能完成目标。
 
 `--self-test` 构造该记账场景，并将逻辑状态改为 CONDITIONAL、引入未闭合辅助依赖、缺失依赖、循环、有限实验等，验证完成门槛拒绝。此为确定性回执测试及人工演练，**不是 LLM 行为评测或数学证明器**。跨会话演练：按检查点模板记录 contract、分支/HEAD、脏输入哈希、三个状态轴、S1 依赖、命令和下一动作；恢复先核对版本再执行 sign-split 审计，不重新扫描档案。
+
+## 战略复盘与每轮同步
+
+使用[通用科研启动 prompt](assets/RESEARCH-STARTER.zh-CN.md)填写课题和材料入口，其中包含每轮提交、推送到已确认对应研究分支的明确授权。原有单次推送授权不自动扩展为长期同步。
+
+[战略复盘](references/PROGRESS-REVIEW.md)区分局部成果和关键障碍的实质变化：默认核心障碍连续 5 轮或 180 分钟有效研究时间未变，即触发复盘；重复两次同类失败可提前触发。新引理、更多计算和更精细的条件性接口不自动清零。复盘须给出不同机制的路线、判别性检验及投入上限，并实际开展下一步。
+
+[每轮同步](references/GITHUB-SYNC.md)覆盖正负结果、失败、复盘和检查点；核对对应仓库与分支，按明确范围提交，推送后验证远端。失败时保留本地提交并记录待同步状态，不强推、不创建无关空提交。这些操作在实际研究轮次中执行，不启动离线后台任务。
 
 ## 启动提示词：RECCVS Goal A
 

@@ -1,9 +1,9 @@
 {
-  "snapshot_date": "2026-10-28",
+  "snapshot_date": "2026-11-01",
   "scope": "current tracked and non-ignored repository files; excludes itself and ignored generated outputs; bytes only",
   "historical_manifest": "checks/FILE_MANIFEST_2026-10-10.json",
   "directory_file_counts": {
-    ".agents": 12,
+    ".agents": 15,
     "checks": 10,
     "definitions": 1,
     "experiments": 14,
@@ -17,23 +17,23 @@
   "files": [
     {
       "path": ".agents/skills/math-research-goal-runner/README.md",
-      "size_bytes": 5450,
-      "sha256": "3389cc3c8794dc93a7def364f0fd47bd0c0032008363744df98d2fae6d68fd6b"
+      "size_bytes": 6555,
+      "sha256": "fe6b21e0a1ebd1422371ddbf7fb5c5cace2ffdbda5aca7f09b986dc73d97d3a3"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/SKILL.md",
-      "size_bytes": 4566,
-      "sha256": "fdd7daf9ae007a9198705622761839e9f4f19945913e33d9a87ea7acbbc42c20"
+      "size_bytes": 5474,
+      "sha256": "ff9d8261a0ca75528344073b769cfe8298a18d0aeca2917fa3ada64cf263ca86"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/VALIDATION.md",
-      "size_bytes": 2143,
-      "sha256": "86df599781101d77019d5298a8b9551c10e19d0bd235ee31fcfeb197b8ca9650"
+      "size_bytes": 3517,
+      "sha256": "01fd6ef5eb3236d9aaf94a304c024735ae14cb16486cff3352fd0704759ab3f8"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/assets/CHECKPOINT-TEMPLATE.md",
-      "size_bytes": 1748,
-      "sha256": "a2b1f04f0264d1dda9b803c37739437a35119a907c4171471f8e1980e02a7f3f"
+      "size_bytes": 3476,
+      "sha256": "79b718b434c58364dccdcdb35ab5d468f637134fef719fd03fc8c469d5a11c2f"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/assets/CLAIM-TEMPLATE.md",
@@ -46,14 +46,29 @@
       "sha256": "8d8d1e5c379943871557365b3231c3d06ecf7225340b6118704eb402cdda7694"
     },
     {
+      "path": ".agents/skills/math-research-goal-runner/assets/RESEARCH-STARTER.zh-CN.md",
+      "size_bytes": 7807,
+      "sha256": "d8ee2b69621f3ef78751229de3c1f27fb0c698e80dd620d1188a8b23f2f6572f"
+    },
+    {
       "path": ".agents/skills/math-research-goal-runner/references/EVIDENCE-STANDARDS.md",
       "size_bytes": 3045,
       "sha256": "e8b0b2b693f9827fc0b9ce9cbde5d5c0424217507128dae19be0434d1e274ee0"
     },
     {
+      "path": ".agents/skills/math-research-goal-runner/references/GITHUB-SYNC.md",
+      "size_bytes": 5463,
+      "sha256": "e08a759be26910559fcd68bcdc69d5eac4e2123e51479eb4db66fbc3df3b7d0b"
+    },
+    {
       "path": ".agents/skills/math-research-goal-runner/references/GOAL-CONTROL.md",
-      "size_bytes": 3938,
-      "sha256": "687d30097f38390f131006b21a200f25e6ae1540879412d45371fbefc279403a"
+      "size_bytes": 4511,
+      "sha256": "6f0b23456decfbe06883705875c6619434f14a148c49626ba0a8c5bb603c539e"
+    },
+    {
+      "path": ".agents/skills/math-research-goal-runner/references/PROGRESS-REVIEW.md",
+      "size_bytes": 5943,
+      "sha256": "b87d2ab3193e6c41083d19e35198a61ca338a0e935d47ca64ce168139489813e"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/references/PROOF-AUDIT.md",
@@ -67,18 +82,18 @@
     },
     {
       "path": ".agents/skills/math-research-goal-runner/references/RESEARCH-METHODOLOGY.md",
-      "size_bytes": 3307,
-      "sha256": "7f7cc7e03d31b96586073f65fbee4fb6248be095e57bd4bd70cede1b44f08777"
+      "size_bytes": 3506,
+      "sha256": "320ed63e4fd39cae11e0b786c6e7dcc17240c2151154ee1d23632a39366362fb"
     },
     {
       "path": ".agents/skills/math-research-goal-runner/scripts/validate_skill.py",
-      "size_bytes": 12066,
-      "sha256": "95c4b6bed6d2338eb77b4563f9ba8eba82092d0d8022f4fd323b039548472c6b"
+      "size_bytes": 12172,
+      "sha256": "433dd378d38f321fe3135608cadea8c7cf1f2255e258f653465d44b2aee8faac"
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 17127,
-      "sha256": "3e0367c2cfa918446acf137c7af12fc3f03d155a0e59c0ade5c203e966e59ab8"
+      "size_bytes": 17366,
+      "sha256": "c586cb012d492ad918f45a818d572ee71eec37564c6cda9ec2e4c5aca15bad31"
     },
     {
       "path": ".gitignore",
@@ -172,8 +187,8 @@
     },
     {
       "path": "checks/REPOSITORY_AUDIT_2026-10-28.md",
-      "size_bytes": 5437,
-      "sha256": "457736e0c2876834088a44570e07ac84a4d5d99ce372abe7eb4671496e9deeaf"
+      "size_bytes": 6255,
+      "sha256": "782f54a6763fdfe573ae41676a8040af03506ee0cdbed189807af67474631371"
     },
     {
       "path": "checks/SOURCE_MAP.json",
@@ -188,7 +203,7 @@
     {
       "path": "checks/update_navigation.py",
       "size_bytes": 4497,
-      "sha256": "68bdaf598d960180c27e8657411ee95b00948eba202740f1f613b5c853a5dc5f"
+      "sha256": "9ebf5fa2f97053e3816544500f4c97c1379cdbaf2760ccd503b248942e814ab7"
     },
     {
       "path": "checks/verify_manifest.py",

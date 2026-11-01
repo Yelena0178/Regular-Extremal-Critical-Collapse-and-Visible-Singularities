@@ -71,3 +71,9 @@ python checks/verify_research_snapshot.py --allow-navigation-updates
 | Git 空白检查 | `git diff --check` 通过 |
 
 当前研究稿的文件引用也已检查；正则匹配到的 15 个非路径项为数学公式，未发现实际缺失的本地文件链接。未将历史交付包中的外部附件假装补入仓库。
+
+## 后续维护登记：2026-11-01
+
+本次在 `.agents/skills/math-research-goal-runner/` 加入战略停滞复盘、每轮 GitHub 同步及通用启动 prompt，并更新相关入口、检查点模板、包校验清单和验证记录；新增文件在 `.gitattributes` 中明确保留字节。具体规则和验证边界见[skill 验证记录](../.agents/skills/math-research-goal-runner/VALIDATION.md)。
+
+`checks/update_navigation.py` 的清单日期由 2026-10-28 更新为 2026-11-01，仍属于上文已声明的 R31 导航差异路径；`FILE_MANIFEST.json` 随当前文件刷新。本登记不改写上文的 10-28 历史检查结果，也不修改研究正文、冻结验收或历史科学证据。当前交付另执行导航、清单、R31 收据及独立检出核对，不据此提升数学结论状态。

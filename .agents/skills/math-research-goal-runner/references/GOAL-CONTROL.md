@@ -13,10 +13,10 @@ Map these objects to existing repository mechanisms first; create files only dur
 | Object | Minimum contents |
 |---|---|
 | GOAL | Immutable contract, authority/version, prohibited substitutions, completion gates |
-| STATE | Contract version, critical obligation graph, frontier and blockers, current route, changed obligations |
+| STATE | Contract version, critical obligation graph, frontier and blockers, current route, changed obligations; separate local and strategic progress, plateau counters and last review |
 | CLAIMS | Unique ID, exact statement/scope, premises, dependencies, evidence, three status axes, validation and relation to goal |
 | ATTEMPTS | ID/date, input revision, claim/route, method, actual result/artifact, failure signature and reason, eliminated class, next discriminating action |
-| CHECKPOINT | Object locations, revision and dirty hashes, evidence integrity, reproducible commands/certificates, changed conclusions, next executable task and expected decision |
+| CHECKPOINT | Object locations, revision and dirty hashes, evidence integrity, reproducible commands/certificates, changed conclusions, next executable task and expected decision; research-health counters and authorized GitHub target/pending receipt |
 
 Use relative repository paths in records where practical. Checkpoint timestamps include timezone. Never put credentials in checkpoints or logs. Store only deltas plus stable pointers instead of repeating the research archive each cycle.
 
@@ -25,7 +25,8 @@ Use relative repository paths in records where practical. Checkpoint timestamps 
 1. Locate the latest coherent checkpoint, authoritative contract and state index. Confirm repository, branch, commit, upstream and worktree differences. Do not switch a dirty checkout or overwrite its work.
 2. Compare contract/source/evidence hashes. If a source changed, inspect only the delta and dependent claims; mark their old audit stale until checked. Preserve the old certificate and its scope.
 3. Restore the graph and unresolved premises; verify referenced artifacts actually exist. Rerun the narrowest integrity/reproduction check needed, in a disposable output directory if the command overwrites evidence.
-4. Read recent ATTEMPTS failure signatures before selecting work. State what is still open and carry out the checkpoint's concrete next action, or document why new evidence changes priority.
+4. Read recent ATTEMPTS failure signatures and [research-health state](PROGRESS-REVIEW.md) before selecting work. A new chat does not reset plateau counters. If a strategic review is due, do it before resuming the same route; otherwise carry out the checkpoint's concrete next action or document why new evidence changes priority.
+5. Restore the exact [GitHub sync target and pending work](GITHUB-SYNC.md). An earlier one-off push is not standing authorization; an explicit ongoing per-round sync instruction remains effective until changed. Do not duplicate already confirmed commits or discard pending local evidence.
 
 ## Completion decision
 
