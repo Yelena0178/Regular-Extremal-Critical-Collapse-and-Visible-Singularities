@@ -320,3 +320,15 @@
 "/research/goal_a/PROGRESS_ARCHIVE_2026-10-28.md" -text whitespace=cr-at-eol
 "/checks/verify_research_snapshot.py" -text
 "/checks/REPOSITORY_AUDIT_2026-10-28.md" -text
+"/research/goal_a/AMP_S075_SCOUT_T15_N512_2026-11-01.json" -text
+"/research/goal_a/AMP_S075_TRACE_T15_N512_2026-11-01.json" -text
+"/research/goal_a/AMP_S075_TRACE_T15_N1024_2026-11-01.json" -text
+"/research/goal_a/AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log" -text whitespace=cr-at-eol
+"/research/goal_a/AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log" -text whitespace=cr-at-eol
+"/research/goal_a/AMP_S150_SCOUT_T15_N512_2026-11-01.json" -text
+"/research/goal_a/AMP_S150_TRACE_T15_N512_2026-11-01.json" -text
+"/research/goal_a/AMP_S150_TRACE_T15_N1024_2026-11-01.json" -text
+"/research/goal_a/probe_fixed_charge_amplitude.py" -text
+"/research/goal_a/summarize_fixed_charge_amplitude.py" -text
+"/research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md" -text
+"/research/goal_a/FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json" -text

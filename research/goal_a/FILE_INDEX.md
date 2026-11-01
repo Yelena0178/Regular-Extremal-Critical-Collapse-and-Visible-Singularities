@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **632** 个文件。
+本目录共列出 **644** 个文件。
 
-## 研究文档与阶段记录（106）
+## 研究文档与阶段记录（107）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md — A-BODY11：实际体源、有限窗末端冻结与截断余项](ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)
@@ -49,6 +49,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [FINITE_MARGINAL_TAIL_GATE.md — A-END01：有限边缘零锥的横向曲率终态门槛](FINITE_MARGINAL_TAIL_GATE.md)
 - [FINITE_RADIUS_RN_GREEN_AND_LOCAL_BODY.md — A-SPACE21：有限半径RN Green公式与局部体源的全空间估计](FINITE_RADIUS_RN_GREEN_AND_LOCAL_BODY.md)
 - [FIRST_TRANSVERSE_JET.md — A-JET01：固定有限耦合下的一阶横向标量匹配](FIRST_TRANSVERSE_JET.md)
+- [FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md — AMP01：固定电荷分布的幅度对照与机制复盘](FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)
 - [FROZEN_CHARGED_CERTIFICATION.md — 冻结带电锥的边界证书及全域尝试（2026-10-17）](FROZEN_CHARGED_CERTIFICATION.md)
 - [FULL_RN_FUTURE_LOCALIZATION.md — A-LOCAL23：实际质量预算与完整RN外区的未来局部化](FULL_RN_FUTURE_LOCALIZATION.md)
 - [FULL_SPACE_PHYSICAL_TRACE_AUDIT.md — A-TRACE17：全空间W传递、必要反控制与载频兼容输入](FULL_SPACE_PHYSICAL_TRACE_AUDIT.md)
@@ -224,7 +225,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_uniform_upper_kernel.py](verify_uniform_upper_kernel.py)
 - [verify_world_tube_radiation.py](verify_world_tube_radiation.py)
 
-## 构造、演化与探索脚本（70）
+## 构造、演化与探索脚本（72）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
@@ -276,6 +277,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [new_shape_screen.py](new_shape_screen.py)
 - [polar_evolution.py](polar_evolution.py)
 - [prepare_frozen_charged_reference.py](prepare_frozen_charged_reference.py)
+- [probe_fixed_charge_amplitude.py](probe_fixed_charge_amplitude.py)
 - [probe_split_focusing_budget.py](probe_split_focusing_budget.py)
 - [rational_transport_cell.py](rational_transport_cell.py)
 - [replay_charged_tubes.py](replay_charged_tubes.py)
@@ -291,19 +293,26 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [split_direction_shell.py](split_direction_shell.py)
 - [summarize_centered_cauchy_screen.py](summarize_centered_cauchy_screen.py)
 - [summarize_charge_shell.py](summarize_charge_shell.py)
+- [summarize_fixed_charge_amplitude.py](summarize_fixed_charge_amplitude.py)
 - [summarize_split_focusing.py](summarize_split_focusing.py)
 - [thin_boundary_certificate.py](thin_boundary_certificate.py)
 - [thin_onset_reference.py](thin_onset_reference.py)
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（233）
+## JSON 证据与结果（240）
 
 - [ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json](ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json)
 - [ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json](ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json)
 - [AF_OUTER_EXTENSION_CHECKS_2026-10-17.json](AF_OUTER_EXTENSION_CHECKS_2026-10-17.json)
 - [AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json](AF_TRANSVERSE_FLUX_VALIDATION_2026-10-18.json)
 - [ALTERNATIVE_CANDIDATES_VALIDATION_2026-10-17.json](ALTERNATIVE_CANDIDATES_VALIDATION_2026-10-17.json)
+- [AMP_S075_SCOUT_T15_N512_2026-11-01.json](AMP_S075_SCOUT_T15_N512_2026-11-01.json)
+- [AMP_S075_TRACE_T15_N1024_2026-11-01.json](AMP_S075_TRACE_T15_N1024_2026-11-01.json)
+- [AMP_S075_TRACE_T15_N512_2026-11-01.json](AMP_S075_TRACE_T15_N512_2026-11-01.json)
+- [AMP_S150_SCOUT_T15_N512_2026-11-01.json](AMP_S150_SCOUT_T15_N512_2026-11-01.json)
+- [AMP_S150_TRACE_T15_N1024_2026-11-01.json](AMP_S150_TRACE_T15_N1024_2026-11-01.json)
+- [AMP_S150_TRACE_T15_N512_2026-11-01.json](AMP_S150_TRACE_T15_N512_2026-11-01.json)
 - [AREAL_SHIFT_RESULTS_2026-10-16.json](AREAL_SHIFT_RESULTS_2026-10-16.json)
 - [BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.json](BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.json)
 - [BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.json](BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.json)
@@ -391,6 +400,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [FINITE_TIME_SCAN_2026-10-16.json](FINITE_TIME_SCAN_2026-10-16.json)
 - [FIRST_JET_CHECKS_2026-10-16.json](FIRST_JET_CHECKS_2026-10-16.json)
 - [FIRST_JET_EXPLORATION_2026-10-16.json](FIRST_JET_EXPLORATION_2026-10-16.json)
+- [FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json](FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json)
 - [FROZEN_CHARGED_BOUNDARY_AUDIT_2026-10-17.json](FROZEN_CHARGED_BOUNDARY_AUDIT_2026-10-17.json)
 - [FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json](FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json)
 - [FROZEN_CHARGED_CONE_2026-10-17.json](FROZEN_CHARGED_CONE_2026-10-17.json)
@@ -533,8 +543,10 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/optical_R02_2026-10-23/source-map.json](checkpoints/optical_R02_2026-10-23/source-map.json)
 - [verification.json](verification.json)
 
-## 日志、数值数据与运行环境（119）
+## 日志、数值数据与运行环境（121）
 
+- [AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log](AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log)
+- [AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log](AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log)
 - [BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.log](BIASED_SHELL_BM2_D05_T30_N1024_2026-10-22.log)
 - [BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.log](BIASED_SHELL_BM2_D08_T30_N1024_2026-10-22.log)
 - [BIASED_SHELL_BP2_D05_T30_N1024_2026-10-22.log](BIASED_SHELL_BP2_D05_T30_N1024_2026-10-22.log)

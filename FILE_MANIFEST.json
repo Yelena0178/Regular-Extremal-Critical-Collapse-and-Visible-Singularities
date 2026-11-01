@@ -11,7 +11,7 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 634,
+    "research": 646,
     "reviews": 314
   },
   "files": [
@@ -92,8 +92,8 @@
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 18294,
-      "sha256": "d401721de9c3bb76fafa7f67d614e0e694515c064a6142c8c01f222d0fdfe045"
+      "size_bytes": 19129,
+      "sha256": "aacb795d9840904d68e5d6eac653981764cca0c5264f3ab63cd51786250e4d72"
     },
     {
       "path": ".gitignore",
@@ -132,8 +132,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4670,
-      "sha256": "1153d3ffde03676bfcb5afc12b0fab3ff3668b490d49cb1bc35fa23928ce9063"
+      "size_bytes": 4709,
+      "sha256": "879e42d7993e979cbfe696f3c9beb88060f86a125366be5a3acfa1959775be5e"
     },
     {
       "path": "REPRODUCE.md",
@@ -142,18 +142,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 11320,
-      "sha256": "7e6c66df1804b1ec810f67b1dcef027398d036a3bd1c1953962be06351aea8a3"
+      "size_bytes": 11982,
+      "sha256": "863f0ba83f324c16fdc8ddf8811d19aa8475029c51abbd25f87aa9be40713f49"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 5237,
-      "sha256": "501906726669102450364afc9e8c162afa68017fb533eec304e0be1b7c9a855f"
+      "size_bytes": 5381,
+      "sha256": "b295e35a63e9d5fca3ba203989b9669f1356929ce857183f5622c1acc8dae204"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 3549,
-      "sha256": "3e26d5cdfff0254c7f7379d7ed48d7742efbf0609dfff0cdca6201997ee7df17"
+      "size_bytes": 3598,
+      "sha256": "b965c67aa85a48451412b84a3b8d6c371f94246bf61ec09e647bb6e016f00b07"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -167,8 +167,8 @@
     },
     {
       "path": "atlas-map.md",
-      "size_bytes": 1956,
-      "sha256": "ea1ba19da4dbe098c7e7638c6ef2ad7181ffa8f0fba256a9b0f76d4a2ec4b74b"
+      "size_bytes": 1968,
+      "sha256": "61e6df8ff4dc6a225cf0fcb8b401a7b897994f578ee086eccc5f438f70e87b48"
     },
     {
       "path": "checks/FILE_MANIFEST_2026-10-10.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "checks/REPOSITORY_AUDIT_2026-10-28.md",
-      "size_bytes": 7541,
-      "sha256": "69f5bbfa08e290efc7d8017241fe271909650d81e71c111ec3753812c252885a"
+      "size_bytes": 8108,
+      "sha256": "402432a5208601d339d8ba08d2a328a635b5a369cd5c3228e7a66501aa86f306"
     },
     {
       "path": "checks/SOURCE_MAP.json",
@@ -1551,6 +1551,46 @@
       "sha256": "57149f8480b17642bff1cfcf4de17eaa73d511da0adfeb04cf50fe55905bcd96"
     },
     {
+      "path": "research/goal_a/AMP_S075_SCOUT_T15_N512_2026-11-01.json",
+      "size_bytes": 69119,
+      "sha256": "a28c109c7f3f88b89d0304d00285f10cbf9f6007e7a64933358bf7b3ac02857c"
+    },
+    {
+      "path": "research/goal_a/AMP_S075_TRACE_T15_N1024_2026-11-01.json",
+      "size_bytes": 458939,
+      "sha256": "0cba99d25ea9a02cf52ef057dfebd95fccdbc2f1b3349fe71b1da1ebbdfef0b7"
+    },
+    {
+      "path": "research/goal_a/AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log",
+      "size_bytes": 3899,
+      "sha256": "2916fe3020b719d0359af918c30cc0d18dd2289200710e24c4ce9cb0a9cf61dd"
+    },
+    {
+      "path": "research/goal_a/AMP_S075_TRACE_T15_N512_2026-11-01.json",
+      "size_bytes": 245635,
+      "sha256": "75bf382367e318518f4f4216c5d4f407feb47b923d10963cc5d5904f68e2df1a"
+    },
+    {
+      "path": "research/goal_a/AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log",
+      "size_bytes": 3328,
+      "sha256": "1e8d0c85ca95b0beacff88996f7d8662ef7899427fa96f07c959e9c765776e02"
+    },
+    {
+      "path": "research/goal_a/AMP_S150_SCOUT_T15_N512_2026-11-01.json",
+      "size_bytes": 103899,
+      "sha256": "4f481171b6cdef59e6b9a1488e8376ac185cb908169511161bb66389c7f85c8f"
+    },
+    {
+      "path": "research/goal_a/AMP_S150_TRACE_T15_N1024_2026-11-01.json",
+      "size_bytes": 1018763,
+      "sha256": "f920784ebbdc2060691b9df109620c135dbe83cfb53698823c92528404b57fe8"
+    },
+    {
+      "path": "research/goal_a/AMP_S150_TRACE_T15_N512_2026-11-01.json",
+      "size_bytes": 535822,
+      "sha256": "97d1c61ac0caa748112863c798cddffaa7b314f39fcf30dd5f0f1ac4cdd8a3f6"
+    },
+    {
       "path": "research/goal_a/AREAL_SHIFT_EVOLUTION.md",
       "size_bytes": 6532,
       "sha256": "70b6d850e95394a7f2f36ad08aee31fc067514903ce16439dcf123cee10e5568"
@@ -2287,8 +2327,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 59255,
-      "sha256": "38b4e5a8f7a2f2844ced7f528dcb84cd8e79245ac81783b9b40729fdc9c64114"
+      "size_bytes": 60362,
+      "sha256": "c9ed990d87652423519a002f01fa53e53b69bbb1fd7cdd73e2e50152856bce82"
     },
     {
       "path": "research/goal_a/FINITE_BONDI_CONSTRAINT_CHECKS_2026-10-23.json",
@@ -2344,6 +2384,16 @@
       "path": "research/goal_a/FIRST_TRANSVERSE_JET.md",
       "size_bytes": 11096,
       "sha256": "add7d06512b636bc3a5d129db8401dd395fd5eb2d9960074b9fe559080db86f8"
+    },
+    {
+      "path": "research/goal_a/FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json",
+      "size_bytes": 33596,
+      "sha256": "bff8c6144d4f9d122c050a58b84c779a2bf5f8b87dc9394278312ae46aba44e2"
+    },
+    {
+      "path": "research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md",
+      "size_bytes": 11619,
+      "sha256": "14ddac3c0ec34406bab7b5784f818d68ab9019c89136f209b99a9f08ee5db10a"
     },
     {
       "path": "research/goal_a/FROZEN_CHARGED_BOUNDARY_AUDIT_2026-10-17.json",
@@ -2822,8 +2872,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 6766,
-      "sha256": "24449a0548bee2a34e4ad1a7ae6c1fa4a206106d79f74cf3ad659970773b7caf"
+      "size_bytes": 6977,
+      "sha256": "5a09e568ba31674a4fdfacfd3bbd818e9027c43f60d3dfa5968e73b953629c65"
     },
     {
       "path": "research/goal_a/RECOVERY_CHECKPOINT.md",
@@ -4081,6 +4131,11 @@
       "sha256": "d82b1c227b398da72ec3ce6c035e6330b1cb2a33310e960c8054ff983e1aad29"
     },
     {
+      "path": "research/goal_a/probe_fixed_charge_amplitude.py",
+      "size_bytes": 5804,
+      "sha256": "0ea79380e5f6660fe1263e22844c2edfc7b13198c707acb3f99858151b142115"
+    },
+    {
       "path": "research/goal_a/probe_split_focusing_budget.py",
       "size_bytes": 5601,
       "sha256": "64c3c59963011f46a3236169c79f7391e2ddd5b181ba8479b3068da1cfcbd972"
@@ -4169,6 +4224,11 @@
       "path": "research/goal_a/summarize_charge_shell.py",
       "size_bytes": 3969,
       "sha256": "9f16b87f833fd5293021a9a08ba428636b798bd7b177ed5079b348b3cd4e3ae4"
+    },
+    {
+      "path": "research/goal_a/summarize_fixed_charge_amplitude.py",
+      "size_bytes": 11126,
+      "sha256": "2465fe2ce858edf6c2da0f4d43d55a9f8ebeeda7b477df214db95e4c128b5af9"
     },
     {
       "path": "research/goal_a/summarize_split_focusing.py",

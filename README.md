@@ -4,7 +4,7 @@
 
 四维球对称 Einstein–Maxwell–无质量带电复标量场的数学相对论研究。研究正则中心、单端渐近平坦初值能否在完整色散与真正形成黑洞的边界产生正质量极端 RN 终态。
 
-**目标 A–D 均未完成。** 最新研究为 [2026-11-01 关键射线的聚焦与电荷容量判别](research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)，承接同日核心候选复盘；此前完整检查点为 R31。初值参数化、解析必要条件和有限计算尚未构造极端端点，均按其实际作用域阅读。
+**目标 A–D 均未完成。** 最新研究为 [2026-11-01 固定电荷的幅度对照](research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)：高幅度样本的有限容量指标改善，主要聚焦代价转为相位输送；此前完整检查点为 R31。初值参数化、解析必要条件和有限计算尚未构造极端端点，均按其实际作用域阅读。
 
 当前成果位于 [研究分支](https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities/tree/codex/goal-a-research-2026-10-16)，通过 [草稿 PR #5](https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities/pull/5) 汇入 `main`。2026-10-28 核对时，默认分支 `main` 仍为 10-12 基线；应以正在阅读的分支和提交为准。
 

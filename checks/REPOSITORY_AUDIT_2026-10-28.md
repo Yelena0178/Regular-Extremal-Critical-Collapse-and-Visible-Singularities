@@ -85,3 +85,5 @@ python checks/verify_research_snapshot.py --allow-navigation-updates
 根 README、STATUS、RESULTS、ROADMAP、atlas-map 和研究首页更新当前入口、作用域与下一步。其中 STATUS/RESULTS/ROADMAP/研究首页仍属于既有 R31 导航例外；不增加科学文件豁免。新增初值论证和有限计算不关闭 Goal A，不把原有条件性成果升级为实际极端端点。当前回执逐份核对新探针及五份旧候选报告的源码哈希，R31 的55份历史报告仍独立核对。
 
 后续 GA-REVIEW-20261101-2 执行上述关键射线诊断，新增 [FOCUS01](../research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)、只读 observer、容量汇总和三份报告。原 R31 及上一轮科学文件/报告不变；同一组当前导航入口、完整索引和清单更新，不新增历史科学文件豁免。下一步按真实预算转向保持 Q(r) 的包络/几何对照；有限容量判断不升级为全族不可能性定理。
+
+后续 GA-REVIEW-20261101-3 完成两组预定幅度对照，新增 [AMP01](../research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)、探针和核验汇总、六份有限报告、两份数值失败日志及一份汇总回执。原 R31、SPLIT01、FOCUS01 科学字节不变；同一组当前导航入口、完整索引和清单更新，不增加豁免。高幅度组的有限容量改善与聚焦机制变化不升级为实际极端端点；低幅度失败仍记 UNKNOWN。下一轮限两种保持 Q(r) 的径向幅度配置，明确继续与退出条件。
