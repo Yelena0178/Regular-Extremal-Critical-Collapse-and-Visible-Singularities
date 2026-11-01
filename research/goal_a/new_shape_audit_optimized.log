@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "analytic": {
+    "general_rho_primitive_exact": true,
+    "smooth_H_perturbation_upper": "1/2^26",
+    "smoothed_H_lower": "1/1024",
+    "smoothed_geometry_inside_screen_box": true,
+    "physical_ramp_width_upper": "645/401734511064747568885490523085290650630550748445698208825344",
+    "two_jet_real_block_I_to_four_coefficient": "41/72000000000000",
+    "nonlinear_IFT_thresholds_effective": false
+  },
+  "independent_boundary_point_comparisons": 225,
+  "independent_exact_cells": [
+    [
+      3,
+      0
+    ],
+    [
+      16,
+      12
+    ],
+    [
+      31,
+      44
+    ]
+  ],
+  "exact_coefficient_comparisons": 288,
+  "wrong_denominator_rejected": true,
+  "continuous_s_partition_cells": 128,
+  "goal_A_proved": false
+}

@@ -256,3 +256,24 @@
 
 - 2109.03270v2：Theorem11.1、§§1.2、11–13；见 FOLLOWUP_2026-10-09.md 和 L006。
 - 2609.33168v1：Theorems3.1/3.3、Definition3.2、Corollary3.4；见 FOLLOWUP_2026-10-09.md。
+
+## 2026-10-23 R08：完整 Cauchy 接口
+
+- 1107.0949v2：§1.1.4、Definition4、Proposition2.1，印刷页5、26；冻结文字 `reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/literature/1107.0949.txt` 行249、1556、1566。§2.2.4(18)–(27)从行1714起；按 φ_K=φ/√(4π)逐项核对 D001 的 Raychaudhuri、电流取向及波式。应用范围见 [A-CENTER03.5](../research/goal_a/REGULAR_CENTER_BONDI_MATCHING.md)，不使用全文的猜想或尚待证明终态结论。
+
+## 2026-10-23 R15：极端参考载频与辐射导数
+
+- 2603.28861v1 官方HTML：`S1.Thmtheorem1`；`S4.Thmtheorem1.p1`（假设/余项）；`S4.I1.i2.p1`（两边界与固定半径尾）；`S4.I1.i3.p1`（辐射协变时间导数）。实际选中节点和MathML序列哈希见 [R15收据](../research/goal_a/RN_TAIL_PRIMARY_RECEIPT_2026-10-23_R15.json)。
+- 范围裁决与实际电流替代估计见 [A-CARRIER07](../research/goal_a/TAIL_CURRENT_AND_CARRIER_AUDIT.md)；没有把参考线性尾部当作实际非线性终态。
+
+## 2026-10-23 R17：Whittaker反射模型
+
+- DLMF 13.14.1（方程）、13.14.2（M定义）、13.14.21（W无穷端）、13.14.33（W与两M连接式）；5.4.4（|Γ(1/2+iy)|²）。[公式收据](../research/goal_a/DLMF_WHITTAKER_RECEIPT_2026-10-23_R17.json)与[应用及模型限制](../research/goal_a/WORLD_TUBE_RADIATION_TRANSFER.md)分列标准恒等式、自己的Rouché论证及非区间有限求根。
+
+## 2026-10-24 R24：Euler端点分析
+
+- DLMF 13.4.1采用正则化Olver M；13.2.4恢复普通M的Γ(b)。13.14.2取a=s+iq、b=2s、Re(s±iq)=1/2；5.9.1取μ=1，纯虚边界在证明中另作Abel极限。[读取收据](../research/goal_a/DLMF_KUMMER_EULER_RECEIPT_2026-10-24_R24.json)与[UPPER16.1–4](../research/goal_a/UNIFORM_UPPER_KERNEL_AND_FUTURE_LOCALIZATION.md)保留来源/自己证明的分界。
+
+## 2026-10-24 R25：有限r的Mellin核
+
+- DLMF 5.4.3的|Γ(iy)|与5.5.1递推给|Γ(1−iα)|⁻¹；Gamma–Laplace来源仍见R24收据。[新收据](../research/goal_a/DLMF_MELLIN_GAMMA_RECEIPT_2026-10-24_R25.json)及[TRACE17.2–5](../research/goal_a/FULL_SPACE_PHYSICAL_TRACE_AUDIT.md)区分标准函数式、虚幂因果原函数、辅助映射及实际未证迹输入。

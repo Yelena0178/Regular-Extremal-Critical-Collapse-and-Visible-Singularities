@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "algebra": {
+    "status": "PASS",
+    "exact_identities": [
+      "E_u",
+      "G_v",
+      "charge_constraint_v",
+      "scalar_constraint_v",
+      "conformal_Einstein"
+    ],
+    "wrong_charged_wave_sign_rejected": true,
+    "nonzero_charged_rhs_comparisons": 7,
+    "arithmetic": "exact rational complex Laurent polynomials"
+  },
+  "RN": [
+    {
+      "n": 16,
+      "endpoint_max_error": 1.059375698275744e-08
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 2.649690244993508e-09
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 6.62579324739454e-10
+    }
+  ],
+  "RN_graded": [
+    {
+      "n": 16,
+      "endpoint_max_error": 1.0559267238363645e-08
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 2.6413005116410204e-09
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 6.608473768210388e-10
+    }
+  ],
+  "FLRW": [
+    {
+      "n": 16,
+      "endpoint_max_error": 0.003921732943058365
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 0.0009766319322837558
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 0.00024396995366687824
+    }
+  ],
+  "scope": "finite exact algebra and E0 known-solution comparisons",
+  "actual_candidate_PDE_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charged_characteristic.py": "fe337e74e4cdb4e6c7126b6abfe8c0c9c62b76f33b98b6914959daec00ac69b0",
+    "charged_characteristic_screen.py": "a38683c5c4c88b48b15b6a6495587a2e0535ccf775202f56bbe7831b1e7048d5",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "verify_neutral_transport.py": "54f8764a317e2e76e820b45a736a9674b427c806922aae43164c2d715eb110b7"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-16",
+  "evidence_scope": "initial_constraint_grid_experiment_and_exact_abstract_examples",
+  "goal_A_proved": false,
+  "spacetime_evolution_performed": false,
+  "rigorous_float_error_bound": false,
+  "analytic_initial_parameter_rectangle": {
+    "amplitude_absolute_maximum": "1/8",
+    "frequency_absolute_maximum": "1/4",
+    "mass_upper_bound": "69259/286720",
+    "all_radius_delta_lower_bound": "74101/143360",
+    "explicit_member_charge_strict_lower_bound": "1/1440",
+    "proof": "EXACT_INITIAL_BUDGET.md",
+    "scope": "continuous_initial_ODE_only_not_spacetime"
+  },
+  "analytic_finite_amplitude_rectangle": {
+    "amplitude_absolute_maximum": "2",
+    "frequency_absolute_maximum": "1/4",
+    "charge_to_radius_upper_bound": "3/5",
+    "all_radius_delta_lower_bound": "32/851",
+    "proof": "EXACT_INITIAL_BUDGET.md section 4",
+    "scope": "continuous_initial_ODE_only_not_spacetime"
+  },
+  "parameters": {
+    "amplitude": 0.5,
+    "frequency": 0.2,
+    "coupling": 0.6,
+    "inner": 1.0,
+    "outer": 21.0
+  },
+  "grids": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "successive_grid_differences": [
+    5.876543696103909e-11,
+    3.671257742254852e-12,
+    2.29621877068098e-13
+  ],
+  "observed_orders": [
+    4.000621571650707,
+    3.9989423975662453
+  ],
+  "original_constraint_residuals": [
+    {
+      "hamiltonian": 1.8008774347797168e-09,
+      "gauss": 9.124364869118822e-11,
+      "momentum": 1.0842021724855044e-19,
+      "incoming": 1.0270985629819273e-07
+    },
+    {
+      "hamiltonian": 1.1292556931327864e-10,
+      "gauss": 5.71076935193986e-12,
+      "momentum": 2.168404344971009e-19,
+      "incoming": 6.4558134273365525e-09
+    },
+    {
+      "hamiltonian": 7.073733580224145e-12,
+      "gauss": 3.571208806257641e-13,
+      "momentum": 1.6263032587282567e-19,
+      "incoming": 4.038103106392057e-10
+    },
+    {
+      "hamiltonian": 4.555371921691198e-13,
+      "gauss": 2.2322678975127282e-14,
+      "momentum": 2.168404344971009e-19,
+      "incoming": 2.5243169816766356e-11
+    }
+  ],
+  "mutant_residuals": {
+    "reversed_gauss": 0.0005533143502984086,
+    "omitted_K": 0.0004242566490981916
+  },
+  "charge_conjugation_error": 0.0,
+  "rejected_inputs": [
+    "nan_amplitude",
+    "wrong_fixed_coupling",
+    "invalid_shell"
+  ],
+  "profile": {
+    "A_estimate": 0.32633231740704033,
+    "B_estimate": 5.782262074318058,
+    "optimal_frequency_estimate": 0.23756428858211098,
+    "leading_maximum_ADM_ratio_estimate": 1.262816064613638,
+    "Poincare_upper_bound_float": 1.909859317102744
+  },
+  "small_amplitude_comparison": [
+    {
+      "ADM_mass_estimate": 0.022298274920861862,
+      "ADM_charge_estimate": 0.027754857956726692,
+      "absolute_ADM_ratio_estimate": 1.2447087523689893,
+      "minimum_sampled_delta": 0.9973940743035783,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9978781015543401,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 0.2,
+      "relative_leading_mass_error": 0.0002975620044648464
+    },
+    {
+      "ADM_mass_estimate": 0.005575811292695456,
+      "ADM_charge_estimate": 0.006938714489181673,
+      "absolute_ADM_ratio_estimate": 1.2444313706010237,
+      "minimum_sampled_delta": 0.9993478839566453,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9994690795271327,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 0.1,
+      "relative_leading_mass_error": 7.472992529866662e-05
+    },
+    {
+      "ADM_mass_estimate": 0.0013940309269026563,
+      "ADM_charge_estimate": 0.0017346786222954182,
+      "absolute_ADM_ratio_estimate": 1.2443616485249964,
+      "minimum_sampled_delta": 0.9998369312755834,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9998672419731973,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 0.05,
+      "relative_leading_mass_error": 1.870371637113788e-05
+    }
+  ],
+  "fixed_shell_amplitude_scan": [
+    {
+      "ADM_mass_estimate": 0.040771618108298276,
+      "ADM_charge_estimate": 0.05151221160302588,
+      "absolute_ADM_ratio_estimate": 1.2634330937319744,
+      "minimum_sampled_delta": 0.9952059529055792,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9961230057764074,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 0.25
+    },
+    {
+      "ADM_mass_estimate": 0.1628593975355238,
+      "ADM_charge_estimate": 0.20604884641210353,
+      "absolute_ADM_ratio_estimate": 1.2651946988024378,
+      "minimum_sampled_delta": 0.9809601190293167,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9845858535841627,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 0.5
+    },
+    {
+      "ADM_mass_estimate": 0.6485016943019449,
+      "ADM_charge_estimate": 0.8241953856484141,
+      "absolute_ADM_ratio_estimate": 1.2709224862328046,
+      "minimum_sampled_delta": 0.9259425979008549,
+      "analytic_exterior_minimum_evaluated_in_float": 0.9397782922291212,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 1.0
+    },
+    {
+      "ADM_mass_estimate": 2.5866870054587556,
+      "ADM_charge_estimate": 3.2967815425936564,
+      "absolute_ADM_ratio_estimate": 1.2745189254194145,
+      "minimum_sampled_delta": 0.732911654937934,
+      "analytic_exterior_minimum_evaluated_in_float": 0.778294590272831,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": true,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 2.0
+    },
+    {
+      "ADM_mass_estimate": 11.875147198456059,
+      "ADM_charge_estimate": 13.187126170374626,
+      "absolute_ADM_ratio_estimate": 1.1104810702547876,
+      "minimum_sampled_delta": 0.20723821652979035,
+      "analytic_exterior_minimum_evaluated_in_float": 0.26336533854472755,
+      "exact_family_all_radius_positivity": {
+        "analytic_proof_applies": false,
+        "lower_bound_if_applicable": "32/851",
+        "proof": "EXACT_INITIAL_BUDGET.md section 4"
+      },
+      "floating_ODE_approximation_error_certified": false,
+      "outcome": "UNKNOWN_no_spacetime_evolution",
+      "amplitude": 4.0
+    }
+  ],
+  "exact_balance_examples_not_EMCSF_solutions": [
+    {
+      "p": "-1/2",
+      "tail_at_u_10": "3/7",
+      "half_mass_time": "4"
+    },
+    {
+      "p": "-1/4",
+      "tail_at_u_10": "12/13",
+      "half_mass_time": "16"
+    },
+    {
+      "p": "-1/8",
+      "tail_at_u_10": "48/37",
+      "half_mass_time": "64"
+    },
+    {
+      "p": "-1/16",
+      "tail_at_u_10": "192/133",
+      "half_mass_time": "256"
+    }
+  ],
+  "remaining": [
+    "actual_evolution",
+    "Bondi_extraction_continuity",
+    "full_future_dispersion",
+    "genuine_formation",
+    "exact_positive_mass_extremal_endpoint",
+    "subextremal_positive_branch"
+  ],
+  "source_sha256": {
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a",
+    "verify_research.py": "f6bf1801b78dcc78a2a3a0030e59cf514dc20cbbda960df2d3c05d98feeec111",
+    "ACCEPTANCE.md": "a339fd175e2721ecd28297ff561d902ea61a7ba1e9dd3795935c9095c5174dcb",
+    "INCOMING_CONSTRAINT_FAMILY.md": "9a3103fc9c38e5d7cc0878676a4bce3adae103814cee6174282fbd456d435dd1",
+    "BONDI_TAIL_OBSTRUCTION.md": "8bdd7dae6ba64dc3ff857105707f1b94018d6b3cd2f354212c039d6a3fc31223",
+    "EXACT_INITIAL_BUDGET.md": "4f6460b29cecfbede932930ccd3e35a1d857b2b1f2f1448f6c5ff20856de82f8"
+  }
+}

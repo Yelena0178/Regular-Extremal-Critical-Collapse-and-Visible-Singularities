@@ -1,0 +1,3 @@
+# Actual finite-time benchmark environment: Python 3.13 / NumPy 2.3.4.
+# The initial Cauchy constraint reproducer still requires only the standard library.
+numpy==2.3.4

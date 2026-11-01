@@ -1,0 +1,53 @@
+{
+  "claim_ids": [
+    "CARRIER07.1",
+    "CARRIER07.2",
+    "CARRIER07.3",
+    "CARRIER07.4",
+    "CARRIER07.5",
+    "CARRIER07.6"
+  ],
+  "logic": "PROVED for exact kernel/current and scoped carrier controls; actual uniform A_eta/D_eta and terminal-charge application CONDITIONAL",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "BOUNDARY_ODE_CARRIER_COUNTERCONTROL",
+    "PRIMARY_SOURCE_AUDIT"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "ordinary and demodulated carrier derivatives",
+    "exact carrier mass and charge Bondi balance",
+    "divergent positive/critical weighted radiation primitives",
+    "independent actual W_r wave identity",
+    "exact two-scale radial kernel and amplitude-current cancellation",
+    "actual characteristic charge current",
+    "integrable current/mass tail powers and full optical potential error",
+    "primary-read receipt identifies precise official radiation-derivative clause"
+  ],
+  "negative_controls": [
+    "omitting the carrier in an ordinary derivative leaves a nonzero residual",
+    "ordinary weighted radiation budget diverges while carrier charge current is integrable",
+    "replacing the exact two-scale kernel by its fixed-U/r approximation is not an identity"
+  ],
+  "boundary_countercontrol_is_actual_EMCSF_solution": false,
+  "original_INNER06_conditional_theorems_invalidated": false,
+  "generic_extremal_RN_decay_automatically_pays_B_sigma": false,
+  "actual_uniform_A_eta_D_eta_verified": false,
+  "actual_Coulomb_potential_bootstrap_closed": false,
+  "late_charge_limit_verified": false,
+  "horizon_parameter_agreement_verified": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "primary_source_receipt": "RN_TAIL_PRIMARY_RECEIPT_2026-10-23_R15.json",
+  "source_sha256": {
+    "verify_tail_current_carrier.py": "4e42aafbd6b6ecffed10d68d259a0ecdcc8fd5a8a804cbc7382c37586e171887",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "RN_TAIL_PRIMARY_RECEIPT_2026-10-23_R15.json": "9b002f2a84c2a3f92574843c3bfc29e23e1f255574cc3d0f886aaf66e2bb21a4",
+    "MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md": "67f53fb6e28fcfa2d876232132c44c52c4eb13d8c0b122cc2b071775b4a24e1a",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "GLOBAL_RN_SOURCE_NORM_AUDIT.md": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

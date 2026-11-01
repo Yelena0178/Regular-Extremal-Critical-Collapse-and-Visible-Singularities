@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "exact_identities": [
+    "induced_metric",
+    "null_mass_flux",
+    "charge_current",
+    "geometric_radial_K"
+  ],
+  "backwards_RN": [
+    {
+      "n": 8,
+      "endpoint_error": 1.1784351272581262e-10
+    },
+    {
+      "n": 16,
+      "endpoint_error": 7.0317085487658915e-12
+    },
+    {
+      "n": 32,
+      "endpoint_error": 4.0506487053448836e-13
+    }
+  ],
+  "independent_constraint_comparisons": {
+    "A020_W8": {
+      "maximum_f_difference": 3.108222013104012e-11,
+      "maximum_Q_difference": 4.114095730756162e-10,
+      "profile_derivative_difference": 6.137963946255103e-09
+    },
+    "A030_W4": {
+      "maximum_f_difference": 2.567612164550148e-10,
+      "maximum_Q_difference": 2.3588242470395926e-11,
+      "profile_derivative_difference": 3.936988453246994e-09
+    }
+  },
+  "source_sha256": {
+    "verify_rotating_af_interface.py": "37b40de0de2492edeb64352fc3f4b71f4c35c35675ccd809775168d15c418049",
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "rotating_past_slice.py": "1cf6c2bd2f115e838fe6d209e096ef81bc6c9711a8a17eed35501e84cd530b9f",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "ROTATING_PAST_SLICE_A020_W8_N48_2026-10-21.json": "0e056212baa98c37f7f0069e0db7417d5abd0d3faf3e9e12fcb3e50293809d11",
+    "ROTATING_PAST_SLICE_A020_W8_N96_2026-10-21.json": "6a9b3fceb56294057d8981919126b7fee587dfefaf67546e3c83a78644934b51",
+    "ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.json": "4d2bcdd9de45ec2c45e21c2bdef730afe7c240eefd7e88f8484ae93f1a317f91",
+    "ROTATING_PAST_SLICE_A020_W8_N192_2026-10-21.npz": "492686919d3d4c50a489dbcc17774cb9232972fbb326a7544d6c6f13ac5bfc92",
+    "ROTATING_AF_A020_W8_N192_2026-10-21_S1.npz": "ad41e9c9628f6209bd8613564577993281bbc51532fe6afc24f1c4b685073868",
+    "ROTATING_PAST_SLICE_A030_W4_N48_2026-10-21.json": "75e24bec044589e57340e0d6b015bf0a170127d6be9d3d4663d558ff0595fdb3",
+    "ROTATING_PAST_SLICE_A030_W4_N96_2026-10-21.json": "896a60db0571785f85cc701cd14a4f7a336822683f885897c782d8324eb4f5ae",
+    "ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.json": "975d4b806a1497213081955fc479442f6270793921745d6561a99bb0dda170bd",
+    "ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.npz": "f9fc1e80d54493ffed7dc1e108948ca3aa86fa31e52151d1e063d2a783c61f3b",
+    "ROTATING_AF_A030_W4_N192_2026-10-21_S1.npz": "3b0c4fd7d121241fa9bf0c3d9b79d9a10de2e9e3924f706315e7c798f65a24ab"
+  },
+  "scope": "algebra, known-solution convergence, independent numerical constraint formulation",
+  "all_radius_error_certified": false,
+  "actual_seed_transfer_certified": false,
+  "early_future_screen_certified": false,
+  "goal_A_proved": false
+}

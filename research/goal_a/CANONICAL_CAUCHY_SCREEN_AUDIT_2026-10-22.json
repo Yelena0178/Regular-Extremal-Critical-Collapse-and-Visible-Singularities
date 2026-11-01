@@ -1,0 +1,584 @@
+{
+  "status": "PASS",
+  "groups": {
+    "A020_W8": {
+      "runs": [
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.json",
+          "steps": 512,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 6.983185725291857,
+            "radius": 14.53521692134038,
+            "lambda_value": -0.00013762131302786276,
+            "nu": -0.5187004560959533,
+            "Q": 14.531818589802747,
+            "f": -8.974863028532454e-06
+          },
+          "first_negative_sample": {
+            "time": 2.328125,
+            "x": 5.3113107252918565,
+            "radius": 14.5357056749952,
+            "lambda_value": -1.2177189390370024e-06,
+            "nu": -0.5176755280000535,
+            "Q": 14.531880719710156,
+            "f": -6.393834195428383e-08
+          },
+          "final_minimum_lambda": -0.00013762131302786276,
+          "final_minimum_location": 6.983185725291857,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.04741745931953928,
+              "scalar": 0.005543268867058495,
+              "charge": 0.03359141437649048,
+              "mass": 0.03172537325690911
+            },
+            "x_range": [
+              0.5456857252918568,
+              38.983185725291854
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.json",
+          "steps": 1024,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 6.983185725291857,
+            "radius": 14.535670732471214,
+            "lambda_value": -4.216829355569401e-05,
+            "nu": -0.5180593149740916,
+            "Q": 14.533830115397686,
+            "f": -2.7499738304292975e-06
+          },
+          "first_negative_sample": {
+            "time": 2.35546875,
+            "x": 5.3386544752918565,
+            "radius": 14.535803770081362,
+            "lambda_value": -3.889836435848712e-07,
+            "nu": -0.5175417275099023,
+            "Q": 14.53389172113062,
+            "f": -2.0497189723300835e-08
+          },
+          "final_minimum_lambda": -4.216829355569401e-05,
+          "final_minimum_location": 6.983185725291857,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.017169435125212823,
+              "scalar": 0.0020548562174633137,
+              "charge": 0.012667181262637744,
+              "mass": 0.011766420358323058
+            },
+            "x_range": [
+              0.5300607252918568,
+              39.006623225291854
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.json",
+          "steps": 2048,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 6.979279475291857,
+            "radius": 14.533756061879785,
+            "lambda_value": -1.8511412265242184e-05,
+            "nu": -0.5186418491018502,
+            "Q": 14.534338645832205,
+            "f": -1.2069158263905422e-06
+          },
+          "first_negative_sample": {
+            "time": 2.330078125,
+            "x": 5.3093576002918565,
+            "radius": 14.53380326899452,
+            "lambda_value": -4.603696224545852e-08,
+            "nu": -0.5188088000673419,
+            "Q": 14.53439605766395,
+            "f": -2.417271938170984e-09
+          },
+          "final_minimum_lambda": -1.8511412265242184e-05,
+          "final_minimum_location": 6.979279475291857,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.014655031070835434,
+              "scalar": 0.0017383242535962352,
+              "charge": 0.010598721664521249,
+              "mass": 0.009960348761609302
+            },
+            "x_range": [
+              0.5222482252918568,
+              39.014435725291854
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        }
+      ],
+      "refinement": {
+        "successive_rows": [
+          {
+            "coarse_steps": 512,
+            "fine_steps": 1024,
+            "maximum_state_difference": 0.0025273212103513742,
+            "maximum_lambda_difference": 0.0005321712568748249,
+            "lambda_difference_near_final_minimum": 0.00012438132271749055
+          },
+          {
+            "coarse_steps": 1024,
+            "fine_steps": 2048,
+            "maximum_state_difference": 0.0005770055650291539,
+            "maximum_lambda_difference": 0.00016906356084434027,
+            "lambda_difference_near_final_minimum": 3.1051839393489216e-05
+          }
+        ],
+        "common_x": 6.983185725291857,
+        "lambda_at_common_x": [
+          -0.00013762131302786276,
+          -4.216829355569401e-05,
+          -1.8397219743282053e-05
+        ],
+        "second_order_extrapolation": -1.0473528472478067e-05,
+        "extrapolation_is_error_bound": false
+      }
+    },
+    "A030_W4": {
+      "runs": [
+        {
+          "report": "CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.json",
+          "steps": 512,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 7.619994185045288,
+            "radius": 12.967871390734349,
+            "lambda_value": -0.00014509167799815273,
+            "nu": -0.440665231990159,
+            "Q": 12.967127095988396,
+            "f": -9.808348990336668e-06
+          },
+          "first_negative_sample": {
+            "time": 2.0625,
+            "x": 5.682494185045287,
+            "radius": 12.968389087568331,
+            "lambda_value": -9.504124574576568e-07,
+            "nu": -0.4403778520362491,
+            "Q": 12.967435062346974,
+            "f": -4.849862067501931e-08
+          },
+          "final_minimum_lambda": -0.00014509167799815273,
+          "final_minimum_location": 7.619994185045288,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.08271757553700176,
+              "scalar": 0.018926505321880394,
+              "charge": 0.1880155798623911,
+              "mass": 0.06592998801400082
+            },
+            "x_range": [
+              0.21374418504528692,
+              37.260619185045286
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.json",
+          "steps": 1024,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 7.619994185045288,
+            "radius": 12.968275514374259,
+            "lambda_value": -7.205018676737886e-05,
+            "nu": -0.4401590172026718,
+            "Q": 12.968511688621284,
+            "f": -4.87071199217759e-06
+          },
+          "first_negative_sample": {
+            "time": 2.05859375,
+            "x": 5.678587935045287,
+            "radius": 12.96847691311949,
+            "lambda_value": -4.877032448408591e-08,
+            "nu": -0.440276195757735,
+            "Q": 12.96881946146693,
+            "f": -2.4872912618434384e-09
+          },
+          "final_minimum_lambda": -7.205018676737886e-05,
+          "final_minimum_location": 7.619994185045288,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.051533993334022754,
+              "scalar": 0.012072582255241469,
+              "charge": 0.11989830093127296,
+              "mass": 0.041907714855624154
+            },
+            "x_range": [
+              0.19811918504528692,
+              37.276244185045286
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.json",
+          "steps": 2048,
+          "final_time": 4.0,
+          "parameter": 1.0,
+          "worst": {
+            "time": 4.0,
+            "x": 7.619994185045288,
+            "radius": 12.968371762496322,
+            "lambda_value": -5.3575445483022434e-05,
+            "nu": -0.4400270438017086,
+            "Q": 12.968866227262897,
+            "f": -3.6217978149899466e-06
+          },
+          "first_negative_sample": {
+            "time": 2.001953125,
+            "x": 5.625853560045287,
+            "radius": 12.970210043352418,
+            "lambda_value": -7.033251007120528e-08,
+            "nu": -0.43832308008979226,
+            "Q": 12.9691716184866,
+            "f": -3.5582410351508997e-09
+          },
+          "final_minimum_lambda": -5.3575445483022434e-05,
+          "final_minimum_location": 7.619994185045288,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.029772700582665457,
+              "scalar": 0.006877389346558499,
+              "charge": 0.06854942261092406,
+              "mass": 0.02401861692482339
+            },
+            "x_range": [
+              0.19030668504528692,
+              37.287962935045286
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "checkpoints/canonical_cauchy_v1_2026-10-22/canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": false,
+          "continuous_no_trapping_certified": false
+        }
+      ],
+      "refinement": {
+        "successive_rows": [
+          {
+            "coarse_steps": 512,
+            "fine_steps": 1024,
+            "maximum_state_difference": 0.0047166889752112695,
+            "maximum_lambda_difference": 0.000541477006163138,
+            "lambda_difference_near_final_minimum": 9.226642421219697e-05
+          },
+          {
+            "coarse_steps": 1024,
+            "fine_steps": 2048,
+            "maximum_state_difference": 0.0015481536007121988,
+            "maximum_lambda_difference": 0.0004673859360175836,
+            "lambda_difference_near_final_minimum": 2.3541329923135006e-05
+          }
+        ],
+        "common_x": 7.619994185045288,
+        "lambda_at_common_x": [
+          -0.00014509167799815273,
+          -7.205018676737886e-05,
+          -5.3575445483022434e-05
+        ],
+        "second_order_extrapolation": -4.741719838823697e-05,
+        "extrapolation_is_error_bound": false
+      }
+    },
+    "A020_W8_S1001": {
+      "runs": [
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.json",
+          "steps": 512,
+          "final_time": 4.0,
+          "parameter": 1.001,
+          "worst": {
+            "time": 2.0546875,
+            "x": 5.084729608324365,
+            "radius": 14.56054319040971,
+            "lambda_value": 0.00036283982159295974,
+            "nu": -0.496941717973431,
+            "Q": 14.560949739605604,
+            "f": 7.19947459663084e-05
+          },
+          "first_negative_sample": null,
+          "final_minimum_lambda": 0.0008869678772432628,
+          "final_minimum_location": 7.030042108324366,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.04996890416487243,
+              "scalar": 0.0057195202883687,
+              "charge": 0.034910991096204005,
+              "mass": 0.033540839061905345
+            },
+            "x_range": [
+              0.5456671083243658,
+              39.686292108324366
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": true,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.json",
+          "steps": 1024,
+          "final_time": 4.0,
+          "parameter": 1.001,
+          "worst": {
+            "time": 2.05078125,
+            "x": 5.088635858324365,
+            "radius": 14.564448768272415,
+            "lambda_value": 0.0003343201577672758,
+            "nu": -0.4930216033756774,
+            "Q": 14.562977120927853,
+            "f": 6.633459897031901e-05
+          },
+          "first_negative_sample": null,
+          "final_minimum_lambda": 0.00097758208289924,
+          "final_minimum_location": 7.030042108324366,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.01895877696480419,
+              "scalar": 0.002221695579862182,
+              "charge": 0.013781359545384009,
+              "mass": 0.013034644621297657
+            },
+            "x_range": [
+              0.5300421083243658,
+              39.701917108324366
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": true,
+          "continuous_no_trapping_certified": false
+        },
+        {
+          "report": "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.json",
+          "steps": 2048,
+          "final_time": 4.0,
+          "parameter": 1.001,
+          "worst": {
+            "time": 2.05078125,
+            "x": 5.088635858324365,
+            "radius": 14.564458446525,
+            "lambda_value": 0.00032690004100273835,
+            "nu": -0.4930068585681159,
+            "Q": 14.563485105686297,
+            "f": 6.48623327201836e-05
+          },
+          "first_negative_sample": null,
+          "final_minimum_lambda": 0.0010001456388859511,
+          "final_minimum_location": 7.030042108324366,
+          "final_constraints": {
+            "maximum_absolute": {
+              "radius": 0.014607615333977642,
+              "scalar": 0.0016956829148715802,
+              "charge": 0.01040849927897776,
+              "mass": 0.009955978514306744
+            },
+            "x_range": [
+              0.5222296083243658,
+              39.709729608324366
+            ]
+          },
+          "actual_sources": {
+            "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+            "canonical_cauchy_data.py": "canonical_cauchy_data.py",
+            "charged_lobatto.py": "charged_lobatto.py",
+            "constraint_contraction.py": "constraint_contraction.py",
+            "rotating_af_numeric.py": "rotating_af_numeric.py",
+            "certify_rotating_af_barrier.py": "certify_rotating_af_barrier.py"
+          },
+          "sampled_positive": true,
+          "continuous_no_trapping_certified": false
+        }
+      ],
+      "refinement": {
+        "successive_rows": [
+          {
+            "coarse_steps": 512,
+            "fine_steps": 1024,
+            "maximum_state_difference": 0.002593442489073894,
+            "maximum_lambda_difference": 0.0005215707076194898,
+            "lambda_difference_near_final_minimum": 0.0001202608258650188
+          },
+          {
+            "coarse_steps": 1024,
+            "fine_steps": 2048,
+            "maximum_state_difference": 0.0006035146062615127,
+            "maximum_lambda_difference": 0.0001809408188488959,
+            "lambda_difference_near_final_minimum": 3.0024300744514384e-05
+          }
+        ],
+        "common_x": 7.030042108324366,
+        "lambda_at_common_x": [
+          0.0008869678772432628,
+          0.00097758208289924,
+          0.0010001456388859511
+        ],
+        "second_order_extrapolation": 0.001007666824214855,
+        "extrapolation_is_error_bound": false
+      }
+    }
+  },
+  "longer_screen": {
+    "report": "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.json",
+    "steps": 1024,
+    "final_time": 8.0,
+    "parameter": 1.001,
+    "worst": {
+      "time": 2.0546875,
+      "x": 5.084729608324365,
+      "radius": 14.56054319040971,
+      "lambda_value": 0.00036283982159295974,
+      "nu": -0.496941717973431,
+      "Q": 14.560949739605604,
+      "f": 7.19947459663084e-05
+    },
+    "first_negative_sample": null,
+    "final_minimum_lambda": 0.0004139281855230568,
+    "final_minimum_location": 11.014417108324366,
+    "final_constraints": {
+      "maximum_absolute": {
+        "radius": 0.0049597048304261485,
+        "scalar": 0.0004709080724576707,
+        "charge": 0.0025792923539993446,
+        "mass": 0.0023088311897000663
+      },
+      "x_range": [
+        4.545667108324366,
+        35.686292108324366
+      ]
+    },
+    "actual_sources": {
+      "charged_cauchy_diamond.py": "charged_cauchy_diamond.py",
+      "canonical_cauchy_data.py": "canonical_cauchy_data.py",
+      "charged_lobatto.py": "charged_lobatto.py",
+      "constraint_contraction.py": "constraint_contraction.py",
+      "rotating_af_numeric.py": "rotating_af_numeric.py",
+      "certify_rotating_af_barrier.py": "certify_rotating_af_barrier.py"
+    },
+    "sampled_positive": true,
+    "continuous_no_trapping_certified": false
+  },
+  "extended_initial_certificate": {
+    "report": "ROTATING_AF_BARRIER_A020_W8_S1001_N4096_2026-10-22.json",
+    "unchanged_free_profile": true,
+    "exact_parameter": "1001/1000",
+    "all_radius_lower_f": 0.00034714003244009847,
+    "entire_initial_path_interval": [
+      "0",
+      "1001/1000"
+    ]
+  },
+  "source_sha256": {
+    "audit_canonical_cauchy_screen.py": "2bf40130b19ecc79d9c21fa0515a416d3567a7089bc2ccb30e1c7b933b653d14",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.json": "77b5084e81c8d8343f05981e7075b95199a479cbfc6796c7564ccce87f70c7a7",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N512_2026-10-22.npz": "79c61cb380c67b136ac1fba9776478e5807b1f96a5ca15ab10fbe8f3cc9621b7",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.json": "a755263f924d876df4590ff750c19b27389e9cc9ecd1cdadb8e576e89060ebb2",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N1024_2026-10-22.npz": "2e1e5cee6b1dc68d2c9c588128ddd8e4eeb404dffe921f491266050e066d584d",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.json": "c7cfcfd65f6cb07b34b6faa5194cdfd22b5caa12a548bdd4a558c3009a8e4d4d",
+    "CANONICAL_CAUCHY_A020_W8_CORE_T4_N2048_2026-10-22.npz": "5bcfd2a1cf92e8bf4997868ad443c48d1633f9aef36bed8ebd34ffbc8d3bac26",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.json": "3e4b2df013658e639bbfda648a9de84699ca8ed58925b0bb5cbff6ea35601948",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N512_2026-10-22.npz": "5a7cce5fedb9665aeb84d506b56e8f792aac393228301786761e2227bd4b59fd",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.json": "a8c6023ac96657267ac9ea180f5be6351ff7b6d90a9d5bd449660bacae421282",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N1024_2026-10-22.npz": "2f215a66a819e014e55d28d7043e57173df680652554c97939a17469f829b096",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.json": "4fbc45b48c30e2435ba64b9524082331b221614e61c7fbacb85588ea183ce42f",
+    "CANONICAL_CAUCHY_A030_W4_CORE_T4_N2048_2026-10-22.npz": "c6d11383a7df090d342f6299f3d4dbfbde33825a56fe9d2eb7cbbfd42e56fb2a",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.json": "d3da638c44af316fb551de8a0e075d84615447eb8bb1f04d1b1505791ed7a725",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N512_2026-10-22.npz": "d322450de03a37f8f0560264b2ac4ca9a90498d7b256b9c20d944e2a92521842",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.json": "5cdba7cf50391de700db7978eb0c99fb373c208b8d458b0937e2f8a937711d1a",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N1024_2026-10-22.npz": "3790d6f22f8c485cda2b96cd39d401d4e3c077b3b42c5bc051c358d7a595eb5f",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.json": "df8ece0240136ee892743dc407923162ef9c942876223ce839ee8dcc11d72c6d",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T4_N2048_2026-10-22.npz": "68a829458fa210256c6f9962d09dd9bceb2fd057e771a24a4354987782c8b354",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.json": "69c7347cef04e089da60cb839e26bb449c30902945ae5f10d40fd0c0cf498eb2",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N1024_2026-10-22.npz": "9e5703bfcc30ee31864922fe26eb25efa29a6ce68c6c1437b30d0d12fdbc056a",
+    "ROTATING_CANONICAL_A020_W8_2026-10-21.npz": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "ROTATING_CANONICAL_A020_W8_S1001_REFERENCE_2026-10-22.npz": "6712c0ae1f912d64a09f45aa1ee1a33e812ddd900d6bfc38f7aaa65e70bdbc2c",
+    "ROTATING_AF_BARRIER_A020_W8_S1001_N4096_2026-10-22.json": "936c4c74218db8c7929e557d810fcf08e7d2f6963e334b4a2b1d842c610fd316"
+  },
+  "early_future_no_trapping_certified": false,
+  "original_members_trapping_certified": false,
+  "dispersion_branch_proved": false,
+  "extremal_endpoint_proved": false,
+  "goal_A_proved": false
+}

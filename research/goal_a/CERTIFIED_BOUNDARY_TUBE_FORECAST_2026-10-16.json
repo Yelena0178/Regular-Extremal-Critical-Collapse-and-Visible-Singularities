@@ -1,0 +1,66 @@
+{
+  "evidence": "E0_2D_forecast_with_verified_inflow_errors",
+  "certified_boundary_polynomial_matches": true,
+  "incoming_vacuum_polynomial_exact": true,
+  "boundary_error_input": [
+    7.276249220795183e-06,
+    2.2838533217576903e-06,
+    0.0017528677608338113,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "forecast": {
+    "completed": true,
+    "endpoint_radii": [
+      0.011410929486994327,
+      0.024334444545336988,
+      0.05938876970838487,
+      0.043881065418952925,
+      0.09993394194196643,
+      0.05667371950859303
+    ],
+    "maximum_radii": [
+      0.011410929486994327,
+      0.024334444545336988,
+      0.05938876970838487,
+      0.043881065418952925,
+      0.09993394194196643,
+      0.05667371950859303
+    ],
+    "minimum_float_tube_margin": 9.087141522841904e-11,
+    "assumed_boundary_error": [
+      7.276249220795183e-06,
+      2.2838533217576903e-06,
+      0.0017528677608338113,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "absolute_slack": 1e-10,
+    "rigorous_PDE_error": false
+  },
+  "fixed_point": {
+    "r": 0.6507356227838544,
+    "kappa": 0.2596017201351862,
+    "theta": 0.6131016180822753,
+    "nu": -0.8595264253266616,
+    "z": -0.9179422626533618,
+    "m": 0.49350239595566936,
+    "lambda": -0.13414980166672183,
+    "Omega2": 0.892538154065796,
+    "theta_out": -0.8728347922252543,
+    "theta_in": -5.59243889697243
+  },
+  "rigorous_PDE_error": false,
+  "actual_strict_trapping_certified": false,
+  "original_eta_seed_transfer": false,
+  "hypothetical_2m_minus_r_lower_float": 0.21151080062330396,
+  "source_sha256": {
+    "explore_certified_boundary_tube.py": "fcdffe7b0c0f699a7f61e8398359373b23ccac95d26873fd8f4f17f954eb74aa",
+    "ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json": "3137dc48c29461d0e60541f8da9cbb064dfd2452d996346d9f9db580dc24edc5",
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "transport_defect.py": "85bc01f91a1258f6302cda4d9a7530657f13a606dd5f94ea03840795c00eda9d",
+    "certify_onset_boundary.py": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47"
+  }
+}

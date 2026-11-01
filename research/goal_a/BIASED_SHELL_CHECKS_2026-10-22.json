@@ -1,0 +1,53 @@
+{
+  "phase_derivative_identity": true,
+  "zero_bias_regression_error": 0.0,
+  "checks": [
+    {
+      "bias": -2.0,
+      "normalization": 0.6798846299388652,
+      "normalization_error_against_60_digits": 0.0,
+      "total_charge_error": 1.5987211554602254e-14,
+      "opposite_direction_geometry_error": 0.0,
+      "maximum_phi_derivative_error": 1.1128726971513863e-12,
+      "maximum_direction_decomposition_error": 1.3322676295501878e-15
+    },
+    {
+      "bias": -1.0,
+      "normalization": 0.8662988873476024,
+      "normalization_error_against_60_digits": 0.0,
+      "total_charge_error": 6.217248937900877e-15,
+      "opposite_direction_geometry_error": 0.0,
+      "maximum_phi_derivative_error": 1.14504690662219e-12,
+      "maximum_direction_decomposition_error": 2.6645352591003757e-15
+    },
+    {
+      "bias": 1.0,
+      "normalization": 1.0353928342814054,
+      "normalization_error_against_60_digits": 0.0,
+      "total_charge_error": 6.217248937900877e-15,
+      "opposite_direction_geometry_error": 0.0,
+      "maximum_phi_derivative_error": 1.148665388022892e-12,
+      "maximum_direction_decomposition_error": 3.552713678800501e-15
+    },
+    {
+      "bias": 2.0,
+      "normalization": 0.9591272531690742,
+      "normalization_error_against_60_digits": 0.0,
+      "total_charge_error": 4.440892098500626e-15,
+      "opposite_direction_geometry_error": 0.0,
+      "maximum_phi_derivative_error": 1.141033972621119e-12,
+      "maximum_direction_decomposition_error": 2.220446049250313e-15
+    }
+  ],
+  "initial_barrier": "1/100000",
+  "normalization_error_certified": false,
+  "finite_PDE_error_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_biased_shell.py": "c63ab14d311993f85b470c684578350322d0fe499b0872b83b54f52949cd4dda",
+    "biased_charge_shell.py": "5cee494da89a606344bc439efc604d7fda60a280dc5711ca1d707c25727a251a",
+    "charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3",
+    "certify_biased_shell_initial.py": "7bbb08ead702ed755708b31ac8496c2d79c698d2eedd600115210eadaf115aff",
+    "certify_charge_shell_initial.py": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS_REPLAY",
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "independently_replayed_pieces": [
+    {
+      "piece": 0,
+      "verified_cells": 9216,
+      "minimum_margin": 2.0145047378641735e-13
+    },
+    {
+      "piece": 1,
+      "verified_cells": 9216,
+      "minimum_margin": 2.62663258343649e-11
+    }
+  ],
+  "reproduced_failure": {
+    "piece": 2,
+    "message": "invalid charged radius proposal on diagonal 34",
+    "cell": [
+      3,
+      31
+    ],
+    "negative_proposed_component": "m",
+    "diagnostic_minimum_proposal": -13.776945576189885,
+    "diagnostic_spectral_radius": 1.9269157274567905,
+    "diagnostic_values_are_not_interval_proofs": true
+  },
+  "complete_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "replay_charged_tubes.py": "cfd64f848d15a6249dd0e178f97e251dfc71d9c71cf7871a631669168914641f",
+    "attempt_charged_rectangle.py": "b660b853dbdc768070f74d5eb17c033bf4d0290add65d3357e062e06b36d1634",
+    "charged_interval_kernel.py": "82e9ff18b95d30a341aa82ffda29752747decffbe4ea456e3903e9d74a5f8813",
+    "verify_interval_transport_grid.py": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b",
+    "FROZEN_CHARGED_RECTANGLE_ATTEMPT_2026-10-17.json": "7e08bd3500e763afdce35810887d8d9a4eef53036b0f06a0d493f421e2655293",
+    "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz": "fc463c6d7be68017b76dabf3ae9575343184d957a24a1727e685cf4d808ba584",
+    "FROZEN_CHARGED_REFERENCE_N96_2026-10-17.json": "6f4e92a47004e4ce90804a3766e6bf0daae276115e08af1fc6daff2f13d4c410",
+    "FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json": "c881b0fa19bcd702cbd20b3786293223f0b18c3340896c92b606d9c0162f36ef"
+  }
+}

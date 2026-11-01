@@ -1,0 +1,90 @@
+{
+  "claim_ids": [
+    "LOW05.1",
+    "LOW05.2",
+    "LOW05.3",
+    "LOW05.4",
+    "LOW05.5"
+  ],
+  "logic": "PROVED for listed exact identities and scoped controls; uniform estimates, Jost existence and Parseval argument are analytic",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "EXACT_SCALING_COUNTERCONTROL",
+    "FINITE_FIXED_RN_ODE_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "actual dynamic coefficient divergence source with no coefficient time derivatives",
+    "null-time cutoff source",
+    "full RN scaled Sturm operator",
+    "modified momentum removes derivative of divergence source",
+    "complete reference source phase",
+    "adiabatic amplitude matrix, energy and signed flux",
+    "source-weight low-frequency scaling and real-coefficient band mixing",
+    "three finite RN matrix determinant and signed-flux controls"
+  ],
+  "negative_controls": [
+    "omitted electric divergence term leaves nonzero residual",
+    "omitted reference phase source correction leaves nonzero residual",
+    "wrong G0 source weight creates omega^-2 ratio",
+    "time-dependent real multiplication does not preserve critical band"
+  ],
+  "finite_RN_controls": [
+    {
+      "omega": 0.02,
+      "scaled_interval": [
+        0.3,
+        1.2
+      ],
+      "determinant_error": 4.440892098500626e-15,
+      "scaled_signed_flux_error": 4.440892098500626e-15,
+      "scaled_energy_min": 2.0,
+      "scaled_energy_max": 3.039963504388881
+    },
+    {
+      "omega": 0.01,
+      "scaled_interval": [
+        0.3,
+        1.2
+      ],
+      "determinant_error": 5.440092820663267e-15,
+      "scaled_signed_flux_error": 5.440092820663267e-15,
+      "scaled_energy_min": 2.0,
+      "scaled_energy_max": 2.7871165688591044
+    },
+    {
+      "omega": 0.005,
+      "scaled_interval": [
+        0.3,
+        1.2
+      ],
+      "determinant_error": 1.0658141036401503e-14,
+      "scaled_signed_flux_error": 1.0769163338864018e-14,
+      "scaled_energy_min": 2.0,
+      "scaled_energy_max": 2.674811616761965
+    }
+  ],
+  "forced_model_control": {
+    "scaled_energy_coefficient": "3681*log(6/5)/10000 - 3681*log(3/10)/10000 + 25731/40000",
+    "correct_source_coefficient": "38799*log(6/5)/125000 - 38799*log(3/10)/125000 + 6074703/2500000",
+    "wrong_source_coefficient": "-6365169/640000 + 112801*log(6/5)/10000 - 112801*log(3/10)/10000"
+  },
+  "analytic_scope": "fixed-q uniform finite shell and reference outer mode; actual divergence/source bound and finite cutoff inequality under explicit Coulomb potential hypothesis",
+  "actual_Coulomb_potential_bootstrap_verified": false,
+  "other_frequency_regions_closed": false,
+  "global_RN_inverse_Wronskian_bound_verified": false,
+  "actual_weighted_radiation_flux_verified": false,
+  "late_charge_limit_verified": false,
+  "RN_convergence_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_low_frequency_shell.py": "95f92a877b7768aff3260d3ffd4e93d4131d09b8f592646e4eb035478b7989ee",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "COULOMB_RENORMALIZATION_AND_MELLIN_GATE.md": "559f1a22cf5f0c92da754eebed0bb83226b626ef79fc30bc4a34e5dca30693ae",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "GLOBAL_RN_SOURCE_NORM_AUDIT.md": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

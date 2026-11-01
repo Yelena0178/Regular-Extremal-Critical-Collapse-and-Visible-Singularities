@@ -1,0 +1,2284 @@
+{
+  "completed": false,
+  "failure": "positive-radius update stopped; outcome UNKNOWN",
+  "failed_time": 14.1015625,
+  "last_completed_time": 14.0625,
+  "worst": {
+    "time": 14.0625,
+    "x": 1.015625,
+    "radius": 0.1598587968580863,
+    "lambda_value": -0.19029186356765737,
+    "nu": -0.3919715093738887,
+    "Q": -0.0031721926206721663,
+    "f": -9.777030752190313
+  },
+  "first_negative_sample": {
+    "time": 13.28125,
+    "x": 2.1875,
+    "radius": 0.8307400854611494,
+    "lambda_value": -0.0009957876687658306,
+    "nu": -0.3498321542767009,
+    "Q": 0.024939302170051414,
+    "f": -0.009214861255075979
+  },
+  "history": [
+    {
+      "time": 0.0,
+      "x": 15.859375,
+      "radius": 13.571330290685744,
+      "lambda_value": 0.2628409208625129,
+      "nu": -0.26284092086251293,
+      "Q": 5.768390622286267,
+      "f": 0.2763413987194151
+    },
+    {
+      "time": 1.875,
+      "x": 14.0625,
+      "radius": 12.327888921771843,
+      "lambda_value": 0.23919951671521725,
+      "nu": -0.40769127443234887,
+      "Q": 4.7266148608063805,
+      "f": 0.5440553251044447
+    },
+    {
+      "time": 3.75,
+      "x": 12.109375,
+      "radius": 10.659893292815008,
+      "lambda_value": 0.21944342792229216,
+      "nu": -0.45658857809899167,
+      "Q": 1.7734641939312707,
+      "f": 0.6177367153219471
+    },
+    {
+      "time": 5.625,
+      "x": 10.3125,
+      "radius": 8.846752737268114,
+      "lambda_value": 0.20734914424673204,
+      "nu": -0.5171322263259672,
+      "Q": 0.6474004819768753,
+      "f": 0.8195710874817348
+    },
+    {
+      "time": 7.5,
+      "x": 8.4375,
+      "radius": 6.887584153913957,
+      "lambda_value": 0.19495272162000774,
+      "nu": -0.5294662642783662,
+      "Q": 0.6391532794773335,
+      "f": 0.7730152517277471
+    },
+    {
+      "time": 9.375,
+      "x": 6.40625,
+      "radius": 4.734652867730627,
+      "lambda_value": 0.17206502657058073,
+      "nu": -0.5657771835312775,
+      "Q": 0.6070862471353013,
+      "f": 0.6852472688472138
+    },
+    {
+      "time": 11.25,
+      "x": 4.375,
+      "radius": 2.3229355137762213,
+      "lambda_value": 0.10463424934909359,
+      "nu": -0.46651607325212924,
+      "Q": 0.4396730193117614,
+      "f": 0.44565182755542976
+    },
+    {
+      "time": 13.125,
+      "x": 2.421875,
+      "radius": 0.9674209108301653,
+      "lambda_value": 0.012094639278563017,
+      "nu": -0.3476390053945712,
+      "Q": 0.042370717399434786,
+      "f": 0.10133836022209364
+    }
+  ],
+  "axis": [
+    {
+      "time": 0.0,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0
+    },
+    {
+      "time": 0.078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.15625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.46875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.78125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.09375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.25,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.40625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.71875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.03125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.34375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.65625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.8125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.96875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.28125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.4375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.59375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.75,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.90625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 3.984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.0625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.21875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.53125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.6875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.84375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 4.921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.0,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.15625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.3125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.46875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.78125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.859375,
+      "kappa": 0.5,
+      "phi_abs": 1.9958346677437955e-53,
+      "V_abs": 2.8740020465202217e-52,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 5.9375,
+      "kappa": 0.5,
+      "phi_abs": 1.1821262028945178e-08,
+      "V_abs": 1.7022617497476163e-07,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0205147055500812e-107
+    },
+    {
+      "time": 6.015625,
+      "kappa": 0.5,
+      "phi_abs": 5.7644470674905286e-05,
+      "V_abs": 0.0008292742869030397,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 7.070996941410185e-18
+    },
+    {
+      "time": 6.09375,
+      "kappa": 0.4999999999702812,
+      "phi_abs": 0.0008705863556044907,
+      "V_abs": 0.008606940234771758,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 3.0364158392126014e-10
+    },
+    {
+      "time": 6.171875,
+      "kappa": 0.4999995282090469,
+      "phi_abs": 0.0002794165837916991,
+      "V_abs": 0.056942253785570336,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.8457142255328804e-07
+    },
+    {
+      "time": 6.25,
+      "kappa": 0.49987215287514675,
+      "phi_abs": 0.026844616705771672,
+      "V_abs": 0.32836429459157285,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.6148839928313795e-05
+    },
+    {
+      "time": 6.328125,
+      "kappa": 0.49828413650143144,
+      "phi_abs": 0.10820447092214897,
+      "V_abs": 0.6887255004250056,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0004295778693083446
+    },
+    {
+      "time": 6.40625,
+      "kappa": 0.4925321376327809,
+      "phi_abs": 0.23647786440696253,
+      "V_abs": 0.9064182249902663,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0008551327358456808
+    },
+    {
+      "time": 6.484375,
+      "kappa": 0.4809363435226171,
+      "phi_abs": 0.38233838821740074,
+      "V_abs": 0.9371472560393592,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0008861102150014319
+    },
+    {
+      "time": 6.5625,
+      "kappa": 0.46417101241551434,
+      "phi_abs": 0.5227972154061188,
+      "V_abs": 0.8563909043275717,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0006361682480415919
+    },
+    {
+      "time": 6.640625,
+      "kappa": 0.4442915998778268,
+      "phi_abs": 0.646668340528636,
+      "V_abs": 0.7312113691031586,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00037683617409672615
+    },
+    {
+      "time": 6.71875,
+      "kappa": 0.4235394636221985,
+      "phi_abs": 0.7500692319003698,
+      "V_abs": 0.5954667462177853,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00018005635809695904
+    },
+    {
+      "time": 6.796875,
+      "kappa": 0.4035663803425738,
+      "phi_abs": 0.8326310872840856,
+      "V_abs": 0.4646273259171087,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.866923271189857e-05
+    },
+    {
+      "time": 6.875,
+      "kappa": 0.3853725776263641,
+      "phi_abs": 0.8956976587423731,
+      "V_abs": 0.34626853514693917,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.7262409382475305e-06
+    },
+    {
+      "time": 6.953125,
+      "kappa": 0.36935709791414967,
+      "phi_abs": 0.941458743730495,
+      "V_abs": 0.24401202828775206,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.8016781474709662e-05
+    },
+    {
+      "time": 7.03125,
+      "kappa": 0.3555928305333847,
+      "phi_abs": 0.9724410057417024,
+      "V_abs": 0.15913564971472108,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.9035720945163204e-05
+    },
+    {
+      "time": 7.109375,
+      "kappa": 0.34391095107011704,
+      "phi_abs": 0.9911823206037396,
+      "V_abs": 0.09225330566853068,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0371149470604915e-05
+    },
+    {
+      "time": 7.1875,
+      "kappa": 0.3340934786423047,
+      "phi_abs": 1.0000385090803883,
+      "V_abs": 0.047695972992479296,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.811458397930367e-05
+    },
+    {
+      "time": 7.265625,
+      "kappa": 0.3258595883921314,
+      "phi_abs": 1.0010838300101816,
+      "V_abs": 0.04297409876092884,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 5.4312468645804365e-06
+    },
+    {
+      "time": 7.34375,
+      "kappa": 0.31898077454641655,
+      "phi_abs": 0.9960773461915896,
+      "V_abs": 0.06458463360288973,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 3.9301115185173876e-06
+    },
+    {
+      "time": 7.421875,
+      "kappa": 0.31321589111003534,
+      "phi_abs": 0.9864697510730576,
+      "V_abs": 0.08629546863127548,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.9124612159394165e-06
+    },
+    {
+      "time": 7.5,
+      "kappa": 0.308395929492412,
+      "phi_abs": 0.973432480596277,
+      "V_abs": 0.10346897487575582,
+      "incoming_radial_defect": 3.469446951953614e-18,
+      "incoming_kappa_defect": -3.981319370214214e-06
+    },
+    {
+      "time": 7.578125,
+      "kappa": 0.3043426999910327,
+      "phi_abs": 0.9578964453346679,
+      "V_abs": 0.11616974180581334,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.0554082875140806e-05
+    },
+    {
+      "time": 7.65625,
+      "kappa": 0.3009457512831469,
+      "phi_abs": 0.9405917839232365,
+      "V_abs": 0.1251262585031432,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.839971870488471e-06
+    },
+    {
+      "time": 7.734375,
+      "kappa": 0.29807795746894067,
+      "phi_abs": 0.9220853587021902,
+      "V_abs": 0.1311058875436409,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.0208388493973351e-05
+    },
+    {
+      "time": 7.8125,
+      "kappa": 0.29567181560947536,
+      "phi_abs": 0.902812780187625,
+      "V_abs": 0.1347639978646708,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.844426391841278e-06
+    },
+    {
+      "time": 7.890625,
+      "kappa": 0.293635569043139,
+      "phi_abs": 0.8831059997759142,
+      "V_abs": 0.13664977280365548,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.044295032577073e-06
+    },
+    {
+      "time": 7.96875,
+      "kappa": 0.2919304913434933,
+      "phi_abs": 0.8632150534986407,
+      "V_abs": 0.13719093008608932,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 9.435731528009575e-08
+    },
+    {
+      "time": 8.046875,
+      "kappa": 0.2904880878048936,
+      "phi_abs": 0.8433263473974367,
+      "V_abs": 0.1367373538610761,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.640598848362268e-06
+    },
+    {
+      "time": 8.125,
+      "kappa": 0.2892883854387218,
+      "phi_abs": 0.8235763157046259,
+      "V_abs": 0.13555102694506685,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 4.726815812520391e-06
+    },
+    {
+      "time": 8.203125,
+      "kappa": 0.28827800574241197,
+      "phi_abs": 0.8040630334274329,
+      "V_abs": 0.13384849749828723,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0454009838445425e-06
+    },
+    {
+      "time": 8.28125,
+      "kappa": 0.2874491791807546,
+      "phi_abs": 0.7848544488981092,
+      "V_abs": 0.13178583725534868,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 9.339862038699144e-06
+    },
+    {
+      "time": 8.359375,
+      "kappa": 0.28675840612574405,
+      "phi_abs": 0.7659956710135912,
+      "V_abs": 0.1294961550827316,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 6.4969720189445465e-06
+    },
+    {
+      "time": 8.4375,
+      "kappa": 0.28620594215879785,
+      "phi_abs": 0.7475137969696103,
+      "V_abs": 0.12707043768184761,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.3570494801409939e-05
+    },
+    {
+      "time": 8.515625,
+      "kappa": 0.2857548326646835,
+      "phi_abs": 0.7294225131199689,
+      "V_abs": 0.12459073904730433,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.0469063600780174e-05
+    },
+    {
+      "time": 8.59375,
+      "kappa": 0.2854106935302551,
+      "phi_abs": 0.7117248499083249,
+      "V_abs": 0.12210866726653646,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.7262609662447132e-05
+    },
+    {
+      "time": 8.671875,
+      "kappa": 0.2851409788391031,
+      "phi_abs": 0.6944161420082193,
+      "V_abs": 0.11967529004759078,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.3871604298655229e-05
+    },
+    {
+      "time": 8.75,
+      "kappa": 0.28495494546393757,
+      "phi_abs": 0.6774855386231837,
+      "V_abs": 0.11731857300543447,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.037440480605494e-05
+    },
+    {
+      "time": 8.828125,
+      "kappa": 0.28482306619661907,
+      "phi_abs": 0.6609179657899125,
+      "V_abs": 0.11507083028793358,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.669743468513212e-05
+    },
+    {
+      "time": 8.90625,
+      "kappa": 0.2847571094633593,
+      "phi_abs": 0.6446948946130192,
+      "V_abs": 0.11294591308304983,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.29230444827854e-05
+    },
+    {
+      "time": 8.984375,
+      "kappa": 0.28472964401392115,
+      "phi_abs": 0.6287956962461734,
+      "V_abs": 0.1109647988787812,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.8980296887822464e-05
+    },
+    {
+      "time": 9.0625,
+      "kappa": 0.28475419154529447,
+      "phi_abs": 0.6131979709727864,
+      "V_abs": 0.10913296715410718,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.495308921191599e-05
+    },
+    {
+      "time": 9.140625,
+      "kappa": 0.2848047897993229,
+      "phi_abs": 0.5978785337836574,
+      "V_abs": 0.1074645539735951,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0771328329387442e-05
+    },
+    {
+      "time": 9.21875,
+      "kappa": 0.2848961920068188,
+      "phi_abs": 0.582813487833613,
+      "V_abs": 0.10596012090440095,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.6519167233016817e-05
+    },
+    {
+      "time": 9.296875,
+      "kappa": 0.2850034677702497,
+      "phi_abs": 0.5679789880733275,
+      "V_abs": 0.10462969609563762,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.212642568213389e-05
+    },
+    {
+      "time": 9.375,
+      "kappa": 0.2851422330012721,
+      "phi_abs": 0.5533511725164343,
+      "V_abs": 0.10347100160339755,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.7676872167299943e-05
+    },
+    {
+      "time": 9.453125,
+      "kappa": 0.2852882755531925,
+      "phi_abs": 0.538906798787693,
+      "V_abs": 0.10249163773276057,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.309979297830632e-05
+    },
+    {
+      "time": 9.53125,
+      "kappa": 0.28545780524622266,
+      "phi_abs": 0.5246231068382807,
+      "V_abs": 0.10168774867212771,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.847828976286154e-05
+    },
+    {
+      "time": 9.609375,
+      "kappa": 0.28562709584908247,
+      "phi_abs": 0.5104783942825618,
+      "V_abs": 0.10106556765067877,
+      "incoming_radial_defect": -3.469446951953614e-18,
+      "incoming_kappa_defect": 2.3740932753190915e-05
+    },
+    {
+      "time": 9.6875,
+      "kappa": 0.28581274840872195,
+      "phi_abs": 0.49645186366755295,
+      "V_abs": 0.10062044956380672,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.8970057981059016e-05
+    },
+    {
+      "time": 9.765625,
+      "kappa": 0.2859913440543484,
+      "phi_abs": 0.4825241891574008,
+      "V_abs": 0.100357969556069,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.4093477014352268e-05
+    },
+    {
+      "time": 9.84375,
+      "kappa": 0.28617971608331116,
+      "phi_abs": 0.46867739466417546,
+      "V_abs": 0.10027321994553204,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.9192755391333006e-05
+    },
+    {
+      "time": 9.921875,
+      "kappa": 0.28635460984086464,
+      "phi_abs": 0.45489546331580255,
+      "V_abs": 0.1003716386580388,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.419496355017924e-05
+    },
+    {
+      "time": 10.0,
+      "kappa": 0.2865329604323852,
+      "phi_abs": 0.4411642979012127,
+      "V_abs": 0.10064844811943695,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.9180936138392582e-05
+    },
+    {
+      "time": 10.078125,
+      "kappa": 0.2866915570321623,
+      "phi_abs": 0.42747243554348346,
+      "V_abs": 0.101109379389185,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.407703891708787e-05
+    },
+    {
+      "time": 10.15625,
+      "kappa": 0.286847323989201,
+      "phi_abs": 0.4138111605565515,
+      "V_abs": 0.10175011810645884,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.8963424712123757e-05
+    },
+    {
+      "time": 10.234375,
+      "kappa": 0.28697698761455687,
+      "phi_abs": 0.4001754130637095,
+      "V_abs": 0.10257708390962109,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.3765789141517523e-05
+    },
+    {
+      "time": 10.3125,
+      "kappa": 0.2870973590043004,
+      "phi_abs": 0.38656416155637235,
+      "V_abs": 0.10358674020490713,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.8563642729648086e-05
+    },
+    {
+      "time": 10.390625,
+      "kappa": 0.2871850017968543,
+      "phi_abs": 0.37298164266572287,
+      "V_abs": 0.10478658607378102,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.328203509707299e-05
+    },
+    {
+      "time": 10.46875,
+      "kappa": 0.28725651536133506,
+      "phi_abs": 0.3594381650474234,
+      "V_abs": 0.10617418066828885,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.7999847148889928e-05
+    },
+    {
+      "time": 10.546875,
+      "kappa": 0.28728820229373336,
+      "phi_abs": 0.3459518975380479,
+      "V_abs": 0.10775850621859207,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.264147757846869e-05
+    },
+    {
+      "time": 10.625,
+      "kappa": 0.28729635082572574,
+      "phi_abs": 0.3325503760712566,
+      "V_abs": 0.10953855267230427,
+      "incoming_radial_defect": -3.469446951953614e-18,
+      "incoming_kappa_defect": 2.7285166306432642e-05
+    },
+    {
+      "time": 10.703125,
+      "kappa": 0.2872569009548827,
+      "phi_abs": 0.3192731719800696,
+      "V_abs": 0.11152521571501656,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.1854615446179003e-05
+    },
+    {
+      "time": 10.78125,
+      "kappa": 0.28718572505073453,
+      "phi_abs": 0.30617449812226966,
+      "V_abs": 0.1137192813370782,
+      "incoming_radial_defect": 3.469446951953614e-18,
+      "incoming_kappa_defect": 2.642737307574472e-05
+    },
+    {
+      "time": 10.859375,
+      "kappa": 0.28705829157480883,
+      "phi_abs": 0.29332719367391236,
+      "V_abs": 0.11613403225314516,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0926352521691982e-05
+    },
+    {
+      "time": 10.9375,
+      "kappa": 0.28688994288972297,
+      "phi_abs": 0.28082686450455485,
+      "V_abs": 0.11877246433340863,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.542829736112048e-05
+    },
+    {
+      "time": 11.015625,
+      "kappa": 0.28665555556265815,
+      "phi_abs": 0.2687974810489341,
+      "V_abs": 0.12165078866982311,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.9855187265609302e-05
+    },
+    {
+      "time": 11.09375,
+      "kappa": 0.2863698143490849,
+      "phi_abs": 0.25739699258827003,
+      "V_abs": 0.12477470082635815,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.4282781148159017e-05
+    },
+    {
+      "time": 11.171875,
+      "kappa": 0.28600686801612696,
+      "phi_abs": 0.2468236626830385,
+      "V_abs": 0.12816398592477904,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.8631866305302273e-05
+    },
+    {
+      "time": 11.25,
+      "kappa": 0.28558059851779527,
+      "phi_abs": 0.23732083049030353,
+      "V_abs": 0.13182764638981548,
+      "incoming_radial_defect": -3.469446951953614e-18,
+      "incoming_kappa_defect": 2.2976965651707764e-05
+    },
+    {
+      "time": 11.328125,
+      "kappa": 0.28506427115114596,
+      "phi_abs": 0.22917926507297107,
+      "V_abs": 0.1357898447056404,
+      "incoming_radial_defect": 3.469446951953614e-18,
+      "incoming_kappa_defect": 1.7237316412154013e-05
+    },
+    {
+      "time": 11.40625,
+      "kappa": 0.28447079781601414,
+      "phi_abs": 0.22273322716844712,
+      "V_abs": 0.14006367539763742,
+      "incoming_radial_defect": 3.469446951953614e-18,
+      "incoming_kappa_defect": 2.148577175131376e-05
+    },
+    {
+      "time": 11.484375,
+      "kappa": 0.2837723803674759,
+      "phi_abs": 0.21834790033151974,
+      "V_abs": 0.1446787175297543,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.563951874798657e-05
+    },
+    {
+      "time": 11.5625,
+      "kappa": 0.282980766694378,
+      "phi_abs": 0.21639522882479692,
+      "V_abs": 0.14965321136203613,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.976913304187374e-05
+    },
+    {
+      "time": 11.640625,
+      "kappa": 0.2820668859978729,
+      "phi_abs": 0.21722010032607308,
+      "V_abs": 0.15502354404573873,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.378900332536309e-05
+    },
+    {
+      "time": 11.71875,
+      "kappa": 0.28104109635696667,
+      "phi_abs": 0.22110320988419732,
+      "V_abs": 0.16081456048608864,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.776654251405387e-05
+    },
+    {
+      "time": 11.796875,
+      "kappa": 0.279872810519878,
+      "phi_abs": 0.22823187927024993,
+      "V_abs": 0.1670713775478273,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.161226374731376e-05
+    },
+    {
+      "time": 11.875,
+      "kappa": 0.2785707334534972,
+      "phi_abs": 0.23868923191802152,
+      "V_abs": 0.17382752309993732,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.5389139291256302e-05
+    },
+    {
+      "time": 11.953125,
+      "kappa": 0.27710247698619017,
+      "phi_abs": 0.2524646703321068,
+      "V_abs": 0.18113957626895777,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 9.002218828025493e-06
+    },
+    {
+      "time": 12.03125,
+      "kappa": 0.27547478559694655,
+      "phi_abs": 0.2694809503063788,
+      "V_abs": 0.18905279167417766,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.250816553070272e-05
+    },
+    {
+      "time": 12.109375,
+      "kappa": 0.2736531378054977,
+      "phi_abs": 0.2896266154852815,
+      "V_abs": 0.19763921379105515,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 5.8042452816431755e-06
+    },
+    {
+      "time": 12.1875,
+      "kappa": 0.2716419578331304,
+      "phi_abs": 0.3127861634507701,
+      "V_abs": 0.20696041322395203,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 8.938023726714713e-06
+    },
+    {
+      "time": 12.265625,
+      "kappa": 0.26940420075894156,
+      "phi_abs": 0.3388615987385273,
+      "V_abs": 0.21710995401011368,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.7955159886299282e-06
+    },
+    {
+      "time": 12.34375,
+      "kappa": 0.2669415463462699,
+      "phi_abs": 0.3677869805903963,
+      "V_abs": 0.2281728679217851,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 4.410978803981036e-06
+    },
+    {
+      "time": 12.421875,
+      "kappa": 0.26421396293450217,
+      "phi_abs": 0.3995353975477279,
+      "V_abs": 0.24027372632921246,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.3461278335676837e-06
+    },
+    {
+      "time": 12.5,
+      "kappa": 0.2612198767228569,
+      "phi_abs": 0.4341234906296383,
+      "V_abs": 0.2535325597548049,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.4614006155110661e-06
+    },
+    {
+      "time": 12.578125,
+      "kappa": 0.25791570476987224,
+      "phi_abs": 0.4716125769616865,
+      "V_abs": 0.26812043028898297,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.009030742018138e-05
+    },
+    {
+      "time": 12.65625,
+      "kappa": 0.25429598620328075,
+      "phi_abs": 0.5121112985424539,
+      "V_abs": 0.28421180105733784,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.248857184200048e-06
+    },
+    {
+      "time": 12.734375,
+      "kappa": 0.25031286434178274,
+      "phi_abs": 0.5557771641420518,
+      "V_abs": 0.302050708958471,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.913124591192658e-05
+    },
+    {
+      "time": 12.8125,
+      "kappa": 0.24595615081092687,
+      "phi_abs": 0.6028218932748862,
+      "V_abs": 0.3219004524961155,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.9801807971270736e-05
+    },
+    {
+      "time": 12.890625,
+      "kappa": 0.24117271322290193,
+      "phi_abs": 0.6535168433794883,
+      "V_abs": 0.3441259317440699,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.151757904119038e-05
+    },
+    {
+      "time": 12.96875,
+      "kappa": 0.2359464075180568,
+      "phi_abs": 0.7082043007377666,
+      "V_abs": 0.3691439275136359,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.4423687372295346e-05
+    },
+    {
+      "time": 13.046875,
+      "kappa": 0.23021727261633554,
+      "phi_abs": 0.7673104729553046,
+      "V_abs": 0.39753280914754285,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.888538661732637e-05
+    },
+    {
+      "time": 13.125,
+      "kappa": 0.22396118107590096,
+      "phi_abs": 0.831367891189883,
+      "V_abs": 0.4299935838454768,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.519263720322337e-05
+    },
+    {
+      "time": 13.203125,
+      "kappa": 0.21710860712377933,
+      "phi_abs": 0.901043552469884,
+      "V_abs": 0.46751278649356015,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.391278274176472e-05
+    },
+    {
+      "time": 13.28125,
+      "kappa": 0.20962362833098533,
+      "phi_abs": 0.977184576495007,
+      "V_abs": 0.5113659936464785,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.562094571864962e-05
+    },
+    {
+      "time": 13.359375,
+      "kappa": 0.2014216726476686,
+      "phi_abs": 1.060881020996115,
+      "V_abs": 0.563403950869091,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00011130516412745972
+    },
+    {
+      "time": 13.4375,
+      "kappa": 0.19244688700357862,
+      "phi_abs": 1.1535681548463323,
+      "V_abs": 0.6262067405220066,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00013217699065085463
+    },
+    {
+      "time": 13.515625,
+      "kappa": 0.1825871678553435,
+      "phi_abs": 1.2571823032226914,
+      "V_abs": 0.7037262319877678,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00017023791158987607
+    },
+    {
+      "time": 13.59375,
+      "kappa": 0.17174685081052976,
+      "phi_abs": 1.3744288135471199,
+      "V_abs": 0.8020309607089429,
+      "incoming_radial_defect": 1.734723475976807e-18,
+      "incoming_kappa_defect": -0.0002083844873731814
+    },
+    {
+      "time": 13.671875,
+      "kappa": 0.1597532135645649,
+      "phi_abs": 1.5092460964276173,
+      "V_abs": 0.9313244139943254,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002716124873585812
+    },
+    {
+      "time": 13.75,
+      "kappa": 0.1464125688255623,
+      "phi_abs": 1.6677034994121092,
+      "V_abs": 1.1096815737297354,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00034854046571834946
+    },
+    {
+      "time": 13.828125,
+      "kappa": 0.1313812315464578,
+      "phi_abs": 1.8598840689674685,
+      "V_abs": 1.3732018993995398,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0004762880748392464
+    },
+    {
+      "time": 13.90625,
+      "kappa": 0.11413494228865287,
+      "phi_abs": 2.104515754503896,
+      "V_abs": 1.8050027524315289,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0006729679279583494
+    },
+    {
+      "time": 13.984375,
+      "kappa": 0.09358102544256063,
+      "phi_abs": 2.4432523312458274,
+      "V_abs": 2.6532192615776244,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0010647157616686504
+    },
+    {
+      "time": 14.0625,
+      "kappa": 0.06691981839147511,
+      "phi_abs": 3.012177919920325,
+      "V_abs": 5.210251063660318,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.002068412523552629
+    }
+  ],
+  "initial_data": {
+    "parameters": {
+      "amplitude": 0.4,
+      "frequency": 0.15,
+      "direction": 0.5,
+      "radius": 10.0,
+      "width": 4.0
+    },
+    "coupling": 0.6,
+    "initial_gauge": "initial proper distance; Omega^2=1; A_u=A_v=0; ell=0",
+    "ADM_mass": 6.149732225501647,
+    "ADM_charge": 5.768430178544536,
+    "minimum_sampled_initial_f": 0.27629903164504743,
+    "proper_support": 16.665150992326783,
+    "proper_max": 111.90213859688562,
+    "initialization_tolerance": 2e-11,
+    "initialization_error_certified": false,
+    "all_radius_initial_positivity_certified": false
+  },
+  "diagnostics": {
+    "fixed_radius_samples": [
+      {
+        "time": 0.0,
+        "axis_proper_time": 0.0,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.0,
+            "renormalized_mass": 0.0,
+            "charge": 0.0,
+            "f": 1.0
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.9472780540716212,
+            "renormalized_mass": 2.1993578362087023,
+            "charge": 2.2453497818250105,
+            "f": 0.6105443891856758
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 4.961344665440913,
+            "renormalized_mass": 6.149729905610318,
+            "charge": 5.768430178544536,
+            "f": 0.2912364763655839
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539229887016,
+            "renormalized_mass": 6.149731849971718,
+            "charge": 5.768430178544536,
+            "f": 0.6031757692937846
+          }
+        ]
+      },
+      {
+        "time": 0.9375,
+        "axis_proper_time": 0.9375,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.0,
+            "renormalized_mass": 0.0,
+            "charge": 0.0,
+            "f": 1.0
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.8515708299300617,
+            "renormalized_mass": 1.9994050049277259,
+            "charge": 1.7195009450283196,
+            "f": 0.6296858340139877
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 4.931135221261004,
+            "renormalized_mass": 6.119488387786788,
+            "charge": 5.768352335175266,
+            "f": 0.29555211124842806
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539335152191,
+            "renormalized_mass": 6.149731955236893,
+            "charge": 5.768430178544536,
+            "f": 0.6031757617748434
+          }
+        ]
+      },
+      {
+        "time": 1.875,
+        "axis_proper_time": 1.875,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.039134851781867805,
+            "renormalized_mass": 0.039134851807395316,
+            "charge": 1.597733192081406e-05,
+            "f": 0.9843460592872528
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.716825580029838,
+            "renormalized_mass": 1.7975923889269996,
+            "charge": 1.2709587632741015,
+            "f": 0.6566348839940324
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 4.43406328118307,
+            "renormalized_mass": 5.616074479758925,
+            "charge": 5.752939558184491,
+            "f": 0.3665623884024186
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539567031732,
+            "renormalized_mass": 6.1497321871164345,
+            "charge": 5.768430178544536,
+            "f": 0.6031757452120191
+          }
+        ]
+      },
+      {
+        "time": 2.8125,
+        "axis_proper_time": 2.8125,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.15362674594776127,
+            "renormalized_mass": 0.1536272227075083,
+            "charge": 0.0021834828761347932,
+            "f": 0.9385493016208954
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.545104319636875,
+            "renormalized_mass": 1.595913990124181,
+            "charge": 1.0080641892985391,
+            "f": 0.690979136072625
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 3.7515835584346293,
+            "renormalized_mass": 4.887221058139341,
+            "charge": 5.638958236388343,
+            "f": 0.46405949165219584
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539115536078,
+            "renormalized_mass": 6.14973173562078,
+            "charge": 5.768430178544536,
+            "f": 0.6031757774617087
+          }
+        ]
+      },
+      {
+        "time": 3.75,
+        "axis_proper_time": 3.75,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.20649372487318138,
+            "renormalized_mass": 0.2065103506157566,
+            "charge": 0.012894084913331811,
+            "f": 0.9174025100507275
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.3741552175650358,
+            "renormalized_mass": 1.420843055680805,
+            "charge": 0.9663109035478087,
+            "f": 0.7251689564869929
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 3.295117858729815,
+            "renormalized_mass": 4.315514790727263,
+            "charge": 5.345195421678102,
+            "f": 0.5292688773243122
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.5555389729742926,
+            "renormalized_mass": 6.149731593058995,
+            "charge": 5.768430178544536,
+            "f": 0.6031757876446934
+          }
+        ]
+      },
+      {
+        "time": 4.6875,
+        "axis_proper_time": 4.6875,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.22292989255632367,
+            "renormalized_mass": 0.22305657935242493,
+            "charge": 0.03559308866918776,
+            "f": 0.9108280429774706
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 1.033188811600992,
+            "renormalized_mass": 1.0687941100631055,
+            "charge": 0.843863714851085,
+            "f": 0.7933622376798016
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 3.052946909587894,
+            "renormalized_mass": 3.899839886008928,
+            "charge": 4.869599915782503,
+            "f": 0.5638647272017294
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539651878885,
+            "renormalized_mass": 6.149732271963587,
+            "charge": 5.768430178544536,
+            "f": 0.6031757391515082
+          }
+        ]
+      },
+      {
+        "time": 5.625,
+        "axis_proper_time": 5.625,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.2229498909989699,
+            "renormalized_mass": 0.22346100688438159,
+            "charge": 0.07149236920201292,
+            "f": 0.910820043600412
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8205403668614498,
+            "renormalized_mass": 0.8428523763494006,
+            "charge": 0.6680121179731818,
+            "f": 0.8358919266277101
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.9141913294534096,
+            "renormalized_mass": 3.565117957797876,
+            "charge": 4.269185589037453,
+            "f": 0.5836869529352272
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555538982627814,
+            "renormalized_mass": 6.149731602712516,
+            "charge": 5.768430178544536,
+            "f": 0.6031757869551562
+          }
+        ]
+      },
+      {
+        "time": 6.5625,
+        "axis_proper_time": 6.555267157018603,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.22910116881670506,
+            "renormalized_mass": 0.23074750029736635,
+            "charge": 0.12830944940499422,
+            "f": 0.908359532473318
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8308315459590855,
+            "renormalized_mass": 0.8535701004208649,
+            "charge": 0.6743671768670149,
+            "f": 0.8338336908081829
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.8098113669125317,
+            "renormalized_mass": 3.277608073444459,
+            "charge": 3.619158435727008,
+            "f": 0.5985983761553526
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539430775357,
+            "renormalized_mass": 6.1497320508600595,
+            "charge": 5.768430178544536,
+            "f": 0.6031757549446173
+          }
+        ]
+      },
+      {
+        "time": 7.5,
+        "axis_proper_time": 7.243402173367269,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.29809176466469384,
+            "renormalized_mass": 0.3036914872194206,
+            "charge": 0.23663732915004657,
+            "f": 0.8807632941341225
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8398417636653245,
+            "renormalized_mass": 0.8631433184437161,
+            "charge": 0.682664702154602,
+            "f": 0.8320316472669351
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.7102060818879377,
+            "renormalized_mass": 3.028681407361181,
+            "charge": 2.9861863828721096,
+            "f": 0.6128277025874375
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539290701769,
+            "renormalized_mass": 6.149731910786471,
+            "charge": 5.768430178544536,
+            "f": 0.6031757649498737
+          }
+        ]
+      },
+      {
+        "time": 8.4375,
+        "axis_proper_time": 7.79405331162623,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.5486606942371184,
+            "renormalized_mass": 0.5685774289433775,
+            "charge": 0.44628169026142167,
+            "f": 0.7805357223051527
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8476235384027294,
+            "renormalized_mass": 0.8715125889628663,
+            "charge": 0.691217050717601,
+            "f": 0.830475292319454
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.6026027405078027,
+            "renormalized_mass": 2.811297402502479,
+            "charge": 2.4173230102431367,
+            "f": 0.6281996084988853
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539062711555,
+            "renormalized_mass": 6.149731682796257,
+            "charge": 5.768430178544536,
+            "f": 0.603175781234889
+          }
+        ]
+      },
+      {
+        "time": 9.375,
+        "axis_proper_time": 8.328538311450227,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.7586485744421135,
+            "renormalized_mass": 0.7980910481073052,
+            "charge": 0.6280324328025724,
+            "f": 0.6965405702231546
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8543358694680391,
+            "renormalized_mass": 0.8788275618466304,
+            "charge": 0.6998813096317308,
+            "f": 0.8291328261063922
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.477675237915406,
+            "renormalized_mass": 2.611873984405493,
+            "charge": 1.9384439382459382,
+            "f": 0.6460463945835134
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.5555390393215545,
+            "renormalized_mass": 6.149731659406257,
+            "charge": 5.768430178544536,
+            "f": 0.6031757829056033
+          }
+        ]
+      },
+      {
+        "time": 10.3125,
+        "axis_proper_time": 8.865082095841919,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.7765633762438036,
+            "renormalized_mass": 0.8163601775353003,
+            "charge": 0.6308470598449103,
+            "f": 0.6893746495024786
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8601116513567229,
+            "renormalized_mass": 0.8852133389194005,
+            "charge": 0.7085434011079018,
+            "f": 0.8279776697286554
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.3222356471343844,
+            "renormalized_mass": 2.4088515873208904,
+            "charge": 1.5573202384937301,
+            "f": 0.6682520504093736
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539055545976,
+            "renormalized_mass": 6.149731675630679,
+            "charge": 5.768430178544536,
+            "f": 0.603175781746716
+          }
+        ]
+      },
+      {
+        "time": 11.25,
+        "axis_proper_time": 9.403017743878905,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.7917344316865373,
+            "renormalized_mass": 0.8319538599490697,
+            "charge": 0.6341878922096537,
+            "f": 0.683306227325385
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8650625151132777,
+            "renormalized_mass": 0.8907748354834454,
+            "charge": 0.7171097596626009,
+            "f": 0.8269874969773445
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 2.1125557828592565,
+            "renormalized_mass": 2.1699985762610785,
+            "charge": 1.2682264053594756,
+            "f": 0.6982063167343919
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539129953348,
+            "renormalized_mass": 6.14973175003805,
+            "charge": 5.768430178544536,
+            "f": 0.6031757764319037
+          }
+        ]
+      },
+      {
+        "time": 12.1875,
+        "axis_proper_time": 9.928436715897863,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.804231198599462,
+            "renormalized_mass": 0.8450238822353976,
+            "charge": 0.6386915032778779,
+            "f": 0.6783075205602151
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8692825685642931,
+            "renormalized_mass": 0.8956001413860006,
+            "charge": 0.7255008314496614,
+            "f": 0.8261434862871414
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 1.8033485713416797,
+            "renormalized_mass": 1.8431198886333209,
+            "charge": 1.05527100034349,
+            "f": 0.7423787755226172
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539489745728,
+            "renormalized_mass": 6.14973210983043,
+            "charge": 5.768430178544536,
+            "f": 0.603175750732448
+          }
+        ]
+      },
+      {
+        "time": 13.125,
+        "axis_proper_time": 10.401155193351027,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.8143316191546656,
+            "renormalized_mass": 0.8557901789707113,
+            "charge": 0.6438832177968742,
+            "f": 0.6742673523381337
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8728512299260646,
+            "renormalized_mass": 0.8997630348570314,
+            "charge": 0.7336457582643926,
+            "f": 0.825429754014787
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 1.3280558864442102,
+            "renormalized_mass": 1.3567363749770451,
+            "charge": 0.8961326235102578,
+            "f": 0.81027773050797
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539370339325,
+            "renormalized_mass": 6.149731990424027,
+            "charge": 5.768430178544536,
+            "f": 0.6031757592614768
+          }
+        ]
+      },
+      {
+        "time": 14.0625,
+        "axis_proper_time": 10.708286176971866,
+        "areal_radius_monotone": true,
+        "gates": [
+          {
+            "radius": 5.0,
+            "covered": true,
+            "hawking_mass": 0.8222433068694774,
+            "renormalized_mass": 0.8644027350181844,
+            "charge": 0.6493029196662137,
+            "f": 0.6711026772522091
+          },
+          {
+            "radius": 10.0,
+            "covered": true,
+            "hawking_mass": 0.8758350175547843,
+            "renormalized_mass": 0.9033244489267693,
+            "charge": 0.7414773276639682,
+            "f": 0.8248329964890431
+          },
+          {
+            "radius": 14.0,
+            "covered": true,
+            "hawking_mass": 0.9072468731053006,
+            "renormalized_mass": 0.9297302080719588,
+            "charge": 0.7934313953117996,
+            "f": 0.8703933038420999
+          },
+          {
+            "radius": 28.0,
+            "covered": true,
+            "hawking_mass": 5.555539189748832,
+            "renormalized_mass": 6.1497318098335345,
+            "charge": 5.768430178544536,
+            "f": 0.6031757721607978
+          }
+        ]
+      }
+    ],
+    "null_ray_budgets": [
+      {
+        "u": -6.0,
+        "initial_time": 0.0,
+        "initial_Q": -3.644929728090357e-54,
+        "initial_expansion": 0.5,
+        "maximum_transport_defect": 7.579038011862327e-05,
+        "minimum_necessary_slack": 0.42725434526210243,
+        "final_time": 14.0625,
+        "final_radius": 13.645768200960502,
+        "final_Q": 0.7809188993230615,
+        "final_expansion": 0.39658405338825775,
+        "minimum_charge_cost": 0.021212572789766564,
+        "phase_excess": 0.030595426735273254,
+        "integrated_focusing": 0.10334108147317081,
+        "amplitude_cost": 0.05153308194813099,
+        "weighted_amplitude_capacity": 79.85755708862487
+      },
+      {
+        "u": 0.0,
+        "initial_time": 0.0390625,
+        "initial_Q": 0.0,
+        "initial_expansion": 0.5,
+        "maximum_transport_defect": 7.723806882981715e-06,
+        "minimum_necessary_slack": 0.3857846736363031,
+        "final_time": 14.0625,
+        "final_radius": 8.862533822322535,
+        "final_Q": 0.7261450396079828,
+        "final_expansion": 0.34368148859910475,
+        "minimum_charge_cost": 0.030321073619946765,
+        "phase_excess": 0.04382398807278076,
+        "integrated_focusing": 0.15631914556518375,
+        "amplitude_cost": 0.08217408387245623,
+        "weighted_amplitude_capacity": 48.30584397765764
+      },
+      {
+        "u": 6.0,
+        "initial_time": 6.015625,
+        "initial_Q": 1.5915760729588587e-35,
+        "initial_expansion": 0.4999999999999918,
+        "maximum_transport_defect": 0.0007975777272096578,
+        "minimum_necessary_slack": 0.22727581506486744,
+        "final_time": 14.0625,
+        "final_radius": 3.732302491541317,
+        "final_Q": 0.6015668813167315,
+        "final_expansion": 0.16821338446151185,
+        "minimum_charge_cost": 0.06084850138811919,
+        "phase_excess": 0.07158692915298619,
+        "integrated_focusing": 0.3311274130732674,
+        "amplitude_cost": 0.198691982532162,
+        "weighted_amplitude_capacity": 16.520205667519118
+      },
+      {
+        "u": 10.0,
+        "initial_time": 10.0390625,
+        "initial_Q": 1.6980686330817847e-07,
+        "initial_expansion": 0.8724728397760405,
+        "maximum_transport_defect": 0.00010207656895855344,
+        "minimum_necessary_slack": 0.2151273907979901,
+        "final_time": 14.0625,
+        "final_radius": 1.280923521825012,
+        "final_Q": 0.16454408797194742,
+        "final_expansion": 0.08796081062956652,
+        "minimum_charge_cost": 0.10300846147747583,
+        "phase_excess": 0.1271197692687705,
+        "integrated_focusing": 0.7844652182468209,
+        "amplitude_cost": 0.5543369875005746,
+        "weighted_amplitude_capacity": 0.730109951292101
+      }
+    ],
+    "axis_proper_time": 10.708286176971866,
+    "limitations": [
+      "finite causal diamond, not the whole future",
+      "interpolated diagnostics and trapezoidal integrals have no certified error",
+      "finite-radius mass is not final Bondi mass",
+      "axis proper time uses accepted axis rows only"
+    ]
+  },
+  "requested_time": 30.0,
+  "requested_steps": 768,
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "positive_mass_long_residence_proved": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3",
+    "screen_charge_preserving_shell.py": "9cda548058d76daa5c8e2e4340c5551ee3ab46780a004b1d2b972858e6bac272",
+    "centered_cauchy_diamond.py": "1fffada927c6e1237736cfb2ebf50b8ecd768a2b92de46c6004c86390171a49f",
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  }
+}

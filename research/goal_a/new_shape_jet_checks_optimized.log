@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "refined_roots": [
+    {
+      "beta": 0.003,
+      "refined_max_scaled_residual": 4.3046677333791195e-12,
+      "refined_min_sampled_H": -0.00016046187688126956
+    },
+    {
+      "beta": 0.001,
+      "refined_max_scaled_residual": 2.882376142054668e-14,
+      "refined_min_sampled_H": -4.1575020247294445e-08
+    },
+    {
+      "beta": 0.0003,
+      "refined_max_scaled_residual": 5.720929811431636e-14,
+      "refined_min_sampled_H": 1.0946861756630688e-06
+    },
+    {
+      "beta": 0.0001,
+      "refined_max_scaled_residual": 3.4378690827195766e-13,
+      "refined_min_sampled_H": 3.648993775633234e-07
+    }
+  ],
+  "nonzero_directions": [
+    {
+      "beta": 0.0003,
+      "maximum_error": 5.760870719351274e-07
+    },
+    {
+      "beta": 0.0001,
+      "maximum_error": 6.397731466822876e-08
+    },
+    {
+      "beta": 3e-05,
+      "maximum_error": 1.1506741484125504e-08
+    }
+  ],
+  "smooth_root_box_certified": false,
+  "actual_smooth_member_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false
+}

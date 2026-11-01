@@ -1,0 +1,58 @@
+{
+  "status": "REPRODUCED_BUDGET_FAILURE",
+  "piece": 0,
+  "diagonal": 55,
+  "failure": "charged compression failed on diagonal 55",
+  "worst_cells": [
+    {
+      "cell": [
+        55,
+        0
+      ],
+      "minimum_interval_margin": -4.142185991286693e-14,
+      "worst_component": "A",
+      "diagnostic_spectral_radius": 0.049443588397619996,
+      "r_k_nu_box": [
+        0.09304242166165017,
+        0.49993957183056764,
+        -0.4999997106363839
+      ]
+    },
+    {
+      "cell": [
+        0,
+        55
+      ],
+      "minimum_interval_margin": 1.058005797298399e-12,
+      "worst_component": "pi",
+      "diagnostic_spectral_radius": 0.012067643037697914,
+      "r_k_nu_box": [
+        0.6725952114614383,
+        0.47798783864485384,
+        -0.5220396654603188
+      ]
+    },
+    {
+      "cell": [
+        1,
+        54
+      ],
+      "minimum_interval_margin": 1.2224682330173695e-12,
+      "worst_component": "pi",
+      "diagnostic_spectral_radius": 0.01214218278867771,
+      "r_k_nu_box": [
+        0.6627211372030071,
+        0.47842053464612244,
+        -0.5214260019459581
+      ]
+    }
+  ],
+  "spectral_values_are_float_diagnostics_only": true,
+  "actual_spacetime_breakdown_proved": false,
+  "goal_A_proved": false,
+  "input_sha256": {
+    "FROZEN_CHARGED_RECTANGLE_ATTEMPT_2026-10-17.json": "ba6f4444d24a5b0c28bb608cfb1966fa7667ae1ce30179a2657f3654ccf19691",
+    "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz": "c41c13ae6e564a2d618d3271a7bc97c0177548993eb590bde94613cb2a588e3b",
+    "attempt_charged_rectangle.py": "20edda2635202176c9c8f0f4133d0963aa47562911d711a8666f16267023c6a7"
+  }
+}

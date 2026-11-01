@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "current_source_hashes_checked": 31,
+  "ordinary_optimized_comparisons": 3,
+  "goal_A_proved": false,
+  "reports": [
+    "NEW_SHAPE_CONSTRAINT_CERTIFICATE_2026-10-17.json",
+    "NEW_SHAPE_SCREEN_N128_2026-10-17.json",
+    "NEW_SHAPE_AUDIT_2026-10-17.json",
+    "NEW_SHAPE_AXIS_EXPLORATION_2026-10-17.json"
+  ]
+}

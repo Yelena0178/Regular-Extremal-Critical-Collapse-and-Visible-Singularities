@@ -1,0 +1,31 @@
+{
+  "read_date": "2026-10-24",
+  "provider": "NIST Digital Library of Mathematical Functions, official HTML equations",
+  "raw_page_bytes_saved_or_hashed": false,
+  "entries": [
+    {
+      "url": "https://dlmf.nist.gov/13.4#E1",
+      "equation": "13.4.1",
+      "formula_checked": "OlverM(a,b,z) = integral_0^1 exp(z t) t^(a-1) (1-t)^(b-a-1) dt / [Gamma(a) Gamma(b-a)]",
+      "conditions_checked": "Re(b) > Re(a) > 0",
+      "normalization_warning": "The displayed function is regularized Olver M, not ordinary 1F1."
+    },
+    {
+      "url": "https://dlmf.nist.gov/13.2#E4",
+      "equation": "13.2.4",
+      "formula_checked": "M(a,b,z) = Gamma(b) OlverM(a,b,z)"
+    },
+    {
+      "url": "https://dlmf.nist.gov/13.14#E2",
+      "equation": "13.14.2",
+      "formula_checked": "WhittakerM(kappa,mu,z) = exp(-z/2) z^(1/2+mu) M(1/2+mu-kappa,1+2mu,z)"
+    },
+    {
+      "url": "https://dlmf.nist.gov/5.9#E1",
+      "equation": "5.9.1 with mu=1",
+      "formula_checked": "integral_0^infinity exp(-z t) t^(alpha-1) dt = Gamma(alpha) z^(-alpha)",
+      "conditions_checked": "Re(alpha)>0, Re(z)>0, principal powers; imaginary boundary in the proof is an Abel limit, not an extra source assertion."
+    }
+  ],
+  "scope": "Standard identities only. Uniform endpoint estimates, source-kernel bounds and actual future localization are the local analytic arguments of UPPER16, not theorems attributed to DLMF."
+}

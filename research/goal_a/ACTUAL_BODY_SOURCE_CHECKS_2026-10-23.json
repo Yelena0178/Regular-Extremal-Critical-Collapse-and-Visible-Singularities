@@ -1,0 +1,157 @@
+{
+  "claim_ids": [
+    "BODY11.1",
+    "BODY11.2",
+    "BODY11.3",
+    "BODY11.4",
+    "BODY11.5",
+    "BODY11.6"
+  ],
+  "logic": "PROVED for scoped far-reference source kernels and actual finite-window terminal-freezing source estimate; cutoff/causal/full-spatial/high-frequency and Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_ASYMPTOTIC_AND_RADIAL_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "six-order outer polynomial recurrence for both frequency signs",
+    "fixed-r versus scaled conormal differentiation",
+    "retarded wave equation and compatible envelope derivative",
+    "finite-end Bondi primitive and radial/source/cutoff primitives",
+    "exact complex Hardy boundary balance and actual weak cutoff scaling"
+  ],
+  "finite_asymptotic_residual_controls": [
+    {
+      "sign": -1,
+      "lambda": "0.01",
+      "rho": "4.0",
+      "rho8_abs_residual": "82.2543711914614"
+    },
+    {
+      "sign": -1,
+      "lambda": "0.01",
+      "rho": "8.0",
+      "rho8_abs_residual": "82.31203281974914"
+    },
+    {
+      "sign": -1,
+      "lambda": "0.01",
+      "rho": "16.0",
+      "rho8_abs_residual": "82.34098842485829"
+    },
+    {
+      "sign": -1,
+      "lambda": "0.001",
+      "rho": "4.0",
+      "rho8_abs_residual": "81.32784046466253"
+    },
+    {
+      "sign": -1,
+      "lambda": "0.001",
+      "rho": "8.0",
+      "rho8_abs_residual": "81.33356977579294"
+    },
+    {
+      "sign": -1,
+      "lambda": "0.001",
+      "rho": "16.0",
+      "rho8_abs_residual": "81.33643566498897"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.01",
+      "rho": "4.0",
+      "rho8_abs_residual": "79.99606930757701"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.01",
+      "rho": "8.0",
+      "rho8_abs_residual": "80.05195099286356"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.01",
+      "rho": "16.0",
+      "rho8_abs_residual": "80.08001347688474"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.001",
+      "rho": "4.0",
+      "rho8_abs_residual": "81.1016997184229"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.001",
+      "rho": "8.0",
+      "rho8_abs_residual": "81.10741111811944"
+    },
+    {
+      "sign": 1,
+      "lambda": "0.001",
+      "rho": "16.0",
+      "rho8_abs_residual": "81.11026804844907"
+    }
+  ],
+  "radial_source_norm_controls": [
+    {
+      "outer_radius": "100.0",
+      "constant_charge_norm": "2.525728644308255",
+      "decaying_charge_norm": "1.11350316593809"
+    },
+    {
+      "outer_radius": "1000.0",
+      "constant_charge_norm": "4.828313737302301",
+      "decaying_charge_norm": "1.667102465989873"
+    },
+    {
+      "outer_radius": "10000.0",
+      "constant_charge_norm": "7.130898830296347",
+      "decaying_charge_norm": "1.978414230005442"
+    }
+  ],
+  "cutoff_negative_control": [
+    {
+      "T": "16.0",
+      "model_cutoff_norm_lower_bound": "2.719963374307779"
+    },
+    {
+      "T": "64.0",
+      "model_cutoff_norm_lower_bound": "2.913486254942366"
+    },
+    {
+      "T": "256.0",
+      "model_cutoff_norm_lower_bound": "2.977041230377371"
+    }
+  ],
+  "negative_controls": [
+    "constant charge mismatch is logarithmic in the chosen absolute source norm",
+    "A/Z envelopes alone do not make the full cutoff source norm tend to zero"
+  ],
+  "uniform_analytic_source_kernels_machine_certified": false,
+  "terminal_freezing_assumes_final_charge": false,
+  "far_reference_requires_mass_charge_inequality": false,
+  "actual_low_frequency_body_error_estimated_with_explicit_inputs": true,
+  "actual_future_cutoff_removed": false,
+  "actual_cutoff_source_unweighted_L2_vanishes": true,
+  "actual_filtered_radiation_cutoff_local_limit_exists": true,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "full_spatial_A_or_high_frequency_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_actual_body_source.py": "d918d76e671c85a3795e38d8d20f1aea44be5a326b07730257dd7b815810f8bb",
+    "ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e",
+    "LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5",
+    "WORLD_TUBE_RADIATION_TRANSFER.md": "05f8700fdd7f97e60c9fe91fd891e733b0a19bfa16e4213456c6e8114eb8c403",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "extra_jet_enclosures": 540,
+  "outgoing_constraint_checks": 54,
+  "precision_digits": 80,
+  "scope": "independent finite audit; rational Taylor supplies continuum coverage",
+  "complete_rectangle_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_frozen_charged_u_boundary.py": "beae8dfd6abb8f7d5635ea84657f4922b8098a4e1959a2c62e6a61ca523b66e1",
+    "frozen_charged_u_boundary.py": "22e46e9af12ef774ecfdef8e6c76f0250dcd6435cbf79d6da9477410d86e9aca",
+    "verify_frozen_charged_boundary.py": "401d9a3a2ad8a51c512d18591db97e2425d55f8756a51d1f9b0bb8fd7b31e397",
+    "frozen_charged_boundary.py": "a37bc9993faddc69a3371cc901655db56ab7ff8b1861ca9a75cccb0e49e42a1b",
+    "FROZEN_CHARGED_U_BOUNDARY_2026-10-17.json": "fe64e388adafd0e806672e20589cd8135234e534ae02be953f57a4761ba67d93"
+  }
+}

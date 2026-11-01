@@ -1,0 +1,133 @@
+{
+  "completed": true,
+  "final_time": 2.0,
+  "time_steps": 256,
+  "initial_spatial_intervals": 2721,
+  "spacing": 0.015625,
+  "initial_x_left": 0.5,
+  "initial_x_right": 43.015625,
+  "final_x_left": 2.5,
+  "final_x_right": 41.015625,
+  "maximum_iterations": 6,
+  "maximum_change": 6.608047442568932e-13,
+  "worst": {
+    "time": 2.0,
+    "x": 5.03125,
+    "radius": 14.56018776352308,
+    "lambda_value": 6.682954955729344e-05,
+    "nu": -0.4969680779095141,
+    "Q": 14.53185960202409,
+    "f": 1.3275562812498087e-05
+  },
+  "first_negative_sample": null,
+  "history": [
+    {
+      "time": 0.0,
+      "x": 7.03125,
+      "radius": 14.90596501073157,
+      "lambda_value": 0.0031354358960888344,
+      "nu": -0.049591504546837986,
+      "Q": 14.534665091107279,
+      "f": 0.0006219639339888339
+    },
+    {
+      "time": 0.25,
+      "x": 6.78125,
+      "radius": 14.881131789978546,
+      "lambda_value": 0.0026878759520706083,
+      "nu": -0.049729193999838175,
+      "Q": 14.534817014668304,
+      "f": 0.0005332285093800904
+    },
+    {
+      "time": 0.5,
+      "x": 6.53125,
+      "radius": 14.856239983405118,
+      "lambda_value": 0.0023344340602852037,
+      "nu": -0.049830848746976665,
+      "Q": 14.5338429901812,
+      "f": 0.0004631521948714745
+    },
+    {
+      "time": 0.75,
+      "x": 6.296875,
+      "radius": 14.83212458590497,
+      "lambda_value": 0.0020569957225211716,
+      "nu": -0.049869511893962534,
+      "Q": 14.532680210167884,
+      "f": 0.0004082018790564357
+    },
+    {
+      "time": 1.0,
+      "x": 6.046875,
+      "radius": 14.807198597222309,
+      "lambda_value": 0.0017964440504770055,
+      "nu": -0.049826951007608956,
+      "Q": 14.53176326677905,
+      "f": 0.0003565294288450094
+    },
+    {
+      "time": 1.25,
+      "x": 5.796875,
+      "radius": 14.782299736714048,
+      "lambda_value": 0.0015310715005308578,
+      "nu": -0.04977035344914581,
+      "Q": 14.531557248251252,
+      "f": 0.00030389132421992926
+    },
+    {
+      "time": 1.5,
+      "x": 5.53125,
+      "radius": 14.756631770756112,
+      "lambda_value": 0.0011961909269136298,
+      "nu": -0.049714206800515394,
+      "Q": 14.53182371925335,
+      "f": 0.00023741349630901354
+    },
+    {
+      "time": 1.75,
+      "x": 5.28125,
+      "radius": 14.720783431369478,
+      "lambda_value": 0.0008763828899205228,
+      "nu": -0.14561524220104466,
+      "Q": 14.531754088009537,
+      "f": 0.0001739650191417974
+    },
+    {
+      "time": 2.0,
+      "x": 5.03125,
+      "radius": 14.56018776352308,
+      "lambda_value": 6.682954955729344e-05,
+      "nu": -0.4969680779095141,
+      "Q": 14.53185960202409,
+      "f": 1.3275562812498087e-05
+    }
+  ],
+  "evidence": "E0 second-order characteristic-foot trapezoidal Cauchy scheme",
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "initial_data": {
+    "canonical_input": "ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
+    "canonical_sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "parameter": 1.0,
+    "inner_radius": 2.504636782467196,
+    "outer_support_radius": 16.079685567920432,
+    "outer_support_proper_distance": 28.875158812007516,
+    "radius_max": 18.079685567920432,
+    "proper_distance_max": 43.02466739418984,
+    "ADM_mass": 14.550688965091686,
+    "ADM_charge": 14.551181450427215,
+    "initialization_tolerance": 2e-12,
+    "initial_gauge": "u=t-x, v=t+x; x initial proper distance; Omega^2=1; A_u=A_v=0",
+    "initialization_error_certified": false
+  },
+  "goal_A_proved": false,
+  "source_sha256": {
+    "charged_cauchy_diamond.py": "a0efd160e0576334b9eed1d05199a43044542b60ee55e153b90a72ee903c7295",
+    "canonical_cauchy_data.py": "90954e556fc0fb79c5448cf9f46bac78cc56d345ede20e00eaa75ef602a35ced",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "certify_rotating_af_barrier.py": "26921880d714039a752d88def1fcde16a553f3a2965fc7cfac08ac8e91fe78e9"
+  }
+}

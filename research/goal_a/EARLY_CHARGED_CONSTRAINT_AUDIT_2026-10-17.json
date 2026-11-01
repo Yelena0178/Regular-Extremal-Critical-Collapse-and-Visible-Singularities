@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "precision_digits": 50,
+  "bump_point_comparisons": 72,
+  "independent_RK4_checks": [
+    {
+      "amplitude": "1/5",
+      "frequency": "8",
+      "independent_flow_values": [
+        "0.331312268342920627916829",
+        "1.24884781945917682527201",
+        "0.114669188791700364295742"
+      ],
+      "refinement_differences": [
+        1.8096150401787833e-12,
+        2.7516991291818354e-12,
+        4.569324687107634e-13
+      ]
+    },
+    {
+      "amplitude": "3/10",
+      "frequency": "4",
+      "independent_flow_values": [
+        "0.435624932619762462980675",
+        "1.03223461488859865018495",
+        "0.128508695138872381581506"
+      ],
+      "refinement_differences": [
+        3.542230245487388e-12,
+        4.712930970365835e-12,
+        4.3389004177999425e-13
+      ]
+    }
+  ],
+  "scope": "finite independent audit; rational enclosure supplies the proof",
+  "complete_PDE_rectangle_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_early_charged_constraints.py": "3c9057fdb9671187621d232399ab2ad4335b95655ba92e38508c1355bff9e9d1",
+    "certify_early_charged_constraints.py": "5d5415ff53dfcd564624c2a59f49401c2f22ae519f1d2d0d25c976d692cab53d",
+    "EARLY_CHARGED_CONSTRAINT_CERTIFICATE_N2048_2026-10-17.json": "4196aedcb4de15364c5783c5b078033c7cafb3a7b5a7706958f66a11bacdf81b"
+  }
+}

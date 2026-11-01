@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-16",
+  "evidence": "E0_fixed_time_charged_grid_exploration",
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "goal_A_proved": false,
+  "actual_strict_trapped_sphere_certified": false,
+  "runs": [
+    {
+      "completed_time": 37.4,
+      "center_proper_time": 11.08480489984816,
+      "iterations": 1511,
+      "minimum_sampled_hawking_delta": -0.024209065133035335,
+      "minimum_sampled_spatial_delta": 0.153676604618149,
+      "maximum_observed_characteristic_speed": 0.9463125335152595,
+      "initial_ADM_mass_estimate": 2.1958285358114167,
+      "mass_boundary_drift": 0.011125011475615842,
+      "charge_boundary_drift": -0.0004816819596387134,
+      "minimum_sampled_lapse": 0.030292538849103157,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": {
+        "coordinate_time": 37.22658833571187,
+        "radius": 0.9375,
+        "theta_plus": -0.010699426264056792,
+        "theta_minus": -1.725648805323036,
+        "Hawking_mass": 0.47065167697164806,
+        "charge": -0.042875305258235866,
+        "W": 0.4069566167782249,
+        "z": 0.4019412607169483,
+        "lapse": 0.12789334969728838,
+        "actual_strict_trapped_sphere_certified": false
+      },
+      "stopped_at_trapped_candidate": false,
+      "configuration": {
+        "steps": 512,
+        "outer_radius": 80.0,
+        "final_time": 37.4,
+        "cfl": 0.15,
+        "amplitude": 2.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "lapse_floor": 1e-06,
+        "stop_at_trapped_candidate": false,
+        "slicing": "harmonic"
+      },
+      "fixed_sphere": {
+        "radius": 0.9375,
+        "theta_plus": -0.06346425408354268,
+        "theta_minus": -1.736066182571594,
+        "Hawking_mass": 0.48009799928111035,
+        "charge": -0.03917294137227425,
+        "spatial_delta": 0.153676604618149,
+        "hawking_delta": -0.024209065133035335
+      },
+      "propagation_residuals": {
+        "mass_time_propagation": 0.014191765780861704,
+        "charge_time_propagation": 0.0013092357744698517,
+        "spatial_metric_time_propagation": 0.03944353339768608
+      }
+    },
+    {
+      "completed_time": 37.4,
+      "center_proper_time": 11.062071887758123,
+      "iterations": 3020,
+      "minimum_sampled_hawking_delta": -0.030385188816223874,
+      "minimum_sampled_spatial_delta": 0.15219447404589997,
+      "maximum_observed_characteristic_speed": 0.9462269081468974,
+      "initial_ADM_mass_estimate": 2.199114442099051,
+      "mass_boundary_drift": 0.0028645987269473316,
+      "charge_boundary_drift": -0.00029590522103806194,
+      "minimum_sampled_lapse": 0.028351102151968764,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": {
+        "coordinate_time": 37.1916742962303,
+        "radius": 0.859375,
+        "theta_plus": -0.013642441080955595,
+        "theta_minus": -1.885272074693143,
+        "Hawking_mass": 0.4317279421251989,
+        "charge": -0.055421227207083736,
+        "W": 0.4079699154983415,
+        "z": 0.4021079290963684,
+        "lapse": 0.11834349252201784,
+        "actual_strict_trapped_sphere_certified": false
+      },
+      "stopped_at_trapped_candidate": false,
+      "configuration": {
+        "steps": 1024,
+        "outer_radius": 80.0,
+        "final_time": 37.4,
+        "cfl": 0.15,
+        "amplitude": 2.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "lapse_floor": 1e-06,
+        "stop_at_trapped_candidate": false,
+        "slicing": "harmonic"
+      },
+      "fixed_sphere": {
+        "radius": 0.9375,
+        "theta_plus": -0.03920217216316253,
+        "theta_minus": -1.7506850074131857,
+        "Hawking_mass": 0.47581873964969684,
+        "charge": -0.034860582751384546,
+        "spatial_delta": 0.16090430577514114,
+        "hawking_delta": -0.015079977919353338
+      },
+      "propagation_residuals": {
+        "mass_time_propagation": 0.004277292804124637,
+        "charge_time_propagation": 0.000269679910501891,
+        "spatial_metric_time_propagation": 0.01244403954018905
+      }
+    },
+    {
+      "completed_time": 37.4,
+      "center_proper_time": 11.056218387140117,
+      "iterations": 6040,
+      "minimum_sampled_hawking_delta": -0.028744007860316945,
+      "minimum_sampled_spatial_delta": 0.15234501482432547,
+      "maximum_observed_characteristic_speed": 0.9462054988953869,
+      "initial_ADM_mass_estimate": 2.199937000101802,
+      "mass_boundary_drift": 0.000715786901097637,
+      "charge_boundary_drift": -8.609621453237182e-05,
+      "minimum_sampled_lapse": 0.027841459622882897,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": {
+        "coordinate_time": 37.17984803706603,
+        "radius": 0.859375,
+        "theta_plus": -0.011657314021200514,
+        "theta_minus": -1.8898597354935738,
+        "Hawking_mass": 0.4314352778345732,
+        "charge": -0.0543653509317668,
+        "W": 0.4085290536066898,
+        "z": 0.4035200514882052,
+        "lapse": 0.11852085088386995,
+        "actual_strict_trapped_sphere_certified": false
+      },
+      "stopped_at_trapped_candidate": false,
+      "configuration": {
+        "steps": 2048,
+        "outer_radius": 80.0,
+        "final_time": 37.4,
+        "cfl": 0.15,
+        "amplitude": 2.0,
+        "frequency": 0.2,
+        "coupling": 0.6,
+        "lapse_floor": 1e-06,
+        "stop_at_trapped_candidate": false,
+        "slicing": "harmonic"
+      },
+      "fixed_sphere": {
+        "radius": 0.9375,
+        "theta_plus": -0.02369252045007014,
+        "theta_minus": -1.7518081744380622,
+        "Hawking_mass": 0.4730248576237938,
+        "charge": -0.03399518138213015,
+        "spatial_delta": 0.16404695692153998,
+        "hawking_delta": -0.009119696264093369
+      },
+      "propagation_residuals": {
+        "mass_time_propagation": 0.0011462430567118,
+        "charge_time_propagation": 6.686387658289992e-05,
+        "spatial_metric_time_propagation": 0.0028768591276447375
+      }
+    }
+  ],
+  "full_state_grid_differences": [
+    0.2993155820864752,
+    0.08669908173027813
+  ],
+  "nonlinear_one_plus_log_control": {
+    "configuration": {
+      "steps": 512,
+      "outer_radius": 80.0,
+      "final_time": 30.0,
+      "cfl": 0.15,
+      "amplitude": 2.0,
+      "frequency": 0.0,
+      "coupling": 0.6,
+      "lapse_floor": 1e-06,
+      "stop_at_trapped_candidate": false,
+      "slicing": "1+log"
+    },
+    "stop_reason": "nonpositive face spatial metric",
+    "context": {
+      "last_completed_time": 26.336345397900285,
+      "failed_stage_time": 26.336362678365308,
+      "completed_iterations": 1651,
+      "last_geometry": {
+        "minimum_hawking_delta": -0.18581738408915482,
+        "minimum_spatial_delta": 0.2935035141840072,
+        "minimum_lapse": 0.3889632734554417,
+        "maximum_absolute_face_W": 25.66670430743295
+      },
+      "first_numeric_trapped_observation": null
+    },
+    "classification": "UNKNOWN"
+  },
+  "no_claim": [
+    "rigorous_PDE_error",
+    "genuine_formation",
+    "event_horizon",
+    "final_Bondi_parameters",
+    "critical_endpoint",
+    "full_dispersion"
+  ],
+  "source_sha256": {
+    "areal_shift_evolution.py": "2a6e9685b4a418155e0a37119e97519ca3883277956ec148796858eb2fa7003e",
+    "polar_evolution.py": "bec80ada50a672e2583e32df9420db5ab5308efc82de996d61cd76a2a4eb1462",
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a",
+    "explore_shifted_strong.py": "49b5edd3d8c127b4a2f71f4abb548e39c70a1520e59018ea2aefce35fddb0ea9"
+  }
+}

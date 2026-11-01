@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exact_axis_limits": 9,
+  "exact_charged_coefficients": [
+    "mass_cubic_coefficient",
+    "charge_cubic_coefficient",
+    "potential_quadratic_coefficient"
+  ],
+  "naive_quadrature_leading_factor": "3/2",
+  "corrected_quadrature_leading_factor": "1",
+  "source_sha256": {
+    "verify_regular_axis_limits.py": "17d8261655bc51aae6abe5e0033b64ff2cc3fc61f9a013aec20207ac3735c49e",
+    "centered_cauchy_diamond.py": "5339723e7a01baf4f0b80a3fddd20d28a2756d1d0eff4f9229307f6bf10a6d57",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  },
+  "assumption": "a smooth regular-axis solution exists in the stated gauge",
+  "axis_existence_proved": false,
+  "numerical_stability_proved": false,
+  "goal_A_proved": false
+}

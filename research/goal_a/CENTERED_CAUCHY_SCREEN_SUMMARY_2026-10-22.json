@@ -1,0 +1,299 @@
+{
+  "status": "PASS",
+  "evidence": "E0 finite-record consistency only",
+  "centered_runs": [
+    {
+      "steps": 800,
+      "worst": {
+        "time": 6.25,
+        "x": 1.078125,
+        "radius": 3.2602305168844454,
+        "lambda_value": -1.1137017264501186,
+        "nu": -4.29282064044896,
+        "Q": 0.4542337426958027,
+        "f": -0.37914980090770145
+      },
+      "first_negative": {
+        "time": 6.1171875,
+        "x": 1.2265625,
+        "radius": 4.493490158537759,
+        "lambda_value": -0.02316531010250302,
+        "nu": -4.580355586428732,
+        "Q": 0.34769843599500627,
+        "f": -0.0073583052042884844
+      },
+      "common_point": {
+        "time": 6.25,
+        "x": 1.078125,
+        "u": 5.171875,
+        "radius": 3.2602305168844454,
+        "lambda_value": -1.1137017264501186,
+        "nu": -4.29282064044896,
+        "Q": 0.4542337426958027
+      },
+      "entire_final_row_constraints": {
+        "maximum_absolute": {
+          "radius": 0.05635066377484277,
+          "scalar": 0.2703064015053657,
+          "charge": 0.12425768137491149,
+          "mass": 0.8764275674988468
+        },
+        "x_range": [
+          0.03125,
+          37.4375
+        ]
+      },
+      "negative_signal_neighborhood_constraints": {
+        "maximum_absolute": {
+          "radius": 0.05635066377484277,
+          "scalar": 0.2703064015053657,
+          "charge": 0.12425768137491149,
+          "mass": 0.8764275674988468
+        },
+        "x_range": [
+          0.9375,
+          1.265625
+        ]
+      },
+      "axis_kappa_defect": 0.0059892913789259365,
+      "final_axis": {
+        "time": 6.25,
+        "kappa": 1.463612292976204,
+        "phi_abs": 0.4759814892594085,
+        "V_abs": 1.348997762536891,
+        "incoming_radial_defect": 0.0,
+        "incoming_kappa_defect": -0.005579372530514892
+      }
+    },
+    {
+      "steps": 1600,
+      "worst": {
+        "time": 6.25,
+        "x": 1.0703125,
+        "radius": 3.2357868208517426,
+        "lambda_value": -1.1172421119035914,
+        "nu": -4.249677636447733,
+        "Q": 0.45407595302649073,
+        "f": -0.37640962524136046
+      },
+      "first_negative": {
+        "time": 6.1171875,
+        "x": 1.2265625,
+        "radius": 4.49438969284143,
+        "lambda_value": -0.024340079029090265,
+        "nu": -4.572441805881431,
+        "Q": 0.34975707491736957,
+        "f": -0.007738650190572738
+      },
+      "common_point": {
+        "time": 6.25,
+        "x": 1.078125,
+        "u": 5.171875,
+        "radius": 3.260406219139637,
+        "lambda_value": -1.1154943227519654,
+        "nu": -4.285001823593215,
+        "Q": 0.4554349284428949
+      },
+      "entire_final_row_constraints": {
+        "maximum_absolute": {
+          "radius": 0.022494108064277624,
+          "scalar": 0.14977438714648322,
+          "charge": 0.07717859232169831,
+          "mass": 0.4971040789035941
+        },
+        "x_range": [
+          0.015625,
+          37.453125
+        ]
+      },
+      "negative_signal_neighborhood_constraints": {
+        "maximum_absolute": {
+          "radius": 0.022494108064277624,
+          "scalar": 0.14977438714648322,
+          "charge": 0.07717859232169831,
+          "mass": 0.4971040789035941
+        },
+        "x_range": [
+          0.921875,
+          1.28125
+        ]
+      },
+      "axis_kappa_defect": 0.003711502568336223,
+      "final_axis": {
+        "time": 6.25,
+        "kappa": 1.4657633548402533,
+        "phi_abs": 0.4759663398542156,
+        "V_abs": 1.3478124211150615,
+        "incoming_radial_defect": 0.0,
+        "incoming_kappa_defect": -0.0036001093021863677
+      }
+    },
+    {
+      "steps": 3200,
+      "worst": {
+        "time": 6.25,
+        "x": 1.0703125,
+        "radius": 3.236160936565295,
+        "lambda_value": -1.116300276540594,
+        "nu": -4.244066797303614,
+        "Q": 0.45430327532238873,
+        "f": -0.37599549565963697
+      },
+      "first_negative": {
+        "time": 6.115234375,
+        "x": 1.228515625,
+        "radius": 4.512522619645021,
+        "lambda_value": -0.011239868344363314,
+        "nu": -4.581540070117022,
+        "Q": 0.346908513183058,
+        "f": -0.0035695508182802538
+      },
+      "common_point": {
+        "time": 6.25,
+        "x": 1.078125,
+        "u": 5.171875,
+        "radius": 3.2607791099602252,
+        "lambda_value": -1.1145916435285135,
+        "nu": -4.288393786578275,
+        "Q": 0.4556718009729556
+      },
+      "entire_final_row_constraints": {
+        "maximum_absolute": {
+          "radius": 0.012231033126353624,
+          "scalar": 0.0660680431895914,
+          "charge": 0.033180237865246626,
+          "mass": 0.21729976854245697
+        },
+        "x_range": [
+          0.0078125,
+          37.4609375
+        ]
+      },
+      "negative_signal_neighborhood_constraints": {
+        "maximum_absolute": {
+          "radius": 0.012231033126353624,
+          "scalar": 0.0660680431895914,
+          "charge": 0.033180237865246626,
+          "mass": 0.21729976854245697
+        },
+        "x_range": [
+          0.91015625,
+          1.2890625
+        ]
+      },
+      "axis_kappa_defect": 0.0004490059345829361,
+      "final_axis": {
+        "time": 6.25,
+        "kappa": 1.4689838423064918,
+        "phi_abs": 0.47596494397493055,
+        "V_abs": 1.3455363274572119,
+        "incoming_radial_defect": 0.0,
+        "incoming_kappa_defect": -0.000419072763125061
+      }
+    }
+  ],
+  "successive_grid_comparisons": [
+    {
+      "maximum_state_difference": 0.033294850591476965,
+      "negative_neighborhood_lambda_difference": 0.014014029926117333
+    },
+    {
+      "maximum_state_difference": 0.012928973734190663,
+      "negative_neighborhood_lambda_difference": 0.00605203787375036
+    }
+  ],
+  "exterior_wedges": [
+    {
+      "time": 8,
+      "steps": 2048,
+      "worst": {
+        "time": 2.05078125,
+        "x": 5.088635858324365,
+        "radius": 14.564448768272415,
+        "lambda_value": 0.0003343201577672758,
+        "nu": -0.4930216033756774,
+        "Q": 14.562977120927853,
+        "f": 6.633459897031901e-05
+      },
+      "maximum_outgoing_coordinate": 3.4855828916756337
+    },
+    {
+      "time": 16,
+      "steps": 2048,
+      "worst": {
+        "time": 16.0,
+        "x": 18.998792108324366,
+        "radius": 14.556113185084124,
+        "lambda_value": 3.8270464259842244e-05,
+        "nu": -0.502063104407451,
+        "Q": 14.553478513243652,
+        "f": 9.944493077118643e-06
+      },
+      "maximum_outgoing_coordinate": 3.4855828916756337
+    },
+    {
+      "time": 16,
+      "steps": 4096,
+      "worst": {
+        "time": 16.0,
+        "x": 18.990979608324366,
+        "radius": 14.554115923789853,
+        "lambda_value": 7.071613929703078e-05,
+        "nu": -0.4985556304842287,
+        "Q": 14.555469986826077,
+        "f": 1.836865350335337e-05
+      },
+      "maximum_outgoing_coordinate": 3.4855828916756337
+    }
+  ],
+  "stopped_runs": [
+    {
+      "steps": 1024,
+      "failed_time": 6.515625,
+      "reason": "positive-radius update stopped; outcome UNKNOWN",
+      "first_negative": {
+        "time": 6.1171875,
+        "x": 1.2265625,
+        "radius": 4.493490158537759,
+        "lambda_value": -0.02316531010250302,
+        "nu": -4.580355586428732,
+        "Q": 0.34769843599500627,
+        "f": -0.0073583052042884844
+      }
+    },
+    {
+      "steps": 2048,
+      "failed_time": 6.515625,
+      "reason": "positive-radius update stopped; outcome UNKNOWN",
+      "first_negative": {
+        "time": 6.1171875,
+        "x": 1.2265625,
+        "radius": 4.49438969284143,
+        "lambda_value": -0.024340079029090265,
+        "nu": -4.572441805881431,
+        "Q": 0.34975707491736957,
+        "f": -0.007738650190572738
+      }
+    }
+  ],
+  "candidate_status": "strong negative central samples; early-screen pass not established",
+  "finite_PDE_error_certified": false,
+  "actual_trapped_sphere_certified": false,
+  "singularity_proved": false,
+  "global_endpoint_classified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "summarize_centered_cauchy_screen.py": "32c4ec9e280df7671e1e9eba68a5fc6e07f0f2c352121702b945d491983adc02",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.json": "0dd7888358fe1f2654035847e589c043c211560d063bb10f6b47b7c4ebd6c55b",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N800_2026-10-22.npz": "40f9d7fd662cde7906cb3319cb5737b325035402ce1f7e1bc31c645a655fdf15",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.json": "355fd960e5c9fd33d0b47f9fdf425d0b9048531b28683e83d01b8359c708848c",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N1600_2026-10-22.npz": "aac115323120be831d7a1abd90afb200779628c483f1c23c19c7ab9846fc8100",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.json": "af8da0164411962f8bd3fbd7b86c6a12a73679893a1ea0ed79d470e512bf497f",
+    "CANONICAL_CENTERED_A020_W8_S1001_T625_N3200_2026-10-22.npz": "c545827f9428aa8bdbcc107a76fce06f2f6e7c834ba5f7282791d138606b6ed5",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T8_N2048_2026-10-22.json": "3b19ff71ffe3fa7b91362084e5a9e75266a796935dbf4b372b113e944f566b28",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N2048_2026-10-22.json": "5a8565b79ba843d7852036afe55312db8db822a8d812167be5eca8123d8eab99",
+    "CANONICAL_CAUCHY_A020_W8_S1001_CORE_T16_N4096_2026-10-22.json": "cc0c4bba2d68dd3e4926a91a277c90a348aec02f1e38fa77ac30f15b364ebd3b",
+    "CANONICAL_CENTERED_A020_W8_S1001_T8_N1024_2026-10-22.json": "d3c6151ae70df679e3f98dcd0f069e797b872087368c79cd10382a7410f24a8c",
+    "CANONICAL_CENTERED_A020_W8_S1001_T8_N2048_2026-10-22.json": "90cac57c96799b95cb69505d197b240ae70c79301bebed79535ac73dff538a16"
+  }
+}

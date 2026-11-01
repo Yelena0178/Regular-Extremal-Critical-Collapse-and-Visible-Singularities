@@ -1,0 +1,236 @@
+{
+  "evidence": "E0_C0_early_segment_only",
+  "goal_A_proved": false,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3"
+  },
+  "limit_start": [
+    0.1580159290037361,
+    -0.4499213012844269,
+    -0.691160103329562
+  ],
+  "runs": [
+    {
+      "configuration": {
+        "beta": 0.01,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.04
+      },
+      "parameters": {
+        "s": 0.1578927241699842,
+        "W_real": -0.45441974361233795,
+        "W_imag": -0.698343596590467,
+        "physical_late_amplitude": 0.008331753010523127
+      },
+      "scaled_residual": [
+        1.6653345369377348e-14,
+        1.256633685997599e-14,
+        -3.6980835060873574e-14
+      ],
+      "unscaled_charge_error": 8.326672684688674e-14,
+      "unscaled_J_real": 1.256633685997599e-16,
+      "unscaled_J_imag": -3.6980835060873575e-16,
+      "base_J_over_beta": [
+        0.03980606344699862,
+        -0.025900470123052095
+      ],
+      "late_coefficient": [
+        1.7771828374997905e-06,
+        -0.05699952867665497
+      ],
+      "heldout_Gauss_integral_error": 4.440892098500626e-16,
+      "heldout_late_wave_form_error": 1.1571021919733528e-12,
+      "q_final": 1.0000000000000167,
+      "r_initial": 1.5928515185000756,
+      "centre_normalized_affine_window_length_0_1": 18266.00803467339,
+      "centre_normalized_affine_length_vertex_to_endpoint": 18267.60088619189,
+      "min_sampled_H_over_beta_on_early_segment": 0.008720304488405188,
+      "min_sampled_H_on_late_segment": 6.322904261015777e-05,
+      "min_sampled_H": 6.322904261015777e-05,
+      "min_sampled_late_radius": 4.998867369201817,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 9
+      }
+    },
+    {
+      "configuration": {
+        "beta": 0.003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.04
+      },
+      "parameters": {
+        "s": 0.15800516347101987,
+        "W_real": -0.4512711358657232,
+        "W_imag": -0.6932574285277887,
+        "physical_late_amplitude": 0.0024815848771441444
+      },
+      "scaled_residual": [
+        1.354472090042691e-14,
+        9.665879208142769e-15,
+        -1.8755830222261238e-14
+      ],
+      "unscaled_charge_error": 6.772360450213455e-14,
+      "unscaled_J_real": 2.899763762442831e-17,
+      "unscaled_J_imag": -5.626749066678371e-17,
+      "base_J_over_beta": [
+        0.03979312422533029,
+        -0.025902902750752115
+      ],
+      "late_coefficient": [
+        1.587375803041434e-07,
+        -0.05740010990742291
+      ],
+      "heldout_Gauss_integral_error": 4.440892098500626e-16,
+      "heldout_late_wave_form_error": 1.4526158054204713e-12,
+      "q_final": 1.0000000000000135,
+      "r_initial": 1.5929537011235322,
+      "centre_normalized_affine_window_length_0_1": 60698.11644016838,
+      "centre_normalized_affine_length_vertex_to_endpoint": 60699.7093938695,
+      "min_sampled_H_over_beta_on_early_segment": 0.008747957896923902,
+      "min_sampled_H_on_late_segment": 4.82079076060656e-05,
+      "min_sampled_H": 2.6243873690771707e-05,
+      "min_sampled_late_radius": 4.999899518277486,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 9
+      }
+    },
+    {
+      "configuration": {
+        "beta": 0.001,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.04
+      },
+      "parameters": {
+        "s": 0.15801474284953468,
+        "W_real": -0.4503712346791141,
+        "W_imag": -0.6918538935939904,
+        "physical_late_amplitude": 0.0008255277458132792
+      },
+      "scaled_residual": [
+        0.0,
+        4.85722573273506e-17,
+        -1.734723475976807e-17
+      ],
+      "unscaled_charge_error": 0.0,
+      "unscaled_J_real": 4.85722573273506e-20,
+      "unscaled_J_imag": -1.734723475976807e-20,
+      "base_J_over_beta": [
+        0.03979201465023669,
+        -0.025903108936558998
+      ],
+      "late_coefficient": [
+        1.7600173466512813e-08,
+        -0.05751504341027305
+      ],
+      "heldout_Gauss_integral_error": 2.220446049250313e-16,
+      "heldout_late_wave_form_error": 1.4729398256641066e-12,
+      "q_final": 1.0,
+      "r_initial": 1.5929622766536014,
+      "centre_normalized_affine_window_length_0_1": 182046.2623082699,
+      "centre_normalized_affine_length_vertex_to_endpoint": 182047.85527054657,
+      "min_sampled_H_over_beta_on_early_segment": 0.008750315751916633,
+      "min_sampled_H_on_late_segment": 1.8713808775489064e-05,
+      "min_sampled_H": 8.750315751916634e-06,
+      "min_sampled_late_radius": 4.9999888802942225,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 9
+      }
+    },
+    {
+      "configuration": {
+        "beta": 0.0003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "max_step": 0.04
+      },
+      "parameters": {
+        "s": 0.1580158225631973,
+        "W_real": -0.45005627890845795,
+        "W_imag": -0.6913676874941591,
+        "physical_late_amplitude": 0.0002474845328796032
+      },
+      "scaled_residual": [
+        4.440892098500626e-16,
+        5.620504062164855e-16,
+        -4.718447854656915e-16
+      ],
+      "unscaled_charge_error": 2.220446049250313e-15,
+      "unscaled_J_real": 1.6861512186494564e-19,
+      "unscaled_J_imag": -1.4155343563970744e-19,
+      "base_J_over_beta": [
+        0.03979188933964728,
+        -0.025903132144714066
+      ],
+      "late_coefficient": [
+        1.5828494852790213e-09,
+        -0.057555320196551046
+      ],
+      "heldout_Gauss_integral_error": 4.440892098500626e-16,
+      "heldout_late_wave_form_error": 1.8442192217805217e-13,
+      "q_final": 1.0000000000000004,
+      "r_initial": 1.5929632391099675,
+      "centre_normalized_affine_window_length_0_1": 606802.8105865235,
+      "centre_normalized_affine_length_vertex_to_endpoint": 606804.4035497626,
+      "min_sampled_H_over_beta_on_early_segment": 0.008750581525104457,
+      "min_sampled_H_on_late_segment": 5.887562416645113e-06,
+      "min_sampled_H": 2.625174457531337e-06,
+      "min_sampled_late_radius": 4.9999990006302495,
+      "evidence": "E0_C0_early_segment_float_shooting",
+      "smooth_early_rounding_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "root_solver": {
+        "success": true,
+        "message": "The solution converged.",
+        "function_evaluations": 8
+      }
+    }
+  ],
+  "no_claim": [
+    "rigorous_root_box",
+    "smooth_rounding_resolution",
+    "complete_RN_gluing",
+    "regular_centre_future",
+    "Cauchy_family",
+    "criticality"
+  ],
+  "source_sha256": {
+    "first_jet_shooting.py": "23766f7658fbfe42a75bf99bbb24e90340f8076d6f8fb54f01b44be8100bb0dd",
+    "explore_first_jet.py": "839e43cbb04213e7c09516fc9eaa1eb4cea908e910143c5195ddb032fad6d454"
+  }
+}

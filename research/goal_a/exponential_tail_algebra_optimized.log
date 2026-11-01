@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exact_identities": [
+    "raychaudhuri",
+    "positive_charge_flux",
+    "bessel_norm_derivative",
+    "cumulative_charge_derivative"
+  ],
+  "rational_Bessel_point_comparisons": 130,
+  "precision_digits": 220,
+  "scope": "null constraint identities only; no spacetime or critical curve proof",
+  "actual_smooth_onset_certified": false,
+  "complete_PDE_rectangle_certified": false,
+  "goal_A_proved": false
+}

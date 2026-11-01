@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-16",
+  "evidence": "exact_finite_principal_algebra",
+  "samples": [
+    {
+      "alpha": "1/2",
+      "z": "1/2",
+      "W": "0",
+      "lambda_plus": "1/4",
+      "lambda_minus": "-1/4",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1/2",
+      "z": "1/2",
+      "W": "1/2",
+      "lambda_plus": "1/2",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1/2",
+      "z": "1/2",
+      "W": "1",
+      "lambda_plus": "3/4",
+      "lambda_minus": "1/4",
+      "regime": "inside"
+    },
+    {
+      "alpha": "1/2",
+      "z": "1",
+      "W": "0",
+      "lambda_plus": "1/2",
+      "lambda_minus": "-1/2",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1/2",
+      "z": "1",
+      "W": "1",
+      "lambda_plus": "1",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1/2",
+      "z": "1",
+      "W": "2",
+      "lambda_plus": "3/2",
+      "lambda_minus": "1/2",
+      "regime": "inside"
+    },
+    {
+      "alpha": "1/2",
+      "z": "3/2",
+      "W": "0",
+      "lambda_plus": "3/4",
+      "lambda_minus": "-3/4",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1/2",
+      "z": "3/2",
+      "W": "3/2",
+      "lambda_plus": "3/2",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1/2",
+      "z": "3/2",
+      "W": "3",
+      "lambda_plus": "9/4",
+      "lambda_minus": "3/4",
+      "regime": "inside"
+    },
+    {
+      "alpha": "1",
+      "z": "1/2",
+      "W": "0",
+      "lambda_plus": "1/2",
+      "lambda_minus": "-1/2",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1",
+      "z": "1/2",
+      "W": "1/2",
+      "lambda_plus": "1",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1",
+      "z": "1/2",
+      "W": "1",
+      "lambda_plus": "3/2",
+      "lambda_minus": "1/2",
+      "regime": "inside"
+    },
+    {
+      "alpha": "1",
+      "z": "1",
+      "W": "0",
+      "lambda_plus": "1",
+      "lambda_minus": "-1",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1",
+      "z": "1",
+      "W": "1",
+      "lambda_plus": "2",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1",
+      "z": "1",
+      "W": "2",
+      "lambda_plus": "3",
+      "lambda_minus": "1",
+      "regime": "inside"
+    },
+    {
+      "alpha": "1",
+      "z": "3/2",
+      "W": "0",
+      "lambda_plus": "3/2",
+      "lambda_minus": "-3/2",
+      "regime": "outside"
+    },
+    {
+      "alpha": "1",
+      "z": "3/2",
+      "W": "3/2",
+      "lambda_plus": "3",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "1",
+      "z": "3/2",
+      "W": "3",
+      "lambda_plus": "9/2",
+      "lambda_minus": "3/2",
+      "regime": "inside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1/2",
+      "W": "0",
+      "lambda_plus": "3/4",
+      "lambda_minus": "-3/4",
+      "regime": "outside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1/2",
+      "W": "1/2",
+      "lambda_plus": "3/2",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1/2",
+      "W": "1",
+      "lambda_plus": "9/4",
+      "lambda_minus": "3/4",
+      "regime": "inside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1",
+      "W": "0",
+      "lambda_plus": "3/2",
+      "lambda_minus": "-3/2",
+      "regime": "outside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1",
+      "W": "1",
+      "lambda_plus": "3",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "3/2",
+      "z": "1",
+      "W": "2",
+      "lambda_plus": "9/2",
+      "lambda_minus": "3/2",
+      "regime": "inside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "3/2",
+      "W": "0",
+      "lambda_plus": "9/4",
+      "lambda_minus": "-9/4",
+      "regime": "outside"
+    },
+    {
+      "alpha": "3/2",
+      "z": "3/2",
+      "W": "3/2",
+      "lambda_plus": "9/2",
+      "lambda_minus": "0",
+      "regime": "horizon"
+    },
+    {
+      "alpha": "3/2",
+      "z": "3/2",
+      "W": "3",
+      "lambda_plus": "27/4",
+      "lambda_minus": "9/4",
+      "regime": "inside"
+    }
+  ],
+  "sample_count": 27,
+  "goal_A_proved": false,
+  "full_PDE_wellposedness_proved": false,
+  "scope": "frozen_positive_radius_symbol_only",
+  "source_sha256": {
+    "verify_harmonic_symbol.py": "e06383f182305d0052e75d8f949663d5303498bb3e38f03c1a0caa675af1bd49",
+    "HARMONIC_PRINCIPAL_SYMBOL.md": "1300ab9b17ee63d22182bfeca0ba565a1f42b0e88a73fb42eb29fd8c7749cf24"
+  }
+}

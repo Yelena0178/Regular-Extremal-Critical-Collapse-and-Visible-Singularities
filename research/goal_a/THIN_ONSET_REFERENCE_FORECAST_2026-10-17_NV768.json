@@ -1,0 +1,48 @@
+{
+  "evidence": "E0_C0_reference_thin_layer_feasibility",
+  "steps_u": 384,
+  "steps_v": 768,
+  "trial_first_cell_theta_error": 1.0,
+  "maximum_trial_boundary": [
+    1.0000000177635683e-07,
+    1.0000000133226763e-07,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "actual_thin_layer_transfer": false,
+  "original_eta_seed_transfer": false,
+  "goal_A_proved": false,
+  "fixed_point": {
+    "r": 0.6807988707091117,
+    "kappa": 0.26700727351966447,
+    "theta": 0.6036650884263838,
+    "nu": -0.8122264769604126,
+    "z": -0.9189521204230378,
+    "m": 0.47265327037453697,
+    "lambda": -0.1037391142098205,
+    "Omega2": 0.8674815083747294,
+    "theta_out": -0.654415514924667,
+    "theta_in": -5.123753101269287
+  },
+  "completed": true,
+  "endpoint_radii": [
+    0.04685965344116138,
+    0.14292340981001622,
+    0.33586006069829716,
+    0.27774579083427836,
+    0.5513393748171103,
+    0.42908315111805423
+  ],
+  "conditional_report": {
+    "verified_cells": 294912,
+    "minimum_strict_margin": 9.971858902816536e-10,
+    "global_tube_lower_r_k_minus_nu": [
+      0.38138981475401895,
+      0.12408386370964834,
+      0.49955300360829424
+    ]
+  },
+  "hypothetical_2m_minus_r_lower": -0.6405182856373076
+}

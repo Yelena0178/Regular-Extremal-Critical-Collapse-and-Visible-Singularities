@@ -1,0 +1,45 @@
+{
+  "runs": [
+    {
+      "configuration": {
+        "c": 0.5,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 48,
+      "failure": "Lobatto stage failed at 31,46; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 0.75,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 48,
+      "failure": "Lobatto stage failed at 30,46; change=nan",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "c": 1.0,
+        "frequency_ratio": 1.0,
+        "decay": 1.0,
+        "coupling": 0.6
+      },
+      "n": 48,
+      "failure": "Lobatto stage failed at 32,43; change=nan",
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "new infinite-tail constraint seed; finite Goursat experiment",
+  "actual_smooth_seed_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "exponential_tail_candidate.py": "d04ae5eb7c8fd7578d508f0a21887ce8f61aca7e4261403d42ab30c6190afa31",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  }
+}
