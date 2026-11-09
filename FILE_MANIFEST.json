@@ -12,7 +12,7 @@
     "literature": 7,
     "proofs": 25,
     "research": 718,
-    "reviews": 313
+    "reviews": 314
   },
   "files": [
     {
@@ -5394,6 +5394,11 @@
       "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
       "size_bytes": 581,
       "sha256": "ab9bde6c430b4938d06324f6f86cdb8ddcb7303e9cd1c83404da68978c20e20f"
+    },
+    {
+      "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
+      "size_bytes": 2164,
+      "sha256": "ccf203161f3928fb4e7fc2e6d47d8212e7a6f89a0bf3636d3ba1f5521b68474d"
     },
     {
       "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/proofs/INDEX.md",
