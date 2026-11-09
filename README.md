@@ -8,6 +8,17 @@
 研究材料截止 **2026-10-09 第七轮**；本仓库整理日期 **2026-10-10**，快照版本 **0.1.0**。
 本次整理未补证新的数学定理。目标 A–D 仍开放；证明稿尚待独立数学复核。
 
+## Goal A–D 专题仓库
+
+| 专题 | 研究范围 |
+|---|---|
+| [Goal A · 正则极端临界塌缩](https://github.com/Yelena0178/RECCVS-A-Extremal-Threshold) | 三分支临界族、候选排除与精确证书 |
+| [Goal B · 可见区曲率放大](https://github.com/Yelena0178/RECCVS-B-Visible-Curvature) | 统一受控初值族中的可见潮汐与标量曲率 |
+| [Goal C · 单解可见曲率奇点](https://github.com/Yelena0178/RECCVS-C-Visible-Singularity) | 实际内部控制、有限仿射端点与全局可见性 |
+| [Goal D · 一般性与稳定性](https://github.com/Yelena0178/RECCVS-D-Genericity-Stability) | 初值空间、临界集合的相对拓扑与余维 |
+
+总仓继续提供共享模型、形成输入、历史评审和完整证明快照。分仓后的专题更新在对应仓库跟踪。每个专题的来源说明链接到 [拆分前固定快照](https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities/tree/fe457f6ea98818251f97251c4a1f7a50b862253b)。
+
 ## 当前成果
 
 | 成果 | 证明入口 | 准确范围 |
