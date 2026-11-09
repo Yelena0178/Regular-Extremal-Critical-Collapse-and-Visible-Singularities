@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-16",
+  "evidence": "E0_coordinate_and_weak_field_benchmarks",
+  "goal_A_proved": false,
+  "genuine_formation_certified": false,
+  "actual_strict_trapped_sphere_certified": false,
+  "rigorous_PDE_error_bound": false,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "configuration": {
+    "steps": 256,
+    "outer_radius": 48.0,
+    "final_time": 4.0,
+    "cfl": 0.15,
+    "amplitude": 0.1,
+    "frequency": 0.2,
+    "coupling": 0.6,
+    "lapse_floor": 1e-06,
+    "stop_at_trapped_candidate": false,
+    "slicing": "1+log"
+  },
+  "grids": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "RN_horizon_ring": [
+    {
+      "steps": 64,
+      "mass_error": 4.440892098500626e-16,
+      "spatial_metric_error": 0.05061136114311171,
+      "angular_equation_error_fixed_probe_points": 0.0269073055840785,
+      "angular_equation_error_moving_interior": 0.0269073055840785,
+      "minimum_hawking_delta": -2.36,
+      "minimum_spatial_delta": 0.18344241600820332,
+      "minimum_outgoing_expansion": -4.723385510816281
+    },
+    {
+      "steps": 128,
+      "mass_error": 3.3306690738754696e-16,
+      "spatial_metric_error": 0.013698787110656918,
+      "angular_equation_error_fixed_probe_points": 0.006744725167695587,
+      "angular_equation_error_moving_interior": 0.013221898802331156,
+      "minimum_hawking_delta": -2.36,
+      "minimum_spatial_delta": 0.2164243965632049,
+      "minimum_outgoing_expansion": -4.575735214686462
+    },
+    {
+      "steps": 256,
+      "mass_error": 8.881784197001252e-16,
+      "spatial_metric_error": 0.0036012053386761944,
+      "angular_equation_error_fixed_probe_points": 0.001670778667848205,
+      "angular_equation_error_moving_interior": 0.0048481360439642796,
+      "minimum_hawking_delta": -2.36,
+      "minimum_spatial_delta": 0.2259214377131662,
+      "minimum_outgoing_expansion": -4.535344887598539
+    },
+    {
+      "steps": 512,
+      "mass_error": 4.440892098500626e-16,
+      "spatial_metric_error": 0.0009256679973005388,
+      "angular_equation_error_fixed_probe_points": 0.0004167378743905048,
+      "angular_equation_error_moving_interior": 0.001487196460448148,
+      "minimum_hawking_delta": -2.36,
+      "minimum_spatial_delta": 0.2284720258871764,
+      "minimum_outgoing_expansion": -4.5246427382330365
+    }
+  ],
+  "RN_angular_equation_orders": [
+    1.9961663681859743,
+    2.01323902910638,
+    2.003308501130239
+  ],
+  "RN_complex_step_identity_error": 2.220446049250313e-16,
+  "linear_flat_gauge_spectral_and_energy_checks": [
+    {
+      "steps": 16,
+      "weighted_skew_error": 2.220446049250313e-16,
+      "maximum_eigenvalue_real_part": 7.169800576203538e-16,
+      "rejected_collocated_stencil_growth_real_part": 5.3580894673702755
+    },
+    {
+      "steps": 32,
+      "weighted_skew_error": 2.220446049250313e-16,
+      "maximum_eigenvalue_real_part": 7.105427357601002e-15,
+      "rejected_collocated_stencil_growth_real_part": 10.716202465739265
+    },
+    {
+      "steps": 64,
+      "weighted_skew_error": 2.220446049250313e-16,
+      "maximum_eigenvalue_real_part": 7.863501516602867e-14,
+      "rejected_collocated_stencil_growth_real_part": 21.432404931478963
+    }
+  ],
+  "center_Taylor_trace_with_nonzero_W": [
+    {
+      "steps": 32,
+      "mass_trace_error": 2.101161334225332e-05,
+      "charge_trace_error": 4.883098602292968e-05
+    },
+    {
+      "steps": 64,
+      "mass_trace_error": 5.2550795777983605e-06,
+      "charge_trace_error": 1.2207210063952534e-05
+    },
+    {
+      "steps": 128,
+      "mass_trace_error": 1.3139059323874491e-06,
+      "charge_trace_error": 3.051768988349135e-06
+    },
+    {
+      "steps": 256,
+      "mass_trace_error": 3.284849858509187e-07,
+      "charge_trace_error": 7.629401516384693e-07
+    }
+  ],
+  "weak_field_reports": [
+    {
+      "completed_time": 4.0,
+      "center_proper_time": 3.9960188637922407,
+      "iterations": 51,
+      "minimum_sampled_hawking_delta": 0.9991730324692949,
+      "minimum_sampled_spatial_delta": 0.9991730431898674,
+      "maximum_observed_characteristic_speed": 1.4139797903641222,
+      "initial_ADM_mass_estimate": 0.005291147647217239,
+      "mass_boundary_drift": 7.137200311088231e-05,
+      "charge_boundary_drift": 2.7793595002502912e-05,
+      "minimum_sampled_lapse": 0.9989646998617339,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": null,
+      "stopped_at_trapped_candidate": false
+    },
+    {
+      "completed_time": 4.0,
+      "center_proper_time": 3.9958997452934106,
+      "iterations": 101,
+      "minimum_sampled_hawking_delta": 0.9991440891277652,
+      "minimum_sampled_spatial_delta": 0.9991441010609635,
+      "maximum_observed_characteristic_speed": 1.413970417574456,
+      "initial_ADM_mass_estimate": 0.005502413609456687,
+      "mass_boundary_drift": 2.011718953291719e-05,
+      "charge_boundary_drift": 7.479585128753949e-06,
+      "minimum_sampled_lapse": 0.9989349748473852,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": null,
+      "stopped_at_trapped_candidate": false
+    },
+    {
+      "completed_time": 4.0,
+      "center_proper_time": 3.9958666592136183,
+      "iterations": 202,
+      "minimum_sampled_hawking_delta": 0.9991368318760032,
+      "minimum_sampled_spatial_delta": 0.9991368441304314,
+      "maximum_observed_characteristic_speed": 1.4139679803034777,
+      "initial_ADM_mass_estimate": 0.005557316007616693,
+      "mass_boundary_drift": 5.167350304089054e-06,
+      "charge_boundary_drift": 1.9142236654745917e-06,
+      "minimum_sampled_lapse": 0.9989272603211892,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": null,
+      "stopped_at_trapped_candidate": false
+    },
+    {
+      "completed_time": 4.0,
+      "center_proper_time": 3.9958581425591886,
+      "iterations": 403,
+      "minimum_sampled_hawking_delta": 0.9991350142749935,
+      "minimum_sampled_spatial_delta": 0.9991350266107917,
+      "maximum_observed_characteristic_speed": 1.4139673647611197,
+      "initial_ADM_mass_estimate": 0.005571178246274124,
+      "mass_boundary_drift": 1.3001747703684022e-06,
+      "charge_boundary_drift": 4.813818557823299e-07,
+      "minimum_sampled_lapse": 0.9989253130614721,
+      "classification": "UNKNOWN_finite_time_only",
+      "rigorous_PDE_error_bound": false,
+      "first_numeric_trapped_observation": null,
+      "stopped_at_trapped_candidate": false
+    }
+  ],
+  "grid_differences": [
+    0.0019570029792422236,
+    0.0003896238246899575,
+    8.142315254438174e-05
+  ],
+  "observed_orders": [
+    2.328492149208196,
+    2.2585709119439463
+  ],
+  "independent_propagation_residuals": [
+    {
+      "mass_time_propagation": 4.0672221363405314e-05,
+      "charge_time_propagation": 2.0672003154640006e-05,
+      "spatial_metric_time_propagation": 9.762216592699944e-06
+    },
+    {
+      "mass_time_propagation": 1.1106018102907216e-05,
+      "charge_time_propagation": 5.955306824076058e-06,
+      "spatial_metric_time_propagation": 1.9560440856819294e-06
+    },
+    {
+      "mass_time_propagation": 2.7740066198956903e-06,
+      "charge_time_propagation": 1.5495869278288479e-06,
+      "spatial_metric_time_propagation": 4.380544518950988e-07
+    },
+    {
+      "mass_time_propagation": 6.937447139909486e-07,
+      "charge_time_propagation": 3.9085182231540905e-07,
+      "spatial_metric_time_propagation": 1.0666642766763693e-07
+    }
+  ],
+  "axis_scalar_absolute_value_difference_at_common_proper_time": [
+    2.3458800281728545e-05,
+    7.211478056646375e-06,
+    1.7373452259185178e-06,
+    4.6836787937409516e-07
+  ],
+  "harmonic_weak_field": {
+    "grids": [
+      128,
+      256,
+      512
+    ],
+    "reports": [
+      {
+        "completed_time": 4.0,
+        "center_proper_time": 3.9957204736075593,
+        "iterations": 72,
+        "minimum_sampled_hawking_delta": 0.9991441118218184,
+        "minimum_sampled_spatial_delta": 0.9991441151974965,
+        "maximum_observed_characteristic_speed": 0.9997707749245065,
+        "initial_ADM_mass_estimate": 0.005502413609456687,
+        "mass_boundary_drift": 2.0113972175099526e-05,
+        "charge_boundary_drift": 7.4792325042774555e-06,
+        "minimum_sampled_lapse": 0.9988715708157829,
+        "classification": "UNKNOWN_finite_time_only",
+        "rigorous_PDE_error_bound": false,
+        "first_numeric_trapped_observation": null,
+        "stopped_at_trapped_candidate": false
+      },
+      {
+        "completed_time": 4.0,
+        "center_proper_time": 3.9956884554231573,
+        "iterations": 143,
+        "minimum_sampled_hawking_delta": 0.9991368545025531,
+        "minimum_sampled_spatial_delta": 0.9991368579938371,
+        "maximum_observed_characteristic_speed": 0.9997684716185328,
+        "initial_ADM_mass_estimate": 0.005557316007616693,
+        "mass_boundary_drift": 5.166545527063651e-06,
+        "charge_boundary_drift": 1.914133536922401e-06,
+        "minimum_sampled_lapse": 0.9988567209996345,
+        "classification": "UNKNOWN_finite_time_only",
+        "rigorous_PDE_error_bound": false,
+        "first_numeric_trapped_observation": null,
+        "stopped_at_trapped_candidate": false
+      },
+      {
+        "completed_time": 4.0,
+        "center_proper_time": 3.995680298054302,
+        "iterations": 285,
+        "minimum_sampled_hawking_delta": 0.9991350368753447,
+        "minimum_sampled_spatial_delta": 0.999135040396066,
+        "maximum_observed_characteristic_speed": 0.9997678898819599,
+        "initial_ADM_mass_estimate": 0.005571178246274124,
+        "mass_boundary_drift": 1.2999731626465658e-06,
+        "charge_boundary_drift": 4.813591848729093e-07,
+        "minimum_sampled_lapse": 0.9988526964262262,
+        "classification": "UNKNOWN_finite_time_only",
+        "rigorous_PDE_error_bound": false,
+        "first_numeric_trapped_observation": null,
+        "stopped_at_trapped_candidate": false
+      }
+    ],
+    "axis_absolute_scalar_proper_clock_errors": [
+      6.535169546219733e-06,
+      1.807322352344841e-06,
+      3.8830160201163214e-07
+    ],
+    "independent_propagation_residuals": [
+      {
+        "mass_time_propagation": 1.1103450272641398e-05,
+        "charge_time_propagation": 5.9537984440753e-06,
+        "spatial_metric_time_propagation": 1.522067274695773e-06
+      },
+      {
+        "mass_time_propagation": 2.7733699770887837e-06,
+        "charge_time_propagation": 1.5491993281947285e-06,
+        "spatial_metric_time_propagation": 3.0994963908549395e-07
+      },
+      {
+        "mass_time_propagation": 6.935864698456603e-07,
+        "charge_time_propagation": 3.907544132852366e-07,
+        "spatial_metric_time_propagation": 7.398013975903184e-08
+      }
+    ]
+  },
+  "zero_state_report": {
+    "completed_time": 1.0,
+    "center_proper_time": 1.0,
+    "iterations": 7,
+    "minimum_sampled_hawking_delta": 1.0,
+    "minimum_sampled_spatial_delta": 1.0,
+    "maximum_observed_characteristic_speed": 1.4142135623730951,
+    "initial_ADM_mass_estimate": 0.0,
+    "mass_boundary_drift": 0.0,
+    "charge_boundary_drift": 0.0,
+    "minimum_sampled_lapse": 1.0,
+    "classification": "UNKNOWN_finite_time_only",
+    "rigorous_PDE_error_bound": false,
+    "first_numeric_trapped_observation": null,
+    "stopped_at_trapped_candidate": false
+  },
+  "scope": "RN_ring_is_not_regular_center_collapse;axis_agreement_is_not_isometry_proof",
+  "remaining": [
+    "strong_field_grid_and_gauge_control",
+    "finite_error_certificate",
+    "entire_negative_dispersion_branch",
+    "exact_extremal_endpoint"
+  ],
+  "source_sha256": {
+    "areal_shift_evolution.py": "2a6e9685b4a418155e0a37119e97519ca3883277956ec148796858eb2fa7003e",
+    "verify_areal_shift.py": "74632786a278cce3c75b198f7c0bde27194e87c258527f565b1a35bfb49b7c9f",
+    "AREAL_SHIFT_EVOLUTION.md": "70b6d850e95394a7f2f36ad08aee31fc067514903ce16439dcf123cee10e5568",
+    "polar_evolution.py": "bec80ada50a672e2583e32df9420db5ab5308efc82de996d61cd76a2a4eb1462",
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a"
+  }
+}

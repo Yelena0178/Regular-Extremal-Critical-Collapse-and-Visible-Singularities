@@ -1,0 +1,35 @@
+{
+  "scope": "exact finite algebra only; not an analytic or PDE certificate",
+  "arithmetic": "fractions.Fraction sparse Laurent polynomials",
+  "checks_passed": [
+    "exact_double_null_angular_composition",
+    "exact_RN_effective_potential_identity",
+    "radial_timelike_RN",
+    "radial_null_RN",
+    "Schwarzschild_photon_sphere",
+    "reject_wrong_mass_identity",
+    "reject_missing_electromagnetic_terms",
+    "Hardy_integration_by_parts_boundary_sign",
+    "strict_source_exponents_and_retarded_decay"
+  ],
+  "source_parameters": {
+    "s": "2/3",
+    "s0": "5/4",
+    "gamma": "3/4",
+    "mu": "1/10",
+    "delta_upper_bound": "1/100",
+    "four_delta": "1/25",
+    "minimum_required_margin": "1/6"
+  },
+  "retarded_power_exponents": {
+    "charge": "-1/3",
+    "scalar_energy": "-4/3",
+    "electromagnetic_energy": "-5/3"
+  },
+  "source_sha256": {
+    "CAUSAL_COMPLETENESS.md": "cbe667a30e75a446ad8cb80be4356025f4f9324eccbbb029137dd584b0cff612",
+    "RETARDED_CAUCHY_BOUNDS.md": "0ada0c065dd3c07f880f5a131edf90551e61ccfdb62c7ce63b35fde42dbbdfb8",
+    "KL_INTERFACE_AUDIT.md": "625d1bc5bb33cc0c95b999d3137c8fc86c2c4f3c1384ed1cd03a7b69a168305d",
+    "verify_causal_algebra.py": "5f9c50a5e3968f14a2cbf3ab02be57c41faa3a842672c67aa195e16c39d4b97d"
+  }
+}

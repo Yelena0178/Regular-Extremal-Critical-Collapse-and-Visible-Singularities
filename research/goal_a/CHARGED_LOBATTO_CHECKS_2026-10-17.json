@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "batch_RHS_comparisons": 20,
+  "benchmarks": {
+    "RN": [
+      {
+        "n": 8,
+        "endpoint_error": 1.8197726658897295e-10,
+        "iterations": {
+          "maximum_iterations": 7,
+          "maximum_last_change": 1.376676550535194e-13
+        }
+      },
+      {
+        "n": 16,
+        "endpoint_error": 1.1363465723945865e-11,
+        "iterations": {
+          "maximum_iterations": 7,
+          "maximum_last_change": 2.993161274389422e-13
+        }
+      },
+      {
+        "n": 32,
+        "endpoint_error": 8.22453216642316e-13,
+        "iterations": {
+          "maximum_iterations": 6,
+          "maximum_last_change": 5.329070518200751e-15
+        }
+      }
+    ],
+    "FLRW": [
+      {
+        "n": 8,
+        "endpoint_error": 3.512678328537744e-05,
+        "iterations": {
+          "maximum_iterations": 14,
+          "maximum_last_change": 2.97761815204467e-13
+        }
+      },
+      {
+        "n": 16,
+        "endpoint_error": 2.272218477650245e-06,
+        "iterations": {
+          "maximum_iterations": 12,
+          "maximum_last_change": 2.9522218003563694e-13
+        }
+      },
+      {
+        "n": 32,
+        "endpoint_error": 1.433008500195676e-07,
+        "iterations": {
+          "maximum_iterations": 10,
+          "maximum_last_change": 2.962352585456074e-13
+        }
+      }
+    ]
+  },
+  "scope": "observed fourth order on independent backgrounds only",
+  "rigorous_PDE_error": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charged_lobatto.py": "fe843f7c8ddaa060c2922965c62fca5aaeb1a709a833c19716ab210c944bdf12",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "charged_characteristic_screen.py": "a38683c5c4c88b48b15b6a6495587a2e0535ccf775202f56bbe7831b1e7048d5",
+    "verify_neutral_transport.py": "54f8764a317e2e76e820b45a736a9674b427c806922aae43164c2d715eb110b7"
+  }
+}

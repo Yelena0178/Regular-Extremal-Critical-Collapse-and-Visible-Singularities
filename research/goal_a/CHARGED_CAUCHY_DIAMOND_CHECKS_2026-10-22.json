@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "backgrounds": {
+    "RN": [
+      {
+        "steps": 16,
+        "maximum_state_error": 5.813429737600018e-09,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 5.837945543651912e-09,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 1.0099615805128637e-10
+          },
+          "x_range": [
+            0.8125,
+            3.1875
+          ]
+        }
+      },
+      {
+        "steps": 32,
+        "maximum_state_error": 1.4532712810932935e-09,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 1.46001785661376e-09,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 2.5467480988666802e-11
+          },
+          "x_range": [
+            0.78125,
+            3.21875
+          ]
+        }
+      },
+      {
+        "steps": 64,
+        "maximum_state_error": 3.632587564084133e-10,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 3.6599587249774856e-10,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 6.498764200391083e-12
+          },
+          "x_range": [
+            0.765625,
+            3.234375
+          ]
+        }
+      }
+    ],
+    "FLRW": [
+      {
+        "steps": 16,
+        "maximum_state_error": 2.3674959285235886e-06,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 3.828557321727821e-07,
+            "scalar": 1.7523777467998158e-07,
+            "charge": 0.0,
+            "mass": 1.2626453676223282e-06
+          },
+          "x_range": [
+            0.8125,
+            3.1875
+          ]
+        }
+      },
+      {
+        "steps": 32,
+        "maximum_state_error": 5.918759784506733e-07,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 9.605727407935305e-08,
+            "scalar": 4.608295332830803e-08,
+            "charge": 0.0,
+            "mass": 3.190868988894868e-07
+          },
+          "x_range": [
+            0.78125,
+            3.21875
+          ]
+        }
+      },
+      {
+        "steps": 64,
+        "maximum_state_error": 1.4796911979031435e-07,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 2.4057266567734104e-08,
+            "scalar": 1.182504540120366e-08,
+            "charge": 0.0,
+            "mass": 8.020183686618942e-08
+          },
+          "x_range": [
+            0.765625,
+            3.234375
+          ]
+        }
+      }
+    ],
+    "tilted_Minkowski": [
+      {
+        "steps": 16,
+        "maximum_state_error": 2.6645352591003757e-15,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 1.9761969838327786e-14,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0
+          },
+          "x_range": [
+            0.8125,
+            3.1875
+          ]
+        }
+      },
+      {
+        "steps": 32,
+        "maximum_state_error": 1.2434497875801753e-14,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 9.57012247226885e-14,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0
+          },
+          "x_range": [
+            0.78125,
+            3.21875
+          ]
+        }
+      },
+      {
+        "steps": 64,
+        "maximum_state_error": 1.687538997430238e-14,
+        "constraints": {
+          "maximum_absolute": {
+            "radius": 2.1338486533295509e-13,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0
+          },
+          "x_range": [
+            0.765625,
+            3.234375
+          ]
+        }
+      }
+    ]
+  },
+  "initial_constraints": {
+    "A020_W8": {
+      "maximum_residuals": {
+        "radius": 2.6279223241942873e-10,
+        "scalar": 9.090875079963455e-12,
+        "charge": 1.1359686975798144e-10,
+        "mass": 2.906275135914488e-10,
+        "initial_k": 1.0515739390370982e-09,
+        "omega_normalization": 1.1102230246251565e-16,
+        "scalar_normal": 6.206335383118183e-17,
+        "scalar_tangent": 7.850462293418876e-17
+      },
+      "sampled_points": [
+        {
+          "x": 3.0,
+          "r": 3.0001132361221132,
+          "residuals": {
+            "radius": 5.597333707640928e-11,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 9.43449762758064e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 3.5,
+          "r": 3.6064666343239935,
+          "residuals": {
+            "radius": 2.6279223241942873e-10,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 1.0515739390370982e-09,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 4.0,
+          "r": 5.704764296033382,
+          "residuals": {
+            "radius": 8.561240605331477e-11,
+            "scalar": 4.573290417557694e-13,
+            "charge": 1.9782818442593708e-16,
+            "mass": 2.565897334589828e-12,
+            "initial_k": 9.280607607008075e-12,
+            "omega_normalization": 1.1102230246251565e-16,
+            "scalar_normal": 6.938893903907228e-18,
+            "scalar_tangent": 7.152448122690996e-18
+          }
+        },
+        {
+          "x": 4.5,
+          "r": 8.47751807916833,
+          "residuals": {
+            "radius": 3.0600411093928415e-11,
+            "scalar": 2.443633713454754e-12,
+            "charge": 8.95228030974634e-12,
+            "mass": 4.2016992641245865e-12,
+            "initial_k": 2.63329601180029e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 6.206335383118183e-17,
+            "scalar_tangent": 2.7755575615628914e-17
+          }
+        },
+        {
+          "x": 5.0,
+          "r": 11.001736522448262,
+          "residuals": {
+            "radius": 6.765610294223734e-11,
+            "scalar": 9.090875079963455e-12,
+            "charge": 1.1359686975798144e-10,
+            "mass": 5.2325155276353175e-11,
+            "initial_k": 6.117606421440769e-13,
+            "omega_normalization": 1.1102230246251565e-16,
+            "scalar_normal": 5.551115123125783e-17,
+            "scalar_tangent": 6.206335383118183e-17
+          }
+        },
+        {
+          "x": 5.5,
+          "r": 12.992317499947113,
+          "residuals": {
+            "radius": 7.761347120549544e-12,
+            "scalar": 1.4092323053152033e-12,
+            "charge": 2.9241080043429513e-12,
+            "mass": 3.5427272660620845e-11,
+            "initial_k": 1.2944909033585361e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 7.850462293418876e-17
+          }
+        },
+        {
+          "x": 6.0,
+          "r": 14.23572754662636,
+          "residuals": {
+            "radius": 3.375477675149341e-11,
+            "scalar": 1.4953716170192787e-12,
+            "charge": 5.11464230343317e-11,
+            "mass": 2.906275135914488e-10,
+            "initial_k": 2.326983050693343e-10,
+            "omega_normalization": 0.0,
+            "scalar_normal": 5.551115123125783e-17,
+            "scalar_tangent": 5.551115123125783e-17
+          }
+        },
+        {
+          "x": 8.0,
+          "r": 14.935524651403602,
+          "residuals": {
+            "radius": 2.0913683979051356e-11,
+            "scalar": 7.227996413200488e-15,
+            "charge": 4.4813266921080175e-11,
+            "mass": 3.5524227064659766e-12,
+            "initial_k": 3.36272537593274e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 1.1393720717761352e-27
+          }
+        },
+        {
+          "x": 15.0,
+          "r": 15.17229494385889,
+          "residuals": {
+            "radius": 1.3458366365792784e-12,
+            "scalar": 4.211787422385872e-14,
+            "charge": 2.6434315673895536e-11,
+            "mass": 1.250843659980096e-11,
+            "initial_k": 5.3517401556353594e-12,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 2.0147280040201982e-19
+          }
+        },
+        {
+          "x": 25.0,
+          "r": 15.747951504076115,
+          "residuals": {
+            "radius": 4.241831885742897e-11,
+            "scalar": 1.2276035192771713e-13,
+            "charge": 2.339504112625849e-12,
+            "mass": 2.0511530607878443e-11,
+            "initial_k": 2.7057886052577916e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 2.710505431213761e-20,
+            "scalar_tangent": 7.666467083416871e-20
+          }
+        }
+      ]
+    },
+    "A030_W4": {
+      "maximum_residuals": {
+        "radius": 1.2313672748121007e-08,
+        "scalar": 1.4110445757493905e-11,
+        "charge": 2.273798866206378e-10,
+        "mass": 7.69707125727187e-11,
+        "initial_k": 4.492597405203469e-09,
+        "omega_normalization": 1.1102230246251565e-16,
+        "scalar_normal": 5.551115123125783e-17,
+        "scalar_tangent": 6.206335383118183e-17
+      },
+      "sampled_points": [
+        {
+          "x": 3.0,
+          "r": 3.0,
+          "residuals": {
+            "radius": 1.5802914532514478e-11,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 4.475933371699061e-12,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 3.5,
+          "r": 3.5001372605917997,
+          "residuals": {
+            "radius": 9.88383819233718e-11,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 1.418030137756432e-10,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 4.0,
+          "r": 4.060379658882617,
+          "residuals": {
+            "radius": 1.7168022559133078e-10,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 6.133520358275746e-10,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 4.5,
+          "r": 5.511137767318945,
+          "residuals": {
+            "radius": 1.2313672748121007e-08,
+            "scalar": 0.0,
+            "charge": 0.0,
+            "mass": 0.0,
+            "initial_k": 4.492597405203469e-09,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 5.0,
+          "r": 8.01369731123206,
+          "residuals": {
+            "radius": 1.2505108060167913e-10,
+            "scalar": 1.2802255553395066e-11,
+            "charge": 2.6311766184757132e-11,
+            "mass": 3.1650639466078434e-11,
+            "initial_k": 7.977007943082981e-12,
+            "omega_normalization": 0.0,
+            "scalar_normal": 0.0,
+            "scalar_tangent": 0.0
+          }
+        },
+        {
+          "x": 5.5,
+          "r": 10.14656576212341,
+          "residuals": {
+            "radius": 1.3993251002375473e-10,
+            "scalar": 1.4110445757493905e-11,
+            "charge": 2.273798866206378e-10,
+            "mass": 7.69707125727187e-11,
+            "initial_k": 8.459760669765615e-12,
+            "omega_normalization": 0.0,
+            "scalar_normal": 5.551115123125783e-17,
+            "scalar_tangent": 6.206335383118183e-17
+          }
+        },
+        {
+          "x": 6.0,
+          "r": 11.796186070350979,
+          "residuals": {
+            "radius": 4.035216605302594e-11,
+            "scalar": 2.757002163560171e-12,
+            "charge": 5.985908296812781e-11,
+            "mass": 3.668576250073774e-11,
+            "initial_k": 3.1391833577032457e-12,
+            "omega_normalization": 0.0,
+            "scalar_normal": 5.551115123125783e-17,
+            "scalar_tangent": 5.551115123125783e-17
+          }
+        },
+        {
+          "x": 8.0,
+          "r": 13.313447055228265,
+          "residuals": {
+            "radius": 6.860022966348467e-12,
+            "scalar": 2.1983070595861996e-14,
+            "charge": 3.057616074393643e-11,
+            "mass": 9.658143032618798e-12,
+            "initial_k": 1.1680147127268725e-10,
+            "omega_normalization": 0.0,
+            "scalar_normal": 4.4702800766818725e-19,
+            "scalar_tangent": 2.235140060155581e-19
+          }
+        },
+        {
+          "x": 15.0,
+          "r": 13.545909698942888,
+          "residuals": {
+            "radius": 1.7217824388460201e-12,
+            "scalar": 2.3442220200672475e-13,
+            "charge": 2.04088473551578e-11,
+            "mass": 2.6635004911259447e-11,
+            "initial_k": 5.0694612245029413e-11,
+            "omega_normalization": 1.1102230246251565e-16,
+            "scalar_normal": 2.168404344971009e-19,
+            "scalar_tangent": 1.21217487951527e-19
+          }
+        },
+        {
+          "x": 25.0,
+          "r": 14.134630201141999,
+          "residuals": {
+            "radius": 3.0208502366235734e-11,
+            "scalar": 2.378198229805562e-13,
+            "charge": 1.6941754036502304e-11,
+            "mass": 1.2354477034689403e-11,
+            "initial_k": 5.498710667754158e-11,
+            "omega_normalization": 0.0,
+            "scalar_normal": 2.7315991768260557e-20,
+            "scalar_tangent": 7.666467083416871e-20
+          }
+        }
+      ]
+    }
+  },
+  "core_checks": {
+    "A020_W8": {
+      "initial_match": 5.551115123125783e-17,
+      "maximum_characteristic_residual": 3.275602011854062e-12,
+      "out_of_domain_boundary_rejected": true
+    },
+    "A030_W4": {
+      "initial_match": 1.1102230246251565e-16,
+      "maximum_characteristic_residual": 4.4408920985006255e-11,
+      "out_of_domain_boundary_rejected": true
+    }
+  },
+  "finite_PDE_error_certified": false,
+  "full_future_classified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charged_cauchy_diamond.py": "dcb033cef0b731eac6fc2dffe113efd58b66545e23a9fe35e90ac524729a1705",
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "canonical_cauchy_data.py": "bfd0b250ac9e5dfe5a367a10d073a8d7667fba47ef73be9651ae60350ccca4d9",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "verify_neutral_transport.py": "54f8764a317e2e76e820b45a736a9674b427c806922aae43164c2d715eb110b7",
+    "ROTATING_CANONICAL_A020_W8_2026-10-21.npz": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "ROTATING_CANONICAL_A030_W4_2026-10-21.npz": "1a71809aae2ed543874c2ff29a1ae1faeb5092e0755f13e149a0b5db8cf2c073"
+  }
+}

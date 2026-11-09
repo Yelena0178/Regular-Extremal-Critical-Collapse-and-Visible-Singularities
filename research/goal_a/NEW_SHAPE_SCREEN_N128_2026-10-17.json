@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "evidence": "finite_pre_axis_outward_interval_screen",
+  "target_radius": "10",
+  "coupling": "3/5",
+  "steps_u": 128,
+  "finite_domain_nontrapping_certified": true,
+  "whole_future_nontrapping_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "steps_v": 141,
+  "geometry": {
+    "auxiliary_s_interval": [
+      "3727854790587052547561308158724677908711801303586182023861/6277101735386680763835789423207666416102355444464034512896",
+      "3727854790587052547561308158724677908711801303586182023893/6277101735386680763835789423207666416102355444464034512896"
+    ],
+    "cap_radius_interval": [
+      "3759486031899249/18014398509481984",
+      "3759486031907441/18014398509481984"
+    ],
+    "onset_length_interval": [
+      "3897405798903291/2251799813685248",
+      "3897405798904315/2251799813685248"
+    ],
+    "auxiliary_geometry_strictly_inside": true
+  },
+  "exact_rectangle": {
+    "u_max": "14286046921232711/36028797018963968",
+    "v_min": "3759486031903345/9007199254740992",
+    "v_max": "150895468021244653/72057594037927936"
+  },
+  "boundary": {
+    "smooth_width_upper": "1/1267650600228229401496703205376",
+    "q_upper": "22848298755517966615347970100058544105971796483303693559121/6277101735386680763835789423207666416102355444464034512896",
+    "radial_C1_perturbation_upper": "309108257759750042311928309884320064485/6277101735386680763835789423207666416102355444464034512896",
+    "parameter_coordinate": "V=v_reference+2*(a-a_reference)",
+    "maximum_boundary_errors": [
+      5.7206199203378355e-12,
+      7.28400452963e-10,
+      0.7596340148961904,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "verified_cells": 18048,
+  "minimum_strict_margin": 1.4027740485203812e-10,
+  "global_tube_lower_r_k_minus_nu": [
+    0.010434541757905489,
+    0.3888988720792935,
+    0.4988492153586983
+  ],
+  "entire_rectangle_r_minus_2m_lower": 0.010431888781021519,
+  "entire_rectangle_lambda_lower": 0.3078409623543958,
+  "maximum_error_radii": [
+    0.00012098507329238344,
+    0.0008797381138771279,
+    0.7596739251723169,
+    0.005492334532819329,
+    0.04504840351119145,
+    0.0005273948107995874
+  ],
+  "original_smooth_charge_root_transferred": false,
+  "arithmetic_assumptions": [
+    "IEEE-754 binary64 correctly rounded basic arithmetic",
+    "gradual underflow",
+    "correct nextafter",
+    "exact Python integer and Fraction arithmetic"
+  ],
+  "array_sha256": {
+    "nodes": "9a5e02da02b4c5268cc6934e18b01e191915e33e75228cfde861525dc8d4bd42",
+    "du": "a4017a0c36116bae711555e90afc8185acc518c676a68a34fd9ba3a2bfea08c7",
+    "dv": "acab0908b6695ca3ed03be77667c443f4bcf22dcbca8fe9792cf4f890f6fc080",
+    "duv": "a603452d1645d87953d82c0c7b63a69e2cf77951eabe7144373b7d5cd14283c5",
+    "low": "06e2952d912db5f71c3a85e0f9e0c40656e5c7bd1df3e2bea394b6f349004fcd",
+    "high": "e5b0aac0f8db596226929766a839024bc3c6f1fbd5228092f9473be9b908a01e",
+    "residual": "75566a3afc44c9c15bcb9ee6326f099a76ab2540db6834e873e848678ddfd2c8",
+    "radii": "47db5dbf31c460f36ce830093a3582b0554c9d6fafc570a2b1cd91da253c245c"
+  },
+  "elapsed_seconds": 47.67899279999983,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "source_sha256": {
+    "new_shape_screen.py": "ff5ac1e6909f761f7f7d54bccaefd4139b90c6d03a27af0c56ccefeceb3cc693",
+    "new_shape_constraints.py": "301eee19018420a972d278fc709ace1deb40e5c5e155b05f609852e9524f3721",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f",
+    "thin_parameter_boundary.py": "0c85bdf78c09ef710dc5a1a3a4879cbbc71d17f7c0b3640a6b79b4d722ca7e8e",
+    "thin_boundary_certificate.py": "a98aa6c920d4f596ac42fc02c680342ae1d1ee761fec38373156a4b2cf6f3317",
+    "certify_onset_boundary.py": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47",
+    "graded_transport.py": "e1f539a8b18faf57adc4c5a38db5cf0ae6807ca4a373ea2b28b0da294b7c849f",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "verify_interval_transport_grid.py": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b",
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "RATIONAL_GOURSAT_CERTIFICATION.md": "05cef218d936b531be68a6bf4f6e3c00e8aab1c73a688634503ed15361a71d88",
+    "NEW_SHAPE_CONSTRAINTS.md": "3a8bbbf5c988da26c0ea08b9135ec6f6d47961eee246f2e695ee4b7ad81cd583"
+  }
+}

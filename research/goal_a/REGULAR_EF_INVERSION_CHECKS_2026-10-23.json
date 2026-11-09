@@ -1,0 +1,40 @@
+{
+  "claim_ids": [
+    "E01.1",
+    "E01.2",
+    "E01.3",
+    "E01.4",
+    "E01.5"
+  ],
+  "logic": "PROVED (checked finite algebra, weights and boundary-ODE compatibility only)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "EF gauge and inversion phase",
+    "transverse horizon coefficient",
+    "radial weight Jacobian",
+    "degenerate norm countercontrol",
+    "outgoing EF wave divergence and first jet",
+    "zero pulse moment with nonzero charge",
+    "paired charge-weighted cancellation"
+  ],
+  "pulse_control": {
+    "shape": "(1-v^2)^4 inside [-1,1]; finite regularity control, not C-infinity certificate",
+    "charge_per_pulse": "7143424/1276275",
+    "mass_loss_per_pulse": "8781824/153153",
+    "coupling": "3/5",
+    "frequency": 1
+  },
+  "actual_scattering_realization": false,
+  "nonlinear_inversion_verified": false,
+  "actual_horizon_identity_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_regular_ef_inversion.py": "f88745c0231bd4dd44ff6c01eb433f74f0c7bdc68e8d88a3a4732c2237854917",
+    "REGULAR_EF_INVERSION_AND_TRANSVERSE_GATE.md": "b122d3df7bceeb138b91aa8bfdf7b80eb9531d4bf8f4bfd8c608ff526e8abbe9",
+    "OUTGOING_NULL_INFINITY.md": "de79d95768a7b180d86881bf89df30317a09276a4f96491fb9d820cce391da11",
+    "TWO_PULSE_SECOND_JET.md": "d501bdea929f1cc2de1313728f662fe09fed6a380f5acad1103992c42a4a86ed",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

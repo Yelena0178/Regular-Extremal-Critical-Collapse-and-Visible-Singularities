@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "scope": "frozen cap and slope; all 0 < w <= 2^-40",
+  "verified_cells": 152448,
+  "minimum_strict_margin": 1.140565547524281e-13,
+  "global_tube_lower_r_k_minus_nu": [
+    0.38141536680709265,
+    0.26669610681420514,
+    0.49999999119811434
+  ],
+  "boundary": {
+    "uniform_physical_width_upper": "1/1099511627776",
+    "uniform_width_range": "0 < w <= 2^-40",
+    "radial_C1_difference_from_C0_bound": "26803506369295342617511520845513565845100401077/6277101735386680763835789423207666416102355444464034512896",
+    "shape_q_upper": "1861231712350400936607051480544232082481713318614126667083/3138550867693340381917894711603833208051177722232017256448",
+    "maximum_boundary_errors": [
+      4.300354736259612e-12,
+      1.3963043187940973e-12,
+      0.9446578874563372,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "boundary_sha256": "ea7f5ffee895ff7220e289c046d0ecbf0c8101aa2d41807eab6f77be8fb4436d",
+    "actual_thin_family_boundary_certified": true,
+    "original_parameter_transfer": false
+  },
+  "steps_u": 384,
+  "steps_v": 397,
+  "first_v_width": "1/1048576",
+  "exact_u_end": "5456281861425155/2251799813685248",
+  "endpoint_error_radii": [
+    3.388868864439526e-05,
+    4.8939648380404326e-05,
+    0.00010869821721647093,
+    0.00010136587270762934,
+    0.00022850565547098567,
+    0.00011097667110022372
+  ],
+  "endpoint_lower": [
+    0.6803999650520364,
+    0.2666961068142151,
+    0.6036987328077896,
+    -0.8128747155994817,
+    -0.9197833148831611,
+    0.472913931241082
+  ],
+  "endpoint_upper": [
+    0.6804677424293254,
+    0.26679398611097604,
+    0.6039161292422228,
+    -0.8126719838540662,
+    -0.919326303572219,
+    0.47313588458328254
+  ],
+  "strict_2m_minus_r_lower": 0.26536012005283843,
+  "uniform_positive_smoothing_widths_certified": true,
+  "local_strict_trapped_sphere_certified": true,
+  "original_eta_root_parameters_transferred": false,
+  "complete_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "arithmetic_assumptions": [
+    "correctly rounded IEEE-754 binary64 basic operations",
+    "gradual underflow",
+    "correct nextafter",
+    "Python integer and Fraction arithmetic"
+  ],
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.4"
+  },
+  "elapsed_seconds": 154.83018570000013,
+  "array_sha256": {
+    "nodes": "996b07eafc81b384441a0cc99922156f38ef661baaf0e9e342b365e78d5974cf",
+    "du": "a2f9dacf1a677936f3e60ed8a321ddb560773df028650839346cb239de0b22b2",
+    "dv": "c5095571411001e04aad497fea83907385bf27cbff41a4983a3841ac386710a8",
+    "duv": "19b42984f71da8a35854e4fb358f70265be78a8d6013571b1e562d68ed44fd53",
+    "low": "a1bcc6005935b14299d7b714148423b5c5b2f54b39fb4e7aedd07727bd60f842",
+    "high": "907cb391d5e0a62a962a4e664265c7e708f377ced780932b280e67feb1655b52",
+    "residual_upper": "ba774b580c0875caa519d380a7acb191bb310d36f8453933206f5b4668284ad6",
+    "boundary": "01d5a30c711ff2143a7fa3981143a91e86ff6ac0f141756c355ce6e881c0947d",
+    "radii": "bbcff8b9c9f682faada44c28e1e95c7e87ddaf077eb94c03be5d127a01476bf7"
+  },
+  "exact_v_mesh_sha256": "1ba2e2c938ecd8a00fe719579bbcd798d1820e0b3839de70e8a360ca18cb1e01",
+  "source_sha256": {
+    "certify_thin_onset_grid.py": "f3e4bbf35b5eba9a38b239bf3fba039848e1a08bcef521a65dd8cd6efffc3d76",
+    "thin_onset_reference.py": "fc52b42f4b3affc01ed71f375d90ce987c6ce169d8431672d25edc82fad095c1",
+    "thin_boundary_certificate.py": "a98aa6c920d4f596ac42fc02c680342ae1d1ee761fec38373156a4b2cf6f3317",
+    "graded_transport.py": "e1f539a8b18faf57adc4c5a38db5cf0ae6807ca4a373ea2b28b0da294b7c849f",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "verify_interval_transport_grid.py": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b",
+    "certify_onset_boundary.py": "47724015a470990bc1c0811e4cc48a595aef3cb5ad63a12e8a243401b8372e47",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f",
+    "neutral_transport.py": "9bde87114e499da2d2270b59701688c5ebf4d0ca49bf9be1ce7eb41de694489a",
+    "neutral_onset_input.py": "092315a30d850e2eaa10871f23bbf332c234105156112e81d897b4706a0f6803",
+    "FIRST_JET_CHECKS_2026-10-16.json": "28a5f531e198a37084e6a5e4b57a2bab9203e65d4a1f93997ced3822d42382f5",
+    "ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json": "3137dc48c29461d0e60541f8da9cbb064dfd2452d996346d9f9db580dc24edc5"
+  }
+}

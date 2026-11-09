@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "exact_homogeneous_identities": [
+    "radius_v_constraint_u",
+    "scalar_v_constraint_u",
+    "charge_v_constraint_u",
+    "mass_v_constraint_u"
+  ],
+  "u_direction_components": [
+    "r",
+    "kappa",
+    "theta_real",
+    "theta_imag",
+    "m",
+    "phi_real",
+    "phi_imag",
+    "Q"
+  ],
+  "v_direction_components": [
+    "nu",
+    "z_real",
+    "z_imag",
+    "A_u"
+  ],
+  "omitted_electromagnetic_mass_term_rejected": true,
+  "complete_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "goal_A_proved": false
+}

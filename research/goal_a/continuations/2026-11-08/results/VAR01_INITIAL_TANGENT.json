@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "mass_derivative": 0.276209666015679,
+      "proper_support_derivative": 10.244582624423394,
+      "sampled_log_outgoing_current_derivative_range": [
+        -1.1027223755724367,
+        -1.7469606999595995e-07
+      ],
+      "differences": [
+        {
+          "epsilon": 0.001,
+          "max_f_derivative_error": 2.013842243520081e-07,
+          "max_proper_distance_derivative_error": 2.488947593803914e-06,
+          "mass_derivative_error": 9.35162300930159e-08
+        },
+        {
+          "epsilon": 0.0005,
+          "max_f_derivative_error": 5.0346181168503534e-08,
+          "max_proper_distance_derivative_error": 6.222470219086063e-07,
+          "mass_derivative_error": 2.3378556646136417e-08
+        }
+      ],
+      "max_phase_cost_identity_error": 3.469446951953614e-18
+    },
+    {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "mass_derivative": -0.0022243688706157787,
+      "proper_support_derivative": -0.2455606553082687,
+      "sampled_log_outgoing_current_derivative_range": [
+        -0.5555555555538478,
+        -0.5283336123729563
+      ],
+      "differences": [
+        {
+          "epsilon": 0.001,
+          "max_f_derivative_error": 8.642945074910369e-10,
+          "max_proper_distance_derivative_error": 8.329278933238982e-10,
+          "mass_derivative_error": 1.08988318803932e-10
+        },
+        {
+          "epsilon": 0.0005,
+          "max_f_derivative_error": 2.1611855013925485e-10,
+          "max_proper_distance_derivative_error": 2.2363749740961225e-10,
+          "mass_derivative_error": 2.860817182107067e-11
+        }
+      ],
+      "max_phase_cost_identity_error": 3.469446951953614e-18
+    }
+  ],
+  "lambda_variation_symbolically_verified": true,
+  "scope": "initial constraint tangent and exact algebra only; no PDE error bound or future sensitivity",
+  "goal_A_proved": false,
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.4"
+  },
+  "source_sha256": {
+    "computations\\verify_var01.py": "6bfe78e9d78b78667862fd39c7fffd6cb70f9a9a7737c6fdd1aafea3e36ca5a4",
+    "computations\\shape_probe.py": "801eff120b625d1f881c8c38d71122950009b717dc27d7035f44959d9b4d3fc4",
+    "proofs\\VAR01_CONSTRAINT_AND_TRANSPORT.md": "e35b0eeb01190f0dbccafabf0a357f8eea8fca6f3a50a6c3a589167ea5a7208d"
+  }
+}

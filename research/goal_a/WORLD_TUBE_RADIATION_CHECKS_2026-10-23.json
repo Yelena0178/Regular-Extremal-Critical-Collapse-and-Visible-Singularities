@@ -1,0 +1,75 @@
+{
+  "claim_ids": [
+    "TRACE09.1",
+    "TRACE09.2",
+    "TRACE09.3",
+    "TRACE09.4",
+    "TRACE09.5",
+    "TRACE09.6"
+  ],
+  "logic": "PROVED for exact identities and scoped controls; outer estimates and Rouche family are analytic, actual A/H/global stability OPEN",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "SPECIAL_FUNCTION_PRIMARY_IDENTITIES",
+    "FINITE_COMPLEX_ROOT_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "worldtube radial correction factor",
+    "modified Green flux and complete retarded source cancellation",
+    "physical worldtube momentum with cutoff terms",
+    "late-cutoff radial total variation and outer-source scaling",
+    "external Coulomb Whittaker transformation sign",
+    "Gamma coefficient ratio and three finite complex-root controls"
+  ],
+  "negative_controls": [
+    "individual logarithmic source terms cannot replace the combined kernel",
+    "reflecting external-Coulomb Dirichlet model admits growing modes",
+    "real-axis self flux does not imply absence of upper-half-plane modes"
+  ],
+  "complex_root_controls": [
+    {
+      "n": -1,
+      "omega_real": "0.000032621940586448585772824536136676156",
+      "omega_imag": "0.0000041308948565969925580914778108940534",
+      "normalized_residual": "1.777505682e-82",
+      "relative_asymptotic_correction": "5.48045609908092e-5"
+    },
+    {
+      "n": -2,
+      "omega_real": "0.0000000025103661551951195755310474651391843",
+      "omega_imag": "0.00000000031786845472670768093805665158118084",
+      "normalized_residual": "1.458051224e-82",
+      "relative_asymptotic_correction": "4.21735126074676e-9"
+    },
+    {
+      "n": -3,
+      "omega_real": "1.9319130660956783189365644909646556e-13",
+      "omega_imag": "2.4462336584047395547863889125592554e-14",
+      "normalized_residual": "1.122918847e-82",
+      "relative_asymptotic_correction": "3.24556478823483e-13"
+    }
+  ],
+  "complex_root_controls_are_interval_certificates": false,
+  "infinite_model_root_family_justification": "analytic small-z expansion and Rouche proof in TRACE09.5",
+  "reflecting_model_is_complete_D001": false,
+  "reflecting_model_has_actual_seed_zero_initial_tail": false,
+  "worldtube_H_tail_verified": false,
+  "actual_uniform_A_eta_verified": false,
+  "future_cutoff_fully_removed": false,
+  "global_stability_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_world_tube_radiation.py": "8c1f5dd282e5bef0c566c35adb4c78d0f89df8dcfe3cc8bc92436efb7df2ba67",
+    "WORLD_TUBE_RADIATION_TRANSFER.md": "05f8700fdd7f97e60c9fe91fd891e733b0a19bfa16e4213456c6e8114eb8c403",
+    "DLMF_WHITTAKER_RECEIPT_2026-10-23_R17.json": "33b2ce6ec14b3c1b174e6e86996369e18bfc9f29139079e9db4609f3641b37c9",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "MELLIN_INNER_TRANSFER_AND_CHARGE_BOOTSTRAP.md": "67f53fb6e28fcfa2d876232132c44c52c4eb13d8c0b122cc2b071775b4a24e1a",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

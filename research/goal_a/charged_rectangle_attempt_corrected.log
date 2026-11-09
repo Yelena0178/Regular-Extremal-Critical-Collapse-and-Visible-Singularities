@@ -1,0 +1,51 @@
+{"stage": "charged_cached_bounds_verified", "piece": 0, "cells": 9216}
+{"stage": "charged_tube_start", "piece": 0, "maximum_residuals": [0.0007626810873747362, 0.027078111167592192, 0.48101655275866656, 0.09814725692570937, 0.07036764778781751, 1.0076533633072409, 0.205602931901931, 0.0010303338408173062, 0.5452894215256935, 0.11126157851826905, 4.273284282098578e-15, 1.3269505459234086e-19], "boundary_errors": [1.875911165988639e-11, 2.3785545191233172e-08, 7.433748961371866e-12, 1.5168652835091879e-12]}
+{"stage": "charged_tube", "piece": 0, "diagonal": 0, "margin": 1.0799999964039735e-12}
+{"stage": "charged_tube", "piece": 0, "diagonal": 32, "margin": 1.0799969626043236e-12}
+{"stage": "charged_tube", "piece": 0, "diagonal": 64, "margin": 1.0762423806562649e-12}
+{"stage": "charged_tube", "piece": 0, "diagonal": 96, "margin": 2.0145047378641735e-13}
+{"stage": "charged_tube", "piece": 0, "diagonal": 128, "margin": 2.0145047378641735e-13}
+{"stage": "charged_tube", "piece": 0, "diagonal": 160, "margin": 2.0145047378641735e-13}
+{"stage": "charged_cell_bounds", "piece": 1, "rows_complete": 4}
+{"stage": "charged_cell_bounds", "piece": 1, "rows_complete": 28}
+{"stage": "charged_cell_bounds", "piece": 1, "rows_complete": 52}
+{"stage": "charged_cell_bounds", "piece": 1, "rows_complete": 76}
+{"stage": "charged_tube_start", "piece": 1, "maximum_residuals": [4.73194430419241e-05, 0.010695717523639788, 1.0445864519555213e-05, 8.922132924904779e-06, 1.1003105009587825e-06, 0.00033196660822494735, 0.0003133812312063108, 2.7790921067988852e-06, 1.5114771152663247e-06, 2.966463079552877e-06, 1.1271679266750377e-06, 3.587715827058044e-06], "boundary_errors": [7.886067527445771e-08, 3.3478133035848803e-05, 4.553165285657221e-08, 2.062126942130508e-08]}
+{"stage": "charged_tube", "piece": 1, "diagonal": 0, "margin": 2.2403180169502484e-10}
+{"stage": "charged_tube", "piece": 1, "diagonal": 32, "margin": 2.62663258343649e-11}
+{"stage": "charged_tube", "piece": 1, "diagonal": 64, "margin": 2.62663258343649e-11}
+{"stage": "charged_tube", "piece": 1, "diagonal": 96, "margin": 2.62663258343649e-11}
+{"stage": "charged_tube", "piece": 1, "diagonal": 128, "margin": 2.62663258343649e-11}
+{"stage": "charged_tube", "piece": 1, "diagonal": 160, "margin": 2.62663258343649e-11}
+{"stage": "charged_cell_bounds", "piece": 2, "rows_complete": 4}
+{"stage": "charged_cell_bounds", "piece": 2, "rows_complete": 28}
+{"stage": "charged_cell_bounds", "piece": 2, "rows_complete": 52}
+{"stage": "charged_cell_bounds", "piece": 2, "rows_complete": 76}
+{"stage": "charged_tube_start", "piece": 2, "maximum_residuals": [1.170751419022926e-05, 2.007771041803633, 2.0523216404186024e-05, 3.828134709385877e-05, 6.643624472566691e-07, 0.011394212148111881, 0.012070758048920346, 5.5603264865486254e-06, 5.165881428617212e-09, 4.6682970838096605e-09, 3.9296361663648775e-08, 4.174835421664319e-05], "boundary_errors": [1.9640391089036096e-10, 7.568823077100917e-08, 2.1357604402725737e-12, 1.1221464680057772e-12]}
+{"stage": "charged_tube", "piece": 2, "diagonal": 0, "margin": 6.860218077635009e-13}
+{"stage": "charged_tube", "piece": 2, "diagonal": 32, "margin": 2.1693951617610593e-14}
+{"stage": "charged_tube_failure", "failure": "invalid charged radius proposal on diagonal 34"}
+{
+  "status": "FAIL",
+  "scope": "attempted frozen C0 charged finite rectangle",
+  "complete_C0_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false,
+  "failure": "invalid charged radius proposal on diagonal 34",
+  "completed_pieces": [
+    {
+      "piece": 0,
+      "verified_cells": 9216,
+      "minimum_margin": 2.0145047378641735e-13
+    },
+    {
+      "piece": 1,
+      "verified_cells": 9216,
+      "minimum_margin": 2.62663258343649e-11
+    }
+  ],
+  "prepared_cache": "FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz",
+  "prepared_cache_sha256": "fc463c6d7be68017b76dabf3ae9575343184d957a24a1727e685cf4d808ba584",
+  "elapsed_seconds": 96.48261809999894
+}

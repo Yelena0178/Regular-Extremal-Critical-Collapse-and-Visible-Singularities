@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "replayed_constraint_seeds": [
+    {
+      "amplitude": "1/5",
+      "frequency": "8",
+      "cells": 2048
+    },
+    {
+      "amplitude": "3/10",
+      "frequency": "4",
+      "cells": 2048
+    }
+  ],
+  "exact_endpoint_slice_and_constraint_identities": true,
+  "abstract_budget_widths": [
+    "1/4398046511104",
+    "1/151115727451828646838272"
+  ],
+  "actual_AF_collar_constants_certified": false,
+  "numerical_full_AF_data_constructed": false,
+  "two_dimensional_early_screen_certified": false,
+  "analytical_AF_realization_independently_reviewed": false,
+  "critical_curve_and_three_branches_proved": false,
+  "source_sha256": {
+    "verify_af_transverse_flux.py": "29f1501d1a1b2b0427b43523f4c656c5ca4478e41754bc65f34ae0de3e4a0695",
+    "AF_REALIZATION_WITH_TRANSVERSE_FLUX.md": "1be17491ec35b2909036d5f1f3216e15f3eda727900965daf07f3ec429ead271",
+    "EARLY_CHARGED_CONSTRAINT_CERTIFICATE_N2048_2026-10-17.json": "4196aedcb4de15364c5783c5b078033c7cafb3a7b5a7706958f66a11bacdf81b",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

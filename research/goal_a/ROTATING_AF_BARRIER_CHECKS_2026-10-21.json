@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "exact_algebra_checks": 5,
+  "exponential_points": 10,
+  "high_precision_step_checks": 72,
+  "high_precision_field_checks": 900,
+  "negative_controls": 3,
+  "precision_digits": 150,
+  "certificate_replay_scope": "hashes, coverage and stated signs; full interval replay is a separate command",
+  "future_spacetime_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_rotating_af_barrier.py": "0129d8c038f4bf4c6e547a1c6a89d7f2f78e7ee5f367eced612a919faafb769f",
+    "certify_rotating_af_barrier.py": "bca9a84587da700371c896400dd3d3ad81749b2adf1593bad85a75fd24038e87",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "ROTATING_CANONICAL_A020_W8_2026-10-21.npz": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "ROTATING_AF_BARRIER_A020_W8_N4096_2026-10-21.json": "bd32d8ea5426cc2e650209738745ebdd8cc362e6dd1081426de34fa5a3c9ccdb",
+    "ROTATING_CANONICAL_A030_W4_2026-10-21.npz": "1a71809aae2ed543874c2ff29a1ae1faeb5092e0755f13e149a0b5db8cf2c073",
+    "ROTATING_AF_BARRIER_A030_W4_N4096_2026-10-21.json": "b3d2feead136bd93a27e6135e156f835a6415c61cb3fef256fc05bdf7d5ded33"
+  }
+}

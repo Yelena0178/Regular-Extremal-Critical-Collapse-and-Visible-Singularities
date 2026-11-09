@@ -1,0 +1,17 @@
+{
+  "evidence": "E0_thin_onset_transfer_feasibility",
+  "maximum_trial_boundary": [
+    0.007510720962507613,
+    0.001600561300810369,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sampled_boundary_certified": false,
+  "actual_thin_layer_transfer": false,
+  "original_eta_seed_transfer": false,
+  "goal_A_proved": false,
+  "completed": false,
+  "failure": "nonpositive tube on diagonal 517"
+}

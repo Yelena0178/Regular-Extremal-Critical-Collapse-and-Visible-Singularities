@@ -1,0 +1,129 @@
+{
+  "claim_ids": [
+    "CENTER03.1",
+    "CENTER03.2",
+    "CENTER03.3",
+    "CENTER03.4",
+    "CENTER03.5",
+    "CENTER03.6"
+  ],
+  "logic": "PROVED for exact identities; finite ODE samples are controls; analytic center and finite-transfer theorems separate",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "FINITE_ODE_NUMERICS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "exact_checks": [
+    "general angular-curvature positive source",
+    "signed charge scaling",
+    "mass scaling",
+    "neutral-shell sensitivity",
+    "electrovacuum continuation",
+    "charge primitive",
+    "Kommemi Raychaudhuri, signed Maxwell currents and wave normalization"
+  ],
+  "bump_control": "polynomial C5 only; analytic proof uses C-infinity compact bumps",
+  "bump_integrals": {
+    "I": "255852544/456326325",
+    "J": "150994944/9784775",
+    "E": "27262976/35102025"
+  },
+  "samples": [
+    {
+      "q": -1.0,
+      "seed_q": 0.0,
+      "seed_ADM_mass": 0.0,
+      "L": 128.0,
+      "target_mass": 0.8,
+      "matched_mass": 0.7999999999995707,
+      "t": 0.9633695447854393,
+      "mass_without_neutral": 0.08112499970657759,
+      "min_f_sample": 0.995454147625395,
+      "mass_t_derivative": 1.489136762756284,
+      "sensitivity_difference": 1.527460380401635e-10
+    },
+    {
+      "q": -1.0,
+      "seed_q": 0.0,
+      "seed_ADM_mass": 0.0,
+      "L": 256.0,
+      "target_mass": 0.8,
+      "matched_mass": 0.7999999999998378,
+      "t": 0.9894672598907015,
+      "mass_without_neutral": 0.04057404155283292,
+      "min_f_sample": 0.997727930567244,
+      "mass_t_derivative": 1.5332391353230688,
+      "sensitivity_difference": 5.958211701795335e-11
+    },
+    {
+      "q": 1.0,
+      "seed_q": 0.0,
+      "seed_ADM_mass": 0.0,
+      "L": 128.0,
+      "target_mass": 0.8,
+      "matched_mass": 0.7999999999995707,
+      "t": 0.9633695447854393,
+      "mass_without_neutral": 0.08112499970657759,
+      "min_f_sample": 0.995454147625395,
+      "mass_t_derivative": 1.489136762756284,
+      "sensitivity_difference": 1.527460380401635e-10
+    },
+    {
+      "q": 1.0,
+      "seed_q": 0.0,
+      "seed_ADM_mass": 0.0,
+      "L": 256.0,
+      "target_mass": 0.8,
+      "matched_mass": 0.7999999999998378,
+      "t": 0.9894672598907015,
+      "mass_without_neutral": 0.04057404155283292,
+      "min_f_sample": 0.997727930567244,
+      "mass_t_derivative": 1.5332391353230688,
+      "sensitivity_difference": 5.958211701795335e-11
+    },
+    {
+      "q": 1.0,
+      "seed_q": 0.4,
+      "seed_ADM_mass": 0.5,
+      "L": 256.0,
+      "target_mass": 1.3,
+      "matched_mass": 1.2999999999998686,
+      "t": 0.994435897062342,
+      "mass_without_neutral": 0.5341183234291514,
+      "min_f_sample": 0.99609619140625,
+      "mass_t_derivative": 1.5385290961059797,
+      "sensitivity_difference": 1.5197620939488843e-11
+    },
+    {
+      "q": -1.0,
+      "seed_q": -0.4,
+      "seed_ADM_mass": 0.5,
+      "L": 256.0,
+      "target_mass": 1.3,
+      "matched_mass": 1.2999999999998686,
+      "t": 0.994435897062342,
+      "mass_without_neutral": 0.5341183234291514,
+      "min_f_sample": 0.99609619140625,
+      "mass_t_derivative": 1.5385290961059797,
+      "sensitivity_difference": 1.5197620939488843e-11
+    }
+  ],
+  "negative_controls": [
+    "charged-only mass below target in all six cases",
+    "negative matching mass excluded analytically by positive source"
+  ],
+  "analytic_existence_source": "REGULAR_CENTER_BONDI_MATCHING.md CENTER03.2-CENTER03.4",
+  "finite_domain_transfer_analytic_source": "REGULAR_CENTER_BONDI_MATCHING.md CENTER03.5; Kommemi v2 Proposition 2.1 and checked model map",
+  "Cauchy_source_hypotheses_checked": true,
+  "numerical_PDE_transfer_certified": false,
+  "full_future_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_regular_center_matching.py": "b1b918e077827bdd94f0acdc57f211e9db56ac94f3717e276047c1d811d3c29f",
+    "REGULAR_CENTER_BONDI_MATCHING.md": "19aef127c5f18d9e9405a8d3de1b336d406824543815cd4c64f16254499be2cc",
+    "FINITE_BONDI_EXTERIOR_REALIZATION.md": "3234644116d9ddb803125dfa200c575aaca78ee146806c76be4f5afa36d7957b",
+    "CONSTRAINT_CONTRACTION_AND_FIRST_BOUNDARY.md": "5687d95b211ae6ee5f766180d9140a2d258b28d0a8f87b0326fb8f04ecfbed6c",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "../../reviews/STAGE0_SELF_REVIEW_2026-10-11/verification/sources/literature/1107.0949.txt": "68263d1418132daa58a7e397411ce29b07477cdbbb18bcec281e4a86a9fdd742"
+  }
+}

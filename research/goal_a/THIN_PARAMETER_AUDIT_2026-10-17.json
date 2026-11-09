@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "independent_interval_point_comparisons": 225,
+  "auxiliary_limit_strictly_in_box": true,
+  "translated_vacuum_identity": true,
+  "negative_controls": 1,
+  "note": "Finite audit; continuum coverage comes from the analytic interval construction.",
+  "source_sha256": {
+    "verify_thin_parameter_transfer.py": "d7c66ce6524ba56fc2a9d32e77b2679d1886b932a95cc60fec75c214bb4879a6",
+    "thin_parameter_boundary.py": "0c85bdf78c09ef710dc5a1a3a4879cbbc71d17f7c0b3640a6b79b4d722ca7e8e",
+    "thin_boundary_certificate.py": "a98aa6c920d4f596ac42fc02c680342ae1d1ee761fec38373156a4b2cf6f3317",
+    "graded_transport.py": "e1f539a8b18faf57adc4c5a38db5cf0ae6807ca4a373ea2b28b0da294b7c849f",
+    "thin_onset_reference.py": "fc52b42f4b3affc01ed71f375d90ce987c6ce169d8431672d25edc82fad095c1",
+    "ONSET_BOUNDARY_CERTIFICATE_2026-10-16.json": "3137dc48c29461d0e60541f8da9cbb064dfd2452d996346d9f9db580dc24edc5"
+  }
+}

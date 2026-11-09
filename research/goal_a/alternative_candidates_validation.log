@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED_CONSTRAINT_AND_E0_ARTIFACTS",
+  "source_hashes_checked": 46,
+  "candidate_cache_hashes_checked": 6,
+  "ordinary_optimized_comparisons": 7,
+  "certified_null_constraint_seeds": 2,
+  "certified_null_constraint_cells": 4096,
+  "certified_two_dimensional_cells_for_new_seeds": 0,
+  "finest_grid": 192,
+  "finest_E0_endpoint_lambda": [
+    0.051890841033152516,
+    0.061752351273136254
+  ],
+  "no_trapping_PDE_certificate": false,
+  "full_AF_Cauchy_realization": false,
+  "same_critical_curve": false,
+  "global_three_branch_terminal_states": false,
+  "goal_A_proved": false
+}

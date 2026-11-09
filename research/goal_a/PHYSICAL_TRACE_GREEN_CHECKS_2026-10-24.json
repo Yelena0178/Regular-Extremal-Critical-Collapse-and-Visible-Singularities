@@ -1,0 +1,153 @@
+{
+  "claim_ids": [
+    "GREEN14.1",
+    "GREEN14.2",
+    "GREEN14.3",
+    "GREEN14.4",
+    "GREEN14.5"
+  ],
+  "logic": "PROVED for full physical-W Green identity, natural boundary cancellation and leading returned amplitude with explicit actual source inputs; returned remainders/derivative/cutoff/full Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "FINITE_CONE_CONVOLUTION_AND_DELAY_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "Green fundamental pair/flux and both inner endpoints",
+    "exact actual effective W cancellation of Z",
+    "direct/returned kernel decomposition and propagation phase",
+    "cone and convolution exponent matching"
+  ],
+  "cone_controls": [
+    {
+      "R": "4.0",
+      "t_over_R": "0.5",
+      "electric_scaled_cone": "0.3850328589053975",
+      "metric_scaled_cone": "0.3105364715305526"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "2.0",
+      "electric_scaled_cone": "0.9908298307810355",
+      "metric_scaled_cone": "0.8614630969491825"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "16.0",
+      "electric_scaled_cone": "2.187349068758477",
+      "metric_scaled_cone": "1.750120559100498"
+    },
+    {
+      "R": "4.0",
+      "t_over_R": "128.0",
+      "electric_scaled_cone": "2.855532735616325",
+      "metric_scaled_cone": "1.978750050457317"
+    },
+    {
+      "R": "16.0",
+      "t_over_R": "0.5",
+      "electric_scaled_cone": "0.6107115402616023",
+      "metric_scaled_cone": "0.4119399475643676"
+    },
+    {
+      "R": "16.0",
+      "t_over_R": "2.0",
+      "electric_scaled_cone": "1.289072532421382",
+      "metric_scaled_cone": "0.987264806684147"
+    },
+    {
+      "R": "16.0",
+      "t_over_R": "16.0",
+      "electric_scaled_cone": "2.406032328849111",
+      "metric_scaled_cone": "1.793025894716797"
+    },
+    {
+      "R": "16.0",
+      "t_over_R": "128.0",
+      "electric_scaled_cone": "2.960889082916101",
+      "metric_scaled_cone": "1.984466452897795"
+    }
+  ],
+  "convolution_controls": [
+    {
+      "t": "0.0",
+      "gamma": "0.625",
+      "target_weighted_convolution": "1.6"
+    },
+    {
+      "t": "0.0",
+      "gamma": "0.875",
+      "target_weighted_convolution": "1.142857142857143"
+    },
+    {
+      "t": "1.0",
+      "gamma": "0.625",
+      "target_weighted_convolution": "2.427303236670855"
+    },
+    {
+      "t": "1.0",
+      "gamma": "0.875",
+      "target_weighted_convolution": "1.725748768653185"
+    },
+    {
+      "t": "8.0",
+      "gamma": "0.625",
+      "target_weighted_convolution": "3.643238321809356"
+    },
+    {
+      "t": "8.0",
+      "gamma": "0.875",
+      "target_weighted_convolution": "2.091855616912707"
+    },
+    {
+      "t": "64.0",
+      "gamma": "0.625",
+      "target_weighted_convolution": "3.817179606624615"
+    },
+    {
+      "t": "64.0",
+      "gamma": "0.875",
+      "target_weighted_convolution": "1.439327110926818"
+    }
+  ],
+  "delayed_packet_negative_control": [
+    {
+      "radial_center": "16.0",
+      "unit_return_model_weighted_response_over_old_norm_upper": "4.727486174610826"
+    },
+    {
+      "radial_center": "64.0",
+      "unit_return_model_weighted_response_over_old_norm_upper": "16.78784831985921"
+    },
+    {
+      "radial_center": "256.0",
+      "unit_return_model_weighted_response_over_old_norm_upper": "57.17304875902474"
+    }
+  ],
+  "source_inner_endpoint_retained": true,
+  "effective_boundary_Z_cancels": true,
+  "propagation_delay_retained": true,
+  "leading_returned_actual_amplitude_estimated_with_inputs": true,
+  "leading_returned_derivative_tail_verified": false,
+  "returned_remainder_kernels_time_estimate_verified": false,
+  "negative_time_kernel_bound_uniform_in_radius_verified": false,
+  "full_body_future_cutoff_removed": false,
+  "actual_W_set_to_zero": false,
+  "full_weighted_cutoff_removed": false,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_physical_trace_green.py": "0248ba84e9eb3e82da8f694364cd85e98bd87dcef0abbdda6fac8f4207783b14",
+    "PHYSICAL_TRACE_GREEN_AND_DELAY.md": "c3387eb8e838773be773b590f8d3777c31b72144ea0cc47cf4590ee9c4af253e",
+    "PHYSICAL_TRACE_LOW_FREQUENCY.md": "79992b88eea81b0d851ab386716fd8556ef90b6dea579cadc7443989beb4487e",
+    "ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md": "37d99cdb0226a03187121c3d40c90832396c166fde024aacbd07859550b1595e",
+    "RADIAL_DIVERGENCE_AND_SPECTRAL_CUTOFF.md": "af5914d7ca211ea874689e64fe8777b53ccf4154aecea161aee6d516023431ab",
+    "LOW_FREQUENCY_SYMBOL_AND_TIME_TRANSFER.md": "8bc500d7c811023af1a2780b4eab205a47484c103a2c61b871d459c473f8bab5",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exact_parameters": {
+    "amplitude": "2/5",
+    "frequency": "3/20",
+    "radius": 10,
+    "width": 4,
+    "coupling": "3/5",
+    "direction_interval": [
+      "-1",
+      "1"
+    ],
+    "bias_interval": [
+      "-2",
+      "2"
+    ]
+  },
+  "exact_normalization": "ratio of positive weighted integrals, not the floating quad result",
+  "charge_interval_display": [
+    5.762306825292676,
+    5.7745552603954895
+  ],
+  "S_upper": "61148774237594997563557740013920995643558350767439922969731511490351573/2812500000000000000000000000000000000000000000000000000000000000000000",
+  "S_upper_display": 21.741786395589333,
+  "pointwise_barrier": "1/100000",
+  "strict_crossing_margin": "1924233131839963879034745911112526445489314075793571920837238919640004833857551451018271798797432023698661289872696062677632709735332763490722761794385010123943287471488222195855168819328078755048164244341740584905652688101292108663519/61847529062400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "strict_crossing_margin_display": 0.03111253046016668,
+  "lower_barrier_available_display": 1.7299315521444273e-05,
+  "conclusion": "all radii, all parameters in the stated rectangle: 1 >= f > 1/100000",
+  "assumptions": [
+    "CPython Decimal.exp correctly rounded",
+    "Fraction exact integer arithmetic and directed Decimal input rounding"
+  ],
+  "future_focusing_certified": false,
+  "retained_mass_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "certify_biased_shell_initial.py": "7bbb08ead702ed755708b31ac8496c2d79c698d2eedd600115210eadaf115aff",
+    "certify_charge_shell_initial.py": "ce1aebf5c66a0de49a884acf5e0a5365134f1dfd41bcc7051a7a01e91cf808e0"
+  }
+}

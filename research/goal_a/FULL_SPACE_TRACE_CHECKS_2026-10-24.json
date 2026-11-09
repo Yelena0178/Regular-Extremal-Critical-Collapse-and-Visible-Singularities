@@ -1,0 +1,377 @@
+{
+  "claim_ids": [
+    "TRACE17.1",
+    "TRACE17.2",
+    "TRACE17.3",
+    "TRACE17.4",
+    "TRACE17.5",
+    "TRACE17.6"
+  ],
+  "logic": "PROVED for auxiliary pure-boundary kernels, H-only mapping refutation and carrier-compatible sufficient trace class; actual trace inputs/body/high-frequency/Goal A OPEN",
+  "evidence": [
+    "ANALYTIC",
+    "EXACT_ALGEBRA",
+    "PRIMARY_GAMMA_IDENTITIES",
+    "FINITE_MODE_MELLIN_AND_MOMENT_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "finite geometric-series remainder",
+    "nonstationary integration-by-parts sign and envelope/phase conormal orders",
+    "Gamma modulus, primitive summability and nonzero periodic tail",
+    "finite-radius small-frequency mode expansion and kernel moment envelope"
+  ],
+  "mode_controls": [
+    {
+      "q": "0.6",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "3.0078047058361"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "3.2862448160338"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "3.383906180551"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "20.018498160891"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "2.1376976134198"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "3.150360939679"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "2.0510506710021"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "4.2573351928862"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "2.0570266698061"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "4.978052589017"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "1.7324047424433"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "2.7047557753998"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "2.0662629255557"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "10.377679172612"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "1.6470517780209"
+    },
+    {
+      "q": "0.6",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "2.3518910951683"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "1.0221981419534"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "1.1833518228374"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "1.0313220830519"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "1.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "3.2167327937113"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.64748779592367"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "3.2151902115226"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.65044886971226"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "4.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "2.1985277174939"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.55479309599212"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "1.5798591633726"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.5612021620275"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "16.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "1.8536306142632"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.5335140559715"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "1.8000119052578"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": -1,
+      "scaled_small_mode_remainder": "0.54089455502923"
+    },
+    {
+      "q": "1.0",
+      "r_over_R": "64.0",
+      "abs_omega_r": "0.00001",
+      "sign_omega": 1,
+      "scaled_small_mode_remainder": "3.3757276341525"
+    }
+  ],
+  "gamma_primitive_controls": [
+    {
+      "q": "0.6",
+      "n": 1,
+      "Gamma_identity_relative_error": "0.0",
+      "partial_absolute_primitive_sum": "0.6269866668872415"
+    },
+    {
+      "q": "0.6",
+      "n": 10,
+      "Gamma_identity_relative_error": "4.66726146e-61",
+      "partial_absolute_primitive_sum": "1.143723493832477"
+    },
+    {
+      "q": "0.6",
+      "n": 20,
+      "Gamma_identity_relative_error": "9.33452292e-61",
+      "partial_absolute_primitive_sum": "1.145699100974496"
+    },
+    {
+      "q": "0.6",
+      "n": 40,
+      "Gamma_identity_relative_error": "1.86690458e-60",
+      "partial_absolute_primitive_sum": "1.145705810848916"
+    },
+    {
+      "q": "1.0",
+      "n": 1,
+      "Gamma_identity_relative_error": "1.55575382e-61",
+      "partial_absolute_primitive_sum": "0.3365717431389444"
+    },
+    {
+      "q": "1.0",
+      "n": 10,
+      "Gamma_identity_relative_error": "1.86690458e-60",
+      "partial_absolute_primitive_sum": "0.4406093870234767"
+    },
+    {
+      "q": "1.0",
+      "n": 20,
+      "Gamma_identity_relative_error": "3.57823378e-60",
+      "partial_absolute_primitive_sum": "0.4406110637677422"
+    },
+    {
+      "q": "1.0",
+      "n": 40,
+      "Gamma_identity_relative_error": "7.62319372e-60",
+      "partial_absolute_primitive_sum": "0.440611063781752"
+    }
+  ],
+  "periodic_alignment_controls": [
+    {
+      "q": "0.6",
+      "kappa": "0.5834390096956266",
+      "truncated_tail_terms": 40,
+      "periodic_grid_points": 256,
+      "positive_phase_alignment_mean": "0.5042522164893008",
+      "one_log_period_integral": "4.77640721822321",
+      "four_log_periods_integral": "19.10562887289284"
+    },
+    {
+      "q": "1.0",
+      "kappa": "0.3205245909247263",
+      "truncated_tail_terms": 40,
+      "periodic_grid_points": 256,
+      "positive_phase_alignment_mean": "0.6081785812051559",
+      "one_log_period_integral": "2.206227847861561",
+      "four_log_periods_integral": "8.824911391446243"
+    }
+  ],
+  "kernel_moment_controls": [
+    {
+      "r": "1.0",
+      "t_over_r": "4.0",
+      "normalized_kernel_moment_envelope": "0.4506938556659452"
+    },
+    {
+      "r": "1.0",
+      "t_over_r": "16.0",
+      "normalized_kernel_moment_envelope": "0.7253469278329726"
+    },
+    {
+      "r": "4.0",
+      "t_over_r": "4.0",
+      "normalized_kernel_moment_envelope": "0.5692557603074318"
+    },
+    {
+      "r": "4.0",
+      "t_over_r": "16.0",
+      "normalized_kernel_moment_envelope": "0.8013589194551779"
+    },
+    {
+      "r": "16.0",
+      "t_over_r": "4.0",
+      "normalized_kernel_moment_envelope": "0.6246625742430344"
+    },
+    {
+      "r": "16.0",
+      "t_over_r": "16.0",
+      "normalized_kernel_moment_envelope": "0.8288156724982664"
+    }
+  ],
+  "finite_controls_are_interval_certificates": false,
+  "analytic_uniform_operator_norm_machine_certified": false,
+  "H_eta_alone_suffices_for_auxiliary_full_A": false,
+  "H_only_failure_is_D001_counterexample": false,
+  "pure_boundary_full_A_with_extra_trace_conditions_proved": true,
+  "nonzero_carrier_channel_excluded": false,
+  "final_constant_carrier_assumed": false,
+  "actual_trace_channel_conditions_verified": false,
+  "actual_uniform_A_eta_verified": false,
+  "worldtube_H_tail_verified": false,
+  "finite_radius_body_source_estimate_verified": false,
+  "full_high_frequency_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_full_space_trace.py": "5b1bd186d73ed17eb14f50df4c72e9f309301d011ad7805a02b1d931353c7337",
+    "FULL_SPACE_PHYSICAL_TRACE_AUDIT.md": "3e5118352f08c09cca31a04b185aafc13ea6b5be820077a47e7f134cc5a57132",
+    "DLMF_MELLIN_GAMMA_RECEIPT_2026-10-24_R25.json": "f300ecbe0de275ad3a65b2679fdea204fa863ad5f2884111ac17794adac41a4e",
+    "PHYSICAL_TRACE_LOW_FREQUENCY.md": "79992b88eea81b0d851ab386716fd8556ef90b6dea579cadc7443989beb4487e",
+    "UNIFORM_UPPER_KERNEL_AND_FUTURE_LOCALIZATION.md": "e6ae7679bbee3fc793ed3b540c5008d22943b04fe8fc6660b1f00a1d10bdc41e",
+    "DLMF_KUMMER_EULER_RECEIPT_2026-10-24_R24.json": "48ce14cd3b708f5f27808303a45fd92552023863b5f7da0dc7226ebd0e9ced34",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

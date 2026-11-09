@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "algebra": {
+    "status": "PASS",
+    "exact_identities": [
+      "E_u",
+      "G_v",
+      "charge_constraint_v",
+      "scalar_constraint_v",
+      "conformal_Einstein"
+    ],
+    "wrong_charged_wave_sign_rejected": true,
+    "nonzero_charged_rhs_comparisons": 7,
+    "arithmetic": "exact rational complex Laurent polynomials"
+  },
+  "RN": [
+    {
+      "n": 16,
+      "endpoint_max_error": 1.059375698275744e-08
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 2.649690244993508e-09
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 6.62579324739454e-10
+    }
+  ],
+  "RN_graded": [
+    {
+      "n": 16,
+      "endpoint_max_error": 1.0559267238363645e-08
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 2.6413005116410204e-09
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 6.608473768210388e-10
+    }
+  ],
+  "FLRW": [
+    {
+      "n": 16,
+      "endpoint_max_error": 0.003921732943058365
+    },
+    {
+      "n": 32,
+      "endpoint_max_error": 0.0009766319322837558
+    },
+    {
+      "n": 64,
+      "endpoint_max_error": 0.00024396995366687824
+    }
+  ],
+  "scope": "finite exact algebra and E0 known-solution comparisons",
+  "actual_candidate_PDE_certified": false,
+  "goal_A_proved": false
+}

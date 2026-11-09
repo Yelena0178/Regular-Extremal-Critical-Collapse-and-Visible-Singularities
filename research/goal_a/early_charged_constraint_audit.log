@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "precision_digits": 50,
+  "bump_point_comparisons": 72,
+  "independent_RK4_checks": [
+    {
+      "amplitude": "1/5",
+      "frequency": "8",
+      "independent_flow_values": [
+        "0.331312268342920627916829",
+        "1.24884781945917682527201",
+        "0.114669188791700364295742"
+      ],
+      "refinement_differences": [
+        1.8096150401787833e-12,
+        2.7516991291818354e-12,
+        4.569324687107634e-13
+      ]
+    },
+    {
+      "amplitude": "3/10",
+      "frequency": "4",
+      "independent_flow_values": [
+        "0.435624932619762462980675",
+        "1.03223461488859865018495",
+        "0.128508695138872381581506"
+      ],
+      "refinement_differences": [
+        3.542230245487388e-12,
+        4.712930970365835e-12,
+        4.3389004177999425e-13
+      ]
+    }
+  ],
+  "scope": "finite independent audit; rational enclosure supplies the proof",
+  "complete_PDE_rectangle_certified": false,
+  "goal_A_proved": false
+}

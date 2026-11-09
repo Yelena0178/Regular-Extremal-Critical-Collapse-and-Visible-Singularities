@@ -1,0 +1,11 @@
+{
+  "proofs\\ASYM01_AFFINE_RAY_AND_TRANSVERSE_TAIL.md": "dd7ad30c59f167c973efb6a847c4c6874840ca7ba6d5ceb567bf543dda350a36",
+  "proofs\\ASYM02_TRANSVERSE_SECOND_JET.md": "5be2aeb5aee9707d28b527c7240f21a80470fa8571ce14c6407dd48b448ac736",
+  "computations\\verify_asym01.py": "bd2f6a0cd9b3d3e83ad5d50fbf3d54c2e2d239c1315e7a20e9fe8ec91d7f8315",
+  "computations\\verify_asym02_jets.py": "1deb5daa68242d344095d228a7b0fd2f2f27fedd755a8f9b6e7091fd9cb4a8f6",
+  "results\\ASYM01_RAY_CHECKS.json": "ce1bd906c12241c70e732d0f3d1d523f501191e5307540b1264574f365f9c467",
+  "results\\ASYM02_JET_CHECKS.json": "ea3ba3edd393487049c37c02e7126e8bcf685546af3a65bceaf2aad8cc5882fb",
+  "certificates\\ASYM01_RATIONAL_RAY.json": "24e13ad3f555b4ca4427f00909ca505c00998e412647560985ce56c5fc0f2500",
+  "reviews\\ASYM01_RESULTS.md": "e6cc35f17df863c3edd2287df14d950b76a47ccdc772f4d663944430b0a3b4a4",
+  "checkpoints\\2026-11-08_ASYM01.md": "76f4cf641c4733d93290d4a2f00f03db2c64edc9bdfbb2181c2f404ea98e2efe"
+}

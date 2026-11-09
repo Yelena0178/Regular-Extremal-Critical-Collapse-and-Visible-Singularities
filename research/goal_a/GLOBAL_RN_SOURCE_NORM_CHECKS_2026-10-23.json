@@ -1,0 +1,59 @@
+{
+  "claim_ids": [
+    "S01.1",
+    "S01.2",
+    "S01.3",
+    "S01.4",
+    "S01.5",
+    "S01.6",
+    "S01.7",
+    "S01.8"
+  ],
+  "logic": "PROVED (finite algebra/power tests and restricted functional counterexamples only)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "wave-operator sign/product map",
+    "source H power",
+    "r^-2 radial tail finite",
+    "r^(4 epsilon) weight quotient",
+    "n^4 versus n^2 source derivative test",
+    "actual covariant commutator",
+    "charged energy-work sign",
+    "full polynomial energy divergence",
+    "D001 Maxwell signs and rescaled scalar current",
+    "Maxwell work cancellation with retained geometry remainder",
+    "positive physical energy identity with both PDE residuals",
+    "Einstein mass current and electromagnetic pressure sign"
+  ],
+  "negative_controls": [
+    "r^-2 does not automatically diverge",
+    "wrong electric-gradient sign rejected",
+    "uniform coefficient smallness does not imply pointwise same-weight absorption",
+    "first-order forcing does not have a same-order source-derivative bound",
+    "electromagnetic radial pressure cannot be replaced by positive total energy"
+  ],
+  "source_theorem": {
+    "url": "https://arxiv.org/pdf/2603.28874v1",
+    "locators": [
+      "section 2.8 equations (2.16)-(2.17)",
+      "Theorem 3.1 equation (3.1)"
+    ],
+    "rho_factors": "product, verified against official HTML math alttext",
+    "imported_nonlinear_conclusion": false
+  },
+  "example_weights": {
+    "p": "5/4",
+    "epsilon": "1/8",
+    "radial_tail": "2/sqrt(R)"
+  },
+  "full_source_budget_verified": false,
+  "global_causal_identification_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_global_rn_source_norm.py": "201a07d833183587f7bb698cfa057988ffed9a07ecf6c20d9b2f7e7978f4fee7",
+    "GLOBAL_RN_SOURCE_NORM_AUDIT.md": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

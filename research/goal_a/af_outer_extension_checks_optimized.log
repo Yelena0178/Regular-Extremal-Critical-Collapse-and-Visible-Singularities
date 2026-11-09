@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "exact_constraint_identities": [
+    "Hamiltonian",
+    "momentum",
+    "Gauss",
+    "renormalized_mass",
+    "expansion_product"
+  ],
+  "omitted_cross_term_rejected": true,
+  "endpoint_lambda_second_derivative": true,
+  "past_collar_Young_identity": true,
+  "past_collar_abstract_test_widths": [
+    "1/256",
+    "1/262144",
+    "1/137438953472"
+  ],
+  "actual_seed_past_collar_constants_effective": false,
+  "arithmetic": "exact rational complex Laurent polynomials",
+  "actual_Cauchy_ball_constructed": false,
+  "full_AF_Cauchy_realization": false,
+  "global_terminal_state_proved": false,
+  "goal_A_proved": false
+}

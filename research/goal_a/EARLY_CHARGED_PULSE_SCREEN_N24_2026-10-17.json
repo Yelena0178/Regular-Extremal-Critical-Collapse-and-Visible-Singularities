@@ -1,0 +1,168 @@
+{
+  "runs": [
+    {
+      "configuration": {
+        "amplitude": 0.1,
+        "frequency": 2.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.1,
+        "frequency": 4.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.1,
+        "frequency": 8.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.2,
+        "frequency": 2.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.2,
+        "frequency": 4.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.2,
+        "frequency": 8.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "parameters": {
+        "radius": 14.534564029172396,
+        "cap": 9.630958755757522,
+        "scale": 36.30291718924878,
+        "cap_radius_ratio": 0.33131226834279914,
+        "initial_slope": 1.2488478194593595,
+        "charge_integral": 0.11466918879173066,
+        "minimum_sampled_H": 0.26529434826272746
+      },
+      "endpoint_lambda": 0.05189130234425187,
+      "minimum_sampled_lambda": -1.3782458142504492e-05,
+      "minimum_sampled_radius": 0.24077396889394143,
+      "endpoint_state": [
+        10.099797100037637,
+        0.2737801990422314,
+        -0.05363782636697165,
+        -0.10315897284932046,
+        -0.46922941500352544,
+        -0.9781493289646324,
+        -1.6197824147535416,
+        4.092759160890081,
+        -0.10637609150720906,
+        0.26966345767872946,
+        11.528219358085973,
+        -0.9338730259633611
+      ],
+      "elapsed_seconds": 0.9626196999997774,
+      "iterations": {
+        "maximum_iterations": 15,
+        "maximum_last_change": 2.994271497414047e-13
+      },
+      "evidence": "E0 smooth charged constraint pulse; no PDE error bound",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.3,
+        "frequency": 2.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "overflow encountered in multiply",
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.3,
+        "frequency": 4.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "parameters": {
+        "radius": 12.969291026307372,
+        "cap": 11.299493058916315,
+        "scale": 26.774702255845522,
+        "cap_radius_ratio": 0.4356249326195249,
+        "initial_slope": 1.0322346148889234,
+        "charge_integral": 0.12850869513884303,
+        "minimum_sampled_H": 0.42202124045840256
+      },
+      "endpoint_lambda": 0.061755945323270084,
+      "minimum_sampled_lambda": -8.084469543704787e-05,
+      "minimum_sampled_radius": 0.2824873264729107,
+      "endpoint_state": [
+        7.274477814755165,
+        0.17770179505050548,
+        0.20943666380347348,
+        0.1264152153130494,
+        -0.6450693804936092,
+        1.268691166780445,
+        0.5131532594239934,
+        2.3732048157251038,
+        -0.12513726301103492,
+        -0.523689910188338,
+        5.99959793031403,
+        -0.704746298234796
+      ],
+      "elapsed_seconds": 0.7837361000019882,
+      "iterations": {
+        "maximum_iterations": 16,
+        "maximum_last_change": 2.993161274389422e-13
+      },
+      "evidence": "E0 smooth charged constraint pulse; no PDE error bound",
+      "actual_smooth_seed_certified": false,
+      "global_no_trapping_proved": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.3,
+        "frequency": 8.0,
+        "coupling": 0.6
+      },
+      "n": 24,
+      "failure": "nonpositive flat cap",
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "independent smooth phase-onset seeds, fixed e=.6",
+  "actual_candidate_PDE_certified": false,
+  "full_AF_Cauchy_realization": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "early_charged_pulse_candidate.py": "77dbed4b59d03d6f10647c5ef1b7b454bd8620d842ebabbc9f1ac8903d9c707f",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  }
+}

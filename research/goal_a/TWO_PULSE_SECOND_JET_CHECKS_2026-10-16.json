@@ -1,0 +1,358 @@
+{
+  "evidence": "finite_exact_algebra_plus_E0_C0_shooting",
+  "exact": {
+    "arithmetic": "exact rational Laurent polynomials",
+    "identities": 4,
+    "rejected_single_pulse_cancellation": true
+  },
+  "pulse_integral_numeric": 0.3838172639958344,
+  "auxiliary_initial_parameters": [
+    0.1580159290037361,
+    -1.687204879862319,
+    -2.591850387556088,
+    0.3374409759724638,
+    0.5183700775112177
+  ],
+  "nonzero_probe_prediction": [
+    0.0,
+    0.007190740867514897,
+    -0.004412992358321736,
+    -0.0005033587552878037,
+    -0.0006586811959962157
+  ],
+  "auxiliary_limit_checks": [
+    {
+      "beta": 0.0003,
+      "max_error": 5.759986171360865e-07
+    },
+    {
+      "beta": 0.0001,
+      "max_error": 7.680037709869442e-08
+    },
+    {
+      "beta": 3e-05,
+      "max_error": 2.3036898575377884e-08
+    }
+  ],
+  "runs": [
+    {
+      "parameters": [
+        0.15783082412903612,
+        -1.6956530276533175,
+        -2.607432162035909,
+        0.3420321938719055,
+        0.5269870332205417
+      ],
+      "beta": 0.003,
+      "scaled_residual": [
+        -2.731148640577885e-13,
+        -5.77762308800574e-14,
+        1.1099064711231743e-16,
+        -1.5179953177560678e-14,
+        8.354120595110255e-15
+      ],
+      "P_over_beta": [
+        -5.77762308800574e-14,
+        1.1099064711231743e-16
+      ],
+      "K_over_beta": [
+        -1.5179953177560678e-14,
+        8.354120595110255e-15
+      ],
+      "early_K_over_beta_squared": [
+        -0.00035535815208405445,
+        -0.00043376579765421413
+      ],
+      "T_final": -0.02002002116059959,
+      "min_sampled_H": -4.6279496736237574e-05,
+      "r_initial": 1.5927959407737122,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "passes_sampled_H_screen": false
+    },
+    {
+      "parameters": [
+        0.1579957883261497,
+        -1.6900696889072386,
+        -2.5967418263459106,
+        0.33897680183962325,
+        0.5211068638908425
+      ],
+      "beta": 0.001,
+      "scaled_residual": [
+        4.884981308350689e-15,
+        -1.9500486944766842e-12,
+        1.2771938134913642e-12,
+        7.026018422552357e-14,
+        5.780579338029601e-14
+      ],
+      "P_over_beta": [
+        -1.9500486944766842e-12,
+        1.2771938134913642e-12
+      ],
+      "K_over_beta": [
+        7.026018422552357e-14,
+        5.780579338029601e-14
+      ],
+      "early_K_over_beta_squared": [
+        -0.00035471390241109793,
+        -0.00043328259977512367
+      ],
+      "T_final": -0.020005236703154246,
+      "min_sampled_H": 8.551633018631814e-06,
+      "r_initial": 1.592945324744755,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "passes_sampled_H_screen": true
+    },
+    {
+      "parameters": [
+        0.15801412948984112,
+        -1.688069204939844,
+        -2.5932869851294322,
+        0.337902224340618,
+        0.5191773727986484
+      ],
+      "beta": 0.0003,
+      "scaled_residual": [
+        -1.3322676295501878e-15,
+        6.639435577175608e-13,
+        -4.161804173053233e-13,
+        -9.060757603757411e-14,
+        -1.9891131801225363e-13
+      ],
+      "P_over_beta": [
+        6.639435577175608e-13,
+        -4.161804173053233e-13
+      ],
+      "K_over_beta": [
+        -9.060757603757411e-14,
+        -1.9891131801225363e-13
+      ],
+      "early_K_over_beta_squared": [
+        -0.0003546419162719197,
+        -0.0004332284655436985
+      ],
+      "T_final": -0.020001426016420302,
+      "min_sampled_H": 2.625049432674014e-06,
+      "r_initial": 1.5929617306467379,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "passes_sampled_H_screen": true
+    },
+    {
+      "parameters": [
+        0.1580157294721582,
+        -1.6874934449971992,
+        -2.5923263435015333,
+        0.33759477115369724,
+        0.5186378822396356
+      ],
+      "beta": 0.0001,
+      "scaled_residual": [
+        1.5543122344752192e-15,
+        1.0186962425249503e-11,
+        -6.626174860150548e-12,
+        -4.319147151622278e-13,
+        -4.77318980663842e-13
+      ],
+      "P_over_beta": [
+        1.0186962425249503e-11,
+        -6.626174860150548e-12
+      ],
+      "K_over_beta": [
+        -4.319147151622278e-13,
+        -4.77318980663842e-13
+      ],
+      "early_K_over_beta_squared": [
+        -0.00035463562353974865,
+        -0.0004332237295719389
+      ],
+      "T_final": -0.02000046170802077,
+      "min_sampled_H": 8.750558610662184e-07,
+      "r_initial": 1.592963156265594,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "passes_sampled_H_screen": true
+    }
+  ],
+  "tolerance_runs": [
+    {
+      "parameters": [
+        0.15801412948995514,
+        -1.6880691715079061,
+        -2.593286933754259,
+        0.3379021933000879,
+        0.5191773251086877
+      ],
+      "beta": 0.0003,
+      "scaled_residual": [
+        -2.4424906541753444e-15,
+        -2.4566913514578116e-11,
+        1.596336785780161e-11,
+        -1.8322980479653957e-13,
+        -2.116675980582841e-12
+      ],
+      "P_over_beta": [
+        -2.4566913514578116e-11,
+        1.596336785780161e-11
+      ],
+      "K_over_beta": [
+        -1.8322980479653957e-13,
+        -2.116675980582841e-12
+      ],
+      "early_K_over_beta_squared": [
+        -0.00035464191627147026,
+        -0.0004332284655433602
+      ],
+      "T_final": -0.020001426016413828,
+      "min_sampled_H": 2.625049432682432e-06,
+      "r_initial": 1.592961730646838,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "configuration": {
+        "beta": 0.0003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-10,
+        "atol": 2e-14,
+        "max_step": 0.04
+      }
+    },
+    {
+      "parameters": [
+        0.15801412948995514,
+        -1.6880691715079061,
+        -2.593286933754259,
+        0.3379021933000879,
+        0.5191773251086877
+      ],
+      "beta": 0.0003,
+      "scaled_residual": [
+        3.774758283725532e-15,
+        1.4858026644048543e-11,
+        -9.628158381487633e-12,
+        -5.53060519798962e-12,
+        -1.3787639565557696e-11
+      ],
+      "P_over_beta": [
+        1.4858026644048543e-11,
+        -9.628158381487633e-12
+      ],
+      "K_over_beta": [
+        -5.53060519798962e-12,
+        -1.3787639565557696e-11
+      ],
+      "early_K_over_beta_squared": [
+        -0.000354641916271472,
+        -0.0004332284655433599
+      ],
+      "T_final": -0.020001426016414123,
+      "min_sampled_H": 2.6250494326824324e-06,
+      "r_initial": 1.5929617306468433,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "configuration": {
+        "beta": 0.0003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-11,
+        "atol": 2e-15,
+        "max_step": 0.02
+      }
+    },
+    {
+      "parameters": [
+        0.1580141294898216,
+        -1.68806920549238,
+        -2.593286985979503,
+        0.3379022248391925,
+        0.5191773735602444
+      ],
+      "beta": 0.0003,
+      "scaled_residual": [
+        6.261657858885883e-14,
+        1.2456809096904597e-13,
+        -8.10748203096903e-14,
+        -6.6297943653250596e-15,
+        -9.418958206268163e-15
+      ],
+      "P_over_beta": [
+        1.2456809096904597e-13,
+        -8.10748203096903e-14
+      ],
+      "K_over_beta": [
+        -6.6297943653250596e-15,
+        -9.418958206268163e-15
+      ],
+      "early_K_over_beta_squared": [
+        -0.00035464191627200255,
+        -0.0004332284655437477
+      ],
+      "T_final": -0.02000142601642561,
+      "min_sampled_H": 2.625049432672572e-06,
+      "r_initial": 1.5929617306467714,
+      "evidence": "E0_C0_early_piecewise_ODE",
+      "smooth_layer_resolved": false,
+      "rigorous_root_box": false,
+      "goal_A_proved": false,
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "configuration": {
+        "beta": 0.0003,
+        "coupling": 0.6,
+        "radius": 5.0,
+        "amplitude": 0.5,
+        "rtol": 2e-12,
+        "atol": 2e-16,
+        "max_step": 0.01
+      }
+    }
+  ],
+  "successive_root_drift": [
+    0.0,
+    5.2225244129289194e-08
+  ],
+  "finite_difference_determinants": [
+    -3.0805014450114386e-12,
+    -3.0805004910857495e-12
+  ],
+  "analytic_limit_determinant": -3.081056687697565e-12,
+  "smooth_layer_resolved": false,
+  "rigorous_root_box": false,
+  "full_goal_A_proved": false,
+  "source_sha256": {
+    "TWO_PULSE_SECOND_JET.md": "d501bdea929f1cc2de1313728f662fe09fed6a380f5acad1103992c42a4a86ed",
+    "second_jet_shooting.py": "e49eeb4058141f795fd21d174fb62a9abb0f840015a0fc354338e52fd092e47a",
+    "verify_two_pulse_second_jet.py": "1eceb6febbfa9e04b55684c345417e0f48f45e8b8d5064c4f93d619be3196734",
+    "first_jet_shooting.py": "23766f7658fbfe42a75bf99bbb24e90340f8076d6f8fb54f01b44be8100bb0dd",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "SECOND_TRANSVERSE_JET.md": "c414721230e78bb0d6930a5bd1afc36a8fd405ea354529b3bd11c9c520acc7bf"
+  }
+}

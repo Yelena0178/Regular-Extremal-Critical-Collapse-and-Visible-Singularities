@@ -1,0 +1,307 @@
+{
+  "runs": [
+    {
+      "configuration": {
+        "amplitude": 0.2,
+        "frequency": 8.0,
+        "coupling": 0.6
+      },
+      "n": 48,
+      "parameters": {
+        "radius": 14.534564029172396,
+        "cap": 9.630958755757522,
+        "scale": 36.30291718924878,
+        "cap_radius_ratio": 0.33131226834279914,
+        "initial_slope": 1.2488478194593595,
+        "charge_integral": 0.11466918879173066,
+        "minimum_sampled_H": 0.26529434826272746
+      },
+      "endpoint_lambda": 0.05188941573147243,
+      "minimum_sampled_lambda": -1.0315967930846903e-06,
+      "minimum_index": [
+        0,
+        47
+      ],
+      "minimum_sampled_lambda_u_positive": 2.285184398855586e-05,
+      "minimum_u_positive_index": [
+        1,
+        47
+      ],
+      "outgoing_endpoint_lambda_drift": -1.0105341599707555e-06,
+      "minimum_sampled_radius": 0.24077396889393815,
+      "maximum_sampled_nu": -0.44743716724519794,
+      "endpoint_state": [
+        10.100514258998968,
+        0.27371207247233137,
+        -0.053610947504621496,
+        -0.10320557471504029,
+        -0.4691085434223047,
+        -0.9783813305872497,
+        -1.6211670020508704,
+        4.09284633874994,
+        -0.10661786591135558,
+        0.26968107920714146,
+        11.529156220715054,
+        -0.9336576276918942
+      ],
+      "outgoing_terminal_state": [
+        14.534564029172396,
+        0.4538309349376305,
+        0.0,
+        0.0,
+        -0.5508658837954016,
+        -0.2374992280074489,
+        0.13330174406496317,
+        7.267298196463986,
+        -4.493038129975319e-06,
+        -3.880597289491634e-06,
+        14.534504361894601,
+        -0.6302942309425641
+      ],
+      "first_transverse_scalar_at_terminal": [
+        0.009001317265138392,
+        -0.0050521902761190415
+      ],
+      "iterations": {
+        "maximum_iterations": 10,
+        "maximum_last_change": 2.984279490192421e-13
+      },
+      "cache": "EARLY_CHARGED_A20_W8_N48_2026-10-17.npz",
+      "cache_sha256": "70bfb826218113c3ac89dc1b5ba2f3f3dfd1fc053306ef54136ca7f19474ddf2",
+      "elapsed_seconds": 1.658233599999221,
+      "evidence": "E0 only",
+      "actual_smooth_seed_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.2,
+        "frequency": 8.0,
+        "coupling": 0.6
+      },
+      "n": 96,
+      "parameters": {
+        "radius": 14.534564029172396,
+        "cap": 9.630958755757522,
+        "scale": 36.30291718924878,
+        "cap_radius_ratio": 0.33131226834279914,
+        "initial_slope": 1.2488478194593595,
+        "charge_integral": 0.11466918879173066,
+        "minimum_sampled_H": 0.26529434826272746
+      },
+      "endpoint_lambda": 0.05189083354758557,
+      "minimum_sampled_lambda": 9.302349822056684e-09,
+      "minimum_index": [
+        0,
+        96
+      ],
+      "minimum_sampled_lambda_u_positive": 5.957719771187437e-06,
+      "minimum_u_positive_index": [
+        1,
+        96
+      ],
+      "outgoing_endpoint_lambda_drift": 9.302349822056684e-09,
+      "minimum_sampled_radius": 0.24077396889392874,
+      "maximum_sampled_nu": -0.44739510580490716,
+      "endpoint_state": [
+        10.10049899856546,
+        0.27371276356359403,
+        -0.053606979440404746,
+        -0.10320389936772065,
+        -0.46910967340451,
+        -0.9783845253463942,
+        -1.6211787540173674,
+        4.092816412388444,
+        -0.10661782703601365,
+        0.2696800633238156,
+        11.529196479837015,
+        -0.9336679697720169
+      ],
+      "outgoing_terminal_state": [
+        14.534564029172396,
+        0.4538309349376305,
+        0.0,
+        0.0,
+        -0.5508660276013545,
+        -0.23749376638812636,
+        0.13332383406521148,
+        7.267281865625882,
+        2.2262354902404373e-08,
+        1.922779912224107e-08,
+        14.534560048281353,
+        -0.6302948890710385
+      ],
+      "first_transverse_scalar_at_terminal": [
+        0.009001112617325654,
+        -0.005053028815221168
+      ],
+      "iterations": {
+        "maximum_iterations": 8,
+        "maximum_last_change": 2.99704705497561e-13
+      },
+      "cache": "EARLY_CHARGED_A20_W8_N96_2026-10-17.npz",
+      "cache_sha256": "62bcc6330ddd2b7871434e0723a569b9033733a6ed4e901eec62b34d10755201",
+      "elapsed_seconds": 5.710444099997403,
+      "evidence": "E0 only",
+      "actual_smooth_seed_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.3,
+        "frequency": 4.0,
+        "coupling": 0.6
+      },
+      "n": 48,
+      "parameters": {
+        "radius": 12.969291026307372,
+        "cap": 11.299493058916315,
+        "scale": 26.774702255845522,
+        "cap_radius_ratio": 0.4356249326195249,
+        "initial_slope": 1.0322346148889234,
+        "charge_integral": 0.12850869513884303,
+        "minimum_sampled_H": 0.42202124045840256
+      },
+      "endpoint_lambda": 0.06174098045216626,
+      "minimum_sampled_lambda": -1.7867476793095122e-06,
+      "minimum_index": [
+        0,
+        47
+      ],
+      "minimum_sampled_lambda_u_positive": 3.820818526418115e-05,
+      "minimum_u_positive_index": [
+        1,
+        47
+      ],
+      "outgoing_endpoint_lambda_drift": -1.7591340149061586e-06,
+      "minimum_sampled_radius": 0.2824873264729054,
+      "maximum_sampled_nu": -0.49894278892781,
+      "endpoint_state": [
+        7.273563439496142,
+        0.17776078234641085,
+        0.20928394481676632,
+        0.12662542962081672,
+        -0.6453822534857786,
+        1.2679977620624727,
+        0.5111522990761836,
+        2.373632075018265,
+        -0.12544764794254645,
+        -0.5234131514277806,
+        5.992757274972403,
+        -0.7045018824373167
+      ],
+      "outgoing_terminal_state": [
+        12.969291026307372,
+        0.4711495093749902,
+        0.0,
+        0.0,
+        -0.5306172433618453,
+        0.31480861707060037,
+        -0.4738232001551312,
+        6.484669724917191,
+        -1.4428412838699897e-05,
+        6.603272133095425e-06,
+        12.969371081959348,
+        -0.5369017357586666
+      ],
+      "first_transverse_scalar_at_terminal": [
+        -0.012879877569076137,
+        0.019385698092302565
+      ],
+      "iterations": {
+        "maximum_iterations": 10,
+        "maximum_last_change": 2.994271497414047e-13
+      },
+      "cache": "EARLY_CHARGED_A30_W4_N48_2026-10-17.npz",
+      "cache_sha256": "03e5b7bd3403e8c753311f82892bda1af222739d9cdb4220480e55de76f37b13",
+      "elapsed_seconds": 2.0790299999971467,
+      "evidence": "E0 only",
+      "actual_smooth_seed_certified": false,
+      "goal_A_proved": false
+    },
+    {
+      "configuration": {
+        "amplitude": 0.3,
+        "frequency": 4.0,
+        "coupling": 0.6
+      },
+      "n": 96,
+      "parameters": {
+        "radius": 12.969291026307372,
+        "cap": 11.299493058916315,
+        "scale": 26.774702255845522,
+        "cap_radius_ratio": 0.4356249326195249,
+        "initial_slope": 1.0322346148889234,
+        "charge_integral": 0.12850869513884303,
+        "minimum_sampled_H": 0.42202124045840256
+      },
+      "endpoint_lambda": 0.06175234467680067,
+      "minimum_sampled_lambda": 1.4761269868195755e-09,
+      "minimum_index": [
+        0,
+        96
+      ],
+      "minimum_sampled_lambda_u_positive": 9.924443789418724e-06,
+      "minimum_u_positive_index": [
+        1,
+        96
+      ],
+      "outgoing_endpoint_lambda_drift": 1.4761269868195755e-09,
+      "minimum_sampled_radius": 0.28248732647291064,
+      "maximum_sampled_nu": -0.4989299839923633,
+      "endpoint_state": [
+        7.27366331009418,
+        0.17776133962073074,
+        0.2092931496471562,
+        0.12661413648943973,
+        -0.6453525474224305,
+        1.2680299696051998,
+        0.511218235389101,
+        2.3734361249890106,
+        -0.1254504153134971,
+        -0.5234173993675216,
+        5.993205786055813,
+        -0.7044977322507544
+      ],
+      "outgoing_terminal_state": [
+        12.969291026307372,
+        0.4711495093749902,
+        0.0,
+        0.0,
+        -0.5306171658065478,
+        0.31480719432168336,
+        -0.4737825611854463,
+        6.484645492837077,
+        3.517460641387835e-08,
+        -1.6097924468189572e-08,
+        12.969289060808702,
+        -0.5369039252010681
+      ],
+      "first_transverse_scalar_at_terminal": [
+        -0.012879817477119498,
+        0.019384032582416874
+      ],
+      "iterations": {
+        "maximum_iterations": 9,
+        "maximum_last_change": 2.9976021664879227e-13
+      },
+      "cache": "EARLY_CHARGED_A30_W4_N96_2026-10-17.npz",
+      "cache_sha256": "c57eb6f8143091521fe158a4e9414ef6c2763b612ca4a1f4fdf100e1563f2188",
+      "elapsed_seconds": 6.393602700001793,
+      "evidence": "E0 only",
+      "actual_smooth_seed_certified": false,
+      "goal_A_proved": false
+    }
+  ],
+  "scope": "refinement of independent smooth charged-onset seeds",
+  "complete_PDE_error_certified": false,
+  "global_no_trapping_proved": false,
+  "full_AF_Cauchy_realization": false,
+  "critical_curve_constructed": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "explore_early_charged_refinement.py": "1d8deffcecb3c41528a10043ce57930d0f92eee6404e9edc137bbf9763171419",
+    "early_charged_pulse_candidate.py": "77dbed4b59d03d6f10647c5ef1b7b454bd8620d842ebabbc9f1ac8903d9c707f",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "claim_ids": [
+    "BON01.1",
+    "BON01.2",
+    "BON01.4"
+  ],
+  "logic": "PROVED (finite identities only; analytic existence theorem separate)",
+  "evidence": "EXACT_ALGEBRA",
+  "audit": "INTERNAL_AUDIT",
+  "sympy_version": "1.14.0",
+  "checks": [
+    "radial cancellation removes w_z from C_z",
+    "regular compactified wave",
+    "remaining Maxwell constraint",
+    "remaining Einstein mass constraint",
+    "initial exact RN tail",
+    "induced Cauchy exterior metric, Gauss and Hamiltonian constraints"
+  ],
+  "negative_controls": [
+    "mass constraint retains Maxwell residual"
+  ],
+  "analytic_existence_source": "FINITE_BONDI_EXTERIOR_REALIZATION.md, BON01.3",
+  "numerical_PDE_existence_certified": false,
+  "regular_center_Cauchy_matching_verified": false,
+  "full_future_fixed_radius_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_finite_bondi_constraints.py": "d8c1cb654aa78d713be93aa2904ec54d0ee2e98bb8b8496abfcbfba92ecce3ce",
+    "FINITE_BONDI_EXTERIOR_REALIZATION.md": "3234644116d9ddb803125dfa200c575aaca78ee146806c76be4f5afa36d7957b",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}

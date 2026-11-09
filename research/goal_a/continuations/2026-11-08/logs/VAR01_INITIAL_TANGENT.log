@@ -1,0 +1,52 @@
+[
+  {
+    "alpha": 1.0,
+    "beta": 0.0,
+    "mass_derivative": 0.276209666015679,
+    "proper_support_derivative": 10.244582624423394,
+    "sampled_log_outgoing_current_derivative_range": [
+      -1.1027223755724367,
+      -1.7469606999595995e-07
+    ],
+    "differences": [
+      {
+        "epsilon": 0.001,
+        "max_f_derivative_error": 2.013842243520081e-07,
+        "max_proper_distance_derivative_error": 2.488947593803914e-06,
+        "mass_derivative_error": 9.35162300930159e-08
+      },
+      {
+        "epsilon": 0.0005,
+        "max_f_derivative_error": 5.0346181168503534e-08,
+        "max_proper_distance_derivative_error": 6.222470219086063e-07,
+        "mass_derivative_error": 2.3378556646136417e-08
+      }
+    ],
+    "max_phase_cost_identity_error": 3.469446951953614e-18
+  },
+  {
+    "alpha": 0.0,
+    "beta": 1.0,
+    "mass_derivative": -0.0022243688706157787,
+    "proper_support_derivative": -0.2455606553082687,
+    "sampled_log_outgoing_current_derivative_range": [
+      -0.5555555555538478,
+      -0.5283336123729563
+    ],
+    "differences": [
+      {
+        "epsilon": 0.001,
+        "max_f_derivative_error": 8.642945074910369e-10,
+        "max_proper_distance_derivative_error": 8.329278933238982e-10,
+        "mass_derivative_error": 1.08988318803932e-10
+      },
+      {
+        "epsilon": 0.0005,
+        "max_f_derivative_error": 2.1611855013925485e-10,
+        "max_proper_distance_derivative_error": 2.2363749740961225e-10,
+        "mass_derivative_error": 2.860817182107067e-11
+      }
+    ],
+    "max_phase_cost_identity_error": 3.469446951953614e-18
+  }
+]

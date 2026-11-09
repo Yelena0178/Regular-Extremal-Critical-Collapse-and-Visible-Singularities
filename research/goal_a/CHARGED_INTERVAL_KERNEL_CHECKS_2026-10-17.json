@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "exact_Hermite_coefficients": 192,
+  "exact_residual_components": 12,
+  "rational_Jacobian_comparisons": 144,
+  "zero_radius_rejected": true,
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "scope": "finite outward kernel only; actual candidate boundary and all cells not certified",
+  "actual_candidate_PDE_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_charged_interval_kernel.py": "a3b56db454148a82f8769deb3e82ec5010657a8b4e8e17fd1827ddddd53354db",
+    "charged_interval_kernel.py": "82e9ff18b95d30a341aa82ffda29752747decffbe4ea456e3903e9d74a5f8813",
+    "interval_transport_grid.py": "7b0b64b3de043249c12922318a06fb92ea75179058cceb592b8d3f8c8d660da3",
+    "rational_transport_cell.py": "47766dea3f8dfd861edc079e0b55a6ea37ac46afcabfa1263c1b392a96edc2ac",
+    "verify_horizon_seed.py": "f74b5b3bea0375fd382141351702495b41acf53f2c7dfb7617fef5d3998c384f",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "verify_interval_transport_grid.py": "6dcb50c9c701eefdc2178ed81937f51e6f9b2f998ff23741dba4478480d95a2b"
+  }
+}

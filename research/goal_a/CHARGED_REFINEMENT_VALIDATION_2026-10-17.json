@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "source_hashes_checked": 27,
+  "ordinary_optimized_verifiers_compared": 2,
+  "completed_explorations": 12,
+  "endpoint_lambdas": {
+    "10.0": [
+      0.000312168055919483,
+      -2.2574753408770244e-05,
+      -7.79651215845833e-05
+    ],
+    "11.0": [
+      0.0007702840598587668,
+      0.00015343601633834578,
+      2.1008069267284677e-05
+    ],
+    "12.0": [
+      0.0015743350305996108,
+      0.0003656617633298579,
+      7.05199427376301e-05
+    ],
+    "14.0": [
+      0.004690991889378338,
+      0.0013203605425470858,
+      0.00028499688420535084
+    ]
+  },
+  "actual_smooth_candidate_PDE_certified": false,
+  "global_critical_curve_proved": false,
+  "goal_A_proved": false,
+  "reports": [
+    "CHARGED_SHAPE_FAMILY_2026-10-17.json",
+    "CHARGED_LOBATTO_CHECKS_2026-10-17.json",
+    "CHARGED_LOBATTO_SHAPES_2026-10-17.json",
+    "CHARGED_INTERVAL_KERNEL_CHECKS_2026-10-17.json",
+    "AF_OUTER_EXTENSION_CHECKS_2026-10-17.json"
+  ],
+  "proof_sha256": {
+    "CHARGED_SCREEN_REFINEMENT.md": "a656b3957485d797ce5f74b0e12f0d9c6790979d9b8f6fec75f5a31aa143bd7e",
+    "CHARGED_FINITE_DOMAIN_STABILITY.md": "ce54072937555491ea35b5619ca4066c31370e8059e9180630546e8174682a35",
+    "PAST_COLLAR_AND_AF_REALIZATION.md": "91c71a10fc3733c473348cb4b65b22b00f6de1ef8a1c007b039dca6ee0739e8b"
+  }
+}

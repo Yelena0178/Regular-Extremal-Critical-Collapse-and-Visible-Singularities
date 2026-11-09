@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "high_precision_jet_comparisons": 540,
+  "defining_constraint_comparisons": 81,
+  "precision_digits": 80,
+  "junctions_checked": 2,
+  "complete_rectangle_certified": false,
+  "scope": "independent finite high-precision audit; continuum coverage is the rational Taylor proof",
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_frozen_charged_boundary.py": "401d9a3a2ad8a51c512d18591db97e2425d55f8756a51d1f9b0bb8fd7b31e397",
+    "frozen_charged_boundary.py": "a37bc9993faddc69a3371cc901655db56ab7ff8b1861ca9a75cccb0e49e42a1b",
+    "FROZEN_CHARGED_CONE_2026-10-17.json": "ca42ec1593e47c1595188300d6cfa92c50558eeea960e5b515b6d5fd9b135dc2",
+    "FROZEN_CHARGED_BOUNDARY_CERTIFICATE_2026-10-17.json": "c881b0fa19bcd702cbd20b3786293223f0b18c3340896c92b606d9c0162f36ef"
+  }
+}

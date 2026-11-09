@@ -1,0 +1,36 @@
+{
+  "source_slice": "ROTATING_PAST_SLICE_A030_W4_N192_2026-10-21.json",
+  "source_slice_sha256": "975d4b806a1497213081955fc479442f6270793921745d6561a99bb0dda170bd",
+  "source_array_sha256": "f9fc1e80d54493ffed7dc1e108948ca3aa86fa31e52151d1e063d2a783c61f3b",
+  "source_sha256": {
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "rotating_past_slice.py": "1cf6c2bd2f115e838fe6d209e096ef81bc6c9711a8a17eed35501e84cd530b9f",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "incoming_family.py": "38a9c31005d228ddc26e0d65def039acff034eba1ea0728ad84965a26e43409a"
+  },
+  "runs": [
+    {
+      "parameter": 1.0,
+      "tolerance": 2e-12,
+      "inner": 2.9113352049044616,
+      "outer": 14.334046707490797,
+      "ADM_mass": 13.020996267842559,
+      "ADM_charge": 13.022453767499108,
+      "ADM_mass_minus_abs_charge": -0.0014574996565492881,
+      "minimum_sampled_f": 0.000574241151162004,
+      "analytic_tail_minimum_binary64": 0.008575965137182617,
+      "minimum_sampled_expansion_out": 0.000827089132500246,
+      "maximum_sampled_expansion_in": -0.003680966650995561,
+      "integration_nodes": 3254,
+      "all_radius_error_certified": false,
+      "exact_original_seed_preserved": false,
+      "future_evolved": false,
+      "goal_A_proved": false
+    }
+  ],
+  "evidence": "E0 AF constraint re-solving of explicit smooth approximant profiles",
+  "full_AF_realization_certified": false,
+  "original_characteristic_seed_exact": false,
+  "early_future_screen_passed": false,
+  "critical_three_branch_theorem": false
+}

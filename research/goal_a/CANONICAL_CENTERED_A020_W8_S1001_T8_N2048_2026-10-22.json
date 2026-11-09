@@ -1,0 +1,6855 @@
+{
+  "completed": false,
+  "failure": "positive-radius update stopped; outcome UNKNOWN",
+  "failed_time": 6.515625,
+  "last_completed_time": 6.51171875,
+  "worst": {
+    "time": 6.51171875,
+    "x": 0.93359375,
+    "radius": 0.4102021011550877,
+    "lambda_value": -20.767368946331384,
+    "nu": -20.800870193536035,
+    "Q": 0.4355620632492243,
+    "f": -28.16320521510548
+  },
+  "first_negative_sample": {
+    "time": 6.1171875,
+    "x": 1.2265625,
+    "radius": 4.49438969284143,
+    "lambda_value": -0.024340079029090265,
+    "nu": -4.572441805881431,
+    "Q": 0.34975707491736957,
+    "f": -0.007738650190572738
+  },
+  "history": [
+    {
+      "time": 0.0,
+      "x": 7.03125,
+      "radius": 14.906035145845708,
+      "lambda_value": 0.0029869440918749053,
+      "nu": -0.04949038097216832,
+      "Q": 14.563757058289884,
+      "f": 0.0005913000041978256
+    },
+    {
+      "time": 0.5,
+      "x": 6.53125,
+      "radius": 14.856552606998918,
+      "lambda_value": 0.0022779511370216972,
+      "nu": -0.0496159764773853,
+      "Q": 14.563515120105494,
+      "f": 0.0004510248905021941
+    },
+    {
+      "time": 1.0,
+      "x": 6.0390625,
+      "radius": 14.807267943150684,
+      "lambda_value": 0.001710125698433298,
+      "nu": -0.049696645878469094,
+      "Q": 14.562977378666137,
+      "f": 0.000338680789542245
+    },
+    {
+      "time": 1.5,
+      "x": 5.5390625,
+      "radius": 14.75761244047747,
+      "lambda_value": 0.0012061292803214677,
+      "nu": -0.04961467444265689,
+      "Q": 14.562987722610883,
+      "f": 0.0002389136248224233
+    },
+    {
+      "time": 2.0,
+      "x": 5.046875,
+      "radius": 14.568845962122841,
+      "lambda_value": 0.0003362206173443954,
+      "nu": -0.48836311837721824,
+      "Q": 14.562975152928113,
+      "f": 6.66599743085472e-05
+    },
+    {
+      "time": 2.5,
+      "x": 5.5390625,
+      "radius": 14.56609062669192,
+      "lambda_value": 0.001216183379177017,
+      "nu": -0.49257628104294526,
+      "Q": 14.562952571203727,
+      "f": 6.368901676168104e-05
+    },
+    {
+      "time": 3.0,
+      "x": 6.03125,
+      "radius": 14.563373082701332,
+      "lambda_value": 0.0011231295610185017,
+      "nu": -0.49610824913712676,
+      "Q": 14.562926821491601,
+      "f": 6.256210532396e-05
+    },
+    {
+      "time": 3.5,
+      "x": 6.53125,
+      "radius": 14.564453046575819,
+      "lambda_value": 0.0010469533474754913,
+      "nu": -0.49615309638861577,
+      "Q": 14.562888428339233,
+      "f": 6.207012048886629e-05
+    },
+    {
+      "time": 4.0,
+      "x": 7.03125,
+      "radius": 14.565463196023208,
+      "lambda_value": 0.000977676846486359,
+      "nu": -0.4962789949672893,
+      "Q": 14.562830184708242,
+      "f": 6.169571112302208e-05
+    },
+    {
+      "time": 4.5,
+      "x": 7.5234375,
+      "radius": 14.562512451838606,
+      "lambda_value": 0.0009118883716299318,
+      "nu": -0.49865932395181534,
+      "Q": 14.562746029413308,
+      "f": 6.122215455450775e-05
+    },
+    {
+      "time": 5.0,
+      "x": 8.0234375,
+      "radius": 14.563391456144943,
+      "lambda_value": 0.0008480271288241025,
+      "nu": -0.4986482378158619,
+      "Q": 14.562583439131624,
+      "f": 6.060072082303414e-05
+    },
+    {
+      "time": 5.5,
+      "x": 8.5234375,
+      "radius": 14.564207484751726,
+      "lambda_value": 0.0007856504959493464,
+      "nu": -0.49870542308186916,
+      "Q": 14.562327309164177,
+      "f": 5.9754331304562314e-05
+    },
+    {
+      "time": 6.0,
+      "x": 9.0234375,
+      "radius": 14.564961687366019,
+      "lambda_value": 0.0007242191669820897,
+      "nu": -0.4988253231350059,
+      "Q": 14.561956856313845,
+      "f": 5.861873254409122e-05
+    },
+    {
+      "time": 6.5,
+      "x": 0.921875,
+      "radius": 0.7569802474889261,
+      "lambda_value": -11.16872381744646,
+      "nu": -10.774873849928646,
+      "Q": 0.4418556770869543,
+      "f": -10.617407339634905
+    }
+  ],
+  "axis": [
+    {
+      "time": 0.0,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0
+    },
+    {
+      "time": 0.0078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.03125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.0859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.09375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.15625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.1953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.21875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.25,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.28125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.2890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.34375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.3984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.40625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.46875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.4921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.53125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.5859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.59375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.65625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.6953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.71875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.75,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.78125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.7890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.84375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.8984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.90625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.96875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 0.9921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.03125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.0859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.09375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.15625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.1953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.21875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.25,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.28125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.2890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.34375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.3984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.40625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.46875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.4921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.53125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.5859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.59375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.65625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.6953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.71875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.75,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.78125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.7890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.84375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.8984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.90625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.96875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 1.9921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.03125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.0859375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.09375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1015625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.15625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1640625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.171875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1796875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.1953125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2109375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.21875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.25,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.265625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2734375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.28125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.2890625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3046875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3203125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.328125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.34375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.359375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3671875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3828125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.3984375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.40625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4140625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.421875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4296875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.453125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4609375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.46875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4765625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.484375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.4921875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5078125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.515625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5234375,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.53125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5390625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5546875,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5625,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0
+    },
+    {
+      "time": 2.5703125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.1102230246251565e-16
+    },
+    {
+      "time": 2.578125,
+      "kappa": 0.5,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.770761894538737e-15
+    },
+    {
+      "time": 2.5859375,
+      "kappa": 0.5000000000002274,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.9984014443252818e-15
+    },
+    {
+      "time": 2.59375,
+      "kappa": 0.5000000000043201,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.02784447619797e-12
+    },
+    {
+      "time": 2.6015625,
+      "kappa": 0.5000000000292175,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.0278223544778484e-12
+    },
+    {
+      "time": 2.609375,
+      "kappa": 0.500000000214186,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.004729715565645e-12
+    },
+    {
+      "time": 2.6171875,
+      "kappa": 0.5000000011033308,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.09277040141842e-12
+    },
+    {
+      "time": 2.625,
+      "kappa": 0.5000000046543391,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.0730084315800923e-12
+    },
+    {
+      "time": 2.6328125,
+      "kappa": 0.500000016444119,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.0177193249537595e-12
+    },
+    {
+      "time": 2.640625,
+      "kappa": 0.5000000503267756,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 2.089772799251932e-12
+    },
+    {
+      "time": 2.6484375,
+      "kappa": 0.5000001364667241,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.1292967389285877e-12
+    },
+    {
+      "time": 2.65625,
+      "kappa": 0.5000003341452839,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 1.9377832671807482e-12
+    },
+    {
+      "time": 2.6640625,
+      "kappa": 0.5000007498922514,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.738254067935486e-12
+    },
+    {
+      "time": 2.671875,
+      "kappa": 0.5000015614911035,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 3.071987109137808e-13
+    },
+    {
+      "time": 2.6796875,
+      "kappa": 0.5000030472349408,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.0322853682964706e-12
+    },
+    {
+      "time": 2.6875,
+      "kappa": 0.5000056196828382,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.012057601230026e-12
+    },
+    {
+      "time": 2.6953125,
+      "kappa": 0.5000098622849691,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.5536794073511828e-11
+    },
+    {
+      "time": 2.703125,
+      "kappa": 0.5000165671303876,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.054900859529198e-11
+    },
+    {
+      "time": 2.7109375,
+      "kappa": 0.5000267719802878,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.976686061146211e-11
+    },
+    {
+      "time": 2.71875,
+      "kappa": 0.5000417947062488,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.864833842901703e-10
+    },
+    {
+      "time": 2.7265625,
+      "kappa": 0.5000632636366618,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.765352474260908e-10
+    },
+    {
+      "time": 2.734375,
+      "kappa": 0.500093142603987,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.099998367010585e-10
+    },
+    {
+      "time": 2.7421875,
+      "kappa": 0.5001337497586746,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.2989554987186125e-09
+    },
+    {
+      "time": 2.75,
+      "kappa": 0.5001877699271517,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.2297981239205455e-09
+    },
+    {
+      "time": 2.7578125,
+      "kappa": 0.5002582599734069,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.786264080041235e-09
+    },
+    {
+      "time": 2.765625,
+      "kappa": 0.5003486483113875,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.061058765993721e-09
+    },
+    {
+      "time": 2.7734375,
+      "kappa": 0.5004627274797713,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.517310384232758e-09
+    },
+    {
+      "time": 2.78125,
+      "kappa": 0.5006046424429087,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.4491571387331703e-08
+    },
+    {
+      "time": 2.7890625,
+      "kappa": 0.5007788734500309,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.15822602012139e-08
+    },
+    {
+      "time": 2.796875,
+      "kappa": 0.5009902159501962,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.126677206033435e-08
+    },
+    {
+      "time": 2.8046875,
+      "kappa": 0.5012437566715562,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.449698431940874e-08
+    },
+    {
+      "time": 2.8125,
+      "kappa": 0.5015448490178187,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.195857926716286e-08
+    },
+    {
+      "time": 2.8203125,
+      "kappa": 0.501899085840364,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.472553469918154e-08
+    },
+    {
+      "time": 2.828125,
+      "kappa": 0.5023122727770897,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.1384001441516745e-07
+    },
+    {
+      "time": 2.8359375,
+      "kappa": 0.5027904007882853,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.5082770321583894e-07
+    },
+    {
+      "time": 2.84375,
+      "kappa": 0.5033396207919623,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.9679916585246815e-07
+    },
+    {
+      "time": 2.8515625,
+      "kappa": 0.5039662176419597,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.533577574403978e-07
+    },
+    {
+      "time": 2.859375,
+      "kappa": 0.504676587255176,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.218846829078359e-07
+    },
+    {
+      "time": 2.8671875,
+      "kappa": 0.5054772139815213,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.0440256288132304e-07
+    },
+    {
+      "time": 2.875,
+      "kappa": 0.506374651954161,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.024996544422677e-07
+    },
+    {
+      "time": 2.8828125,
+      "kappa": 0.5073755071317692,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.177552674957454e-07
+    },
+    {
+      "time": 2.890625,
+      "kappa": 0.5084864211694367,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.526214416131438e-07
+    },
+    {
+      "time": 2.8984375,
+      "kappa": 0.5097140607539359,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.081679805955645e-07
+    },
+    {
+      "time": 2.90625,
+      "kappa": 0.5110651039929053,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.087099018359794e-06
+    },
+    {
+      "time": 2.9140625,
+      "kappa": 0.5125462351685428,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.2906942988832881e-06
+    },
+    {
+      "time": 2.921875,
+      "kappa": 0.5141641362237124,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.5212430725108916e-06
+    },
+    {
+      "time": 2.9296875,
+      "kappa": 0.5159254850557318,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.7798084263054292e-06
+    },
+    {
+      "time": 2.9375,
+      "kappa": 0.5178369509877712,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.068849267566897e-06
+    },
+    {
+      "time": 2.9453125,
+      "kappa": 0.5199051974989288,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.389505442401685e-06
+    },
+    {
+      "time": 2.953125,
+      "kappa": 0.5221368823430339,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.743296342089252e-06
+    },
+    {
+      "time": 2.9609375,
+      "kappa": 0.5245386611890126,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.1319735078749744e-06
+    },
+    {
+      "time": 2.96875,
+      "kappa": 0.5271171938668431,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.556321705566745e-06
+    },
+    {
+      "time": 2.9765625,
+      "kappa": 0.5298791491571819,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.0178461959694545e-06
+    },
+    {
+      "time": 2.984375,
+      "kappa": 0.5328312137814919,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.517570660667047e-06
+    },
+    {
+      "time": 2.9921875,
+      "kappa": 0.5359801010680485,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.056359371535812e-06
+    },
+    {
+      "time": 3.0,
+      "kappa": 0.5393325612758417,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.6346742429713714e-06
+    },
+    {
+      "time": 3.0078125,
+      "kappa": 0.5428953919692958,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.253274309475643e-06
+    },
+    {
+      "time": 3.015625,
+      "kappa": 0.5466754504498113,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.912760907806792e-06
+    },
+    {
+      "time": 3.0234375,
+      "kappa": 0.5506796666351192,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.6134965254492926e-06
+    },
+    {
+      "time": 3.03125,
+      "kappa": 0.554915057121093,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.355089278877514e-06
+    },
+    {
+      "time": 3.0390625,
+      "kappa": 0.5593887370743005,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.13872430585716e-06
+    },
+    {
+      "time": 3.046875,
+      "kappa": 0.5641079387124819,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.963533864287832e-06
+    },
+    {
+      "time": 3.0546875,
+      "kappa": 0.5690800231191133,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.08302089840695e-05
+    },
+    {
+      "time": 3.0625,
+      "kappa": 0.5743124997687801,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.1737434918779321e-05
+    },
+    {
+      "time": 3.0703125,
+      "kappa": 0.5798130386453977,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.2686233029302052e-05
+    },
+    {
+      "time": 3.078125,
+      "kappa": 0.5855894915979434,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.3675540220359217e-05
+    },
+    {
+      "time": 3.0859375,
+      "kappa": 0.5916499058615727,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.4706080440296532e-05
+    },
+    {
+      "time": 3.09375,
+      "kappa": 0.5980025461284413,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.5776131268463445e-05
+    },
+    {
+      "time": 3.1015625,
+      "kappa": 0.6046559078442897,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.6886499802692967e-05
+    },
+    {
+      "time": 3.109375,
+      "kappa": 0.611618739425694,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.8037009096083523e-05
+    },
+    {
+      "time": 3.1171875,
+      "kappa": 0.6189000621443483,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.9225772826758636e-05
+    },
+    {
+      "time": 3.125,
+      "kappa": 0.6265091833301994,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.0455583239264996e-05
+    },
+    {
+      "time": 3.1328125,
+      "kappa": 0.6344557277770946,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.172257936383648e-05
+    },
+    {
+      "time": 3.140625,
+      "kappa": 0.6427496450354511,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.302950747168353e-05
+    },
+    {
+      "time": 3.1484375,
+      "kappa": 0.6514012419584105,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.4374229603441044e-05
+    },
+    {
+      "time": 3.15625,
+      "kappa": 0.6604211941312315,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.5759889888066212e-05
+    },
+    {
+      "time": 3.1640625,
+      "kappa": 0.6698205799250445,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.7183032536459706e-05
+    },
+    {
+      "time": 3.171875,
+      "kappa": 0.6796108903284903,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -2.8646542338695014e-05
+    },
+    {
+      "time": 3.1796875,
+      "kappa": 0.6898040614362344,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.01505528874646e-05
+    },
+    {
+      "time": 3.1875,
+      "kappa": 0.700412497102775,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.1693911059726965e-05
+    },
+    {
+      "time": 3.1953125,
+      "kappa": 0.7114490882164546,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.327972117439515e-05
+    },
+    {
+      "time": 3.203125,
+      "kappa": 0.7229272473031187,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.49063581068787e-05
+    },
+    {
+      "time": 3.2109375,
+      "kappa": 0.7348609251989728,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.6577244019175836e-05
+    },
+    {
+      "time": 3.21875,
+      "kappa": 0.7472646479396872,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.8291301613035955e-05
+    },
+    {
+      "time": 3.2265625,
+      "kappa": 0.7601535358807041,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.005213392743734e-05
+    },
+    {
+      "time": 3.234375,
+      "kappa": 0.7735433421777316,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.18588656253549e-05
+    },
+    {
+      "time": 3.2421875,
+      "kappa": 0.7874504735768824,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.371576376827058e-05
+    },
+    {
+      "time": 3.25,
+      "kappa": 0.801892031938678,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.56222934940298e-05
+    },
+    {
+      "time": 3.2578125,
+      "kappa": 0.8168858378899131,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.7582298274173596e-05
+    },
+    {
+      "time": 3.265625,
+      "kappa": 0.8324504722003212,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -4.959677555227415e-05
+    },
+    {
+      "time": 3.2734375,
+      "kappa": 0.8486053048891335,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.167035119646446e-05
+    },
+    {
+      "time": 3.28125,
+      "kappa": 0.8653705410943076,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.38025307226242e-05
+    },
+    {
+      "time": 3.2890625,
+      "kappa": 0.8827672485414269,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.599896257613146e-05
+    },
+    {
+      "time": 3.296875,
+      "kappa": 0.9008174079657465,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -5.8261479065846444e-05
+    },
+    {
+      "time": 3.3046875,
+      "kappa": 0.919543950666025,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.059290789850458e-05
+    },
+    {
+      "time": 3.3125,
+      "kappa": 0.938970800792049,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.299909214846355e-05
+    },
+    {
+      "time": 3.3203125,
+      "kappa": 0.9591229301677231,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.548055825528198e-05
+    },
+    {
+      "time": 3.328125,
+      "kappa": 0.9800263937936506,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -6.804575166130533e-05
+    },
+    {
+      "time": 3.3359375,
+      "kappa": 1.0017083975526475,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.069454381203322e-05
+    },
+    {
+      "time": 3.34375,
+      "kappa": 1.0241973350625813,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.343521101699224e-05
+    },
+    {
+      "time": 3.3515625,
+      "kappa": 1.0475228587629317,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.626996505605277e-05
+    },
+    {
+      "time": 3.359375,
+      "kappa": 1.0717159282983175,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -7.920622054635729e-05
+    },
+    {
+      "time": 3.3671875,
+      "kappa": 1.0968088824013194,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.22475585628979e-05
+    },
+    {
+      "time": 3.375,
+      "kappa": 1.1228354962870526,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.54026147836251e-05
+    },
+    {
+      "time": 3.3828125,
+      "kappa": 1.1498310625224804,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -8.867417824709456e-05
+    },
+    {
+      "time": 3.390625,
+      "kappa": 1.1778324517374585,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.207232991803593e-05
+    },
+    {
+      "time": 3.3984375,
+      "kappa": 1.2068782034361902,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.56016192383835e-05
+    },
+    {
+      "time": 3.40625,
+      "kappa": 1.2370085981433476,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -9.927131275144774e-05
+    },
+    {
+      "time": 3.4140625,
+      "kappa": 1.2682657516388645,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00010308813192438926
+    },
+    {
+      "time": 3.421875,
+      "kappa": 1.3006937020438727,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0001070609820015278
+    },
+    {
+      "time": 3.4296875,
+      "kappa": 1.3343385086436683,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00011119890361177553
+    },
+    {
+      "time": 3.4375,
+      "kappa": 1.3692483556142179,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00011550927099235331
+    },
+    {
+      "time": 3.4453125,
+      "kappa": 1.4054736520147344,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00012000481406904129
+    },
+    {
+      "time": 3.453125,
+      "kappa": 1.4430671545135283,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00012469302236040036
+    },
+    {
+      "time": 3.4609375,
+      "kappa": 1.4820840741817847,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00012958633668835873
+    },
+    {
+      "time": 3.46875,
+      "kappa": 1.5225822056256675,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00013469438637070397
+    },
+    {
+      "time": 3.4765625,
+      "kappa": 1.564622047048033,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00014002902069742973
+    },
+    {
+      "time": 3.484375,
+      "kappa": 1.6082669319785055,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00014560025592191828
+    },
+    {
+      "time": 3.4921875,
+      "kappa": 1.6535831532119118,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0001514210069850641
+    },
+    {
+      "time": 3.5,
+      "kappa": 1.7006400968741673,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0001575004755565157
+    },
+    {
+      "time": 3.5078125,
+      "kappa": 1.7495103590927101,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00016385061104462473
+    },
+    {
+      "time": 3.515625,
+      "kappa": 1.8002698681618767,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00017047858741703337
+    },
+    {
+      "time": 3.5234375,
+      "kappa": 1.8529979782870214,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00017739361974400403
+    },
+    {
+      "time": 3.53125,
+      "kappa": 1.9077775564544481,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0001845991780291545
+    },
+    {
+      "time": 3.5390625,
+      "kappa": 1.964695025654919,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0001920976825127152
+    },
+    {
+      "time": 3.546875,
+      "kappa": 2.02384037464185,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00019988479563615158
+    },
+    {
+      "time": 3.5546875,
+      "kappa": 2.085307099976262,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00020795115810390286
+    },
+    {
+      "time": 3.5625,
+      "kappa": 2.1491920740963906,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00021627661948375732
+    },
+    {
+      "time": 3.5703125,
+      "kappa": 2.2155952961475123,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00022483297019837423
+    },
+    {
+      "time": 3.578125,
+      "kappa": 2.284619514685801,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002335713345713586
+    },
+    {
+      "time": 3.5859375,
+      "kappa": 2.3563696444293782,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002424277031449762
+    },
+    {
+      "time": 3.59375,
+      "kappa": 2.430951959013555,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002513085679232141
+    },
+    {
+      "time": 3.6015625,
+      "kappa": 2.50847295434869,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00026009149085259864
+    },
+    {
+      "time": 3.609375,
+      "kappa": 2.5890378286433133,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.000268606226880852
+    },
+    {
+      "time": 3.6171875,
+      "kappa": 2.672748425712598,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00027663997679372443
+    },
+    {
+      "time": 3.625,
+      "kappa": 2.759700580215167,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00028389357566993567
+    },
+    {
+      "time": 3.6328125,
+      "kappa": 2.8499805771452884,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002900120076096968
+    },
+    {
+      "time": 3.640625,
+      "kappa": 2.9436607144275513,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002945050561997675
+    },
+    {
+      "time": 3.6484375,
+      "kappa": 3.040793500831569,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00029679653935987815
+    },
+    {
+      "time": 3.65625,
+      "kappa": 3.141404507882271,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002961241181789198
+    },
+    {
+      "time": 3.6640625,
+      "kappa": 3.2454832939570224,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002915903970679423
+    },
+    {
+      "time": 3.671875,
+      "kappa": 3.3529724183729286,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002820652970494386
+    },
+    {
+      "time": 3.6796875,
+      "kappa": 3.4637539843570266,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002662550728467217
+    },
+    {
+      "time": 3.6875,
+      "kappa": 3.5776338879074956,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0002426162187321168
+    },
+    {
+      "time": 3.6953125,
+      "kappa": 3.6943234669943195,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00020947689784733825
+    },
+    {
+      "time": 3.703125,
+      "kappa": 3.8134193075486564,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00016502007537466667
+    },
+    {
+      "time": 3.7109375,
+      "kappa": 3.9343817870175144,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00010752262740565399
+    },
+    {
+      "time": 3.71875,
+      "kappa": 4.056514515195431,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.550294337983928e-05
+    },
+    {
+      "time": 3.7265625,
+      "kappa": 4.17894723706172,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 5.182443470275189e-05
+    },
+    {
+      "time": 3.734375,
+      "kappa": 4.300626957274062,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00015413821510801284
+    },
+    {
+      "time": 3.7421875,
+      "kappa": 4.420322945304747,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0002692994355912859
+    },
+    {
+      "time": 3.75,
+      "kappa": 4.536653417763546,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0003927454639818251
+    },
+    {
+      "time": 3.7578125,
+      "kappa": 4.648141654050505,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.000516818432192423
+    },
+    {
+      "time": 3.765625,
+      "kappa": 4.753308745088589,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0006305765146352726
+    },
+    {
+      "time": 3.7734375,
+      "kappa": 4.850805406978452,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0007200908846165532
+    },
+    {
+      "time": 3.78125,
+      "kappa": 4.939577992982322,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0007700571904205589
+    },
+    {
+      "time": 3.7890625,
+      "kappa": 5.019050342318906,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0007662845412994557
+    },
+    {
+      "time": 3.796875,
+      "kappa": 5.089289375291855,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.000700032996247657
+    },
+    {
+      "time": 3.8046875,
+      "kappa": 5.151104783114306,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0005726540022532589
+    },
+    {
+      "time": 3.8125,
+      "kappa": 5.2060253779557115,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00040081351626675144
+    },
+    {
+      "time": 3.8203125,
+      "kappa": 5.256095570019397,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00021794546583819852
+    },
+    {
+      "time": 3.828125,
+      "kappa": 5.3034765533170685,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 6.875255646399125e-05
+    },
+    {
+      "time": 3.8359375,
+      "kappa": 5.349933194653886,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -1.2932034294976802e-05
+    },
+    {
+      "time": 3.84375,
+      "kappa": 5.396461774407271,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.314297843637348e-05
+    },
+    {
+      "time": 3.8515625,
+      "kappa": 5.443362837497261,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.4042765300057454e-05
+    },
+    {
+      "time": 3.859375,
+      "kappa": 5.4906699544505955,
+      "phi_abs": 0.0,
+      "V_abs": 0.0,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.475267999508702e-05
+    },
+    {
+      "time": 3.8671875,
+      "kappa": 5.538389042101699,
+      "phi_abs": 5.2846652901061885e-09,
+      "V_abs": 7.595949847275882e-07,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -3.463377292600711e-05
+    },
+    {
+      "time": 3.875,
+      "kappa": 5.589611592733263,
+      "phi_abs": 8.287122601520518e-09,
+      "V_abs": 3.883826975193116e-06,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0030627814992909407
+    },
+    {
+      "time": 3.8828125,
+      "kappa": 5.596552395881169,
+      "phi_abs": 1.5616627136310428e-07,
+      "V_abs": 1.7956375128114084e-05,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034605384177765542
+    },
+    {
+      "time": 3.890625,
+      "kappa": 5.589631320734923,
+      "phi_abs": 4.32050251663033e-07,
+      "V_abs": 7.908386227111343e-06,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034605369761787517
+    },
+    {
+      "time": 3.8984375,
+      "kappa": 5.59655239576074,
+      "phi_abs": 2.2105290703212097e-07,
+      "V_abs": 3.0637839288095496e-05,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003460537773582145
+    },
+    {
+      "time": 3.90625,
+      "kappa": 5.589631320586238,
+      "phi_abs": 3.983190008917193e-07,
+      "V_abs": 4.134159570714772e-05,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003460537891211214
+    },
+    {
+      "time": 3.9140625,
+      "kappa": 5.596552395914991,
+      "phi_abs": 8.009264923969125e-07,
+      "V_abs": 2.6549937612770444e-05,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003460537211134282
+    },
+    {
+      "time": 3.921875,
+      "kappa": 5.5896313209479365,
+      "phi_abs": 5.524198069651459e-07,
+      "V_abs": 8.977786582198472e-05,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034605377698700185
+    },
+    {
+      "time": 3.9296875,
+      "kappa": 5.596552395040312,
+      "phi_abs": 1.4038438020819358e-05,
+      "V_abs": 0.0034860432093253456,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003460537283528649
+    },
+    {
+      "time": 3.9375,
+      "kappa": 5.589631278469593,
+      "phi_abs": 0.00013581567940136087,
+      "V_abs": 0.013550741752381749,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003460555588537359
+    },
+    {
+      "time": 3.9453125,
+      "kappa": 5.596551973838344,
+      "phi_abs": 0.000502434372387826,
+      "V_abs": 0.03758984815771984,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034604046718034894
+    },
+    {
+      "time": 3.953125,
+      "kappa": 5.589628352412766,
+      "phi_abs": 0.0013991219682746058,
+      "V_abs": 0.08040466925229937,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034612782642039993
+    },
+    {
+      "time": 3.9609375,
+      "kappa": 5.596538706609093,
+      "phi_abs": 0.003107361021000971,
+      "V_abs": 0.14196209606021806,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034579776862720584
+    },
+    {
+      "time": 3.96875,
+      "kappa": 5.589583873509894,
+      "phi_abs": 0.0059285492077140725,
+      "V_abs": 0.2222731597912793,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003467173611108371
+    },
+    {
+      "time": 3.9765625,
+      "kappa": 5.5964180129897665,
+      "phi_abs": 0.010110659800605368,
+      "V_abs": 0.3144601150796312,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00344618468027154
+    },
+    {
+      "time": 3.984375,
+      "kappa": 5.589310100548371,
+      "phi_abs": 0.015782512327190364,
+      "V_abs": 0.4131132408388913,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003486401133608286
+    },
+    {
+      "time": 3.9921875,
+      "kappa": 5.595877419974428,
+      "phi_abs": 0.023004437538696427,
+      "V_abs": 0.5125493553087069,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034189660635564295
+    },
+    {
+      "time": 4.0,
+      "kappa": 5.588353711697697,
+      "phi_abs": 0.03174182472686836,
+      "V_abs": 0.6072366719194529,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035214311302316213
+    },
+    {
+      "time": 4.0078125,
+      "kappa": 5.59433410014766,
+      "phi_abs": 0.0418724272951245,
+      "V_abs": 0.6935431578679935,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00337903691027991
+    },
+    {
+      "time": 4.015625,
+      "kappa": 5.586039386555406,
+      "phi_abs": 0.053263140529894004,
+      "V_abs": 0.7697067497807223,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003564865810812865
+    },
+    {
+      "time": 4.0234375,
+      "kappa": 5.59107208638383,
+      "phi_abs": 0.06570559854318714,
+      "V_abs": 0.8336978270081565,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033358850801600733
+    },
+    {
+      "time": 4.03125,
+      "kappa": 5.581668641331905,
+      "phi_abs": 0.07903872677686682,
+      "V_abs": 0.8870440678228301,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003606321433281048
+    },
+    {
+      "time": 4.0390625,
+      "kappa": 5.5854605442553185,
+      "phi_abs": 0.09304175044553337,
+      "V_abs": 0.9275727138635328,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032985246009217
+    },
+    {
+      "time": 4.046875,
+      "kappa": 5.5747188995059345,
+      "phi_abs": 0.10755604840458137,
+      "V_abs": 0.959612188913808,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036383858858978083
+    },
+    {
+      "time": 4.0546875,
+      "kappa": 5.5771100722225295,
+      "phi_abs": 0.12240059545457724,
+      "V_abs": 0.9804984474506707,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00327192717201844
+    },
+    {
+      "time": 4.0625,
+      "kappa": 5.564942249261331,
+      "phi_abs": 0.13743460703910715,
+      "V_abs": 0.9957542356133028,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003658806662559087
+    },
+    {
+      "time": 4.0703125,
+      "kappa": 5.565911786100398,
+      "phi_abs": 0.1525306998909883,
+      "V_abs": 1.0022877397020031,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032566786655587017
+    },
+    {
+      "time": 4.078125,
+      "kappa": 5.552355715391023,
+      "phi_abs": 0.16757198272725177,
+      "V_abs": 1.00591249282709,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003668829712103298
+    },
+    {
+      "time": 4.0859375,
+      "kappa": 5.551991011033516,
+      "phi_abs": 0.18248137746001816,
+      "V_abs": 1.0033672274997307,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032506879470707442
+    },
+    {
+      "time": 4.09375,
+      "kappa": 5.537171253034612,
+      "phi_abs": 0.19716810053787415,
+      "V_abs": 0.999952278609569,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003671331336530401
+    },
+    {
+      "time": 4.1015625,
+      "kappa": 5.535625114726025,
+      "phi_abs": 0.21159055976837712,
+      "V_abs": 0.992642733519529,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032509579368344694
+    },
+    {
+      "time": 4.109375,
+      "kappa": 5.519711569767308,
+      "phi_abs": 0.22568708816920696,
+      "V_abs": 0.9859514858337274,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036693169375407145
+    },
+    {
+      "time": 4.1171875,
+      "kappa": 5.517163443549395,
+      "phi_abs": 0.23943674149697103,
+      "V_abs": 0.9769259396768821,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032545780304901436
+    },
+    {
+      "time": 4.125,
+      "kappa": 5.500337920119781,
+      "phi_abs": 0.252804502274112,
+      "V_abs": 0.9698383219453557,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036652051052521732
+    },
+    {
+      "time": 4.1328125,
+      "kappa": 5.4969654935957335,
+      "phi_abs": 0.2657852667069298,
+      "V_abs": 0.9614388447584951,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032591351336951507
+    },
+    {
+      "time": 4.140625,
+      "kappa": 5.4793974290227805,
+      "phi_abs": 0.27836186617658737,
+      "V_abs": 0.9555918840135441,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036609155837426513
+    },
+    {
+      "time": 4.1484375,
+      "kappa": 5.475358915469044,
+      "phi_abs": 0.29053913847992935,
+      "V_abs": 0.9490755354944727,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032631963806001624
+    },
+    {
+      "time": 4.15625,
+      "kappa": 5.457193489674879,
+      "phi_abs": 0.30231351937527834,
+      "V_abs": 0.9454439739474166,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036575663635330306
+    },
+    {
+      "time": 4.1640625,
+      "kappa": 5.452619317024275,
+      "phi_abs": 0.3136965961018407,
+      "V_abs": 0.9414161400159197,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032658886020350145
+    },
+    {
+      "time": 4.171875,
+      "kappa": 5.433972033968128,
+      "phi_abs": 0.3246932562368186,
+      "V_abs": 0.9403135278687936,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003655764536897063
+    },
+    {
+      "time": 4.1796875,
+      "kappa": 5.4289625441917515,
+      "phi_abs": 0.33531994934036624,
+      "V_abs": 0.9388483009195236,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032668648700304817
+    },
+    {
+      "time": 4.1875,
+      "kappa": 5.409919176134659,
+      "phi_abs": 0.3455860008178232,
+      "V_abs": 0.9401956298163074,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036557142560534424
+    },
+    {
+      "time": 4.1953125,
+      "kappa": 5.404546179966748,
+      "phi_abs": 0.3555114502072498,
+      "V_abs": 0.9409983717868734,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00326609190644626
+    },
+    {
+      "time": 4.203125,
+      "kappa": 5.3851656385337305,
+      "phi_abs": 0.3651072959861435,
+      "V_abs": 0.9444896088062027,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036573363482252062
+    },
+    {
+      "time": 4.2109375,
+      "kappa": 5.379476081761818,
+      "phi_abs": 0.37439571455008047,
+      "V_abs": 0.94707445150285,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032637205143601898
+    },
+    {
+      "time": 4.21875,
+      "kappa": 5.359794716412693,
+      "phi_abs": 0.3833887006263903,
+      "V_abs": 0.9521194313482552,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003660377406725294
+    },
+    {
+      "time": 4.2265625,
+      "kappa": 5.35381559845233,
+      "phi_abs": 0.392108742607375,
+      "V_abs": 0.956074271846043,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003260087964062565
+    },
+    {
+      "time": 4.234375,
+      "kappa": 5.333851815468886,
+      "phi_abs": 0.4005674242251483,
+      "V_abs": 0.9622737633874693,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003664587685394313
+    },
+    {
+      "time": 4.2421875,
+      "kappa": 5.327594184035655,
+      "phi_abs": 0.4087871783174405,
+      "V_abs": 0.9670243792994881,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003255463795450752
+    },
+    {
+      "time": 4.25,
+      "kappa": 5.307352958313523,
+      "phi_abs": 0.41677909973893823,
+      "V_abs": 0.9738825955000766,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003669584387936744
+    },
+    {
+      "time": 4.2578125,
+      "kappa": 5.300816611122507,
+      "phi_abs": 0.4245642721085044,
+      "V_abs": 0.9790154459733736,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003250186088695264
+    },
+    {
+      "time": 4.265625,
+      "kappa": 5.280293514142322,
+      "phi_abs": 0.4321532429403964,
+      "V_abs": 0.9861426091020287,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036750593006992455
+    },
+    {
+      "time": 4.2734375,
+      "kappa": 5.273470573068935,
+      "phi_abs": 0.4395651686139266,
+      "V_abs": 0.9912908548522614,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032445536843095034
+    },
+    {
+      "time": 4.28125,
+      "kappa": 5.252655161300102,
+      "phi_abs": 0.44681013985092227,
+      "V_abs": 0.9983610876869937,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036807195461399794
+    },
+    {
+      "time": 4.2890625,
+      "kappa": 5.245533181266135,
+      "phi_abs": 0.45390493787278646,
+      "V_abs": 1.00325550031226,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032388358776136747
+    },
+    {
+      "time": 4.296875,
+      "kappa": 5.224411706732059,
+      "phi_abs": 0.4608592041610534,
+      "V_abs": 1.0099900667745192,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036863249885535575
+    },
+    {
+      "time": 4.3046875,
+      "kappa": 5.2169761592874995,
+      "phi_abs": 0.4676872526763054,
+      "V_abs": 1.0144682225558983,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032332748179537915
+    },
+    {
+      "time": 4.3125,
+      "kappa": 5.1955336799192615,
+      "phi_abs": 0.47439793217723153,
+      "V_abs": 1.0206285394073915,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003691693030222534
+    },
+    {
+      "time": 4.3203125,
+      "kappa": 5.187769892604987,
+      "phi_abs": 0.4810040408075126,
+      "V_abs": 1.024431392705979,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003228095337650354
+    },
+    {
+      "time": 4.328125,
+      "kappa": 5.165992408819084,
+      "phi_abs": 0.4875129165978795,
+      "V_abs": 1.0299560431038712,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003696602665185879
+    },
+    {
+      "time": 4.3359375,
+      "kappa": 5.157887022709863,
+      "phi_abs": 0.49393553927906664,
+      "V_abs": 1.0330453211767359,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032234028954677496
+    },
+    {
+      "time": 4.34375,
+      "kappa": 5.135762071167695,
+      "phi_abs": 0.5002782312030478,
+      "V_abs": 1.0377696504859686,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037009629647030496
+    },
+    {
+      "time": 4.3515625,
+      "kappa": 5.127304011705375,
+      "phi_abs": 0.5065506159263607,
+      "V_abs": 1.0400394245895346,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003219360115508434
+    },
+    {
+      "time": 4.359375,
+      "kappa": 5.104821951502645,
+      "phi_abs": 0.5127575404534781,
+      "V_abs": 1.0439120503361439,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003704655655405711
+    },
+    {
+      "time": 4.3671875,
+      "kappa": 5.096003194026111,
+      "phi_abs": 0.5189075761480456,
+      "V_abs": 1.0453147126989593,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032160461462001234
+    },
+    {
+      "time": 4.375,
+      "kappa": 5.07315765080935,
+      "phi_abs": 0.5250040262871203,
+      "V_abs": 1.0482880944401436,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037076051774840475
+    },
+    {
+      "time": 4.3828125,
+      "kappa": 5.063973648806979,
+      "phi_abs": 0.5310547629129371,
+      "V_abs": 1.0487905128816735,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032135256081362493
+    },
+    {
+      "time": 4.390625,
+      "kappa": 5.040761870804944,
+      "phi_abs": 0.5370614981275662,
+      "V_abs": 1.0508465590278144,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003709757240368172
+    },
+    {
+      "time": 4.3984375,
+      "kappa": 5.031211758017781,
+      "phi_abs": 0.5430315946595724,
+      "V_abs": 1.0504168114514767,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032118339115191816
+    },
+    {
+      "time": 4.40625,
+      "kappa": 5.007634771177585,
+      "phi_abs": 0.5489651803433075,
+      "V_abs": 1.0515868987007169,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037110714607193626
+    },
+    {
+      "time": 4.4140625,
+      "kappa": 4.997721358855467,
+      "phi_abs": 0.5548691146840692,
+      "V_abs": 1.0501802391895256,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032109743470207274
+    },
+    {
+      "time": 4.421875,
+      "kappa": 4.973783988334537,
+      "phi_abs": 0.5607426314828299,
+      "V_abs": 1.0503931378159286,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003711502568336223
+    },
+    {
+      "time": 4.4296875,
+      "kappa": 4.963514121102223,
+      "phi_abs": 0.5665916994453076,
+      "V_abs": 1.0480637865456601,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032109926355382234
+    },
+    {
+      "time": 4.4375,
+      "kappa": 4.93922496037323,
+      "phi_abs": 0.572414572523045,
+      "V_abs": 1.0473707657299915,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037110822011093367
+    },
+    {
+      "time": 4.4453125,
+      "kappa": 4.928608911142272,
+      "phi_abs": 0.5782167139953436,
+      "V_abs": 1.0440819311261245,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032118570302974415
+    },
+    {
+      "time": 4.453125,
+      "kappa": 4.903980066781508,
+      "phi_abs": 0.5839957041694663,
+      "V_abs": 1.0424721669920631,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037097913760522467
+    },
+    {
+      "time": 4.4609375,
+      "kappa": 4.8930316375739356,
+      "phi_abs": 0.5897562542875914,
+      "V_abs": 1.0382426348995915,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003213565114075658
+    },
+    {
+      "time": 4.46875,
+      "kappa": 4.868078566553201,
+      "phi_abs": 0.5954955054275327,
+      "V_abs": 1.0357271897364166,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003707654302496043
+    },
+    {
+      "time": 4.4765625,
+      "kappa": 4.856814759829168,
+      "phi_abs": 0.601217339545123,
+      "V_abs": 1.0305658013311796,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032160958603761666
+    },
+    {
+      "time": 4.484375,
+      "kappa": 4.831555993476559,
+      "phi_abs": 0.6069187539196714,
+      "V_abs": 1.0271541714298325,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003704696763598588
+    },
+    {
+      "time": 4.4921875,
+      "kappa": 4.819996745004452,
+      "phi_abs": 0.612602791299674,
+      "V_abs": 1.0210778297481824,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032194208227756945
+    },
+    {
+      "time": 4.5,
+      "kappa": 4.794453571586501,
+      "phi_abs": 0.6182664315175094,
+      "V_abs": 1.0167722415312297,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037009550936473153
+    },
+    {
+      "time": 4.5078125,
+      "kappa": 4.782621439249741,
+      "phi_abs": 0.6239118058247012,
+      "V_abs": 1.0098323384834416,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032235079534368993
+    },
+    {
+      "time": 4.515625,
+      "kappa": 4.7568175099957966,
+      "phi_abs": 0.6295359348037758,
+      "V_abs": 1.0046133875638974,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036964822369638948
+    },
+    {
+      "time": 4.5234375,
+      "kappa": 4.7447373460877795,
+      "phi_abs": 0.6351405131553779,
+      "V_abs": 0.9967818245885983,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032283383740375404
+    },
+    {
+      "time": 4.53125,
+      "kappa": 4.718698640869729,
+      "phi_abs": 0.6407222514954302,
+      "V_abs": 0.9906979657945284,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036912967797162162
+    },
+    {
+      "time": 4.5390625,
+      "kappa": 4.706397321192831,
+      "phi_abs": 0.6462824125648085,
+      "V_abs": 0.9820251021267181,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003233843268781336
+    },
+    {
+      "time": 4.546875,
+      "kappa": 4.6801514965608515,
+      "phi_abs": 0.6518176506683624,
+      "V_abs": 0.975062448036885,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003685463512154639
+    },
+    {
+      "time": 4.5546875,
+      "kappa": 4.667657501989445,
+      "phi_abs": 0.6573289654404353,
+      "V_abs": 0.9655585246104315,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00323998834523817
+    },
+    {
+      "time": 4.5625,
+      "kappa": 4.641233729447692,
+      "phi_abs": 0.6628127517093572,
+      "V_abs": 0.9577372276564498,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003679026946253548
+    },
+    {
+      "time": 4.5703125,
+      "kappa": 4.628576847979497,
+      "phi_abs": 0.6682699381805927,
+      "V_abs": 0.9474257669635997,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003246716824174999
+    },
+    {
+      "time": 4.578125,
+      "kappa": 4.602005423472073,
+      "phi_abs": 0.6736965190217353,
+      "V_abs": 0.938760343590245,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003672040532271136
+    },
+    {
+      "time": 4.5859375,
+      "kappa": 4.589216402843105,
+      "phi_abs": 0.6790935911494863,
+      "V_abs": 0.9276647320398453,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003253971594533652
+    },
+    {
+      "time": 4.59375,
+      "kappa": 4.562528414709787,
+      "phi_abs": 0.6844567529448342,
+      "V_abs": 0.9181751864156084,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003664562819297972
+    },
+    {
+      "time": 4.6015625,
+      "kappa": 4.549638606925457,
+      "phi_abs": 0.6897873599753845,
+      "V_abs": 0.906314971977717,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032616901757074666
+    },
+    {
+      "time": 4.609375,
+      "kappa": 4.522865587815325,
+      "phi_abs": 0.6950804665337484,
+      "V_abs": 0.8960540673217016,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036566535189863736
+    },
+    {
+      "time": 4.6171875,
+      "kappa": 4.509906543036723,
+      "phi_abs": 0.7003377681056738,
+      "V_abs": 0.8834293308741266,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032698005139416434
+    },
+    {
+      "time": 4.625,
+      "kappa": 4.483080125665497,
+      "phi_abs": 0.705554126680023,
+      "V_abs": 0.8723917985037761,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036483588901503592
+    },
+    {
+      "time": 4.6328125,
+      "kappa": 4.470083470754688,
+      "phi_abs": 0.710731216040428,
+      "V_abs": 0.8590564372782309,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032782550561545423
+    },
+    {
+      "time": 4.640625,
+      "kappa": 4.443235118783767,
+      "phi_abs": 0.715863802829511,
+      "V_abs": 0.8472912760226975,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036397585471938
+    },
+    {
+      "time": 4.6484375,
+      "kappa": 4.430232045239993,
+      "phi_abs": 0.7209537237915284,
+      "V_abs": 0.833260332235363,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003286978777193116
+    },
+    {
+      "time": 4.65625,
+      "kappa": 4.403392675910869,
+      "phi_abs": 0.7259957185941295,
+      "V_abs": 0.8207950964994574,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036309114455592728
+    },
+    {
+      "time": 4.6640625,
+      "kappa": 4.3904137213982235,
+      "phi_abs": 0.7309916066383574,
+      "V_abs": 0.8061066156711038,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003295909405188723
+    },
+    {
+      "time": 4.671875,
+      "kappa": 4.363613429244933,
+      "phi_abs": 0.7359363014010735,
+      "V_abs": 0.7929788664655577,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036218858008999493
+    },
+    {
+      "time": 4.6796875,
+      "kappa": 4.350688159606715,
+      "phi_abs": 0.7408314099247435,
+      "V_abs": 0.7776706156076394,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033049824892212904
+    },
+    {
+      "time": 4.6875,
+      "kappa": 4.323955928466458,
+      "phi_abs": 0.7456722140716846,
+      "V_abs": 0.7639208778989871,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003612749160566782
+    },
+    {
+      "time": 4.6953125,
+      "kappa": 4.31111266609986,
+      "phi_abs": 0.7504601408445729,
+      "V_abs": 0.7480365064381146,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033141299004827954
+    },
+    {
+      "time": 4.703125,
+      "kappa": 4.284476088912939,
+      "phi_abs": 0.7551909646628528,
+      "V_abs": 0.7337047357216366,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036035715496747847
+    },
+    {
+      "time": 4.7109375,
+      "kappa": 4.271741638866703,
+      "phi_abs": 0.7598656922218919,
+      "V_abs": 0.7173195575983287,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003323285147213439
+    },
+    {
+      "time": 4.71875,
+      "kappa": 4.2452266106526455,
+      "phi_abs": 0.764480701597016,
+      "V_abs": 0.7024290388901698,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035944246229876603
+    },
+    {
+      "time": 4.7265625,
+      "kappa": 4.232626008443085,
+      "phi_abs": 0.769036851849565,
+      "V_abs": 0.6855781842703306,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003332396014394392
+    },
+    {
+      "time": 4.734375,
+      "kappa": 4.206256632390773,
+      "phi_abs": 0.7735307498170829,
+      "V_abs": 0.6701943790937448,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035853614957575097
+    },
+    {
+      "time": 4.7421875,
+      "kappa": 4.193812974873499,
+      "phi_abs": 0.7779632924367963,
+      "V_abs": 0.6529452869576544,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003341392280882302
+    },
+    {
+      "time": 4.75,
+      "kappa": 4.167611270698874,
+      "phi_abs": 0.7823314729168755,
+      "V_abs": 0.6371163455686296,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035764479261695264
+    },
+    {
+      "time": 4.7578125,
+      "kappa": 4.155345485843396,
+      "phi_abs": 0.7866361867678324,
+      "V_abs": 0.6195333277302831,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033502142353205294
+    },
+    {
+      "time": 4.765625,
+      "kappa": 4.129331231737261,
+      "phi_abs": 0.7908746693911037,
+      "V_abs": 0.6033174143995411,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003567740737245121
+    },
+    {
+      "time": 4.7734375,
+      "kappa": 4.11726192662186,
+      "phi_abs": 0.7950480372997575,
+      "V_abs": 0.5854687320534437,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003358805891287409
+    },
+    {
+      "time": 4.78125,
+      "kappa": 4.091452518949987,
+      "phi_abs": 0.7991535289584851,
+      "V_abs": 0.5689297362650371,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003559291012225975
+    },
+    {
+      "time": 4.7890625,
+      "kappa": 4.079595858170564,
+      "phi_abs": 0.8031926006009539,
+      "V_abs": 0.550889249620927,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003367114342977985
+    },
+    {
+      "time": 4.796875,
+      "kappa": 4.054006205031949,
+      "phi_abs": 0.807162565413947,
+      "V_abs": 0.534097965909552,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003551150935091782
+    },
+    {
+      "time": 4.8046875,
+      "kappa": 4.042375808164525,
+      "phi_abs": 0.8110654165157052,
+      "V_abs": 0.5159414939044834,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003375086802972755
+    },
+    {
+      "time": 4.8125,
+      "kappa": 4.01701823328283,
+      "phi_abs": 0.8148981922373637,
+      "V_abs": 0.498997316805285,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035433676746637636
+    },
+    {
+      "time": 4.8203125,
+      "kappa": 4.005625072056296,
+      "phi_abs": 0.8186635323750645,
+      "V_abs": 0.48078776359543296,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033826773310992753
+    },
+    {
+      "time": 4.828125,
+      "kappa": 3.9805092590990325,
+      "phi_abs": 0.82235843456141,
+      "V_abs": 0.4637700502426737,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00353597296179915
+    },
+    {
+      "time": 4.8359375,
+      "kappa": 3.969361699166293,
+      "phi_abs": 0.8259857630491068,
+      "V_abs": 0.4456003534958616,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003389855789627028
+    },
+    {
+      "time": 4.84375,
+      "kappa": 3.944494712724815,
+      "phi_abs": 0.8295427633448671,
+      "V_abs": 0.42859744495963803,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00352900270102424
+    },
+    {
+      "time": 4.8515625,
+      "kappa": 3.933598512156722,
+      "phi_abs": 0.8330326309589314,
+      "V_abs": 0.4105728622723298,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033965893337097974
+    },
+    {
+      "time": 4.859375,
+      "kappa": 3.908984802162167,
+      "phi_abs": 0.8364527164292687,
+      "V_abs": 0.39369979902422236,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003522491789035445
+    },
+    {
+      "time": 4.8671875,
+      "kappa": 3.8983431043984336,
+      "phi_abs": 0.8398064292160167,
+      "V_abs": 0.37592095920251456,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034028510549833366
+    },
+    {
+      "time": 4.875,
+      "kappa": 3.8739845479264856,
+      "phi_abs": 0.8430914947207667,
+      "V_abs": 0.35929370812917794,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035164604304216483
+    },
+    {
+      "time": 4.8828125,
+      "kappa": 3.8635979847428166,
+      "phi_abs": 0.8463112202890425,
+      "V_abs": 0.3418862251184492,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003408626129576643
+    },
+    {
+      "time": 4.890625,
+      "kappa": 3.839493991273024,
+      "phi_abs": 0.8494637424953803,
+      "V_abs": 0.32564183056477713,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035109246958247267
+    },
+    {
+      "time": 4.8984375,
+      "kappa": 3.8293607892874277,
+      "phi_abs": 0.8525523419732937,
+      "V_abs": 0.3087571979801174,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003413899579803701
+    },
+    {
+      "time": 4.90625,
+      "kappa": 3.8055084129913617,
+      "phi_abs": 0.8555758894448944,
+      "V_abs": 0.29306046866075286,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035059013023091257
+    },
+    {
+      "time": 4.9140625,
+      "kappa": 3.7956245044261014,
+      "phi_abs": 0.8585371512858663,
+      "V_abs": 0.27689393891069286,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034186613182134577
+    },
+    {
+      "time": 4.921875,
+      "kappa": 3.772018564178194,
+      "phi_abs": 0.8614358324829456,
+      "V_abs": 0.2619353285912803,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003501395067923093
+    },
+    {
+      "time": 4.9296875,
+      "kappa": 3.7623777388591706,
+      "phi_abs": 0.8642743806281068,
+      "V_abs": 0.2467197174107657,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034229152850622623
+    },
+    {
+      "time": 4.9375,
+      "kappa": 3.739011013336522,
+      "phi_abs": 0.8670528682743119,
+      "V_abs": 0.232752175443589,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034973975072118053
+    },
+    {
+      "time": 4.9453125,
+      "kappa": 3.7296051169177535,
+      "phi_abs": 0.8697738119428194,
+      "V_abs": 0.21876919503844935,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034266694409364386
+    },
+    {
+      "time": 4.953125,
+      "kappa": 3.7064685642427952,
+      "phi_abs": 0.8724376823998532,
+      "V_abs": 0.20615432627649694,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034939026920638733
+    },
+    {
+      "time": 4.9609375,
+      "kappa": 3.6972876950303193,
+      "phi_abs": 0.8750468342847935,
+      "V_abs": 0.19380357589958108,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034299232413093138
+    },
+    {
+      "time": 4.96875,
+      "kappa": 3.674370595902091,
+      "phi_abs": 0.8776020565865923,
+      "V_abs": 0.18297388777537343,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034909008377387437
+    },
+    {
+      "time": 4.9765625,
+      "kappa": 3.6654032911573706,
+      "phi_abs": 0.8801058675609046,
+      "V_abs": 0.1727393746107061,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003432693727182741
+    },
+    {
+      "time": 4.984375,
+      "kappa": 3.642693500788892,
+      "phi_abs": 0.8825589785774641,
+      "V_abs": 0.16423601736936017,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034883698489127685
+    },
+    {
+      "time": 4.9921875,
+      "kappa": 3.6339269828756873,
+      "phi_abs": 0.8849640370490626,
+      "V_abs": 0.15666021734839716,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034350016141543992
+    },
+    {
+      "time": 5.0,
+      "kappa": 3.6114111678165313,
+      "phi_abs": 0.8873216985783042,
+      "V_abs": 0.15106292965330528,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034862894775120534
+    },
+    {
+      "time": 5.0078125,
+      "kappa": 3.602831575980758,
+      "phi_abs": 0.8896352348737623,
+      "V_abs": 0.1466437237581767,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003436861755052403
+    },
+    {
+      "time": 5.015625,
+      "kappa": 3.5804954245104796,
+      "phi_abs": 0.8919046781865414,
+      "V_abs": 0.14434768776476906,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034846400652331455
+    },
+    {
+      "time": 5.0234375,
+      "kappa": 3.572088034322749,
+      "phi_abs": 0.8941339881813047,
+      "V_abs": 0.14329415252438546,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003438300375870623
+    },
+    {
+      "time": 5.03125,
+      "kappa": 3.549916491060281,
+      "phi_abs": 0.8963227027775883,
+      "V_abs": 0.14428799021274957,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003483391543732097
+    },
+    {
+      "time": 5.0390625,
+      "kappa": 3.541665960523956,
+      "phi_abs": 0.8984750191752415,
+      "V_abs": 0.14635248395636782,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003439354870276426
+    },
+    {
+      "time": 5.046875,
+      "kappa": 3.519643471150417,
+      "phi_abs": 0.9005904701092152,
+      "V_abs": 0.150218180847329,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034825080854430823
+    },
+    {
+      "time": 5.0546875,
+      "kappa": 3.5115340840093348,
+      "phi_abs": 0.9026734106796722,
+      "V_abs": 0.15476791565194195,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003440051921492198
+    },
+    {
+      "time": 5.0625,
+      "kappa": 3.489644823245349,
+      "phi_abs": 0.9047231018356833,
+      "V_abs": 0.16076435479412418,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003481968989995712
+    },
+    {
+      "time": 5.0703125,
+      "kappa": 3.481660693172066,
+      "phi_abs": 0.9067440372376881,
+      "V_abs": 0.16707429447599575,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034404222173887253
+    },
+    {
+      "time": 5.078125,
+      "kappa": 3.4598887630850195,
+      "phi_abs": 0.9087355830567942,
+      "V_abs": 0.17449085649262372,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034817413583761903
+    },
+    {
+      "time": 5.0859375,
+      "kappa": 3.4520140446146135,
+      "phi_abs": 0.9107019296245918,
+      "V_abs": 0.1818774236348664,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034405033807077046
+    },
+    {
+      "time": 5.09375,
+      "kappa": 3.430343693482094,
+      "phi_abs": 0.9126424788307189,
+      "V_abs": 0.19009653482489466,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034817879463104073
+    },
+    {
+      "time": 5.1015625,
+      "kappa": 3.4225628050586523,
+      "phi_abs": 0.9145609990626632,
+      "V_abs": 0.19805317466554204,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034403306858822075
+    },
+    {
+      "time": 5.109375,
+      "kappa": 3.4009786333839727,
+      "phi_abs": 0.9164576225739377,
+      "V_abs": 0.20665103180077116,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003482083609251466
+    },
+    {
+      "time": 5.1171875,
+      "kappa": 3.393276419861379,
+      "phi_abs": 0.9183352200947598,
+      "V_abs": 0.21479006059313854,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034399297366671465
+    },
+    {
+      "time": 5.125,
+      "kappa": 3.371763540558028,
+      "phi_abs": 0.9201946026927659,
+      "V_abs": 0.22346992939007201,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034825959380416255
+    },
+    {
+      "time": 5.1328125,
+      "kappa": 3.36412544175532,
+      "phi_abs": 0.9220377528622826,
+      "V_abs": 0.23148554863641896,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034393350350869164
+    },
+    {
+      "time": 5.140625,
+      "kappa": 3.3426696622233574,
+      "phi_abs": 0.9238658312536947,
+      "V_abs": 0.2400565232482539,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034832809960471576
+    },
+    {
+      "time": 5.1484375,
+      "kappa": 3.3350818769262243,
+      "phi_abs": 0.9256805350402171,
+      "V_abs": 0.2478296763792492,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003438585130508258
+    },
+    {
+      "time": 5.15625,
+      "kappa": 3.3136698041763046,
+      "phi_abs": 0.9274830921330077,
+      "V_abs": 0.25609448258316697,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00348411393611259
+    },
+    {
+      "time": 5.1640625,
+      "kappa": 3.3061194137112646,
+      "phi_abs": 0.929274729022648,
+      "V_abs": 0.26344365385493484,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003437701642476946
+    },
+    {
+      "time": 5.171875,
+      "kappa": 3.284738630009789,
+      "phi_abs": 0.9310568057567287,
+      "V_abs": 0.27134581368851884,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034850651727809934
+    },
+    {
+      "time": 5.1796875,
+      "kappa": 3.277213710805159,
+      "phi_abs": 0.9328304750502989,
+      "V_abs": 0.27820009244556027,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034367105228144774
+    },
+    {
+      "time": 5.1875,
+      "kappa": 3.255852827328268,
+      "phi_abs": 0.9345967445839014,
+      "V_abs": 0.28565297820813434,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034861030961345477
+    },
+    {
+      "time": 5.1953125,
+      "kappa": 3.248342539244418,
+      "phi_abs": 0.9363566832691945,
+      "V_abs": 0.2919276121778245,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003435644853558257
+    },
+    {
+      "time": 5.203125,
+      "kappa": 3.226991318434279,
+      "phi_abs": 0.938110567288252,
+      "V_abs": 0.2988814074897482,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034871965639538794
+    },
+    {
+      "time": 5.2109375,
+      "kappa": 3.2194860100040064,
+      "phi_abs": 0.9398602911933337,
+      "V_abs": 0.30454857622096265,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003434522606305163
+    },
+    {
+      "time": 5.21875,
+      "kappa": 3.198135414105785,
+      "phi_abs": 0.941605156570267,
+      "V_abs": 0.3109628334362987,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034883319167232077
+    },
+    {
+      "time": 5.2265625,
+      "kappa": 3.1906266509691448,
+      "phi_abs": 0.9433476842026051,
+      "V_abs": 0.3160023409235767,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034333637718786565
+    },
+    {
+      "time": 5.234375,
+      "kappa": 3.1692688829770588,
+      "phi_abs": 0.9450859923330454,
+      "V_abs": 0.32179700924747284,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034894856789507386
+    },
+    {
+      "time": 5.2421875,
+      "kappa": 3.161749529596763,
+      "phi_abs": 0.9468231593081626,
+      "V_abs": 0.3262310172777428,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034322028826324655
+    },
+    {
+      "time": 5.25,
+      "kappa": 3.140378080771583,
+      "phi_abs": 0.9485567961877223,
+      "V_abs": 0.33145145133789583,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034906312632375616
+    },
+    {
+      "time": 5.2578125,
+      "kappa": 3.132842237904366,
+      "phi_abs": 0.9502899209353558,
+      "V_abs": 0.33521369717684696,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003431053335745763
+    },
+    {
+      "time": 5.265625,
+      "kappa": 3.111451883389254,
+      "phi_abs": 0.9520196696974006,
+      "V_abs": 0.3397994278947379,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034917574827021576
+    },
+    {
+      "time": 5.2734375,
+      "kappa": 3.1038949985251523,
+      "phi_abs": 0.953749281521535,
+      "V_abs": 0.3429395867050295,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003429929827781376
+    },
+    {
+      "time": 5.28125,
+      "kappa": 3.0824818046485913,
+      "phi_abs": 0.9554756478322072,
+      "V_abs": 0.3468987490469716,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003492854910095393
+    },
+    {
+      "time": 5.2890625,
+      "kappa": 3.074900579684412,
+      "phi_abs": 0.9572016893426687,
+      "V_abs": 0.3494097463084631,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003428849727458664
+    },
+    {
+      "time": 5.296875,
+      "kappa": 3.053461870821661,
+      "phi_abs": 0.9589242272666214,
+      "V_abs": 0.35272023602673785,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00349390337184218
+    },
+    {
+      "time": 5.3046875,
+      "kappa": 3.045854283140031,
+      "phi_abs": 0.9606451704538977,
+      "V_abs": 0.35460340415827707,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034278328866984126
+    },
+    {
+      "time": 5.3125,
+      "kappa": 3.0243886539455094,
+      "phi_abs": 0.9623623057938981,
+      "V_abs": 0.3572802945672039,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034948967029594467
+    },
+    {
+      "time": 5.3203125,
+      "kappa": 3.016753913872478,
+      "phi_abs": 0.9640765989113678,
+      "V_abs": 0.3585506518356054,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034268769294961395
+    },
+    {
+      "time": 5.328125,
+      "kappa": 2.9952611497214137,
+      "phi_abs": 0.9657865057184882,
+      "V_abs": 0.3606021036382278,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003495832186328242
+    },
+    {
+      "time": 5.3359375,
+      "kappa": 2.9875996367819604,
+      "phi_abs": 0.9674915474351773,
+      "V_abs": 0.3612115317146107,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034259907334446968
+    },
+    {
+      "time": 5.34375,
+      "kappa": 2.966080720346749,
+      "phi_abs": 0.9691910901184597,
+      "V_abs": 0.36269425970791963,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034966890987901647
+    },
+    {
+      "time": 5.3515625,
+      "kappa": 2.9583939487127013,
+      "phi_abs": 0.9708839267116834,
+      "V_abs": 0.36270484523727947,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034251871728003154
+    },
+    {
+      "time": 5.359375,
+      "kappa": 2.9368508945817147,
+      "phi_abs": 0.9725692428395165,
+      "V_abs": 0.36357147613745006,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003497462975363912
+    },
+    {
+      "time": 5.3671875,
+      "kappa": 2.929141432215451,
+      "phi_abs": 0.9742455062493097,
+      "V_abs": 0.36296246430793594,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034244664731425682
+    },
+    {
+      "time": 5.375,
+      "kappa": 2.9075773349404272,
+      "phi_abs": 0.9759123189556513,
+      "V_abs": 0.3632746074355583,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034981563162061824
+    },
+    {
+      "time": 5.3828125,
+      "kappa": 2.899848732889424,
+      "phi_abs": 0.9775677014536076,
+      "V_abs": 0.3620653491796818,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00342382322362114
+    },
+    {
+      "time": 5.390625,
+      "kappa": 2.8782676048899,
+      "phi_abs": 0.9792110411633668,
+      "V_abs": 0.36183213477142845,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003498763678152293
+    },
+    {
+      "time": 5.3984375,
+      "kappa": 2.8705243063173427,
+      "phi_abs": 0.9808404108990467,
+      "V_abs": 0.3600223643841977,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034232654993673175
+    },
+    {
+      "time": 5.40625,
+      "kappa": 2.8489310360662046,
+      "phi_abs": 0.9824539883132363,
+      "V_abs": 0.359248494449635,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003499274900107546
+    },
+    {
+      "time": 5.4140625,
+      "kappa": 2.841178336000175,
+      "phi_abs": 0.9840508365810712,
+      "V_abs": 0.356862325260386,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00342279193634811
+    },
+    {
+      "time": 5.421875,
+      "kappa": 2.8195786127707407,
+      "phi_abs": 0.9856283195925968,
+      "V_abs": 0.35558025561139583,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034997032317602723
+    },
+    {
+      "time": 5.4296875,
+      "kappa": 2.811822533518657,
+      "phi_abs": 0.9871864013649945,
+      "V_abs": 0.35263909135792637,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034223907016551775
+    },
+    {
+      "time": 5.4375,
+      "kappa": 2.7902227254017973,
+      "phi_abs": 0.9887206595668377,
+      "V_abs": 0.3508049172204699,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035000518949000327
+    },
+    {
+      "time": 5.4453125,
+      "kappa": 2.782469983277882,
+      "phi_abs": 0.9902324182308119,
+      "V_abs": 0.34738248978210795,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034220716419305886
+    },
+    {
+      "time": 5.453125,
+      "kappa": 2.7608770748630524,
+      "phi_abs": 0.9917162727412099,
+      "V_abs": 0.34504486441301735,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035003167117292934
+    },
+    {
+      "time": 5.4609375,
+      "kappa": 2.7531348954282797,
+      "phi_abs": 0.9931733070241713,
+      "V_abs": 0.34111233456915313,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003421836282280135
+    },
+    {
+      "time": 5.46875,
+      "kappa": 2.731556388711202,
+      "phi_abs": 0.9945979991930923,
+      "V_abs": 0.338275600986065,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035005038723770936
+    },
+    {
+      "time": 5.4765625,
+      "kappa": 2.7238325078780976,
+      "phi_abs": 0.9959920550496786,
+      "V_abs": 0.3338982625821728,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034216697926131617
+    },
+    {
+      "time": 5.484375,
+      "kappa": 2.702276313660289,
+      "phi_abs": 0.9973493224188,
+      "V_abs": 0.3305750437978985,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500627706428648
+    },
+    {
+      "time": 5.4921875,
+      "kappa": 2.694578819615035,
+      "phi_abs": 0.9986713969106991,
+      "V_abs": 0.32578037063910603,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003421570538651512
+    },
+    {
+      "time": 5.5,
+      "kappa": 2.673053165973854,
+      "phi_abs": 0.9999524009445584,
+      "V_abs": 0.32198281018921676,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035006878932829035
+    },
+    {
+      "time": 5.5078125,
+      "kappa": 2.665390430685517,
+      "phi_abs": 1.0011925639674706,
+      "V_abs": 0.31678463775595295,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003421543268344542
+    },
+    {
+      "time": 5.515625,
+      "kappa": 2.643903804807906,
+      "phi_abs": 1.002386884037867,
+      "V_abs": 0.3125319662750659,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500687507848355
+    },
+    {
+      "time": 5.5234375,
+      "kappa": 2.6362844230866784,
+      "phi_abs": 1.0035348969254116,
+      "V_abs": 0.30698647561794506,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034215709686677477
+    },
+    {
+      "time": 5.53125,
+      "kappa": 2.614845457486406,
+      "phi_abs": 1.0046330307021218,
+      "V_abs": 0.3023130967976742,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500647842563232
+    },
+    {
+      "time": 5.5390625,
+      "kappa": 2.6072781077426628,
+      "phi_abs": 1.005678452557248,
+      "V_abs": 0.2963936272646075,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034216422148601214
+    },
+    {
+      "time": 5.546875,
+      "kappa": 2.585895530314169,
+      "phi_abs": 1.0066695660598655,
+      "V_abs": 0.2913830225382292,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500565491543008
+    },
+    {
+      "time": 5.5546875,
+      "kappa": 2.5783889226553174,
+      "phi_abs": 1.0076021123289243,
+      "V_abs": 0.2851365792175647,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00342175784623837
+    },
+    {
+      "time": 5.5625,
+      "kappa": 2.55707141082228,
+      "phi_abs": 1.0084744638654832,
+      "V_abs": 0.2797909401054933,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500437317232982
+    },
+    {
+      "time": 5.5703125,
+      "kappa": 2.549634204058404,
+      "phi_abs": 1.0092822362852432,
+      "V_abs": 0.2732730628173765,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034219106593903663
+    },
+    {
+      "time": 5.578125,
+      "kappa": 2.52839034820973,
+      "phi_abs": 1.010024774011358,
+      "V_abs": 0.26765706567608166,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500284540710353
+    },
+    {
+      "time": 5.5859375,
+      "kappa": 2.5210310366410247,
+      "phi_abs": 1.0106967024770328,
+      "V_abs": 0.2608944364343245,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034220817831765206
+    },
+    {
+      "time": 5.59375,
+      "kappa": 2.4998692402984877,
+      "phi_abs": 1.0112976052195595,
+      "V_abs": 0.25507647430483976,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003500112343872342
+    },
+    {
+      "time": 5.6015625,
+      "kappa": 2.492596094372624,
+      "phi_abs": 1.0118223719623176,
+      "V_abs": 0.24813116406487365,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003422267755597483
+    },
+    {
+      "time": 5.609375,
+      "kappa": 2.4715244931102607,
+      "phi_abs": 1.0122693888370367,
+      "V_abs": 0.24216287370037054,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00349991770872691
+    },
+    {
+      "time": 5.6171875,
+      "kappa": 2.464345497809186,
+      "phi_abs": 1.01263390040953,
+      "V_abs": 0.23509709791655015,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034224674654016493
+    },
+    {
+      "time": 5.625,
+      "kappa": 2.4433719280329367,
+      "phi_abs": 1.012914004822768,
+      "V_abs": 0.2290863206946063,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034997171724218345
+    },
+    {
+      "time": 5.6328125,
+      "kappa": 2.4362947095959657,
+      "phi_abs": 1.0131066959566741,
+      "V_abs": 0.22200587856628917,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003422655687560165
+    },
+    {
+      "time": 5.640625,
+      "kappa": 2.4154265891128928,
+      "phi_abs": 1.0132074139645249,
+      "V_abs": 0.2160060139104894,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034995262583494926
+    },
+    {
+      "time": 5.6484375,
+      "kappa": 2.408458361080414,
+      "phi_abs": 1.0132153750758195,
+      "V_abs": 0.20907450529686925,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034228315878450846
+    },
+    {
+      "time": 5.65625,
+      "kappa": 2.3877026559050707,
+      "phi_abs": 1.0131244937071766,
+      "V_abs": 0.20321080967705415,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034993445762168747
+    },
+    {
+      "time": 5.6640625,
+      "kappa": 2.3808501307049195,
+      "phi_abs": 1.012933873766066,
+      "V_abs": 0.19657943884610865,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034230014853158107
+    },
+    {
+      "time": 5.671875,
+      "kappa": 2.3602132955253943,
+      "phi_abs": 1.0126376153780268,
+      "V_abs": 0.19106277573436384,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034991766828962622
+    },
+    {
+      "time": 5.6796875,
+      "kappa": 2.3534826215119637,
+      "phi_abs": 1.0122356402066517,
+      "V_abs": 0.18490716042659916,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034231428231123666
+    },
+    {
+      "time": 5.6875,
+      "kappa": 2.3329705043613904,
+      "phi_abs": 1.0117212619409317,
+      "V_abs": 0.17991854815227187,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034990449001471055
+    },
+    {
+      "time": 5.6953125,
+      "kappa": 2.3263672372430424,
+      "phi_abs": 1.0110944535208422,
+      "V_abs": 0.1745105998207327,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034232474917819406
+    },
+    {
+      "time": 5.703125,
+      "kappa": 2.3059850585150605,
+      "phi_abs": 1.0103493179141498,
+      "V_abs": 0.17032949604417663,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034989531130482205
+    },
+    {
+      "time": 5.7109375,
+      "kappa": 2.2995140768225726,
+      "phi_abs": 1.0094842609570633,
+      "V_abs": 0.16595924185696567,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034233189617256044
+    },
+    {
+      "time": 5.71875,
+      "kappa": 2.2792663640674444,
+      "phi_abs": 1.0084938244282944,
+      "V_abs": 0.1629144282476215,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034989005730701093
+    },
+    {
+      "time": 5.7265625,
+      "kappa": 2.2729318504036153,
+      "phi_abs": 1.0073757504866303,
+      "V_abs": 0.15988548498359118,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034233424303273894
+    },
+    {
+      "time": 5.734375,
+      "kappa": 2.2528224060707998,
+      "phi_abs": 1.0061273811366551,
+      "V_abs": 0.15830413408889824,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034989119410739266
+    },
+    {
+      "time": 5.7421875,
+      "kappa": 2.246627776408303,
+      "phi_abs": 1.0047428889996615,
+      "V_abs": 0.15690863212716646,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003423300366939071
+    },
+    {
+      "time": 5.75,
+      "kappa": 2.226659629093909,
+      "phi_abs": 1.0032227484422447,
+      "V_abs": 0.15710033071146473,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034989924178181497
+    },
+    {
+      "time": 5.7578125,
+      "kappa": 2.2206075060919517,
+      "phi_abs": 1.001558718618647,
+      "V_abs": 0.15757588923401503,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034231938129427276
+    },
+    {
+      "time": 5.765625,
+      "kappa": 2.200782863224318,
+      "phi_abs": 0.999751989541615,
+      "V_abs": 0.15979031124262486,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003499134242706785
+    },
+    {
+      "time": 5.7734375,
+      "kappa": 2.194875026755336,
+      "phi_abs": 0.9977937923109054,
+      "V_abs": 0.16226495700364674,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003423021554908293
+    },
+    {
+      "time": 5.78125,
+      "kappa": 2.1751952034491073,
+      "phi_abs": 0.9956868879515056,
+      "V_abs": 0.1664858450939841,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003499357479108807
+    },
+    {
+      "time": 5.7890625,
+      "kappa": 2.1694325271861894,
+      "phi_abs": 0.9934211125242555,
+      "V_abs": 0.1709124302976761,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003422757653711892
+    },
+    {
+      "time": 5.796875,
+      "kappa": 2.149897959941924,
+      "phi_abs": 0.990999970990978,
+      "V_abs": 0.17706740835470494,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0034996747048927877
+    },
+    {
+      "time": 5.8046875,
+      "kappa": 2.144280412697124,
+      "phi_abs": 0.9884136074752068,
+      "V_abs": 0.18328387672436638,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003422399626904897
+    },
+    {
+      "time": 5.8125,
+      "kappa": 2.124890590217725,
+      "phi_abs": 0.9856646511144049,
+      "V_abs": 0.19124074710578431,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035000812197352564
+    },
+    {
+      "time": 5.8203125,
+      "kappa": 2.1194171659180734,
+      "phi_abs": 0.9827427537800165,
+      "V_abs": 0.19912914125878223,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003421948280832812
+    },
+    {
+      "time": 5.828125,
+      "kappa": 2.1001705805968625,
+      "phi_abs": 0.9796503768136336,
+      "V_abs": 0.20859729517680725,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035005919870537494
+    },
+    {
+      "time": 5.8359375,
+      "kappa": 2.0948392780633767,
+      "phi_abs": 0.9763799588361833,
+      "V_abs": 0.21785274376802496,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034213807408834227
+    },
+    {
+      "time": 5.84375,
+      "kappa": 2.0757334250358275,
+      "phi_abs": 0.9729308569626901,
+      "V_abs": 0.22867312150371139,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035012250436240407
+    },
+    {
+      "time": 5.8515625,
+      "kappa": 2.0705412221353514,
+      "phi_abs": 0.9692981410299876,
+      "V_abs": 0.23907079339221127,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003420686848499624
+    },
+    {
+      "time": 5.859375,
+      "kappa": 2.0515725606260036,
+      "phi_abs": 0.9654791726426499,
+      "V_abs": 0.2511118271702118,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003501979649894669
+    },
+    {
+      "time": 5.8671875,
+      "kappa": 2.046515372983903,
+      "phi_abs": 0.9614692806163035,
+      "V_abs": 0.2625480845801735,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003419873096046152
+    },
+    {
+      "time": 5.875,
+      "kappa": 2.0276792601942115,
+      "phi_abs": 0.9572658008163808,
+      "V_abs": 0.2756314233527654,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003502855203563638
+    },
+    {
+      "time": 5.8828125,
+      "kappa": 2.0227518683934576,
+      "phi_abs": 0.9528650350447121,
+      "V_abs": 0.2879008197656564,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034189225788784127
+    },
+    {
+      "time": 5.890625,
+      "kappa": 2.004042534012567,
+      "phi_abs": 0.9482638824186208,
+      "V_abs": 0.3019464536884584,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003503881271331181
+    },
+    {
+      "time": 5.8984375,
+      "kappa": 1.9992386105138973,
+      "phi_abs": 0.9434584706425075,
+      "V_abs": 0.3149194227815022,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00341781728058837
+    },
+    {
+      "time": 5.90625,
+      "kappa": 1.9806491609658137,
+      "phi_abs": 0.9384470973027472,
+      "V_abs": 0.32981042460745824,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035050590686769713
+    },
+    {
+      "time": 5.9140625,
+      "kappa": 1.9759612290894244,
+      "phi_abs": 0.9332240893852343,
+      "V_abs": 0.3434689623403439,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00341656282517686
+    },
+    {
+      "time": 5.921875,
+      "kappa": 1.9574835697931698,
+      "phi_abs": 0.9277880242096936,
+      "V_abs": 0.3592966100978179,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035063903714911008
+    },
+    {
+      "time": 5.9296875,
+      "kappa": 1.9529028737543888,
+      "phi_abs": 0.9221316870127166,
+      "V_abs": 0.3734993301927862,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003415139305720363
+    },
+    {
+      "time": 5.9375,
+      "kappa": 1.9345276493269916,
+      "phi_abs": 0.9162582991514968,
+      "V_abs": 0.3900878517769846,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035078973781910486
+    },
+    {
+      "time": 5.9453125,
+      "kappa": 1.9300442364302821,
+      "phi_abs": 0.9101562858675926,
+      "V_abs": 0.40483767607761817,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034135301269075245
+    },
+    {
+      "time": 5.953125,
+      "kappa": 1.9117608646733024,
+      "phi_abs": 0.903832781870957,
+      "V_abs": 0.42214460419938443,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035095956047627034
+    },
+    {
+      "time": 5.9609375,
+      "kappa": 1.907363524825606,
+      "phi_abs": 0.8972727608847901,
+      "V_abs": 0.43748325768136515,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003411733722517255
+    },
+    {
+      "time": 5.96875,
+      "kappa": 1.8891601131410098,
+      "phi_abs": 0.8904851079284135,
+      "V_abs": 0.45556154729514753,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035114832693838908
+    },
+    {
+      "time": 5.9765625,
+      "kappa": 1.8848362542993076,
+      "phi_abs": 0.8834531692855309,
+      "V_abs": 0.4714186307752537,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034097490942425024
+    },
+    {
+      "time": 5.984375,
+      "kappa": 1.8666995118024683,
+      "phi_abs": 0.8761884211592078,
+      "V_abs": 0.49020416656734656,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035135765312490916
+    },
+    {
+      "time": 5.9921875,
+      "kappa": 1.8624351725203516,
+      "phi_abs": 0.8686726816203074,
+      "V_abs": 0.5066042250842987,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003407542942869459
+    },
+    {
+      "time": 6.0,
+      "kappa": 1.8443504427202102,
+      "phi_abs": 0.8609185086445269,
+      "V_abs": 0.5260636651974873,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003515899908381584
+    },
+    {
+      "time": 6.0078125,
+      "kappa": 1.840130288933556,
+      "phi_abs": 0.8529080204872825,
+      "V_abs": 0.5429555623063674,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034051134924616318
+    },
+    {
+      "time": 6.015625,
+      "kappa": 1.8220815353638595,
+      "phi_abs": 0.8446533609191429,
+      "V_abs": 0.5631755967505302,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035184482461995655
+    },
+    {
+      "time": 6.0234375,
+      "kappa": 1.8178887576606424,
+      "phi_abs": 0.8361353522012369,
+      "V_abs": 0.5807630851100553,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0034024523195494037
+    },
+    {
+      "time": 6.03125,
+      "kappa": 1.7998582837872725,
+      "phi_abs": 0.8273658109776828,
+      "V_abs": 0.6016899086111523,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003521254640762801
+    },
+    {
+      "time": 6.0390625,
+      "kappa": 1.7956744334511732,
+      "phi_abs": 0.8183297449654031,
+      "V_abs": 0.6198023818404825,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033995348217450466
+    },
+    {
+      "time": 6.046875,
+      "kappa": 1.7776430695574188,
+      "phi_abs": 0.8090359373014047,
+      "V_abs": 0.6415062225703488,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035243324532115167
+    },
+    {
+      "time": 6.0546875,
+      "kappa": 1.773448196376786,
+      "phi_abs": 0.7994721723886945,
+      "V_abs": 0.6601550102313248,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033963378502310875
+    },
+    {
+      "time": 6.0625,
+      "kappa": 1.7553952009648244,
+      "phi_abs": 0.7896452422754003,
+      "V_abs": 0.6827704631204086,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003527689618797687
+    },
+    {
+      "time": 6.0703125,
+      "kappa": 1.7511676688624096,
+      "phi_abs": 0.779543439953894,
+      "V_abs": 0.7020658902790202,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033928526176452913
+    },
+    {
+      "time": 6.078125,
+      "kappa": 1.733070474854059,
+      "phi_abs": 0.7691734058507305,
+      "V_abs": 0.7255915173711776,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003531337113415531
+    },
+    {
+      "time": 6.0859375,
+      "kappa": 1.7287868106243982,
+      "phi_abs": 0.7585252512095875,
+      "V_abs": 0.7454938710130266,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033890574482284544
+    },
+    {
+      "time": 6.09375,
+      "kappa": 1.7106210776805801,
+      "phi_abs": 0.7476063141505331,
+      "V_abs": 0.7700211989984223,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035353143253779927
+    },
+    {
+      "time": 6.1015625,
+      "kappa": 1.7062560203338237,
+      "phi_abs": 0.7364063757785397,
+      "V_abs": 0.7905330059463339,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033849168115522134
+    },
+    {
+      "time": 6.109375,
+      "kappa": 1.6879956047351368,
+      "phi_abs": 0.724935652643909,
+      "V_abs": 0.8160729151667524,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035396295179655293
+    },
+    {
+      "time": 6.1171875,
+      "kappa": 1.6835220886884328,
+      "phi_abs": 0.713182211638172,
+      "V_abs": 0.837350924894839,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033804296198569838
+    },
+    {
+      "time": 6.125,
+      "kappa": 1.6651388537353442,
+      "phi_abs": 0.7011571813755479,
+      "V_abs": 0.8642470836847996,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00354430998812906
+    },
+    {
+      "time": 6.1328125,
+      "kappa": 1.6605274488313708,
+      "phi_abs": 0.6888475104283008,
+      "V_abs": 0.8862589838995446,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003375533071903307
+    },
+    {
+      "time": 6.140625,
+      "kappa": 1.6419909232605487,
+      "phi_abs": 0.6762724555029256,
+      "V_abs": 0.9143763635305369,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035493886497580274
+    },
+    {
+      "time": 6.1484375,
+      "kappa": 1.637210176536233,
+      "phi_abs": 0.6634148095125345,
+      "V_abs": 0.9372656619340572,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003370212739818073
+    },
+    {
+      "time": 6.15625,
+      "kappa": 1.618487799996007,
+      "phi_abs": 0.6503006111203133,
+      "V_abs": 0.9667071340687603,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003554909917925501
+    },
+    {
+      "time": 6.1640625,
+      "kappa": 1.6135040228412194,
+      "phi_abs": 0.6369105570648111,
+      "V_abs": 0.9906968725827991,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003364443860147579
+    },
+    {
+      "time": 6.171875,
+      "kappa": 1.5945607703211886,
+      "phi_abs": 0.6232751920208398,
+      "V_abs": 1.021736505100006,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003560910031506481
+    },
+    {
+      "time": 6.1796875,
+      "kappa": 1.5893374972259477,
+      "phi_abs": 0.6093757454904032,
+      "V_abs": 1.0468912436190896,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033581804526427415
+    },
+    {
+      "time": 6.1875,
+      "kappa": 1.570135530558674,
+      "phi_abs": 0.595250897960069,
+      "V_abs": 1.0795702710726511,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0035674337190692573
+    },
+    {
+      "time": 6.1953125,
+      "kappa": 1.5646336180481175,
+      "phi_abs": 0.5808849001208992,
+      "V_abs": 1.1060778787235308,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033513650455942916
+    },
+    {
+      "time": 6.203125,
+      "kappa": 1.545132348028983,
+      "phi_abs": 0.5663228547057416,
+      "V_abs": 1.1405509637550744,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003574549302062625
+    },
+    {
+      "time": 6.2109375,
+      "kappa": 1.5393098085113281,
+      "phi_abs": 0.5515564962467144,
+      "V_abs": 1.168517636079791,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.00334395996822311
+    },
+    {
+      "time": 6.21875,
+      "kappa": 1.5194657490714827,
+      "phi_abs": 0.5366381484789915,
+      "V_abs": 1.2051894098366969,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003582289713035518
+    },
+    {
+      "time": 6.2265625,
+      "kappa": 1.513277260243696,
+      "phi_abs": 0.5215670579355105,
+      "V_abs": 1.2351708519643718,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033358761582398685
+    },
+    {
+      "time": 6.234375,
+      "kappa": 1.4930428634945687,
+      "phi_abs": 0.5064085175555626,
+      "V_abs": 1.2741253260360217,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003590792857525791
+    },
+    {
+      "time": 6.2421875,
+      "kappa": 1.4864391357876794,
+      "phi_abs": 0.49118206897616246,
+      "V_abs": 1.3060927515621263,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033270513089440987
+    },
+    {
+      "time": 6.25,
+      "kappa": 1.4657633548402533,
+      "phi_abs": 0.4759663398542156,
+      "V_abs": 1.3478124211150615,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036001093021863677
+    },
+    {
+      "time": 6.2578125,
+      "kappa": 1.4586912719610263,
+      "phi_abs": 0.46080641934343125,
+      "V_abs": 1.3820279024011133,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003317360151095275
+    },
+    {
+      "time": 6.265625,
+      "kappa": 1.437518899914737,
+      "phi_abs": 0.445805248465803,
+      "V_abs": 1.4270858066178371,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036103264836175398
+    },
+    {
+      "time": 6.2734375,
+      "kappa": 1.42992068716163,
+      "phi_abs": 0.4310391362542948,
+      "V_abs": 1.4641931554246774,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0033066710027776468
+    },
+    {
+      "time": 6.28125,
+      "kappa": 1.408191042203825,
+      "phi_abs": 0.41664883119884516,
+      "V_abs": 1.5129957883298082,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003621618375108495
+    },
+    {
+      "time": 6.2890625,
+      "kappa": 1.4000032739391353,
+      "phi_abs": 0.40276058186443064,
+      "V_abs": 1.5532493829365628,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003294846913329175
+    },
+    {
+      "time": 6.296875,
+      "kappa": 1.377650221642237,
+      "phi_abs": 0.3895679331440828,
+      "V_abs": 1.6065034962028335,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003634131199299917
+    },
+    {
+      "time": 6.3046875,
+      "kappa": 1.3688036253518256,
+      "phi_abs": 0.3772587113616051,
+      "V_abs": 1.6504569546668066,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032816807171300953
+    },
+    {
+      "time": 6.3125,
+      "kappa": 1.3457547040224616,
+      "phi_abs": 0.36609446782907945,
+      "V_abs": 1.7088741318135345,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036480472378750037
+    },
+    {
+      "time": 6.3203125,
+      "kappa": 1.3361732387618563,
+      "phi_abs": 0.35633495037639346,
+      "V_abs": 1.757609804759434,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003266970227348247
+    },
+    {
+      "time": 6.328125,
+      "kappa": 1.3123479207368178,
+      "phi_abs": 0.3483073578074885,
+      "V_abs": 1.822610502673681,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0036637066089168896
+    },
+    {
+      "time": 6.3359375,
+      "kappa": 1.301945868328137,
+      "phi_abs": 0.3423401458325424,
+      "V_abs": 1.8766613571008905,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032503133919077904
+    },
+    {
+      "time": 6.34375,
+      "kappa": 1.2772540049051044,
+      "phi_abs": 0.33879795987761174,
+      "V_abs": 1.9491716217804242,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003681363826100671
+    },
+    {
+      "time": 6.3515625,
+      "kappa": 1.2659362220967256,
+      "phi_abs": 0.3380259151073419,
+      "V_abs": 2.0101086202634275,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003231389513989674
+    },
+    {
+      "time": 6.359375,
+      "kappa": 1.2402766349881682,
+      "phi_abs": 0.34034672322240206,
+      "V_abs": 2.091602353146195,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003701540136206762
+    },
+    {
+      "time": 6.3671875,
+      "kappa": 1.2279356742217846,
+      "phi_abs": 0.3460433058751956,
+      "V_abs": 2.161296461791879,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0032097387546646994
+    },
+    {
+      "time": 6.375,
+      "kappa": 1.2011930744902413,
+      "phi_abs": 0.3553072284338038,
+      "V_abs": 2.254432627502763,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.0037248819916518914
+    },
+    {
+      "time": 6.3828125,
+      "kappa": 1.1877044898809872,
+      "phi_abs": 0.3682999031884207,
+      "V_abs": 2.3348068295547297,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003184539562748579
+    },
+    {
+      "time": 6.390625,
+      "kappa": 1.1597451708794084,
+      "phi_abs": 0.38505293412540587,
+      "V_abs": 2.442050093034009,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003752131768493186
+    },
+    {
+      "time": 6.3984375,
+      "kappa": 1.144965171703374,
+      "phi_abs": 0.40562500632922877,
+      "V_abs": 2.5362837044314714,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003154942617912151
+    },
+    {
+      "time": 6.40625,
+      "kappa": 1.1156331275093598,
+      "phi_abs": 0.42994021935608173,
+      "V_abs": 2.661524265310819,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003784463212698303
+    },
+    {
+      "time": 6.4140625,
+      "kappa": 1.0993921714726023,
+      "phi_abs": 0.45803177972827086,
+      "V_abs": 2.773818381154871,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003119654468208726
+    },
+    {
+      "time": 6.421875,
+      "kappa": 1.0685014882822592,
+      "phi_abs": 0.4898104888956542,
+      "V_abs": 2.923311227052399,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003823487243179057
+    },
+    {
+      "time": 6.4296875,
+      "kappa": 1.0505935087372047,
+      "phi_abs": 0.5253687005959322,
+      "V_abs": 3.0601205777138474,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003076524350405837
+    },
+    {
+      "time": 6.4375,
+      "kappa": 1.0179145721371186,
+      "phi_abs": 0.5646709864807778,
+      "V_abs": 3.2412632587332646,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003871692777233603
+    },
+    {
+      "time": 6.4453125,
+      "kappa": 0.9980845052588669,
+      "phi_abs": 0.6079190180095735,
+      "V_abs": 3.4112760122242705,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.003022895548319467
+    },
+    {
+      "time": 6.453125,
+      "kappa": 0.9633307517715634,
+      "phi_abs": 0.6551954901693742,
+      "V_abs": 3.6370670377634506,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.003932623295797462
+    },
+    {
+      "time": 6.4609375,
+      "kappa": 0.941253007953916,
+      "phi_abs": 0.7068606470235725,
+      "V_abs": 3.854085192010312,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.002954031225034613
+    },
+    {
+      "time": 6.46875,
+      "kappa": 0.9040517923348261,
+      "phi_abs": 0.7631621493282534,
+      "V_abs": 4.144834973955019,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.004012021319761461
+    },
+    {
+      "time": 6.4765625,
+      "kappa": 0.879293128602305,
+      "phi_abs": 0.8247151603249359,
+      "V_abs": 4.43320275147314,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.002862155092833409
+    },
+    {
+      "time": 6.484375,
+      "kappa": 0.8391339596935614,
+      "phi_abs": 0.8920083051208667,
+      "V_abs": 4.821904785662966,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.00412026392028598
+    },
+    {
+      "time": 6.4921875,
+      "kappa": 0.8110882819986633,
+      "phi_abs": 0.9660444949562673,
+      "V_abs": 5.222291258480452,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0027341447414383603
+    },
+    {
+      "time": 6.5,
+      "kappa": 0.7672395494459366,
+      "phi_abs": 1.0477533364380436,
+      "V_abs": 5.771417119876656,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": -0.004275569864865755
+    },
+    {
+      "time": 6.5078125,
+      "kappa": 0.7350051461829858,
+      "phi_abs": 1.138859683172554,
+      "V_abs": 6.364933517847325,
+      "incoming_radial_defect": 0.0,
+      "incoming_kappa_defect": 0.0025437653841767103
+    }
+  ],
+  "initial_data": {
+    "canonical_input": "ROTATING_CANONICAL_A020_W8_2026-10-21.npz",
+    "canonical_sha256": "9635da2514cec488d875f0d03461d630da5afb759f827719410d942f5106636e",
+    "parameter": 1.001,
+    "inner_radius": 2.504636782467196,
+    "original_certified_parameter_interval": [
+      0.0,
+      1.0
+    ],
+    "outer_support_radius": 16.079685567920432,
+    "outer_support_proper_distance": 29.410324995522984,
+    "vacuum_proper_end": 3.876052708109145,
+    "radius_max": 18.079685567920432,
+    "proper_distance_max": 43.720357245822505,
+    "ADM_mass": 14.579358735288462,
+    "ADM_charge": 14.580298364526971,
+    "initialization_tolerance": 2e-12,
+    "initial_gauge": "u=t-x, v=t+x; x initial proper distance; Omega^2=1; A_u=A_v=0",
+    "initialization_error_certified": false
+  },
+  "goal_A_proved": false,
+  "source_sha256": {
+    "centered_cauchy_diamond.py": "5339723e7a01baf4f0b80a3fddd20d28a2756d1d0eff4f9229307f6bf10a6d57",
+    "charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "canonical_cauchy_data.py": "bfd0b250ac9e5dfe5a367a10d073a8d7667fba47ef73be9651ae60350ccca4d9",
+    "charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "constraint_contraction.py": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c",
+    "rotating_af_numeric.py": "0845628b39d9b525ac59d253e2612f3443f807078243f52df5b9c82824b21182",
+    "certify_rotating_af_barrier.py": "bca9a84587da700371c896400dd3d3ad81749b2adf1593bad85a75fd24038e87"
+  }
+}

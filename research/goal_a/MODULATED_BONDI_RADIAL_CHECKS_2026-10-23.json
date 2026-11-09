@@ -1,0 +1,113 @@
+{
+  "claim_ids": [
+    "MOD08.1",
+    "MOD08.2",
+    "MOD08.3",
+    "MOD08.4",
+    "MOD08.5",
+    "MOD08.6"
+  ],
+  "logic": "PROVED for exact identities and finite controls; actual radial/phase inequalities analytic with explicit A/D/K inputs",
+  "evidence": [
+    "EXACT_ALGEBRA",
+    "FINITE_CONVOLUTION_QUADRATURE_CONTROLS"
+  ],
+  "audit": "INTERNAL_AUDIT",
+  "checks": [
+    "actual charged radial Z transport and envelope products",
+    "three exact radial mass/optical primitives",
+    "Hawking/project mass distinction",
+    "general time-dependent Bondi divergence source and commutator",
+    "complete modulated phase derivative and logarithmic time integral",
+    "non-electrovac Maxwell residual for varying Bondi charge",
+    "short-range model source/body power ratios",
+    "six finite ideal-characteristic convolution controls"
+  ],
+  "negative_controls": [
+    "dropping parameter derivatives makes the time commutator wrong",
+    "varying Bondi charge does not define an electrovac RN solution",
+    "positive far-zone coefficient does not imply black-hole RN parameter range",
+    "uncut dynamic Coulomb phase has unbounded radial logarithm in its time derivative"
+  ],
+  "convolution_controls": [
+    {
+      "kappa": 0.1,
+      "eta": 0.0,
+      "u": 0.25,
+      "r": 1.0,
+      "integral": 0.15855354696938354,
+      "quadrature_error_estimate": 1.760297984813958e-15,
+      "analytic_upper_bound": 592.4328840644829,
+      "ratio": 0.00026763123930866387
+    },
+    {
+      "kappa": 0.1,
+      "eta": 0.125,
+      "u": 10.0,
+      "r": 1.0,
+      "integral": 1.1620681606323855,
+      "quadrature_error_estimate": 3.8777284889764075e-14,
+      "analytic_upper_bound": 158.10104257012932,
+      "ratio": 0.007350161274976562
+    },
+    {
+      "kappa": 0.5,
+      "eta": 0.0,
+      "u": 10000.0,
+      "r": 1.0,
+      "integral": 0.0004025866677167117,
+      "quadrature_error_estimate": 2.372347563936442e-15,
+      "analytic_upper_bound": 0.008422158497508141,
+      "ratio": 0.04780088950306798
+    },
+    {
+      "kappa": 0.5,
+      "eta": 0.125,
+      "u": 10000.0,
+      "r": 100000.0,
+      "integral": 4.662893760381899e-08,
+      "quadrature_error_estimate": 4.573982705567876e-16,
+      "analytic_upper_bound": 1.9583471976078223e-06,
+      "ratio": 0.023810352761133257
+    },
+    {
+      "kappa": 0.1,
+      "eta": 0.0,
+      "u": 1000.0,
+      "r": 100000.0,
+      "integral": 6.1091846899212125e-09,
+      "quadrature_error_estimate": 1.1100484921008193e-16,
+      "analytic_upper_bound": 5.5742501686860186e-06,
+      "ratio": 0.0010959652877153324
+    },
+    {
+      "kappa": 0.5,
+      "eta": 0.125,
+      "u": 1.0,
+      "r": 10.0,
+      "integral": 0.007706036003060564,
+      "quadrature_error_estimate": 8.555418599188252e-17,
+      "analytic_upper_bound": 0.8381647206971657,
+      "ratio": 0.009193939822056534
+    }
+  ],
+  "convolution_controls_certify_continuous_PDE": false,
+  "final_charge_assumed_for_modulation": false,
+  "bondi_mass_charge_inequality_assumed_for_modulation": false,
+  "actual_uniform_A_eta_D_eta_verified": false,
+  "modulated_operator_global_decay_verified": false,
+  "full_source_absorption_verified": false,
+  "horizon_strong_limit_verified": false,
+  "goal_A_proved": false,
+  "source_sha256": {
+    "verify_modulated_bondi_radial.py": "b8b5408e4924ad9433d0c3641be354d8199e0a63b5f31c2e4801b8fde843a431",
+    "MODULATED_BONDI_RADIAL_IMPROVEMENT.md": "af72403b9e008d60f89e956f3188ecf5a8b6b81b517968d10ad9fdf953e54c23",
+    "TAIL_CURRENT_AND_CARRIER_AUDIT.md": "2ca1eefa4576712a625df841a236e8a411f2d5fe7a272c508b66ff60acfb735e",
+    "ACTUAL_BONDI_COMPLETENESS_BRIDGE.md": "d83af903eaf08a6e5decad19bf2f335fe0278ffcb846d0809c20a06c2031d743",
+    "LOW_FREQUENCY_SHELL_AND_ACTUAL_ERRORS.md": "4210673740bd7c7f457fb4b431f5b9441faf6942745fb93e90d5e1aae6230ede",
+    "GLOBAL_RN_SOURCE_NORM_AUDIT.md": "63046ee0f9bd47db9f2152db67a72e17c4d3e18bb2c78c38d38053934c90141d",
+    "FAR_ZONE_RP_AND_COULOMB_BALANCE.md": "b4403baf85ca2d836f0466ca7d0685a5e015262d712e1a36b0f68ccddb9239cf",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c"
+  }
+}

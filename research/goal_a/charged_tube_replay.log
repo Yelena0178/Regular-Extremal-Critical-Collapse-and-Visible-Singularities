@@ -1,0 +1,36 @@
+{
+  "status": "PASS_REPLAY",
+  "arithmetic_checks": {
+    "exact_basic_operation_comparisons": 768,
+    "negative_controls": 2,
+    "subnormal_check": true
+  },
+  "independently_replayed_pieces": [
+    {
+      "piece": 0,
+      "verified_cells": 9216,
+      "minimum_margin": 2.0145047378641735e-13
+    },
+    {
+      "piece": 1,
+      "verified_cells": 9216,
+      "minimum_margin": 2.62663258343649e-11
+    }
+  ],
+  "reproduced_failure": {
+    "piece": 2,
+    "message": "invalid charged radius proposal on diagonal 34",
+    "cell": [
+      3,
+      31
+    ],
+    "negative_proposed_component": "m",
+    "diagnostic_minimum_proposal": -13.776945576189885,
+    "diagnostic_spectral_radius": 1.9269157274567905,
+    "diagnostic_values_are_not_interval_proofs": true
+  },
+  "complete_rectangle_certified": false,
+  "strict_trapping_certified": false,
+  "actual_smooth_seed_certified": false,
+  "goal_A_proved": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational Laurent polynomials",
+  "identities": [
+    "second_jet",
+    "c_u",
+    "a_u",
+    "b_u",
+    "integrating_factor",
+    "zero_lower_jets",
+    "first_corner_jet",
+    "second_corner_jet"
+  ],
+  "rejected_commutator_variants": 2,
+  "candidate_second_jet_certified": false,
+  "nonlinear_counterexample_constructed": false,
+  "full_goal_A_proved": false,
+  "source_sha256": {
+    "SECOND_TRANSVERSE_JET.md": "c414721230e78bb0d6930a5bd1afc36a8fd405ea354529b3bd11c9c520acc7bf",
+    "verify_second_jet.py": "c24fcee4a20d70b45c0e517eeff9a704d6258ec3f67b63abf4bf25579dd4e0e3",
+    "verify_null_infinity_algebra.py": "c4e78dcd4dfcc4e447ce44323e205e4ca3cab387adf129c3e34a43cbf04d5ed9",
+    "../../definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9"
+  }
+}
