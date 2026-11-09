@@ -1,0 +1,22 @@
+{
+  "retrieved_utc": "2026-11-08T13:19:34.557347+00:00",
+  "remote": "https://github.com/Yelena0178/Regular-Extremal-Critical-Collapse-and-Visible-Singularities.git",
+  "main": "3d5bf6bc40d4c3f1d66f2a7d5eaf3fd1a2e57643",
+  "research_head": "53681923d0fc83e574f8ec42d82d2b87b54d265c",
+  "prs": [
+    {
+      "number": 5,
+      "state": "open",
+      "title": "目标 A 研究至 R31：成果归档、证据核对与阅读导航",
+      "sha": "53681923d0fc83e574f8ec42d82d2b87b54d265c",
+      "branch": "codex/goal-a-research-2026-10-16",
+      "updated_at": "2026-11-01T15:25:58Z"
+    }
+  ],
+  "pagination": "100 per page; response contains 1 PR, including closed; no further page",
+  "files": {
+    "research/goal_a/ACCEPTANCE.md": "ec0ed050afa4f8c0a626ed979cf5959df3ce3ddeb08fc1d5802bb0c1696dfe1c",
+    "definitions/MODEL.md": "a683f3dae0cd3a44b96017a56020f51de74753d04e814e4e9393d19f937944d9",
+    "research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md": "14ddac3c0ec34406bab7b5784f818d68ab9019c89136f209b99a9f08ee5db10a"
+  }
+}

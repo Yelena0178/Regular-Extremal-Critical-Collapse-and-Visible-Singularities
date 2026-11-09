@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "scope": "symbolic transport and finite along-ray jet ODE; no fixed-width neighborhood or actual PDE certificate",
+  "symbolic_checks": [
+    "charged wave divergence to U transport",
+    "moving electromagnetic commutator to H transport",
+    "wrong commutator rejected",
+    "oscillatory leading coefficient"
+  ],
+  "initial_H": [
+    0,
+    0
+  ],
+  "other_finite_H0": "add homogeneous_multiplier*H0; analytic bounds proved separately",
+  "times": [
+    1.0,
+    2.0,
+    4.0,
+    16.0,
+    64.0,
+    256.0,
+    1024.0
+  ],
+  "max_tolerance_comparison_difference": 5.168581812542428e-10,
+  "records": [
+    {
+      "B": 0.9975845370170611,
+      "B_r": 0.006703052562004239,
+      "B_rr": 0.0034049599556923906,
+      "A_rr": 0.5198902711184391,
+      "U_abs": 0.058034952089954704,
+      "H_real": 0.0,
+      "H_imag": 0.0,
+      "H_abs": 0.0,
+      "a": -0.009515726747511643,
+      "t": 1.0,
+      "H_compensated_real": -0.0015,
+      "H_compensated_imag": -0.00525,
+      "homogeneous_multiplier": 1.0
+    },
+    {
+      "B": 0.9998541693408438,
+      "B_r": 0.0005561362632645548,
+      "B_rr": 0.0016484621962454564,
+      "A_rr": 0.5006868857661905,
+      "U_abs": 0.016677893985525123,
+      "H_real": -0.036121672633171786,
+      "H_imag": -0.026069327446292468,
+      "H_abs": 0.044546437201195443,
+      "a": -0.0002812894990593494,
+      "t": 2.0,
+      "H_compensated_real": -0.040630077685864324,
+      "H_compensated_imag": -0.02914938976398287,
+      "homogeneous_multiplier": 1.0022023740339923
+    },
+    {
+      "B": 0.9999915364535841,
+      "B_r": 5.703054392945477e-05,
+      "B_rr": -5.277114122526212e-06,
+      "A_rr": 0.500030987470973,
+      "U_abs": 0.005340017956980251,
+      "H_real": -0.048773235161399926,
+      "H_imag": -0.03130184962122734,
+      "H_abs": 0.057953725141867696,
+      "a": -7.812610626647291e-06,
+      "t": 4.0,
+      "H_compensated_real": -0.054209316260673907,
+      "H_compensated_imag": -0.03079045712801281,
+      "homogeneous_multiplier": 1.0023309304104147
+    },
+    {
+      "B": 0.9999999821980822,
+      "B_r": 1.3214111125294505e-06,
+      "B_rr": -0.00019827939237019131,
+      "A_rr": 0.5000002438787279,
+      "U_abs": 0.0008128379870739737,
+      "H_real": -0.06012522045989357,
+      "H_imag": -0.03348704216904234,
+      "H_abs": 0.06882168356399038,
+      "a": -1.9073497193555043e-09,
+      "t": 16.0,
+      "H_compensated_real": -0.060619794445757665,
+      "H_compensated_imag": -0.02804940512961919,
+      "homogeneous_multiplier": 1.0023381111964729
+    },
+    {
+      "B": 1.0000000001688838,
+      "B_r": 6.095170979436186e-08,
+      "B_rr": -3.881612766199199e-05,
+      "A_rr": 0.5000000037101433,
+      "U_abs": 0.00017457335104928046,
+      "H_real": -0.06602195871171242,
+      "H_imag": -0.028074586543006118,
+      "H_abs": 0.07174316303099411,
+      "a": 2.0489096633917113e-11,
+      "t": 64.0,
+      "H_compensated_real": -0.06076734370690516,
+      "H_compensated_imag": -0.02659083415421126,
+      "homogeneous_multiplier": 1.0023381091353072
+    },
+    {
+      "B": 1.0000000000043894,
+      "B_r": 3.523798657935638e-09,
+      "B_rr": 4.251352072217103e-06,
+      "A_rr": 0.5000000000584013,
+      "U_abs": 4.197498456177335e-05,
+      "H_real": -0.06285916639221503,
+      "H_imag": -0.02156483594257562,
+      "H_abs": 0.06645537561969217,
+      "a": 1.0732037480953039e-13,
+      "t": 256.0,
+      "H_compensated_real": -0.06043660086190554,
+      "H_compensated_imag": -0.026458063532965863,
+      "homogeneous_multiplier": 1.0023381086567715
+    },
+    {
+      "B": 1.0000000000000795,
+      "B_r": 2.1597825185942798e-10,
+      "B_rr": 2.4369275614702564e-06,
+      "A_rr": 0.5000000000009189,
+      "U_abs": 1.0391781653292454e-05,
+      "H_real": -0.056021481119933256,
+      "H_imag": -0.023252484268998855,
+      "H_abs": 0.06065545623891619,
+      "a": 4.458655666894962e-16,
+      "t": 1024.0,
+      "H_compensated_real": -0.06038722303812455,
+      "H_compensated_imag": -0.02653163011872061,
+      "homogeneous_multiplier": 1.0023381086475505
+    }
+  ],
+  "goal_A_proved": false,
+  "source_sha256": {
+    "computations\\verify_asym03.py": "3995f15c7e8dd085923a5f435d9eaea0860b7a3680484451e11647fd5e6a8fc8",
+    "computations\\verify_asym01.py": "bd2f6a0cd9b3d3e83ad5d50fbf3d54c2e2d239c1315e7a20e9fe8ec91d7f8315",
+    "results\\ASYM01_RAY_CHECKS.json": "ce1bd906c12241c70e732d0f3d1d523f501191e5307540b1264574f365f9c467",
+    "proofs\\ASYM03_REGULAR_SECOND_DERIVATIVES.md": "9f5543a75fd41b475fcd27a7814a53d0acc72cf2e80945f1691b12fcf4d1c59e"
+  }
+}

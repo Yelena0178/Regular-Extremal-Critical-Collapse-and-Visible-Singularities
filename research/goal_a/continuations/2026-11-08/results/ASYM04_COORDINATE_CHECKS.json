@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "exact extremal RN comparison only, not ASYM exterior existence",
+  "checks": [
+    "travel-time primitive",
+    "zero interval",
+    "shrinking-label asymptotic"
+  ],
+  "source_sha256": {
+    "reviews\\ASYM04_EXTERIOR_REALIZATION_GATE.md": "fb87d2ff31f93f909060c5ae0d29337043475978b0583dd2a211e8324e3262fe"
+  },
+  "goal_A_proved": false
+}

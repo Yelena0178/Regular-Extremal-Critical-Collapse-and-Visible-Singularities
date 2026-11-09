@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "full transverse second lambda derivative including conformal derivative",
+    "regular EF B radial derivative cancellation",
+    "renormalized mass null flux identity",
+    "Taylor polynomial relative loss coefficient"
+  ],
+  "source_sha256": {
+    "proofs\\ASYM01_AFFINE_RAY_AND_TRANSVERSE_TAIL.md": "dd7ad30c59f167c973efb6a847c4c6874840ca7ba6d5ceb567bf543dda350a36",
+    "proofs\\ASYM02_TRANSVERSE_SECOND_JET.md": "5be2aeb5aee9707d28b527c7240f21a80470fa8571ce14c6407dd48b448ac736"
+  },
+  "scope": "exact symbolic identities, not transverse neighborhood existence",
+  "goal_A_proved": false
+}

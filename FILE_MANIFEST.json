@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-09",
   "scope": "current tracked and non-ignored repository files; excludes itself and ignored generated outputs; bytes only",
   "historical_manifest": "checks/FILE_MANIFEST_2026-10-10.json",
   "directory_file_counts": {
@@ -11,8 +11,8 @@
     "inputs": 96,
     "literature": 7,
     "proofs": 25,
-    "research": 646,
-    "reviews": 314
+    "research": 718,
+    "reviews": 313
   },
   "files": [
     {
@@ -92,8 +92,8 @@
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 19129,
-      "sha256": "aacb795d9840904d68e5d6eac653981764cca0c5264f3ab63cd51786250e4d72"
+      "size_bytes": 19235,
+      "sha256": "eb40862a69053313be0df6ca372a644b6a47a2fcd5e163e5f19abddd37422cdc"
     },
     {
       "path": ".gitignore",
@@ -142,18 +142,18 @@
     },
     {
       "path": "RESULTS.md",
-      "size_bytes": 11982,
-      "sha256": "863f0ba83f324c16fdc8ddf8811d19aa8475029c51abbd25f87aa9be40713f49"
+      "size_bytes": 12566,
+      "sha256": "8ab111e9e38d9a995a13b809eb073d52f384c08bc967e9875b71dc272142a423"
     },
     {
       "path": "ROADMAP.md",
-      "size_bytes": 5381,
-      "sha256": "b295e35a63e9d5fca3ba203989b9669f1356929ce857183f5622c1acc8dae204"
+      "size_bytes": 4625,
+      "sha256": "983a692bb9b1cd64f3bbd58d9d98a56c992da5edfa2445a8466c7037efb29fcd"
     },
     {
       "path": "STATUS.md",
-      "size_bytes": 3598,
-      "sha256": "b965c67aa85a48451412b84a3b8d6c371f94246bf61ec09e647bb6e016f00b07"
+      "size_bytes": 3501,
+      "sha256": "e7c86703f1ecad3e0b903853304c39c0a7f5e32bbb24b72da7e76bf972d5bc6c"
     },
     {
       "path": "UPLOAD_GUIDE.md",
@@ -167,8 +167,8 @@
     },
     {
       "path": "atlas-map.md",
-      "size_bytes": 1968,
-      "sha256": "61e6df8ff4dc6a225cf0fcb8b401a7b897994f578ee086eccc5f438f70e87b48"
+      "size_bytes": 1930,
+      "sha256": "9d0956aaca57f8601f4d87e802d3af76e0b5e8a8c7b5afdad7c18da4ebd9e093"
     },
     {
       "path": "checks/FILE_MANIFEST_2026-10-10.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "checks/REPOSITORY_AUDIT_2026-10-28.md",
-      "size_bytes": 8108,
-      "sha256": "402432a5208601d339d8ba08d2a328a635b5a369cd5c3228e7a66501aa86f306"
+      "size_bytes": 8581,
+      "sha256": "30c51d4a398bec4aee9fff5d819c80d2f2f29b055a9d960846c1bf789373bd8b"
     },
     {
       "path": "checks/SOURCE_MAP.json",
@@ -203,7 +203,7 @@
     {
       "path": "checks/update_navigation.py",
       "size_bytes": 4497,
-      "sha256": "9ebf5fa2f97053e3816544500f4c97c1379cdbaf2760ccd503b248942e814ab7"
+      "sha256": "fbde69ddf299fc90518358cc7ba83396a8c51ee6d71da9503d51e1f792d84f53"
     },
     {
       "path": "checks/verify_manifest.py",
@@ -2327,8 +2327,8 @@
     },
     {
       "path": "research/goal_a/FILE_INDEX.md",
-      "size_bytes": 60362,
-      "sha256": "c9ed990d87652423519a002f01fa53e53b69bbb1fd7cdd73e2e50152856bce82"
+      "size_bytes": 70053,
+      "sha256": "b8c3cab07d78f1cec6c68fe92c23dbe783e9359241e94031e8adc489b751b4dd"
     },
     {
       "path": "research/goal_a/FINITE_BONDI_CONSTRAINT_CHECKS_2026-10-23.json",
@@ -2872,8 +2872,8 @@
     },
     {
       "path": "research/goal_a/README.md",
-      "size_bytes": 6977,
-      "sha256": "5a09e568ba31674a4fdfacfd3bbd818e9027c43f60d3dfa5968e73b953629c65"
+      "size_bytes": 7204,
+      "sha256": "4d68ac6c5bb9e671c880aa6e118af475d52b2f22b45d01c148f76c9e7cd2aed2"
     },
     {
       "path": "research/goal_a/RECOVERY_CHECKPOINT.md",
@@ -3809,6 +3809,366 @@
       "path": "research/goal_a/constraint_contraction.py",
       "size_bytes": 4408,
       "sha256": "fa59b9bab539509995535cc5583851e05423e64df7a568da6a1d19348c2abe6c"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/DEPENDENCIES.md",
+      "size_bytes": 2818,
+      "sha256": "54534ec5e7012f1f938698e17216fd6d20a7140cbeb72bbb5e1bb0ff535884d0"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/INDEX.md",
+      "size_bytes": 1918,
+      "sha256": "b5af514f6068f980dce0f1f8f8e262cd377733e8aa7840ef4ba5a6fee8b337c6"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/NEXT_STEP.md",
+      "size_bytes": 2092,
+      "sha256": "2a237512233fbfe6ec6766ef3a37ae35e21608acca95cc263bdf099c583d5668"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/README.md",
+      "size_bytes": 3187,
+      "sha256": "b53cd8611cba26468c3e25d7518da01e3b0a9c4edbcfd4f0e385a2e94e5856d8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/RESEARCH_PLAN.md",
+      "size_bytes": 1630,
+      "sha256": "70bc7e987a4735408765d8adc26823df5e6985415ee0abc1ceb6fcd544eff1d7"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/STATUS.md",
+      "size_bytes": 1463,
+      "sha256": "1f392d64d59a2b8010fbae607001d31ff93a605e2268d673d9d1b88b17f5a131"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/certificates/ASYM01_RATIONAL_RAY.json",
+      "size_bytes": 588,
+      "sha256": "24e13ad3f555b4ca4427f00909ca505c00998e412647560985ce56c5fc0f2500"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/2026-11-08_ASYM01.md",
+      "size_bytes": 1929,
+      "sha256": "76f4cf641c4733d93290d4a2f00f03db2c64edc9bdfbb2181c2f404ea98e2efe"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/2026-11-08_ASYM03.md",
+      "size_bytes": 2092,
+      "sha256": "2a237512233fbfe6ec6766ef3a37ae35e21608acca95cc263bdf099c583d5668"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/2026-11-08_SHAPE01.md",
+      "size_bytes": 2193,
+      "sha256": "9d4a2eb0aaacae7cbc339ea3c4fd31f3cd634faea06f9a31998272cc7d776299"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/2026-11-08_VAR01.md",
+      "size_bytes": 1915,
+      "sha256": "c1ae82ea77dd9739e52398320faafd49ae4be3b2457bbd3ceded37b33effed97"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/ASYM01_FILE_HASHES.json",
+      "size_bytes": 989,
+      "sha256": "af4811ea127dd9ccb3b915ab6766ce62dd056624ca4688ba1aad5e17bd41a590"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/ASYM01_PRE_RUN.md",
+      "size_bytes": 663,
+      "sha256": "383207fd6722475e1b987beb6a46ccc4a80d050dcb3cb7e28624505a6b3c745f"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/ASYM03_FILE_HASHES.json",
+      "size_bytes": 898,
+      "sha256": "de87e28285fc9eae118ca8c0f06665b1145a2347a611f4584370438bb1a7fa27"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/ASYM03_PRE_RUN.md",
+      "size_bytes": 612,
+      "sha256": "9a5c247f3539eec0f5c474ba1fcc6d940d23a45a45569f54cb822e0d5eeb1943"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/SHAPE01_FILE_HASHES.json",
+      "size_bytes": 2596,
+      "sha256": "9d6407d397a9bee3b2409c6c5cb4a93d0df649b19346a06355bab6e02babc5ea"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/SHAPE01_PRE_RUN.md",
+      "size_bytes": 840,
+      "sha256": "e0091d2b8259dbe2dece4e9aea1adb2c2ae0b661eb40ed1a0850199d17247279"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/VAR01_FILE_HASHES.json",
+      "size_bytes": 868,
+      "sha256": "730c3f782fd21a0c58aa1d6c1cf946d1d7241cc059003e49436b6f658bf8e758"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/checkpoints/VAR01_PRE_RUN.md",
+      "size_bytes": 665,
+      "sha256": "69146dabb8fe3d9452c239300abeee849efb89441b2a27840a200ac7a045601e"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/shape_probe.py",
+      "size_bytes": 4335,
+      "sha256": "801eff120b625d1f881c8c38d71122950009b717dc27d7035f44959d9b4d3fc4"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/summarize_shape.py",
+      "size_bytes": 3567,
+      "sha256": "4eb9f32806dc15539847371542206fea28dd11efaf71414d9e223f064f7694ec"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_asym01.py",
+      "size_bytes": 4070,
+      "sha256": "bd2f6a0cd9b3d3e83ad5d50fbf3d54c2e2d239c1315e7a20e9fe8ec91d7f8315"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_asym02_jets.py",
+      "size_bytes": 1429,
+      "sha256": "1deb5daa68242d344095d228a7b0fd2f2f27fedd755a8f9b6e7091fd9cb4a8f6"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_asym03.py",
+      "size_bytes": 4397,
+      "sha256": "3995f15c7e8dd085923a5f435d9eaea0860b7a3680484451e11647fd5e6a8fc8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_asym04_coordinates.py",
+      "size_bytes": 688,
+      "sha256": "e9def12681e37d6db19300286954a47ece7cdd2989624f845a4ce49aa86559d1"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_shape_initial.py",
+      "size_bytes": 1713,
+      "sha256": "638d4509efcf162f8a5284a1021f3c733d22316952271df65f6d4a1c1d39daa2"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_var01.py",
+      "size_bytes": 3519,
+      "sha256": "6bfe78e9d78b78667862fd39c7fffd6cb70f9a9a7737c6fdd1aafea3e36ca5a4"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/computations/verify_var01_transport.py",
+      "size_bytes": 2320,
+      "sha256": "32393bf9a365fc4bfb79c2806a59e8a6aff4141fe17973d5254803af4eaebd0f"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/ASYM01_RAY_CHECKS.log",
+      "size_bytes": 4319,
+      "sha256": "8f7000b06bd5a58eba6afe166d37ca6107a8ea5405133596e3583f7a217d1a4a"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/ASYM02_JET_CHECKS.log",
+      "size_bytes": 648,
+      "sha256": "07541912133772d0296f317f98037b7d98d2be13023eb1f518c2ff22887b9adc"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/ASYM03_SECOND_JET_CHECKS.log",
+      "size_bytes": 4715,
+      "sha256": "a8d7655aed38b7168451faa136c10ce84a1f0596751fbc44ecd2d5f9b0558bcd"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/ASYM04_COORDINATE_CHECKS.log",
+      "size_bytes": 384,
+      "sha256": "b37276af5e25eb8300fc839b2d46c2039f0ac81d042aa539791e97b85855d1c8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SETUP.md",
+      "size_bytes": 310,
+      "sha256": "7497cfc29590aaa76dc519fe278f4f61bd74fe2b2807f847ae3038725bea14a2"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_COMPARISON.log",
+      "size_bytes": 4751,
+      "sha256": "4f1305eae5eafb6260d06c81c95dcfd89fc17165eab6992d62c8b0a568bd3cb9"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_M_SCOUT_N512.log",
+      "size_bytes": 540,
+      "sha256": "66940ea9c9405482a6173ab13d0ffcca23790e4a22cc3f7659388c6637ed67b8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_M_TRACE_N1024.log",
+      "size_bytes": 539,
+      "sha256": "93ed9fb9a81806083ee5c24d101ca6b95c321dc81c4f475432b83f3708f6b2aa"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_M_TRACE_N512.log",
+      "size_bytes": 540,
+      "sha256": "66940ea9c9405482a6173ab13d0ffcca23790e4a22cc3f7659388c6637ed67b8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_P_SCOUT_N512.log",
+      "size_bytes": 542,
+      "sha256": "1ff7035c1c6144d6124fb81b2c5e0ced4acc9a7a5b472e306f3f76e6400ee701"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_P_TRACE_N1024.log",
+      "size_bytes": 543,
+      "sha256": "632b935e8c27fbfa96f8d1add796468e9dd6b9fb5ac178e61168f4e9e213111f"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/SHAPE_P_TRACE_N512.log",
+      "size_bytes": 542,
+      "sha256": "1ff7035c1c6144d6124fb81b2c5e0ced4acc9a7a5b472e306f3f76e6400ee701"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/VAR01_INITIAL_TANGENT.log",
+      "size_bytes": 1653,
+      "sha256": "1205162c9478d041447c96471a14fc1885a51d9667d4f75d6d115b5914c9f8b1"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/VAR01_TRANSPORT_CHECKS.log",
+      "size_bytes": 657,
+      "sha256": "5236abb164e440901081fa60c2c2343a362d4d6b7ec147caf20638ed553e0351"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/logs/VAR02_EXACT_ALGEBRA.log",
+      "size_bytes": 61,
+      "sha256": "dbb02df08b37f28c9d61c365475e023b3fdf970903dfe78ec3cce472df5dbcc0"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/ASYM01_AFFINE_RAY_AND_TRANSVERSE_TAIL.md",
+      "size_bytes": 6480,
+      "sha256": "dd7ad30c59f167c973efb6a847c4c6874840ca7ba6d5ceb567bf543dda350a36"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/ASYM02_TRANSVERSE_SECOND_JET.md",
+      "size_bytes": 2672,
+      "sha256": "5be2aeb5aee9707d28b527c7240f21a80470fa8571ce14c6407dd48b448ac736"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/ASYM03_REGULAR_SECOND_DERIVATIVES.md",
+      "size_bytes": 5598,
+      "sha256": "9f5543a75fd41b475fcd27a7814a53d0acc72cf2e80945f1691b12fcf4d1c59e"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/SHAPE01.md",
+      "size_bytes": 4251,
+      "sha256": "1976f310e988bf577adc139270eaccd0bf44adfa888a601649509ecc2d2cea4b"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/SHAPE02_PHASE_RIGIDITY.md",
+      "size_bytes": 2432,
+      "sha256": "f3c76b393c3ea4f517ef989430319d06d9bb76584793cd02ae1da09974a737c6"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/VAR01_CONSTRAINT_AND_TRANSPORT.md",
+      "size_bytes": 6268,
+      "sha256": "e35b0eeb01190f0dbccafabf0a357f8eea8fca6f3a50a6c3a589167ea5a7208d"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/proofs/VAR02_INITIAL_CURRENT_SIGN.md",
+      "size_bytes": 1878,
+      "sha256": "0bab1431e4f7ed9693f4144957237b1a49619122308e4e926694be2d08adc8ba"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/ASYM01_RAY_CHECKS.json",
+      "size_bytes": 5059,
+      "sha256": "ce1bd906c12241c70e732d0f3d1d523f501191e5307540b1264574f365f9c467"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/ASYM02_JET_CHECKS.json",
+      "size_bytes": 646,
+      "sha256": "ea3ba3edd393487049c37c02e7126e8bcf685546af3a65bceaf2aad8cc5882fb"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/ASYM03_SECOND_JET_CHECKS.json",
+      "size_bytes": 4715,
+      "sha256": "a8d7655aed38b7168451faa136c10ce84a1f0596751fbc44ecd2d5f9b0558bcd"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/ASYM04_COORDINATE_CHECKS.json",
+      "size_bytes": 382,
+      "sha256": "034ed66b8e9077d65aeee59a7734ca634db11916bf0708edacfb718a93c2a2e0"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_COMPARISON.json",
+      "size_bytes": 116826,
+      "sha256": "75cfde83ef43149778d92dd407a3ee7c7096e61e49fe71033dd4822309607e4c"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_COMPARISON_DRAFT.json",
+      "size_bytes": 116816,
+      "sha256": "0a349efad34ab3e15f72a27fda5332ef0d7dc7e07459503f53f7a52e027134dc"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_INITIAL_CHECKS.json",
+      "size_bytes": 2102,
+      "sha256": "3ebac83fbf7f79bdebbccf84a049ca10924c2af61f86d1d65eed0959a6239e85"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_M_SCOUT_N512.json",
+      "size_bytes": 107736,
+      "sha256": "9123a2de9fd31266aaebae6422c984d4f2b658ff8c6f445f7a399aeada765244"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_M_TRACE_N1024.json",
+      "size_bytes": 1403332,
+      "sha256": "1afb8d99595a66981b099c67cbdffb472d0655596acfcf3065182c138a2a272c"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_M_TRACE_N512.json",
+      "size_bytes": 728112,
+      "sha256": "cd76324299a6130db6e59fe7e88458a59534321f05403ac794313dc451e8d2c8"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_P_SCOUT_N512.json",
+      "size_bytes": 107854,
+      "sha256": "3261086c741b03aa96a4ead064b6e0041bd17f07b384b70bcaafba6a2dad9d5b"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_P_TRACE_N1024.json",
+      "size_bytes": 1238657,
+      "sha256": "ef6b3118a46626cdc23edb5bba7bba61f67b83ee04b15af6cc0adfde3de56f8e"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/SHAPE_P_TRACE_N512.json",
+      "size_bytes": 645488,
+      "sha256": "2193c5b40ab3fd943a3f8710447796e886cb089a942a473113090c51c168aaee"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/VAR01_INITIAL_TANGENT.json",
+      "size_bytes": 2527,
+      "sha256": "fd2b6cc38362aaddb55d03c1c4c52a6ef53728a02ff40ff4926969ac1e119ba4"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/results/VAR01_TRANSPORT_CHECKS.json",
+      "size_bytes": 657,
+      "sha256": "5236abb164e440901081fa60c2c2343a362d4d6b7ec147caf20638ed553e0351"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/ASYM01_RESULTS.md",
+      "size_bytes": 2688,
+      "sha256": "e6cc35f17df863c3edd2287df14d950b76a47ccdc772f4d663944430b0a3b4a4"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/ASYM03_RESULTS.md",
+      "size_bytes": 2278,
+      "sha256": "228056ecfff54755083c9d15e0ace17d64203bb9f09926b464853ba9a81e6884"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/ASYM04_EXTERIOR_REALIZATION_GATE.md",
+      "size_bytes": 3382,
+      "sha256": "fb87d2ff31f93f909060c5ae0d29337043475978b0583dd2a211e8324e3262fe"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/GITHUB_REPOSITORY_REVIEW_2026-11-09.md",
+      "size_bytes": 23903,
+      "sha256": "c3cf2c0328b402f3e06d60be6b6da63abeca19b30854dbc3b88551f3b2533ccd"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/SHAPE01_RESULTS.md",
+      "size_bytes": 5036,
+      "sha256": "e314d83976337ac97d3abdb440612cc7fbd000f5cd24f1ef191407bda18f53e3"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/reviews/VAR01_RESULTS.md",
+      "size_bytes": 2428,
+      "sha256": "e338b443913706f62f81d433e886e6f90f0e5aca254cfd9408b8e5373c6d6454"
+    },
+    {
+      "path": "research/goal_a/continuations/2026-11-08/source/PROVENANCE_2026-11-08.json",
+      "size_bytes": 1057,
+      "sha256": "25573a19165489edd0cc0d28f0d4c7d7e72cb9fe5886095e35048f3142e79b0a"
     },
     {
       "path": "research/goal_a/directed_canonical_data.py",
@@ -5034,11 +5394,6 @@
       "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/replay.py",
       "size_bytes": 581,
       "sha256": "ab9bde6c430b4938d06324f6f86cdb8ddcb7303e9cd1c83404da68978c20e20f"
-    },
-    {
-      "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/inputs/round7_archives/C3_new_record_0p506410419_2026-09-26/C3_new_record_0p506410419_2026-09-26/search_nonlinear_repair.py",
-      "size_bytes": 2164,
-      "sha256": "ccf203161f3928fb4e7fc2e6d47d8212e7a6f89a0bf3636d3ba1f5521b68474d"
     },
     {
       "path": "reviews/NEWSTAGE0_STAGE1_2026-10-12/RECCVS_NewStage0_Stage1_2026-10-12/sources/proofs/INDEX.md",

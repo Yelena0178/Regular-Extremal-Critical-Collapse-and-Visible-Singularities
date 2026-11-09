@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "states": 24,
+  "max_scaled_derivative_error": 1.6094759658820552e-09,
+  "wrong_Maxwell_sign_rejected": true,
+  "source_sha256": {
+    "computations\\verify_var01_transport.py": "32393bf9a365fc4bfb79c2806a59e8a6aff4141fe17973d5254803af4eaebd0f",
+    "source\\goal-a\\research\\goal_a\\charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab",
+    "proofs\\VAR01_CONSTRAINT_AND_TRANSPORT.md": "e35b0eeb01190f0dbccafabf0a357f8eea8fca6f3a50a6c3a589167ea5a7208d"
+  },
+  "scope": "finite rational-RHS derivative checks, no actual PDE solution or interval certificate",
+  "goal_A_proved": false
+}

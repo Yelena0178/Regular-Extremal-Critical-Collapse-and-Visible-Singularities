@@ -87,3 +87,7 @@ python checks/verify_research_snapshot.py --allow-navigation-updates
 后续 GA-REVIEW-20261101-2 执行上述关键射线诊断，新增 [FOCUS01](../research/goal_a/TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)、只读 observer、容量汇总和三份报告。原 R31 及上一轮科学文件/报告不变；同一组当前导航入口、完整索引和清单更新，不新增历史科学文件豁免。下一步按真实预算转向保持 Q(r) 的包络/几何对照；有限容量判断不升级为全族不可能性定理。
 
 后续 GA-REVIEW-20261101-3 完成两组预定幅度对照，新增 [AMP01](../research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)、探针和核验汇总、六份有限报告、两份数值失败日志及一份汇总回执。原 R31、SPLIT01、FOCUS01 科学字节不变；同一组当前导航入口、完整索引和清单更新，不增加豁免。高幅度组的有限容量改善与聚焦机制变化不升级为实际极端端点；低幅度失败仍记 UNKNOWN。下一轮限两种保持 Q(r) 的径向幅度配置，明确继续与退出条件。
+
+## 2026-11-09 续研同步
+
+11 月 8 日续研结果保存于[续研档案](../research/goal_a/continuations/2026-11-08/README.md)。与 R31 字节快照不同的五项仍为 `STATUS.md`、`RESULTS.md`、`ROADMAP.md`、`research/goal_a/README.md` 和 `checks/update_navigation.py`。前三项分别更新状态、成果范围及下一项外域任务，研究首页增补档案入口，生成器更新清单日期。历史科学文件和收据继续按 R31 快照核对。

@@ -1,0 +1,10 @@
+{
+  "proofs\\VAR01_CONSTRAINT_AND_TRANSPORT.md": "e35b0eeb01190f0dbccafabf0a357f8eea8fca6f3a50a6c3a589167ea5a7208d",
+  "proofs\\VAR02_INITIAL_CURRENT_SIGN.md": "0bab1431e4f7ed9693f4144957237b1a49619122308e4e926694be2d08adc8ba",
+  "computations\\verify_var01.py": "6bfe78e9d78b78667862fd39c7fffd6cb70f9a9a7737c6fdd1aafea3e36ca5a4",
+  "computations\\verify_var01_transport.py": "32393bf9a365fc4bfb79c2806a59e8a6aff4141fe17973d5254803af4eaebd0f",
+  "results\\VAR01_INITIAL_TANGENT.json": "fd2b6cc38362aaddb55d03c1c4c52a6ef53728a02ff40ff4926969ac1e119ba4",
+  "results\\VAR01_TRANSPORT_CHECKS.json": "5236abb164e440901081fa60c2c2343a362d4d6b7ec147caf20638ed553e0351",
+  "reviews\\VAR01_RESULTS.md": "e338b443913706f62f81d433e886e6f90f0e5aca254cfd9408b8e5373c6d6454",
+  "checkpoints\\2026-11-08_VAR01.md": "c1ae82ea77dd9739e52398320faafd49ae4be3b2457bbd3ceded37b33effed97"
+}

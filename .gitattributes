@@ -332,3 +332,6 @@
 "/research/goal_a/summarize_fixed_charge_amplitude.py" -text
 "/research/goal_a/FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md" -text
 "/research/goal_a/FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json" -text
+
+# Preserve the archived research and receipt bytes.
+"/research/goal_a/continuations/2026-11-08/**" -text

@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "eta": -0.5,
+      "max_algebra_error": 6.661338147750939e-16,
+      "max_phase_derivative_error": 1.4730050512667958e-11,
+      "ADM_mass": 7.336673740228941,
+      "ADM_charge": 5.768430178544531,
+      "min_sampled_f": 0.09717092535900772
+    },
+    {
+      "eta": 0,
+      "max_algebra_error": 6.661338147750939e-16,
+      "max_phase_derivative_error": 1.7796181195350869e-13,
+      "ADM_mass": 7.603512685658088,
+      "ADM_charge": 5.768430178544532,
+      "min_sampled_f": 0.059551231368695313
+    },
+    {
+      "eta": 0.5,
+      "max_algebra_error": 8.881784197001252e-16,
+      "max_phase_derivative_error": 1.4730050512667958e-11,
+      "ADM_mass": 7.840703383815472,
+      "ADM_charge": 5.768430178544537,
+      "min_sampled_f": 0.024259815139573707
+    }
+  ],
+  "inherited_certificate_source_hash_matched": true,
+  "source_sha256": {
+    "computations\\shape_probe.py": "801eff120b625d1f881c8c38d71122950009b717dc27d7035f44959d9b4d3fc4",
+    "source\\goal-a\\research\\goal_a\\charge_preserving_shell.py": "18d234a6a0bde350568953237cd5e51a7c400212cf7b5a0d4bc43d270927e6b3",
+    "source\\goal-a\\research\\goal_a\\probe_fixed_charge_amplitude.py": "0ea79380e5f6660fe1263e22844c2edfc7b13198c707acb3f99858151b142115",
+    "source\\goal-a\\research\\goal_a\\probe_split_focusing_budget.py": "64c3c59963011f46a3236169c79f7391e2ddd5b181ba8479b3068da1cfcbd972",
+    "source\\goal-a\\research\\goal_a\\screen_charge_preserving_shell.py": "9cda548058d76daa5c8e2e4340c5551ee3ab46780a004b1d2b972858e6bac272",
+    "source\\goal-a\\research\\goal_a\\centered_cauchy_diamond.py": "1fffada927c6e1237736cfb2ebf50b8ecd768a2b92de46c6004c86390171a49f",
+    "source\\goal-a\\research\\goal_a\\charged_cauchy_diamond.py": "e8562e4a1cdb55da2064d45b4242faa01c0b9343cc5e9610bacd5b92c1e7d0df",
+    "source\\goal-a\\research\\goal_a\\charged_lobatto.py": "b155e7115943f403f45eb54eb64aadda16380f8634d6060f3f21ed3dcaa1e2ab"
+  },
+  "scope": "finite implementation checks and inherited certificate integrity, not PDE certification",
+  "passed": true
+}

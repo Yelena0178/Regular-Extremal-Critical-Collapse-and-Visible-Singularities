@@ -6,9 +6,9 @@
 先读 [当前进展](README.md) 与 [验收标准](ACCEPTANCE.md)。条目仅定位文件，不代表数学结论已获认证。
 JSON、日志及数值文件均保留原文件名和内容；历史记录按文内日期理解。
 
-本目录共列出 **644** 个文件。
+本目录共列出 **716** 个文件。
 
-## 研究文档与阶段记录（107）
+## 研究文档与阶段记录（135）
 
 - [ACCEPTANCE.md — 目标 A：最终验收命题（2026-10-16 冻结）](ACCEPTANCE.md)
 - [ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md — A-BODY11：实际体源、有限窗末端冻结与截断余项](ACTUAL_BODY_SOURCE_AND_TERMINAL_FREEZING.md)
@@ -117,8 +117,36 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [WORLD_TUBE_RADIATION_TRANSFER.md — A-TRACE09：真实世界管、散度源辐射公式与反射替代障碍](WORLD_TUBE_RADIATION_TRANSFER.md)
 - [checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_GATE.md — A-OPT01：入射光学深度与几何近边际门槛](checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_GATE.md)
 - [checkpoints/optical_R02_2026-10-23/RECOVERY_CHECKPOINT.md — Goal A 可恢复检查点 GA-R20261023-02](checkpoints/optical_R02_2026-10-23/RECOVERY_CHECKPOINT.md)
+- [continuations/2026-11-08/DEPENDENCIES.md — 同一候选的证明依赖 — 2026-11-08](continuations/2026-11-08/DEPENDENCIES.md)
+- [continuations/2026-11-08/INDEX.md — 研究导航](continuations/2026-11-08/INDEX.md)
+- [continuations/2026-11-08/NEXT_STEP.md — ASYM03–04 恢复检查点 — 2026-11-08](continuations/2026-11-08/NEXT_STEP.md)
+- [continuations/2026-11-08/README.md — Goal A 续研档案（2026-11-08）](continuations/2026-11-08/README.md)
+- [continuations/2026-11-08/RESEARCH_PLAN.md — SHAPE01 预注册](continuations/2026-11-08/RESEARCH_PLAN.md)
+- [continuations/2026-11-08/STATUS.md — Goal A 状态 — 2026-11-08](continuations/2026-11-08/STATUS.md)
+- [continuations/2026-11-08/checkpoints/2026-11-08_ASYM01.md — ASYM01–02 恢复检查点 — 2026-11-08](continuations/2026-11-08/checkpoints/2026-11-08_ASYM01.md)
+- [continuations/2026-11-08/checkpoints/2026-11-08_ASYM03.md — ASYM03–04 恢复检查点 — 2026-11-08](continuations/2026-11-08/checkpoints/2026-11-08_ASYM03.md)
+- [continuations/2026-11-08/checkpoints/2026-11-08_SHAPE01.md — SHAPE01 完整轮次检查点 — 2026-11-08](continuations/2026-11-08/checkpoints/2026-11-08_SHAPE01.md)
+- [continuations/2026-11-08/checkpoints/2026-11-08_VAR01.md — VAR01–02 恢复检查点 — 2026-11-08](continuations/2026-11-08/checkpoints/2026-11-08_VAR01.md)
+- [continuations/2026-11-08/checkpoints/ASYM01_PRE_RUN.md — ASYM01 预注册](continuations/2026-11-08/checkpoints/ASYM01_PRE_RUN.md)
+- [continuations/2026-11-08/checkpoints/ASYM03_PRE_RUN.md — ASYM03 预注册 — 2026-11-08](continuations/2026-11-08/checkpoints/ASYM03_PRE_RUN.md)
+- [continuations/2026-11-08/checkpoints/SHAPE01_PRE_RUN.md — SHAPE01 运行前检查点](continuations/2026-11-08/checkpoints/SHAPE01_PRE_RUN.md)
+- [continuations/2026-11-08/checkpoints/VAR01_PRE_RUN.md — VAR01 轮次预注册](continuations/2026-11-08/checkpoints/VAR01_PRE_RUN.md)
+- [continuations/2026-11-08/logs/SETUP.md](continuations/2026-11-08/logs/SETUP.md)
+- [continuations/2026-11-08/proofs/ASYM01_AFFINE_RAY_AND_TRANSVERSE_TAIL.md — ASYM01：纯渐近射线约束与第一横向尾的兼容性](continuations/2026-11-08/proofs/ASYM01_AFFINE_RAY_AND_TRANSVERSE_TAIL.md)
+- [continuations/2026-11-08/proofs/ASYM02_TRANSVERSE_SECOND_JET.md — ASYM02：同一渐近射线的横向二阶膨胀检查](continuations/2026-11-08/proofs/ASYM02_TRANSVERSE_SECOND_JET.md)
+- [continuations/2026-11-08/proofs/ASYM03_REGULAR_SECOND_DERIVATIVES.md — ASYM03：二阶径向标量有界与沿线规则几何二阶相容性](continuations/2026-11-08/proofs/ASYM03_REGULAR_SECOND_DERIVATIVES.md)
+- [continuations/2026-11-08/proofs/SHAPE01.md — SHAPE01：固定电荷的径向配置初值族](continuations/2026-11-08/proofs/SHAPE01.md)
+- [continuations/2026-11-08/proofs/SHAPE02_PHASE_RIGIDITY.md — SHAPE02：冻结射线电荷历史时，相位代价没有独立自由度](continuations/2026-11-08/proofs/SHAPE02_PHASE_RIGIDITY.md)
+- [continuations/2026-11-08/proofs/VAR01_CONSTRAINT_AND_TRANSPORT.md — VAR01：固定初始电荷的真实约束切向量及有限域变分接口](continuations/2026-11-08/proofs/VAR01_CONSTRAINT_AND_TRANSPORT.md)
+- [continuations/2026-11-08/proofs/VAR02_INITIAL_CURRENT_SIGN.md — VAR02：两个自然切向的初始出射电流符号](continuations/2026-11-08/proofs/VAR02_INITIAL_CURRENT_SIGN.md)
+- [continuations/2026-11-08/reviews/ASYM01_RESULTS.md — ASYM01–02 研究审查 — 2026-11-08](continuations/2026-11-08/reviews/ASYM01_RESULTS.md)
+- [continuations/2026-11-08/reviews/ASYM03_RESULTS.md — ASYM03–04 轮次报告 — 2026-11-08](continuations/2026-11-08/reviews/ASYM03_RESULTS.md)
+- [continuations/2026-11-08/reviews/ASYM04_EXTERIOR_REALIZATION_GATE.md — ASYM04：从射线到实际外部邻域的边界方向审计](continuations/2026-11-08/reviews/ASYM04_EXTERIOR_REALIZATION_GATE.md)
+- [continuations/2026-11-08/reviews/GITHUB_REPOSITORY_REVIEW_2026-11-09.md — 极端临界塌缩与可见奇点：仓库审读报告](continuations/2026-11-08/reviews/GITHUB_REPOSITORY_REVIEW_2026-11-09.md)
+- [continuations/2026-11-08/reviews/SHAPE01_RESULTS.md — SHAPE01 结果与路线判别 — 2026-11-08](continuations/2026-11-08/reviews/SHAPE01_RESULTS.md)
+- [continuations/2026-11-08/reviews/VAR01_RESULTS.md — VAR01–02 研究审查 — 2026-11-08](continuations/2026-11-08/reviews/VAR01_RESULTS.md)
 
-## 核验与认证脚本（104）
+## 核验与认证脚本（111）
 
 - [certify_biased_shell_initial.py](certify_biased_shell_initial.py)
 - [certify_charge_shell_initial.py](certify_charge_shell_initial.py)
@@ -132,6 +160,13 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [check_neutral_screen.py](check_neutral_screen.py)
 - [checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py](checkpoints/canonical_cauchy_v1_2026-10-22/certify_rotating_af_barrier.py)
 - [checkpoints/optical_R02_2026-10-23/verify_incoming_optical_depth.py](checkpoints/optical_R02_2026-10-23/verify_incoming_optical_depth.py)
+- [continuations/2026-11-08/computations/verify_asym01.py](continuations/2026-11-08/computations/verify_asym01.py)
+- [continuations/2026-11-08/computations/verify_asym02_jets.py](continuations/2026-11-08/computations/verify_asym02_jets.py)
+- [continuations/2026-11-08/computations/verify_asym03.py](continuations/2026-11-08/computations/verify_asym03.py)
+- [continuations/2026-11-08/computations/verify_asym04_coordinates.py](continuations/2026-11-08/computations/verify_asym04_coordinates.py)
+- [continuations/2026-11-08/computations/verify_shape_initial.py](continuations/2026-11-08/computations/verify_shape_initial.py)
+- [continuations/2026-11-08/computations/verify_var01.py](continuations/2026-11-08/computations/verify_var01.py)
+- [continuations/2026-11-08/computations/verify_var01_transport.py](continuations/2026-11-08/computations/verify_var01_transport.py)
 - [validate_alternative_candidates.py](validate_alternative_candidates.py)
 - [verify_actual_body_source.py](verify_actual_body_source.py)
 - [verify_actual_bondi_bridge.py](verify_actual_bondi_bridge.py)
@@ -225,7 +260,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [verify_uniform_upper_kernel.py](verify_uniform_upper_kernel.py)
 - [verify_world_tube_radiation.py](verify_world_tube_radiation.py)
 
-## 构造、演化与探索脚本（72）
+## 构造、演化与探索脚本（74）
 
 - [areal_shift_evolution.py](areal_shift_evolution.py)
 - [attempt_charged_rectangle.py](attempt_charged_rectangle.py)
@@ -249,6 +284,8 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/charged_floor_proposal_2026-10-17/attempt_charged_rectangle.py](checkpoints/charged_floor_proposal_2026-10-17/attempt_charged_rectangle.py)
 - [checkpoints/optical_R02_2026-10-23/audit_incoming_optical_depth.py](checkpoints/optical_R02_2026-10-23/audit_incoming_optical_depth.py)
 - [constraint_contraction.py](constraint_contraction.py)
+- [continuations/2026-11-08/computations/shape_probe.py](continuations/2026-11-08/computations/shape_probe.py)
+- [continuations/2026-11-08/computations/summarize_shape.py](continuations/2026-11-08/computations/summarize_shape.py)
 - [directed_canonical_data.py](directed_canonical_data.py)
 - [early_charged_pulse_candidate.py](early_charged_pulse_candidate.py)
 - [explore_certified_boundary_tube.py](explore_certified_boundary_tube.py)
@@ -300,7 +337,7 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [thin_parameter_boundary.py](thin_parameter_boundary.py)
 - [transport_defect.py](transport_defect.py)
 
-## JSON 证据与结果（240）
+## JSON 证据与结果（261）
 
 - [ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json](ACTUAL_BODY_SOURCE_CHECKS_2026-10-23.json)
 - [ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json](ACTUAL_BONDI_BRIDGE_CHECKS_2026-10-23.json)
@@ -541,9 +578,30 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_CHECKS_2026-10-23.json](checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_DEPTH_CHECKS_2026-10-23.json)
 - [checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_SCREEN_AUDIT_2026-10-23.json](checkpoints/optical_R02_2026-10-23/INCOMING_OPTICAL_SCREEN_AUDIT_2026-10-23.json)
 - [checkpoints/optical_R02_2026-10-23/source-map.json](checkpoints/optical_R02_2026-10-23/source-map.json)
+- [continuations/2026-11-08/certificates/ASYM01_RATIONAL_RAY.json](continuations/2026-11-08/certificates/ASYM01_RATIONAL_RAY.json)
+- [continuations/2026-11-08/checkpoints/ASYM01_FILE_HASHES.json](continuations/2026-11-08/checkpoints/ASYM01_FILE_HASHES.json)
+- [continuations/2026-11-08/checkpoints/ASYM03_FILE_HASHES.json](continuations/2026-11-08/checkpoints/ASYM03_FILE_HASHES.json)
+- [continuations/2026-11-08/checkpoints/SHAPE01_FILE_HASHES.json](continuations/2026-11-08/checkpoints/SHAPE01_FILE_HASHES.json)
+- [continuations/2026-11-08/checkpoints/VAR01_FILE_HASHES.json](continuations/2026-11-08/checkpoints/VAR01_FILE_HASHES.json)
+- [continuations/2026-11-08/results/ASYM01_RAY_CHECKS.json](continuations/2026-11-08/results/ASYM01_RAY_CHECKS.json)
+- [continuations/2026-11-08/results/ASYM02_JET_CHECKS.json](continuations/2026-11-08/results/ASYM02_JET_CHECKS.json)
+- [continuations/2026-11-08/results/ASYM03_SECOND_JET_CHECKS.json](continuations/2026-11-08/results/ASYM03_SECOND_JET_CHECKS.json)
+- [continuations/2026-11-08/results/ASYM04_COORDINATE_CHECKS.json](continuations/2026-11-08/results/ASYM04_COORDINATE_CHECKS.json)
+- [continuations/2026-11-08/results/SHAPE_COMPARISON.json](continuations/2026-11-08/results/SHAPE_COMPARISON.json)
+- [continuations/2026-11-08/results/SHAPE_COMPARISON_DRAFT.json](continuations/2026-11-08/results/SHAPE_COMPARISON_DRAFT.json)
+- [continuations/2026-11-08/results/SHAPE_INITIAL_CHECKS.json](continuations/2026-11-08/results/SHAPE_INITIAL_CHECKS.json)
+- [continuations/2026-11-08/results/SHAPE_M_SCOUT_N512.json](continuations/2026-11-08/results/SHAPE_M_SCOUT_N512.json)
+- [continuations/2026-11-08/results/SHAPE_M_TRACE_N1024.json](continuations/2026-11-08/results/SHAPE_M_TRACE_N1024.json)
+- [continuations/2026-11-08/results/SHAPE_M_TRACE_N512.json](continuations/2026-11-08/results/SHAPE_M_TRACE_N512.json)
+- [continuations/2026-11-08/results/SHAPE_P_SCOUT_N512.json](continuations/2026-11-08/results/SHAPE_P_SCOUT_N512.json)
+- [continuations/2026-11-08/results/SHAPE_P_TRACE_N1024.json](continuations/2026-11-08/results/SHAPE_P_TRACE_N1024.json)
+- [continuations/2026-11-08/results/SHAPE_P_TRACE_N512.json](continuations/2026-11-08/results/SHAPE_P_TRACE_N512.json)
+- [continuations/2026-11-08/results/VAR01_INITIAL_TANGENT.json](continuations/2026-11-08/results/VAR01_INITIAL_TANGENT.json)
+- [continuations/2026-11-08/results/VAR01_TRANSPORT_CHECKS.json](continuations/2026-11-08/results/VAR01_TRANSPORT_CHECKS.json)
+- [continuations/2026-11-08/source/PROVENANCE_2026-11-08.json](continuations/2026-11-08/source/PROVENANCE_2026-11-08.json)
 - [verification.json](verification.json)
 
-## 日志、数值数据与运行环境（121）
+## 日志、数值数据与运行环境（135）
 
 - [AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log](AMP_S075_TRACE_T15_N1024_2026-11-01.stderr.log)
 - [AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log](AMP_S075_TRACE_T15_N512_2026-11-01.stderr.log)
@@ -627,6 +685,20 @@ JSON、日志及数值文件均保留原文件名和内容；历史记录按文�
 - [charged_u_kernel_checks.log](charged_u_kernel_checks.log)
 - [charged_u_kernel_checks_optimized.log](charged_u_kernel_checks_optimized.log)
 - [checkpoints/charged_floor_proposal_2026-10-17/FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz](checkpoints/charged_floor_proposal_2026-10-17/FROZEN_CHARGED_PREPARED_N96_2026-10-17.npz)
+- [continuations/2026-11-08/logs/ASYM01_RAY_CHECKS.log](continuations/2026-11-08/logs/ASYM01_RAY_CHECKS.log)
+- [continuations/2026-11-08/logs/ASYM02_JET_CHECKS.log](continuations/2026-11-08/logs/ASYM02_JET_CHECKS.log)
+- [continuations/2026-11-08/logs/ASYM03_SECOND_JET_CHECKS.log](continuations/2026-11-08/logs/ASYM03_SECOND_JET_CHECKS.log)
+- [continuations/2026-11-08/logs/ASYM04_COORDINATE_CHECKS.log](continuations/2026-11-08/logs/ASYM04_COORDINATE_CHECKS.log)
+- [continuations/2026-11-08/logs/SHAPE_COMPARISON.log](continuations/2026-11-08/logs/SHAPE_COMPARISON.log)
+- [continuations/2026-11-08/logs/SHAPE_M_SCOUT_N512.log](continuations/2026-11-08/logs/SHAPE_M_SCOUT_N512.log)
+- [continuations/2026-11-08/logs/SHAPE_M_TRACE_N1024.log](continuations/2026-11-08/logs/SHAPE_M_TRACE_N1024.log)
+- [continuations/2026-11-08/logs/SHAPE_M_TRACE_N512.log](continuations/2026-11-08/logs/SHAPE_M_TRACE_N512.log)
+- [continuations/2026-11-08/logs/SHAPE_P_SCOUT_N512.log](continuations/2026-11-08/logs/SHAPE_P_SCOUT_N512.log)
+- [continuations/2026-11-08/logs/SHAPE_P_TRACE_N1024.log](continuations/2026-11-08/logs/SHAPE_P_TRACE_N1024.log)
+- [continuations/2026-11-08/logs/SHAPE_P_TRACE_N512.log](continuations/2026-11-08/logs/SHAPE_P_TRACE_N512.log)
+- [continuations/2026-11-08/logs/VAR01_INITIAL_TANGENT.log](continuations/2026-11-08/logs/VAR01_INITIAL_TANGENT.log)
+- [continuations/2026-11-08/logs/VAR01_TRANSPORT_CHECKS.log](continuations/2026-11-08/logs/VAR01_TRANSPORT_CHECKS.log)
+- [continuations/2026-11-08/logs/VAR02_EXACT_ALGEBRA.log](continuations/2026-11-08/logs/VAR02_EXACT_ALGEBRA.log)
 - [early_charged_constraint_audit.log](early_charged_constraint_audit.log)
 - [early_charged_constraint_audit_optimized.log](early_charged_constraint_audit_optimized.log)
 - [early_charged_constraint_certificate.log](early_charged_constraint_certificate.log)

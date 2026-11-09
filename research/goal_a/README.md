@@ -2,10 +2,14 @@
 
 研究更新至 **2026-11-01 的固定电荷幅度对照**；此前完整检查点为 R31。**完整 Goal A 为 OPEN。** [ACCEPTANCE](ACCEPTANCE.md) 固定 A1–A6。[当前状态](../../STATUS.md)给验收差距，[路线图](../../ROADMAP.md)给研究优先级。
 
+## 2026-11-08 续研
+
+[研究档案](continuations/2026-11-08/README.md)收录 SHAPE01–02、VAR01–02、ASYM01–04 的证明、计算及检查点。实际固定宽度外域和同一初值曲线的三分支仍开放。
+
 ## 先读哪些材料
 
 1. [冻结契约](ACCEPTANCE.md)与[D001](../../definitions/MODEL.md)：模型、强初值空间、三分支量词和强终态。
-2. [最新 AMP01 幅度对照](FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)：紧初值族、容量改善与数值失败、下一步径向配置；配套[探针](probe_fixed_charge_amplitude.py)、[核验脚本](summarize_fixed_charge_amplitude.py)和[汇总回执](FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json)。[FOCUS01](TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)与[核心候选复盘](CORE_CANDIDATE_REVIEW_2026-11-01.md)保存先前判别；[R31 检查点](RECOVERY_CHECKPOINT.md)保存旧依赖、三轴状态及失败记录，旧下一步不覆盖新优先级。
+2. [此前 AMP01 幅度对照](FIXED_CHARGE_AMPLITUDE_REVIEW_2026-11-01.md)：紧初值族、容量改善与数值失败、下一步径向配置；配套[探针](probe_fixed_charge_amplitude.py)、[核验脚本](summarize_fixed_charge_amplitude.py)和[汇总回执](FIXED_CHARGE_AMPLITUDE_CHECKS_2026-11-01.json)。[FOCUS01](TARGET_RAY_FOCUSING_REVIEW_2026-11-01.md)与[核心候选复盘](CORE_CANDIDATE_REVIEW_2026-11-01.md)保存先前判别；[R31 检查点](RECOVERY_CHECKPOINT.md)保存旧依赖、三轴状态及失败记录，旧下一步不覆盖新优先级。
 3. 下表中相关研究稿，再读配套脚本和报告；所有文件在[完整索引](FILE_INDEX.md)。
 4. [2026-10-28 维护记录](../../checks/REPOSITORY_AUDIT_2026-10-28.md)：解释后续导航差异及如何恢复旧快照。
 

@@ -1,0 +1,12 @@
+{
+  "scope": "all t>=1 exact rational series remainder bounds for ray r and Q only",
+  "radius_error_bound_at_t1": "1/4502157384906272931840000000000000",
+  "radius_error_power": 36,
+  "charge_error_bound_at_t1": "1/7503595641510454886400000000000000000",
+  "charge_error_power": 40,
+  "positive_radius_lower": "399/200",
+  "positive_charge_lower": "997/500",
+  "Q_less_than_r_margin_coefficient": "77603/80000000",
+  "arithmetic": "Python Fraction exact rational arithmetic; analytic alternating-series and integral bounds in ASYM01",
+  "actual_spacetime_certified": false
+}
